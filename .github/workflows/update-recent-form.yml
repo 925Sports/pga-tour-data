@@ -1,4 +1,4 @@
-name: Update Recent Form
+name: Update Recent Form & Field Logs
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # <-- this line is the key fix
+  contents: write
 
 jobs:
   generate:
@@ -26,10 +26,13 @@ jobs:
       - name: Generate recent_form.csv
         run: python scripts/generate_recent_form.py
 
+      - name: Generate field_player_logs.csv
+        run: python scripts/generate_field_player_logs.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/recent_form.csv
-          git diff --staged --quiet || git commit -m "Auto-update recent_form.csv"
+          git add data/recent_form.csv data/field_player_logs.csv
+          git diff --staged --quiet || git commit -m "Auto-update recent_form.csv and field_player_logs.csv"
           git push
