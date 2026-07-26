@@ -12,12 +12,14 @@ TOUR_TYPES = ["PGA", "OTHER"]
 def load_field():
     field = pd.read_csv(DATA_DIR / "upcoming_field.csv")
     pga = field[field["tour"].astype(str).str.lower() == "pga"].copy()
-    # Try to find a date column
+
+    # Try to find a date column in the field file
     date_col = None
-    for col in ["date_start", "Date", "date", "event_date", "start_date"]:
+    for col in ["date_start", "Date", "date", "event_date", "start_date", "event_completed"]:
         if col in pga.columns:
             date_col = col
             break
+
     if date_col:
         pga[date_col] = pd.to_datetime(pga[date_col], errors="coerce")
         earliest = pga[date_col].min()
@@ -41,16 +43,6 @@ def load_all_logs():
     logs = pd.concat(frames, ignore_index=True)
     return logs
 
-def find_date_column(df):
-    possible = ["date_start", "Date", "date", "event_date", "start_date", "DATE"]
-    for col in possible:
-        if col in df.columns:
-            return col
-    # Print available columns to help debug
-    print("Available columns in logs:")
-    print(list(df.columns)[:40])
-    raise KeyError("Could not find a date column in the historical logs")
-
 def normalize_name(name):
     if pd.isna(name):
         return ""
@@ -73,9 +65,9 @@ def get_player_history(logs, player_name, name_adjusted=None):
     # Normalized fallback
     target = normalize_name(player_name or name_adjusted)
     if "player_name" in logs.columns:
-        logs = logs.copy()
-        logs["_norm"] = logs["player_name"].apply(normalize_name)
-        subset = logs[logs["_norm"] == target]
+        temp = logs.copy()
+        temp["_norm"] = temp["player_name"].apply(normalize_name)
+        subset = temp[temp["_norm"] == target]
         if len(subset) > 0:
             return subset
     return pd.DataFrame()
@@ -84,7 +76,7 @@ def format_finish(row):
     fin = str(row.get("fin_text", "")).upper()
     if "CUT" in fin:
         return "CUT"
-    pos = row.get("pos") or row.get("POS") or ""
+    pos = row.get("pos") or row.get("POS") or row.get("fin_text") or ""
     sg = row.get("sg_total")
     if pd.isna(sg):
         return str(pos) if pos else "—"
@@ -111,8 +103,11 @@ def main():
     logs = load_all_logs()
     print(f"Total log rows: {len(logs)}")
 
-    # Find and convert date column
-    date_col = find_date_column(logs)
+    # Use event_completed as the date column
+    date_col = "event_completed"
+    if date_col not in logs.columns:
+        raise KeyError(f"'{date_col}' column not found in logs")
+
     print(f"Using date column: {date_col}")
     logs[date_col] = pd.to_datetime(logs[date_col], errors="coerce")
     logs = logs.sort_values(date_col, ascending=False)
@@ -148,7 +143,7 @@ def main():
         avg5 = round(np.mean(finishes[:5]), 1) if len(finishes) >= 5 else None
         avg10 = round(np.mean(finishes[:10]), 1) if len(finishes) >= 10 else (round(np.mean(finishes), 1) if finishes else None)
 
-        # Weighted Value
+        # Weighted Value (SG last 7)
         weights = [3.2, 2.6, 2.1, 1.6, 1.3, 1.0, 0.8]
         weighted_sum = 0
         weight_total = 0
@@ -196,7 +191,7 @@ def main():
 
     df = df.sort_values("value_rank")
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"Wrote {len(df)} players to {OUTPUT_FILE}")
+    print(f"Successfully wrote {len(df)} players to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
