@@ -6,17 +6,24 @@ from datetime import datetime
 DATA_DIR = Path("data")
 OUTPUT_FILE = DATA_DIR / "recent_form.csv"
 
-# Years to look at for recent form
 YEARS = [2025, 2024, 2023]
 TOUR_TYPES = ["PGA", "OTHER"]
 
 def load_field():
     field = pd.read_csv(DATA_DIR / "upcoming_field.csv")
-    # Keep only the earliest PGA event
-    pga = field[field["tour"].str.lower() == "pga"].copy()
-    pga["date_start"] = pd.to_datetime(pga["date_start"], errors="coerce")
-    earliest = pga["date_start"].min()
-    current = pga[pga["date_start"] == earliest]
+    pga = field[field["tour"].astype(str).str.lower() == "pga"].copy()
+    # Try to find a date column
+    date_col = None
+    for col in ["date_start", "Date", "date", "event_date", "start_date"]:
+        if col in pga.columns:
+            date_col = col
+            break
+    if date_col:
+        pga[date_col] = pd.to_datetime(pga[date_col], errors="coerce")
+        earliest = pga[date_col].min()
+        current = pga[pga[date_col] == earliest]
+    else:
+        current = pga
     return current
 
 def load_all_logs():
@@ -25,7 +32,8 @@ def load_all_logs():
         for t in TOUR_TYPES:
             path = DATA_DIR / f"pga_tour_player_logs_{year}_{t}.csv"
             if path.exists():
-                df = pd.read_csv(path)
+                print(f"Loading {path.name}...")
+                df = pd.read_csv(path, low_memory=False)
                 df["source_file"] = path.name
                 frames.append(df)
     if not frames:
@@ -33,32 +41,44 @@ def load_all_logs():
     logs = pd.concat(frames, ignore_index=True)
     return logs
 
+def find_date_column(df):
+    possible = ["date_start", "Date", "date", "event_date", "start_date", "DATE"]
+    for col in possible:
+        if col in df.columns:
+            return col
+    # Print available columns to help debug
+    print("Available columns in logs:")
+    print(list(df.columns)[:40])
+    raise KeyError("Could not find a date column in the historical logs")
+
 def normalize_name(name):
     if pd.isna(name):
         return ""
     return str(name).lower().replace(" ", "").replace(".", "").replace("-", "")
 
 def get_player_history(logs, player_name, name_adjusted=None):
-    # Try exact matches first
     candidates = [player_name, name_adjusted]
     candidates = [c for c in candidates if c and str(c).strip()]
-    
+
     for cand in candidates:
-        mask = (logs["player_name"] == cand) | (logs.get("name_adjusted", pd.Series()) == cand)
-        subset = logs[mask]
+        if "player_name" in logs.columns:
+            mask = logs["player_name"] == cand
+            if mask.any():
+                return logs[mask]
+        if "name_adjusted" in logs.columns:
+            mask = logs["name_adjusted"] == cand
+            if mask.any():
+                return logs[mask]
+
+    # Normalized fallback
+    target = normalize_name(player_name or name_adjusted)
+    if "player_name" in logs.columns:
+        logs = logs.copy()
+        logs["_norm"] = logs["player_name"].apply(normalize_name)
+        subset = logs[logs["_norm"] == target]
         if len(subset) > 0:
             return subset
-    
-    # Fallback normalized match
-    target = normalize_name(player_name or name_adjusted)
-    logs["_norm"] = logs["player_name"].apply(normalize_name)
-    if "name_adjusted" in logs.columns:
-        logs["_norm2"] = logs["name_adjusted"].apply(normalize_name)
-        subset = logs[(logs["_norm"] == target) | (logs["_norm2"] == target)]
-    else:
-        subset = logs[logs["_norm"] == target]
-    
-    return subset
+    return pd.DataFrame()
 
 def format_finish(row):
     fin = str(row.get("fin_text", "")).upper()
@@ -67,8 +87,11 @@ def format_finish(row):
     pos = row.get("pos") or row.get("POS") or ""
     sg = row.get("sg_total")
     if pd.isna(sg):
-        return f"{pos}"
-    return f"{pos} ({float(sg):.2f})"
+        return str(pos) if pos else "—"
+    try:
+        return f"{pos} ({float(sg):.2f})"
+    except:
+        return str(pos)
 
 def calculate_cut_streak(history):
     streak = 0
@@ -86,35 +109,33 @@ def main():
 
     print("Loading historical logs...")
     logs = load_all_logs()
-    
-    # Sort logs by date descending
-    date_col = "date_start" if "date_start" in logs.columns else "Date"
+    print(f"Total log rows: {len(logs)}")
+
+    # Find and convert date column
+    date_col = find_date_column(logs)
+    print(f"Using date column: {date_col}")
     logs[date_col] = pd.to_datetime(logs[date_col], errors="coerce")
     logs = logs.sort_values(date_col, ascending=False)
 
     rows = []
-    
+
     for _, player in field.iterrows():
         name = player.get("name_adjusted") or player.get("player_name")
         history = get_player_history(logs, player.get("player_name"), player.get("name_adjusted"))
-        history = history.head(25)  # keep recent starts
-        
+        history = history.head(25)
+
         last7 = history.head(7)
-        
-        # RF1 - RF7
+
         rf = []
         for i in range(7):
             if i < len(last7):
                 rf.append(format_finish(last7.iloc[i]))
             else:
                 rf.append("—")
-        
-        # Cut streak (full available history)
+
         cut_streak = calculate_cut_streak(history)
-        
-        # Average finishes (made cuts only)
+
         finishes = []
-        sgs = []
         for _, row in history.iterrows():
             fin = str(row.get("fin_text", "")).upper()
             if "CUT" not in fin:
@@ -123,28 +144,28 @@ def main():
                     finishes.append(float(pos))
                 except:
                     pass
-            if pd.notna(row.get("sg_total")):
-                sgs.append(float(row["sg_total"]))
-        
+
         avg5 = round(np.mean(finishes[:5]), 1) if len(finishes) >= 5 else None
         avg10 = round(np.mean(finishes[:10]), 1) if len(finishes) >= 10 else (round(np.mean(finishes), 1) if finishes else None)
-        
-        # Weighted Value (SG last 7)
+
+        # Weighted Value
         weights = [3.2, 2.6, 2.1, 1.6, 1.3, 1.0, 0.8]
         weighted_sum = 0
         weight_total = 0
-        for i, row in enumerate(last7.itertuples()):
-            sg = getattr(row, "sg_total", None)
+        for i in range(min(7, len(last7))):
+            sg = last7.iloc[i].get("sg_total")
             if pd.notna(sg):
-                weighted_sum += float(sg) * weights[i]
-                weight_total += weights[i]
-        
+                try:
+                    weighted_sum += float(sg) * weights[i]
+                    weight_total += weights[i]
+                except:
+                    pass
+
         value = round(weighted_sum / weight_total, 2) if weight_total > 0 else 0
-        
-        # Cut %
+
         made = sum(1 for _, r in history.iterrows() if "CUT" not in str(r.get("fin_text", "")).upper())
         cut_pct = round(made / len(history) * 100, 1) if len(history) > 0 else None
-        
+
         rows.append({
             "player_name": player.get("player_name"),
             "name_adjusted": player.get("name_adjusted") or player.get("player_name"),
@@ -166,17 +187,14 @@ def main():
             "starts_count": len(history),
             "updated_at": datetime.utcnow().isoformat() + "Z"
         })
-    
+
     df = pd.DataFrame(rows)
-    
-    # Ranks
+
     df["value_rank"] = df["value"].rank(ascending=False, method="min").astype("Int64")
     df["rflst5_rank"] = df["rflst5"].rank(ascending=True, method="min").astype("Int64")
     df["rflst10_rank"] = df["rflst10"].rank(ascending=True, method="min").astype("Int64")
-    
-    # Sort by value rank
+
     df = df.sort_values("value_rank")
-    
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"Wrote {len(df)} players to {OUTPUT_FILE}")
 
