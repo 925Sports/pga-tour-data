@@ -6,14 +6,14 @@ from datetime import datetime
 DATA_DIR = Path("data")
 OUTPUT_FILE = DATA_DIR / "recent_form.csv"
 
-YEARS = [2025, 2024, 2023]
+# All available years
+YEARS = list(range(2017, 2027))  # 2017 through 2026
 TOUR_TYPES = ["PGA", "OTHER"]
 
 def load_field():
     field = pd.read_csv(DATA_DIR / "upcoming_field.csv")
     pga = field[field["tour"].astype(str).str.lower() == "pga"].copy()
 
-    # Try to find a date column in the field file
     date_col = None
     for col in ["date_start", "Date", "date", "event_date", "start_date", "event_completed"]:
         if col in pga.columns:
@@ -38,6 +38,8 @@ def load_all_logs():
                 df = pd.read_csv(path, low_memory=False)
                 df["source_file"] = path.name
                 frames.append(df)
+            else:
+                print(f"Skipping missing file: {path.name}")
     if not frames:
         raise FileNotFoundError("No historical log files found")
     logs = pd.concat(frames, ignore_index=True)
@@ -99,11 +101,10 @@ def main():
     field = load_field()
     print(f"Current event players: {len(field)}")
 
-    print("Loading historical logs...")
+    print("Loading historical logs (2017–2026)...")
     logs = load_all_logs()
     print(f"Total log rows: {len(logs)}")
 
-    # Use event_completed as the date column
     date_col = "event_completed"
     if date_col not in logs.columns:
         raise KeyError(f"'{date_col}' column not found in logs")
@@ -115,9 +116,9 @@ def main():
     rows = []
 
     for _, player in field.iterrows():
-        name = player.get("name_adjusted") or player.get("player_name")
         history = get_player_history(logs, player.get("player_name"), player.get("name_adjusted"))
-        history = history.head(25)
+        # No limit — use all available starts
+        history = history.copy()
 
         last7 = history.head(7)
 
@@ -143,7 +144,7 @@ def main():
         avg5 = round(np.mean(finishes[:5]), 1) if len(finishes) >= 5 else None
         avg10 = round(np.mean(finishes[:10]), 1) if len(finishes) >= 10 else (round(np.mean(finishes), 1) if finishes else None)
 
-        # Weighted Value (SG last 7)
+        # Weighted Value (based on last 7 starts)
         weights = [3.2, 2.6, 2.1, 1.6, 1.3, 1.0, 0.8]
         weighted_sum = 0
         weight_total = 0
