@@ -1,34 +1,53 @@
-name: Update Upcoming Field Data
+name: Update Upcoming Field
 
 on:
   schedule:
-    # Runs every day at 8:00 AM CDT (13:00 UTC)
-    - cron: '0 13 * * *'
-  workflow_dispatch:   # Allows you to manually trigger the update
+    # Runs every 6 hours (adjust if needed)
+    - cron: "0 */6 * * *"
+  workflow_dispatch:  # Allows manual runs
+
+permissions:
+  contents: write
 
 jobs:
-  update-field:
+  update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download latest field from Google Sheets
-        run: |
-          curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYFnwmt5yHygXP28HHRrg47ARQgV0IKm3wnaxoIz8MnGJH_mcIj6HUY96tbl1j7vD2r8JRDgR1wVxD/pub?gid=2136420689&single=true&output=csv" -o data/upcoming_field.csv
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: Commit and push if there are changes
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Download and update upcoming field
+        run: |
+          python - << 'EOF'
+          import pandas as pd
+          import requests
+          from pathlib import Path
+
+          # Google Sheets CSV export URL (the one you were already using)
+          url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYFnwmt5yHygXP28HHRrg47ARQgV0IKm3wnaxoIz8MnGJH_mcIj6HUY96tbl1j7vD2r8JRDgR1wVxD/pub?gid=2136420689&single=true&output=csv"
+
+          print("Downloading latest field data...")
+          df = pd.read_csv(url)
+
+          output_path = Path("data/upcoming_field.csv")
+          output_path.parent.mkdir(parents=True, exist_ok=True)
+          df.to_csv(output_path, index=False)
+
+          print(f"Saved {len(df)} rows to {output_path}")
+          EOF
+
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
           git add data/upcoming_field.csv
-          
-          # Only commit if there are actual changes
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update upcoming field data from Google Sheets"
-            git push
-          fi
+          git diff --staged --quiet || git commit -m "Auto-update upcoming field data from Google Sheets"
+          git push
