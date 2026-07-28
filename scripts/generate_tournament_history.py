@@ -16,6 +16,7 @@ STATS = [
 def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
     year = int(event_id[1:5])
 
+    # Trying the most common correct structure
     payload = {
         "operationName": "StatDetails",
         "variables": {
@@ -23,14 +24,11 @@ def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
             "statId": str(stat_id),
             "year": year,
             "eventQuery": {
-                "eventId": event_id
+                "id": event_id          # ← changed from eventId to id
             }
         },
         "query": """query StatDetails($tourCode: TourCode!, $statId: String!, $year: Int, $eventQuery: StatDetailEventQuery) {
           statDetails(tourCode: $tourCode, statId: $statId, year: $year, eventQuery: $eventQuery) {
-            tourCode
-            year
-            statId
             rows {
               ... on StatDetailsPlayer {
                 __typename
@@ -62,38 +60,30 @@ def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
 
     print(f"      Status code: {r.status_code}")
     
-    try:
-        data = r.json()
-        print(f"      Response keys: {list(data.keys())}")
-        
-        if "errors" in data:
-            print(f"      GraphQL Errors: {data['errors']}")
-            return pd.DataFrame()
-            
-        if not data.get("data") or not data["data"].get("statDetails"):
-            print(f"      No statDetails in response")
-            print(f"      Full response: {str(data)[:500]}")
-            return pd.DataFrame()
-
-        rows = data["data"]["statDetails"]["rows"]
-        print(f"      Number of rows returned: {len(rows)}")
-        
-        result = []
-        for item in rows:
-            if item.get("__typename") != "StatDetailsPlayer":
-                continue
-            result.append({
-                "player_id": item.get("playerId"),
-                "player": item.get("playerName"),
-                "rank": item.get("rank"),
-                "value": item["stats"][0]["statValue"] if item.get("stats") else None
-            })
-        return pd.DataFrame(result)
-
-    except Exception as e:
-        print(f"      Error parsing response: {e}")
-        print(f"      Raw response: {r.text[:500]}")
+    data = r.json()
+    
+    if "errors" in data:
+        print(f"      GraphQL Errors: {data['errors']}")
         return pd.DataFrame()
+        
+    if not data.get("data") or not data["data"].get("statDetails"):
+        print(f"      No statDetails returned")
+        return pd.DataFrame()
+
+    rows = data["data"]["statDetails"]["rows"]
+    print(f"      Number of rows: {len(rows)}")
+    
+    result = []
+    for item in rows:
+        if item.get("__typename") != "StatDetailsPlayer":
+            continue
+        result.append({
+            "player_id": item.get("playerId"),
+            "player": item.get("playerName"),
+            "rank": item.get("rank"),
+            "value": item["stats"][0]["statValue"] if item.get("stats") else None
+        })
+    return pd.DataFrame(result)
 
 
 def process_tournament(tournament_key: str):
@@ -103,7 +93,6 @@ def process_tournament(tournament_key: str):
     tournament = index[tournament_key]
     print(f"\nProcessing: {tournament['name']}\n")
 
-    # Only test the most recent year first
     year = "2025"
     event_id = tournament["years"][year]
     
@@ -114,7 +103,7 @@ def process_tournament(tournament_key: str):
         df = fetch_stat(sid, event_id)
         if not df.empty:
             print(f"   ✓ Success! {len(df)} players")
-            print(df.head())
+            print(df.head(3))
         else:
             print(f"   ✗ Failed")
         time.sleep(1)
