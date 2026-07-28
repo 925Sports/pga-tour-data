@@ -26,7 +26,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/dk_salaries.csv data/betting_odds.csv data/props_combined.csv data/fantasy_points.csv data/underdog.csv data/prizepicks.csv || true
+          # Only add files that exist (prizepicks may be empty some weeks)
+          for f in data/dk_salaries.csv data/betting_odds.csv data/props_combined.csv data/fantasy_points.csv data/underdog.csv data/prizepicks.csv; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            fi
+          done
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
