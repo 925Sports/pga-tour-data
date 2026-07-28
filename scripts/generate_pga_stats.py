@@ -19,24 +19,26 @@ STATS = [
     ("02564", "SG_PUTT"),
 
     # ===== COMPOSITES =====
-    ("158", "Ball_Striking"),          # Total Driving rank + GIR rank
-    ("129", "Total_Driving"),          # Driving Distance rank + Accuracy rank
+    ("158", "Ball_Striking"),
+    ("129", "Total_Driving"),
 
     # ===== DRIVING =====
     ("101", "Driving_Distance"),
     ("102", "Driving_Accuracy"),
     ("103", "GIR"),
+    ("02438", "Good_Drive_Percentage"),          # ← you requested
 
     # ===== SCORING =====
     ("120", "Scoring_Average"),
     ("156", "Birdie_Average"),
     ("155", "Eagle_Average"),
+    ("352", "Birdie_or_Better_Percentage"),      # ← you requested
     ("02414", "Bogey_Avoidance"),
     ("02415", "Bounce_Back"),
-    ("02416", "Birdie_or_Better_Percentage"),
-    ("02417", "Birdie_to_Bogey_Ratio"),
+    ("02417", "Stroke_Differential_Field_Average"),  # ← you requested
+    ("219", "Final_Round_Performance"),          # ← you requested
 
-    # ===== ROUND SCORING (R1-R4 + Early/Late) =====
+    # ===== ROUND SCORING (R1–R4 + Early/Late) =====
     ("248", "Round_1_Scoring"),
     ("249", "Round_1_Scoring_Early"),
     ("250", "Round_1_Scoring_Late"),
