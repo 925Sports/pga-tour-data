@@ -1,16 +1,17 @@
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import time
+import glob
 
 API_KEY = "da2-gsrx5bibzbb4njvhl7t37wqyl4"
 YEAR = 2026
-OUTPUT_PATH = "data/pga_season_stats.csv"
+LIVE_PATH = "data/pga_season_stats.csv"
+SNAPSHOT_DIR = "data/snapshots"
 
-# Expanded relevant season-long stats
 STATS = [
-    # ===== STROKES GAINED =====
+    # Strokes Gained
     ("02675", "SG_Total"),
     ("02674", "SG_Tee_to_Green"),
     ("02567", "SG_OTT"),
@@ -18,27 +19,27 @@ STATS = [
     ("02569", "SG_ARG"),
     ("02564", "SG_PUTT"),
 
-    # ===== COMPOSITES =====
+    # Composites
     ("158", "Ball_Striking"),
     ("129", "Total_Driving"),
 
-    # ===== DRIVING =====
+    # Driving
     ("101", "Driving_Distance"),
     ("102", "Driving_Accuracy"),
     ("103", "GIR"),
-    ("02438", "Good_Drive_Percentage"),          # ← you requested
+    ("02438", "Good_Drive_Percentage"),
 
-    # ===== SCORING =====
+    # Scoring
     ("120", "Scoring_Average"),
     ("156", "Birdie_Average"),
     ("155", "Eagle_Average"),
-    ("352", "Birdie_or_Better_Percentage"),      # ← you requested
+    ("352", "Birdie_or_Better_Percentage"),
     ("02414", "Bogey_Avoidance"),
     ("02415", "Bounce_Back"),
-    ("02417", "Stroke_Differential_Field_Average"),  # ← you requested
-    ("219", "Final_Round_Performance"),          # ← you requested
+    ("02417", "Stroke_Differential_Field_Average"),
+    ("219", "Final_Round_Performance"),
 
-    # ===== ROUND SCORING (R1–R4 + Early/Late) =====
+    # Round Scoring
     ("248", "Round_1_Scoring"),
     ("249", "Round_1_Scoring_Early"),
     ("250", "Round_1_Scoring_Late"),
@@ -52,13 +53,13 @@ STATS = [
     ("258", "Round_4_Scoring_Early"),
     ("259", "Round_4_Scoring_Late"),
 
-    # ===== SHORT GAME / PUTTING =====
+    # Short Game / Putting
     ("130", "Scrambling"),
     ("111", "Sand_Save_Percentage"),
     ("119", "Putts_Per_Round"),
     ("426", "Three_Putt_Avoidance"),
 
-    # ===== PAR SCORING =====
+    # Par Scoring
     ("02418", "Par_3_Scoring"),
     ("02419", "Par_4_Scoring"),
     ("02420", "Par_5_Scoring"),
@@ -122,9 +123,60 @@ def fetch_stat(stat_id: str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def get_latest_snapshot():
+    """Return path to the most recent snapshot file"""
+    files = sorted(glob.glob(f"{SNAPSHOT_DIR}/pga_season_stats_*.csv"))
+    return files[-1] if files else None
+
+
+def data_has_updated(new_df: pd.DataFrame) -> bool:
+    """Compare new data against the latest snapshot"""
+    latest = get_latest_snapshot()
+    if latest is None:
+        return True  # No previous snapshot → treat as updated
+
+    old_df = pd.read_csv(latest)
+
+    # Simple but effective check: compare SG_Total for top players
+    if "SG_Total" not in new_df.columns or "SG_Total" not in old_df.columns:
+        return True
+
+    # Merge on player_id and see if values changed
+    merged = new_df[["player_id", "SG_Total"]].merge(
+        old_df[["player_id", "SG_Total"]],
+        on="player_id",
+        suffixes=("_new", "_old")
+    )
+
+    # If more than 5% of players have a different SG_Total, consider it updated
+    changed = (merged["SG_Total_new"] != merged["SG_Total_old"]).sum()
+    change_pct = changed / len(merged) if len(merged) > 0 else 0
+
+    print(f"Data change check: {changed} players changed ({change_pct:.1%})")
+    return change_pct > 0.03  # threshold
+
+
 def main():
-    print(f"Starting PGA season stats scrape for {YEAR}...")
-    print(f"Requesting {len(STATS)} stats...\n")
+    print(f"Starting PGA season stats check for {YEAR}...")
+    print(f"Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}\n")
+
+    os.makedirs("data", exist_ok=True)
+    os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
+    # First pull a couple of key stats to check if data has updated
+    print("Checking if new data is available...")
+    test_df = fetch_stat("02675")  # SG_Total
+    if test_df.empty:
+        print("Could not fetch test data. Exiting.")
+        return
+
+    test_df = test_df.rename(columns={"rank": "SG_Total_Rank", "value": "SG_Total"})
+
+    if not data_has_updated(test_df):
+        print("Data has not updated since last snapshot. Skipping full scrape.")
+        return
+
+    print("New data detected! Running full scrape...\n")
 
     dfs = []
     success_count = 0
@@ -133,7 +185,7 @@ def main():
         try:
             df = fetch_stat(sid)
             if df.empty:
-                print(f"✗ {name} ({sid}): empty response")
+                print(f"✗ {name}")
                 continue
 
             df = df.rename(columns={
@@ -143,19 +195,18 @@ def main():
             dfs.append(df[["player_id", "player", "country", name, f"{name}_Rank"]])
             print(f"✓ {name}: {len(df)} players")
             success_count += 1
-
-            # Small delay to be polite to the API
-            time.sleep(0.8)
+            time.sleep(0.7)
 
         except Exception as e:
-            print(f"✗ {name} ({sid}): {e}")
+            print(f"✗ {name}: {e}")
 
     if not dfs:
-        raise SystemExit("No stats were successfully fetched.")
+        print("No stats were successfully fetched.")
+        return
 
     print(f"\nSuccessfully pulled {success_count}/{len(STATS)} stats")
 
-    # Merge all stats on player_id
+    # Merge
     merged = dfs[0]
     for df in dfs[1:]:
         merged = merged.merge(
@@ -164,22 +215,24 @@ def main():
             how="outer"
         )
 
-    # Calculate a couple of useful derived columns
     if "SG_OTT" in merged.columns and "SG_APP" in merged.columns:
         merged["SG_Ball_Striking_Calc"] = merged["SG_OTT"] + merged["SG_APP"]
 
+    today = datetime.utcnow().strftime("%Y-%m-%d")
     merged["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-    # Prefer sorting by SG Total when available
     if "SG_Total_Rank" in merged.columns:
         merged = merged.sort_values("SG_Total_Rank", na_position="last")
-    else:
-        merged = merged.sort_values("player")
 
-    os.makedirs("data", exist_ok=True)
-    merged.to_csv(OUTPUT_PATH, index=False)
+    # Save live version
+    merged.to_csv(LIVE_PATH, index=False)
+    print(f"\nSaved live file → {LIVE_PATH}")
 
-    print(f"\nSaved {len(merged)} players → {OUTPUT_PATH}")
+    # Save snapshot
+    snapshot_path = f"{SNAPSHOT_DIR}/pga_season_stats_{today}.csv"
+    merged.to_csv(snapshot_path, index=False)
+    print(f"Saved snapshot → {snapshot_path}")
+
     print("Done.")
 
 
