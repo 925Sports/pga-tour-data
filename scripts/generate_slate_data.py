@@ -65,9 +65,19 @@ def write_rows(path: Path, rows: list[dict], fieldnames: list[str]):
 
 
 def process_draftable(rows: list[dict]):
+    # Prefer Classic / main slate when multiple rows per player
+    def slate_rank(r):
+        s = str(r.get("Slate Type") or "").lower()
+        if s == "classic" or "classic" in s:
+            return 0
+        if "main" in s:
+            return 1
+        return 2
+
+    sorted_rows = sorted(rows, key=slate_rank)
     out = []
     seen = set()
-    for r in rows:
+    for r in sorted_rows:
         name = r.get("Player Name") or ""
         if not name.strip():
             continue
