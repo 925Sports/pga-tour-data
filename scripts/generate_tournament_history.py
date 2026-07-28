@@ -7,43 +7,35 @@ from datetime import datetime
 
 API_KEY = "da2-gsrx5bibzbb4njvhl7t37wqyl4"
 
-# Key stats we want for tournament history
 STATS = [
     ("02675", "SG_Total"),
-    ("02674", "SG_Tee_to_Green"),
-    ("02567", "SG_OTT"),
-    ("02568", "SG_APP"),
-    ("02569", "SG_ARG"),
-    ("02564", "SG_PUTT"),
     ("101", "Driving_Distance"),
-    ("102", "Driving_Accuracy"),
-    ("103", "GIR"),
-    ("130", "Scrambling"),
     ("120", "Scoring_Average"),
-    ("156", "Birdie_Average"),
-    ("119", "Putts_Per_Round"),
 ]
 
 def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
-    """Pull one stat for a specific tournament"""
+    year = int(event_id[1:5])
+
     payload = {
         "operationName": "StatDetails",
         "variables": {
             "tourCode": "R",
             "statId": str(stat_id),
-            "year": int(event_id[1:5]),          # extract year from R2025xxx
+            "year": year,
             "eventQuery": {
                 "eventId": event_id
             }
         },
         "query": """query StatDetails($tourCode: TourCode!, $statId: String!, $year: Int, $eventQuery: StatDetailEventQuery) {
           statDetails(tourCode: $tourCode, statId: $statId, year: $year, eventQuery: $eventQuery) {
+            tourCode
+            year
+            statId
             rows {
               ... on StatDetailsPlayer {
                 __typename
                 playerId
                 playerName
-                country
                 rank
                 stats { statName statValue }
               }
@@ -56,10 +48,9 @@ def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
         "Content-Type": "application/json",
         "x-api-key": API_KEY,
         "x-pgat-platform": "web",
-        "x-amz-user-agent": "aws-amplify/3.0.7",
         "Origin": "https://www.pgatour.com",
         "Referer": "https://www.pgatour.com/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
     r = requests.post(
@@ -68,97 +59,66 @@ def fetch_stat(stat_id: str, event_id: str) -> pd.DataFrame:
         headers=headers,
         timeout=30
     )
-    r.raise_for_status()
 
-    data = r.json()
-    rows = []
+    print(f"      Status code: {r.status_code}")
     
-    if not data.get("data") or not data["data"].get("statDetails"):
-        return pd.DataFrame()
+    try:
+        data = r.json()
+        print(f"      Response keys: {list(data.keys())}")
+        
+        if "errors" in data:
+            print(f"      GraphQL Errors: {data['errors']}")
+            return pd.DataFrame()
+            
+        if not data.get("data") or not data["data"].get("statDetails"):
+            print(f"      No statDetails in response")
+            print(f"      Full response: {str(data)[:500]}")
+            return pd.DataFrame()
 
-    for item in data["data"]["statDetails"]["rows"]:
-        if item.get("__typename") != "StatDetailsPlayer":
-            continue
-        rows.append({
-            "player_id": item["playerId"],
-            "player": item["playerName"],
-            "country": item.get("country", ""),
-            "rank": item["rank"],
-            "value": item["stats"][0]["statValue"] if item.get("stats") else None
-        })
-    return pd.DataFrame(rows)
+        rows = data["data"]["statDetails"]["rows"]
+        print(f"      Number of rows returned: {len(rows)}")
+        
+        result = []
+        for item in rows:
+            if item.get("__typename") != "StatDetailsPlayer":
+                continue
+            result.append({
+                "player_id": item.get("playerId"),
+                "player": item.get("playerName"),
+                "rank": item.get("rank"),
+                "value": item["stats"][0]["statValue"] if item.get("stats") else None
+            })
+        return pd.DataFrame(result)
+
+    except Exception as e:
+        print(f"      Error parsing response: {e}")
+        print(f"      Raw response: {r.text[:500]}")
+        return pd.DataFrame()
 
 
 def process_tournament(tournament_key: str):
-    # Load the index
     with open("data/tournaments/_index.json") as f:
         index = json.load(f)
 
-    if tournament_key not in index:
-        raise ValueError(f"Tournament '{tournament_key}' not found in _index.json")
-
     tournament = index[tournament_key]
-    print(f"\nProcessing: {tournament['name']}")
-    print(f"Course: {tournament['course']}\n")
+    print(f"\nProcessing: {tournament['name']}\n")
 
-    output_dir = f"data/tournaments/{tournament_key}"
-    os.makedirs(output_dir, exist_ok=True)
-
-    for year, event_id in tournament["years"].items():
-        print(f"→ {year} ({event_id})")
-        dfs = []
-
-        for sid, name in STATS:
-            try:
-                df = fetch_stat(sid, event_id)
-                if df.empty:
-                    print(f"   ✗ {name}: no data")
-                    continue
-
-                df = df.rename(columns={
-                    "rank": f"{name}_Rank",
-                    "value": name
-                })
-                dfs.append(df[["player_id", "player", "country", name, f"{name}_Rank"]])
-                print(f"   ✓ {name}: {len(df)} players")
-                time.sleep(0.7)
-            except Exception as e:
-                print(f"   ✗ {name}: {e}")
-
-        if not dfs:
-            print(f"   No data for {year}, skipping...\n")
-            continue
-
-        # Merge all stats
-        merged = dfs[0]
-        for df in dfs[1:]:
-            merged = merged.merge(
-                df.drop(columns=["player", "country"]),
-                on="player_id",
-                how="outer"
-            )
-
-        merged["year"] = year
-        merged["event_id"] = event_id
-        merged["tournament"] = tournament["name"]
-        merged["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-        # Sort by SG Total if available
-        if "SG_Total_Rank" in merged.columns:
-            merged = merged.sort_values("SG_Total_Rank", na_position="last")
-
-        output_path = f"{output_dir}/{year}.csv"
-        merged.to_csv(output_path, index=False)
-        print(f"   Saved → {output_path} ({len(merged)} players)\n")
+    # Only test the most recent year first
+    year = "2025"
+    event_id = tournament["years"][year]
+    
+    print(f"→ Testing {year} ({event_id})")
+    
+    for sid, name in STATS:
+        print(f"   Trying {name}...")
+        df = fetch_stat(sid, event_id)
+        if not df.empty:
+            print(f"   ✓ Success! {len(df)} players")
+            print(df.head())
+        else:
+            print(f"   ✗ Failed")
+        time.sleep(1)
 
 
 if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) < 2:
-        print("Usage: python scripts/generate_tournament_history.py rocket_classic")
-        sys.exit(1)
-
-    tournament_key = sys.argv[1]
-    process_tournament(tournament_key)
-    print("Done.")
+    process_tournament("rocket_classic")
