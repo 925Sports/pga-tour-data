@@ -2,8 +2,8 @@ name: Update PGA Season Stats
 
 on:
   schedule:
-    - cron: '15 11 * * *'   # ~6:15 AM CDT daily
-  workflow_dispatch:        # allows manual runs
+    - cron: '15 11 * * *'   # ~6:15 AM CDT
+  workflow_dispatch:
 
 jobs:
   update:
