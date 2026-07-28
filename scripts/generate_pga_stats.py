@@ -1,14 +1,35 @@
 import requests
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
 import time
+import sys
 import glob
 
 API_KEY = "da2-gsrx5bibzbb4njvhl7t37wqyl4"
 YEAR = 2026
-LIVE_PATH = "data/pga_season_stats.csv"
-SNAPSHOT_DIR = "data/snapshots"
+
+# Tour configuration
+TOURS = {
+    "pga": {
+        "code": "R",
+        "name": "PGA Tour",
+        "live_path": "data/pga_season_stats.csv",
+        "snapshot_dir": "data/snapshots/pga"
+    },
+    "kft": {
+        "code": "S",
+        "name": "Korn Ferry Tour",
+        "live_path": "data/korn_ferry_season_stats.csv",
+        "snapshot_dir": "data/snapshots/kft"
+    },
+    "dp": {
+        "code": "H",
+        "name": "DP World Tour",
+        "live_path": "data/dp_world_season_stats.csv",
+        "snapshot_dir": "data/snapshots/dp"
+    }
+}
 
 STATS = [
     # Strokes Gained
@@ -66,11 +87,11 @@ STATS = [
 ]
 
 
-def fetch_stat(stat_id: str) -> pd.DataFrame:
+def fetch_stat(stat_id: str, tour_code: str) -> pd.DataFrame:
     payload = {
         "operationName": "StatDetails",
         "variables": {
-            "tourCode": "R",
+            "tourCode": tour_code,
             "statId": str(stat_id),
             "year": YEAR,
             "eventQuery": None
@@ -109,8 +130,12 @@ def fetch_stat(stat_id: str) -> pd.DataFrame:
     )
     r.raise_for_status()
 
+    data = r.json()
+    if not data.get("data") or not data["data"].get("statDetails"):
+        return pd.DataFrame()
+
     rows = []
-    for item in r.json()["data"]["statDetails"]["rows"]:
+    for item in data["data"]["statDetails"]["rows"]:
         if item.get("__typename") != "StatDetailsPlayer":
             continue
         rows.append({
@@ -123,57 +148,61 @@ def fetch_stat(stat_id: str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def get_latest_snapshot():
-    """Return path to the most recent snapshot file"""
-    files = sorted(glob.glob(f"{SNAPSHOT_DIR}/pga_season_stats_*.csv"))
+def get_latest_snapshot(snapshot_dir: str):
+    files = sorted(glob.glob(f"{snapshot_dir}/*_*.csv"))
     return files[-1] if files else None
 
 
-def data_has_updated(new_df: pd.DataFrame) -> bool:
-    """Compare new data against the latest snapshot"""
-    latest = get_latest_snapshot()
+def data_has_updated(new_df: pd.DataFrame, snapshot_dir: str) -> bool:
+    latest = get_latest_snapshot(snapshot_dir)
     if latest is None:
-        return True  # No previous snapshot → treat as updated
+        return True
 
     old_df = pd.read_csv(latest)
 
-    # Simple but effective check: compare SG_Total for top players
     if "SG_Total" not in new_df.columns or "SG_Total" not in old_df.columns:
         return True
 
-    # Merge on player_id and see if values changed
     merged = new_df[["player_id", "SG_Total"]].merge(
         old_df[["player_id", "SG_Total"]],
         on="player_id",
         suffixes=("_new", "_old")
     )
 
-    # If more than 5% of players have a different SG_Total, consider it updated
     changed = (merged["SG_Total_new"] != merged["SG_Total_old"]).sum()
     change_pct = changed / len(merged) if len(merged) > 0 else 0
-
     print(f"Data change check: {changed} players changed ({change_pct:.1%})")
-    return change_pct > 0.03  # threshold
+    return change_pct > 0.03
 
 
-def main():
-    print(f"Starting PGA season stats check for {YEAR}...")
-    print(f"Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}\n")
+def process_tour(tour_key: str):
+    if tour_key not in TOURS:
+        raise ValueError(f"Unknown tour: {tour_key}. Use: pga, kft, or dp")
 
-    os.makedirs("data", exist_ok=True)
-    os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+    config = TOURS[tour_key]
+    tour_code = config["code"]
+    tour_name = config["name"]
+    live_path = config["live_path"]
+    snapshot_dir = config["snapshot_dir"]
 
-    # First pull a couple of key stats to check if data has updated
+    print(f"\n{'='*50}")
+    print(f"Processing: {tour_name} ({tour_code})")
+    print(f"{'='*50}\n")
+
+    os.makedirs(os.path.dirname(live_path), exist_ok=True)
+    os.makedirs(snapshot_dir, exist_ok=True)
+
+    # Quick check with SG Total
     print("Checking if new data is available...")
-    test_df = fetch_stat("02675")  # SG_Total
+    test_df = fetch_stat("02675", tour_code)
     if test_df.empty:
-        print("Could not fetch test data. Exiting.")
+        print(f"No data returned for {tour_name}. This tour may not support these stats.")
         return
 
     test_df = test_df.rename(columns={"rank": "SG_Total_Rank", "value": "SG_Total"})
 
-    if not data_has_updated(test_df):
-        print("Data has not updated since last snapshot. Skipping full scrape.")
+    if not data_has_updated(test_df, snapshot_dir):
+        print("Data has not updated since last snapshot. Skipping.")
         return
 
     print("New data detected! Running full scrape...\n")
@@ -183,7 +212,7 @@ def main():
 
     for sid, name in STATS:
         try:
-            df = fetch_stat(sid)
+            df = fetch_stat(sid, tour_code)
             if df.empty:
                 print(f"✗ {name}")
                 continue
@@ -195,7 +224,7 @@ def main():
             dfs.append(df[["player_id", "player", "country", name, f"{name}_Rank"]])
             print(f"✓ {name}: {len(df)} players")
             success_count += 1
-            time.sleep(0.7)
+            time.sleep(0.6)
 
         except Exception as e:
             print(f"✗ {name}: {e}")
@@ -206,7 +235,6 @@ def main():
 
     print(f"\nSuccessfully pulled {success_count}/{len(STATS)} stats")
 
-    # Merge
     merged = dfs[0]
     for df in dfs[1:]:
         merged = merged.merge(
@@ -220,21 +248,26 @@ def main():
 
     today = datetime.utcnow().strftime("%Y-%m-%d")
     merged["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    merged["tour"] = tour_name
 
     if "SG_Total_Rank" in merged.columns:
         merged = merged.sort_values("SG_Total_Rank", na_position="last")
 
-    # Save live version
-    merged.to_csv(LIVE_PATH, index=False)
-    print(f"\nSaved live file → {LIVE_PATH}")
+    # Save live file
+    merged.to_csv(live_path, index=False)
+    print(f"\nSaved live file → {live_path}")
 
     # Save snapshot
-    snapshot_path = f"{SNAPSHOT_DIR}/pga_season_stats_{today}.csv"
+    snapshot_path = f"{snapshot_dir}/{tour_key}_season_stats_{today}.csv"
     merged.to_csv(snapshot_path, index=False)
     print(f"Saved snapshot → {snapshot_path}")
-
     print("Done.")
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        print("Usage: python scripts/generate_tour_stats.py [pga|kft|dp]")
+        sys.exit(1)
+
+    tour = sys.argv[1].lower()
+    process_tour(tour)
