@@ -2,7 +2,8 @@ name: Update PGA Season Stats
 
 on:
   schedule:
-    - cron: '15 11 * * *'   # ~6:15 AM CDT
+    - cron: '0 7 * * 1'     # Monday 2:00 AM CDT
+    - cron: '0 1 * * 2'     # Monday 8:00 PM CDT (backup)
   workflow_dispatch:
 
 jobs:
@@ -27,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/pga_season_stats.csv
+          git add data/
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "Auto update PGA season stats $(date -u +%Y-%m-%d)"
             git push
