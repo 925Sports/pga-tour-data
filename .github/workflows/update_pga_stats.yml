@@ -1,10 +1,21 @@
-name: Update PGA Season Stats
+name: Update Tour Season Stats
 
 on:
   schedule:
     - cron: '0 7 * * 1'     # Monday 2:00 AM CDT
     - cron: '0 1 * * 2'     # Monday 8:00 PM CDT (backup)
   workflow_dispatch:
+    inputs:
+      tour:
+        description: 'Which tour to update'
+        required: true
+        default: 'pga'
+        type: choice
+        options:
+          - pga
+          - kft
+          - dp
+          - all
 
 jobs:
   update:
@@ -21,8 +32,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests pandas
 
-      - name: Generate PGA season stats
-        run: python scripts/generate_pga_stats.py
+      - name: Run selected tour(s)
+        run: |
+          if [ "${{ github.event.inputs.tour }}" = "all" ] || [ -z "${{ github.event.inputs.tour }}" ]; then
+            python scripts/generate_tour_stats.py pga
+            python scripts/generate_tour_stats.py kft
+            python scripts/generate_tour_stats.py dp
+          else
+            python scripts/generate_tour_stats.py ${{ github.event.inputs.tour }}
+          fi
 
       - name: Commit and push if changed
         run: |
@@ -30,6 +48,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Auto update PGA season stats $(date -u +%Y-%m-%d)"
+            git commit -m "Auto update tour season stats $(date -u +%Y-%m-%d)"
             git push
           )
