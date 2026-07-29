@@ -139,7 +139,7 @@ def fetch_stat(stat_id: str, tour_code: str) -> pd.DataFrame:
         if item.get("__typename") != "StatDetailsPlayer":
             continue
         rows.append({
-            "player_id": item["playerId"],
+            "player_id": str(item["playerId"]),  # force string early
             "player": item["playerName"],
             "country": item.get("country", ""),
             "rank": item["rank"],
@@ -158,21 +158,33 @@ def data_has_updated(new_df: pd.DataFrame, snapshot_dir: str) -> bool:
     if latest is None:
         return True
 
-    old_df = pd.read_csv(latest)
+    try:
+        old_df = pd.read_csv(latest)
 
-    if "SG_Total" not in new_df.columns or "SG_Total" not in old_df.columns:
+        if "SG_Total" not in new_df.columns or "SG_Total" not in old_df.columns:
+            return True
+
+        # Force both sides to string to avoid type mismatch
+        new_df = new_df.copy()
+        old_df = old_df.copy()
+        new_df["player_id"] = new_df["player_id"].astype(str)
+        old_df["player_id"] = old_df["player_id"].astype(str)
+
+        new_vals = new_df.set_index("player_id")["SG_Total"]
+        old_vals = old_df.set_index("player_id")["SG_Total"]
+
+        common = new_vals.index.intersection(old_vals.index)
+        if len(common) == 0:
+            return True
+
+        changed = (new_vals.loc[common] != old_vals.loc[common]).sum()
+        change_pct = changed / len(common)
+        print(f"Data change check: {changed} players changed ({change_pct:.1%})")
+        return change_pct > 0.03
+
+    except Exception as e:
+        print(f"Could not compare snapshots: {e}")
         return True
-
-    merged = new_df[["player_id", "SG_Total"]].merge(
-        old_df[["player_id", "SG_Total"]],
-        on="player_id",
-        suffixes=("_new", "_old")
-    )
-
-    changed = (merged["SG_Total_new"] != merged["SG_Total_old"]).sum()
-    change_pct = changed / len(merged) if len(merged) > 0 else 0
-    print(f"Data change check: {changed} players changed ({change_pct:.1%})")
-    return change_pct > 0.03
 
 
 def process_tour(tour_key: str):
