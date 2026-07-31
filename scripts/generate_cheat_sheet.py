@@ -122,91 +122,150 @@ def resolve_course(logs: pd.DataFrame, event_name: str) -> str:
 
 
 def event_level(player_logs: pd.DataFrame) -> pd.DataFrame:
-    """Collapse rounds → one row per event for a player.
+    """Collapse rounds → one row per tournament start for a player.
 
-    Important: do NOT group by event_id when it is blank/NaN — pandas treats
-    each NaN as its own group, which duplicates every round as a separate
-    "event" (e.g. RF 1,1,30,30 instead of 1,30,...).
-    Group by event_name + calendar date only.
+    Grouping rules:
+    - Prefer event_id when it is present and non-empty
+    - Else event_name + calendar date
+    - Else event_name + year (so multi-year course history does not collapse)
+    Never rely on blank event_id alone (NaNs split every round into its own group).
     """
     if player_logs.empty:
         return player_logs
 
     df = player_logs.copy()
 
-    # Normalize event name
     if "event_name" not in df.columns:
         df["event_name"] = ""
-    df["_ename"] = df["event_name"].fillna("").astype(str).str.strip()
+    df["_ename"] = (
+        df["event_name"].fillna("").astype(str).str.strip()
+        .str.replace(r"\s+", " ", regex=True)
+    )
+    # Normalize renamed events so "Rocket Classic" and "Rocket Mortgage Classic" share history
+    df["_ename_norm"] = (
+        df["_ename"].str.lower()
+        .str.replace(r"rocket mortgage classic", "rocket classic", regex=False)
+        .str.replace(r"\s+", " ", regex=True)
+        .str.strip()
+    )
 
-    # Prefer a real date column; strip to calendar day so round times don't split events
-    date_raw = None
+    # Year
+    year = pd.Series([None] * len(df), index=df.index, dtype="object")
+    if "year" in df.columns:
+        year = pd.to_numeric(df["year"], errors="coerce")
+    if "season" in df.columns:
+        year = year.fillna(pd.to_numeric(df["season"], errors="coerce"))
+
+    # Date → calendar day
+    dt = pd.Series(pd.NaT, index=df.index)
     for col in ("event_completed", "date", "Date", "outright_event_completed"):
         if col in df.columns:
-            date_raw = col
-            break
-    if date_raw is not None:
-        dt = pd.to_datetime(df[date_raw], errors="coerce")
-    else:
-        dt = pd.Series(pd.NaT, index=df.index)
-    # Fallback year if no usable date
-    if "year" in df.columns:
-        year_fallback = pd.to_datetime(df["year"].astype(str) + "-06-15", errors="coerce")
-        dt = dt.fillna(year_fallback)
+            parsed = pd.to_datetime(df[col], errors="coerce")
+            dt = dt.fillna(parsed)
+    # If still no date, synthesize from year mid-season so years stay distinct
+    if year is not None:
+        year_dt = pd.to_datetime(
+            year.apply(lambda y: f"{int(y)}-07-01" if pd.notna(y) else None),
+            errors="coerce",
+        )
+        dt = dt.fillna(year_dt)
+
     df["_dt"] = dt
     df["_day"] = df["_dt"].dt.strftime("%Y-%m-%d").fillna("")
+    df["_year"] = df["_dt"].dt.year
+    # fill year from column if dt failed
+    if year is not None:
+        df["_year"] = df["_year"].fillna(year)
 
-    # Optional: stable event key from id only when present and non-empty
+    # event_id only when real
     if "event_id" in df.columns:
-        eid = df["event_id"]
-        df["_eid"] = eid.where(eid.notna() & (eid.astype(str).str.strip() != ""), other="")
+        eid = df["event_id"].astype(str).str.strip()
+        df["_eid"] = eid.where(
+            df["event_id"].notna() & ~eid.isin(["", "nan", "None", "NaN"]),
+            other="",
+        )
     else:
         df["_eid"] = ""
 
-    # Group key: use event_id when available, else event_name + day
-    df["_gkey"] = df.apply(
-        lambda r: f"id:{r['_eid']}" if r["_eid"] not in ("", "nan", "None") else f"nm:{r['_ename']}|{r['_day']}",
-        axis=1,
-    )
+    def make_key(r):
+        if r["_eid"]:
+            return f"id:{r['_eid']}"
+        day = r["_day"]
+        yr = r["_year"]
+        name = r["_ename_norm"] or r["_ename"]
+        if day:
+            return f"nm:{name}|{day}"
+        if pd.notna(yr):
+            return f"nm:{name}|y{int(yr)}"
+        return f"nm:{name}|unk"
+
+    df["_gkey"] = df.apply(make_key, axis=1)
 
     rows = []
     for _, g in df.groupby("_gkey", dropna=False):
-        # Prefer a row that has fin_text populated
-        fin_series = g["fin_text"] if "fin_text" in g.columns else pd.Series([""] * len(g))
+        fin_series = g["fin_text"] if "fin_text" in g.columns else pd.Series([""] * len(g), index=g.index)
         with_fin = g[fin_series.notna() & (fin_series.astype(str).str.strip() != "")]
         first = with_fin.iloc[0] if len(with_fin) else g.iloc[0]
-        fin = first.get("fin_text", "") if hasattr(first, "get") else first["fin_text"] if "fin_text" in g.columns else ""
+
+        fin = first["fin_text"] if "fin_text" in g.columns else ""
         label, num, is_cut = parse_finish(fin)
-        date = first["_day"] if "_day" in g.columns else ""
-        if not date and pd.notna(first.get("_dt") if hasattr(first, "get") else first["_dt"]):
-            date = str(first["_dt"])[:10]
-        course = ""
-        if "course_name" in g.columns:
-            course = str(first["course_name"] if "course_name" in g.columns else "")
-        sg = None
-        if "sg_total" in g.columns:
-            sg = pd.to_numeric(g["sg_total"], errors="coerce").mean()
+
+        day = first["_day"] if first["_day"] else ""
+        yr = first["_year"] if pd.notna(first["_year"]) else None
+        course = str(first["course_name"]) if "course_name" in g.columns and pd.notna(first.get("course_name", None)) else ""
+        sg = pd.to_numeric(g["sg_total"], errors="coerce").mean() if "sg_total" in g.columns else None
+
         rows.append({
-            "event_name": first["_ename"] if "_ename" in g.columns else first.get("event_name", ""),
-            "event_completed": date,
+            "event_name": first["_ename"],
+            "event_name_norm": first["_ename_norm"],
+            "event_completed": day or (f"{int(yr)}-07-01" if yr is not None and pd.notna(yr) else ""),
+            "year": int(yr) if yr is not None and pd.notna(yr) else None,
             "course_name": course,
             "fin_label": label,
             "fin_num": num,
             "is_cut": is_cut,
             "sg_total": sg,
-            "_dt": first["_dt"] if "_dt" in g.columns else pd.NaT,
+            "_dt": first["_dt"],
         })
 
     out = pd.DataFrame(rows)
     if out.empty:
         return out
 
-    # Final de-dupe: same event_name + day → keep one (prefer non-CUT if mixed, else first)
-    out["_dedupe"] = out["event_name"].astype(str).str.lower().str.strip() + "|" + out["event_completed"].astype(str)
+    # De-dupe only exact same key components (name + day/year) — already unique via _gkey,
+    # but guard against identical rows
+    out["_dedupe"] = (
+        out["event_name_norm"].astype(str)
+        + "|"
+        + out["event_completed"].astype(str)
+        + "|"
+        + out["year"].astype(str)
+    )
     out = out.sort_values(["_dt", "fin_num"], ascending=[False, True], na_position="last")
     out = out.drop_duplicates(subset=["_dedupe"], keep="first")
-    out = out.sort_values("_dt", ascending=False)
+    out = out.sort_values("_dt", ascending=False, na_position="last")
     return out.drop(columns=["_dedupe"], errors="ignore")
+
+
+def course_match_mask(course_series: pd.Series, course: str) -> pd.Series:
+    """Fuzzy match course names (Detroit Golf Club, etc.)."""
+    if not course:
+        return pd.Series(False, index=course_series.index)
+    cn = course_series.fillna("").astype(str).str.lower().str.strip()
+    target = course.lower().strip()
+    # token overlap: require main tokens
+    tokens = [t for t in re.split(r"[^a-z0-9]+", target) if len(t) > 3]
+    mask = cn.eq(target) | cn.str.contains(re.escape(target[: min(12, len(target))]), na=False)
+    if tokens:
+        tok_mask = pd.Series(True, index=cn.index)
+        for t in tokens[:3]:
+            tok_mask = tok_mask & cn.str.contains(t, na=False)
+        mask = mask | tok_mask
+    # Detroit special-case
+    if "detroit" in target:
+        mask = mask | cn.str.contains("detroit", na=False)
+    return mask
+
 
 
 def main():
@@ -230,14 +289,12 @@ def main():
         alt = logs["name_adjusted"].map(name_key)
         logs["_pkey"] = logs["_pkey"].where(logs["_pkey"].astype(bool), alt)
 
-    # Course-filtered logs
-    course_l = course.lower()
+    # Course-filtered logs (fuzzy name match — keeps multi-year history)
     if course and "course_name" in logs.columns:
-        cn = logs["course_name"].astype(str).str.lower()
-        course_logs = logs[cn.str.contains(re.escape(course_l[:12]), na=False) | cn.eq(course_l)]
+        course_logs = logs[course_match_mask(logs["course_name"], course)]
     else:
         course_logs = logs.iloc[0:0]
-    print(f"Course log rows: {len(course_logs)}")
+    print(f"Course log rows: {len(course_logs)} for '{course}'")
 
     cheat_rows = []
     ch_rows = []
@@ -267,17 +324,18 @@ def main():
             cut_streak += 1
 
         # Course history last 4 at this course
-        cev = event_level(course_logs[course_logs["_pkey"] == pkey] if len(course_logs) else plogs.iloc[0:0])
-        # Prefer same-course events only
-        if "course_name" in (cev.columns if len(cev) else []):
-            pass
+        plogs_course = course_logs[course_logs["_pkey"] == pkey] if len(course_logs) else logs.iloc[0:0]
+        cev = event_level(plogs_course)
+        # Keep up to last 4 starts at this course (already sorted newest first)
         h = []
         finishes_num = []
         for i, er in enumerate(cev.itertuples(index=False)):
             if i < 4:
                 h.append(er.fin_label)
-            if er.fin_num is not None:
+            if er.fin_num is not None and er.fin_num < 100:
                 finishes_num.append(er.fin_num)
+            elif er.is_cut:
+                finishes_num.append(100)
         while len(h) < 4:
             h.append("—")
         avg_fin = sum(finishes_num) / len(finishes_num) if finishes_num else None
