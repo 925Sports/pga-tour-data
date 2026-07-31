@@ -268,6 +268,82 @@ def course_match_mask(course_series: pd.Series, course: str) -> pd.Series:
 
 
 
+def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
+    """One row per tournament START at a given course (course-name filtered already).
+
+    Identity of a start = calendar date when available, else year.
+    Event title is ignored for grouping — only used for display.
+    Multiple rounds in the same tournament collapse to one finish.
+    """
+    if player_course_logs is None or player_course_logs.empty:
+        return pd.DataFrame(columns=[
+            "event_name", "event_completed", "year", "course_name",
+            "fin_label", "fin_num", "is_cut", "sg_total", "_dt",
+        ])
+
+    df = player_course_logs.copy()
+
+    # Dates
+    dt = pd.Series(pd.NaT, index=df.index)
+    for col in ("event_completed", "date", "Date", "outright_event_completed"):
+        if col in df.columns:
+            dt = dt.fillna(pd.to_datetime(df[col], errors="coerce"))
+
+    year = pd.Series([pd.NA] * len(df), index=df.index, dtype="Float64")
+    if "year" in df.columns:
+        year = year.fillna(pd.to_numeric(df["year"], errors="coerce"))
+    if "season" in df.columns:
+        year = year.fillna(pd.to_numeric(df["season"], errors="coerce"))
+    year = year.fillna(dt.dt.year)
+
+    # When date missing, anchor to mid-year so years sort correctly and stay distinct
+    year_anchor = year.apply(lambda y: f"{int(y)}-07-01" if pd.notna(y) else None)
+    dt = dt.fillna(pd.to_datetime(year_anchor, errors="coerce"))
+
+    df["_dt"] = dt
+    df["_day"] = df["_dt"].dt.strftime("%Y-%m-%d").fillna("")
+    df["_year"] = year
+
+    # Group key: prefer full date; else year (NEVER event name alone)
+    def gkey(r):
+        if r["_day"]:
+            return f"day:{r['_day']}"
+        if pd.notna(r["_year"]):
+            return f"year:{int(r['_year'])}"
+        return "unk"
+
+    df["_gkey"] = df.apply(gkey, axis=1)
+
+    rows = []
+    for _, g in df.groupby("_gkey", dropna=False):
+        fin_series = g["fin_text"] if "fin_text" in g.columns else pd.Series([""] * len(g), index=g.index)
+        with_fin = g[fin_series.notna() & (fin_series.astype(str).str.strip() != "")]
+        first = with_fin.iloc[0] if len(with_fin) else g.iloc[0]
+        fin = first["fin_text"] if "fin_text" in g.columns else ""
+        label, num, is_cut = parse_finish(fin)
+        yr = first["_year"]
+        rows.append({
+            "event_name": first["event_name"] if "event_name" in g.columns else "",
+            "event_completed": first["_day"] or "",
+            "year": int(yr) if pd.notna(yr) else None,
+            "course_name": first["course_name"] if "course_name" in g.columns else "",
+            "fin_label": label,
+            "fin_num": num,
+            "is_cut": is_cut,
+            "sg_total": pd.to_numeric(g["sg_total"], errors="coerce").mean() if "sg_total" in g.columns else None,
+            "_dt": first["_dt"],
+        })
+
+    out = pd.DataFrame(rows)
+    if out.empty:
+        return out
+    out = out.sort_values("_dt", ascending=False, na_position="last")
+    # One start per year max is wrong for rare double-starts; keep all distinct days/years
+    out = out.drop_duplicates(subset=["event_completed", "year"], keep="first")
+    return out.sort_values("_dt", ascending=False, na_position="last")
+
+
+
 def main():
     logs = load_logs()
     field = load_field()
@@ -324,17 +400,18 @@ def main():
             cut_streak += 1
 
         # Course history last 4 at this course
+        # --- Course History is COURSE-based (not event-name-based) ---
+        # Any start at Detroit Golf Club counts, regardless of event title.
         plogs_course = course_logs[course_logs["_pkey"] == pkey] if len(course_logs) else logs.iloc[0:0]
-        cev = event_level(plogs_course)
-        # Keep up to last 4 starts at this course (already sorted newest first)
+        cev = course_event_level(plogs_course)  # one row per start at this course
         h = []
         finishes_num = []
         for i, er in enumerate(cev.itertuples(index=False)):
             if i < 4:
                 h.append(er.fin_label)
             if er.fin_num is not None and er.fin_num < 100:
-                finishes_num.append(er.fin_num)
-            elif er.is_cut:
+                finishes_num.append(int(er.fin_num))
+            elif getattr(er, "is_cut", False):
                 finishes_num.append(100)
         while len(h) < 4:
             h.append("—")
