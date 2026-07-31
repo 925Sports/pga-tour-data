@@ -1,0 +1,23 @@
+{
+  "name": "Default",
+  "mode": "sg",
+  "course_name": "Detroit Golf Club",
+  "metrics": [
+    {
+      "group": "recent_form",
+      "stat": "sg_total",
+      "window": "last_7_starts"
+    },
+    {
+      "group": "course_history",
+      "stat": "sg_total",
+      "window": "all"
+    },
+    {
+      "group": "specialist",
+      "stat": "sg_total",
+      "window": "course"
+    }
+  ],
+  "min_rounds": 4
+}
