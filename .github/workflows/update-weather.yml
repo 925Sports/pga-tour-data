@@ -1,0 +1,34 @@
+name: Update Weather
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 * * * *"  # hourly at :10
+  push:
+    paths:
+      - "scripts/generate_weather.py"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch weather CSV
+        run: python scripts/generate_weather.py
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/weather.csv || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Auto-update weather.csv"
+          git pull --rebase origin main || true
+          git push
