@@ -1,0 +1,52 @@
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: Detroit Golf Club | Updated: 8/1/2026, 1:41:14 PM",,,,,,,,,,,
+,,,,,,,,,,,
+Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
+Sat Aug 1,12:00 AM,79.2,83.6,1,0,Overcast,0.3,0.2,NE,100,57
+Sat Aug 1,1:00 AM,78.1,80.6,1,0,Mainly Clear,3.9,4.5,NNW,28,57
+Sat Aug 1,2:00 AM,76.4,79.1,4,0,Overcast,3.5,5.8,NE,99,61
+Sat Aug 1,3:00 AM,76.3,80.1,3,0,Overcast,3.1,5.8,E,100,66
+Sat Aug 1,4:00 AM,74.8,79.4,3,0,Partly Cloudy,3.4,7.2,SE,70,74
+Sat Aug 1,5:00 AM,74.7,80.3,2,0,Partly Cloudy,1.8,6.5,N,71,76
+Sat Aug 1,6:00 AM,74.1,79.4,4,0,Overcast,2.6,3.4,NNE,100,78
+Sat Aug 1,7:00 AM,73.2,77.8,9,0,Overcast,5.2,8.5,N,100,83
+Sat Aug 1,8:00 AM,73.9,79.7,10,0,Clear,4.2,10.1,ENE,15,85
+Sat Aug 1,9:00 AM,75.6,83.1,9,0,Overcast,4,8.5,NE,99,89
+Sat Aug 1,10:00 AM,76.5,82.8,4,0,Overcast,4,4.9,NE,99,80
+Sat Aug 1,11:00 AM,77.7,82.8,4,0,Overcast,6.3,6.7,NE,99,76
+Sat Aug 1,12:00 PM,79.2,84.7,9,0,Overcast,5.3,7.6,ENE,100,72
+Sat Aug 1,1:00 PM,81.4,86.6,5,0,Overcast,5.2,8.5,E,100,66
+Sat Aug 1,2:00 PM,84.2,89.4,6,0,Overcast,6.4,8.1,ENE,100,56
+Sat Aug 1,3:00 PM,85.1,87.9,15,0,Overcast,8.3,10.5,E,100,53
+Sat Aug 1,4:00 PM,84.7,85.8,16,0,Overcast,9.9,13.2,E,100,51
+Sat Aug 1,5:00 PM,82.8,83.4,14,0,Overcast,10.5,15.4,ESE,100,53
+Sat Aug 1,6:00 PM,82.5,82.2,12,0,Overcast,9.5,14.5,E,100,48
+Sat Aug 1,7:00 PM,81,81,11,0,Overcast,7.2,12.8,E,100,47
+Sat Aug 1,8:00 PM,79.2,80.6,10,0,Overcast,7,12.5,NE,100,56
+Sat Aug 1,9:00 PM,76,79.1,13,0,Overcast,6.6,14.3,NNE,100,71
+Sat Aug 1,10:00 PM,73.7,76.9,11,0,Overcast,8.5,18.1,NNE,100,81
+Sat Aug 1,11:00 PM,72.7,74.7,14,0,Overcast,10.5,21.9,NE,100,82
+Sun Aug 2,12:00 AM,71.8,73.7,29,0,Overcast,10.6,23.5,NE,100,84
+Sun Aug 2,1:00 AM,71.8,76.5,25,0,Overcast,3.6,18.8,NE,100,83
+Sun Aug 2,2:00 AM,70.4,75.5,28,0.142,Moderate Rain,4.4,16.3,ENE,100,92
+Sun Aug 2,3:00 AM,69.7,72.9,54,0.043,Dense Drizzle,7.9,17.9,NE,100,92
+Sun Aug 2,4:00 AM,69.4,73.3,62,0.087,Slight Rain,6.4,17.4,NE,100,93
+Sun Aug 2,5:00 AM,69.6,73.1,46,0.071,Slight Rain,8,16.1,NE,100,94
+Sun Aug 2,6:00 AM,69.3,73.2,47,0.028,Moderate Drizzle,6.6,14.5,NE,100,94
+Sun Aug 2,7:00 AM,67.7,67.9,47,0,Overcast,8.1,23.9,NNE,100,78
+Sun Aug 2,8:00 AM,68.2,71.3,40,0.016,Light Drizzle,5.8,20.1,NE,100,89
+Sun Aug 2,9:00 AM,68.8,70,34,0.016,Light Drizzle,11.1,24.2,NE,100,90
+Sun Aug 2,10:00 AM,68.6,69.6,31,0.594,Heavy Rain,11.6,23.3,NE,100,91
+Sun Aug 2,11:00 AM,68.4,69.4,31,0.016,Light Drizzle,10,22.4,NE,100,87
+Sun Aug 2,12:00 PM,71.8,73.2,22,0,Overcast,9.9,20.1,NNE,95,80
+Sun Aug 2,1:00 PM,71.3,72.8,15,0,Overcast,8.1,17.4,NE,100,77
+Sun Aug 2,2:00 PM,73.7,76.7,19,0,Overcast,11.5,18.1,NE,100,75
+Sun Aug 2,3:00 PM,73.7,74.2,19,0,Overcast,10.1,17.9,NE,100,70
+Sun Aug 2,4:00 PM,73.6,75.9,14,0,Overcast,6.8,17,NE,99,73
+Sun Aug 2,5:00 PM,77.4,78.9,13,0,Overcast,10.4,16.8,NNE,100,65
+Sun Aug 2,6:00 PM,78.1,78.7,11,0,Overcast,9.8,17.2,NNE,100,60
+Sun Aug 2,7:00 PM,75.5,75.2,6,0,Overcast,10.8,19.7,NNE,100,63
+Sun Aug 2,8:00 PM,72.7,73,3,0,Overcast,10.2,21.3,NNE,100,71
+Sun Aug 2,9:00 PM,70.2,70.8,2,0,Mainly Clear,8.4,22.8,NNE,48,75
+Sun Aug 2,10:00 PM,68.7,69.8,1,0,Partly Cloudy,7.7,22.8,NNE,61,80
+Sun Aug 2,11:00 PM,67.8,68.9,0,0,Clear,7.7,23.5,NNE,13,83
