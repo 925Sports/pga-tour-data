@@ -3,12 +3,15 @@ name: Update Cheat Sheet Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"  # every 6 hours
   push:
     paths:
       - "data/recent_form.csv"
       - "data/field_player_logs.csv"
       - "data/pga_tour_player_logs_*.csv"
+      - "data/pre_tournament_preview.csv"
+      - "data/pga_season_stats.csv"
+      - "data/dp_world_season_stats.csv"
       - "scripts/generate_cheat_sheet.py"
 
 jobs:
@@ -35,16 +38,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/cheat_sheet.csv data/course_history_summary.csv || true
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
           fi
-
-          git commit -m "Auto-update cheat_sheet + course_history_summary"
-
-          # Remote may have moved (other workflows / manual pushes). Rebase then push.
+          git commit -m "Auto-update cheat_sheet + course_history_summary (incl. S1-S5 key stats)"
           set +e
           for i in 1 2 3; do
             git pull --rebase origin main
