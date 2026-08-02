@@ -406,6 +406,12 @@ def course_match_mask(course_series: pd.Series, course: str) -> pd.Series:
 
 
 def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
+    """One finish per YEAR at this course (most recent year first).
+
+    Groups by year (not by calendar day) so multi-round logs with mixed
+    fin_text / event_completed values don't produce fake CUT rows.
+    Within a year, prefers the best real finish over CUT/WD.
+    """
     if player_course_logs is None or player_course_logs.empty:
         return pd.DataFrame(
             columns=[
@@ -434,30 +440,45 @@ def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
     year_anchor = year.apply(lambda y: f"{int(y)}-07-01" if pd.notna(y) else None)
     dt = dt.fillna(pd.to_datetime(year_anchor, errors="coerce"))
     df["_dt"] = dt
-    df["_day"] = df["_dt"].dt.strftime("%Y-%m-%d").fillna("")
     df["_year"] = year
 
-    def gkey(r):
-        if r["_day"]:
-            return f"day:{r['_day']}"
-        if pd.notna(r["_year"]):
-            return f"year:{int(r['_year'])}"
-        return "unk"
-
-    df["_gkey"] = df.apply(gkey, axis=1)
     rows = []
-    for _, g in df.groupby("_gkey", dropna=False):
+    # Group by year — one Rocket Classic (etc.) per season at this course
+    for yr, g in df.groupby(df["_year"], dropna=False):
+        # Evaluate every fin_text in the year; pick best real finish
+        candidates = []
         fin_series = g["fin_text"] if "fin_text" in g.columns else pd.Series([""] * len(g), index=g.index)
-        with_fin = g[fin_series.notna() & (fin_series.astype(str).str.strip() != "")]
-        first = with_fin.iloc[0] if len(with_fin) else g.iloc[0]
-        fin = first["fin_text"] if "fin_text" in g.columns else ""
-        label, num, is_cut = parse_finish(fin)
-        yr = first["_year"]
+        for idx, raw in fin_series.items():
+            label, num, is_cut = parse_finish(raw)
+            if label == "—" and num is None:
+                continue
+            candidates.append((label, num, is_cut, idx))
+
+        if not candidates:
+            first = g.iloc[0]
+            label, num, is_cut = "—", None, False
+            pick_idx = first.name
+        else:
+            # Prefer made-cut finishes with lowest position; else CUT/WD
+            made = [c for c in candidates if not c[2] and c[1] is not None and c[1] < 100]
+            if made:
+                made.sort(key=lambda c: c[1])
+                label, num, is_cut, pick_idx = made[0]
+            else:
+                # all cuts/wd — still one row for the year
+                label, num, is_cut, pick_idx = candidates[0]
+
+        first = g.loc[pick_idx] if pick_idx in g.index else g.iloc[0]
+        yr_int = int(yr) if pd.notna(yr) else None
         rows.append(
             {
                 "event_name": first["event_name"] if "event_name" in g.columns else "",
-                "event_completed": first["_day"] or "",
-                "year": int(yr) if pd.notna(yr) else None,
+                "event_completed": (
+                    first["_dt"].strftime("%Y-%m-%d")
+                    if pd.notna(first["_dt"])
+                    else (f"{yr_int}-01-01" if yr_int else "")
+                ),
+                "year": yr_int,
                 "course_name": first["course_name"] if "course_name" in g.columns else "",
                 "fin_label": label,
                 "fin_num": num,
@@ -471,9 +492,10 @@ def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
     out = pd.DataFrame(rows)
     if out.empty:
         return out
-    out = out.sort_values("_dt", ascending=False, na_position="last")
-    out = out.drop_duplicates(subset=["event_completed", "year"], keep="first")
-    return out.sort_values("_dt", ascending=False, na_position="last")
+    # Most recent year first; one row per year
+    out = out.sort_values(["year", "_dt"], ascending=[False, False], na_position="last")
+    out = out.drop_duplicates(subset=["year"], keep="first")
+    return out.sort_values(["year", "_dt"], ascending=[False, False], na_position="last")
 
 
 def main():
@@ -542,16 +564,20 @@ def main():
         plogs_course = course_logs[course_logs["_pkey"] == pkey] if len(course_logs) else logs.iloc[0:0]
         cev = course_event_level(plogs_course)
         h = []
+        h_years = []
         finishes_num = []
         for i, er in enumerate(cev.itertuples(index=False)):
             if i < 4:
                 h.append(er.fin_label)
+                hy = getattr(er, "year", None)
+                h_years.append(int(hy) if hy is not None and str(hy) != "nan" else None)
             if er.fin_num is not None and er.fin_num < 100:
                 finishes_num.append(int(er.fin_num))
             elif getattr(er, "is_cut", False):
                 finishes_num.append(100)
         while len(h) < 4:
             h.append("—")
+            h_years.append(None)
         avg_fin = sum(finishes_num) / len(finishes_num) if finishes_num else None
 
         s_ranks = [m.get(pkey) for m in key_rank_maps]
@@ -566,6 +592,10 @@ def main():
                 "h2": h[1],
                 "h3": h[2],
                 "h4": h[3],
+                "h1_year": h_years[0],
+                "h2_year": h_years[1],
+                "h3_year": h_years[2],
+                "h4_year": h_years[3],
                 "rf1": rf[0],
                 "rf2": rf[1],
                 "rf3": rf[2],
