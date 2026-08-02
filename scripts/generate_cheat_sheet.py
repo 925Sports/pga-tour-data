@@ -130,14 +130,14 @@ def load_season_stats() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def map_key_stat_columns(label: str) -> list[str]:
-    """Map KEY STAT label → preferred season-stat column names (value cols, not ranks)."""
+    """Map KEY STAT label → preferred season-stat columns. Rank cols preferred when present."""
     L = re.sub(r"\s+", " ", str(label or "").strip().upper())
     if not L:
         return []
     if re.search(r"BALL STRIKING|\bBS\b", L):
-        return ["Ball_Striking", "BS"]
+        return ["Ball_Striking_Rank", "Ball_Striking", "BS"]
     if re.search(r"TOTAL DRIVING|\bTD\b", L):
-        return ["Total_Driving", "TD"]
+        return ["Total_Driving_Rank", "Total_Driving", "TD"]
     if re.search(r"APPROACH|SG AP\b|STROKES GAINED APPROACH", L):
         return ["SG_APP"]
     if re.search(r"OFF.?TEE|SG OT\b|STROKES GAINED OFF", L):
@@ -194,9 +194,6 @@ def season_value_for_player(pga: pd.DataFrame, dp: pd.DataFrame, pkey: str, cols
         row = hits.iloc[0]
         colmap = {str(c).lower().replace(" ", "_"): c for c in df.columns}
         for want in cols:
-            # skip rank-only if we have better
-            if str(want).lower().endswith("_rank"):
-                continue
             # exact
             if want in row.index and pd.notna(row[want]):
                 try:
@@ -233,9 +230,11 @@ def rank_field_on_stat(field: pd.DataFrame, pga: pd.DataFrame, dp: pd.DataFrame,
     if not cols:
         return {}
     L = str(label or "").upper()
-    # Lower is better for pure ranks / scoring average; higher better for SG / BOB / etc.
-    lower_better = bool(re.search(r"SCORING AVG|SCORING AVERAGE|RANK", L)) and not re.search(
-        r"GAINED|BIRDIE|BOB|B2B|GIR|ACCURACY|POWER|DRIVING|BALL STRIKING", L
+    using_rank_col = any(str(c).lower().endswith("_rank") for c in cols)
+    # Official rank cols + scoring avg: lower better. Raw SG/BOB: higher better.
+    lower_better = using_rank_col or (
+        bool(re.search(r"SCORING AVG|SCORING AVERAGE|RANK", L))
+        and not re.search(r"GAINED|BIRDIE|BOB|B2B|GIR|ACCURACY|POWER", L)
     )
     rows = []
     for _, p in field.iterrows():
