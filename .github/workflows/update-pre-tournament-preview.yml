@@ -1,0 +1,34 @@
+name: Update Pre-Tournament Preview
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *"
+  push:
+    paths:
+      - "scripts/generate_pre_tournament_preview.py"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch pre-tournament preview
+        run: python scripts/generate_pre_tournament_preview.py
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pre_tournament_preview.csv || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Auto-update pre_tournament_preview.csv"
+          git pull --rebase origin main || true
+          git push
