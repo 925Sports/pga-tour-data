@@ -389,19 +389,27 @@ def event_level(player_logs: pd.DataFrame) -> pd.DataFrame:
 
 
 def course_match_mask(course_series: pd.Series, course: str) -> pd.Series:
+    """Match logs to the target course. Prefer tight name match to avoid wrong venues."""
     if not course:
         return pd.Series(False, index=course_series.index)
     cn = course_series.fillna("").astype(str).str.lower().str.strip()
     target = course.lower().strip()
-    tokens = [t for t in re.split(r"[^a-z0-9]+", target) if len(t) > 3]
-    mask = cn.eq(target) | cn.str.contains(re.escape(target[: min(12, len(target))]), na=False)
-    if tokens:
-        tok_mask = pd.Series(True, index=cn.index)
-        for t in tokens[:3]:
-            tok_mask = tok_mask & cn.str.contains(t, na=False)
-        mask = mask | tok_mask
+    # Exact / strong contains
+    mask = cn.eq(target) | cn.str.contains(re.escape(target), na=False, regex=True)
+    # Canonical short forms
     if "detroit" in target:
-        mask = mask | cn.str.contains("detroit", na=False)
+        mask = cn.str.contains(r"detroit\s*golf", na=False, regex=True) | cn.eq("detroit golf club")
+    elif "muirfield" in target:
+        mask = cn.str.contains("muirfield", na=False)
+    elif "river highland" in target or "tpc river" in target:
+        mask = cn.str.contains(r"river\s*highland", na=False, regex=True)
+    else:
+        tokens = [t for t in re.split(r"[^a-z0-9]+", target) if len(t) > 3]
+        if tokens:
+            tok_mask = pd.Series(True, index=cn.index)
+            for t in tokens[:3]:
+                tok_mask = tok_mask & cn.str.contains(t, na=False)
+            mask = mask | tok_mask
     return mask
 
 
@@ -459,13 +467,18 @@ def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
             label, num, is_cut = "—", None, False
             pick_idx = first.name
         else:
-            # Prefer made-cut finishes with lowest position; else CUT/WD
+            # Prefer made-cut finishes. Use the most common finish label among
+            # made-cut rows (guards against stray round-level CUT noise).
             made = [c for c in candidates if not c[2] and c[1] is not None and c[1] < 100]
             if made:
-                made.sort(key=lambda c: c[1])
-                label, num, is_cut, pick_idx = made[0]
+                from collections import Counter
+                label_counts = Counter(c[0] for c in made)
+                best_label = label_counts.most_common(1)[0][0]
+                made_best = [c for c in made if c[0] == best_label]
+                made_best.sort(key=lambda c: c[1])
+                label, num, is_cut, pick_idx = made_best[0]
             else:
-                # all cuts/wd — still one row for the year
+                # all cuts/wd — only mark CUT if that's truly the only outcome
                 label, num, is_cut, pick_idx = candidates[0]
 
         first = g.loc[pick_idx] if pick_idx in g.index else g.iloc[0]
@@ -496,6 +509,57 @@ def course_event_level(player_course_logs: pd.DataFrame) -> pd.DataFrame:
     out = out.sort_values(["year", "_dt"], ascending=[False, False], na_position="last")
     out = out.drop_duplicates(subset=["year"], keep="first")
     return out.sort_values(["year", "_dt"], ascending=[False, False], na_position="last")
+
+
+def course_anchor_years(course_logs: pd.DataFrame, n: int = 4) -> list[int]:
+    """Most recent N years this course hosted a counted PGA event (desc).
+
+    H1 = most recent completed edition at the course (e.g. 2025 during 2026 season),
+    not the player's personal last start year.
+    """
+    if course_logs is None or course_logs.empty:
+        # Sensible default for a mid-2026 season tool
+        return list(range(2025, 2025 - n, -1))
+    years = set()
+    for col in ("year", "season"):
+        if col in course_logs.columns:
+            for y in pd.to_numeric(course_logs[col], errors="coerce").dropna().unique():
+                yi = int(y)
+                if 2000 <= yi <= 2100:
+                    years.add(yi)
+    if "event_completed" in course_logs.columns:
+        dt = pd.to_datetime(course_logs["event_completed"], errors="coerce")
+        for y in dt.dt.year.dropna().unique():
+            yi = int(y)
+            if 2000 <= yi <= 2100:
+                years.add(yi)
+    if not years:
+        return list(range(2025, 2025 - n, -1))
+    ordered = sorted(years, reverse=True)
+    # Drop pure-future noise if any; keep most recent completed
+    return ordered[:n]
+
+
+def finish_by_year(cev: pd.DataFrame) -> dict:
+    """Map year -> (fin_label, fin_num, is_cut) from course_event_level output."""
+    out = {}
+    if cev is None or cev.empty:
+        return out
+    for er in cev.itertuples(index=False):
+        yr = getattr(er, "year", None)
+        if yr is None or (isinstance(yr, float) and pd.isna(yr)):
+            continue
+        yi = int(yr)
+        # first write wins (cev is sorted newest first); don't overwrite better with worse
+        if yi in out:
+            prev = out[yi]
+            # prefer non-cut over cut
+            if prev[2] and not er.is_cut:
+                out[yi] = (er.fin_label, er.fin_num, er.is_cut)
+            continue
+        out[yi] = (er.fin_label, er.fin_num, bool(getattr(er, "is_cut", False)))
+    return out
+
 
 
 def main():
@@ -536,6 +600,11 @@ def main():
     else:
         course_logs = logs.iloc[0:0]
     print(f"Course log rows: {len(course_logs)} for '{course}'")
+    anchor_years = course_anchor_years(course_logs, 4)
+    # Pad to 4 years if course is new
+    while len(anchor_years) < 4:
+        anchor_years.append(anchor_years[-1] - 1 if anchor_years else 2025)
+    print(f"H1-H4 years (course editions): {anchor_years}")
 
     cheat_rows = []
     ch_rows = []
@@ -563,18 +632,23 @@ def main():
 
         plogs_course = course_logs[course_logs["_pkey"] == pkey] if len(course_logs) else logs.iloc[0:0]
         cev = course_event_level(plogs_course)
+        by_year = finish_by_year(cev)
+
+        # Fixed year slots: H1 = most recent course edition, H2 = year before, ...
         h = []
         h_years = []
         finishes_num = []
-        for i, er in enumerate(cev.itertuples(index=False)):
-            if i < 4:
-                h.append(er.fin_label)
-                hy = getattr(er, "year", None)
-                h_years.append(int(hy) if hy is not None and str(hy) != "nan" else None)
-            if er.fin_num is not None and er.fin_num < 100:
-                finishes_num.append(int(er.fin_num))
-            elif getattr(er, "is_cut", False):
-                finishes_num.append(100)
+        for yr in anchor_years[:4]:
+            h_years.append(yr)
+            if yr in by_year:
+                label, num, is_cut = by_year[yr]
+                h.append(label if label else "—")
+                if num is not None and num < 100:
+                    finishes_num.append(int(num))
+                elif is_cut:
+                    finishes_num.append(100)
+            else:
+                h.append("—")  # did not play that edition
         while len(h) < 4:
             h.append("—")
             h_years.append(None)
