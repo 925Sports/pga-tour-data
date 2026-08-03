@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Detroit Golf Club | Updated: 8/2/2026, 10:55:22 PM",,,,,,,,,,,
+"Location: Detroit Golf Club | Updated: 8/3/2026, 3:55:34 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Sun Aug 2,12:00 AM,68.3,71.5,18,0.043,Dense Drizzle,4.5,17.7,NE,100,86
-Sun Aug 2,1:00 AM,67.3,68.1,25,0,Overcast,8.1,20.6,NNE,100,84
-Sun Aug 2,2:00 AM,65.9,66.6,29,0,Overcast,7.8,20.1,N,99,86
-Sun Aug 2,3:00 AM,65.1,66.7,44,0,Overcast,6.6,17.7,NNE,100,91
-Sun Aug 2,4:00 AM,64.9,64.4,72,0.055,Slight Rain,10.6,17.7,NNE,100,88
-Sun Aug 2,5:00 AM,64.7,65.4,69,0.098,Moderate Rain,8.4,20.4,NNE,100,91
-Sun Aug 2,6:00 AM,64.6,64.4,81,0.055,Slight Rain,10.6,22.8,NNE,100,91
-Sun Aug 2,7:00 AM,63.9,64.5,79,0.016,Light Drizzle,9.1,21.9,NNE,100,95
-Sun Aug 2,8:00 AM,65.5,66,64,0,Overcast,10.3,26.2,NNE,100,94
-Sun Aug 2,9:00 AM,66.5,67.8,44,0,Overcast,10.1,22.4,N,100,95
-Sun Aug 2,10:00 AM,66.5,66.5,47,0,Overcast,12.5,23.3,NNE,100,93
-Sun Aug 2,11:00 AM,68.8,68.9,47,0,Overcast,12.6,25.7,NNE,100,87
-Sun Aug 2,12:00 PM,67.9,68.4,48,0.016,Light Drizzle,11.4,24.4,N,100,89
-Sun Aug 2,1:00 PM,69.1,70.2,44,0,Overcast,12.1,25.1,NNE,100,91
-Sun Aug 2,2:00 PM,68.7,69.8,47,0.016,Light Drizzle,10.5,22.6,N,100,88
-Sun Aug 2,3:00 PM,69.8,72.1,42,0,Overcast,10.1,22.4,N,99,88
-Sun Aug 2,4:00 PM,72.4,72.7,16,0,Mainly Clear,14.1,21.5,N,42,75
-Sun Aug 2,5:00 PM,73.8,76.1,6,0,Clear,11.7,20.4,NNE,18,76
-Sun Aug 2,6:00 PM,75.1,74.1,1,0,Clear,12.2,20.1,N,9,64
-Sun Aug 2,7:00 PM,73,71.6,0,0,Clear,11.9,20.1,NNE,5,65
-Sun Aug 2,8:00 PM,70.9,70.7,1,0,Clear,10.8,21.9,NNE,0,74
-Sun Aug 2,9:00 PM,68.8,69.9,0,0,Clear,7.2,20.4,NNE,4,79
-Sun Aug 2,10:00 PM,67.2,68.3,2,0,Overcast,7.1,17.9,NNW,100,83
-Sun Aug 2,11:00 PM,66.4,66.8,0,0,Clear,8.1,22.4,N,3,83
-Mon Aug 3,12:00 AM,65,66.7,0,0,Clear,5.7,13,N,2,89
-Mon Aug 3,1:00 AM,64,65.7,0,0,Clear,5.3,12.3,NNW,1,91
-Mon Aug 3,2:00 AM,63.1,64.4,0,0,Clear,5.3,13,NNW,0,91
-Mon Aug 3,3:00 AM,62.2,63.1,0,0,Clear,5,12.3,NNW,3,89
-Mon Aug 3,4:00 AM,61.4,61.8,0,0,Clear,5.6,12.8,NNW,3,90
-Mon Aug 3,5:00 AM,60.6,61.4,0,0,Clear,4.6,12.5,NNW,0,92
-Mon Aug 3,6:00 AM,59.9,60.5,0,0,Clear,4.5,11.2,NW,0,92
-Mon Aug 3,7:00 AM,59.3,60,0,0,Clear,4.2,11.2,NW,0,93
-Mon Aug 3,8:00 AM,63.2,64.4,0,0,Clear,5.5,15.2,NW,2,90
-Mon Aug 3,9:00 AM,67.3,68.7,0,0,Clear,5.4,13.9,NNW,0,79
-Mon Aug 3,10:00 AM,70.3,70.5,0,0,Clear,6.6,13.6,N,0,67
-Mon Aug 3,11:00 AM,73.5,74.8,0,0,Clear,5.4,13.4,NNW,2,56
-Mon Aug 3,12:00 PM,77.1,78,0,0,Clear,7,11.4,NNW,0,44
-Mon Aug 3,1:00 PM,80.1,80.5,0,0,Clear,7.7,13.9,N,0,35
-Mon Aug 3,2:00 PM,82.2,82.3,0,0,Clear,7.6,10.5,N,2,30
-Mon Aug 3,3:00 PM,83.7,83.5,0,0,Clear,6.7,8.7,N,2,26
-Mon Aug 3,4:00 PM,84.5,84.1,0,0,Clear,5.4,11.4,N,2,25
-Mon Aug 3,5:00 PM,83.9,82.2,0,0,Clear,5.6,11.4,N,3,27
-Mon Aug 3,6:00 PM,82.7,80,0,0,Clear,6.5,10.1,E,4,32
-Mon Aug 3,7:00 PM,79.3,76.4,0,0,Clear,8.5,11,E,3,39
-Mon Aug 3,8:00 PM,76.8,74.1,0,0,Clear,7.7,12.3,E,1,42
-Mon Aug 3,9:00 PM,72.9,71.3,0,0,Clear,5,11.9,ESE,0,47
-Mon Aug 3,10:00 PM,70.1,68.9,0,0,Clear,4.5,11.2,E,0,53
-Mon Aug 3,11:00 PM,68,67.1,0,0,Clear,3.9,9.2,ENE,0,58
+Mon Aug 3,12:00 AM,65.1,67.2,0,0,Clear,4.1,15.9,N,3,87
+Mon Aug 3,1:00 AM,64.9,65.6,0,0,Clear,6.6,19.5,NNW,0,85
+Mon Aug 3,2:00 AM,63.1,64.5,0,0,Clear,4.1,13.4,NNW,0,87
+Mon Aug 3,3:00 AM,62.3,63.3,0,0,Clear,5,12.3,NNW,0,90
+Mon Aug 3,4:00 AM,61.6,62.2,0,0,Clear,5.6,13.4,NNW,0,91
+Mon Aug 3,5:00 AM,60.7,61.3,0,0,Clear,5,12.1,NNW,0,92
+Mon Aug 3,6:00 AM,59.9,59.8,0,0,Clear,5.2,12.3,NW,0,89
+Mon Aug 3,7:00 AM,59.2,59.1,0,0,Clear,5.1,12.3,NW,0,90
+Mon Aug 3,8:00 AM,62.6,63.1,0,0,Clear,5.3,15.2,NNW,2,86
+Mon Aug 3,9:00 AM,66.4,66.9,0,0,Clear,5.5,13.4,NNW,0,76
+Mon Aug 3,10:00 AM,69.4,70,0,0,Clear,5.3,12.3,NNW,2,68
+Mon Aug 3,11:00 AM,72.7,74.2,0,0,Clear,5.5,9.6,NNW,0,58
+Mon Aug 3,12:00 PM,76.4,78.5,0,0,Clear,4.3,8.5,N,0,44
+Mon Aug 3,1:00 PM,79.7,81,0,0,Clear,5.3,8.9,NNW,0,34
+Mon Aug 3,2:00 PM,81.7,82.8,0,0,Clear,5.9,9.6,NNW,0,31
+Mon Aug 3,3:00 PM,83.2,84.8,0,0,Clear,4.3,6.9,NW,2,29
+Mon Aug 3,4:00 PM,84.3,84.6,0,0,Clear,4.6,5.8,NW,4,27
+Mon Aug 3,5:00 PM,84.6,82.7,0,0,Clear,5.6,6.5,NW,2,25
+Mon Aug 3,6:00 PM,84.4,80.8,0,0,Clear,4,6,NNW,1,23
+Mon Aug 3,7:00 PM,82.5,80.1,0,0,Clear,3.8,6.7,E,0,29
+Mon Aug 3,8:00 PM,77.8,77,0,0,Clear,6.8,9.4,SSE,0,48
+Mon Aug 3,9:00 PM,73.6,74,0,0,Clear,5,10.5,SSE,0,58
+Mon Aug 3,10:00 PM,71.1,71.7,0,0,Clear,4.3,7.4,E,0,62
+Mon Aug 3,11:00 PM,69.3,69.8,0,0,Clear,4.9,11.6,E,0,67
+Tue Aug 4,12:00 AM,67.5,68.4,0,0,Clear,4,10.3,E,0,71
+Tue Aug 4,1:00 AM,66,66.7,0,0,Clear,4.1,12.3,SE,0,74
+Tue Aug 4,2:00 AM,64.5,65.1,0,0,Clear,3.8,11.4,SE,0,77
+Tue Aug 4,3:00 AM,63,63.6,0,0,Clear,3.7,10.1,ESE,0,80
+Tue Aug 4,4:00 AM,61.9,62.6,0,0,Clear,3.5,10.5,SSE,0,84
+Tue Aug 4,5:00 AM,61,62,0,0,Clear,2.9,7.8,S,1,86
+Tue Aug 4,6:00 AM,60.6,60.5,0,0,Clear,4.8,9.6,SSW,5,85
+Tue Aug 4,7:00 AM,60.6,60.5,0,0,Clear,4.9,10.3,SSW,1,85
+Tue Aug 4,8:00 AM,65,66.7,0,0,Clear,4.3,12.3,SW,2,85
+Tue Aug 4,9:00 AM,70,70,0,0,Clear,6.4,17,SSW,0,66
+Tue Aug 4,10:00 AM,75.1,72.4,0,0,Clear,7.6,15.9,SSW,0,44
+Tue Aug 4,11:00 AM,79.3,77.6,0,0,Clear,7.6,12.1,SSW,1,37
+Tue Aug 4,12:00 PM,82.3,83.4,0,0,Clear,6.7,9.8,SW,6,38
+Tue Aug 4,1:00 PM,84.4,87.6,0,0,Clear,5.1,6.5,SW,3,37
+Tue Aug 4,2:00 PM,86.1,89,0,0,Clear,6.5,7.8,S,1,36
+Tue Aug 4,3:00 PM,85.3,86.1,0,0,Clear,10.6,13.2,SSE,2,38
+Tue Aug 4,4:00 PM,85,84.9,0,0,Clear,10.9,13.6,S,2,38
+Tue Aug 4,5:00 PM,84.4,82.9,0,0,Clear,11.2,15,SSE,3,38
+Tue Aug 4,6:00 PM,83.4,79.9,0,0,Clear,11.9,16.1,SSE,1,38
+Tue Aug 4,7:00 PM,82.2,79.1,0,0,Clear,10.3,14.3,SSE,0,38
+Tue Aug 4,8:00 PM,79.6,77.5,0,0,Clear,8.8,14.8,SSE,0,43
+Tue Aug 4,9:00 PM,75.1,73.9,0,0,Clear,6.6,15.7,SSE,0,50
+Tue Aug 4,10:00 PM,72.6,71.4,0,0,Clear,5.7,12.3,SSE,0,52
+Tue Aug 4,11:00 PM,70.7,69.8,0,0,Clear,5.4,13.4,SSE,0,57
