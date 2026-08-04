@@ -2,7 +2,9 @@ player_name,stat_type,prizepicks_line,underdog_line,average_line,higher_price_ud
 A.J. Ewart,Made Cuts,,0.5,0.5,117.0,,0.5,,0.5,False
 A.J. Ewart,Tourney Finishing Position,,20.5,20.5,,532.0,20.5,,20.5,False
 Aaron Rai,Made Cuts,,0.5,0.5,-323.0,248.0,0.5,,0.5,False
+Aaron Rai,Pars,11.5,,11.5,,,11.5,,11.5,False
 Aaron Rai,R1 Leaderboard Position,,10.5,10.5,,443.0,10.5,,10.5,False
+Aaron Rai,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Aaron Rai,Tourney Finishing Position,,20.5,20.5,,152.0,20.5,,20.5,False
 Aaron Wise,Made Cuts,,0.5,0.5,107.0,,0.5,,0.5,False
 Aaron Wise,Tourney Finishing Position,,20.5,20.5,,497.0,20.5,,20.5,False
@@ -18,25 +20,33 @@ Aldrich Potgieter,Made Cuts,,0.5,0.5,-120.0,,0.5,,0.5,False
 Aldrich Potgieter,Tourney Finishing Position,,20.5,20.5,,415.0,20.5,,20.5,False
 Alejandro Tosti,Made Cuts,,0.5,0.5,210.0,,0.5,,0.5,False
 Alejandro Tosti,Tourney Finishing Position,,20.5,20.5,,1420.0,20.5,,20.5,False
+Alex Fitzpatrick,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Alex Fitzpatrick,Made Cuts,,0.5,0.5,-264.0,210.0,0.5,,0.5,False
+Alex Fitzpatrick,Pars,11.5,,11.5,,,11.5,,11.5,False
 Alex Fitzpatrick,R1 Leaderboard Position,,10.5,10.5,,463.0,10.5,,10.5,False
 Alex Fitzpatrick,Tourney Finishing Position,,20.5,20.5,,171.0,20.5,,20.5,False
 Alex Noren,Made Cuts,,0.5,0.5,-213.0,172.0,0.5,,0.5,False
+Alex Noren,Pars,11.5,,11.5,,,11.5,,11.5,False
 Alex Noren,Tourney Finishing Position,,20.5,20.5,,215.0,20.5,,20.5,False
 Alex Smalley,Made Cuts,,0.5,0.5,-213.0,172.0,0.5,,0.5,False
 Alex Smalley,Tourney Finishing Position,,20.5,20.5,,215.0,20.5,,20.5,False
 Andrew Novak,Made Cuts,,0.5,0.5,-154.0,125.0,0.5,,0.5,False
+Andrew Novak,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Andrew Novak,Tourney Finishing Position,,20.5,20.5,,368.0,20.5,,20.5,False
 Andrew Putnam,Made Cuts,,0.5,0.5,-157.0,128.0,0.5,,0.5,False
 Andrew Putnam,Tourney Finishing Position,,20.5,20.5,,423.0,20.5,,20.5,False
+Austin Eckroat,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Austin Eckroat,Made Cuts,,0.5,0.5,-124.0,,0.5,,0.5,False
 Austin Eckroat,Tourney Finishing Position,,20.5,20.5,,419.0,20.5,,20.5,False
 Austin Smotherman,Made Cuts,,0.5,0.5,-115.0,,0.5,,0.5,False
 Austin Smotherman,Tourney Finishing Position,,20.5,20.5,,622.0,20.5,,20.5,False
 Beau Hossler,Made Cuts,,0.5,0.5,-170.0,138.0,0.5,,0.5,False
 Beau Hossler,Tourney Finishing Position,,20.5,20.5,,315.0,20.5,,20.5,False
+Ben Griffin,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Ben Griffin,Made Cuts,,0.5,0.5,-334.0,255.0,0.5,,0.5,False
+Ben Griffin,Pars,11.5,,11.5,,,11.5,,11.5,False
 Ben Griffin,R1 Leaderboard Position,,10.5,10.5,,409.0,10.5,,10.5,False
+Ben Griffin,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Ben Griffin,Tourney Finishing Position,,20.5,20.5,,128.0,20.5,,20.5,False
 Ben Kohles,Made Cuts,,0.5,0.5,-233.0,185.0,0.5,,0.5,False
 Ben Kohles,Tourney Finishing Position,,20.5,20.5,,215.0,20.5,,20.5,False
@@ -45,6 +55,7 @@ Billy Horschel,Made Cuts,,0.5,0.5,-141.0,115.0,0.5,,0.5,False
 Billy Horschel,Tourney Finishing Position,,20.5,20.5,,385.0,20.5,,20.5,False
 Blades Brown,Made Cuts,,0.5,0.5,-209.0,168.0,0.5,,0.5,False
 Blades Brown,Tourney Finishing Position,,20.5,20.5,,232.0,20.5,,20.5,False
+Brandt Snedeker,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Brandt Snedeker,Made Cuts,,0.5,0.5,-124.0,,0.5,,0.5,False
 Brandt Snedeker,Tourney Finishing Position,,20.5,20.5,,622.0,20.5,,20.5,False
 Brian Campbell,Made Cuts,,0.5,0.5,152.0,,0.5,,0.5,False
@@ -78,7 +89,9 @@ Christiaan Bezuidenhout,Tourney Finishing Position,,20.5,20.5,,246.0,20.5,,20.5,
 Christo Lamprecht,Made Cuts,,0.5,0.5,264.0,,0.5,,0.5,False
 Christo Lamprecht,Tourney Finishing Position,,20.5,20.5,,2020.0,20.5,,20.5,False
 Cooper Hrabak,Made Cuts,,0.5,0.5,337.0,,0.5,,0.5,False
+Daniel Berger,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Daniel Berger,Made Cuts,,0.5,0.5,-150.0,122.0,0.5,,0.5,False
+Daniel Berger,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Daniel Berger,Tourney Finishing Position,,20.5,20.5,,315.0,20.5,,20.5,False
 Danny Walker,Made Cuts,,0.5,0.5,210.0,,0.5,,0.5,False
 Danny Walker,Tourney Finishing Position,,20.5,20.5,,1420.0,20.5,,20.5,False
@@ -93,6 +106,7 @@ Davis Thompson,Tourney Finishing Position,,20.5,20.5,,227.0,20.5,,20.5,False
 Denny McCarthy,Made Cuts,,0.5,0.5,-167.0,134.0,0.5,,0.5,False
 Denny McCarthy,Tourney Finishing Position,,20.5,20.5,,315.0,20.5,,20.5,False
 Doug Ghim,Made Cuts,,0.5,0.5,-257.0,204.0,0.5,,0.5,False
+Doug Ghim,Pars,11.5,,11.5,,,11.5,,11.5,False
 Doug Ghim,Tourney Finishing Position,,20.5,20.5,,208.0,20.5,,20.5,False
 Dylan Wu,Made Cuts,,0.5,0.5,161.0,,0.5,,0.5,False
 Dylan Wu,Tourney Finishing Position,,20.5,20.5,,867.0,20.5,,20.5,False
@@ -109,18 +123,24 @@ Hank Lebioda,Tourney Finishing Position,,20.5,20.5,,836.0,20.5,,20.5,False
 HaoTong Li,Made Cuts,,0.5,0.5,114.0,,0.5,,0.5,False
 HaoTong Li,Tourney Finishing Position,,20.5,20.5,,540.0,20.5,,20.5,False
 Harris English,Made Cuts,,0.5,0.5,-271.0,214.0,0.5,,0.5,False
+Harris English,Pars,11.5,,11.5,,,11.5,,11.5,False
 Harris English,R1 Leaderboard Position,,10.5,10.5,,470.0,10.5,,10.5,False
 Harris English,Tourney Finishing Position,,20.5,20.5,,173.0,20.5,,20.5,False
 Harry Hall,Made Cuts,,0.5,0.5,-139.0,113.0,0.5,,0.5,False
 Harry Hall,Tourney Finishing Position,,20.5,20.5,,341.0,20.5,,20.5,False
 Hayden Springer,Made Cuts,,0.5,0.5,127.0,,0.5,,0.5,False
+Hideki Matsuyama,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Hideki Matsuyama,Made Cuts,,0.5,0.5,-345.0,261.0,0.5,,0.5,False
+Hideki Matsuyama,Pars,11.5,,11.5,,,11.5,,11.5,False
 Hideki Matsuyama,R1 Leaderboard Position,,10.5,10.5,,409.0,10.5,,10.5,False
+Hideki Matsuyama,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Hideki Matsuyama,Tourney Finishing Position,,20.5,20.5,,148.0,20.5,,20.5,False
 J.T. Poston,Made Cuts,,0.5,0.5,-209.0,168.0,0.5,,0.5,False
+J.T. Poston,Pars,11.5,,11.5,,,11.5,,11.5,False
 J.T. Poston,Tourney Finishing Position,,20.5,20.5,,242.0,20.5,,20.5,False
 Jackson Koivun,Made Cuts,,0.5,0.5,-385.0,293.0,0.5,,0.5,False
 Jackson Koivun,R1 Leaderboard Position,,10.5,10.5,,380.0,10.5,,10.5,False
+Jackson Koivun,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Jackson Koivun,Tourney Finishing Position,,20.5,20.5,,121.0,20.5,,20.5,False
 Jackson Suber,Made Cuts,,0.5,0.5,-167.0,136.0,0.5,,0.5,False
 Jackson Suber,Tourney Finishing Position,,20.5,20.5,,297.0,20.5,,20.5,False
@@ -132,6 +152,7 @@ Jesper Svensson,Made Cuts,,0.5,0.5,-115.0,,0.5,,0.5,False
 Jesper Svensson,Tourney Finishing Position,,20.5,20.5,,447.0,20.5,,20.5,False
 Joe Highsmith,Made Cuts,,0.5,0.5,146.0,,0.5,,0.5,False
 Joe Highsmith,Tourney Finishing Position,,20.5,20.5,,781.0,20.5,,20.5,False
+Joel Dahmen,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Joel Dahmen,Made Cuts,,0.5,0.5,-137.0,112.0,0.5,,0.5,False
 Joel Dahmen,Tourney Finishing Position,,20.5,20.5,,525.0,20.5,,20.5,False
 John Keefer,Made Cuts,,0.5,0.5,-157.0,128.0,0.5,,0.5,False
@@ -146,15 +167,20 @@ Jordan Spieth,Made Cuts,,0.5,0.5,-213.0,172.0,0.5,,0.5,False
 Jordan Spieth,Tourney Finishing Position,,20.5,20.5,,207.0,20.5,,20.5,False
 Justin Lower,Made Cuts,,0.5,0.5,136.0,,0.5,,0.5,False
 Justin Lower,Tourney Finishing Position,,20.5,20.5,,563.0,20.5,,20.5,False
+Justin Thomas,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Justin Thomas,Made Cuts,,0.5,0.5,-313.0,242.0,0.5,,0.5,False
 Justin Thomas,R1 Leaderboard Position,,10.5,10.5,,405.0,10.5,,10.5,False
+Justin Thomas,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Justin Thomas,Tourney Finishing Position,,20.5,20.5,,132.0,20.5,,20.5,False
 Karl Vilips,Made Cuts,,0.5,0.5,114.0,,0.5,,0.5,False
 Karl Vilips,Tourney Finishing Position,,20.5,20.5,,532.0,20.5,,20.5,False
+Keegan Bradley,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Keegan Bradley,Made Cuts,,0.5,0.5,-257.0,204.0,0.5,,0.5,False
+Keegan Bradley,Pars,11.5,,11.5,,,11.5,,11.5,False
 Keegan Bradley,R1 Leaderboard Position,,10.5,10.5,,463.0,10.5,,10.5,False
 Keegan Bradley,Tourney Finishing Position,,20.5,20.5,,175.0,20.5,,20.5,False
 Keenan Huskey,Made Cuts,,0.5,0.5,324.0,,0.5,,0.5,False
+Keith Mitchell,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Keith Mitchell,Made Cuts,,0.5,0.5,-223.0,177.0,0.5,,0.5,False
 Keith Mitchell,R1 Leaderboard Position,,10.5,10.5,,463.0,10.5,,10.5,False
 Keith Mitchell,Tourney Finishing Position,,20.5,20.5,,183.0,20.5,,20.5,False
@@ -176,6 +202,7 @@ Lee Hodges,Made Cuts,,0.5,0.5,-157.0,128.0,0.5,,0.5,False
 Lee Hodges,Tourney Finishing Position,,20.5,20.5,,377.0,20.5,,20.5,False
 Lucas Glover,Made Cuts,,0.5,0.5,-139.0,114.0,0.5,,0.5,False
 Lucas Glover,Tourney Finishing Position,,20.5,20.5,,447.0,20.5,,20.5,False
+Luke Clanton,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Luke Clanton,Made Cuts,,0.5,0.5,-141.0,115.0,0.5,,0.5,False
 Luke Clanton,Tourney Finishing Position,,20.5,20.5,,377.0,20.5,,20.5,False
 Luke List,Made Cuts,,0.5,0.5,125.0,,0.5,,0.5,False
@@ -187,18 +214,23 @@ Marcelo Rozo,Made Cuts,,0.5,0.5,246.0,,0.5,,0.5,False
 Marcelo Rozo,Tourney Finishing Position,,20.5,20.5,,1010.0,20.5,,20.5,False
 Marco Penge,Made Cuts,,0.5,0.5,-179.0,144.0,0.5,,0.5,False
 Marco Penge,Tourney Finishing Position,,20.5,20.5,,246.0,20.5,,20.5,False
+Mark Hubbard,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Mark Hubbard,Made Cuts,,0.5,0.5,-118.0,,0.5,,0.5,False
 Mark Hubbard,Tourney Finishing Position,,20.5,20.5,,555.0,20.5,,20.5,False
+Matt Kuchar,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Matt Kuchar,Made Cuts,,0.5,0.5,-124.0,,0.5,,0.5,False
 Matt Kuchar,Tourney Finishing Position,,20.5,20.5,,578.0,20.5,,20.5,False
 Matt McCarty,Made Cuts,,0.5,0.5,-157.0,126.0,0.5,,0.5,False
 Matt McCarty,Tourney Finishing Position,,20.5,20.5,,381.0,20.5,,20.5,False
 Matt Wallace,Made Cuts,,0.5,0.5,-205.0,165.0,0.5,,0.5,False
 Matt Wallace,Tourney Finishing Position,,20.5,20.5,,223.0,20.5,,20.5,False
+Matthew McCarty,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Matthieu Pavon,Made Cuts,,0.5,0.5,111.0,,0.5,,0.5,False
 Matthieu Pavon,Tourney Finishing Position,,20.5,20.5,,607.0,20.5,,20.5,False
+Matti Schmid,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Matti Schmid,Made Cuts,,0.5,0.5,109.0,,0.5,,0.5,False
 Matti Schmid,Tourney Finishing Position,,20.5,20.5,,489.0,20.5,,20.5,False
+Maverick McNealy,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Maverick McNealy,Made Cuts,,0.5,0.5,-264.0,205.0,0.5,,0.5,False
 Maverick McNealy,R1 Leaderboard Position,,10.5,10.5,,423.0,10.5,,10.5,False
 Maverick McNealy,Tourney Finishing Position,,20.5,20.5,,150.0,20.5,,20.5,False
@@ -219,6 +251,7 @@ Nick Taylor,Made Cuts,,0.5,0.5,-193.0,156.0,0.5,,0.5,False
 Nick Taylor,Tourney Finishing Position,,20.5,20.5,,284.0,20.5,,20.5,False
 Nico Echavarria,Made Cuts,,0.5,0.5,-148.0,120.0,0.5,,0.5,False
 Nico Echavarria,Tourney Finishing Position,,20.5,20.5,,377.0,20.5,,20.5,False
+Nicolas Echavarria,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Patrick Fishburn,Made Cuts,,0.5,0.5,-124.0,,0.5,,0.5,False
 Patrick Fishburn,Tourney Finishing Position,,20.5,20.5,,389.0,20.5,,20.5,False
 Patrick Rodgers,Made Cuts,,0.5,0.5,135.0,,0.5,,0.5,False
@@ -227,7 +260,9 @@ Patton Kizzire,Made Cuts,,0.5,0.5,232.0,,0.5,,0.5,False
 Patton Kizzire,Tourney Finishing Position,,20.5,20.5,,1800.0,20.5,,20.5,False
 Peter Malnati,Made Cuts,,0.5,0.5,193.0,,0.5,,0.5,False
 Peter Malnati,Tourney Finishing Position,,20.5,20.5,,1260.0,20.5,,20.5,False
+Pierceson Coody,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Pierceson Coody,Made Cuts,,0.5,0.5,-141.0,115.0,0.5,,0.5,False
+Pierceson Coody,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Pierceson Coody,Tourney Finishing Position,,20.5,20.5,,324.0,20.5,,20.5,False
 Pontus Nyholm,Made Cuts,,0.5,0.5,169.0,,0.5,,0.5,False
 Pontus Nyholm,Tourney Finishing Position,,20.5,20.5,,820.0,20.5,,20.5,False
@@ -241,18 +276,24 @@ Ricky Castillo,Made Cuts,,0.5,0.5,-167.0,136.0,0.5,,0.5,False
 Ricky Castillo,Tourney Finishing Position,,20.5,20.5,,315.0,20.5,,20.5,False
 Rico Hoey,Made Cuts,,0.5,0.5,-150.0,122.0,0.5,,0.5,False
 Rico Hoey,Tourney Finishing Position,,20.5,20.5,,324.0,20.5,,20.5,False
+Ryan Gerard,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Ryan Gerard,Made Cuts,,0.5,0.5,-313.0,242.0,0.5,,0.5,False
+Ryan Gerard,Pars,11.5,,11.5,,,11.5,,11.5,False
 Ryan Gerard,R1 Leaderboard Position,,10.5,10.5,,436.0,10.5,,10.5,False
+Ryan Gerard,Strokes,67.5,,67.5,,,68.03846153846153,,68.03846153846153,False
 Ryan Gerard,Tourney Finishing Position,,20.5,20.5,,150.0,20.5,,20.5,False
 Ryo Hisatsune,Made Cuts,,0.5,0.5,-218.0,174.0,0.5,,0.5,False
 Ryo Hisatsune,Tourney Finishing Position,,20.5,20.5,,260.0,20.5,,20.5,False
 Sahith Theegala,Made Cuts,,0.5,0.5,-193.0,156.0,0.5,,0.5,False
 Sahith Theegala,Tourney Finishing Position,,20.5,20.5,,250.0,20.5,,20.5,False
 Sam Stevens,Made Cuts,,0.5,0.5,-141.0,115.0,0.5,,0.5,False
+Sam Stevens,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Sam Stevens,Tourney Finishing Position,,20.5,20.5,,359.0,20.5,,20.5,False
 Seamus Power,Made Cuts,,0.5,0.5,-141.0,115.0,0.5,,0.5,False
 Seamus Power,Tourney Finishing Position,,20.5,20.5,,402.0,20.5,,20.5,False
 Sepp Straka,Made Cuts,,0.5,0.5,-167.0,136.0,0.5,,0.5,False
+Sepp Straka,Pars,11.5,,11.5,,,11.5,,11.5,False
+Sepp Straka,Strokes,68.5,,68.5,,,68.03846153846153,,68.03846153846153,False
 Sepp Straka,Tourney Finishing Position,,20.5,20.5,,320.0,20.5,,20.5,False
 Stefano Mazzoli,Made Cuts,,0.5,0.5,195.0,,0.5,,0.5,False
 Stefano Mazzoli,Tourney Finishing Position,,20.5,20.5,,1260.0,20.5,,20.5,False
@@ -261,11 +302,13 @@ Stephan Jaeger,Tourney Finishing Position,,20.5,20.5,,320.0,20.5,,20.5,False
 Steven Fisk,Made Cuts,,0.5,0.5,-127.0,,0.5,,0.5,False
 Steven Fisk,Tourney Finishing Position,,20.5,20.5,,389.0,20.5,,20.5,False
 Sungjae Im,Made Cuts,,0.5,0.5,-228.0,181.0,0.5,,0.5,False
+Sungjae Im,Pars,11.5,,11.5,,,11.5,,11.5,False
 Sungjae Im,Tourney Finishing Position,,20.5,20.5,,232.0,20.5,,20.5,False
 Takumi Kanaya,Made Cuts,,0.5,0.5,114.0,,0.5,,0.5,False
 Takumi Kanaya,Tourney Finishing Position,,20.5,20.5,,622.0,20.5,,20.5,False
 Taylor Moore,Made Cuts,,0.5,0.5,-122.0,,0.5,,0.5,False
 Taylor Moore,Tourney Finishing Position,,20.5,20.5,,419.0,20.5,,20.5,False
+Taylor Pendrith,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Taylor Pendrith,Made Cuts,,0.5,0.5,-117.0,,0.5,,0.5,False
 Taylor Pendrith,Tourney Finishing Position,,20.5,20.5,,415.0,20.5,,20.5,False
 Thorbjørn Olesen,Made Cuts,,0.5,0.5,-130.0,106.0,0.5,,0.5,False
@@ -273,8 +316,10 @@ Thorbjørn Olesen,Tourney Finishing Position,,20.5,20.5,,411.0,20.5,,20.5,False
 Tom Hoge,Made Cuts,,0.5,0.5,107.0,,0.5,,0.5,False
 Tom Hoge,Tourney Finishing Position,,20.5,20.5,,509.0,20.5,,20.5,False
 Tom Kim,Made Cuts,,0.5,0.5,-286.0,224.0,0.5,,0.5,False
+Tom Kim,Pars,11.5,,11.5,,,11.5,,11.5,False
 Tom Kim,R1 Leaderboard Position,,10.5,10.5,,463.0,10.5,,10.5,False
 Tom Kim,Tourney Finishing Position,,20.5,20.5,,166.0,20.5,,20.5,False
+Tony Finau,Holes Played,36.5,,36.5,,,36.5,,36.5,False
 Tony Finau,Made Cuts,,0.5,0.5,-143.0,117.0,0.5,,0.5,False
 Tony Finau,Tourney Finishing Position,,20.5,20.5,,293.0,20.5,,20.5,False
 Trace Crowe,Made Cuts,,0.5,0.5,148.0,,0.5,,0.5,False
