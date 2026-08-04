@@ -1,142 +1,199 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Cameron Young,10400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43746486,08/06/2026 6:00 AM,2026-08-04T11:33:15.858753Z
-Jackson Koivun,10100,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43746487,08/06/2026 6:00 AM,2026-08-04T11:33:15.858773Z
-Patrick Cantlay,10000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43746488,08/06/2026 6:00 AM,2026-08-04T11:33:15.858782Z
-Hideki Matsuyama,9500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43746489,08/06/2026 6:00 AM,2026-08-04T11:33:15.858791Z
-Justin Thomas,9400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,43746490,08/06/2026 6:00 AM,2026-08-04T11:33:15.858798Z
-Ryan Gerard,9300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43746491,08/06/2026 6:00 AM,2026-08-04T11:33:15.858804Z
-Tom Kim,9200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43746492,08/06/2026 6:00 AM,2026-08-04T11:33:15.858810Z
-Ben Griffin,9100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,43746493,08/06/2026 6:00 AM,2026-08-04T11:33:15.858820Z
-Maverick McNealy,9000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43746494,08/06/2026 6:00 AM,2026-08-04T11:33:15.858827Z
-Keegan Bradley,8900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/518.png,804,43746495,08/06/2026 6:00 AM,2026-08-04T11:33:15.858837Z
-Aaron Rai,8800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/861.png,353925,43746496,08/06/2026 6:00 AM,2026-08-04T11:33:15.858843Z
-Alex Fitzpatrick,8700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43746497,08/06/2026 6:00 AM,2026-08-04T11:33:15.858849Z
-Michael Brennan,8600,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43746498,08/06/2026 6:00 AM,2026-08-04T11:33:15.858855Z
-Brooks Koepka,8500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,43746499,08/06/2026 6:00 AM,2026-08-04T11:33:15.858860Z
-Davis Thompson,8400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43746500,08/06/2026 6:00 AM,2026-08-04T11:33:15.858866Z
-Harris English,8300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/598.png,1600,43746501,08/06/2026 6:00 AM,2026-08-04T11:33:15.858903Z
-Brian Harman,8200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/533.png,805,43746502,08/06/2026 6:00 AM,2026-08-04T11:33:15.858910Z
-Mac Meissner,8100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,43746503,08/06/2026 6:00 AM,2026-08-04T11:33:15.858915Z
-Jordan Spieth,8000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/882.png,171,43746504,08/06/2026 6:00 AM,2026-08-04T11:33:15.858926Z
-Keith Mitchell,7900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,43746505,08/06/2026 6:00 AM,2026-08-04T11:33:15.858932Z
-Alex Noren,7900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43746506,08/06/2026 6:00 AM,2026-08-04T11:33:15.858937Z
-Doug Ghim,7800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/546.png,670625,43746507,08/06/2026 6:00 AM,2026-08-04T11:33:15.858942Z
-Blades Brown,7800,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,795495,43746508,08/06/2026 6:00 AM,2026-08-04T11:33:15.858947Z
-Sungjae Im,7700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/621.png,670620,43746509,08/06/2026 6:00 AM,2026-08-04T11:33:15.858953Z
-Ben Kohles,7700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,43746510,08/06/2026 6:00 AM,2026-08-04T11:33:15.858958Z
-Alex Smalley,7600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43746511,08/06/2026 6:00 AM,2026-08-04T11:33:15.858963Z
-Rasmus Højgaard,7600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,43746512,08/06/2026 6:00 AM,2026-08-04T11:33:15.858974Z
-Jordan L. Smith,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43746513,08/06/2026 6:00 AM,2026-08-04T11:33:15.858980Z
-Matt Wallace,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43746514,08/06/2026 6:00 AM,2026-08-04T11:33:15.858987Z
-Christiaan Bezuidenhout,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1115.png,453,43746515,08/06/2026 6:00 AM,2026-08-04T11:33:15.858993Z
-J.T. Poston,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43746516,08/06/2026 6:00 AM,2026-08-04T11:33:15.858999Z
-Chris Kirk,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,43746517,08/06/2026 6:00 AM,2026-08-04T11:33:15.859004Z
-Bud Cauley,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43746518,08/06/2026 6:00 AM,2026-08-04T11:33:15.859009Z
-Benjamin James,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765775,43746519,08/06/2026 6:00 AM,2026-08-04T11:33:15.859014Z
-Eric Cole,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,43746520,08/06/2026 6:00 AM,2026-08-04T11:33:15.859019Z
-Max Greyserman,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,43746521,08/06/2026 6:00 AM,2026-08-04T11:33:15.859025Z
-Michael Kim,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/597.png,1932,43746522,08/06/2026 6:00 AM,2026-08-04T11:33:15.859030Z
-Ryo Hisatsune,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,43746523,08/06/2026 6:00 AM,2026-08-04T11:33:15.859035Z
-Sahith Theegala,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43746524,08/06/2026 6:00 AM,2026-08-04T11:33:15.859040Z
-Emiliano Grillo,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1085.png,610,43746525,08/06/2026 6:00 AM,2026-08-04T11:33:15.859045Z
-Rasmus Neergaard-Petersen,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,720984,43746526,08/06/2026 6:00 AM,2026-08-04T11:33:15.859055Z
-Sepp Straka,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/654.png,73285,43746527,08/06/2026 6:00 AM,2026-08-04T11:33:15.859060Z
-Nick Taylor,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,43746528,08/06/2026 6:00 AM,2026-08-04T11:33:15.859065Z
-Marco Penge,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,698887,43746529,08/06/2026 6:00 AM,2026-08-04T11:33:15.859069Z
-Pierceson Coody,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,43746530,08/06/2026 6:00 AM,2026-08-04T11:33:15.859076Z
-Johnny Keefer,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,814141,43746531,08/06/2026 6:00 AM,2026-08-04T11:33:15.859081Z
-Denny McCarthy,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/631.png,1018,43746532,08/06/2026 6:00 AM,2026-08-04T11:33:15.859087Z
-Jackson Suber,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,43746533,08/06/2026 6:00 AM,2026-08-04T11:33:15.859092Z
-Zac Blair,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/614.png,530,43746534,08/06/2026 6:00 AM,2026-08-04T11:33:15.859099Z
-Jason Day,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1122.png,815,43746535,08/06/2026 6:00 AM,2026-08-04T11:33:15.859104Z
-Billy Horschel,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/915.png,1725,43746536,08/06/2026 6:00 AM,2026-08-04T11:33:15.859109Z
-Kevin Yu,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43746537,08/06/2026 6:00 AM,2026-08-04T11:33:15.859114Z
-Rico Hoey,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,43746538,08/06/2026 6:00 AM,2026-08-04T11:33:15.859119Z
-Tony Finau,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/808.png,2125,43746539,08/06/2026 6:00 AM,2026-08-04T11:33:15.859124Z
-Ricky Castillo,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,43746540,08/06/2026 6:00 AM,2026-08-04T11:33:15.859128Z
-Kevin Roy,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43746541,08/06/2026 6:00 AM,2026-08-04T11:33:15.859133Z
-Austin Eckroat,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1053.png,696563,43746542,08/06/2026 6:00 AM,2026-08-04T11:33:15.859138Z
-Taylor Pendrith,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/716.png,1802,43746543,08/06/2026 6:00 AM,2026-08-04T11:33:15.859143Z
-Daniel Berger,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1178.png,1870,43746544,08/06/2026 6:00 AM,2026-08-04T11:33:15.859148Z
-Zachary Bauchou,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43746545,08/06/2026 6:00 AM,2026-08-04T11:33:15.859153Z
-Max McGreevy,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,43746546,08/06/2026 6:00 AM,2026-08-04T11:33:15.859158Z
-Nicolas Echavarria,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43746547,08/06/2026 6:00 AM,2026-08-04T11:33:15.859163Z
-Harry Hall,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43746548,08/06/2026 6:00 AM,2026-08-04T11:33:15.859168Z
-Lee Hodges,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,43746549,08/06/2026 6:00 AM,2026-08-04T11:33:15.859175Z
-Beau Hossler,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43746550,08/06/2026 6:00 AM,2026-08-04T11:33:15.859181Z
-Mackenzie Hughes,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/635.png,552,43746551,08/06/2026 6:00 AM,2026-08-04T11:33:15.859188Z
-Andrew Novak,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/658.png,670403,43746552,08/06/2026 6:00 AM,2026-08-04T11:33:15.859193Z
-Matthew McCarty,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43746553,08/06/2026 6:00 AM,2026-08-04T11:33:15.859200Z
-Thorbjørn Olesen,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/756.png,437,43746554,08/06/2026 6:00 AM,2026-08-04T11:33:15.859207Z
-Steven Fisk,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,43746555,08/06/2026 6:00 AM,2026-08-04T11:33:15.859212Z
-Stephan Jaeger,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/821.png,2044,43746556,08/06/2026 6:00 AM,2026-08-04T11:33:15.859216Z
-Taylor Moore,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,43746557,08/06/2026 6:00 AM,2026-08-04T11:33:15.859221Z
-Luke Clanton,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796547,43746558,08/06/2026 6:00 AM,2026-08-04T11:33:15.859226Z
-Sam Stevens,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/564993.png,720888,43746559,08/06/2026 6:00 AM,2026-08-04T11:33:15.859231Z
-Lucas Glover,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/992.png,2158,43746560,08/06/2026 6:00 AM,2026-08-04T11:33:15.859236Z
-Seamus Power,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/541.png,185304,43746561,08/06/2026 6:00 AM,2026-08-04T11:33:15.859241Z
-Kris Ventura,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/560.png,682435,43746562,08/06/2026 6:00 AM,2026-08-04T11:33:15.859247Z
-William Mouw,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,43746563,08/06/2026 6:00 AM,2026-08-04T11:33:15.859252Z
-Aldrich Potgieter,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,43746564,08/06/2026 6:00 AM,2026-08-04T11:33:15.859258Z
-Matti Schmid,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/790.png,697208,43746565,08/06/2026 6:00 AM,2026-08-04T11:33:15.859268Z
-Jesper Svensson,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,43746566,08/06/2026 6:00 AM,2026-08-04T11:33:15.859273Z
-Adrien Dumont De Chassart,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,43746567,08/06/2026 6:00 AM,2026-08-04T11:33:15.859280Z
-Andrew Putnam,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/730.png,665,43746568,08/06/2026 6:00 AM,2026-08-04T11:33:15.859285Z
-Patrick Fishburn,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,43746569,08/06/2026 6:00 AM,2026-08-04T11:33:15.859292Z
-John Parry,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,43746570,08/06/2026 6:00 AM,2026-08-04T11:33:15.859298Z
-Davis Riley,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,43746571,08/06/2026 6:00 AM,2026-08-04T11:33:15.859303Z
-Hao-Tong Li,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,43746572,08/06/2026 6:00 AM,2026-08-04T11:33:15.859310Z
-Zecheng Dou,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450649.png,770,43746573,08/06/2026 6:00 AM,2026-08-04T11:33:15.859316Z
-Neal Shipley,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,793366,43746574,08/06/2026 6:00 AM,2026-08-04T11:33:15.859321Z
-Chandler Blanchet,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703933,43746575,08/06/2026 6:00 AM,2026-08-04T11:33:15.859327Z
-Tom Hoge,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648.png,1760,43746576,08/06/2026 6:00 AM,2026-08-04T11:33:15.859331Z
-Mark Hubbard,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/629.png,2056,43746577,08/06/2026 6:00 AM,2026-08-04T11:33:15.859336Z
-Webb Simpson,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/913.png,703,43746578,08/06/2026 6:00 AM,2026-08-04T11:33:15.859341Z
-Austin Smotherman,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451957.png,477949,43746579,08/06/2026 6:00 AM,2026-08-04T11:33:15.859347Z
-Chandler Phillips,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,43746580,08/06/2026 6:00 AM,2026-08-04T11:33:15.859352Z
-Karl Vilips,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/709867.png,773007,43746581,08/06/2026 6:00 AM,2026-08-04T11:33:15.859357Z
-A.J. Ewart,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/canada.png,765420,43746582,08/06/2026 6:00 AM,2026-08-04T11:33:15.859362Z
-Matt Kuchar,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/924.png,1639,43746583,08/06/2026 6:00 AM,2026-08-04T11:33:15.859367Z
-Aaron Wise,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/850.png,83255,43746584,08/06/2026 6:00 AM,2026-08-04T11:33:15.859373Z
-Joel Dahmen,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/521.png,1622,43746585,08/06/2026 6:00 AM,2026-08-04T11:33:15.859377Z
-Takumi Kanaya,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/788.png,693416,43746586,08/06/2026 6:00 AM,2026-08-04T11:33:15.859383Z
-Brandt Snedeker,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/690.png,400,43746587,08/06/2026 6:00 AM,2026-08-04T11:33:15.859388Z
-Garrick Higgo,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,43746588,08/06/2026 6:00 AM,2026-08-04T11:33:15.859393Z
-David Lipsky,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/752.png,586,43746589,08/06/2026 6:00 AM,2026-08-04T11:33:15.859398Z
-Kihei Akina,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,798645,43746590,08/06/2026 6:00 AM,2026-08-04T11:33:15.859403Z
-Chad Ramey,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/983.png,2119,43746591,08/06/2026 6:00 AM,2026-08-04T11:33:15.859408Z
-Matthieu Pavon,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,43746592,08/06/2026 6:00 AM,2026-08-04T11:33:15.859415Z
-Patrick Rodgers,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,43746593,08/06/2026 6:00 AM,2026-08-04T11:33:15.859420Z
-Adrien Saddier,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,2649,43746594,08/06/2026 6:00 AM,2026-08-04T11:33:15.859425Z
-Vince Whaley,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/667.png,698823,43746595,08/06/2026 6:00 AM,2026-08-04T11:33:15.859430Z
-Lanto Griffin,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/605.png,648084,43746596,08/06/2026 6:00 AM,2026-08-04T11:33:15.859437Z
-Justin Lower,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450914.png,1295,43746597,08/06/2026 6:00 AM,2026-08-04T11:33:15.859442Z
-Adam Svensson,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1054.png,689,43746598,08/06/2026 6:00 AM,2026-08-04T11:33:15.859447Z
-Trace Crowe,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,43746599,08/06/2026 6:00 AM,2026-08-04T11:33:15.859452Z
-C.T. Pan,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1219.png,1653,43746600,08/06/2026 6:00 AM,2026-08-04T11:33:15.859457Z
-Davis Chatfield,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,769810,43746601,08/06/2026 6:00 AM,2026-08-04T11:33:15.859462Z
-Erik Van Rooyen,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,43746602,08/06/2026 6:00 AM,2026-08-04T11:33:15.859468Z
-Nick Dunlap,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,43746603,08/06/2026 6:00 AM,2026-08-04T11:33:15.859473Z
-Hank Lebioda,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/526.png,692004,43746604,08/06/2026 6:00 AM,2026-08-04T11:33:15.859478Z
-Pontus Nyholm,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,690519,43746605,08/06/2026 6:00 AM,2026-08-04T11:33:15.859482Z
-Dylan Wu,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,43746606,08/06/2026 6:00 AM,2026-08-04T11:33:15.859487Z
-John VanDerLaan,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,689877,43746607,08/06/2026 6:00 AM,2026-08-04T11:33:15.859492Z
-Joe Highsmith,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,43746608,08/06/2026 6:00 AM,2026-08-04T11:33:15.859497Z
-Gordon Sargent,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,771299,43746609,08/06/2026 6:00 AM,2026-08-04T11:33:15.859502Z
-Brian Campbell,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451096.png,1567,43746610,08/06/2026 6:00 AM,2026-08-04T11:33:15.859507Z
-Kevin Streelman,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/602.png,1554,43746611,08/06/2026 6:00 AM,2026-08-04T11:33:15.859512Z
-Jeffrey Kang,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762326,43746612,08/06/2026 6:00 AM,2026-08-04T11:33:15.859519Z
-Brice Garnett,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/613.png,1832,43746613,08/06/2026 6:00 AM,2026-08-04T11:33:15.859525Z
-Stefano Mazzoli,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/italy.png,122743,43746614,08/06/2026 6:00 AM,2026-08-04T11:33:15.859532Z
-Peter Malnati,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/660.png,1210,43746615,08/06/2026 6:00 AM,2026-08-04T11:33:15.859537Z
-Kensei Hirata,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,43746616,08/06/2026 6:00 AM,2026-08-04T11:33:15.859542Z
-Adam Schenk,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/638.png,648099,43746617,08/06/2026 6:00 AM,2026-08-04T11:33:15.859549Z
-Cameron Davis,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/578.png,330678,43746618,08/06/2026 6:00 AM,2026-08-04T11:33:15.859554Z
-Danny Walker,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,43746619,08/06/2026 6:00 AM,2026-08-04T11:33:15.859559Z
-Alejandro Tosti,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,43746620,08/06/2026 6:00 AM,2026-08-04T11:33:15.859564Z
-Christo Lamprecht,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,670532,43746621,08/06/2026 6:00 AM,2026-08-04T11:33:15.859569Z
-Marcelo Rozo,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/colombia.png,2083,43746622,08/06/2026 6:00 AM,2026-08-04T11:33:15.859574Z
-Patton Kizzire,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/592.png,856,43746623,08/06/2026 6:00 AM,2026-08-04T11:33:15.859579Z
-Rafael Campos,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/570.png,1971,43746624,08/06/2026 6:00 AM,2026-08-04T11:33:15.859584Z
-Tyler Collet,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549844.png,705485,43746625,08/06/2026 6:00 AM,2026-08-04T11:33:15.859588Z
-Cooper Hrabak,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,871610,43746626,08/06/2026 6:00 AM,2026-08-04T11:33:15.859593Z
+Cameron Young,10400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43746486,08/06/2026 6:00 AM,2026-08-04T14:37:53.903542Z
+Jackson Koivun,10100,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43746487,08/06/2026 6:00 AM,2026-08-04T14:37:53.903560Z
+Patrick Cantlay,10000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43746488,08/06/2026 6:00 AM,2026-08-04T14:37:53.903568Z
+Hideki Matsuyama,9500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43746489,08/06/2026 6:00 AM,2026-08-04T14:37:53.903577Z
+Justin Thomas,9400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,43746490,08/06/2026 6:00 AM,2026-08-04T14:37:53.903583Z
+Ryan Gerard,9300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43746491,08/06/2026 6:00 AM,2026-08-04T14:37:53.903589Z
+Tom Kim,9200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43746492,08/06/2026 6:00 AM,2026-08-04T14:37:53.903595Z
+Ben Griffin,9100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,43746493,08/06/2026 6:00 AM,2026-08-04T14:37:53.903605Z
+Maverick McNealy,9000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43746494,08/06/2026 6:00 AM,2026-08-04T14:37:53.903612Z
+Keegan Bradley,8900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/518.png,804,43746495,08/06/2026 6:00 AM,2026-08-04T14:37:53.903622Z
+Aaron Rai,8800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/861.png,353925,43746496,08/06/2026 6:00 AM,2026-08-04T14:37:53.903628Z
+Alex Fitzpatrick,8700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43746497,08/06/2026 6:00 AM,2026-08-04T14:37:53.903634Z
+Michael Brennan,8600,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43746498,08/06/2026 6:00 AM,2026-08-04T14:37:53.903639Z
+Brooks Koepka,8500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,43746499,08/06/2026 6:00 AM,2026-08-04T14:37:53.903645Z
+Davis Thompson,8400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43746500,08/06/2026 6:00 AM,2026-08-04T14:37:53.903650Z
+Harris English,8300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/598.png,1600,43746501,08/06/2026 6:00 AM,2026-08-04T14:37:53.903656Z
+Brian Harman,8200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/533.png,805,43746502,08/06/2026 6:00 AM,2026-08-04T14:37:53.903661Z
+Mac Meissner,8100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,43746503,08/06/2026 6:00 AM,2026-08-04T14:37:53.903666Z
+Jordan Spieth,8000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/882.png,171,43746504,08/06/2026 6:00 AM,2026-08-04T14:37:53.903672Z
+Keith Mitchell,7900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,43746505,08/06/2026 6:00 AM,2026-08-04T14:37:53.903677Z
+Alex Noren,7900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43746506,08/06/2026 6:00 AM,2026-08-04T14:37:53.903682Z
+Doug Ghim,7800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/546.png,670625,43746507,08/06/2026 6:00 AM,2026-08-04T14:37:53.903689Z
+Blades Brown,7800,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,795495,43746508,08/06/2026 6:00 AM,2026-08-04T14:37:53.903694Z
+Sungjae Im,7700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/621.png,670620,43746509,08/06/2026 6:00 AM,2026-08-04T14:37:53.903698Z
+Ben Kohles,7700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,43746510,08/06/2026 6:00 AM,2026-08-04T14:37:53.903703Z
+Alex Smalley,7600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43746511,08/06/2026 6:00 AM,2026-08-04T14:37:53.903711Z
+Rasmus Højgaard,7600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,43746512,08/06/2026 6:00 AM,2026-08-04T14:37:53.903720Z
+Jordan L. Smith,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43746513,08/06/2026 6:00 AM,2026-08-04T14:37:53.903726Z
+Matt Wallace,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43746514,08/06/2026 6:00 AM,2026-08-04T14:37:53.903733Z
+Christiaan Bezuidenhout,7500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1115.png,453,43746515,08/06/2026 6:00 AM,2026-08-04T14:37:53.903739Z
+J.T. Poston,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43746516,08/06/2026 6:00 AM,2026-08-04T14:37:53.903744Z
+Chris Kirk,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,43746517,08/06/2026 6:00 AM,2026-08-04T14:37:53.903749Z
+Bud Cauley,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43746518,08/06/2026 6:00 AM,2026-08-04T14:37:53.903754Z
+Benjamin James,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765775,43746519,08/06/2026 6:00 AM,2026-08-04T14:37:53.903759Z
+Eric Cole,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,43746520,08/06/2026 6:00 AM,2026-08-04T14:37:53.903764Z
+Max Greyserman,7400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,43746521,08/06/2026 6:00 AM,2026-08-04T14:37:53.903769Z
+Michael Kim,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/597.png,1932,43746522,08/06/2026 6:00 AM,2026-08-04T14:37:53.903773Z
+Ryo Hisatsune,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,43746523,08/06/2026 6:00 AM,2026-08-04T14:37:53.903778Z
+Sahith Theegala,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43746524,08/06/2026 6:00 AM,2026-08-04T14:37:53.903783Z
+Emiliano Grillo,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1085.png,610,43746525,08/06/2026 6:00 AM,2026-08-04T14:37:53.903788Z
+Rasmus Neergaard-Petersen,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,720984,43746526,08/06/2026 6:00 AM,2026-08-04T14:37:53.903793Z
+Sepp Straka,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/654.png,73285,43746527,08/06/2026 6:00 AM,2026-08-04T14:37:53.903799Z
+Nick Taylor,7300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,43746528,08/06/2026 6:00 AM,2026-08-04T14:37:53.903803Z
+Marco Penge,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,698887,43746529,08/06/2026 6:00 AM,2026-08-04T14:37:53.903808Z
+Pierceson Coody,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,43746530,08/06/2026 6:00 AM,2026-08-04T14:37:53.903813Z
+Johnny Keefer,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,814141,43746531,08/06/2026 6:00 AM,2026-08-04T14:37:53.903818Z
+Denny McCarthy,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/631.png,1018,43746532,08/06/2026 6:00 AM,2026-08-04T14:37:53.903822Z
+Jackson Suber,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,43746533,08/06/2026 6:00 AM,2026-08-04T14:37:53.903827Z
+Zac Blair,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/614.png,530,43746534,08/06/2026 6:00 AM,2026-08-04T14:37:53.903835Z
+Jason Day,7200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1122.png,815,43746535,08/06/2026 6:00 AM,2026-08-04T14:37:53.903840Z
+Billy Horschel,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/915.png,1725,43746536,08/06/2026 6:00 AM,2026-08-04T14:37:53.903845Z
+Kevin Yu,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43746537,08/06/2026 6:00 AM,2026-08-04T14:37:53.903849Z
+Rico Hoey,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,43746538,08/06/2026 6:00 AM,2026-08-04T14:37:53.903854Z
+Tony Finau,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/808.png,2125,43746539,08/06/2026 6:00 AM,2026-08-04T14:37:53.903859Z
+Ricky Castillo,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,43746540,08/06/2026 6:00 AM,2026-08-04T14:37:53.903864Z
+Kevin Roy,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43746541,08/06/2026 6:00 AM,2026-08-04T14:37:53.903868Z
+Austin Eckroat,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1053.png,696563,43746542,08/06/2026 6:00 AM,2026-08-04T14:37:53.903873Z
+Taylor Pendrith,7100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/716.png,1802,43746543,08/06/2026 6:00 AM,2026-08-04T14:37:53.903878Z
+Daniel Berger,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1178.png,1870,43746544,08/06/2026 6:00 AM,2026-08-04T14:37:53.903882Z
+Zachary Bauchou,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43746545,08/06/2026 6:00 AM,2026-08-04T14:37:53.903887Z
+Max McGreevy,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,43746546,08/06/2026 6:00 AM,2026-08-04T14:37:53.903892Z
+Nicolas Echavarria,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43746547,08/06/2026 6:00 AM,2026-08-04T14:37:53.903897Z
+Harry Hall,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43746548,08/06/2026 6:00 AM,2026-08-04T14:37:53.903901Z
+Lee Hodges,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,43746549,08/06/2026 6:00 AM,2026-08-04T14:37:53.903906Z
+Beau Hossler,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43746550,08/06/2026 6:00 AM,2026-08-04T14:37:53.903911Z
+Mackenzie Hughes,7000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/635.png,552,43746551,08/06/2026 6:00 AM,2026-08-04T14:37:53.903916Z
+Andrew Novak,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/658.png,670403,43746552,08/06/2026 6:00 AM,2026-08-04T14:37:53.903923Z
+Matthew McCarty,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43746553,08/06/2026 6:00 AM,2026-08-04T14:37:53.903930Z
+Thorbjørn Olesen,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/756.png,437,43746554,08/06/2026 6:00 AM,2026-08-04T14:37:53.903940Z
+Steven Fisk,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,43746555,08/06/2026 6:00 AM,2026-08-04T14:37:53.903945Z
+Stephan Jaeger,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/821.png,2044,43746556,08/06/2026 6:00 AM,2026-08-04T14:37:53.903950Z
+Taylor Moore,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,43746557,08/06/2026 6:00 AM,2026-08-04T14:37:53.903957Z
+Luke Clanton,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796547,43746558,08/06/2026 6:00 AM,2026-08-04T14:37:53.903961Z
+Sam Stevens,6900,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/564993.png,720888,43746559,08/06/2026 6:00 AM,2026-08-04T14:37:53.903966Z
+Lucas Glover,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/992.png,2158,43746560,08/06/2026 6:00 AM,2026-08-04T14:37:53.903971Z
+Seamus Power,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/541.png,185304,43746561,08/06/2026 6:00 AM,2026-08-04T14:37:53.903976Z
+Kris Ventura,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/560.png,682435,43746562,08/06/2026 6:00 AM,2026-08-04T14:37:53.903982Z
+William Mouw,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,43746563,08/06/2026 6:00 AM,2026-08-04T14:37:53.903987Z
+Aldrich Potgieter,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,43746564,08/06/2026 6:00 AM,2026-08-04T14:37:53.903992Z
+Matti Schmid,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/790.png,697208,43746565,08/06/2026 6:00 AM,2026-08-04T14:37:53.903997Z
+Jesper Svensson,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,43746566,08/06/2026 6:00 AM,2026-08-04T14:37:53.904002Z
+Adrien Dumont De Chassart,6800,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,43746567,08/06/2026 6:00 AM,2026-08-04T14:37:53.904008Z
+Andrew Putnam,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/730.png,665,43746568,08/06/2026 6:00 AM,2026-08-04T14:37:53.904013Z
+Patrick Fishburn,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,43746569,08/06/2026 6:00 AM,2026-08-04T14:37:53.904018Z
+John Parry,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,43746570,08/06/2026 6:00 AM,2026-08-04T14:37:53.904040Z
+Davis Riley,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,43746571,08/06/2026 6:00 AM,2026-08-04T14:37:53.904046Z
+Hao-Tong Li,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,43746572,08/06/2026 6:00 AM,2026-08-04T14:37:53.904051Z
+Zecheng Dou,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450649.png,770,43746573,08/06/2026 6:00 AM,2026-08-04T14:37:53.904058Z
+Neal Shipley,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,793366,43746574,08/06/2026 6:00 AM,2026-08-04T14:37:53.904063Z
+Chandler Blanchet,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703933,43746575,08/06/2026 6:00 AM,2026-08-04T14:37:53.904068Z
+Tom Hoge,6700,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648.png,1760,43746576,08/06/2026 6:00 AM,2026-08-04T14:37:53.904073Z
+Mark Hubbard,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/629.png,2056,43746577,08/06/2026 6:00 AM,2026-08-04T14:37:53.904077Z
+Webb Simpson,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/913.png,703,43746578,08/06/2026 6:00 AM,2026-08-04T14:37:53.904082Z
+Austin Smotherman,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451957.png,477949,43746579,08/06/2026 6:00 AM,2026-08-04T14:37:53.904087Z
+Chandler Phillips,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,43746580,08/06/2026 6:00 AM,2026-08-04T14:37:53.904092Z
+Karl Vilips,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/709867.png,773007,43746581,08/06/2026 6:00 AM,2026-08-04T14:37:53.904097Z
+A.J. Ewart,6600,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/canada.png,765420,43746582,08/06/2026 6:00 AM,2026-08-04T14:37:53.904104Z
+Matt Kuchar,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/924.png,1639,43746583,08/06/2026 6:00 AM,2026-08-04T14:37:53.904109Z
+Aaron Wise,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/850.png,83255,43746584,08/06/2026 6:00 AM,2026-08-04T14:37:53.904114Z
+Joel Dahmen,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/521.png,1622,43746585,08/06/2026 6:00 AM,2026-08-04T14:37:53.904119Z
+Takumi Kanaya,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/788.png,693416,43746586,08/06/2026 6:00 AM,2026-08-04T14:37:53.904124Z
+Brandt Snedeker,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/690.png,400,43746587,08/06/2026 6:00 AM,2026-08-04T14:37:53.904128Z
+Garrick Higgo,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,43746588,08/06/2026 6:00 AM,2026-08-04T14:37:53.904133Z
+David Lipsky,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/752.png,586,43746589,08/06/2026 6:00 AM,2026-08-04T14:37:53.904138Z
+Kihei Akina,6500,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,798645,43746590,08/06/2026 6:00 AM,2026-08-04T14:37:53.904143Z
+Chad Ramey,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/983.png,2119,43746591,08/06/2026 6:00 AM,2026-08-04T14:37:53.904149Z
+Matthieu Pavon,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,43746592,08/06/2026 6:00 AM,2026-08-04T14:37:53.904155Z
+Patrick Rodgers,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,43746593,08/06/2026 6:00 AM,2026-08-04T14:37:53.904160Z
+Adrien Saddier,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,2649,43746594,08/06/2026 6:00 AM,2026-08-04T14:37:53.904165Z
+Vince Whaley,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/667.png,698823,43746595,08/06/2026 6:00 AM,2026-08-04T14:37:53.904170Z
+Lanto Griffin,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/605.png,648084,43746596,08/06/2026 6:00 AM,2026-08-04T14:37:53.904175Z
+Justin Lower,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/450914.png,1295,43746597,08/06/2026 6:00 AM,2026-08-04T14:37:53.904179Z
+Adam Svensson,6400,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1054.png,689,43746598,08/06/2026 6:00 AM,2026-08-04T14:37:53.904184Z
+Trace Crowe,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,43746599,08/06/2026 6:00 AM,2026-08-04T14:37:53.904189Z
+C.T. Pan,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1219.png,1653,43746600,08/06/2026 6:00 AM,2026-08-04T14:37:53.904194Z
+Davis Chatfield,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,769810,43746601,08/06/2026 6:00 AM,2026-08-04T14:37:53.904199Z
+Erik Van Rooyen,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,43746602,08/06/2026 6:00 AM,2026-08-04T14:37:53.904206Z
+Nick Dunlap,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,43746603,08/06/2026 6:00 AM,2026-08-04T14:37:53.904211Z
+Hank Lebioda,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/526.png,692004,43746604,08/06/2026 6:00 AM,2026-08-04T14:37:53.904216Z
+Pontus Nyholm,6300,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,690519,43746605,08/06/2026 6:00 AM,2026-08-04T14:37:53.904221Z
+Dylan Wu,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,43746606,08/06/2026 6:00 AM,2026-08-04T14:37:53.904225Z
+John VanDerLaan,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,689877,43746607,08/06/2026 6:00 AM,2026-08-04T14:37:53.904230Z
+Joe Highsmith,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,43746608,08/06/2026 6:00 AM,2026-08-04T14:37:53.904235Z
+Gordon Sargent,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,771299,43746609,08/06/2026 6:00 AM,2026-08-04T14:37:53.904239Z
+Brian Campbell,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451096.png,1567,43746610,08/06/2026 6:00 AM,2026-08-04T14:37:53.904244Z
+Kevin Streelman,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/602.png,1554,43746611,08/06/2026 6:00 AM,2026-08-04T14:37:53.904249Z
+Jeffrey Kang,6200,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762326,43746612,08/06/2026 6:00 AM,2026-08-04T14:37:53.904255Z
+Brice Garnett,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/613.png,1832,43746613,08/06/2026 6:00 AM,2026-08-04T14:37:53.904260Z
+Stefano Mazzoli,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/italy.png,122743,43746614,08/06/2026 6:00 AM,2026-08-04T14:37:53.904265Z
+Peter Malnati,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/660.png,1210,43746615,08/06/2026 6:00 AM,2026-08-04T14:37:53.904270Z
+Kensei Hirata,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,43746616,08/06/2026 6:00 AM,2026-08-04T14:37:53.904275Z
+Adam Schenk,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/638.png,648099,43746617,08/06/2026 6:00 AM,2026-08-04T14:37:53.904280Z
+Cameron Davis,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/578.png,330678,43746618,08/06/2026 6:00 AM,2026-08-04T14:37:53.904284Z
+Danny Walker,6100,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,43746619,08/06/2026 6:00 AM,2026-08-04T14:37:53.904289Z
+Alejandro Tosti,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,43746620,08/06/2026 6:00 AM,2026-08-04T14:37:53.904294Z
+Christo Lamprecht,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,670532,43746621,08/06/2026 6:00 AM,2026-08-04T14:37:53.904299Z
+Marcelo Rozo,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/colombia.png,2083,43746622,08/06/2026 6:00 AM,2026-08-04T14:37:53.904304Z
+Patton Kizzire,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/592.png,856,43746623,08/06/2026 6:00 AM,2026-08-04T14:37:53.904308Z
+Rafael Campos,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/570.png,1971,43746624,08/06/2026 6:00 AM,2026-08-04T14:37:53.904313Z
+Tyler Collet,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549844.png,705485,43746625,08/06/2026 6:00 AM,2026-08-04T14:37:53.904320Z
+Cooper Hrabak,6000,Wyndham Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,871610,43746626,08/06/2026 6:00 AM,2026-08-04T14:37:53.904324Z
+Jon Rahm,11500,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,08/06/2026 6:00 AM,2026-08-04T14:37:53.904329Z
+Bryson DeChambeau,11000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,08/06/2026 6:00 AM,2026-08-04T14:37:53.904334Z
+Tyrrell Hatton,10500,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,08/06/2026 6:00 AM,2026-08-04T14:37:53.904339Z
+Joaquin Niemann,10000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,08/06/2026 6:00 AM,2026-08-04T14:37:53.904344Z
+Lucas Herbert,9700,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,08/06/2026 6:00 AM,2026-08-04T14:37:53.904350Z
+David Puig,9600,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,08/06/2026 6:00 AM,2026-08-04T14:37:53.904355Z
+Cameron Smith,9500,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,08/06/2026 6:00 AM,2026-08-04T14:37:53.904360Z
+Dean Burmester,9400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,08/06/2026 6:00 AM,2026-08-04T14:37:53.904365Z
+Marc Leishman,9200,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,08/06/2026 6:00 AM,2026-08-04T14:37:53.904369Z
+Abraham Ancer,9100,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,08/06/2026 6:00 AM,2026-08-04T14:37:53.904374Z
+Carlos Ortiz,9000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,08/06/2026 6:00 AM,2026-08-04T14:37:53.904379Z
+Dustin Johnson,8900,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,08/06/2026 6:00 AM,2026-08-04T14:37:53.904385Z
+Thomas Detry,8800,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,08/06/2026 6:00 AM,2026-08-04T14:37:53.904390Z
+Victor Perez,8700,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,08/06/2026 6:00 AM,2026-08-04T14:37:53.904395Z
+Branden Grace,8600,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,08/06/2026 6:00 AM,2026-08-04T14:37:53.904399Z
+Josele Ballester,8500,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,08/06/2026 6:00 AM,2026-08-04T14:37:53.904404Z
+Charles Howell III,8400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,08/06/2026 6:00 AM,2026-08-04T14:37:53.904410Z
+Talor Gooch,8300,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,08/06/2026 6:00 AM,2026-08-04T14:37:53.904415Z
+Tom McKibbin,8200,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,08/06/2026 6:00 AM,2026-08-04T14:37:53.904419Z
+Byeong Hun An,8100,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,08/06/2026 6:00 AM,2026-08-04T14:37:53.904425Z
+Sergio Garcia,8000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,08/06/2026 6:00 AM,2026-08-04T14:37:53.904429Z
+Harold Varner III,7900,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,08/06/2026 6:00 AM,2026-08-04T14:37:53.904437Z
+Scott Vincent,7800,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,08/06/2026 6:00 AM,2026-08-04T14:37:53.904442Z
+Paul Casey,7700,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,08/06/2026 6:00 AM,2026-08-04T14:37:53.904446Z
+Laurie Canter,7600,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,08/06/2026 6:00 AM,2026-08-04T14:37:53.904453Z
+Bubba Watson,7500,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,08/06/2026 6:00 AM,2026-08-04T14:37:53.904458Z
+Caleb Surratt,7500,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,08/06/2026 6:00 AM,2026-08-04T14:37:53.904463Z
+Thomas Pieters,7400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,08/06/2026 6:00 AM,2026-08-04T14:37:53.904467Z
+Sebastián Muñoz,7400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,08/06/2026 6:00 AM,2026-08-04T14:37:53.904474Z
+Anthony Kim,7300,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,08/06/2026 6:00 AM,2026-08-04T14:37:53.904479Z
+Louis Oosthuizen,7300,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,08/06/2026 6:00 AM,2026-08-04T14:37:53.904484Z
+Peter Uihlein,7200,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,08/06/2026 6:00 AM,2026-08-04T14:37:53.904489Z
+Anirban Lahiri,7200,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,08/06/2026 6:00 AM,2026-08-04T14:37:53.904494Z
+Matthew Wolff,7100,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,08/06/2026 6:00 AM,2026-08-04T14:37:53.904498Z
+Ian Poulter,7100,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,08/06/2026 6:00 AM,2026-08-04T14:37:53.904503Z
+Charl Schwartzel,7000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,08/06/2026 6:00 AM,2026-08-04T14:37:53.904508Z
+Cameron Tringale,7000,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,08/06/2026 6:00 AM,2026-08-04T14:37:53.904513Z
+Travis Smyth,6900,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,08/06/2026 6:00 AM,2026-08-04T14:37:53.904517Z
+Richard T. Lee,6900,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,08/06/2026 6:00 AM,2026-08-04T14:37:53.904523Z
+Adrian Meronk,6800,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,08/06/2026 6:00 AM,2026-08-04T14:37:53.904528Z
+Younghan Song,6800,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,08/06/2026 6:00 AM,2026-08-04T14:37:53.904532Z
+Luis Masaveu,6700,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,08/06/2026 6:00 AM,2026-08-04T14:37:53.904537Z
+Richard Bland,6700,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,08/06/2026 6:00 AM,2026-08-04T14:37:53.904542Z
+Brendan Steele,6600,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,08/06/2026 6:00 AM,2026-08-04T14:37:53.904549Z
+Jason Kokrak,6600,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,08/06/2026 6:00 AM,2026-08-04T14:37:53.904555Z
+Doyeob Mun,6500,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,08/06/2026 6:00 AM,2026-08-04T14:37:53.904560Z
+Lee Westwood,6500,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,08/06/2026 6:00 AM,2026-08-04T14:37:53.904565Z
+Martin Kaymer,6400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,08/06/2026 6:00 AM,2026-08-04T14:37:53.904570Z
+Danny Lee,6400,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,08/06/2026 6:00 AM,2026-08-04T14:37:53.904574Z
+Ben Campbell,6300,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,08/06/2026 6:00 AM,2026-08-04T14:37:53.904579Z
+Graeme McDowell,6300,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,08/06/2026 6:00 AM,2026-08-04T14:37:53.904584Z
+Björn Hellgren,6200,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,08/06/2026 6:00 AM,2026-08-04T14:37:53.904590Z
+Michael La Sasso,6200,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,08/06/2026 6:00 AM,2026-08-04T14:37:53.904595Z
+Sam Horsfield,6100,LIV Golf New York,Classic,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,08/06/2026 6:00 AM,2026-08-04T14:37:53.904600Z
+Miguel Tabuena,6100,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,08/06/2026 6:00 AM,2026-08-04T14:37:53.904607Z
+Yosuke Asaji,6000,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,08/06/2026 6:00 AM,2026-08-04T14:37:53.904612Z
+Minkyu Kim,6000,LIV Golf New York,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,08/06/2026 6:00 AM,2026-08-04T14:37:53.904616Z
