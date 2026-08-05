@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -40,9 +42,27 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/recent_form.csv data/recent_form_upcoming.csv \
-                  data/field_player_logs.csv data/field_player_logs_upcoming.csv || true
-          git diff --staged --quiet || git commit -m "Auto-update recent_form + field logs (current + upcoming)"
-          git push
+          # Only add files that exist (upcoming is often skipped mid-week)
+          for f in data/recent_form.csv data/recent_form_upcoming.csv \
+                   data/field_player_logs.csv data/field_player_logs_upcoming.csv; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Auto-update recent_form + field logs (current + upcoming)"
+          # Retry pull --rebase + push (other Actions may commit at the same time)
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push attempt $i failed — retrying..."
+            sleep 3
+          done
+          exit 1
