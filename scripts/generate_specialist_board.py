@@ -22,6 +22,9 @@ import sys
 
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from field_utils import load_field_for_scope, parse_scopes, scoped_path  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
@@ -82,6 +85,8 @@ def resolve_course(field: pd.DataFrame) -> str:
         event = str(field["event_name"].dropna().astype(str).iloc[0])
     hints = [
         (r"rocket", "DETROIT GOLF CLUB"),
+        (r"wyndham", "SEDGEFIELD COUNTRY CLUB"),
+        (r"sedgefield", "SEDGEFIELD COUNTRY CLUB"),
         (r"memorial", "Muirfield Village"),
         (r"travelers", "TPC River Highlands"),
         (r"john deere", "TPC Deere Run"),
@@ -108,6 +113,8 @@ def course_mask(series: pd.Series, course: str) -> pd.Series:
         mask = mask | s.str.contains(re.escape(t), na=False)
     if "detroit" in cl or "rocket" in cl:
         mask = mask | s.str.contains("detroit", na=False)
+    if "sedgefield" in cl or "wyndham" in cl:
+        mask = mask | s.str.contains("sedgefield", na=False)
     return mask
 
 
@@ -283,26 +290,44 @@ def summarize_player(sub: pd.DataFrame, pname: str, course: str) -> dict:
     }
 
 
-def load_field() -> pd.DataFrame:
-    # Prefer cheat_sheet (has course + field). Fall back to recent_form.
+def load_field(scope: str = "current") -> pd.DataFrame:
+    # Prefer scoped cheat_sheet / recent_form; else upcoming_field via field_utils.
+    for base in ("cheat_sheet.csv", "recent_form.csv"):
+        p = scoped_path(DATA, base, scope)
+        if p.exists():
+            df = snake_cols(pd.read_csv(p, low_memory=False))
+            if df.columns.duplicated().any():
+                df = df.loc[:, ~df.columns.duplicated()].copy()
+            print(f"Field from {p.name}: {len(df)} rows (scope={scope})")
+            return df
+    uf = DATA / "upcoming_field.csv"
+    if uf.exists():
+        raw = load_field_for_scope(uf, scope)
+        if raw is not None and len(raw):
+            df = snake_cols(raw)
+            print(f"Field from upcoming_field via field_utils scope={scope}: {len(df)} rows")
+            return df
     for name in ("cheat_sheet.csv", "recent_form.csv", "upcoming_field.csv"):
         p = DATA / name
         if p.exists():
             df = snake_cols(pd.read_csv(p, low_memory=False))
             if df.columns.duplicated().any():
                 df = df.loc[:, ~df.columns.duplicated()].copy()
-            print(f"Field from {name}: {len(df)} rows")
+            print(f"Field from {name}: {len(df)} rows (legacy)")
             return df
     return pd.DataFrame()
 
 
-def main() -> int:
-    field = load_field()
+def build_specialist_for_scope(scope: str) -> int:
+    field = load_field(scope)
     if field.empty:
-        print("No field file")
+        print(f"No field file for scope={scope}")
         return 0
 
     course = resolve_course(field)
+    # Prefer course on field / cheat when present
+    if (not course) and "course_name" in field.columns and field["course_name"].notna().any():
+        course = str(field["course_name"].dropna().astype(str).iloc[0]).strip()
     print("course:", course or "(none — will use empty sample)")
 
     players: list[str] = []
@@ -325,16 +350,18 @@ def main() -> int:
         "sg_total_avg", "avg_finish", "best", "cut_pct", "last3", "spec_rank",
     ]
 
-    logs_path = DATA / "field_player_logs.csv"
+    logs_path = scoped_path(DATA, "field_player_logs.csv", scope)
+    if not logs_path.exists():
+        logs_path = DATA / "field_player_logs.csv"
     if not logs_path.exists():
         print("No field_player_logs.csv — writing empty board")
-        pd.DataFrame(columns=out_cols).to_csv(DATA / "specialist_board.csv", index=False)
+        out_path = scoped_path(DATA, "specialist_board.csv", scope)
+        pd.DataFrame(columns=out_cols).to_csv(out_path, index=False)
         return 0
 
-    print("Loading logs…")
+    print(f"Loading logs from {logs_path.name}…")
     logs = snake_cols(pd.read_csv(logs_path, low_memory=False))
 
-    # Drop duplicate column names (keep first) — prevents multidimensional .loc errors
     if logs.columns.duplicated().any():
         dups = logs.columns[logs.columns.duplicated()].unique().tolist()
         print("WARNING: dropping duplicate columns:", dups)
@@ -343,10 +370,8 @@ def main() -> int:
     if "sg_total" in logs.columns:
         logs["sg_total"] = pd.to_numeric(logs["sg_total"], errors="coerce")
 
-    # Course filter
     if course and "course_name" in logs.columns:
         mask = course_mask(logs["course_name"], course)
-        # ensure 1-D boolean Series
         if isinstance(mask, pd.DataFrame):
             mask = mask.iloc[:, 0]
         n = int(mask.sum())
@@ -360,7 +385,6 @@ def main() -> int:
         print("WARNING: no course resolved — not using full career dump; board empty")
         course_logs = logs.iloc[0:0].copy()
 
-    # Deduplicate course_logs columns too (safety)
     if course_logs.columns.duplicated().any():
         course_logs = course_logs.loc[:, ~course_logs.columns.duplicated()].copy()
 
@@ -372,18 +396,15 @@ def main() -> int:
             print(f"  processed {i + 1}/{len(players)} players…")
 
     out = pd.DataFrame(rows)
-
-    # SPEC rank: best (highest) sg_total_avg among players with SG
     ranked = out[out["sg_total_avg"].notna()].sort_values(
         "sg_total_avg", ascending=False
     ).copy()
     ranked["spec_rank"] = range(1, len(ranked) + 1)
     rank_map = dict(zip(ranked["player_name"], ranked["spec_rank"]))
     out["spec_rank"] = out["player_name"].map(rank_map)
-
     out = out[out_cols]
 
-    out_path = DATA / "specialist_board.csv"
+    out_path = scoped_path(DATA, "specialist_board.csv", scope)
     out.to_csv(out_path, index=False)
     with_sg = int(out["sg_total_avg"].notna().sum())
     print(f"Wrote {out_path} ({len(out)} players, {with_sg} with SG, course={course!r})")
@@ -393,6 +414,19 @@ def main() -> int:
         ]
         print("Top SPEC:\n", top.to_string(index=False))
     return 0
+
+
+def main(argv=None) -> int:
+    scopes = parse_scopes(argv)
+    rc = 0
+    for scope in scopes:
+        print(f"\n=== Specialist scope={scope} ===")
+        try:
+            build_specialist_for_scope(scope)
+        except Exception as e:
+            print("ERROR", scope, e)
+            rc = 1
+    return rc
 
 
 if __name__ == "__main__":
