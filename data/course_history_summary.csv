@@ -1,148 +1,141 @@
 player_name,course_name,event_name,h1,h2,h3,h4,avg_finish,starts,last_sg
-"Gotterup, Chris",DETROIT GOLF CLUB,Rocket Classic,26,67,—,49,47.333333333333336,3,1.4312500000000001
-"Ghim, Doug",DETROIT GOLF CLUB,Rocket Classic,19,CUT,33,CUT,63.0,6,1.93125
-"Svensson, Jesper",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-0.6375
-"Hodges, Lee",DETROIT GOLF CLUB,Rocket Classic,34,CUT,CUT,44,69.5,4,0.9312499999999999
-"Kohles, Ben",DETROIT GOLF CLUB,Rocket Classic,78,20,—,CUT,66.0,3,-0.81875
-"Glover, Lucas",DETROIT GOLF CLUB,Rocket Classic,—,—,4,CUT,52.0,4,3.1045
-"Meissner, Mac",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,—,—,100.0,2,-0.6375
-"Jennings, William",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Kuchar, Matt",DETROIT GOLF CLUB,Rocket Classic,CUT,25,—,CUT,75.0,3,-0.6375
-"Suber, Jackson",DETROIT GOLF CLUB,Rocket Classic,6,—,—,—,6.0,1,2.68125
-"Wallace, Matt",DETROIT GOLF CLUB,Rocket Classic,46,CUT,78,10,58.5,5,0.43124999999999997
-"Bhatia, Akshay",DETROIT GOLF CLUB,Rocket Classic,26,2,CUT,—,42.666666666666664,3,1.43125
-"Clark, Wyndham",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,8,54.0,3,-0.6375
-"Bezuidenhout, Christiaan",DETROIT GOLF CLUB,Rocket Classic,—,—,56,—,56.0,2,-0.14550000000000002
-"Yu, Kevin",DETROIT GOLF CLUB,Rocket Classic,—,31,CUT,—,65.5,2,0.83775
-"Fowler, Rickie",DETROIT GOLF CLUB,Rocket Classic,CUT,31,1,CUT,58.0,7,-1.6375
-"Blair, Zac",DETROIT GOLF CLUB,Rocket Classic,—,CUT,CUT,—,100.0,3,-2.5545
-"Hisatsune, Ryo",DETROIT GOLF CLUB,Rocket Classic,60,31,—,—,45.5,2,-0.06874999999999998
-"Grillo, Emiliano",DETROIT GOLF CLUB,Rocket Classic,73,—,—,—,73.0,3,-0.56875
-"Bradley, Keegan",DETROIT GOLF CLUB,Rocket Classic,41,—,21,44,35.333333333333336,5,0.6812499999999999
-"Cantlay, Patrick",DETROIT GOLF CLUB,Rocket Classic,32,—,—,2,17.0,2,1.18125
-"Van Rooyen, Erik",DETROIT GOLF CLUB,Rocket Classic,78,6,CUT,—,61.333333333333336,4,-0.81875
-"Griffin, Ben",DETROIT GOLF CLUB,Rocket Classic,13,31,33,—,25.666666666666668,3,2.18125
-"Hoge, Tom",DETROIT GOLF CLUB,Rocket Classic,—,—,CUT,—,100.0,4,-2.9335
-"Phillips, Chandler",DETROIT GOLF CLUB,Rocket Classic,13,67,—,—,40.0,3,2.18125
-"Mazzoli, Stefano",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Lipsky, David",DETROIT GOLF CLUB,Rocket Classic,CUT,WD,CUT,37,79.0,4,-1.6375
-"Nakajima, Keita",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Garnett, Brice",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,47,CUT,86.75,6,-0.6374999999999998
-"Bridgeman, Jacob",DETROIT GOLF CLUB,Rocket Classic,26,31,—,—,28.5,2,1.43125
-"Conners, Corey",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,1,-0.839
-"Parry, John",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Spaun, J.J.",DETROIT GOLF CLUB,Rocket Classic,—,10,33,8,17.0,6,2.0877499999999998
-"Brennan, Michael",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Horschel, Billy",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,1,1.5875000000000001
-"Coody, Pierceson",DETROIT GOLF CLUB,Rocket Classic,—,63,—,—,63.0,1,-0.16225
-"Matsuyama, Hideki",DETROIT GOLF CLUB,Rocket Classic,13,—,CUT,—,56.5,5,2.18125
-"Penge, Marco",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Potgieter, Aldrich",DETROIT GOLF CLUB,Rocket Classic,1,—,CUT,—,50.5,2,3.18125
-"Henley, Russell",DETROIT GOLF CLUB,Rocket Classic,—,—,—,10,10.0,2,2.1507500000000004
-"Dou, Zecheng",DETROIT GOLF CLUB,Rocket Classic,—,—,17,—,17.0,1,1.8545
-"Mouw, William",DETROIT GOLF CLUB,Rocket Classic,34,—,—,—,34.0,1,0.93125
-"Kim, Si Woo",DETROIT GOLF CLUB,Rocket Classic,84,—,—,14,49.0,5,-1.31875
-"Cole, Eric",DETROIT GOLF CLUB,Rocket Classic,—,6,—,—,6.0,1,2.3377499999999998
-"Kanaya, Takumi",DETROIT GOLF CLUB,Rocket Classic,46,—,—,—,46.0,1,0.43125
-"Echavarria, Nico",DETROIT GOLF CLUB,Rocket Classic,6,63,CUT,—,56.333333333333336,3,2.68125
-"Yellamaraju, Sudarshan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Hossler, Beau",DETROIT GOLF CLUB,Rocket Classic,60,31,CUT,69,65.0,7,-0.06874999999999998
-"Greyserman, Max",DETROIT GOLF CLUB,Rocket Classic,2,31,—,—,16.5,2,3.18125
-"Ventura, Kristoffer",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,1,1.279
-"Thompson, Davis",DETROIT GOLF CLUB,Rocket Classic,34,2,24,—,20.0,4,0.9312500000000001
-"Griffin, Lanto",DETROIT GOLF CLUB,Rocket Classic,51,CUT,CUT,—,83.66666666666667,5,0.18125000000000008
-"Stanger, Jimmy",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Keefer, Johnny",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"McGreevy, Max",DETROIT GOLF CLUB,Rocket Classic,CUT,—,CUT,CUT,100.0,3,-0.6375
-"Chatfield, Davis",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Nyholm, Pontus",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Smith, Jordan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Dumont De Chassart, Adrien",DETROIT GOLF CLUB,Rocket Classic,—,CUT,—,—,100.0,1,-2.5545
-"Hughes, Mackenzie",DETROIT GOLF CLUB,Rocket Classic,—,—,—,CUT,100.0,3,-3.1319999999999997
-"English, Harris",DETROIT GOLF CLUB,Rocket Classic,—,—,—,CUT,100.0,2,-0.132
-"Streelman, Kevin",DETROIT GOLF CLUB,Rocket Classic,—,57,—,49,53.0,3,0.08774999999999998
-"Jaeger, Stephan",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,9,5,53.5,5,-1.6375000000000002
-"Dahmen, Joel",DETROIT GOLF CLUB,Rocket Classic,CUT,25,CUT,CUT,81.25,5,-3.1375
-"Castillo, Ricky",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-2.1375
-"Snedeker, Brandt",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,CUT,—,100.0,6,-0.13749999999999996
-"Crowe, Trace",DETROIT GOLF CLUB,Rocket Classic,—,CUT,—,—,100.0,1,-2.0545
-"Hoey, Rico",DETROIT GOLF CLUB,Rocket Classic,CUT,6,—,—,53.0,2,-2.1375
-"Taylor, Nick",DETROIT GOLF CLUB,Rocket Classic,—,—,—,CUT,100.0,3,-0.132
-"Clanton, Luke",DETROIT GOLF CLUB,Rocket Classic,60,10,—,—,35.0,2,-0.06874999999999998
-"Pavon, Matthieu",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Gerard, Ryan",DETROIT GOLF CLUB,Rocket Classic,41,—,56,—,48.5,2,0.6812500000000001
-"Fishburn, Patrick",DETROIT GOLF CLUB,Rocket Classic,CUT,25,—,—,62.5,2,-0.13749999999999996
-"Dunlap, Nick",DETROIT GOLF CLUB,Rocket Classic,CUT,10,—,—,55.0,2,-3.1375
-"Thorbjornsen, Michael",DETROIT GOLF CLUB,Rocket Classic,4,CUT,—,CUT,68.0,3,2.93125
-"Dalke, Brad",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Schauffele, Xander",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Hojgaard, Nicolai",DETROIT GOLF CLUB,Rocket Classic,24,66,21,—,37.0,3,1.68125
-"Saddier, Adrien",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Putnam, Andrew",DETROIT GOLF CLUB,Rocket Classic,8,—,—,—,8.0,3,2.43125
-"Neergaard-Petersen, Rasmus",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Kim, Michael",DETROIT GOLF CLUB,Rocket Classic,26,52,—,—,39.0,5,1.43125
-"McCarthy, Denny",DETROIT GOLF CLUB,Rocket Classic,—,—,—,CUT,100.0,3,-1.1320000000000001
-"Kang, Jeffrey",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Young, Cameron",DETROIT GOLF CLUB,Rocket Classic,46,6,—,2,18.0,3,0.43125
-"Stevens, Sam",DETROIT GOLF CLUB,Rocket Classic,—,10,74,—,42.0,2,2.08775
-"Svensson, Adam",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,40,24,66.0,5,-0.6375
-"Springer, Hayden",DETROIT GOLF CLUB,Rocket Classic,34,10,—,—,22.0,2,0.9312499999999999
-"James, Ben",DETROIT GOLF CLUB,Rocket Classic,—,44,—,—,44.0,1,0.58775
-"Shipley, Neal",DETROIT GOLF CLUB,Rocket Classic,—,20,—,—,20.0,1,1.3377499999999998
-"Finau, Tony",DETROIT GOLF CLUB,Rocket Classic,—,—,CUT,1,50.5,3,-1.4335
-"Hubbard, Mark",DETROIT GOLF CLUB,Rocket Classic,13,52,CUT,CUT,66.25,6,2.18125
-"Wise, Aaron",DETROIT GOLF CLUB,Rocket Classic,51,—,—,—,51.0,3,0.18125000000000002
-"Smotherman, Austin",DETROIT GOLF CLUB,Rocket Classic,—,—,CUT,69,84.5,2,-0.4334999999999999
-"Spieth, Jordan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Simpson, Webb",DETROIT GOLF CLUB,Rocket Classic,51,CUT,CUT,69,80.0,6,0.18124999999999997
-"Vilips, Karl",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-3.1375
-"Koivun, Jackson",DETROIT GOLF CLUB,Rocket Classic,—,CUT,—,—,100.0,1,-1.5545
-"Ruffels, Ryan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Campbell, Brian",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Higgo, Garrick",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,33,CUT,83.25,5,-0.1375
-"Todd, Brendon",DETROIT GOLF CLUB,Rocket Classic,—,CUT,56,—,78.0,4,-1.0545
-"Knapp, Jake",DETROIT GOLF CLUB,Rocket Classic,4,31,—,—,17.5,2,2.93125
-"Roy, Kevin",DETROIT GOLF CLUB,Rocket Classic,8,—,CUT,—,54.0,2,2.43125
-"McCarty, Matt",DETROIT GOLF CLUB,Rocket Classic,19,—,—,—,19.0,1,1.93125
-"Lebioda, Hank",DETROIT GOLF CLUB,Rocket Classic,—,—,64,CUT,82.0,5,-0.39549999999999996
-"Riley, Davis",DETROIT GOLF CLUB,Rocket Classic,67,57,33,CUT,64.25,4,-0.3187500000000001
-"Novak, Andrew",DETROIT GOLF CLUB,Rocket Classic,—,20,CUT,CUT,73.33333333333333,3,1.33775
-"Campos, Rafael",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,—,—,100.0,3,-1.6375
-"Eckroat, Austin",DETROIT GOLF CLUB,Rocket Classic,60,—,CUT,—,80.0,3,-0.06874999999999998
-"Whaley, Vince",DETROIT GOLF CLUB,Rocket Classic,32,57,40,17,36.5,4,1.18125
-"Ewart, A.J.",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Hall, Harry",DETROIT GOLF CLUB,Rocket Classic,13,31,CUT,—,48.0,3,2.18125
-"Bauchou, Zach",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,1,-5.839
-"Pendrith, Taylor",DETROIT GOLF CLUB,Rocket Classic,—,72,14,2,29.333333333333332,3,-0.9122499999999999
-"Malnati, Peter",DETROIT GOLF CLUB,Rocket Classic,41,74,9,73,49.25,7,0.68125
-"Im, Sungjae",DETROIT GOLF CLUB,Rocket Classic,—,—,24,—,24.0,4,1.3545
-"Wu, Dylan",DETROIT GOLF CLUB,Rocket Classic,—,10,24,CUT,44.666666666666664,3,2.08775
-"Highsmith, Joe",DETROIT GOLF CLUB,Rocket Classic,34,57,—,—,45.5,2,0.9312499999999999
-"Hojgaard, Rasmus",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-0.1375
-"Schenk, Adam",DETROIT GOLF CLUB,Rocket Classic,CUT,CUT,7,CUT,76.75,7,-0.1375
-"Li, Haotong",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Fisk, Steven",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-1.1375
-"Kirk, Chris",DETROIT GOLF CLUB,Rocket Classic,2,44,14,17,19.25,6,3.18125
-"Rozo, Marcelo",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Davis, Cam",DETROIT GOLF CLUB,Rocket Classic,CUT,1,17,14,33.0,5,-2.6375
-"Silverman, Ben",DETROIT GOLF CLUB,Rocket Classic,67,17,—,—,42.0,3,-0.31875
-"Tosti, Alejandro",DETROIT GOLF CLUB,Rocket Classic,CUT,WD,—,—,100.0,2,-1.6375
-"Lower, Justin",DETROIT GOLF CLUB,Rocket Classic,46,25,8,30,27.25,4,0.43125
-"Hirata, Kensei",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Power, Seamus",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,4,-2.6374999999999997
-"Huskey, Keenan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Azallion, Daniel",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Olesen, Thorbjorn",DETROIT GOLF CLUB,Rocket Classic,41,CUT,—,—,70.5,2,0.68125
-"Schmid, Matti",DETROIT GOLF CLUB,Rocket Classic,—,52,CUT,—,76.0,2,0.33775
-"Sargent, Gordon",DETROIT GOLF CLUB,Rocket Classic,67,—,CUT,—,83.5,2,-0.31875000000000003
-"Blanchet, Chandler",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Rodgers, Patrick",DETROIT GOLF CLUB,Rocket Classic,CUT,31,—,44,58.333333333333336,5,-1.1375
-"Ramey, Chad",DETROIT GOLF CLUB,Rocket Classic,26,CUT,17,CUT,60.75,4,1.43125
-"Wilkes-Krier, Patrick",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"VanDerLaan, John",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Quiban, Justin",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Celano, Ryan",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Kizzire, Patton",DETROIT GOLF CLUB,Rocket Classic,CUT,20,CUT,74,73.5,7,-3.6375
-"Lamprecht, Christo",DETROIT GOLF CLUB,Rocket Classic,—,—,—,—,,0,
-"Walker, Danny",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-2.1374999999999997
-"Hooks, Joe",DETROIT GOLF CLUB,Rocket Classic,CUT,—,—,—,100.0,1,-4.6375
+"Ghim, Doug",SEDGEFIELD,Wyndham Championship,CUT,41,51,CUT,73.0,7,-0.0615
+"Svensson, Jesper",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-2.0614999999999997
+"Hodges, Lee",SEDGEFIELD,Wyndham Championship,55,CUT,—,47,67.33333333333333,3,0.04600000000000004
+"Kohles, Ben",SEDGEFIELD,Wyndham Championship,CUT,CUT,—,54,84.66666666666667,3,-0.0615
+"Glover, Lucas",SEDGEFIELD,Wyndham Championship,CUT,CUT,1,54,63.75,8,-0.5615
+"Meissner, Mac",SEDGEFIELD,Wyndham Championship,2,12,—,—,7.0,2,3.296
+"Suber, Jackson",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-2.5614999999999997
+"Wallace, Matt",SEDGEFIELD,Wyndham Championship,27,28,45,CUT,50.0,5,1.2960000000000003
+"Fitzpatrick, Alex",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Bezuidenhout, Christiaan",SEDGEFIELD,Wyndham Championship,62,22,51,47,45.5,5,-0.454
+"Yu, Kevin",SEDGEFIELD,Wyndham Championship,CUT,CUT,CUT,—,100.0,3,-1.0615
+"Brown, Blades",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Hisatsune, Ryo",SEDGEFIELD,Wyndham Championship,CUT,3,—,—,51.5,2,-4.5615000000000006
+"Grillo, Emiliano",SEDGEFIELD,Wyndham Championship,44,59,—,—,51.5,3,0.29600000000000004
+"Bradley, Keegan",SEDGEFIELD,Wyndham Championship,CUT,22,—,—,61.0,3,-1.0615
+"Cantlay, Patrick",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Akina, Kihei",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Van Rooyen, Erik",SEDGEFIELD,Wyndham Championship,WD,CUT,CUT,—,100.0,4,-4.526
+"Griffin, Ben",SEDGEFIELD,Wyndham Championship,11,7,CUT,4,30.5,4,2.2960000000000003
+"Hoge, Tom",SEDGEFIELD,Wyndham Championship,—,—,—,—,,5,-1.0030000000000001
+"Thomas, Justin",SEDGEFIELD,Wyndham Championship,—,—,12,—,12.0,1,2.14025
+"Phillips, Chandler",SEDGEFIELD,Wyndham Championship,34,38,—,—,36.0,2,0.796
+"Mazzoli, Stefano",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Rai, Aaron",SEDGEFIELD,Wyndham Championship,5,1,CUT,71,44.25,4,2.796
+"Lipsky, David",SEDGEFIELD,Wyndham Championship,44,CUT,45,27,54.0,4,0.296
+"Garnett, Brice",SEDGEFIELD,Wyndham Championship,CUT,41,CUT,CUT,85.25,8,-0.0615
+"Parry, John",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Brennan, Michael",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Horschel, Billy",SEDGEFIELD,Wyndham Championship,—,7,4,27,12.666666666666666,7,1.9755
+"Coody, Pierceson",SEDGEFIELD,Wyndham Championship,CUT,61,—,—,80.5,2,-3.0615
+"Reitan, Kristoffer",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Matsuyama, Hideki",SEDGEFIELD,Wyndham Championship,19,—,CUT,—,59.5,5,1.7959999999999998
+"Penge, Marco",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Potgieter, Aldrich",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Dou, Zecheng",SEDGEFIELD,Wyndham Championship,—,—,51,—,51.0,2,0.14024999999999999
+"Mouw, William",SEDGEFIELD,Wyndham Championship,38,—,—,—,38.0,1,0.5459999999999998
+"Kim, Tom",SEDGEFIELD,Wyndham Championship,WD,—,—,—,,1,-4.526
+"Harman, Brian",SEDGEFIELD,Wyndham Championship,—,45,—,71,58.0,5,0.22549999999999998
+"Cauley, Bud",SEDGEFIELD,Wyndham Championship,CUT,CUT,—,—,100.0,5,-2.0614999999999997
+"Kanaya, Takumi",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-0.0615
+"Cole, Eric",SEDGEFIELD,Wyndham Championship,74,7,14,—,31.666666666666668,3,-1.9539999999999997
+"Echavarria, Nico",SEDGEFIELD,Wyndham Championship,19,22,CUT,—,47.0,3,1.7960000000000003
+"Hossler, Beau",SEDGEFIELD,Wyndham Championship,15,12,CUT,—,42.333333333333336,6,2.0460000000000003
+"Greyserman, Max",SEDGEFIELD,Wyndham Championship,CUT,2,—,—,51.0,2,-0.0615
+"Thompson, Davis",SEDGEFIELD,Wyndham Championship,11,12,22,—,15.0,4,2.296
+"Keefer, Johnny",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"McGreevy, Max",SEDGEFIELD,Wyndham Championship,34,—,51,5,30.0,3,0.796
+"Mitchell, Keith",SEDGEFIELD,Wyndham Championship,CUT,12,—,54,55.333333333333336,6,-0.0615
+"Chatfield, Davis",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Nyholm, Pontus",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Dumont De Chassart, Adrien",SEDGEFIELD,Wyndham Championship,—,CUT,—,—,100.0,1,-0.589
+"Smith, Jordan",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Hughes, Mackenzie",SEDGEFIELD,Wyndham Championship,—,28,CUT,CUT,76.0,6,1.2255
+"English, Harris",SEDGEFIELD,Wyndham Championship,—,—,33,CUT,66.5,6,0.89025
+"Streelman, Kevin",SEDGEFIELD,Wyndham Championship,—,CUT,CUT,CUT,100.0,6,-2.589
+"Jaeger, Stephan",SEDGEFIELD,Wyndham Championship,CUT,CUT,14,13,56.75,6,-1.0615
+"Dahmen, Joel",SEDGEFIELD,Wyndham Championship,15,64,64,81,56.0,7,2.0460000000000003
+"Castillo, Ricky",SEDGEFIELD,Wyndham Championship,23,—,—,—,23.0,1,1.546
+"Moore, Taylor",SEDGEFIELD,Wyndham Championship,CUT,52,22,5,44.75,4,-0.0615
+"Crowe, Trace",SEDGEFIELD,Wyndham Championship,—,7,—,—,7.0,1,1.9754999999999998
+"Berger, Daniel",SEDGEFIELD,Wyndham Championship,—,45,—,—,45.0,3,0.2255000000000001
+"Snedeker, Brandt",SEDGEFIELD,Wyndham Championship,CUT,CUT,45,—,81.66666666666667,7,-0.5615
+"Hoey, Rico",SEDGEFIELD,Wyndham Championship,67,22,—,—,44.5,2,-0.7040000000000002
+"Taylor, Nick",SEDGEFIELD,Wyndham Championship,—,CUT,—,81,90.5,6,0.41100000000000003
+"Pavon, Matthieu",SEDGEFIELD,Wyndham Championship,72,—,—,—,72.0,1,-1.204
+"Clanton, Luke",SEDGEFIELD,Wyndham Championship,67,5,—,—,36.0,2,-0.704
+"Gerard, Ryan",SEDGEFIELD,Wyndham Championship,CUT,—,CUT,—,100.0,2,-1.5615
+"Fishburn, Patrick",SEDGEFIELD,Wyndham Championship,8,CUT,—,—,54.0,2,2.5460000000000003
+"Dunlap, Nick",SEDGEFIELD,Wyndham Championship,CUT,CUT,—,—,100.0,2,-2.0614999999999997
+"Thorbjornsen, Michael",SEDGEFIELD,Wyndham Championship,38,CUT,—,—,69.0,2,0.546
+"Saddier, Adrien",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Putnam, Andrew",SEDGEFIELD,Wyndham Championship,CUT,CUT,27,27,63.5,5,-0.06149999999999989
+"McNealy, Maverick",SEDGEFIELD,Wyndham Championship,—,45,—,—,45.0,2,0.22550000000000003
+"Neergaard-Petersen, Rasmus",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Kim, Michael",SEDGEFIELD,Wyndham Championship,62,WD,5,—,33.5,7,-0.45399999999999974
+"McCarthy, Denny",SEDGEFIELD,Wyndham Championship,11,33,CUT,CUT,61.0,8,2.2960000000000003
+"Kang, Jeffrey",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Young, Cameron",SEDGEFIELD,Wyndham Championship,1,22,—,—,11.5,2,4.796
+"Stevens, Sam",SEDGEFIELD,Wyndham Championship,CUT,CUT,CUT,—,100.0,3,-0.5615
+"Svensson, Adam",SEDGEFIELD,Wyndham Championship,CUT,7,7,78,48.0,5,-0.0615
+"James, Ben",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Shipley, Neal",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Finau, Tony",SEDGEFIELD,Wyndham Championship,44,—,—,—,44.0,1,0.2959999999999999
+"Hubbard, Mark",SEDGEFIELD,Wyndham Championship,3,CUT,CUT,61,66.0,7,3.0460000000000003
+"Wise, Aaron",SEDGEFIELD,Wyndham Championship,WD,—,—,13,13.0,5,-0.526
+"Smotherman, Austin",SEDGEFIELD,Wyndham Championship,—,—,27,CUT,63.5,2,1.14025
+"Simpson, Webb",SEDGEFIELD,Wyndham Championship,27,CUT,5,WD,44.0,9,1.296
+"Spieth, Jordan",SEDGEFIELD,Wyndham Championship,31,CUT,—,—,65.5,4,1.046
+"Vilips, Karl",SEDGEFIELD,Wyndham Championship,19,—,—,—,19.0,1,1.7959999999999998
+"Koepka, Brooks",SEDGEFIELD,Wyndham Championship,—,—,—,—,,1,-1.9845000000000002
+"Koivun, Jackson",SEDGEFIELD,Wyndham Championship,5,—,—,—,5.0,1,2.7960000000000003
+"Campbell, Brian",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,2,-0.06149999999999989
+"Day, Jason",SEDGEFIELD,Wyndham Championship,—,—,—,WD,,1,2.487
+"Higgo, Garrick",SEDGEFIELD,Wyndham Championship,CUT,CUT,CUT,CUT,100.0,4,-0.5615
+"Poston, J.T.",SEDGEFIELD,Wyndham Championship,11,CUT,7,21,34.75,9,2.2960000000000003
+"Todd, Brendon",SEDGEFIELD,Wyndham Championship,—,12,7,36,18.333333333333332,5,1.7255
+"McCarty, Matt",SEDGEFIELD,Wyndham Championship,8,—,—,—,8.0,1,2.5460000000000003
+"Roy, Kevin",SEDGEFIELD,Wyndham Championship,CUT,—,CUT,—,100.0,2,-1.0615
+"Theegala, Sahith",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-4.0615000000000006
+"Lebioda, Hank",SEDGEFIELD,Wyndham Championship,—,—,CUT,CUT,100.0,5,-1.8975
+"Riley, Davis",SEDGEFIELD,Wyndham Championship,CUT,38,CUT,13,62.75,4,-0.5615000000000001
+"Novak, Andrew",SEDGEFIELD,Wyndham Championship,CUT,52,33,CUT,71.25,4,-1.0615
+"Campos, Rafael",SEDGEFIELD,Wyndham Championship,CUT,CUT,—,—,100.0,3,-0.0615
+"Eckroat, Austin",SEDGEFIELD,Wyndham Championship,CUT,6,CUT,—,68.66666666666667,4,-1.5615
+"Whaley, Vince",SEDGEFIELD,Wyndham Championship,74,63,—,CUT,79.0,3,-1.9539999999999997
+"Ewart, A.J.",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Noren, Alex",SEDGEFIELD,Wyndham Championship,3,—,38,—,20.5,3,3.0460000000000003
+"Brown, Dan",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Hall, Harry",SEDGEFIELD,Wyndham Championship,15,CUT,CUT,—,71.66666666666667,3,2.0460000000000003
+"Bauchou, Zach",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Collet, Tyler",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Pendrith, Taylor",SEDGEFIELD,Wyndham Championship,—,—,CUT,13,56.5,2,-3.8975
+"Malnati, Peter",SEDGEFIELD,Wyndham Championship,62,CUT,CUT,27,72.25,9,-0.4539999999999999
+"Im, Sungjae",SEDGEFIELD,Wyndham Championship,27,41,14,2,21.0,7,1.296
+"Wu, Dylan",SEDGEFIELD,Wyndham Championship,—,CUT,51,CUT,83.66666666666667,3,-3.089
+"Highsmith, Joe",SEDGEFIELD,Wyndham Championship,CUT,CUT,—,—,100.0,2,-2.0614999999999997
+"Hojgaard, Rasmus",SEDGEFIELD,Wyndham Championship,34,—,—,—,34.0,1,0.796
+"Schenk, Adam",SEDGEFIELD,Wyndham Championship,CUT,CUT,64,CUT,91.0,8,-3.0614999999999997
+"Li, Haotong",SEDGEFIELD,Wyndham Championship,—,—,—,—,,1,-1.254
+"Fisk, Steven",SEDGEFIELD,Wyndham Championship,60,—,—,—,60.0,1,-0.20400000000000001
+"Kirk, Chris",SEDGEFIELD,Wyndham Championship,5,—,CUT,—,52.5,5,2.7960000000000003
+"Rozo, Marcelo",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Davis, Cam",SEDGEFIELD,Wyndham Championship,44,CUT,7,—,50.333333333333336,3,0.296
+"Tosti, Alejandro",SEDGEFIELD,Wyndham Championship,—,CUT,—,—,100.0,1,-2.589
+"Hirata, Kensei",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Smalley, Alex",SEDGEFIELD,Wyndham Championship,CUT,CUT,CUT,13,78.25,5,-0.5615
+"Power, Seamus",SEDGEFIELD,Wyndham Championship,44,28,—,—,36.0,7,0.296
+"Olesen, Thorbjorn",SEDGEFIELD,Wyndham Championship,62,CUT,—,—,81.0,2,-0.45400000000000007
+"Schmid, Matti",SEDGEFIELD,Wyndham Championship,31,64,22,—,39.0,3,1.046
+"Pan, C.T.",SEDGEFIELD,Wyndham Championship,—,WD,64,WD,64.0,7,1.744
+"Sargent, Gordon",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-1.5614999999999999
+"Blanchet, Chandler",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Rodgers, Patrick",SEDGEFIELD,Wyndham Championship,15,33,CUT,36,46.0,8,2.0460000000000003
+"Ramey, Chad",SEDGEFIELD,Wyndham Championship,CUT,52,CUT,CUT,88.0,4,-2.5614999999999997
+"VanDerLaan, John",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Kizzire, Patton",SEDGEFIELD,Wyndham Championship,44,CUT,CUT,CUT,86.0,8,0.296
+"Lamprecht, Christo",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
+"Straka, Sepp",SEDGEFIELD,Wyndham Championship,—,—,—,CUT,100.0,4,-6.823
+"Walker, Danny",SEDGEFIELD,Wyndham Championship,CUT,—,—,—,100.0,1,-1.5614999999999999
+"Hrabak, Cooper",SEDGEFIELD,Wyndham Championship,—,—,—,—,,0,
