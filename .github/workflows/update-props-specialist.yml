@@ -2,16 +2,31 @@ name: Update Props + Specialist Boards
 
 on:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: "Which event field(s) to build"
+        required: true
+        default: both
+        type: choice
+        options:
+          - both
+          - current
+          - upcoming
   schedule:
     - cron: "20 * * * *"
   push:
     paths:
       - "data/props_combined.csv"
       - "data/field_player_logs.csv"
+      - "data/field_player_logs_upcoming.csv"
       - "data/recent_form.csv"
+      - "data/recent_form_upcoming.csv"
+      - "data/cheat_sheet.csv"
+      - "data/cheat_sheet_upcoming.csv"
       - "scripts/generate_props_board.py"
       - "scripts/generate_specialist_board.py"
       - "scripts/generate_custom_model_defaults.py"
+      - "scripts/field_utils.py"
 
 jobs:
   generate:
@@ -26,19 +41,22 @@ jobs:
       - name: Install deps
         run: pip install pandas
       - name: Generate boards
+        env:
+          EVENT_SCOPE: ${{ github.event.inputs.scope || 'both' }}
         run: |
           python scripts/generate_props_board.py
-          python scripts/generate_specialist_board.py
+          python scripts/generate_specialist_board.py --scope "$EVENT_SCOPE"
           python scripts/generate_custom_model_defaults.py
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/props_board.csv data/specialist_board.csv data/custom_model_defaults.json || true
+          git add data/props_board.csv data/specialist_board.csv data/specialist_board_upcoming.csv \
+                  data/custom_model_defaults.json || true
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
           fi
-          git commit -m "Auto-update props_board + specialist_board + CM defaults"
+          git commit -m "Auto-update props + specialist boards (current + upcoming)"
           git pull --rebase origin main || true
           git push
