@@ -14,6 +14,13 @@ from pathlib import Path
 from collections import defaultdict
 
 import pandas as pd
+import sys
+from datetime import datetime
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from field_utils import (  # noqa: E402
+    load_field_for_scope, match_preview_row, parse_scopes, scoped_path,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -21,12 +28,17 @@ DATA.mkdir(exist_ok=True)
 
 COURSE_HINTS = [
     (re.compile(r"rocket", re.I), re.compile(r"detroit", re.I), "Detroit Golf Club"),
+    (re.compile(r"wyndham", re.I), re.compile(r"sedgefield", re.I), "Sedgefield Country Club"),
     (re.compile(r"memorial", re.I), re.compile(r"muirfield", re.I), "Muirfield Village"),
     (re.compile(r"travelers", re.I), re.compile(r"river highland|tpc river", re.I), "TPC River Highlands"),
     (re.compile(r"john deere", re.I), re.compile(r"deere", re.I), "TPC Deere Run"),
     (re.compile(r"arnold palmer", re.I), re.compile(r"bay hill", re.I), "Bay Hill"),
     (re.compile(r"genesis", re.I), re.compile(r"riviera", re.I), "Riviera Country Club"),
     (re.compile(r"players", re.I), re.compile(r"sawgrass", re.I), "TPC Sawgrass"),
+    (re.compile(r"3m open", re.I), re.compile(r"tpc twin", re.I), "TPC Twin Cities"),
+    (re.compile(r"fedex st.? jude|st\.? jude", re.I), re.compile(r"tpc southwind", re.I), "TPC Southwind"),
+    (re.compile(r"bmw", re.I), re.compile(r"caves valley|congr", re.I), "Caves Valley"),
+    (re.compile(r"tour championship", re.I), re.compile(r"east lake", re.I), "East Lake"),
 ]
 
 
@@ -56,10 +68,13 @@ def parse_finish(fin: str):
     return fin_u, None, False
 
 
-def load_logs() -> pd.DataFrame:
+def load_logs(field_logs_path: Path | None = None) -> pd.DataFrame:
     frames = []
+    primary = field_logs_path if field_logs_path and field_logs_path.exists() else DATA / "field_player_logs.csv"
     candidates = [
+        primary,
         DATA / "field_player_logs.csv",
+        DATA / "field_player_logs_upcoming.csv",
         *sorted(DATA.glob("pga_tour_player_logs_*_PGA.csv")),
         *sorted(DATA.glob("pga_tour_player_logs_*_OTHER.csv")),
     ]
@@ -82,18 +97,32 @@ def load_logs() -> pd.DataFrame:
     return logs
 
 
-def load_field() -> pd.DataFrame:
+def load_field(scope: str = "current") -> pd.DataFrame:
+    """Prefer scoped recent_form; else pick field from upcoming_field via field_utils."""
+    rf = scoped_path(DATA, "recent_form.csv", scope)
+    if rf.exists():
+        df = pd.read_csv(rf, low_memory=False)
+        print(f"Field from {rf.name}: {len(df)} rows (scope={scope})")
+        return df
+    # Direct from sheet
+    uf = DATA / "upcoming_field.csv"
+    if uf.exists():
+        df = load_field_for_scope(uf, scope)
+        if df is not None and len(df):
+            print(f"Field from upcoming_field.csv via field_utils scope={scope}: {len(df)} rows")
+            return df
+    # legacy fallbacks
     for name in ("recent_form.csv", "upcoming_field.csv", "field.csv"):
         p = DATA / name
         if p.exists():
             df = pd.read_csv(p, low_memory=False)
-            print(f"Field from {name}: {len(df)} rows")
+            print(f"Field from {name}: {len(df)} rows (legacy)")
             return df
-    raise SystemExit("No field file (recent_form.csv) found")
+    raise SystemExit("No field file (recent_form.csv / upcoming_field.csv) found")
 
 
-def load_preview() -> dict:
-    """Return first matching PRE TOURNAMENT PREVIEW row as dict (or {})."""
+def load_preview(event_name: str = "", course_name: str = "") -> dict:
+    """Match PRE TOURNAMENT PREVIEW row to the active event (not hard-coded Rocket)."""
     p = DATA / "pre_tournament_preview.csv"
     if not p.exists():
         print("No pre_tournament_preview.csv — S1-S5 labels will be empty")
@@ -101,14 +130,7 @@ def load_preview() -> dict:
     df = pd.read_csv(p, low_memory=False)
     if df.empty:
         return {}
-    # Prefer Rocket / current if multiple
-    row = df.iloc[0]
-    for _, r in df.iterrows():
-        t = str(r.get("TOURNAMENT") or r.get("Tournament") or "")
-        if re.search(r"rocket", t, re.I):
-            row = r
-            break
-    d = {str(k).strip(): ("" if pd.isna(v) else v) for k, v in row.items()}
+    d = match_preview_row(df, event_name, course_name)
     print("Preview tournament:", d.get("TOURNAMENT"), "| course:", d.get("COURSE NAME"))
     for i in range(1, 6):
         print(f"  KEY STAT {i}:", d.get(f"KEY STAT {i}") or d.get(f"Key Stat {i}"))
@@ -562,11 +584,11 @@ def finish_by_year(cev: pd.DataFrame) -> dict:
 
 
 
-def main():
-    logs = load_logs()
-    field = load_field()
-    preview = load_preview()
-    pga, dp = load_season_stats()
+def build_cheat_for_scope(scope: str, logs: pd.DataFrame, pga: pd.DataFrame, dp: pd.DataFrame) -> None:
+    field = load_field(scope)
+    if field is None or field.empty:
+        print(f"No field for scope={scope}")
+        return
 
     if "name_adjusted" not in field.columns:
         field["name_adjusted"] = field.get("player_name", "")
@@ -574,12 +596,26 @@ def main():
         field["player_name"] = field.get("name_adjusted", "")
 
     event_name = str(field.iloc[0].get("event_name") or field.iloc[0].get("event") or "")
-    # Prefer course from preview when present
-    course = str(preview.get("COURSE NAME") or preview.get("Course Name") or "") or resolve_course(
-        logs, event_name
+    course_from_field = str(field.iloc[0].get("course_name") or "")
+    preview = load_preview(event_name, course_from_field)
+    course = (
+        str(preview.get("COURSE NAME") or preview.get("Course Name") or "")
+        or course_from_field
+        or resolve_course(logs, event_name)
     )
     print(f"Event: {event_name}")
     print(f"Course: {course}")
+
+    # Prefer scoped field logs when present
+    fl = scoped_path(DATA, "field_player_logs.csv", scope)
+    if fl.exists():
+        try:
+            scoped_logs = pd.read_csv(fl, low_memory=False)
+            if len(scoped_logs):
+                print(f"Using scoped logs {fl.name}: {len(scoped_logs)} rows")
+                logs = scoped_logs
+        except Exception as e:
+            print("scoped logs load failed:", e)
 
     # KEY STAT labels → rank maps
     key_labels = []
@@ -601,7 +637,6 @@ def main():
         course_logs = logs.iloc[0:0]
     print(f"Course log rows: {len(course_logs)} for '{course}'")
     anchor_years = course_anchor_years(course_logs, 4)
-    # Pad to 4 years if course is new
     while len(anchor_years) < 4:
         anchor_years.append(anchor_years[-1] - 1 if anchor_years else 2025)
     print(f"H1-H4 years (course editions): {anchor_years}")
@@ -634,7 +669,6 @@ def main():
         cev = course_event_level(plogs_course)
         by_year = finish_by_year(cev)
 
-        # Fixed year slots: H1 = most recent course edition, H2 = year before, ...
         h = []
         h_years = []
         finishes_num = []
@@ -648,7 +682,7 @@ def main():
                 elif is_cut:
                     finishes_num.append(100)
             else:
-                h.append("—")  # did not play that edition
+                h.append("—")
         while len(h) < 4:
             h.append("—")
             h_years.append(None)
@@ -712,18 +746,27 @@ def main():
 
     cheat = pd.DataFrame(cheat_rows)
     ch = pd.DataFrame(ch_rows)
-    if "avg_finish_course" in cheat.columns:
+    if "avg_finish_course" in cheat.columns and len(cheat):
         cheat["ch_rank"] = cheat["avg_finish_course"].rank(method="min")
 
-    out1 = DATA / "cheat_sheet.csv"
-    out2 = DATA / "course_history_summary.csv"
+    out1 = scoped_path(DATA, "cheat_sheet.csv", scope)
+    out2 = scoped_path(DATA, "course_history_summary.csv", scope)
     cheat.to_csv(out1, index=False)
     ch.to_csv(out2, index=False)
     print(f"Wrote {out1} ({len(cheat)} rows)")
     print(f"Wrote {out2} ({len(ch)} rows)")
-    # Sample S ranks
     if len(cheat):
         print("Sample S1-S5:", cheat[["name_adjusted", "s1", "s2", "s3", "s4", "s5"]].head(3).to_dict("records"))
+
+
+def main(argv=None):
+    scopes = parse_scopes(argv)
+    print("Loading logs once…")
+    logs = load_logs()
+    pga, dp = load_season_stats()
+    for scope in scopes:
+        print(f"\n=== Cheat sheet scope={scope} ===")
+        build_cheat_for_scope(scope, logs, pga, dp)
 
 
 if __name__ == "__main__":
