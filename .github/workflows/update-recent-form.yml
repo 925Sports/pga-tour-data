@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: "0 */4 * * *"
   workflow_dispatch:
+    inputs:
+      scope:
+        description: "Which event field(s) to build"
+        required: true
+        default: both
+        type: choice
+        options:
+          - both
+          - current
+          - upcoming
 
 permissions:
   contents: write
@@ -12,27 +22,27 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: pip install pandas numpy
 
-      - name: Generate recent_form.csv
-        run: python scripts/generate_recent_form.py
-
-      - name: Generate field_player_logs.csv
-        run: python scripts/generate_field_player_logs.py
+      - name: Generate recent_form (+ upcoming) and field logs
+        env:
+          EVENT_SCOPE: ${{ github.event.inputs.scope || 'both' }}
+        run: |
+          python scripts/generate_recent_form.py --scope "$EVENT_SCOPE"
+          python scripts/generate_field_player_logs.py --scope "$EVENT_SCOPE"
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/recent_form.csv data/field_player_logs.csv
-          git diff --staged --quiet || git commit -m "Auto-update recent_form.csv and field_player_logs.csv"
+          git add data/recent_form.csv data/recent_form_upcoming.csv \
+                  data/field_player_logs.csv data/field_player_logs_upcoming.csv || true
+          git diff --staged --quiet || git commit -m "Auto-update recent_form + field logs (current + upcoming)"
           git push
