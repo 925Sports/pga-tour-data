@@ -1,0 +1,198 @@
+{
+  "course_name": "SEDGEFIELD",
+  "event_name": "Wyndham Championship",
+  "trait_sig": "DESIGNER:DONALD ROSS | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):CHAMPION | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:70.0 | SCORING:NORMAL | WEATHER:GREAT | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | ROUGH LENGTH:NORMAL | WATER HAZARDS:5.0 | ROUGH AMOUNT:NORMAL | BUNKERS:52.0 | LOCATION:NORTH CAROLINA | Redesigned:KRIS SPENCER | DRAINAGE:BAD | RAIN:NO",
+  "traits": [
+    {
+      "key": "designer",
+      "label": "DESIGNER",
+      "value": "DONALD ROSS",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "style",
+      "label": "STYLE",
+      "value": "PARKLAND",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "greens",
+      "label": "GREENS",
+      "value": "BERMUDA",
+      "count": 948,
+      "green": true,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "greens_2",
+      "label": "GREENS (2)",
+      "value": "CHAMPION",
+      "count": 948,
+      "green": true,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "fairways",
+      "label": "FAIRWAYS",
+      "value": "BERMUDA",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "length",
+      "label": "LENGTH",
+      "value": "NORMAL",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "par",
+      "label": "PAR",
+      "value": "70.0",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "scoring",
+      "label": "SCORING",
+      "value": "NORMAL",
+      "count": 724,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "weather",
+      "label": "WEATHER",
+      "value": "GREAT",
+      "count": 555,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "type",
+      "label": "TYPE",
+      "value": "FULL",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "fairway_width",
+      "label": "FAIRWAY WIDTH",
+      "value": "SMALL",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "green_width",
+      "label": "GREEN WIDTH",
+      "value": "SMALL",
+      "count": 948,
+      "green": true,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "rough_length",
+      "label": "ROUGH LENGTH",
+      "value": "NORMAL",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "water_hazards",
+      "label": "WATER HAZARDS",
+      "value": "5.0",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "rough_amount",
+      "label": "ROUGH AMOUNT",
+      "value": "NORMAL",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "bunkers",
+      "label": "BUNKERS",
+      "value": "52.0",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "location",
+      "label": "LOCATION",
+      "value": "NORTH CAROLINA",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "redesigned",
+      "label": "Redesigned",
+      "value": "KRIS SPENCER",
+      "count": 838,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "drainage",
+      "label": "DRAINAGE",
+      "value": "BAD",
+      "count": 948,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    },
+    {
+      "key": "rain",
+      "label": "RAIN",
+      "value": "NO",
+      "count": 838,
+      "green": false,
+      "course_name": "SEDGEFIELD",
+      "event_name": "Wyndham Championship"
+    }
+  ],
+  "field_avgs": {
+    "birdies_plus": 3.8249,
+    "strokes": 70.1572,
+    "bogeys": 2.332,
+    "pars": 11.3849,
+    "fw_pct": 60.7425,
+    "gir_pct": 66.6624,
+    "n_rounds_sample": 8000,
+    "window": "24"
+  },
+  "window": 24
+}
