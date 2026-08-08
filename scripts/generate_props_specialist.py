@@ -425,6 +425,32 @@ def mean_clean(series: pd.Series, trim: bool = False) -> float | None:
     return round(float(s.mean()), 4)
 
 
+def course_hist_pipe(player_logs: pd.DataFrame, pname: str, course: str, col: str, max_n: int = 8, as_holes: float | None = None) -> str:
+    """Newest-first pipe-separated values at this course for bar charts."""
+    sub = player_sub(player_logs, pname)
+    if sub.empty or "course_name" not in sub.columns:
+        return ""
+    mask = course_mask(sub["course_name"], course)
+    part = sub.loc[mask.values if hasattr(mask, "values") else mask].copy()
+    if part.empty or col not in part.columns:
+        return ""
+    part = sort_recent(part)
+    vals = []
+    for _, r in part.iterrows():
+        v = pd.to_numeric(r.get(col), errors="coerce")
+        if pd.isna(v):
+            continue
+        v = float(v)
+        if as_holes is not None:
+            if v <= 1.5:
+                v = v * 100.0
+            v = (v / 100.0) * as_holes
+        vals.append(round(v, 3))
+        if len(vals) >= max_n:
+            break
+    return "|".join(str(x) for x in vals)
+
+
 def summarize_player_props(
     sub_matched: pd.DataFrame,
     pname: str,
@@ -432,6 +458,7 @@ def summarize_player_props(
     event: str,
     traits: dict[str, dict],
     window: int | None,
+    all_logs: pd.DataFrame | None = None,
 ) -> dict:
     empty = {
         "player_name": pname,
@@ -452,6 +479,14 @@ def summarize_player_props(
         "by_greens": None,
         "birdies_plus_rank": None,
         "strokes_rank": None,
+        # Course history series (newest first) for hub bar charts — LINE units for FW/GIR
+        "course_hist_birdies": "",
+        "course_hist_strokes": "",
+        "course_hist_bogeys": "",
+        "course_hist_pars": "",
+        "course_hist_fw": "",
+        "course_hist_gir": "",
+        "course_hit_rate": None,  # share of last course rounds with birdies+ >= field median proxy (filled later optional)
     }
     if sub_matched is None or sub_matched.empty:
         return empty
@@ -495,6 +530,23 @@ def summarize_player_props(
         if "birdies_plus" in part.columns and len(part):
             out[out_key] = mean_clean(part["birdies_plus"])
 
+    # Course history pipes (for hub bars) — prefer full logs at this course
+    src = all_logs if all_logs is not None and len(all_logs) else sub_matched
+    if src is not None and len(src):
+        out["course_hist_birdies"] = course_hist_pipe(src, pname, course, "birdies_plus", 8)
+        out["course_hist_strokes"] = course_hist_pipe(src, pname, course, "round_score", 8)
+        out["course_hist_bogeys"] = course_hist_pipe(src, pname, course, "bogies", 8)
+        out["course_hist_pars"] = course_hist_pipe(src, pname, course, "pars", 8)
+        out["course_hist_fw"] = course_hist_pipe(src, pname, course, "driving_acc", 8, as_holes=14.0)
+        out["course_hist_gir"] = course_hist_pipe(src, pname, course, "gir", 8, as_holes=18.0)
+        # Simple hit rate: share of last course birdies+ rounds at/above player trait avg
+        hist = out["course_hist_birdies"]
+        if hist and out.get("birdies_plus") is not None:
+            vals = [float(x) for x in hist.split("|") if x]
+            if vals:
+                thr = float(out["birdies_plus"])
+                out["course_hit_rate"] = round(100.0 * sum(1 for v in vals if v >= thr) / len(vals), 1)
+
     return out
 
 
@@ -535,6 +587,9 @@ def build_props_specialist_for_scope(scope: str, window: int | None = DEFAULT_WI
         "n_rounds", "n_starts", "window", "trait_sig",
         "by_designer", "by_style", "by_greens",
         "birdies_plus_rank", "strokes_rank",
+        "course_hist_birdies", "course_hist_strokes", "course_hist_bogeys",
+        "course_hist_pars", "course_hist_fw", "course_hist_gir",
+        "course_hit_rate",
     ]
 
     logs_path = scoped_path(DATA, "field_player_logs.csv", scope)
@@ -604,11 +659,11 @@ def build_props_specialist_for_scope(scope: str, window: int | None = DEFAULT_WI
         # Prefer player's trait-matched rounds from full logs (not course-only)
         p_all = player_sub(logs, pname)
         if p_all.empty:
-            rows.append(summarize_player_props(p_all, pname, course, event, traits, window))
+            rows.append(summarize_player_props(p_all, pname, course, event, traits, window, all_logs=logs))
         else:
             pmask = rounds_match_any_trait(p_all, traits)
             p_matched = p_all.loc[pmask]
-            rows.append(summarize_player_props(p_matched, pname, course, event, traits, window))
+            rows.append(summarize_player_props(p_matched, pname, course, event, traits, window, all_logs=logs))
         if (i + 1) % 40 == 0:
             print(f"  processed {i + 1}/{len(players)}…")
 
