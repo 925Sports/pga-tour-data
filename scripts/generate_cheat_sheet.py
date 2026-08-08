@@ -6,6 +6,11 @@ Also ranks KEY STAT 1-5 (S1-S5) from PRE TOURNAMENT PREVIEW labels using season-
 Outputs:
   data/cheat_sheet.csv
   data/course_history_summary.csv
+
+RF / value_rank:
+  Last 7 tournament starts (event-level). value = sum of event SG Total
+  (mean of that week's round SG; CUT weeks use 2-round mean). value_rank
+  ranks the field by value descending (higher SG = #1).
 """
 from __future__ import annotations
 
@@ -98,27 +103,34 @@ def load_logs(field_logs_path: Path | None = None) -> pd.DataFrame:
 
 
 def load_field(scope: str = "current") -> pd.DataFrame:
-    """Prefer scoped recent_form; else pick field from upcoming_field via field_utils."""
+    """Prefer scoped recent_form; else pick field from upcoming_field via field_utils.
+
+    Never fall back to the other scope's recent_form (that re-wrote Rocket as
+    'upcoming' when no next event exists on the sheet).
+    """
     rf = scoped_path(DATA, "recent_form.csv", scope)
     if rf.exists():
         df = pd.read_csv(rf, low_memory=False)
         print(f"Field from {rf.name}: {len(df)} rows (scope={scope})")
         return df
-    # Direct from sheet
+    # Direct from sheet for this scope only
     uf = DATA / "upcoming_field.csv"
     if uf.exists():
         df = load_field_for_scope(uf, scope)
         if df is not None and len(df):
             print(f"Field from upcoming_field.csv via field_utils scope={scope}: {len(df)} rows")
             return df
-    # legacy fallbacks
-    for name in ("recent_form.csv", "upcoming_field.csv", "field.csv"):
-        p = DATA / name
-        if p.exists():
-            df = pd.read_csv(p, low_memory=False)
-            print(f"Field from {name}: {len(df)} rows (legacy)")
-            return df
-    raise SystemExit("No field file (recent_form.csv / upcoming_field.csv) found")
+    # Legacy fallback ONLY for current scope (never for upcoming)
+    if (scope or "current").strip().lower() in ("current", "this", "this_week", ""):
+        for name in ("recent_form.csv", "upcoming_field.csv", "field.csv"):
+            path = DATA / name
+            if path.exists():
+                df = pd.read_csv(path, low_memory=False)
+                print(f"Field from {name}: {len(df)} rows (legacy current)")
+                return df
+        raise SystemExit("No field file (recent_form.csv / upcoming_field.csv) found")
+    print(f"No field for scope={scope} — empty")
+    return pd.DataFrame()
 
 
 def load_preview(event_name: str = "", course_name: str = "") -> dict:
@@ -650,13 +662,40 @@ def build_cheat_for_scope(scope: str, logs: pd.DataFrame, pga: pd.DataFrame, dp:
             continue
         plogs = logs[logs["_pkey"] == pkey]
         ev = event_level(plogs)
+        # Sort most recent first (event_level should already, but be safe)
+        if len(ev) and "_dt" in ev.columns:
+            ev = ev.sort_values("_dt", ascending=False, na_position="last").reset_index(drop=True)
+
         rf = []
+        rf_sgs = []
         for i, er in enumerate(ev.itertuples(index=False)):
             if i >= 7:
                 break
-            rf.append(er.fin_label)
+            lab = er.fin_label
+            sg = getattr(er, "sg_total", None)
+            if sg is not None and pd.notna(sg):
+                try:
+                    v = float(sg)
+                    rf.append(f"{lab} ({v:+.2f})" if v != 0 else f"{lab} (0.00)")
+                    rf_sgs.append(v)
+                except Exception:
+                    rf.append(lab)
+            else:
+                rf.append(lab)
         while len(rf) < 7:
             rf.append("—")
+
+        # Combined event SG over last 7 starts (CUT weeks included at their 2-round mean)
+        if rf_sgs:
+            value = round(float(sum(rf_sgs)), 2)
+            value_avg = round(float(sum(rf_sgs) / len(rf_sgs)), 2)
+        else:
+            # Fall back to field/recent_form if logs missing SG
+            try:
+                value = float(p.get("value")) if p.get("value") is not None and str(p.get("value")) != "" else None
+            except Exception:
+                value = None
+            value_avg = None
 
         cut_streak = 0
         for er in ev.itertuples(index=False):
@@ -714,8 +753,9 @@ def build_cheat_for_scope(scope: str, logs: pd.DataFrame, pga: pd.DataFrame, dp:
                 "cut_streak": cut_streak,
                 "avg_finish_course": avg_fin,
                 "starts_at_course": len(cev),
-                "value": p.get("value"),
-                "value_rank": p.get("value_rank"),
+                "value": value if value is not None else p.get("value"),
+                "value_avg": value_avg,
+                "value_rank": None,  # filled after full field ranked by value
                 "salary": p.get("salary", ""),
                 "s1": s_ranks[0],
                 "s2": s_ranks[1],
@@ -748,6 +788,12 @@ def build_cheat_for_scope(scope: str, logs: pd.DataFrame, pga: pd.DataFrame, dp:
     ch = pd.DataFrame(ch_rows)
     if "avg_finish_course" in cheat.columns and len(cheat):
         cheat["ch_rank"] = cheat["avg_finish_course"].rank(method="min")
+
+    # RF rank = combined event SG Total last 7 starts (higher better → rank 1)
+    if len(cheat) and "value" in cheat.columns:
+        cheat["value"] = pd.to_numeric(cheat["value"], errors="coerce")
+        cheat["value_rank"] = cheat["value"].rank(ascending=False, method="min").astype("Int64")
+        cheat = cheat.sort_values("value_rank", na_position="last")
 
     out1 = scoped_path(DATA, "cheat_sheet.csv", scope)
     out2 = scoped_path(DATA, "course_history_summary.csv", scope)
