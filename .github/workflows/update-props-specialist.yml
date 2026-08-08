@@ -12,6 +12,11 @@ on:
           - both
           - current
           - upcoming
+      window:
+        description: "Trait-matched round window (24 recommended; all = no cap)"
+        required: false
+        default: "24"
+        type: string
   schedule:
     - cron: "20 * * * *"
   push:
@@ -25,6 +30,7 @@ on:
       - "data/cheat_sheet_upcoming.csv"
       - "scripts/generate_props_board.py"
       - "scripts/generate_specialist_board.py"
+      - "scripts/generate_props_specialist.py"
       - "scripts/generate_custom_model_defaults.py"
       - "scripts/field_utils.py"
 
@@ -35,6 +41,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -43,20 +51,46 @@ jobs:
       - name: Generate boards
         env:
           EVENT_SCOPE: ${{ github.event.inputs.scope || 'both' }}
+          PROP_SPEC_WINDOW: ${{ github.event.inputs.window || '24' }}
         run: |
+          set -e
           python scripts/generate_props_board.py
           python scripts/generate_specialist_board.py --scope "$EVENT_SCOPE"
+          # Specialist PROP model (birdies+, strokes, bogeys, pars, FW, GIR)
+          WIN="${PROP_SPEC_WINDOW:-24}"
+          if [ "$WIN" = "all" ] || [ "$WIN" = "0" ]; then
+            python scripts/generate_props_specialist.py --scope "$EVENT_SCOPE" --window all
+          else
+            python scripts/generate_props_specialist.py --scope "$EVENT_SCOPE" --window "$WIN"
+          fi
           python scripts/generate_custom_model_defaults.py
       - name: Commit & push
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/props_board.csv data/specialist_board.csv data/specialist_board_upcoming.csv \
-                  data/custom_model_defaults.json || true
+          for f in \
+            data/props_board.csv \
+            data/specialist_board.csv data/specialist_board_upcoming.csv \
+            data/props_specialist.csv data/props_specialist_upcoming.csv \
+            data/props_specialist_traits.csv data/props_specialist_traits_upcoming.csv \
+            data/props_specialist_baselines.json data/props_specialist_baselines_upcoming.json \
+            data/custom_model_defaults.json
+          do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
           fi
-          git commit -m "Auto-update props + specialist boards (current + upcoming)"
-          git pull --rebase origin main || true
-          git push
+          git commit -m "Auto-update props + specialist + props-specialist boards"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push attempt $i failed — retrying..."
+            sleep 3
+          done
+          exit 1
