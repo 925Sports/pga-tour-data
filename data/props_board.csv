@@ -1,114 +1,17 @@
 player_name,stat_type,prizepicks_line,underdog_line,average_line,higher_price_ud,lower_price_ud,book_avg,sg_total_avg,proj,is_matchup
-Alex Noren,Birdies Or Better,4.5,4.5,4.5,-118.0,-105.0,4.5,,4.5,False
-Alex Noren,Bogeys or Worse,2.5,2.5,2.5,102.0,-125.0,2.5,,2.5,False
-Alex Noren,Fairways Hit,9.5,9.5,9.5,-124.0,101.0,9.163333333333334,,9.163333333333334,False
-Alex Noren,Greens In Regulation,14.0,13.5,13.8,-104.0,-118.0,13.203225806451613,,13.203225806451613,False
 Alex Noren,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Alex Noren,Pars,11.0,,11.0,,,10.85,,10.85,False
-Alex Noren,Round Strokes,,67.5,67.5,-124.0,101.0,68.21428571428571,,68.21428571428571,False
-Alex Noren,Strokes,68.0,,68.0,,,68.20833333333333,,68.20833333333333,False
-Alex Noren,Tourney Finishing Position,,5.5,5.5,,-176.0,8.0,,8.0,False
-Alex Smalley,Birdies Or Better,4.5,4.5,4.5,-122.0,100.0,4.5,,4.5,False
-Alex Smalley,Bogeys or Worse,2.5,2.5,2.5,100.0,-122.0,2.5,,2.5,False
-Alex Smalley,Fairways Hit,9.5,9.5,9.5,101.0,-124.0,9.163333333333334,,9.163333333333334,False
-Alex Smalley,Greens In Regulation,14.0,13.5,13.8,-103.0,-120.0,13.203225806451613,,13.203225806451613,False
 Alex Smalley,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Alex Smalley,Pars,11.0,,11.0,,,10.85,,10.85,False
-Alex Smalley,Round Strokes,,67.5,67.5,-136.0,111.0,68.21428571428571,,68.21428571428571,False
-Alex Smalley,Strokes,68.0,,68.0,,,68.20833333333333,,68.20833333333333,False
-Alex Smalley,Tourney Finishing Position,,5.5,5.5,,-179.0,8.0,,8.0,False
-Beau Hossler,Birdies Or Better,,4.5,4.5,112.0,-137.0,4.5,,4.5,False
-Beau Hossler,Bogeys or Worse,,2.5,2.5,-143.0,116.0,2.5,,2.5,False
-Beau Hossler,Fairways Hit,,8.5,8.5,-148.0,119.0,9.163333333333334,,9.163333333333334,False
-Beau Hossler,Greens In Regulation,13.0,12.5,12.8,-134.0,110.0,13.203225806451613,,13.203225806451613,False
 Beau Hossler,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Beau Hossler,Pars,11.0,,11.0,,,10.85,,10.85,False
-Beau Hossler,Round Strokes,,68.5,68.5,-102.0,-122.0,68.21428571428571,,68.21428571428571,False
-Beau Hossler,Strokes,68.5,,68.5,,,68.20833333333333,,68.20833333333333,False
-Beau Hossler,Tourney Finishing Position,,5.5,5.5,,-435.0,8.0,,8.0,False
 Billy Horschel,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-David Skinns,Birdies Or Better,,3.5,3.5,-152.0,123.0,4.5,,4.5,False
-David Skinns,Round Strokes,,69.5,69.5,101.0,-124.0,68.21428571428571,,68.21428571428571,False
-David Skinns,Tourney Finishing Position,,20.5,20.5,,-145.0,8.0,,8.0,False
-Davis Thompson,Birdies Or Better,4.5,4.5,4.5,-106.0,-115.0,4.5,,4.5,False
-Davis Thompson,Bogeys or Worse,,2.5,2.5,101.0,-124.0,2.5,,2.5,False
-Davis Thompson,Fairways Hit,9.0,9.5,9.3,114.0,-139.0,9.163333333333334,,9.163333333333334,False
-Davis Thompson,Greens In Regulation,13.5,13.5,13.5,100.0,-124.0,13.203225806451613,,13.203225806451613,False
+David Skinns,Hole 15 Shots,4.5,,4.5,,,4.5,,4.5,False
 Davis Thompson,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Davis Thompson,Pars,11.0,,11.0,,,10.85,,10.85,False
-Davis Thompson,Round Strokes,,67.5,67.5,-136.0,111.0,68.21428571428571,,68.21428571428571,False
-Davis Thompson,Strokes,68.0,,68.0,,,68.20833333333333,,68.20833333333333,False
-Davis Thompson,Tourney Finishing Position,,5.5,5.5,,-108.0,8.0,,8.0,False
-Erik Van Rooyen,Birdies Or Better,4.0,4.5,4.3,132.0,-164.0,4.5,,4.5,False
-Erik Van Rooyen,Bogeys or Worse,3.0,2.5,2.8,-182.0,148.0,2.5,,2.5,False
-Erik Van Rooyen,Fairways Hit,8.5,8.5,8.5,-124.0,101.0,9.163333333333334,,9.163333333333334,False
-Erik Van Rooyen,Greens In Regulation,13.0,12.5,12.8,-108.0,-114.0,13.203225806451613,,13.203225806451613,False
-Erik Van Rooyen,Pars,11.0,,11.0,,,10.85,,10.85,False
-Erik Van Rooyen,Round Strokes,,69.5,69.5,116.0,-141.0,68.21428571428571,,68.21428571428571,False
-Erik Van Rooyen,Strokes,69.0,,69.0,,,68.20833333333333,,68.20833333333333,False
-Erik Van Rooyen,Tourney Finishing Position,,20.5,20.5,,-162.0,8.0,,8.0,False
-Harry Hall,Birdies Or Better,,4.5,4.5,122.0,-150.0,4.5,,4.5,False
-Harry Hall,Bogeys or Worse,,2.5,2.5,-150.0,121.0,2.5,,2.5,False
-Harry Hall,Fairways Hit,,8.5,8.5,-127.0,103.0,9.163333333333334,,9.163333333333334,False
-Harry Hall,Greens In Regulation,13.0,12.5,12.8,-121.0,-103.0,13.203225806451613,,13.203225806451613,False
+Erik Van Rooyen,Hole 15 Shots,4.5,,4.5,,,4.5,,4.5,False
 Harry Hall,Hole 10 thru 18 Shots,35.0,,35.0,,,34.5,,34.5,False
-Harry Hall,Pars,10.5,,10.5,,,10.85,,10.85,False
-Harry Hall,Round Strokes,,68.5,68.5,101.0,-124.0,68.21428571428571,,68.21428571428571,False
-Harry Hall,Strokes,68.5,,68.5,,,68.20833333333333,,68.20833333333333,False
-Harry Hall,Tourney Finishing Position,,10.5,10.5,,112.0,8.0,,8.0,False
-Hideki Matsuyama,Birdies Or Better,5.0,4.5,4.8,-164.0,133.0,4.5,,4.5,False
-Hideki Matsuyama,Bogeys or Worse,,2.5,2.5,120.0,-148.0,2.5,,2.5,False
-Hideki Matsuyama,Fairways Hit,9.0,9.5,9.3,109.0,-134.0,9.163333333333334,,9.163333333333334,False
-Hideki Matsuyama,Greens In Regulation,13.5,13.5,13.5,136.0,-167.0,13.203225806451613,,13.203225806451613,False
 Hideki Matsuyama,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Hideki Matsuyama,Pars,10.5,,10.5,,,10.85,,10.85,False
-Hideki Matsuyama,Round Strokes,,67.5,67.5,-105.0,-118.0,68.21428571428571,,68.21428571428571,False
-Hideki Matsuyama,Strokes,67.5,,67.5,,,68.20833333333333,,68.20833333333333,False
-Hideki Matsuyama,Tourney Finishing Position,,10.5,10.5,,103.0,8.0,,8.0,False
 Jackson Koivun,Hole 10 thru 18 Shots,34.0,,34.0,,,34.5,,34.5,False
-Jordan L. Smith,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
-Jordan L. Smith,Bogeys or Worse,2.5,,2.5,,,2.5,,2.5,False
-Jordan L. Smith,Fairways Hit,10.0,,10.0,,,9.163333333333334,,9.163333333333334,False
 Jordan L. Smith,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Jordan L. Smith,Pars,11.0,,11.0,,,10.85,,10.85,False
-Jordan L. Smith,Strokes,68.0,,68.0,,,68.20833333333333,,68.20833333333333,False
-Jordan Smith,Birdies Or Better,,4.5,4.5,-122.0,100.0,4.5,,4.5,False
-Jordan Smith,Bogeys or Worse,,2.5,2.5,102.0,-125.0,2.5,,2.5,False
-Jordan Smith,Fairways Hit,,9.5,9.5,-152.0,124.0,9.163333333333334,,9.163333333333334,False
-Jordan Smith,Greens In Regulation,,13.5,13.5,-114.0,-107.0,13.203225806451613,,13.203225806451613,False
-Jordan Smith,Round Strokes,,67.5,67.5,-136.0,111.0,68.21428571428571,,68.21428571428571,False
-Jordan Smith,Tourney Finishing Position,,10.5,10.5,,-132.0,8.0,,8.0,False
-Kevin Yu,Round Strokes,,68.5,68.5,-112.0,-112.0,68.21428571428571,,68.21428571428571,False
-Kevin Yu,Strokes,68.5,,68.5,,,68.20833333333333,,68.20833333333333,False
-Kevin Yu,Tourney Finishing Position,,10.5,10.5,,-167.0,8.0,,8.0,False
-Michael Brennan,Birdies Or Better,4.5,4.5,4.5,-132.0,107.0,4.5,,4.5,False
-Michael Brennan,Bogeys or Worse,,2.5,2.5,-157.0,127.0,2.5,,2.5,False
-Michael Brennan,Fairways Hit,9.0,9.5,9.3,128.0,-157.0,9.163333333333334,,9.163333333333334,False
-Michael Brennan,Greens In Regulation,13.0,12.5,12.8,-141.0,115.0,13.203225806451613,,13.203225806451613,False
+Kevin Yu,Hole 15 Shots,4.5,,4.5,,,4.5,,4.5,False
 Michael Brennan,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Michael Brennan,Pars,10.5,,10.5,,,10.85,,10.85,False
-Michael Brennan,Round Strokes,,68.5,68.5,111.0,-136.0,68.21428571428571,,68.21428571428571,False
-Michael Brennan,Strokes,68.5,,68.5,,,68.20833333333333,,68.20833333333333,False
-Michael Brennan,Tourney Finishing Position,,5.5,5.5,,-455.0,8.0,,8.0,False
-Nico Echavarria,Round Strokes,,68.5,68.5,-112.0,-112.0,68.21428571428571,,68.21428571428571,False
-Nico Echavarria,Tourney Finishing Position,,10.5,10.5,,105.0,8.0,,8.0,False
-Nicolas Echavarria,Birdies Or Better,4.5,,4.5,,,4.5,,4.5,False
 Nicolas Echavarria,Hole 10 thru 18 Shots,35.0,,35.0,,,34.5,,34.5,False
-Nicolas Echavarria,Strokes,68.5,,68.5,,,68.20833333333333,,68.20833333333333,False
-Sahith Theegala,Birdies Or Better,,4.5,4.5,-118.0,-104.0,4.5,,4.5,False
-Sahith Theegala,Bogeys or Worse,,2.5,2.5,-127.0,103.0,2.5,,2.5,False
-Sahith Theegala,Fairways Hit,,8.5,8.5,-159.0,129.0,9.163333333333334,,9.163333333333334,False
-Sahith Theegala,Greens In Regulation,,12.5,12.5,-157.0,127.0,13.203225806451613,,13.203225806451613,False
 Sahith Theegala,Hole 10 thru 18 Shots,34.5,,34.5,,,34.5,,34.5,False
-Sahith Theegala,Round Strokes,,68.5,68.5,102.0,-125.0,68.21428571428571,,68.21428571428571,False
-Sahith Theegala,Tourney Finishing Position,,10.5,10.5,,166.0,8.0,,8.0,False
-Tom Kim,Birdies or Better Matchup,0.5,,0.5,,,,,,True
-Tom Kim,Birdies Or Better,,4.5,4.5,-136.0,110.0,4.5,,4.5,False
-Tom Kim,Bogeys or Worse,2.0,2.5,2.3,121.0,-150.0,2.5,,2.5,False
-Tom Kim,Fairways Hit,,9.5,9.5,-112.0,-112.0,9.163333333333334,,9.163333333333334,False
-Tom Kim,Greens In Regulation,13.5,13.5,13.5,122.0,-150.0,13.203225806451613,,13.203225806451613,False
-Tom Kim,Hole 10 thru 18 Shots,34.0,,34.0,,,34.5,,34.5,False
-Tom Kim,Pars,11.0,,11.0,,,10.85,,10.85,False
-Tom Kim,Round Strokes,,67.5,67.5,101.0,-124.0,68.21428571428571,,68.21428571428571,False
-Tom Kim,Strokes,67.5,,67.5,,,68.20833333333333,,68.20833333333333,False
-Tom Kim,Tourney Finishing Position,,5.5,5.5,,-385.0,8.0,,8.0,False
+Zachary Bauchou,Hole 15 Shots,4.5,,4.5,,,4.5,,4.5,False
