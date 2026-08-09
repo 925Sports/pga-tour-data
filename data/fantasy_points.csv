@@ -1,441 +1,499 @@
 player_name,Player Name,Slate-Tournament,Headshot,Player ID,Draftable ID,Tournament,Game Start Time,Salary,Fantasy Points,Ownership,Made Cut,MC,Win,Top 5,Top 10,Top 20,Teetime,Course,updated_at
-Michael Brennan,Michael Brennan,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43795583,Wyndham Championship,8/9/2026,15900,94.44,4.81,0,0,235.4 (0.30),-597.3 (0.86),-4603.4 (0.98),-25000.0 (1.00),2:31:36 PM,SF,2026-08-09T21:53:39.831434Z
-Beau Hossler,Beau Hossler,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43795584,Wyndham Championship,8/9/2026,15600,92.31,0,0,0,290.1 (0.26),-464.4 (0.82),-3136.9 (0.97),-17500.0 (0.99),2:31:36 PM,SF,2026-08-09T21:53:39.831445Z
-Tom Kim,Tom Kim,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43795585,Wyndham Championship,8/9/2026,14400,103.2,17.76,0,0,313.4 (0.24),-398.7 (0.80),-2833.0 (0.97),-13750.0 (0.99),2:21:36 PM,SF,2026-08-09T21:53:39.831448Z
-Jackson Koivun,Jackson Koivun,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43795586,Wyndham Championship,8/9/2026,13800,104.34,23.14,0,0,19801.5 (0.01),1086.1 (0.08),230.0 (0.30),-204.1 (0.67),1:21:36 PM,SF,2026-08-09T21:53:39.831451Z
-Jordan L. Smith,Jordan L. Smith,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43795587,Wyndham Championship,8/9/2026,13200,92.15,8.9,0,0,7734.8 (0.01),429.4 (0.19),3.1 (0.97),-644.4 (0.87),1:51:36 PM,SF,2026-08-09T21:53:39.831453Z
-Alex Smalley,Alex Smalley,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43795588,Wyndham Championship,8/9/2026,12600,95.49,8.83,0,0,823.5 (0.11),-149.8 (0.60),-706.9 (0.88),-5604.5 (0.98),2:21:36 PM,SF,2026-08-09T21:53:39.831456Z
-Davis Thompson,Davis Thompson,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43795589,Wyndham Championship,8/9/2026,12000,90.43,14.34,0,0,1451.4 (0.06),65.0 (0.61),-407.0 (0.80),-3623.7 (0.97),2:11:36 PM,SF,2026-08-09T21:53:39.831458Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831463Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831466Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831469Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831471Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831474Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831476Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831478Z
-Hideki Matsuyama,Hideki Matsuyama,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43795590,Wyndham Championship,8/9/2026,11400,97.12,19.83,0,0,9973.4 (0.01),527.8 (0.16),73.4 (0.58),-486.9 (0.83),1:41:36 PM,SF,2026-08-09T21:53:39.831481Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831483Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831485Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831487Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831490Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831492Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831494Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831497Z
-Alex Noren,Alex Noren,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43795591,Wyndham Championship,8/9/2026,10800,84.88,7.8,0,0,878.7 (0.10),-154.1 (0.61),-718.8 (0.88),-5855.0 (0.98),2:11:36 PM,SF,2026-08-09T21:53:39.831499Z
-Michael Brennan,Michael Brennan,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43795565,Wyndham Championship,8/9/2026,10600,94.44,4.81,0,0,235.4 (0.30),-597.3 (0.86),-4603.4 (0.98),-25000.0 (1.00),2:31:36 PM,SF,2026-08-09T21:53:39.831501Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831503Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831505Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831507Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831510Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831512Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831514Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831516Z
-Beau Hossler,Beau Hossler,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43795566,Wyndham Championship,8/9/2026,10400,92.31,0,0,0,290.1 (0.26),-464.4 (0.82),-3136.9 (0.97),-17500.0 (0.99),2:31:36 PM,SF,2026-08-09T21:53:39.831518Z
-Sahith Theegala,Sahith Theegala,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43795592,Wyndham Championship,8/9/2026,10200,85.59,4.93,0,0,22549.5 (0.00),1130.6 (0.08),244.1 (0.29),-179.1 (0.64),1:31:36 PM,SF,2026-08-09T21:53:39.831520Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831523Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831525Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831527Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831529Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831531Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831533Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831535Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831537Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831540Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831542Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831544Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831546Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831548Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831550Z
-Tom Kim,Tom Kim,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43795567,Wyndham Championship,8/9/2026,9600,103.2,17.76,0,0,313.4 (0.24),-398.7 (0.80),-2833.0 (0.97),-13750.0 (0.99),2:21:36 PM,SF,2026-08-09T21:53:39.831552Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831554Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831556Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831558Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831560Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831562Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831564Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831567Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831569Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831571Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831573Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831575Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831578Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831580Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831582Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831584Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831586Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831588Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831590Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831593Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831595Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831597Z
-Kevin Yu,Kevin Yu,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43795593,Wyndham Championship,8/9/2026,9300,76.39,0,0,0,4870.3 (0.02),304.6 (0.25),-144.4 (0.59),-811.7 (0.89),2:01:36 PM,SF,2026-08-09T21:53:39.831599Z
-Jackson Koivun,Jackson Koivun,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43795568,Wyndham Championship,8/9/2026,9200,104.34,23.14,0,0,19801.5 (0.01),1086.1 (0.08),230.0 (0.30),-204.1 (0.67),1:21:36 PM,SF,2026-08-09T21:53:39.831601Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831603Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831605Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831607Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831610Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831612Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831614Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831616Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831618Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831620Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831622Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831624Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831626Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831629Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831631Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831633Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831635Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831637Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831639Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831641Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831643Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831645Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831648Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831650Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831652Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831654Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831656Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831658Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831660Z
-Jordan L. Smith,Jordan L. Smith,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43795569,Wyndham Championship,8/9/2026,8800,92.15,8.9,0,0,7734.8 (0.01),429.4 (0.19),3.1 (0.97),-644.4 (0.87),1:51:36 PM,SF,2026-08-09T21:53:39.831663Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831665Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831667Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831670Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831672Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831674Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831676Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831678Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831680Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831682Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831684Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831686Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831688Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831690Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831692Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831695Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831697Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831699Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831701Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831703Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831705Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831707Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831709Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831711Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831713Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831715Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831717Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831720Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831722Z
-Alex Smalley,Alex Smalley,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43795570,Wyndham Championship,8/9/2026,8400,95.49,8.83,0,0,823.5 (0.11),-149.8 (0.60),-706.9 (0.88),-5604.5 (0.98),2:21:36 PM,SF,2026-08-09T21:53:39.831724Z
-Matt Wallace,Matt Wallace,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43795594,Wyndham Championship,8/9/2026,8400,78.9,7.01,0,0,47954.5 (0.00),1627.8 (0.06),318.9 (0.24),-155.3 (0.61),1:21:36 PM,SF,2026-08-09T21:53:39.831726Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831729Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831731Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831733Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831736Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831738Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831740Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831743Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831745Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831747Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831749Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831752Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831754Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831756Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831758Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831760Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831762Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831764Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831766Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831768Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831770Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831772Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831775Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831777Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831779Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831782Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831784Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831786Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831788Z
-Davis Thompson,Davis Thompson,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43795571,Wyndham Championship,8/9/2026,8000,90.43,14.34,0,0,1451.4 (0.06),65.0 (0.61),-407.0 (0.80),-3623.7 (0.97),2:11:36 PM,SF,2026-08-09T21:53:39.831790Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831793Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831795Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831797Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831799Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831801Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831803Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831805Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831807Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831809Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831812Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831814Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831816Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831819Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831821Z
-Nicolas Echavarria,Nicolas Echavarria,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43795595,Wyndham Championship,8/9/2026,7800,78.94,0,0,0,,,,,,,2026-08-09T21:53:39.831823Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831825Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831827Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831830Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831832Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831834Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831836Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831838Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831840Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831842Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831844Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831846Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831848Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831850Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831852Z
-Hideki Matsuyama,Hideki Matsuyama,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43795572,Wyndham Championship,8/9/2026,7600,97.12,19.83,0,0,9973.4 (0.01),527.8 (0.16),73.4 (0.58),-486.9 (0.83),1:41:36 PM,SF,2026-08-09T21:53:39.831854Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831857Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831859Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831861Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831863Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831866Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831868Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831870Z
-Harry Hall,Harry Hall,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43795596,Wyndham Championship,8/9/2026,7500,71.63,2,0,0,12021.7 (0.01),616.7 (0.14),140.7 (0.42),-382.1 (0.79),1:51:36 PM,SF,2026-08-09T21:53:39.831872Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831874Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831876Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831878Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831881Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831884Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831886Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831888Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831890Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831892Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831894Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831896Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831898Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831900Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831903Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831905Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831910Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831912Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831915Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831917Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831930Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831932Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831935Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831937Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831939Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831941Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831943Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831945Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831948Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831950Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831952Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831954Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831956Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831958Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831961Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831963Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831965Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831967Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831969Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831971Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831974Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831976Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831978Z
-Alex Noren,Alex Noren,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43795573,Wyndham Championship,8/9/2026,7200,84.88,7.8,0,0,878.7 (0.10),-154.1 (0.61),-718.8 (0.88),-5855.0 (0.98),2:11:36 PM,SF,2026-08-09T21:53:39.831980Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831982Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831984Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831986Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831988Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831991Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831993Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831995Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831997Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.831999Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832001Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832003Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832005Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832007Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832010Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832012Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832014Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832016Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832018Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832020Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832023Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832025Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832027Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832029Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832031Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832033Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832035Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832037Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832039Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832041Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832044Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832046Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832048Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832051Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832053Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832055Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832057Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832059Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832061Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832063Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832065Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832068Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832070Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832072Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832074Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832076Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832079Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832081Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832083Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832085Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832087Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832089Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832091Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832093Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832096Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832098Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832100Z
-Sahith Theegala,Sahith Theegala,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43795574,Wyndham Championship,8/9/2026,6800,85.59,4.93,0,0,22549.5 (0.00),1130.6 (0.08),244.1 (0.29),-179.1 (0.64),1:31:36 PM,SF,2026-08-09T21:53:39.832102Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832104Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832106Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832109Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832111Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832113Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832115Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832117Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832119Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832121Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832123Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832125Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832127Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832130Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832132Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832134Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832136Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832139Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832141Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832143Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832145Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832147Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832149Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832151Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832153Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832155Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832157Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832160Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832162Z
-Kevin Roy,Kevin Roy,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43795598,Wyndham Championship,8/9/2026,6600,71.12,0,0,0,67250.0 (0.00),2611.1 (0.04),485.3 (0.17),73.4 (0.58),1:06:36 PM,SF,2026-08-09T21:53:39.832164Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832166Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832168Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832170Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832172Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832174Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832176Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832178Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832180Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832183Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832185Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832187Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832189Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832191Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832193Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832195Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832198Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832200Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832202Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832204Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832206Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832208Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832210Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832212Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832215Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832217Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832219Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832221Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832224Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832226Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832228Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832230Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832232Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832234Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832236Z
-Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832238Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832241Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832243Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832245Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832247Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832249Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832251Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832253Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832255Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832257Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832260Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832262Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832264Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832266Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832268Z
-Zachary Bauchou,Zachary Bauchou,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43795599,Wyndham Championship,8/9/2026,6300,63.31,0,0,0,,,,,,,2026-08-09T21:53:39.832270Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832272Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832274Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832290Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832292Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832295Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832297Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832299Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832301Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832303Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832305Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832307Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832309Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832312Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832314Z
-Kevin Yu,Kevin Yu,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43795575,Wyndham Championship,8/9/2026,6200,76.39,0,0,0,4870.3 (0.02),304.6 (0.25),-144.4 (0.59),-811.7 (0.89),2:01:36 PM,SF,2026-08-09T21:53:39.832316Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832318Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832321Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832323Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832325Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832328Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832330Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832332Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832334Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832337Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832339Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832342Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832344Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832346Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832348Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832351Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832353Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832355Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832357Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832359Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832361Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832363Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832365Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832368Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832370Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832372Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832374Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832376Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832378Z
-Erik Van Rooyen,Erik Van Rooyen,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/671.png,417,43795600,Wyndham Championship,8/9/2026,6000,61.82,0.43,0,0,42521.3 (0.00),1544.4 (0.06),308.7 (0.24),-165.7 (0.62),1:41:36 PM,SF,2026-08-09T21:53:39.832380Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832382Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832385Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832387Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832389Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832391Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832393Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832395Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832397Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832399Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832401Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832403Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832405Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832407Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T21:53:39.832409Z
-Matt Wallace,Matt Wallace,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43795576,Wyndham Championship,8/9/2026,5600,78.9,7.01,0,0,47954.5 (0.00),1627.8 (0.06),318.9 (0.24),-155.3 (0.61),1:21:36 PM,SF,2026-08-09T21:53:39.832411Z
-Nicolas Echavarria,Nicolas Echavarria,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43795577,Wyndham Championship,8/9/2026,5200,78.94,0,0,0,,,,,,,2026-08-09T21:53:39.832413Z
-Harry Hall,Harry Hall,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43795578,Wyndham Championship,8/9/2026,5000,71.63,2,0,0,12021.7 (0.01),616.7 (0.14),140.7 (0.42),-382.1 (0.79),1:51:36 PM,SF,2026-08-09T21:53:39.832415Z
-Kevin Roy,Kevin Roy,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43795580,Wyndham Championship,8/9/2026,4400,71.12,0,0,0,67250.0 (0.00),2611.1 (0.04),485.3 (0.17),73.4 (0.58),1:06:36 PM,SF,2026-08-09T21:53:39.832417Z
-Zachary Bauchou,Zachary Bauchou,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43795581,Wyndham Championship,8/9/2026,4200,63.31,0,0,0,,,,,,,2026-08-09T21:53:39.832420Z
-Erik Van Rooyen,Erik Van Rooyen,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/671.png,417,43795582,Wyndham Championship,8/9/2026,4000,61.82,0.43,0,0,42521.3 (0.00),1544.4 (0.06),308.7 (0.24),-165.7 (0.62),1:41:36 PM,SF,2026-08-09T21:53:39.832422Z
+Michael Brennan,Michael Brennan,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43795583,Wyndham Championship,8/9/2026,15900,94.44,4.81,0,0,235.4 (0.30),-597.3 (0.86),-4603.4 (0.98),-25000.0 (1.00),2:31:36 PM,SF,2026-08-09T22:37:59.053164Z
+Beau Hossler,Beau Hossler,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43795584,Wyndham Championship,8/9/2026,15600,92.31,0,0,0,290.1 (0.26),-464.4 (0.82),-3136.9 (0.97),-17500.0 (0.99),2:31:36 PM,SF,2026-08-09T22:37:59.053176Z
+Tom Kim,Tom Kim,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43795585,Wyndham Championship,8/9/2026,14400,103.2,17.76,0,0,313.4 (0.24),-398.7 (0.80),-2833.0 (0.97),-13750.0 (0.99),2:21:36 PM,SF,2026-08-09T22:37:59.053180Z
+Jackson Koivun,Jackson Koivun,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43795586,Wyndham Championship,8/9/2026,13800,104.34,23.14,0,0,19801.5 (0.01),1086.1 (0.08),230.0 (0.30),-204.1 (0.67),1:21:36 PM,SF,2026-08-09T22:37:59.053182Z
+Jordan L. Smith,Jordan L. Smith,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43795587,Wyndham Championship,8/9/2026,13200,92.15,8.9,0,0,7734.8 (0.01),429.4 (0.19),3.1 (0.97),-644.4 (0.87),1:51:36 PM,SF,2026-08-09T22:37:59.053185Z
+Alex Smalley,Alex Smalley,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43795588,Wyndham Championship,8/9/2026,12600,95.49,8.83,0,0,823.5 (0.11),-149.8 (0.60),-706.9 (0.88),-5604.5 (0.98),2:21:36 PM,SF,2026-08-09T22:37:59.053188Z
+Davis Thompson,Davis Thompson,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43795589,Wyndham Championship,8/9/2026,12000,90.43,14.34,0,0,1451.4 (0.06),65.0 (0.61),-407.0 (0.80),-3623.7 (0.97),2:11:36 PM,SF,2026-08-09T22:37:59.053190Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053196Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053199Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053202Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053204Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053206Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053209Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053211Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43755372,LIV Golf New York,8/6/2026,11500,27.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053214Z
+Hideki Matsuyama,Hideki Matsuyama,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43795590,Wyndham Championship,8/9/2026,11400,97.12,19.83,0,0,9973.4 (0.01),527.8 (0.16),73.4 (0.58),-486.9 (0.83),1:41:36 PM,SF,2026-08-09T22:37:59.053216Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053219Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053221Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053224Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053227Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053229Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053231Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053234Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43755373,LIV Golf New York,8/6/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053236Z
+Alex Noren,Alex Noren,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43795591,Wyndham Championship,8/9/2026,10800,84.88,7.8,0,0,878.7 (0.10),-154.1 (0.61),-718.8 (0.88),-5855.0 (0.98),2:11:36 PM,SF,2026-08-09T22:37:59.053238Z
+Michael Brennan,Michael Brennan,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43795565,Wyndham Championship,8/9/2026,10600,94.44,4.81,0,0,235.4 (0.30),-597.3 (0.86),-4603.4 (0.98),-25000.0 (1.00),2:31:36 PM,SF,2026-08-09T22:37:59.053241Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053243Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053245Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053248Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053250Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053252Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053254Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053257Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43755374,LIV Golf New York,8/6/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053259Z
+Beau Hossler,Beau Hossler,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/646.png,1689,43795566,Wyndham Championship,8/9/2026,10400,92.31,0,0,0,290.1 (0.26),-464.4 (0.82),-3136.9 (0.97),-17500.0 (0.99),2:31:36 PM,SF,2026-08-09T22:37:59.053261Z
+Sahith Theegala,Sahith Theegala,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43795592,Wyndham Championship,8/9/2026,10200,85.59,4.93,0,0,22549.5 (0.00),1130.6 (0.08),244.1 (0.29),-179.1 (0.64),1:31:36 PM,SF,2026-08-09T22:37:59.053264Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053266Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053268Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053270Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053272Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053275Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053277Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053279Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43755375,LIV Golf New York,8/6/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053281Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053284Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053286Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053288Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053290Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053292Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053294Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053297Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43755376,LIV Golf New York,8/6/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053299Z
+Tom Kim,Tom Kim,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43795567,Wyndham Championship,8/9/2026,9600,103.2,17.76,0,0,313.4 (0.24),-398.7 (0.80),-2833.0 (0.97),-13750.0 (0.99),2:21:36 PM,SF,2026-08-09T22:37:59.053301Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053304Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053306Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053308Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053311Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053313Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053315Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053317Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43755377,LIV Golf New York,8/6/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053320Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053322Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053324Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053326Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053328Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053331Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053333Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053335Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43755378,LIV Golf New York,8/6/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053337Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053340Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053342Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053344Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053347Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053349Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053352Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053354Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43755379,LIV Golf New York,8/6/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053356Z
+Kevin Yu,Kevin Yu,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43795593,Wyndham Championship,8/9/2026,9300,76.39,0,0,0,4870.3 (0.02),304.6 (0.25),-144.4 (0.59),-811.7 (0.89),2:01:36 PM,SF,2026-08-09T22:37:59.053359Z
+Jackson Koivun,Jackson Koivun,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43795568,Wyndham Championship,8/9/2026,9200,104.34,23.14,0,0,19801.5 (0.01),1086.1 (0.08),230.0 (0.30),-204.1 (0.67),1:21:36 PM,SF,2026-08-09T22:37:59.053361Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053363Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053365Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053368Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053370Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053372Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053375Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053377Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43755380,LIV Golf New York,8/6/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053379Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053382Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053384Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053386Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053402Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053405Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053407Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053410Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43755381,LIV Golf New York,8/6/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053412Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053414Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053416Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053418Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053420Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053423Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053425Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053427Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43755382,LIV Golf New York,8/6/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053429Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053431Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053434Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053436Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053438Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053441Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053443Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053445Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43755383,LIV Golf New York,8/6/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053447Z
+Jordan L. Smith,Jordan L. Smith,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43795569,Wyndham Championship,8/9/2026,8800,92.15,8.9,0,0,7734.8 (0.01),429.4 (0.19),3.1 (0.97),-644.4 (0.87),1:51:36 PM,SF,2026-08-09T22:37:59.053450Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053452Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053454Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053456Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053459Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053461Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053463Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053465Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43755384,LIV Golf New York,8/6/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053467Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053469Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053472Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053474Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053476Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053478Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053480Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053482Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43755385,LIV Golf New York,8/6/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053485Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053487Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053489Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053491Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053493Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053496Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053498Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053500Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43755386,LIV Golf New York,8/6/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053502Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053505Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053507Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053509Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053511Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053514Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053516Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053518Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43755387,LIV Golf New York,8/6/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053520Z
+Alex Smalley,Alex Smalley,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43795570,Wyndham Championship,8/9/2026,8400,95.49,8.83,0,0,823.5 (0.11),-149.8 (0.60),-706.9 (0.88),-5604.5 (0.98),2:21:36 PM,SF,2026-08-09T22:37:59.053523Z
+Matt Wallace,Matt Wallace,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43795594,Wyndham Championship,8/9/2026,8400,78.9,7.01,0,0,47954.5 (0.00),1627.8 (0.06),318.9 (0.24),-155.3 (0.61),1:21:36 PM,SF,2026-08-09T22:37:59.053525Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053527Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053529Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053532Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053534Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053537Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053539Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053541Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43755388,LIV Golf New York,8/6/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053544Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053546Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053548Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053550Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053552Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053565Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053567Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053570Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43755389,LIV Golf New York,8/6/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053572Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053575Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053577Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053579Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053581Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053583Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053585Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053587Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43755390,LIV Golf New York,8/6/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053590Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053592Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053595Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053597Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053599Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053602Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053604Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053606Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43755391,LIV Golf New York,8/6/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053608Z
+Davis Thompson,Davis Thompson,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,43795571,Wyndham Championship,8/9/2026,8000,90.43,14.34,0,0,1451.4 (0.06),65.0 (0.61),-407.0 (0.80),-3623.7 (0.97),2:11:36 PM,SF,2026-08-09T22:37:59.053611Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053613Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053615Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053617Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053620Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053622Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053624Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053626Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43755392,LIV Golf New York,8/6/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053628Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053630Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053633Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053635Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053637Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053640Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053642Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053644Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43755393,LIV Golf New York,8/6/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053647Z
+Nicolas Echavarria,Nicolas Echavarria,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43795595,Wyndham Championship,8/9/2026,7800,78.94,0,0,0,,,,,,,2026-08-09T22:37:59.053649Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053651Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053653Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053655Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053658Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053660Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053662Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053665Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43755394,LIV Golf New York,8/6/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053667Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053669Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053671Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053673Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053675Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053678Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053680Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053682Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43755395,LIV Golf New York,8/6/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053684Z
+Hideki Matsuyama,Hideki Matsuyama,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43795572,Wyndham Championship,8/9/2026,7600,97.12,19.83,0,0,9973.4 (0.01),527.8 (0.16),73.4 (0.58),-486.9 (0.83),1:41:36 PM,SF,2026-08-09T22:37:59.053686Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053689Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053691Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053693Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053695Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053697Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053699Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053701Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43755396,LIV Golf New York,8/6/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053704Z
+Harry Hall,Harry Hall,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43795596,Wyndham Championship,8/9/2026,7500,71.63,2,0,0,12021.7 (0.01),616.7 (0.14),140.7 (0.42),-382.1 (0.79),1:51:36 PM,SF,2026-08-09T22:37:59.053706Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053708Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053710Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053712Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053714Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053716Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053719Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053721Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053723Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053725Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053727Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053730Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053732Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053734Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053736Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43755397,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053738Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43755398,LIV Golf New York,8/6/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053741Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053743Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053748Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053750Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053753Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053755Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053758Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053760Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053762Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053764Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053767Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053769Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053771Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053773Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053776Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43755399,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053778Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43755400,LIV Golf New York,8/6/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053781Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053783Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053785Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053788Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053790Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053792Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053795Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053797Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053799Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053802Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053804Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053806Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053808Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053810Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053813Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43755401,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053815Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43755402,LIV Golf New York,8/6/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053817Z
+Alex Noren,Alex Noren,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43795573,Wyndham Championship,8/9/2026,7200,84.88,7.8,0,0,878.7 (0.10),-154.1 (0.61),-718.8 (0.88),-5855.0 (0.98),2:11:36 PM,SF,2026-08-09T22:37:59.053820Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053822Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053824Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053826Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053829Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053831Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053833Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053836Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053838Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053840Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053842Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053845Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053847Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053849Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053852Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43755403,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053854Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43755404,LIV Golf New York,8/6/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053856Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053858Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053860Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053863Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053865Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053867Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053869Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053871Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053874Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053876Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053878Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053880Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053882Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053884Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053887Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43755405,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053889Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43755406,LIV Golf New York,8/6/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053891Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053893Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053896Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053898Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053900Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053902Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053905Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053907Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053909Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053912Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053914Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053916Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053918Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053920Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053923Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43755407,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053925Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43755408,LIV Golf New York,8/6/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053927Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053929Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053932Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053934Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053936Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053938Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053941Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053943Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053945Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053947Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053950Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053952Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053954Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053956Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053959Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43755409,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053961Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43755410,LIV Golf New York,8/6/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053963Z
+Sahith Theegala,Sahith Theegala,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43795574,Wyndham Championship,8/9/2026,6800,85.59,4.93,0,0,22549.5 (0.00),1130.6 (0.08),244.1 (0.29),-179.1 (0.64),1:31:36 PM,SF,2026-08-09T22:37:59.053965Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053968Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053970Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053972Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053974Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053976Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053979Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053981Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053983Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053985Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053987Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053989Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053992Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053994Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053996Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43755411,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.053998Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43755412,LIV Golf New York,8/6/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054000Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054002Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054005Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054007Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054010Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054012Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054014Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054017Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054019Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054021Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054023Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054026Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054028Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054030Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054032Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43755413,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054035Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43755414,LIV Golf New York,8/6/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054037Z
+Kevin Roy,Kevin Roy,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43795598,Wyndham Championship,8/9/2026,6600,71.12,0,0,0,67250.0 (0.00),2611.1 (0.04),485.3 (0.17),73.4 (0.58),1:06:36 PM,SF,2026-08-09T22:37:59.054039Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054041Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054043Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054046Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054048Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054050Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054052Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054054Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054056Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054059Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054061Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054063Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054065Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054067Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054069Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43755415,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054072Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43755416,LIV Golf New York,8/6/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054074Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054076Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054078Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054080Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054082Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054085Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054087Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054089Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054091Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054093Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054096Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054098Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054100Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054102Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054104Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054106Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054109Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054111Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054114Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054116Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054118Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054120Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43755417,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054122Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43755418,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054124Z
+Martin Vorster,Martin Vorster,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_africa.png,700284,43763259,LIV Golf New York,8/6/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054127Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054129Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054131Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054133Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054135Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054138Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054140Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054142Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054144Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054146Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054148Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054150Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054153Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054155Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054157Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43755419,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054159Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43755420,LIV Golf New York,8/6/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054161Z
+Zachary Bauchou,Zachary Bauchou,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43795599,Wyndham Championship,8/9/2026,6300,63.31,0,0,0,,,,,,,2026-08-09T22:37:59.054163Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054166Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054168Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054170Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054172Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054174Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054177Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054179Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054181Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054183Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054185Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054187Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054190Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054192Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054194Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43755421,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054196Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43755422,LIV Golf New York,8/6/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054199Z
+Kevin Yu,Kevin Yu,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/681.png,671066,43795575,Wyndham Championship,8/9/2026,6200,76.39,0,0,0,4870.3 (0.02),304.6 (0.25),-144.4 (0.59),-811.7 (0.89),2:01:36 PM,SF,2026-08-09T22:37:59.054201Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054204Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054206Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054209Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054211Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054214Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054216Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054218Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054221Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054223Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054226Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054228Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054230Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054233Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054235Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43755423,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054238Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43755424,LIV Golf New York,8/6/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054240Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054242Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054244Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054247Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054249Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054251Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054253Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054256Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054258Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054260Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054262Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054264Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054267Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054269Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054271Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43755425,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054273Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43755426,LIV Golf New York,8/6/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054275Z
+Erik Van Rooyen,Erik Van Rooyen,Showdown Captain Mode (Captain): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/671.png,417,43795600,Wyndham Championship,8/9/2026,6000,61.82,0.43,0,0,42521.3 (0.00),1544.4 (0.06),308.7 (0.24),-165.7 (0.62),1:41:36 PM,SF,2026-08-09T22:37:59.054278Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054280Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054282Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054284Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054287Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054289Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054291Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054293Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054295Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054297Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054300Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054302Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054304Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054306Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054308Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43755427,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054310Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43755428,LIV Golf New York,8/6/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-08-09T22:37:59.054313Z
+Matt Wallace,Matt Wallace,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43795576,Wyndham Championship,8/9/2026,5600,78.9,7.01,0,0,47954.5 (0.00),1627.8 (0.06),318.9 (0.24),-155.3 (0.61),1:21:36 PM,SF,2026-08-09T22:37:59.054315Z
+Nicolas Echavarria,Nicolas Echavarria,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43795577,Wyndham Championship,8/9/2026,5200,78.94,0,0,0,,,,,,,2026-08-09T22:37:59.054317Z
+Harry Hall,Harry Hall,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43795578,Wyndham Championship,8/9/2026,5000,71.63,2,0,0,12021.7 (0.01),616.7 (0.14),140.7 (0.42),-382.1 (0.79),1:51:36 PM,SF,2026-08-09T22:37:59.054320Z
+Kevin Roy,Kevin Roy,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,43795580,Wyndham Championship,8/9/2026,4400,71.12,0,0,0,67250.0 (0.00),2611.1 (0.04),485.3 (0.17),73.4 (0.58),1:06:36 PM,SF,2026-08-09T22:37:59.054322Z
+Zachary Bauchou,Zachary Bauchou,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/countries/50/united_states.png,689973,43795581,Wyndham Championship,8/9/2026,4200,63.31,0,0,0,,,,,,,2026-08-09T22:37:59.054324Z
+Erik Van Rooyen,Erik Van Rooyen,Showdown Captain Mode (Flex): Wyndham Championship,https://dkn.gs/sports/images/golf/players/50/671.png,417,43795582,Wyndham Championship,8/9/2026,4000,61.82,0.43,0,0,42521.3 (0.00),1544.4 (0.06),308.7 (0.24),-165.7 (0.62),1:41:36 PM,SF,2026-08-09T22:37:59.054326Z
