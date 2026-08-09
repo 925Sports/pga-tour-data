@@ -1,9 +1,11 @@
 name: Update Slate Data (DK / Odds / Props)
 
+# PP + UD + combined props should refresh often during events.
+# GitHub schedule cron can drift a few minutes; 15m is a solid live cadence.
 on:
   schedule:
-    # Every 3 hours
-    - cron: "15 */3 * * *"
+    # Every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,6 +25,7 @@ jobs:
         run: python scripts/generate_slate_data.py
 
       - name: Commit & push
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -34,7 +37,19 @@ jobs:
           done
           if git diff --staged --quiet; then
             echo "No changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Auto-update slate data (DK salaries, odds, props)"
-          git push
+          # Retry push in case of concurrent workflow commits
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push attempt $i failed — retrying..."
+            sleep 3
+          done
+          exit 1
