@@ -1,21 +1,21 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,DONALD ROSS,948,False,SEDGEFIELD,Wyndham Championship
-style,STYLE,PARKLAND,948,False,SEDGEFIELD,Wyndham Championship
-greens,GREENS,BERMUDA,948,True,SEDGEFIELD,Wyndham Championship
-greens_2,GREENS (2),CHAMPION,948,True,SEDGEFIELD,Wyndham Championship
-fairways,FAIRWAYS,BERMUDA,948,False,SEDGEFIELD,Wyndham Championship
-length,LENGTH,NORMAL,948,False,SEDGEFIELD,Wyndham Championship
-par,PAR,70.0,948,False,SEDGEFIELD,Wyndham Championship
-scoring,SCORING,NORMAL,724,False,SEDGEFIELD,Wyndham Championship
-weather,WEATHER,GREAT,555,False,SEDGEFIELD,Wyndham Championship
-type,TYPE,FULL,948,False,SEDGEFIELD,Wyndham Championship
-fairway_width,FAIRWAY WIDTH,SMALL,948,False,SEDGEFIELD,Wyndham Championship
-green_width,GREEN WIDTH,SMALL,948,True,SEDGEFIELD,Wyndham Championship
-rough_length,ROUGH LENGTH,NORMAL,948,False,SEDGEFIELD,Wyndham Championship
-water_hazards,WATER HAZARDS,5.0,948,False,SEDGEFIELD,Wyndham Championship
-rough_amount,ROUGH AMOUNT,NORMAL,948,False,SEDGEFIELD,Wyndham Championship
-bunkers,BUNKERS,52.0,948,False,SEDGEFIELD,Wyndham Championship
-location,LOCATION,NORTH CAROLINA,948,False,SEDGEFIELD,Wyndham Championship
-redesigned,Redesigned,KRIS SPENCER,838,False,SEDGEFIELD,Wyndham Championship
-drainage,DRAINAGE,BAD,948,False,SEDGEFIELD,Wyndham Championship
-rain,RAIN,NO,838,False,SEDGEFIELD,Wyndham Championship
+designer,DESIGNER,DONALD ROSS,601,False,SEDGEFIELD,FedEx St. Jude Championship
+style,STYLE,PARKLAND,601,False,SEDGEFIELD,FedEx St. Jude Championship
+greens,GREENS,BERMUDA,601,True,SEDGEFIELD,FedEx St. Jude Championship
+greens_2,GREENS (2),CHAMPION,601,True,SEDGEFIELD,FedEx St. Jude Championship
+fairways,FAIRWAYS,BERMUDA,601,False,SEDGEFIELD,FedEx St. Jude Championship
+length,LENGTH,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
+par,PAR,70.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
+scoring,SCORING,NORMAL,349,False,SEDGEFIELD,FedEx St. Jude Championship
+weather,WEATHER,GREAT,283,False,SEDGEFIELD,FedEx St. Jude Championship
+type,TYPE,FULL,601,False,SEDGEFIELD,FedEx St. Jude Championship
+fairway_width,FAIRWAY WIDTH,SMALL,601,False,SEDGEFIELD,FedEx St. Jude Championship
+green_width,GREEN WIDTH,SMALL,601,True,SEDGEFIELD,FedEx St. Jude Championship
+rough_length,ROUGH LENGTH,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
+water_hazards,WATER HAZARDS,5.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
+rough_amount,ROUGH AMOUNT,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
+bunkers,BUNKERS,52.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
+location,LOCATION,NORTH CAROLINA,601,False,SEDGEFIELD,FedEx St. Jude Championship
+redesigned,Redesigned,KRIS SPENCER,534,False,SEDGEFIELD,FedEx St. Jude Championship
+drainage,DRAINAGE,BAD,601,False,SEDGEFIELD,FedEx St. Jude Championship
+rain,RAIN,NO,534,False,SEDGEFIELD,FedEx St. Jude Championship
