@@ -608,15 +608,54 @@ def build_cheat_for_scope(scope: str, logs: pd.DataFrame, pga: pd.DataFrame, dp:
         field["player_name"] = field.get("name_adjusted", "")
 
     event_name = str(field.iloc[0].get("event_name") or field.iloc[0].get("event") or "")
-    course_from_field = str(field.iloc[0].get("course_name") or "")
+    course_from_field = str(field.iloc[0].get("course_name") or "").strip()
     preview = load_preview(event_name, course_from_field)
-    course = (
-        str(preview.get("COURSE NAME") or preview.get("Course Name") or "")
-        or course_from_field
-        or resolve_course(logs, event_name)
+    preview_course = str(preview.get("COURSE NAME") or preview.get("Course Name") or "").strip()
+    preview_tourn = str(preview.get("TOURNAMENT") or preview.get("Tournament") or "").strip()
+
+    # Course name source of truth = LIVE FIELD (e.g. TPC Southwind for FedEx).
+    # Never let a stale pre_tournament_preview row (e.g. SEDGEFIELD / Wyndham)
+    # override the field when the tournament names don't match.
+    def _names_close(a: str, b: str) -> bool:
+        al = re.sub(r"[^a-z0-9]+", " ", (a or "").lower()).strip()
+        bl = re.sub(r"[^a-z0-9]+", " ", (b or "").lower()).strip()
+        if not al or not bl:
+            return False
+        if al == bl or al in bl or bl in al:
+            return True
+        at, bt = set(al.split()), set(bl.split())
+        stop = {"the", "championship", "classic", "open", "presented", "by", "golf", "club", "country", "tpc"}
+        at, bt = at - stop, bt - stop
+        return bool(at & bt) and len(at & bt) >= min(2, len(at), len(bt))
+
+    preview_ok = bool(preview_course) and (
+        _names_close(preview_tourn, event_name) or _names_close(preview_course, course_from_field)
     )
+    if course_from_field:
+        course = course_from_field
+        if preview_course and not preview_ok:
+            print(
+                f"Ignoring stale preview course {preview_course!r} "
+                f"(preview event {preview_tourn!r} vs field {event_name!r})"
+            )
+    elif preview_ok:
+        course = preview_course
+    else:
+        course = resolve_course(logs, event_name)
+
+    # Canonical name when hints know this event (keeps CH matching stable)
+    for ev_re, course_re, canonical in COURSE_HINTS:
+        if ev_re.search(event_name or ""):
+            if not course or course_re.search(course) or not course_from_field:
+                # Prefer field string if it already matches; else canonical
+                if course_from_field and course_re.search(course_from_field):
+                    course = course_from_field
+                elif not course_from_field:
+                    course = canonical
+            break
+
     print(f"Event: {event_name}")
-    print(f"Course: {course}")
+    print(f"Course: {course} (field={course_from_field!r}, preview={preview_course!r})")
 
     # Prefer scoped field logs when present
     fl = scoped_path(DATA, "field_player_logs.csv", scope)
