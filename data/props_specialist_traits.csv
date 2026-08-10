@@ -1,21 +1,20 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,DONALD ROSS,601,False,SEDGEFIELD,FedEx St. Jude Championship
-style,STYLE,PARKLAND,601,False,SEDGEFIELD,FedEx St. Jude Championship
-greens,GREENS,BERMUDA,601,True,SEDGEFIELD,FedEx St. Jude Championship
-greens_2,GREENS (2),CHAMPION,601,True,SEDGEFIELD,FedEx St. Jude Championship
-fairways,FAIRWAYS,BERMUDA,601,False,SEDGEFIELD,FedEx St. Jude Championship
-length,LENGTH,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
-par,PAR,70.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
-scoring,SCORING,NORMAL,349,False,SEDGEFIELD,FedEx St. Jude Championship
-weather,WEATHER,GREAT,283,False,SEDGEFIELD,FedEx St. Jude Championship
-type,TYPE,FULL,601,False,SEDGEFIELD,FedEx St. Jude Championship
-fairway_width,FAIRWAY WIDTH,SMALL,601,False,SEDGEFIELD,FedEx St. Jude Championship
-green_width,GREEN WIDTH,SMALL,601,True,SEDGEFIELD,FedEx St. Jude Championship
-rough_length,ROUGH LENGTH,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
-water_hazards,WATER HAZARDS,5.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
-rough_amount,ROUGH AMOUNT,NORMAL,601,False,SEDGEFIELD,FedEx St. Jude Championship
-bunkers,BUNKERS,52.0,601,False,SEDGEFIELD,FedEx St. Jude Championship
-location,LOCATION,NORTH CAROLINA,601,False,SEDGEFIELD,FedEx St. Jude Championship
-redesigned,Redesigned,KRIS SPENCER,534,False,SEDGEFIELD,FedEx St. Jude Championship
-drainage,DRAINAGE,BAD,601,False,SEDGEFIELD,FedEx St. Jude Championship
-rain,RAIN,NO,534,False,SEDGEFIELD,FedEx St. Jude Championship
+designer,DESIGNER,RON PRICHARD,797,False,TPC Southwind,FedEx St. Jude Championship
+style,STYLE,TPC,797,False,TPC Southwind,FedEx St. Jude Championship
+greens,GREENS,BERMUDA,767,True,TPC Southwind,FedEx St. Jude Championship
+greens_2,GREENS (2),CHAMPION,767,True,TPC Southwind,FedEx St. Jude Championship
+fairways,FAIRWAYS,ZOYSIA,797,False,TPC Southwind,FedEx St. Jude Championship
+length,LENGTH,NORMAL,797,False,TPC Southwind,FedEx St. Jude Championship
+par,PAR,70.0,797,False,TPC Southwind,FedEx St. Jude Championship
+scoring,SCORING,NORMAL,797,False,TPC Southwind,FedEx St. Jude Championship
+weather,WEATHER,GREAT,763,False,TPC Southwind,FedEx St. Jude Championship
+type,TYPE,NO CUT,652,False,TPC Southwind,FedEx St. Jude Championship
+fairway_width,FAIRWAY WIDTH,SMALL,797,False,TPC Southwind,FedEx St. Jude Championship
+green_width,GREEN WIDTH,SMALL,797,True,TPC Southwind,FedEx St. Jude Championship
+rough_length,ROUGH LENGTH,NORMAL,797,False,TPC Southwind,FedEx St. Jude Championship
+water_hazards,WATER HAZARDS,11.0,767,False,TPC Southwind,FedEx St. Jude Championship
+rough_amount,ROUGH AMOUNT,LOTS,797,False,TPC Southwind,FedEx St. Jude Championship
+bunkers,BUNKERS,75.0,707,False,TPC Southwind,FedEx St. Jude Championship
+location,LOCATION,TENNESSEE,797,False,TPC Southwind,FedEx St. Jude Championship
+drainage,DRAINAGE,GOOD,737,False,TPC Southwind,FedEx St. Jude Championship
+rain,RAIN,YES,419,False,TPC Southwind,FedEx St. Jude Championship
