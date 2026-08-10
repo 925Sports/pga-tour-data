@@ -1,12 +1,31 @@
 name: Update Tournament History
 
+# Manual run: Actions → Update Tournament History → Run workflow
+#   - Leave "tournament" blank → auto-detect from live field / DK slate
+#   - Or type a key from data/tournaments/_index.json (e.g. fedex_st_jude)
+#
+# Scheduled: Mondays 10:00 UTC (~5 AM CDT) — always --auto (no Rocket default)
+
 on:
   workflow_dispatch:
     inputs:
       tournament:
-        description: 'Tournament key (e.g. rocket_classic)'
-        required: true
-        default: 'rocket_classic'
+        description: >-
+          Tournament key from data/tournaments/_index.json
+          (fedex_st_jude, wyndham, rocket_classic, …).
+          Leave blank to auto-detect from upcoming_field / recent_form / dk_salaries.
+        required: false
+        default: ""
+      years:
+        description: >-
+          Optional: comma-separated years only (e.g. 2025,2024).
+          Leave blank for all years in _index.json.
+        required: false
+        default: ""
+
+  schedule:
+    # Monday 10:00 UTC ≈ 5:00 AM CDT
+    - cron: "0 10 * * 1"
 
 jobs:
   update:
@@ -18,20 +37,42 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install requests pandas
 
       - name: Generate tournament history
-        run: python scripts/generate_tournament_history.py ${{ github.event.inputs.tournament }}
+        run: |
+          set -euo pipefail
+          KEY="${{ github.event.inputs.tournament }}"
+          YEARS="${{ github.event.inputs.years }}"
+
+          # Scheduled runs have empty inputs → always auto-detect
+          if [ -z "${KEY:-}" ]; then
+            echo "No tournament key provided → auto-detect from live field/slate"
+            if [ -n "${YEARS:-}" ]; then
+              python scripts/generate_tournament_history.py --auto --years "$YEARS"
+            else
+              python scripts/generate_tournament_history.py --auto
+            fi
+          else
+            echo "Using explicit tournament key: $KEY"
+            if [ -n "${YEARS:-}" ]; then
+              python scripts/generate_tournament_history.py "$KEY" --years "$YEARS"
+            else
+              python scripts/generate_tournament_history.py "$KEY"
+            fi
+          fi
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/tournaments/
-          git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Update ${{ github.event.inputs.tournament }} history $(date -u +%Y-%m-%d)"
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No tournament history changes to commit."
+          else
+            git commit -m "Update tournament history $(date -u +%Y-%m-%d)"
             git push
-          )
+          fi
