@@ -2,7 +2,7 @@
 """
 Generate per-tournament history packages under data/tournaments/<key>/.
 
-This is the ORIGINAL Course / Tournament History setup:
+Original Course / Tournament History setup:
   - Reads data/tournaments/_index.json
   - For each year → PGA Tour event id (e.g. R2025027)
   - Pulls event-level stats from PGA Tour GraphQL
@@ -14,17 +14,15 @@ Usage:
   python scripts/generate_tournament_history.py --auto
   python scripts/generate_tournament_history.py --list
 
---auto picks the tournament key from the live field / DK slate
-(upcoming_field.csv, recent_form.csv, dk_salaries.csv) by matching
-event/course names against _index.json (and a small alias table).
+--auto picks the tournament from the live PGA slate (prefers dk_salaries /
+recent_form / cheat_sheet; filters upcoming_field to tour=pga so KFT/Euro
+events like Boise Open are ignored).
 
-Does NOT change Hub Course History logic (cheat_sheet / field logs).
-Those still come from generate_cheat_sheet.py + field_player_logs.
+Does NOT change Hub Course History (cheat_sheet / field_player_logs).
 """
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
 import time
@@ -56,12 +54,12 @@ STATS = [
     ("119", "Putts_Per_Round"),
 ]
 
-# Name / course aliases → tournament key (when auto-detecting)
+# Name / course aliases → tournament key
 EVENT_ALIASES = [
     (re.compile(r"fedex\s*st\.?\s*jude|st\.?\s*jude", re.I), re.compile(r"southwind", re.I), "fedex_st_jude"),
     (re.compile(r"wyndham", re.I), re.compile(r"sedgefield", re.I), "wyndham"),
     (re.compile(r"rocket(\s*mortgage)?(\s*classic)?", re.I), re.compile(r"detroit", re.I), "rocket_classic"),
-    (re.compile(r"bmw", re.I), re.compile(r"caves\s*valley|congr", re.I), "bmw_championship"),
+    (re.compile(r"bmw", re.I), re.compile(r"caves\s*valley|congr|bellerive", re.I), "bmw_championship"),
     (re.compile(r"tour\s*championship", re.I), re.compile(r"east\s*lake", re.I), "tour_championship"),
     (re.compile(r"memorial", re.I), re.compile(r"muirfield", re.I), "memorial"),
     (re.compile(r"travelers", re.I), re.compile(r"river\s*highland", re.I), "travelers"),
@@ -71,6 +69,13 @@ EVENT_ALIASES = [
     (re.compile(r"3m\s*open", re.I), re.compile(r"twin\s*cities", re.I), "3m_open"),
     (re.compile(r"john\s*deere", re.I), re.compile(r"deere", re.I), "john_deere"),
 ]
+
+# Non-PGA noise to never auto-select
+SKIP_EVENT_RE = re.compile(
+    r"boise|korn\s*ferry|kft|danish|dp\s*world|lets\s*go|liv\b|asian\s*tour|"
+    r"challenger|access\s*series|european\s*challenge",
+    re.I,
+)
 
 
 def load_index() -> dict:
@@ -167,7 +172,6 @@ def process_tournament(tournament_key: str, years_filter: list[str] | None = Non
     if not years:
         raise SystemExit(f"No years configured for {tournament_key} in _index.json")
 
-    # Sort newest first for nicer logs
     year_items = sorted(years.items(), key=lambda kv: str(kv[0]), reverse=True)
     if years_filter:
         want = {str(y) for y in years_filter}
@@ -217,7 +221,6 @@ def process_tournament(tournament_key: str, years_filter: list[str] | None = Non
         merged.to_csv(output_path, index=False)
         print(f"   Saved → {output_path} ({len(merged)} players)\n")
 
-    # Touch a tiny meta file for the hub / humans
     meta = {
         "key": tournament_key,
         "name": tournament["name"],
@@ -238,27 +241,54 @@ def _majority_value(series: pd.Series) -> str:
     return s.value_counts().index[0]
 
 
-def detect_live_event_label() -> tuple[str, str]:
+def _clean_event_name(ev: str) -> str:
+    ev = re.sub(r"^(Showdown[^:]*:\s*|Classic:\s*)", "", ev or "", flags=re.I).strip()
+    return ev
+
+
+def _is_skip_event(ev: str, course: str = "") -> bool:
+    blob = f"{ev} {course}"
+    return bool(SKIP_EVENT_RE.search(blob))
+
+
+def collect_live_candidates() -> list[tuple[str, str, str, int]]:
     """
-    Return (event_name, course_name) from the best available live feed.
-    Prefer upcoming_field / recent_form / cheat_sheet / dk_salaries.
+    Return list of (event, course, source, score_hint).
+    Prefer PGA main slate sources over multi-tour upcoming_field.
     """
-    candidates = [
-        DATA / "upcoming_field.csv",
-        DATA / "recent_form.csv",
-        DATA / "cheat_sheet.csv",
-        DATA / "dk_salaries.csv",
-        DATA / "fantasy_points.csv",
+    # Order matters: first sources are preferred
+    sources = [
+        # (path, priority_boost)
+        (DATA / "dk_salaries.csv", 100),
+        (DATA / "recent_form.csv", 90),
+        (DATA / "cheat_sheet.csv", 80),
+        (DATA / "fantasy_points.csv", 70),
+        (DATA / "upcoming_field.csv", 40),  # often includes KFT + Euro + PGA
     ]
-    for path in candidates:
+    out: list[tuple[str, str, str, int]] = []
+
+    for path, boost in sources:
         if not path.exists():
             continue
         try:
-            df = pd.read_csv(path, nrows=500)
+            df = pd.read_csv(path, low_memory=False)
         except Exception as e:
             print(f"  skip {path.name}: {e}")
             continue
+
         cols = {c.lower(): c for c in df.columns}
+
+        # Prefer PGA-only rows when a tour column exists (upcoming_field)
+        tour_col = cols.get("tour")
+        if tour_col:
+            pga = df[df[tour_col].astype(str).str.lower().isin(["pga", "pgat", "pga tour"])]
+            if len(pga):
+                df = pga
+                print(f"  {path.name}: filtered to PGA rows ({len(df)})")
+            else:
+                print(f"  {path.name}: no PGA tour rows — skipping file for auto-detect")
+                continue
+
         ev_col = (
             cols.get("event_name")
             or cols.get("tournament")
@@ -268,21 +298,36 @@ def detect_live_event_label() -> tuple[str, str]:
         course_col = cols.get("course_name") or cols.get("course")
         if not ev_col and not course_col:
             continue
-        ev = _majority_value(df[ev_col]) if ev_col else ""
-        course = _majority_value(df[course_col]) if course_col else ""
-        # Strip Showdown / Classic prefixes from DK
-        ev = re.sub(r"^(Showdown[^:]*:\s*|Classic:\s*)", "", ev, flags=re.I).strip()
-        if ev or course:
-            print(f"  live signal from {path.name}: event={ev!r} course={course!r}")
-            return ev, course
-    return "", ""
+
+        # Count by event
+        if ev_col:
+            counts = df[ev_col].astype(str).str.strip().value_counts()
+            for ev_raw, n in counts.items():
+                ev = _clean_event_name(str(ev_raw))
+                if not ev or ev.lower() in {"nan", "none", ""}:
+                    continue
+                if _is_skip_event(ev):
+                    print(f"  {path.name}: skip non-PGA package event {ev!r}")
+                    continue
+                course = ""
+                if course_col:
+                    sub = df[df[ev_col].astype(str).str.strip() == str(ev_raw)]
+                    course = _majority_value(sub[course_col]) if len(sub) else ""
+                score = int(boost) + int(n)
+                out.append((ev, course, path.name, score))
+        elif course_col:
+            course = _majority_value(df[course_col])
+            if course and not _is_skip_event("", course):
+                out.append(("", course, path.name, boost))
+
+    out.sort(key=lambda x: x[3], reverse=True)
+    return out
 
 
 def resolve_key_from_label(event_name: str, course_name: str, index: dict) -> str | None:
     ev = (event_name or "").lower()
     course = (course_name or "").lower()
 
-    # 1) Alias table
     for ev_re, course_re, key in EVENT_ALIASES:
         if key not in index:
             continue
@@ -291,7 +336,6 @@ def resolve_key_from_label(event_name: str, course_name: str, index: dict) -> st
         if course and course_re.search(course):
             return key
 
-    # 2) Match against index name / course
     for key, meta in index.items():
         name = str(meta.get("name") or "").lower()
         crs = str(meta.get("course") or "").lower()
@@ -299,7 +343,6 @@ def resolve_key_from_label(event_name: str, course_name: str, index: dict) -> st
             return key
         if course and crs and (crs in course or course in crs or crs[:8] in course):
             return key
-        # key tokens
         key_words = key.replace("_", " ")
         if ev and key_words in ev:
             return key
@@ -309,23 +352,36 @@ def resolve_key_from_label(event_name: str, course_name: str, index: dict) -> st
 
 def auto_detect_key() -> str:
     index = load_index()
-    ev, course = detect_live_event_label()
-    if not ev and not course:
+    candidates = collect_live_candidates()
+    if not candidates:
         raise SystemExit(
-            "Auto-detect failed: no event/course found in upcoming_field / "
-            "recent_form / cheat_sheet / dk_salaries. Pass a key explicitly, e.g.\n"
+            "Auto-detect failed: no PGA event/course found in dk_salaries / "
+            "recent_form / cheat_sheet / upcoming_field.\n"
+            "Pass a key explicitly, e.g.\n"
             "  python scripts/generate_tournament_history.py fedex_st_jude"
         )
-    key = resolve_key_from_label(ev, course, index)
-    if not key:
-        known = ", ".join(sorted(index.keys()))
-        raise SystemExit(
-            f"Could not map live event {ev!r} / course {course!r} to an _index.json key.\n"
-            f"Known keys: {known}\n"
-            f"Add the tournament to data/tournaments/_index.json then re-run."
-        )
-    print(f"Auto-detected tournament key: {key} ({index[key].get('name')})")
-    return key
+
+    print("  candidates (best first):")
+    for ev, course, src, score in candidates[:8]:
+        print(f"    score={score}  {ev!r} / {course!r}  ← {src}")
+
+    # Prefer first candidate that maps to an index key
+    for ev, course, src, score in candidates:
+        key = resolve_key_from_label(ev, course, index)
+        if key:
+            print(f"Auto-detected tournament key: {key} ({index[key].get('name')}) from {src}")
+            print(f"  matched live: {ev!r} / {course!r}")
+            return key
+
+    # Nothing mapped — show helpful error
+    top = candidates[0]
+    known = ", ".join(sorted(index.keys()))
+    raise SystemExit(
+        f"Could not map live PGA event {top[0]!r} / course {top[1]!r} to an _index.json key.\n"
+        f"Known keys: {known}\n"
+        f"Add the tournament to data/tournaments/_index.json then re-run,\n"
+        f"or pass a key: python scripts/generate_tournament_history.py fedex_st_jude"
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -357,7 +413,6 @@ def main(argv: list[str] | None = None) -> int:
         key = auto_detect_key()
     else:
         key = argv[0].strip().lower().replace(" ", "_").replace("-", "_")
-        # common aliases typed by hand
         aliases = {
             "rocket": "rocket_classic",
             "rocket_mortgage": "rocket_classic",
@@ -367,6 +422,9 @@ def main(argv: list[str] | None = None) -> int:
             "fedex_st_jude_championship": "fedex_st_jude",
             "southwind": "fedex_st_jude",
             "wyndham_championship": "wyndham",
+            "bmw": "bmw_championship",
+            "tour_champ": "tour_championship",
+            "east_lake": "tour_championship",
         }
         key = aliases.get(key, key)
 
