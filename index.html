@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-08-09-mobile-v1 -->
+<!-- 925-HUB-VERSION: 2026-08-10-labels-clean-live -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -579,6 +579,22 @@
             /* Hide long own-lev explanatory footer on phone */
             #dfs-sub-1 .text-\[11px\].text-slate-500.px-1.pb-6 { display: none; }
         }
+
+        html.hub-mobile-lite #hub-tour-fab { display: none !important; }
+        @media (max-width: 768px) {
+            #player-modal #modal-stats { gap: 6px; padding-bottom: 8px; }
+            #player-modal #modal-stats .stat-pill { min-width: 64px; padding: 6px 8px; }
+            #player-modal #modal-stats .stat-pill .value { font-size: 14px; }
+            #player-modal .modal-tabs-row {
+                scrollbar-width: none;
+                mask-image: linear-gradient(90deg, #000 90%, transparent);
+            }
+            #player-modal .modal-tabs-row::-webkit-scrollbar { display: none; }
+            /* Mobile profile density */
+            #modal-body details summary::-webkit-details-marker { display: none; }
+            #modal-body details summary { list-style: none; }
+        }
+
         @media (max-width: 390px) {
             #hub-bottom-nav button { font-size: 9px; }
             .m-card-ranks { grid-template-columns: repeat(4, 1fr); gap: 4px; }
@@ -1332,6 +1348,7 @@
                     <table class="modern-table w-full text-sm" id="csheet-table">
                         <thead>
                             <tr class="cs-head-1">
+                                <!-- 5 identity cols (photo→Own) must match body + head-2 -->
                                 <th class="sticky left-0 bg-slate-900 z-[35]" style="left:0"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:2rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:11rem"></th>
@@ -1339,18 +1356,18 @@
                                 <th class="sticky bg-slate-900 z-[35]" style="left:17rem"></th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="4">Course History</th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="5">Recent Form</th>
-                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="2">Market / Cut</th>
+                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="1">Market / Cut</th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="5">Key Stats</th>
-                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="5">Projection Ranks</th>
-                                <th class="bg-slate-900"></th>
+                                <!-- SPEC · CH · SF · RF · 925 · RANK = 6 -->
+                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="6">Projection Ranks</th>
+                                <th class="bg-slate-900 px-2 py-1 text-center border-b border-slate-600 text-[10px] text-slate-300">FTPS</th>
                             </tr>
                             <tr class="cs-head-2">
                                 <th class="px-1 py-1.5 text-center sticky left-0 bg-slate-900 z-[35] w-8" style="left:0"></th>
                                 <th class="px-2 py-1.5 text-left sticky bg-slate-900 z-[35] cursor-pointer min-w-[7.5rem]" style="left:2rem" onclick="sortCheatSheet('name')">Player <span class="cs-sort-ind" data-k="name"></span></th>
                                 <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:11rem" onclick="sortCheatSheet('salary')">Sal <span class="cs-sort-ind" data-k="salary"></span></th>
                                 <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:14rem" onclick="sortCheatSheet('oddsNum')">Odds <span class="cs-sort-ind" data-k="oddsNum"></span></th>
-                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px]" style="left:17rem" onclick="sortCheatSheet('own')" title="Projected ownership % from fantasy_points">Own% <span class="cs-sort-ind" data-k="own"></span></th>
-                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px]" style="left:20.5rem" onclick="sortCheatSheet('levTag')" title="Ownership leverage tag vs fair own">Lev <span class="cs-sort-ind" data-k="levTag"></span></th>
+                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px] min-w-[4.5rem]" style="left:17rem" onclick="sortCheatSheet('own')" title="Own % = projected ownership. (#N) = leverage rank. Tag under % = Under/Over/Proper/Fade when present. Hover for detail.">Own % <span class="cs-sort-ind" data-k="own"></span></th>
                                 <th id="cs-h1-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('h1')">25 <span class="cs-sort-ind" data-k="h1"></span></th>
                                 <th id="cs-h2-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h2')">24 <span class="cs-sort-ind" data-k="h2"></span></th>
                                 <th id="cs-h3-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h3')">23 <span class="cs-sort-ind" data-k="h3"></span></th>
@@ -1360,8 +1377,7 @@
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rf3')">RF3 <span class="cs-sort-ind" data-k="rf3"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rf4')">RF4 <span class="cs-sort-ind" data-k="rf4"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('cuts')">Cuts <span class="cs-sort-ind" data-k="cuts"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('cutOddsNum')">Cut Odds <span class="cs-sort-ind" data-k="cutOddsNum"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('cutNoVig')">No-Vig% <span class="cs-sort-ind" data-k="cutNoVig"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-sec-end min-w-[5.5rem]" onclick="sortCheatSheet('cutOddsNum')" title="Cut Odds = make-cut American odds. Number in parentheses = no-vig make-cut %. Hover cell for detail.">Cut Odds <span class="cs-sort-ind" data-k="cutOddsNum"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('s1')" id="csheet-ks-1">S1 <span class="cs-sort-ind" data-k="s1"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('s2')" id="csheet-ks-2">S2 <span class="cs-sort-ind" data-k="s2"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('s3')" id="csheet-ks-3">S3 <span class="cs-sort-ind" data-k="s3"></span></th>
@@ -1845,7 +1861,7 @@
 
 const REPO = "925Sports/pga-tour-data";
     // Bump when weekly data flips so browsers skip stale CDN/cache
-    const DATA_VER = "20260809zb";
+    const DATA_VER = "20260810k";
     const DATA_BASE = `https://raw.githubusercontent.com/${REPO}/main/data`;
     function withDataVer(url) {
         if (!url || typeof url !== "string") return url;
@@ -2043,10 +2059,12 @@ const REPO = "925Sports/pga-tour-data";
             const run = () => {
                 try { switchBettingSubTab(window._betSubIdx != null ? window._betSubIdx : 0); } catch (e) { console.warn(e); }
             };
-            if (needOdds || needProps) {
-                // Don't block forever — paint with empty + timeout fallback
+            if (needOdds || needProps || (window._hubMobileLite && !window._mobileHeavyReady)) {
                 const t = setTimeout(run, 12000);
-                loadSlateFeeds().then(() => {
+                const p = (typeof ensureMobileHeavyFeeds === "function" && window._hubMobileLite)
+                    ? ensureMobileHeavyFeeds()
+                    : loadSlateFeeds();
+                Promise.resolve(p).then(() => {
                     clearTimeout(t);
                     try { applySlateToPlayers(); } catch (e) {}
                     run();
@@ -2060,8 +2078,13 @@ const REPO = "925Sports/pga-tour-data";
                     mount.innerHTML = `<div class="p-8 text-center text-slate-500"><div class="spinner mx-auto mb-3"></div>Loading DFS cheat sheet…</div>`;
                 }
             } catch (e) {}
+            // Mobile lite: pull ownership/slate when entering DFS
+            if (window._hubMobileLite && typeof ensureMobileHeavyFeeds === "function") {
+                ensureMobileHeavyFeeds().then(() => {
+                    try { switchDfsSubTab(window._dfsSubIdx != null ? window._dfsSubIdx : 0); } catch (e) {}
+                }).catch(() => {});
+            }
             try { switchDfsSubTab(0); } catch (e) { console.warn(e); }
-            // Ensure cheat sheet builds even if Fantasy tab never opened it
             setTimeout(() => {
                 try {
                     if (!(cheatRows && cheatRows.length) && typeof buildCheatSheet === "function") buildCheatSheet();
@@ -3145,9 +3168,32 @@ function switchFantasySubTab(sub) {
         console.log("[hub] KEY STATS", keyStatNames);
         console.log("[hub] WEEKLY KEY STATS", weeklyKeyStatNames);
 
-        // Course traits from preview
+        // Course traits from preview — never clobber the live field course with an older preview row
         const course = get("COURSE NAME", "Course Name");
-        if (course) currentCourseName = course;
+        const previewTourn = get("TOURNAMENT", "Tournament");
+        const fieldCourse = (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].course_name) || "";
+        const fieldEv = (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].event_name) || "";
+        const previewMatches = !!(fieldEv && previewTourn && (
+            (typeof hubEventsClose === "function" && hubEventsClose(fieldEv, previewTourn))
+            || String(previewTourn).toLowerCase().includes(String(fieldEv).toLowerCase().slice(0, 8))
+            || String(fieldEv).toLowerCase().includes(String(previewTourn).toLowerCase().slice(0, 8))
+        ));
+        // Live field / cheat sheet always win for the displayed course name
+        const liveCourse = fieldCourse
+            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+            || (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].course_name)
+            || "";
+        const liveEv = fieldEv
+            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+            || "";
+        if (liveCourse) {
+            currentCourseName = liveCourse;
+            if (course && !previewMatches) {
+                console.log("[hub] preview course ignored (stale sheet):", course, "keeping", liveCourse);
+            }
+        } else if (course && (previewMatches || !liveEv)) {
+            currentCourseName = course;
+        }
         const traitPairs = [
             ["Designer", get("DESIGNER")],
             ["Style", get("STYLE")],
@@ -3172,11 +3218,18 @@ function switchFantasySubTab(sub) {
             ["Winning Score", get("WINNING SCORE")],
         ].filter(([,v]) => v);
         // Preview sheet wins over log-inferred traits (course updates / redesigns)
-        if (traitPairs.length) {
+        // Only adopt preview traits when the preview row matches this week's event.
+        // Never set previewCourseName to last week's course (e.g. Detroit) during FedEx week.
+        if (traitPairs.length && (previewMatches || !liveEv)) {
             currentCourseTraits = {};
             traitPairs.forEach(([k, v]) => { currentCourseTraits[k] = { key: k, value: v }; });
             window.previewCourseTraits = currentCourseTraits;
-            window.previewCourseName = course || currentCourseName;
+            window.previewCourseName = currentCourseName || liveCourse || course;
+        } else {
+            window.previewCourseName = currentCourseName || liveCourse || "";
+            if (traitPairs.length && !previewMatches) {
+                console.log("[hub] preview traits skipped — sheet still on", previewTourn || course);
+            }
         }
         // Update key stat header labels in cheat sheet
         try { updateKeyStatHeaders(); } catch (e) {}
@@ -3221,13 +3274,30 @@ function switchFantasySubTab(sub) {
             const parsed = Papa.parse(txt, { header: true, skipEmptyLines: true });
             const rows = (parsed.data || []).filter(r => Object.values(r).some(v => String(v||"").trim()));
             // Prefer row matching current event/course if possible
-            let row = rows[0] || null;
-            const ev = (allPlayers[0] && allPlayers[0].event_name) || "";
-            if (ev && rows.length > 1) {
-                const hit = rows.find(r => String(r.TOURNAMENT || r.Tournament || "").toLowerCase().includes(ev.toLowerCase().slice(0, 8)));
-                if (hit) row = hit;
+            let row = null;
+            const ev = (allPlayers[0] && allPlayers[0].event_name)
+                || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+                || "";
+            const crs = (allPlayers[0] && allPlayers[0].course_name)
+                || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                || currentCourseName || "";
+            if (rows.length) {
+                const evL = String(ev || "").toLowerCase();
+                const crsL = String(crs || "").toLowerCase();
+                row = rows.find(r => {
+                    const t = String(r.TOURNAMENT || r.Tournament || "").toLowerCase();
+                    const c = String(r["COURSE NAME"] || r.Course || r["Course Name"] || "").toLowerCase();
+                    if (evL && t && (t.includes(evL.slice(0, 10)) || evL.includes(t.slice(0, 10)))) return true;
+                    if (crsL && c && (c.includes(crsL.slice(0, 8)) || crsL.includes(c.slice(0, 8)))) return true;
+                    if (/jude|fedex|southwind/.test(evL + crsL) && /jude|fedex|southwind/.test(t + c)) return true;
+                    if (/wyndham|sedgefield/.test(evL + crsL) && /wyndham|sedgefield/.test(t + c)) return true;
+                    return false;
+                }) || null;
+                // NEVER default to rows[0] when we already know this week's event/course
+                if (!row && !ev && !crs) row = rows[0];
             }
-            applyPreviewRow(row);
+            if (row) applyPreviewRow(row);
+            else console.log("[hub] no matching pre_tournament_preview row for", ev || crs);
             return row;
         } catch (e) {
             console.warn("pre tournament preview", e);
@@ -8466,6 +8536,100 @@ function runCustomModel() {
         return out;
     }
 
+    function hubNormEventName(s) {
+        return String(s || "").toLowerCase()
+            .replace(/presented by.*$/i, "")
+            .replace(/(the|championship|classic|open|invitational|tournament|mortgage)/g, " ")
+            .replace(/[^a-z0-9]+/g, " ").trim();
+    }
+    function hubEventsClose(a, b) {
+        const na = hubNormEventName(a), nb = hubNormEventName(b);
+        if (!na || !nb) return false;
+        if (na === nb) return true;
+        if (na.includes(nb.slice(0, 8)) || nb.includes(na.slice(0, 8))) return true;
+        const ta = new Set(na.split(" ").filter(w => w.length > 3));
+        const tb = new Set(nb.split(" ").filter(w => w.length > 3));
+        let hit = 0;
+        ta.forEach(w => { if (tb.has(w)) hit++; });
+        return hit > 0 && hit >= Math.min(ta.size, tb.size);
+    }
+    function hubMajorityEvent(rows, getters) {
+        const m = new Map();
+        (rows || []).forEach(r => {
+            for (const g of getters) {
+                let v = "";
+                try { v = String(g(r) || "").trim(); } catch (e) { v = ""; }
+                if (!v) continue;
+                v = v.replace(/^Classic:\s*/i, "").replace(/^Showdown:.*$/i, "").trim();
+                if (!v || /^liv\b/i.test(v)) continue;
+                m.set(v, (m.get(v) || 0) + 1);
+                break;
+            }
+        });
+        let best = "", n = 0;
+        m.forEach((c, k) => { if (c > n) { n = c; best = k; } });
+        return best;
+    }
+    /** Attach DK salaries onto RF/field-shaped rows by player name. */
+    function hubApplySalariesToRows(rows, salRows) {
+        if (!(rows && rows.length) || !(salRows && salRows.length)) return rows || [];
+        const map = new Map();
+        salRows.forEach(s => {
+            const n = s.player_name || s.Name || s.name || "";
+            if (!n) return;
+            const k = typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase();
+            const sal = parseFloat(s.salary ?? s.Salary);
+            if (!k || isNaN(sal)) return;
+            map.set(k, { salary: sal, tournament: s.tournament || s.Tournament || s.event_name || "" });
+        });
+        rows.forEach(r => {
+            const n = r.player_name || r.name_adjusted || r.name || "";
+            const k = typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase();
+            const hit = map.get(k);
+            if (hit) {
+                r.salary = hit.salary;
+                if (hit.tournament && !r.event_name) r.event_name = hit.tournament;
+            }
+        });
+        return rows;
+    }
+    /** Minimal cheat rows from RF/field when cheat_sheet for the live event is not published yet. */
+    function synthesizeCheatFromField(rfRows, fieldRows) {
+        const by = new Map();
+        const keyOf = (name) => (typeof nameKey === "function" ? nameKey(name) : String(name || "").toLowerCase());
+        const upsert = (row) => {
+            if (!row) return;
+            const name = row.player_name || row.name_adjusted || "";
+            if (!name) return;
+            const k = keyOf(name);
+            if (!k) return;
+            if (!by.has(k)) {
+                by.set(k, {
+                    player_name: name,
+                    name_adjusted: row.name_adjusted || name,
+                    event_name: row.event_name || "",
+                    course_name: row.course_name || "",
+                    salary: row.salary ?? null,
+                    h1: "—", h2: "—", h3: "—", h4: "—",
+                    rf1: row.rf1, rf2: row.rf2, rf3: row.rf3, rf4: row.rf4,
+                    rf5: row.rf5, rf6: row.rf6, rf7: row.rf7,
+                    cut_streak: row.cut_streak,
+                    value: row.value, value_rank: row.value_rank,
+                    ch_rank: row.ch_rank, s1: row.s1, s2: row.s2, s3: row.s3, s4: row.s4, s5: row.s5,
+                });
+            } else {
+                const o = by.get(k);
+                ["event_name","course_name","salary","rf1","rf2","rf3","rf4","rf5","rf6","rf7",
+                 "cut_streak","value","value_rank","ch_rank","s1","s2","s3","s4","s5"].forEach(key => {
+                    if ((o[key] == null || o[key] === "") && row[key] != null && row[key] !== "") o[key] = row[key];
+                });
+            }
+        };
+        (fieldRows || []).forEach(upsert);
+        (rfRows || []).forEach(upsert);
+        return [...by.values()];
+    }
+
 function setEventScope(scope) {
         if (scope !== "current" && scope !== "upcoming") return;
         if (scope === "upcoming") {
@@ -8503,25 +8667,31 @@ function setEventScope(scope) {
         if (loading) loading.classList.remove("hidden");
         if (wrapper) wrapper.classList.add("hidden");
 
-        // Start slate feeds immediately in background so Betting/DFS are ready
-        const slateP = loadSlateFeeds()
-            .then(() => {
-                console.log("[hub] slate ready", {
-                    salaries: (dkSalaries||[]).length,
-                    odds: (bettingOdds||[]).length,
-                    props: (propsCombined||[]).length,
-                    fpts: (fantasyPoints||[]).length
-                });
-                try { applySlateToPlayers(); } catch (e) {}
-                try { setDataHealthBanner(); } catch (e) {}
-            })
-            .catch(e => console.warn("slate feeds", e));
+        try { markHubMobileLite(); } catch (e) {}
+        const mobileLite = !!window._hubMobileLite;
+        if (mobileLite) console.log("[hub] mobile lite boot — deferred betting/props/upcoming");
+
+        // Desktop: slate feeds in background. Mobile lite: defer until Betting/DFS opened.
+        const slateP = mobileLite
+            ? Promise.resolve()
+            : loadSlateFeeds()
+                .then(() => {
+                    console.log("[hub] slate ready", {
+                        salaries: (dkSalaries||[]).length,
+                        odds: (bettingOdds||[]).length,
+                        props: (propsCombined||[]).length,
+                        fpts: (fantasyPoints||[]).length
+                    });
+                    try { applySlateToPlayers(); } catch (e) {}
+                    try { setDataHealthBanner(); } catch (e) {}
+                })
+                .catch(e => console.warn("slate feeds", e));
 
         try {
-            setLoaderStatus("Loading core data in parallel…");
+            setLoaderStatus(mobileLite ? "Loading mobile field…" : "Loading core data in parallel…");
 
-            // Parallel load of all small/medium files the main tabs need.
-            // Loader stays up until these settle (logs still load after).
+            // Parallel load of files the main tabs need.
+            // Mobile lite: only field model CSVs first (fast first paint).
             const safeLoad = (label, url) =>
                 loadCSV(url)
                     .then(rows => {
@@ -8533,7 +8703,24 @@ function setEventScope(scope) {
                         return [];
                     });
 
-            const corePromise = Promise.all([
+            const corePromise = mobileLite
+                ? Promise.all([
+                    safeLoad("recent_form", `${DATA_BASE}/recent_form.csv`),
+                    safeLoad("cheat_sheet", `${DATA_BASE}/cheat_sheet.csv`),
+                    Promise.resolve([]), // props_board deferred
+                    safeLoad("specialist_board", `${DATA_BASE}/specialist_board.csv`),
+                    Promise.resolve([]), // props_combined deferred
+                    safeLoad("dk_salaries", `${DATA_BASE}/dk_salaries.csv`), // salaries still useful for CS cards
+                    Promise.resolve([]), // betting_odds deferred
+                    safeLoad("fantasy_points", `${DATA_BASE}/fantasy_points.csv`),
+                    Promise.resolve([]), // upcoming packs deferred
+                    Promise.resolve([]),
+                    Promise.resolve([]),
+                    Promise.resolve([]),
+                    Promise.resolve([]), // props_specialist deferred
+                    Promise.resolve([]),
+                ])
+                : Promise.all([
                 safeLoad("recent_form", `${DATA_BASE}/recent_form.csv`),
                 safeLoad("cheat_sheet", `${DATA_BASE}/cheat_sheet.csv`),
                 safeLoad("props_board", `${DATA_BASE}/props_board.csv`),
@@ -8604,50 +8791,113 @@ function setEventScope(scope) {
             });
             if (!upField.length) upField = upFieldAll.slice();
 
-            const curEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || "").toLowerCase().trim();
+            const curEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || "").trim();
+            // Prefer upcoming_field event over stale cheat_sheet_upcoming (often still last week)
+            const upFieldEvent = String((upField[0] && upField[0].event_name) || "").trim();
+            const upCheatEvent = String((upCheat[0] && upCheat[0].event_name) || "").trim();
+            // If upcoming cheat is still last week's event, ignore it for synthesis
+            if (upCheat.length && upFieldEvent && curEvent && hubEventsClose(upCheatEvent, curEvent)
+                && !hubEventsClose(upCheatEvent, upFieldEvent)) {
+                console.log("[hub] ignoring stale cheat_sheet_upcoming (still", upCheatEvent, ")");
+                upCheat = [];
+            }
+            // Drop specialist_upcoming if still on old course while field moved
+            const upSpecCourse = String((upSpec[0] && upSpec[0].course_name) || "").toLowerCase();
+            const upFieldCourse = String((upField[0] && upField[0].course_name) || "").toLowerCase();
+            if (upSpec.length && upFieldCourse && upSpecCourse && !upSpecCourse.includes(upFieldCourse.slice(0, 8))
+                && !upFieldCourse.includes(upSpecCourse.slice(0, 8))) {
+                console.log("[hub] ignoring stale specialist_board_upcoming course", upSpecCourse, "vs", upFieldCourse);
+                upSpec = [];
+            }
+
             const upEventGuess = String(
                 (upRf[0] && upRf[0].event_name) ||
-                (upCheat[0] && upCheat[0].event_name) ||
-                (upField[0] && upField[0].event_name) || ""
-            ).toLowerCase().trim();
+                upFieldEvent ||
+                (upCheat[0] && upCheat[0].event_name) || ""
+            ).trim();
             const hasDedicatedRf = (rfUpcoming || []).length > 0;
-            const differentEvent = !!(upEventGuess && curEvent && upEventGuess !== curEvent
-                && !upEventGuess.includes(curEvent.slice(0, 12)) && !curEvent.includes(upEventGuess.slice(0, 12)));
+            const differentEvent = !!(upEventGuess && curEvent && !hubEventsClose(upEventGuess, curEvent));
 
-            // Only synthesize from cheat/field when event is clearly NOT this week
-            if (!upRf.length && differentEvent && (upCheat.length || upField.length)) {
+            // Synthesize from field (+ form carry from current RF) when dedicated upcoming RF missing
+            if (!upRf.length && differentEvent && (upField.length || upCheat.length)) {
                 upRf = synthesizeUpcomingRecentForm(upCheat, upField, rfRows || []);
-                console.log("[hub] synthesized upcoming RF (distinct event)", upRf.length, upEventGuess);
+                // Force event/course metadata from upcoming_field (source of truth for next slate)
+                if (upField[0]) {
+                    upRf.forEach(r => {
+                        r.event_name = upField[0].event_name || r.event_name;
+                        r.course_name = upField[0].course_name || r.course_name;
+                        r.date_start = upField[0].date_start || r.date_start;
+                    });
+                }
+                console.log("[hub] synthesized upcoming RF", upRf.length, upEventGuess);
             }
 
             const upcomingReady = hasDedicatedRf || (differentEvent && upRf.length > 0);
+            let upCheatFinal = upcomingReady ? (upCheat.length ? upCheat : synthesizeCheatFromField(upRf, upField)) : [];
+            // If cheat still wrong event, resynthesize from field
+            if (upCheatFinal.length && upFieldEvent && !hubEventsClose(upCheatFinal[0].event_name, upFieldEvent)) {
+                upCheatFinal = synthesizeCheatFromField(upRf, upField);
+            }
+
             window._eventPacks.upcoming = {
                 recentForm: upcomingReady ? upRf : [],
-                cheat: upcomingReady ? (upCheat.length ? upCheat : []) : [],
+                cheat: upcomingReady ? upCheatFinal : [],
                 specialist: upcomingReady ? upSpec : [],
                 propsSpecialist: upcomingReady ? (propsSpecUpcomingRows || []) : [],
                 propsSpecialistBaselines: upcomingReady ? (propsSpecBaselinesUp || null) : null,
                 logsUrl: `${DATA_BASE}/field_player_logs.csv`,
                 label: upcomingReady
-                    ? packLabelFromRows(upRf, packLabelFromRows(upCheat, packLabelFromRows(upField, "Upcoming")))
+                    ? packLabelFromRows(upRf, packLabelFromRows(upField, packLabelFromRows(upCheatFinal, "Upcoming")))
                     : "",
                 field: upcomingReady ? upField : [],
                 ready: upcomingReady,
                 reason: upcomingReady ? "ok" : (!hasDedicatedRf && !differentEvent
                     ? "Next-week field not published yet (same event or missing recent_form_upcoming.csv)"
                     : "Upcoming pack empty"),
+                partial: upcomingReady && !(rfUpcoming || []).length,
             };
-            console.log("[hub] upcoming ready?", upcomingReady, "cur", curEvent, "up", upEventGuess, "rf", (rfUpcoming||[]).length);
+            console.log("[hub] upcoming ready?", upcomingReady, "cur", curEvent, "up", upEventGuess, "rf", (rfUpcoming||[]).length, "field", upField.length);
             try { updateEventScopeButtons(); } catch (e) {}
             console.log("[hub] event packs", {
                 current: (rfRows || []).length,
-                upcoming: (rfUpcoming || []).length,
-                currentEvent: (rfRows && rfRows[0] && rfRows[0].event_name),
-                upcomingEvent: (rfUpcoming && rfUpcoming[0] && rfUpcoming[0].event_name),
+                upcoming: (upRf || []).length,
+                currentEvent: curEvent,
+                upcomingEvent: upEventGuess,
             });
-            // Activate current pack (populates allPlayers, prebuiltCheat, specialistBoard)
+
+            // If DK Classic salaries already rolled to the upcoming event while model CSVs
+            // are still on last week, auto-promote that slate to "This week".
             window._hubBootDone = false;
-            applyEventPack("current", { skipRender: true });
+            let bootScope = "current";
+            try {
+                const salEv = hubMajorityEvent(salRows || [], [
+                    r => r.tournament, r => r.Tournament, r => r.event_name
+                ]);
+                const liveUp = upcomingReady && upEventGuess && salEv && hubEventsClose(salEv, upEventGuess)
+                    && curEvent && !hubEventsClose(salEv, curEvent);
+                if (liveUp) {
+                    console.log("[hub] auto-promoting live slate:", salEv, "(model CSVs still on", curEvent, ")");
+                    // Attach salaries onto upcoming RF
+                    hubApplySalariesToRows(window._eventPacks.upcoming.recentForm, salRows || []);
+                    hubApplySalariesToRows(window._eventPacks.upcoming.cheat, salRows || []);
+                    // Swap: live pack becomes current; keep prior week as "previous" for debug
+                    window._eventPacks.previous = window._eventPacks.current;
+                    window._eventPacks.current = Object.assign({}, window._eventPacks.upcoming, {
+                        label: packLabelFromRows(window._eventPacks.upcoming.recentForm, salEv),
+                        autoPromoted: true,
+                        partial: true,
+                    });
+                    // Leave upcoming pointing at same live pack so button still works, or clear
+                    window._eventPacks.upcoming = Object.assign({}, window._eventPacks.upcoming, {
+                        reason: "Already showing live DK slate as This week",
+                    });
+                    window._hubModelPartial = true;
+                    window._hubModelPartialNote = `Field built from upcoming_field + salaries (${salEv}). Full cheat_sheet / specialist for this event not published yet — ranks partial until pipeline re-exports.`;
+                    bootScope = "current";
+                }
+            } catch (e) { console.warn("[hub] auto-promote failed", e); }
+
+            applyEventPack(bootScope, { skipRender: true });
 
             console.log("[hub] prebuilt s1 sample", prebuiltCheat[0] && {
                 name: prebuiltCheat[0].name_adjusted, s1: prebuiltCheat[0].s1, s2: prebuiltCheat[0].s2, s3: prebuiltCheat[0].s3
@@ -8674,7 +8924,26 @@ function setEventScope(scope) {
             }
 
             window.propsBoard = propsBoardRows;
-            window.specialistBoard = specialistBoardRows;
+            // If we auto-promoted to a new event, do NOT keep last week's specialist_board
+            // (e.g. Sedgefield ranks on a FedEx / Southwind field).
+            try {
+                const liveCourse = String((allPlayers[0] && allPlayers[0].course_name)
+                    || (prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                    || currentCourseName || "").toLowerCase();
+                const boardCourse = String((specialistBoardRows[0] && specialistBoardRows[0].course_name) || "").toLowerCase();
+                const boardOk = !window._hubModelPartial || !liveCourse || !boardCourse
+                    || boardCourse.includes(liveCourse.slice(0, 8))
+                    || liveCourse.includes(boardCourse.slice(0, 8));
+                window.specialistBoard = boardOk ? (specialistBoardRows || []) : [];
+                if (!boardOk) {
+                    console.log("[hub] cleared stale specialist_board for", boardCourse, "live is", liveCourse);
+                    // Prefer upcoming pack specialist if any
+                    const upSp = (window._eventPacks && window._eventPacks.current && window._eventPacks.current.specialist) || [];
+                    if (upSp.length) window.specialistBoard = upSp;
+                }
+            } catch (e) {
+                window.specialistBoard = specialistBoardRows || [];
+            }
             try {
                 if (typeof mergePropsSources === "function") {
                     propsCombined = mergePropsSources(propsRows || propsCombined || [], propsBoardRows || []);
@@ -8683,13 +8952,39 @@ function setEventScope(scope) {
             window.propsSpecialistBoard = propsSpecRows || [];
             window.propsSpecialistBaselines = propsSpecBaselines || null;
             try { indexPropsSpecialistBoard(window.propsSpecialistBoard); } catch (e) {}
-            console.log("[hub] specialist_board core load", (specialistBoardRows || []).length);
+            console.log("[hub] specialist_board core load", (window.specialistBoard || []).length);
             console.log("[hub] props_specialist core load", (window.propsSpecialistBoard || []).length);
             // Prefer these for tabs even if slateP also loads them
             if (propsRows.length) propsCombined = propsRows;
             if (salRows.length) dkSalaries = salRows;
             if (oddsRows.length) bettingOdds = oddsRows;
             if (fptsRows.length) fantasyPoints = fptsRows;
+
+            // Ensure live salaries attach after pack apply (auto-promote path)
+            try {
+                if (salRows && salRows.length && allPlayers && allPlayers.length) {
+                    hubApplySalariesToRows(allPlayers, salRows);
+                    if (prebuiltCheat && prebuiltCheat.length) hubApplySalariesToRows(prebuiltCheat, salRows);
+                }
+            } catch (e) {}
+            // Lock course/event labels to the live field (not last week's preview)
+            try {
+                const ev = (allPlayers[0] && allPlayers[0].event_name)
+                    || (prebuiltCheat[0] && prebuiltCheat[0].event_name) || "";
+                const crs = (allPlayers[0] && allPlayers[0].course_name)
+                    || (prebuiltCheat[0] && prebuiltCheat[0].course_name) || "";
+                if (crs) currentCourseName = crs;
+                if (typeof window !== "undefined") {
+                    if (crs) window.previewCourseName = crs;
+                }
+                const cheatSub = document.getElementById("cheat-subtitle");
+                if (cheatSub && ev) {
+                    cheatSub.textContent = ev + (crs ? " · " + crs : "") + " · Course History · Recent Form · Specialist · 925 Rank"
+                        + (window._hubModelPartial ? " · partial pipeline" : "");
+                }
+                const chSub = document.getElementById("course-history-subtitle");
+                if (chSub && crs) chSub.textContent = "Results at " + crs;
+            } catch (e) {}
 
             if (allPlayers.length > 0) {
                 const eventName = allPlayers[0].event_name || "";
@@ -8709,6 +9004,17 @@ function setEventScope(scope) {
             try { loadAndRenderWeather(); } catch (e) { console.warn(e); }
             try {
                 loadPreTournamentPreview().then(() => {
+                    try {
+                        const crs = (allPlayers[0] && allPlayers[0].course_name) || "";
+                        const ev = (allPlayers[0] && allPlayers[0].event_name) || "";
+                        if (crs) currentCourseName = crs;
+                        const cheatSub = document.getElementById("cheat-subtitle");
+                        if (cheatSub && ev) {
+                            cheatSub.textContent = ev + (crs ? " · " + crs : "")
+                                + " · Course History · Recent Form · Specialist · 925 Rank"
+                                + (window._hubModelPartial ? " · partial pipeline" : "");
+                        }
+                    } catch (e) {}
                     try { if (allPlayers.length) { buildCheatSheet(); renderCheatSheet(); } } catch (e) {}
                 });
             } catch (e) { console.warn(e); }
@@ -8737,8 +9043,10 @@ function setEventScope(scope) {
                     }).catch(() => {});
                 }
             } catch (e) {}
-            try { if (typeof renderPropsTab === "function") renderPropsTab(); } catch (e) {}
-            try { if (typeof renderEvBoard === "function") renderEvBoard(); } catch (e) {}
+            if (!mobileLite) {
+                try { if (typeof renderPropsTab === "function") renderPropsTab(); } catch (e) {}
+                try { if (typeof renderEvBoard === "function") renderEvBoard(); } catch (e) {}
+            }
             try { setDataHealthBanner(); } catch (e) {}
 
             if (loading) loading.classList.add("hidden");
@@ -8798,6 +9106,57 @@ function setEventScope(scope) {
         try { return window.matchMedia && window.matchMedia("(max-width: 768px)").matches; }
         catch (e) { return window.innerWidth <= 768; }
     }
+    /** True when we should run the lighter mobile load path (phones only). */
+    function isHubMobileLite() {
+        if (window._hubForceFullLoad) return false;
+        return isHubMobile();
+    }
+    function markHubMobileLite() {
+        try {
+            if (isHubMobileLite()) {
+                document.documentElement.classList.add("hub-mobile-lite");
+                document.body && document.body.classList.add("hub-mobile-lite");
+                window._hubMobileLite = true;
+            } else {
+                document.documentElement.classList.remove("hub-mobile-lite");
+                document.body && document.body.classList.remove("hub-mobile-lite");
+                window._hubMobileLite = false;
+            }
+        } catch (e) {}
+    }
+    /** Deferred Betting/DFS slate load for mobile lite (props, odds, full fpts merge). */
+    function ensureMobileHeavyFeeds() {
+        if (!window._hubMobileLite) return Promise.resolve();
+        if (window._mobileHeavyReady) return window._mobileHeavyPromise || Promise.resolve();
+        if (window._mobileHeavyPromise) return window._mobileHeavyPromise;
+        window._mobileHeavyPromise = (async () => {
+            try {
+                setLoaderStatus && setLoaderStatus("Loading betting / ownership…");
+            } catch (e) {}
+            try {
+                if (typeof loadSlateFeeds === "function") await loadSlateFeeds(true);
+            } catch (e) { console.warn("mobile heavy slate", e); }
+            // Optional props specialist (not needed for Cheat Sheet)
+            try {
+                if (!(window.propsSpecialistBoard && window.propsSpecialistBoard.length)) {
+                    const rows = await loadCSV(`${DATA_BASE}/props_specialist.csv`).catch(() => []);
+                    if (rows && rows.length) {
+                        window.propsSpecialistBoard = rows;
+                        try { indexPropsSpecialistBoard(rows); } catch (e) {}
+                    }
+                }
+            } catch (e) {}
+            window._mobileHeavyReady = true;
+            try { applySlateToPlayers(); } catch (e) {}
+            try {
+                if (typeof buildCheatSheet === "function") buildCheatSheet();
+                if (typeof renderCheatSheet === "function") renderCheatSheet();
+            } catch (e) {}
+            try { setDataHealthBanner(); } catch (e) {}
+            return true;
+        })();
+        return window._mobileHeavyPromise;
+    }
     function syncMobileChrome(mainTab) {
         window._mainTabIdx = mainTab;
         document.querySelectorAll("#hub-bottom-nav button[data-tab]").forEach(btn => {
@@ -8816,7 +9175,7 @@ function setEventScope(scope) {
             el.innerHTML = `<div class="text-center text-slate-500 text-sm py-10">No players match this filter</div>`;
             return;
         }
-        const maxShow = Math.min(rows.length, 80);
+        const maxShow = Math.min(rows.length, (typeof isHubMobileLite === "function" && isHubMobileLite()) ? 40 : 80);
         let html = `<div class="text-[11px] text-slate-500 mb-2 px-0.5">Showing ${maxShow}${rows.length > maxShow ? " of " + rows.length : ""} · tap for full profile · swipe table on desktop for all columns</div>`;
         for (let i = 0; i < maxShow; i++) {
             const r = rows[i];
@@ -8825,6 +9184,7 @@ function setEventScope(scope) {
             const shot = typeof headshotHtml === "function" ? headshotHtml(r.name, 40) : "";
             const sal = r.salary != null ? "$" + Number(r.salary).toLocaleString() : "—";
             const own = typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—");
+            const ownLev = (r.levRank != null) ? (own + " (#" + r.levRank + ")") : own;
             const odds = r.winOdds && r.winOdds.display ? r.winOdds.display : "—";
             const tags = [
                 typeof dataTagBadge === "function" ? dataTagBadge(r) : "",
@@ -8841,7 +9201,7 @@ function setEventScope(scope) {
                                 <div class="font-semibold text-slate-900 text-[15px] leading-tight truncate">${nm}</div>
                                 <div class="m-card-meta">
                                     <span>${sal}</span>
-                                    <span>Own ${own}</span>
+                                    <span>Own ${ownLev}</span>
                                     <span>${odds}</span>
                                     ${r.ftps != null ? `<span>FTPS ${Number(r.ftps).toFixed(1)}</span>` : ""}
                                 </div>
@@ -8874,7 +9234,7 @@ function setEventScope(scope) {
             el.innerHTML = `<div class="text-center text-slate-500 text-sm py-8">No leverage rows</div>`;
             return;
         }
-        const maxShow = Math.min(rows.length, 60);
+        const maxShow = Math.min(rows.length, (typeof isHubMobileLite === "function" && isHubMobileLite()) ? 35 : 60);
         let html = "";
         for (let i = 0; i < maxShow; i++) {
             const r = rows[i];
@@ -9103,9 +9463,19 @@ function setEventScope(scope) {
                                 onclick="try{sessionStorage.setItem('hub_dismiss_slate_note','1');setDataHealthBanner();}catch(e){}">hide</button>
                             </span>`;
                     }
+                    let partialNote = "";
+                    if (window._hubModelPartial && window._hubModelPartialNote
+                        && !sessionStorage.getItem("hub_dismiss_partial")) {
+                        partialNote = ` <span class="text-amber-800/90">·</span>
+                            <span class="text-amber-800/90" title="${String(window._hubModelPartialNote).replace(/"/g, "'")}">
+                            Partial week data
+                            <button type="button" class="underline ml-1 text-amber-700"
+                                onclick="try{sessionStorage.setItem('hub_dismiss_partial','1');setDataHealthBanner();}catch(e){}">hide</button>
+                            </span>`;
+                    }
                     bar.className = "px-3 sm:px-4 py-1.5 text-xs border-b border-slate-100 bg-slate-50 text-slate-600";
                     bar.innerHTML = `<span class="font-medium text-slate-800">${title}</span><span class="text-slate-500">${courseBit}</span>
-                        <span class="text-slate-400"> · ${nField} players</span>${slateNote}`;
+                        <span class="text-slate-400"> · ${nField} players</span>${slateNote}${partialNote}`;
                     bar.classList.remove("hidden");
                 }
             } else {
@@ -12997,6 +13367,97 @@ el.innerHTML = `
                 </div>` : ""}
             </div>`;
 
+        // Cheat sheet snapshot for mobile hero
+        let cs = null;
+        try {
+            cs = (cheatRows || []).find(r => namesMatch(r.name || r.name_adjusted || "", name));
+        } catch (e) {}
+        const rPill = (lab, v, cls) => `<div class="flex-1 min-w-[4.2rem] rounded-xl bg-slate-900/80 border border-slate-700 px-2 py-2 text-center">
+            <div class="text-[9px] font-bold uppercase tracking-wide text-slate-500">${lab}</div>
+            <div class="text-lg font-extrabold tabular-nums ${cls || "text-white"}">${v ?? "—"}</div>
+        </div>`;
+        const mobile = typeof isHubMobile === "function" && isHubMobile();
+
+        if (mobile) {
+            const rank925 = cs && cs.rank925 != null ? Math.round(Number(cs.rank925)) : "—";
+            const finalR = cs && cs.finalRank != null ? cs.finalRank : "—";
+            const sal = cs && cs.salary != null ? "$" + Number(cs.salary).toLocaleString() : "—";
+            const own = cs && cs.own != null ? (typeof formatOwnership === "function" ? formatOwnership(cs.own) : cs.own + "%") : "—";
+            const odds = cs && cs.winOdds && cs.winOdds.display ? cs.winOdds.display : "—";
+            const tags = [
+                cs && typeof dataTagBadge === "function" ? dataTagBadge(cs) : "",
+                cs && typeof outrightBetBadge === "function" ? outrightBetBadge(cs) : "",
+                cs && cs.levTagHtml ? cs.levTagHtml : "",
+            ].filter(Boolean).join(" ");
+            const sgRow = (label, obj, color) => `
+                <div class="flex items-center gap-2 py-2 border-b border-slate-800/80 last:border-0">
+                    <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${color}"></span>
+                    <span class="text-[11px] font-semibold text-slate-400 w-16 flex-shrink-0">${label}</span>
+                    <div class="flex-1 grid grid-cols-6 gap-1 text-center">
+                        ${axes.map(a => `<div>
+                            <div class="text-[8px] text-slate-600 uppercase">${a.label.replace("SG: ","")}</div>
+                            <div class="text-[11px] font-bold tabular-nums text-slate-100">${fmt(obj[a.key])}</div>
+                        </div>`).join("")}
+                    </div>
+                </div>`;
+            body.innerHTML = `
+            <div class="p-3 pb-6 space-y-3">
+                <div class="rounded-2xl border border-slate-700 bg-gradient-to-br from-slate-800 to-slate-900 p-3">
+                    <div class="flex items-center justify-between gap-2 mb-2">
+                        <div>
+                            <div class="text-[10px] uppercase tracking-wide text-slate-500 font-semibold">This week snapshot</div>
+                            <div class="text-xs text-slate-400 mt-0.5">${sal} · Own ${own} · ${odds}</div>
+                        </div>
+                        <span class="text-xs font-bold ${formCls} px-2 py-1 rounded-lg bg-slate-950/60">${formLabel}</span>
+                    </div>
+                    <div class="flex gap-1.5 mb-2">
+                        ${rPill("RANK", finalR, "text-sky-300")}
+                        ${rPill("925", rank925, "text-cyan-300")}
+                        ${rPill("SPEC", cs?.specRank ?? "—", "text-violet-300")}
+                        ${rPill("CH", cs?.chRank ?? "—", "text-blue-300")}
+                        ${rPill("RF", cs?.rfRank ?? "—", "text-emerald-300")}
+                    </div>
+                    ${tags ? `<div class="flex flex-wrap gap-1">${tags}</div>` : ""}
+                </div>
+
+                <div class="rounded-2xl border border-slate-700 bg-slate-900/50 p-3">
+                    <div class="text-[10px] uppercase tracking-wide text-slate-500 font-semibold mb-1">SG profile</div>
+                    <div class="relative mx-auto w-full max-w-[260px]">
+                        <svg viewBox="0 0 300 290" class="w-full" id="profile-radar-svg">
+                            ${grid}
+                            ${poly(seasonSg, "#fb923c", "rgba(251,146,60,0.12)", 1.5)}
+                            ${poly(courseSg, "#38bdf8", "rgba(56,189,248,0.18)", 2)}
+                            ${poly(specSg, "#a78bfa", "rgba(167,139,250,0.14)", 2)}
+                            ${poly(l3Sg, "#34d399", "rgba(52,211,153,0.16)", 2.25)}
+                            ${labels}
+                            ${dots(seasonSg, "#fb923c", "Season")}
+                            ${dots(courseSg, "#38bdf8", "Course")}
+                            ${dots(specSg, "#a78bfa", "Specialist")}
+                            ${dots(l3Sg, "#34d399", "Last 3 starts")}
+                        </svg>
+                        <div id="radar-tip" class="hidden absolute z-10 pointer-events-none px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-600 text-[11px] text-slate-100 shadow-lg whitespace-nowrap"></div>
+                    </div>
+                    <div class="mt-1 text-[10px] text-slate-500 text-center">Tap a point for exact SG · L3 vs Season drives hot/cold</div>
+                    <div class="mt-2 rounded-xl bg-slate-950/50 border border-slate-800 px-2">
+                        ${sgRow("L3", l3Sg, "#34d399")}
+                        ${sgRow("Spec", specSg, "#a78bfa")}
+                        ${sgRow("Course", courseSg, "#38bdf8")}
+                        ${sgRow("Season", seasonSg, "#fb923c")}
+                    </div>
+                </div>
+
+                <details class="rounded-2xl border border-slate-700 bg-slate-800/40 overflow-hidden" open>
+                    <summary class="px-3 py-2.5 text-xs font-bold uppercase tracking-wide text-slate-300 cursor-pointer select-none">Player info & local ties</summary>
+                    <div class="px-2 pb-3">${bioCard}</div>
+                </details>
+
+                <div class="flex gap-2">
+                    <button type="button" onclick="switchModalTab(0)" class="flex-1 py-2.5 rounded-xl bg-slate-800 border border-slate-600 text-xs font-semibold text-slate-200">Game Log</button>
+                    <button type="button" onclick="switchModalTab(2)" class="flex-1 py-2.5 rounded-xl bg-slate-800 border border-slate-600 text-xs font-semibold text-slate-200">Course</button>
+                    <button type="button" onclick="switchModalTab(4)" class="flex-1 py-2.5 rounded-xl bg-slate-800 border border-slate-600 text-xs font-semibold text-slate-200">Props</button>
+                </div>
+            </div>`;
+        } else {
         body.innerHTML = `
             <div class="p-5">
                 ${bioCard}
@@ -13037,22 +13498,28 @@ el.innerHTML = `
                 </div>
                 <div class="mt-3 text-[11px] text-slate-500">L3 = last 3 starts (form). Specialist = SG on similar greens/style. Course = this venue. Season = season-long baseline. Hover a radar point for exact SG. Hot/cold uses L3 vs season total.</div>
             </div>`;
-        // Radar hover tooltip
+        }
+        // Radar hover / tap tooltip
         try {
             const tip = document.getElementById("radar-tip");
             const svg = document.getElementById("profile-radar-svg");
             if (tip && svg) {
+                const show = (c, clientX, clientY) => {
+                    tip.textContent = c.getAttribute("data-tip") || "";
+                    tip.classList.remove("hidden");
+                    const rect = svg.parentElement.getBoundingClientRect();
+                    tip.style.left = Math.min(rect.width - 120, Math.max(4, clientX - rect.left + 8)) + "px";
+                    tip.style.top = Math.max(4, clientY - rect.top - 32) + "px";
+                };
                 svg.querySelectorAll(".radar-hit").forEach(c => {
-                    c.addEventListener("mouseenter", (ev) => {
-                        tip.textContent = c.getAttribute("data-tip") || "";
-                        tip.classList.remove("hidden");
-                    });
-                    c.addEventListener("mousemove", (ev) => {
-                        const rect = svg.parentElement.getBoundingClientRect();
-                        tip.style.left = (ev.clientX - rect.left + 12) + "px";
-                        tip.style.top = (ev.clientY - rect.top - 28) + "px";
-                    });
+                    c.addEventListener("mouseenter", (ev) => show(c, ev.clientX, ev.clientY));
+                    c.addEventListener("mousemove", (ev) => show(c, ev.clientX, ev.clientY));
                     c.addEventListener("mouseleave", () => tip.classList.add("hidden"));
+                    c.addEventListener("click", (ev) => {
+                        ev.preventDefault();
+                        show(c, ev.clientX, ev.clientY);
+                        setTimeout(() => { try { tip.classList.add("hidden"); } catch (e) {} }, 2200);
+                    });
                 });
             }
         } catch (e) {}
@@ -16251,7 +16718,7 @@ function renderOwnershipLeverage() {
         }
         return `<img src="${src}" alt="" class="rounded-full object-cover bg-slate-100"
                      style="width:${size}px;height:${size}px"
-                     onerror="this.style.display='none';this.nextSibling&&(this.nextSibling.style.display='flex');"/>
+                     onerror="this.style.display='none';var n=this.nextElementSibling;if(n&&n.style)n.style.display='flex';"/>
                 <div class="rounded-full bg-slate-200 text-slate-500 hidden items-center justify-center font-semibold"
                      style="width:${size}px;height:${size}px;font-size:${Math.max(10, size/3)}px">${(playerName||"?").charAt(0)}</div>`;
     }
@@ -17153,7 +17620,11 @@ function getCutStreakFromLogs(playerName) {
             const traits = currentCourseTraits && Object.keys(currentCourseTraits).length
                 ? Object.values(currentCourseTraits)
                 : [];
-            const courseLabel = currentCourseName || (allPlayers[0] && allPlayers[0].event_name) || "Event";
+            const courseLabel = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                || (allPlayers[0] && allPlayers[0].course_name)
+                || currentCourseName
+                || (allPlayers[0] && allPlayers[0].event_name)
+                || "Event";
             const skipKeys = /weather details|weather detail|notes|report/i;
             const cleanTraits = traits.filter(t => {
                 if (!t || !t.key) return false;
@@ -17172,12 +17643,35 @@ function getCutStreakFromLogs(playerName) {
             traitsEl.innerHTML = chips.join("");
         }
 
-        // Course name from prebuilt if logs haven't resolved it yet
-        if ((!currentCourseName || currentCourseName === "") && prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name) {
-            currentCourseName = prebuiltCheat[0].course_name;
+        // Always prefer live field / cheat_sheet for course + event labels (never leave Detroit preview)
+        try {
+            const liveC = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                || (allPlayers[0] && allPlayers[0].course_name)
+                || currentCourseName
+                || "";
+            const liveE = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+                || (allPlayers[0] && allPlayers[0].event_name)
+                || "";
+            if (liveC) {
+                currentCourseName = liveC;
+                window.previewCourseName = liveC;
+            }
+            if (traitsEl) {
+                const first = traitsEl.querySelector("span");
+                if (first && liveC) first.textContent = liveC;
+            }
+            const sub = document.getElementById("cheat-subtitle");
+            if (sub) {
+                const head = liveE
+                    ? (liveE + (liveC ? " · " + liveC : ""))
+                    : (liveC || currentCourseName || "Event");
+                sub.textContent = head + " — Course History · Recent Form · Specialist · 925 Rank"
+                    + (window._hubModelPartial ? " · partial pipeline" : "");
+            }
+        } catch (e) {
+            const sub = document.getElementById("cheat-subtitle");
+            if (sub) sub.textContent = (currentCourseName || "Event") + " — Course History · Recent Form · Specialist · 925 Rank";
         }
-        const sub = document.getElementById("cheat-subtitle");
-        if (sub) sub.textContent = (currentCourseName || "Event") + " — Course History · Recent Form · Specialist · 925 Rank";
 
         // Index helpers
         const chByName = {};
@@ -18372,8 +18866,10 @@ function getCutStreakFromLogs(playerName) {
                 </td>
                 <td class="px-2 py-1.5 text-center text-slate-700 font-medium sticky bg-white z-[1]" style="left:11rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
                 <td class="px-2 py-1.5 text-center text-slate-700 text-xs sticky bg-white z-[1]" style="left:14rem">${r.winOdds ? r.winOdds.display : "—"}</td>
-                <td class="px-1.5 py-1.5 text-center text-xs sticky bg-white z-[1] tabular-nums font-semibold ${r.own != null && r.own >= 15 ? "text-amber-700" : r.own != null && r.own >= 8 ? "text-slate-800" : "text-slate-500"}" style="left:17rem" title="Projected ownership from fantasy_points">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}</td>
-                <td class="px-1 py-1.5 text-center sticky bg-white z-[1]" style="left:20.5rem" title="${r.levDetail || "Ownership leverage"}">${r.levTagHtml || "—"}</td>
+                <td class="px-1.5 py-1.5 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:17rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
+                    <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-700" : r.own != null && r.own >= 8 ? "text-slate-800" : "text-slate-500"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
+                    ${r.levTag ? `<div class="text-[9px] font-semibold mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-600" : /over|fade/i.test(r.levTag) ? "text-rose-600" : "text-slate-500"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
+                </td>
                 ${cheatCell(r.h1, null, "cs-sec")}
                 ${cheatCell(r.h2)}
                 ${cheatCell(r.h3)}
@@ -18383,9 +18879,12 @@ function getCutStreakFromLogs(playerName) {
                 ${cheatCell(r.rf3)}
                 ${cheatCell(r.rf4)}
                 <td class="px-1.5 py-1.5 text-center text-slate-700 font-medium cs-sec-end cs-g-rf">${r.cuts ?? "—"}</td>
-                <td class="px-1.5 py-1.5 text-center text-xs text-slate-700 cs-sec cs-g-mkt font-medium">${r.cutPct ?? "—"}</td>
-                <td class="px-1.5 py-1.5 text-center text-xs cs-g-mkt">
-                    <span class="inline-block px-1.5 py-0.5 rounded bg-slate-800 text-cyan-300 font-semibold" title="No-vig make-cut probability">${r.cutNoVigLabel ?? "—"}</span>
+                <td class="px-1.5 py-1.5 text-center text-xs cs-sec cs-sec-end cs-g-mkt leading-tight" title="${(() => {
+                    const bits = ["Cut Odds = make-cut American odds"];
+                    if (r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
+                    return bits.join(" · ");
+                })()}">
+                    <div class="font-semibold text-slate-800 tabular-nums">${r.cutPct ?? "—"}${r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="font-bold text-cyan-700">(${r.cutNoVigLabel})</span>` : ""}</div>
                 </td>
                 <td class="px-1.5 py-1.5 text-center cs-sec cs-g-ks" title="${(keyStatNames&&keyStatNames[0])||'Key Stat 1'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s1, maxR)}">${displayRank(r.s1)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[1])||'Key Stat 2'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s2, maxR)}">${displayRank(r.s2)}</span></td>
@@ -24444,3 +24943,4 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
 
 </body>
 </html>
+
