@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-08-10-labels-clean-live -->
+<!-- 925-HUB-VERSION: 2026-08-10-name-match -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -283,6 +283,91 @@
         #csheet-table tbody td.cs-g-rf { background-color: rgba(16, 185, 129, 0.04) !important; }
         #csheet-table tbody td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.04) !important; }
         #csheet-table tbody td.cs-g-proj { background-color: rgba(139, 92, 246, 0.04) !important; }
+
+        /* Cheat Sheet — sharper, easier-to-read numbers (layout unchanged) */
+        #csheet-table {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        #csheet-table thead tr.cs-head-1 th {
+            font-size: 11px !important;
+            letter-spacing: 0.05em;
+            font-weight: 700 !important;
+            color: #f8fafc !important;
+        }
+        #csheet-table thead tr.cs-head-2 th {
+            font-size: 11px !important;
+            font-weight: 600 !important;
+            color: #e2e8f0 !important;
+            letter-spacing: 0.02em;
+        }
+        #csheet-table tbody td {
+            font-size: 13.5px !important;
+            font-weight: 600;
+            color: #0f172a !important;
+            font-variant-numeric: tabular-nums lining-nums;
+            font-feature-settings: "tnum" 1, "lnum" 1;
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+            padding-top: 0.42rem !important;
+            padding-bottom: 0.42rem !important;
+            border-bottom: 1px solid #e8edf4 !important;
+        }
+        #csheet-table tbody tr:nth-child(even) > td {
+            background-color: #f8fafc;
+        }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-ch { background-color: rgba(59, 130, 246, 0.075) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-rf { background-color: rgba(16, 185, 129, 0.075) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.08) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-proj { background-color: rgba(139, 92, 246, 0.075) !important; }
+        #csheet-table tbody tr:hover > td {
+            background-color: #eef2f7 !important;
+        }
+        #csheet-table tbody tr:hover > td.cs-g-ch { background-color: rgba(59, 130, 246, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-rf { background-color: rgba(16, 185, 129, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-proj { background-color: rgba(139, 92, 246, 0.14) !important; }
+        #csheet-table tbody td.sticky {
+            color: #020617 !important;
+            font-weight: 650;
+            box-shadow: 1px 0 0 0 #e2e8f0;
+        }
+        #csheet-table tbody tr:nth-child(even) > td.sticky { background-color: #f8fafc !important; }
+        #csheet-table tbody tr:hover > td.sticky { background-color: #eef2f7 !important; }
+        #csheet-table tbody .cs-rank-pill {
+            display: inline-block;
+            min-width: 30px;
+            padding: 2px 7px !important;
+            border-radius: 6px !important;
+            font-size: 12px !important;
+            font-weight: 700 !important;
+            letter-spacing: -0.02em;
+            font-variant-numeric: tabular-nums;
+            box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+            line-height: 1.25;
+        }
+        #csheet-table tbody .cs-subnum {
+            font-size: 10.5px !important;
+            font-weight: 600 !important;
+            color: #475569 !important;
+            font-variant-numeric: tabular-nums;
+        }
+        #csheet-table tbody td[style*="left:2rem"],
+        #csheet-table tbody td.sticky.left-8 {
+            font-size: 13.5px !important;
+            font-weight: 700 !important;
+            color: #020617 !important;
+            letter-spacing: -0.015em;
+        }
+        #csheet-table tbody td[style*="left:11rem"] {
+            font-weight: 700 !important;
+            font-variant-numeric: tabular-nums;
+            color: #0f172a !important;
+        }
+        #csheet-table tbody td .text-slate-400 {
+            color: #64748b !important;
+            font-weight: 500;
+        }
         #fantasy-cheat-mount table th.cs-sec,
         #fantasy-cheat-mount table td.cs-sec {
             box-shadow: inset 1px 0 0 0 #cbd5e1 !important;
@@ -1465,6 +1550,24 @@
                     <span class="text-slate-300">·</span>
                     <span class="text-slate-400">Course research (Trends / Base / Spec) sits under the chips</span>
                 </div>
+                <!-- Best bets summary (starts collapsed) -->
+                <div id="props-best-bets" class="border-b border-slate-100 bg-white" data-open="0">
+                    <button type="button" onclick="togglePropsBestBets()" class="w-full px-5 py-2.5 flex items-center justify-between gap-2 text-left hover:bg-slate-50 transition-colors">
+                        <span class="flex items-center gap-2 min-w-0">
+                            <span id="props-best-bets-chevron" class="text-slate-400 text-xs" style="display:inline-block;transform:rotate(-90deg)">▼</span>
+                            <span class="text-sm font-semibold text-slate-800">Best bets summary</span>
+                            <span id="props-best-bets-pill" class="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">Top edges</span>
+                            <span id="props-best-bets-teaser" class="text-[11px] text-slate-500 truncate hidden sm:inline">Expand for top props + why</span>
+                        </span>
+                        <span class="text-[10px] text-slate-400 flex-shrink-0 props-best-bets-state">collapsed</span>
+                    </button>
+                    <div id="props-best-bets-body" class="hidden px-5 pb-4 border-t border-slate-50">
+                        <p class="text-[11px] text-slate-500 mt-2 mb-3">Highest-edge props under your current filters (book · stat · hide-push · search). Supporting data below — not auto-tickets.</p>
+                        <div id="props-best-bets-content" class="space-y-2">
+                            <div class="text-sm text-slate-400 py-4 text-center">Load props to see top edges…</div>
+                        </div>
+                    </div>
+                </div>
 <div id="props-edge-strip" class="px-6 py-3 border-b border-slate-100 bg-gradient-to-r from-emerald-50 to-white hidden"></div>
                                 <!-- Unified LINE stack: Trends / Baseline / Spec aligned per metric -->
                 <div id="props-research-toggle" class="px-5 py-2.5 border-b border-slate-100 bg-slate-50 flex flex-wrap items-center justify-between gap-2"><button type="button" onclick="togglePropsResearch()" class="flex items-center gap-2 text-left min-w-0"><span id="props-research-chevron" class="text-slate-400 text-xs">▼</span><span class="text-sm font-semibold text-slate-800">Course research</span><span class="text-[11px] text-slate-500">Trends · Baseline · Spec · course averages</span></button><span id="props-stack-meta" class="text-[10px] text-slate-400 tabular-nums"></span></div>
@@ -1640,6 +1743,24 @@
                 <div class="px-4 py-2 text-xs text-slate-500 border-b border-slate-100 flex items-center justify-between">
                     <span id="ev-count">—</span>
                     <span>Edge = model % − no-vig market %. Run Custom Model for CM prices; 925 uses Cheat Sheet ranks. Auto prefers CM when available.</span>
+                </div>
+                <!-- Best +EV summary (starts collapsed) -->
+                <div id="ev-best-bets" class="border-b border-slate-100 bg-white" data-open="0">
+                    <button type="button" onclick="toggleEvBestBets()" class="w-full px-5 py-2.5 flex items-center justify-between gap-2 text-left hover:bg-slate-50 transition-colors">
+                        <span class="flex items-center gap-2 min-w-0">
+                            <span id="ev-best-bets-chevron" class="text-slate-400 text-xs" style="display:inline-block;transform:rotate(-90deg)">▼</span>
+                            <span class="text-sm font-semibold text-slate-800">Best +EV summary</span>
+                            <span id="ev-best-bets-pill" class="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">Value plays</span>
+                            <span id="ev-best-bets-teaser" class="text-[11px] text-slate-500 truncate hidden sm:inline">Expand for top market edges + why</span>
+                        </span>
+                        <span class="text-[10px] text-slate-400 flex-shrink-0 ev-best-bets-state">collapsed</span>
+                    </button>
+                    <div id="ev-best-bets-body" class="hidden px-5 pb-4 border-t border-slate-50">
+                        <p class="text-[11px] text-slate-500 mt-2 mb-3">Largest model edges under current filters (market · tour · proj source · min edge). Lottery prices already excluded from best-price EV.</p>
+                        <div id="ev-best-bets-content" class="space-y-2">
+                            <div class="text-sm text-slate-400 py-4 text-center">Load odds / open Cheat Sheet for model %…</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="overflow-auto max-h-[70vh]">
                     <table class="modern-table w-full text-sm">
@@ -1861,7 +1982,7 @@
 
 const REPO = "925Sports/pga-tour-data";
     // Bump when weekly data flips so browsers skip stale CDN/cache
-    const DATA_VER = "20260810k";
+    const DATA_VER = "20260810p";
     const DATA_BASE = `https://raw.githubusercontent.com/${REPO}/main/data`;
     function withDataVer(url) {
         if (!url || typeof url !== "string") return url;
@@ -15432,15 +15553,138 @@ el.innerHTML = `
         return null;
     }
 
-    function nameKey(n) {
-        let s = String(n || "").trim().toLowerCase();
-        // "last, first" -> "first last"
+    /** Strip accents/diacritics (Åberg → Aberg, José → Jose). */
+    function stripDiacritics(s) {
+        try {
+            return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        } catch (e) {
+            return String(s || "");
+        }
+    }
+
+    /**
+     * Golf-friendly first-name aliases (both directions).
+     * Used when last names align but one source uses a nickname / short form.
+     */
+    const FIRST_NAME_ALIASES = {
+        matt: ["matthew"], matthew: ["matt"],
+        mike: ["michael"], michael: ["mike"],
+        chris: ["christopher", "christian"], christopher: ["chris"], christian: ["chris"],
+        nick: ["nicholas", "nicolas", "nico"], nicholas: ["nick", "nico", "nicolas"],
+        nicolas: ["nico", "nick", "nicholas"], nico: ["nicolas", "nicholas", "nick"],
+        alex: ["alexander", "alexis"], alexander: ["alex"],
+        will: ["william", "bill", "billy"], william: ["will", "bill", "billy"],
+        bill: ["william", "will", "billy"], billy: ["william", "will", "bill"],
+        joe: ["joseph"], joseph: ["joe"],
+        jim: ["james", "jimmy"], james: ["jim", "jimmy"], jimmy: ["jim", "james"],
+        tom: ["thomas", "tommy"], thomas: ["tom", "tommy"], tommy: ["tom", "thomas"],
+        tony: ["anthony"], anthony: ["tony"],
+        andy: ["andrew"], andrew: ["andy", "drew"], drew: ["andrew", "andy"],
+        ben: ["benjamin"], benjamin: ["ben"],
+        sam: ["samuel", "sammy"], samuel: ["sam"],
+        max: ["maximilian", "maxwell"],
+        rob: ["robert", "bob", "bobby"], robert: ["rob", "bob", "bobby"],
+        bob: ["robert", "rob"], bobby: ["robert", "rob", "bob"],
+        rick: ["richard", "ricky"], richard: ["rick", "rich", "ricky"], rich: ["richard"],
+        dan: ["daniel", "danny"], daniel: ["dan", "danny"], danny: ["dan", "daniel"],
+        steve: ["steven", "stephen"], steven: ["steve", "stephen"], stephen: ["steve", "steven"],
+        pat: ["patrick", "patty"], patrick: ["pat"],
+        cam: ["cameron"], cameron: ["cam"],
+        josh: ["joshua"], joshua: ["josh"],
+        jon: ["jonathan", "john"], jonathan: ["jon", "john"], john: ["jon", "jonathan", "jack"],
+        jack: ["john", "jackson"],
+        harry: ["harold", "harris"],
+        phil: ["philip", "phillip"], philip: ["phil"], phillip: ["phil"],
+        ed: ["edward", "eddie"], edward: ["ed", "eddie"], eddie: ["ed", "edward"],
+        greg: ["gregory"], gregory: ["greg"],
+        jeff: ["jeffrey"], jeffrey: ["jeff"],
+        dave: ["david"], david: ["dave"],
+        stephan: ["stefan", "stephen"], stefan: ["stephan", "stephen"],
+        sepp: ["joseph", "josef"],
+        rory: [], // keep as-is
+        // Spanish / Latin short forms common on tour
+        jorge: ["george"],
+        luis: ["louie"],
+        // K.H. Lee style handled via initials strip, not here
+    };
+
+    /** Tokenize a player name for matching (order: first … last). */
+    function nameTokens(n) {
+        let s = stripDiacritics(String(n || "").trim().toLowerCase());
+        if (!s) return [];
+        // "Last, First" / "Last, First M."
         if (s.includes(",")) {
             const parts = s.split(",").map(x => x.trim()).filter(Boolean);
-            if (parts.length === 2) s = parts[1] + " " + parts[0];
+            if (parts.length >= 2) s = parts.slice(1).join(" ") + " " + parts[0];
         }
-        return s.replace(/[^a-z0-9]/g, "");
+        // periods in initials → spaces (J. / L.)
+        s = s.replace(/\./g, " ");
+        // drop generational suffixes
+        s = s.replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/g, " ");
+        // split on non-alphanumeric
+        let parts = s.split(/[^a-z0-9]+/).filter(Boolean);
+        // drop pure middle initials (single letters) but keep first & last always
+        if (parts.length >= 3) {
+            const first = parts[0];
+            const last = parts[parts.length - 1];
+            const mid = parts.slice(1, -1).filter(p => p.length > 1);
+            parts = [first].concat(mid).concat([last]);
+        }
+        return parts;
     }
+
+    /**
+     * Canonical key for maps / exact join.
+     * Strips accents, middle initials, Jr/II, punctuation → "jordanlsmith" becomes "jordansmith".
+     */
+    function nameKey(n) {
+        return nameTokens(n).join("");
+    }
+
+    /** Last-name key (final token) after normalization. */
+    function nameLastKey(n) {
+        const t = nameTokens(n);
+        return t.length ? t[t.length - 1] : "";
+    }
+
+    function firstNamesMatch(a, b) {
+        if (!a || !b) return false;
+        if (a === b) return true;
+        // prefix (alex/alexander, nick/nicholas) — require min length 3 to avoid "al" noise
+        if (a.length >= 3 && b.length >= 3 && (a.startsWith(b) || b.startsWith(a))) return true;
+        const expand = (x) => {
+            const out = new Set([x]);
+            (FIRST_NAME_ALIASES[x] || []).forEach(y => out.add(y));
+            // one hop reverse already in map, but also pull anyone who lists x
+            return out;
+        };
+        const A = expand(a), B = expand(b);
+        for (const x of A) if (B.has(x)) return true;
+        // nickname sets intersect via shared alias
+        for (const x of A) {
+            for (const y of (FIRST_NAME_ALIASES[x] || [])) if (B.has(y)) return true;
+        }
+        return false;
+    }
+
+    function lastNamesMatch(ta, tb) {
+        if (!ta.length || !tb.length) return false;
+        const la = ta[ta.length - 1], lb = tb[tb.length - 1];
+        if (la === lb) return true;
+        // hyphenated / multi-part last: allow prefix if ≥4 chars
+        if (la.length >= 4 && lb.length >= 4 && (la.startsWith(lb) || lb.startsWith(la))) return true;
+        // "vanrooyen" vs "rooyen" — only if other tokens include van/de etc.
+        if (ta.length >= 2 && tb.length >= 1) {
+            const la2 = ta[ta.length - 2] + la;
+            if (la2 === lb || lb === la2) return true;
+        }
+        if (tb.length >= 2 && ta.length >= 1) {
+            const lb2 = tb[tb.length - 2] + lb;
+            if (lb2 === la || la === lb2) return true;
+        }
+        return false;
+    }
+
 
     
     function lookupFtps(playerName) {
@@ -15460,9 +15704,15 @@ el.innerHTML = `
 
     function lookupFantasyPointsRow(playerName) {
         if (!fantasyPoints || !fantasyPoints.length) return null;
+        const k = nameKey(playerName);
         let matches = fantasyPoints.filter(r =>
-            namesMatch(r.player_name || r["Player Name"] || r.Name || r.PLAYER || "", playerName)
+            nameKey(r.player_name || r["Player Name"] || r.Name || r.PLAYER || "") === k
         );
+        if (!matches.length) {
+            matches = fantasyPoints.filter(r =>
+                namesMatch(r.player_name || r["Player Name"] || r.Name || r.PLAYER || "", playerName)
+            );
+        }
         if (!matches.length) return null;
         // Drop LIV when PGA rows exist
         const nonLiv = matches.filter(r => !/liv\s*golf/i.test(String(r.Tournament || r["Slate-Tournament"] || "")));
@@ -15547,6 +15797,205 @@ el.innerHTML = `
         const scale = window._ownScale || detectOwnershipScale([raw]);
         return normalizeOwnershipValue(raw, scale);
     }
+
+    // ── Best-bets collapsible summaries (Props + +EV) — start collapsed ──
+    function togglePropsBestBets(force) {
+        const root = document.getElementById("props-best-bets");
+        if (!root) return;
+        const open = force != null ? !!force : root.getAttribute("data-open") !== "1";
+        root.setAttribute("data-open", open ? "1" : "0");
+        const body = document.getElementById("props-best-bets-body");
+        const chev = document.getElementById("props-best-bets-chevron");
+        if (body) body.classList.toggle("hidden", !open);
+        if (chev) chev.style.transform = open ? "rotate(0deg)" : "rotate(-90deg)";
+        const st = root.querySelector(".props-best-bets-state");
+        if (st) st.textContent = open ? "open" : "collapsed";
+    }
+    function toggleEvBestBets(force) {
+        const root = document.getElementById("ev-best-bets");
+        if (!root) return;
+        const open = force != null ? !!force : root.getAttribute("data-open") !== "1";
+        root.setAttribute("data-open", open ? "1" : "0");
+        const body = document.getElementById("ev-best-bets-body");
+        const chev = document.getElementById("ev-best-bets-chevron");
+        if (body) body.classList.toggle("hidden", !open);
+        if (chev) chev.style.transform = open ? "rotate(0deg)" : "rotate(-90deg)";
+        const st = root.querySelector(".ev-best-bets-state");
+        if (st) st.textContent = open ? "open" : "collapsed";
+    }
+    window.togglePropsBestBets = togglePropsBestBets;
+    window.toggleEvBestBets = toggleEvBestBets;
+
+    function _bbEsc(s) {
+        return String(s == null ? "" : s)
+            .replace(/&/g, "\u0026amp;")
+            .replace(/</g, "\u0026lt;")
+            .replace(/>/g, "\u0026gt;")
+            .replace(/"/g, "\u0026quot;");
+    }
+    function _bbEdge(e) {
+        if (e == null || isNaN(Number(e))) return "—";
+        const n = Number(e);
+        return (n >= 0 ? "+" : "") + n.toFixed(1) + "pp";
+    }
+    function _bbPct(p) {
+        if (p == null || isNaN(Number(p))) return "—";
+        let n = Number(p);
+        if (n <= 1.5) n = n * 100;
+        return n.toFixed(1) + "%";
+    }
+    function _bbAm(n) {
+        if (n == null || isNaN(Number(n))) return "—";
+        const v = Math.round(Number(n));
+        return v > 0 ? "+" + v : String(v);
+    }
+
+    function updatePropsBestBetsSummary(rows) {
+        const el = document.getElementById("props-best-bets-content");
+        const teaser = document.getElementById("props-best-bets-teaser");
+        const pill = document.getElementById("props-best-bets-pill");
+        if (!el) return;
+        const list = (rows || []).filter(r => r && r.edgePts != null && !isNaN(Number(r.edgePts)));
+        if (!list.length) {
+            el.innerHTML = '<div class="text-sm text-slate-400 py-4 text-center">No scored edges in the current filters. Loosen book/stat filters or wait for props to load.</div>';
+            if (teaser) teaser.textContent = "No edges yet";
+            if (pill) pill.textContent = "—";
+            return;
+        }
+        const ranked = list.slice().sort((a, b) => Number(b.edgePts) - Number(a.edgePts));
+        const top = ranked.slice(0, 6);
+        const pos = ranked.filter(r => Number(r.edgePts) > 0);
+        const base = pos.length ? pos : ranked;
+        const avgEdge = base.reduce((s, r) => s + Number(r.edgePts), 0) / base.length;
+        const byStat = {};
+        pos.forEach(r => { const st = r.stat || "—"; byStat[st] = (byStat[st] || 0) + 1; });
+        const topStats = Object.entries(byStat).sort((a,b) => b[1]-a[1]).slice(0, 3).map(([s,n]) => s + " (" + n + ")").join(" · ") || "—";
+        let nOver = 0, nUnder = 0;
+        pos.forEach(r => {
+            const tg = String(r.tag || "").toUpperCase();
+            if (tg === "OVER" || tg === "HIGHER") nOver++;
+            else if (tg === "UNDER" || tg === "LOWER") nUnder++;
+        });
+        if (pill) pill.textContent = pos.length ? (pos.length + " +edge") : "Top edges";
+        if (teaser) {
+            const h = top[0];
+            teaser.textContent = h
+                ? ((h.player || "—") + " " + (h.tag || "") + " " + (h.line != null ? h.line : "") + " · " + _bbEdge(h.edgePts))
+                : "Expand for top props + why";
+        }
+        const cards = top.map((r, i) => {
+            const why = [];
+            why.push("Edge <b>" + _bbEdge(r.edgePts) + "</b> (Hit " + _bbPct(r.hitProb) + " vs book " + _bbPct(r.priceProb != null ? r.priceProb : r.bookImp) + ")");
+            if (r.projVal != null && r.line != null && !isNaN(Number(r.projVal)) && !isNaN(Number(r.line))) {
+                const delta = Number(r.projVal) - Number(r.line);
+                const side = String(r.tag || "").toUpperCase();
+                const aligns = (side === "OVER" || side === "HIGHER") ? delta > 0 : (side === "UNDER" || side === "LOWER") ? delta < 0 : null;
+                why.push("Proj <b>" + Number(r.projVal).toFixed(2) + "</b> vs line <b>" + Number(r.line).toFixed(2) + "</b> (" + (delta >= 0 ? "+" : "") + delta.toFixed(2) + (aligns === true ? " · supports side" : aligns === false ? " · fights side" : "") + ")");
+            }
+            if (r.courseAvg != null && !isNaN(Number(r.courseAvg))) why.push("Course avg <b>" + Number(r.courseAvg).toFixed(2) + "</b>");
+            if (r.playerAvg != null && !isNaN(Number(r.playerAvg))) why.push("Skill signal <b>" + Number(r.playerAvg).toFixed(2) + "</b>");
+            if (r.book) why.push("Book <b>" + _bbEsc(r.book) + "</b>");
+            if (r.pushProb != null && Number(r.pushProb) > 0.05) why.push("Push risk ~" + _bbPct(r.pushProb));
+            if (r.lineDiff != null && Number(r.lineDiff) !== 0) why.push("PP−UD Δ <b>" + (Number(r.lineDiff) > 0 ? "+" : "") + Number(r.lineDiff).toFixed(2) + "</b>");
+            const safe = String(r.player || "").replace(/'/g, "\\'");
+            const edgeCls = Number(r.edgePts) >= 4 ? "bg-emerald-700 text-white" : Number(r.edgePts) >= 1.5 ? "bg-emerald-100 text-emerald-900" : Number(r.edgePts) >= 0 ? "bg-slate-100 text-slate-700" : "bg-rose-50 text-rose-700";
+            const tagU = String(r.tag || "").toUpperCase();
+            const tagCls = (tagU === "OVER" || tagU === "HIGHER") ? "bg-sky-100 text-sky-800" : "bg-amber-100 text-amber-900";
+            const lineStr = r.line != null ? Number(r.line).toFixed(Number(r.line) % 1 ? 1 : 0) : "—";
+            const statSafe = String(r.stat || "").replace(/'/g, "");
+            return '<div class="rounded-xl border border-slate-200 bg-slate-50/80 px-3 py-2.5 hover:border-emerald-300 transition-colors cursor-pointer" onclick="try{if(typeof openPropPlayerSheet===\'function\')openPropPlayerSheet(\'' + safe + '\',\'' + statSafe + '\',\'' + tagU + '\');else openPlayerModal(\'' + safe + '\',4);}catch(e){}">'
+                + '<div class="flex items-start justify-between gap-2"><div class="min-w-0">'
+                + '<div class="flex items-center gap-2 flex-wrap">'
+                + '<span class="text-[10px] font-bold text-slate-400">#' + (i+1) + '</span>'
+                + '<span class="font-semibold text-slate-900 text-sm truncate">' + _bbEsc(r.player || "—") + '</span>'
+                + '<span class="text-[10px] font-bold uppercase px-1.5 py-0.5 rounded ' + tagCls + '">' + _bbEsc(r.tag || "—") + '</span>'
+                + '<span class="text-xs text-slate-600 tabular-nums">' + lineStr + '</span>'
+                + '<span class="text-[11px] text-slate-500 truncate">' + _bbEsc(r.stat || "") + '</span></div>'
+                + '<ul class="mt-1.5 text-[11px] text-slate-600 space-y-0.5 list-disc list-inside">' + why.map(w => '<li>' + w + '</li>').join('') + '</ul>'
+                + '</div><div class="flex-shrink-0 text-right">'
+                + '<div class="inline-block px-2 py-1 rounded-lg text-xs font-bold tabular-nums ' + edgeCls + '">' + _bbEdge(r.edgePts) + '</div>'
+                + '<div class="text-[9px] text-slate-400 mt-1 uppercase tracking-wide">edge</div></div></div></div>';
+        }).join("");
+        el.innerHTML = '<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-3">'
+            + '<div class="rounded-lg bg-slate-900 text-white px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Scored sides</div><div class="text-lg font-bold tabular-nums">' + list.length + '</div></div>'
+            + '<div class="rounded-lg bg-emerald-50 border border-emerald-100 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-emerald-700/80">+Edge count</div><div class="text-lg font-bold tabular-nums text-emerald-800">' + pos.length + '</div></div>'
+            + '<div class="rounded-lg bg-white border border-slate-200 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Avg +edge</div><div class="text-lg font-bold tabular-nums text-slate-800">' + _bbEdge(avgEdge) + '</div></div>'
+            + '<div class="rounded-lg bg-white border border-slate-200 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Side lean (+edge)</div><div class="text-sm font-bold text-slate-800">O ' + nOver + ' · U ' + nUnder + '</div></div>'
+            + '</div><div class="text-[11px] text-slate-500 mb-2"><span class="font-semibold text-slate-700">Hottest stats:</span> ' + _bbEsc(topStats) + '</div>'
+            + '<div class="space-y-2">' + cards + '</div>'
+            + '<p class="text-[10px] text-slate-400 mt-3">Why these? Highest <b>Hit% − Book%</b> under your filters. Also: proj vs line, course avg, skill, book, push risk. Tap a card for the prop sheet.</p>';
+    }
+
+    function updateEvBestBetsSummary(board) {
+        const el = document.getElementById("ev-best-bets-content");
+        const teaser = document.getElementById("ev-best-bets-teaser");
+        const pill = document.getElementById("ev-best-bets-pill");
+        if (!el) return;
+        const list = (board || []).filter(r => r && r.edge != null && !isNaN(Number(r.edge)));
+        if (!list.length) {
+            el.innerHTML = '<div class="text-sm text-slate-400 py-4 text-center">No model edges yet. Open Cheat Sheet (925 ranks) and/or run Custom Model, then return here.</div>';
+            if (teaser) teaser.textContent = "Need model ranks";
+            if (pill) pill.textContent = "—";
+            return;
+        }
+        const ranked = list.slice().sort((a, b) => {
+            const de = Number(b.edge) - Number(a.edge);
+            if (de) return de;
+            return (Number(b.evPct) || 0) - (Number(a.evPct) || 0);
+        });
+        const top = ranked.slice(0, 6);
+        const pos = ranked.filter(r => Number(r.edge) > 0);
+        const avgEdge = pos.length ? pos.reduce((s, r) => s + Number(r.edge), 0) / pos.length : 0;
+        const market = String(document.getElementById("ev-market")?.value || "win").replace(/_/g, " ");
+        const srcMix = {};
+        pos.forEach(r => { const s = r.valSrc || "—"; srcMix[s] = (srcMix[s] || 0) + 1; });
+        const srcTxt = Object.entries(srcMix).sort((a,b) => b[1]-a[1]).map(([s,n]) => s + "×" + n).join(" · ") || "—";
+        if (pill) pill.textContent = pos.length ? (pos.length + " +EV") : "Value";
+        if (teaser) {
+            const h = top[0];
+            teaser.textContent = h
+                ? ((h.name || "—") + " · edge " + _bbEdge(h.edge) + " · " + (h.bestBook || "") + " " + _bbAm(h.bestAmerican))
+                : "Expand for top market edges + why";
+        }
+        const cards = top.map((r, i) => {
+            const why = [];
+            why.push("Edge <b>" + _bbEdge(r.edge) + "</b> — model <b>" + _bbPct(r.modelProb) + "</b> vs market <b>" + _bbPct(r.noVig) + "</b>");
+            if (r.evPct != null && !isNaN(Number(r.evPct))) why.push("+EV <b>" + (Number(r.evPct) >= 0 ? "+" : "") + Number(r.evPct).toFixed(1) + "%</b> at best price");
+            if (r.bestBook || r.bestAmerican != null) why.push("Best book <b>" + _bbEsc(r.bestBook || "—") + "</b> " + _bbEsc(_bbAm(r.bestAmerican)));
+            if (r.modelOdds) why.push("Model fair odds <b>" + _bbEsc(r.modelOdds) + "</b>");
+            if (r.r925 != null) why.push("925 rank <b>#" + r.r925 + "</b>");
+            if (r.cmRank != null) why.push("CM rank <b>#" + r.cmRank + "</b>");
+            if (r.rank != null) why.push("Proj rank <b>#" + r.rank + "</b>");
+            if (r.valSrc) why.push("Source <b>" + _bbEsc(r.valSrc) + "</b>");
+            if (r.bestAmerican != null && Number(r.bestAmerican) >= 2000) why.push('<span class="text-amber-700">Longshot — only if model rank supports an upset</span>');
+            else if (r.bestAmerican != null && Number(r.bestAmerican) <= 500 && Number(r.edge) > 2) why.push("Shorter price with solid edge — cash-friendly");
+            const safe = String(r.name || "").replace(/'/g, "\\'");
+            const edgeCls = Number(r.edge) >= 5 ? "bg-emerald-700 text-white" : Number(r.edge) >= 2 ? "bg-emerald-100 text-emerald-900" : Number(r.edge) >= 0 ? "bg-slate-100 text-slate-700" : "bg-rose-50 text-rose-700";
+            return '<div class="rounded-xl border border-slate-200 bg-slate-50/80 px-3 py-2.5 hover:border-emerald-300 transition-colors cursor-pointer" onclick="try{openPlayerModal(\'' + safe + '\',3)}catch(e){}">'
+                + '<div class="flex items-start justify-between gap-2"><div class="min-w-0">'
+                + '<div class="flex items-center gap-2 flex-wrap">'
+                + '<span class="text-[10px] font-bold text-slate-400">#' + (i+1) + '</span>'
+                + '<span class="font-semibold text-slate-900 text-sm truncate">' + _bbEsc(r.name || "—") + '</span>'
+                + '<span class="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-slate-200 text-slate-700">' + _bbEsc(market) + '</span>'
+                + '<span class="text-[11px] text-slate-500">' + _bbEsc(r.bestBook || "") + ' ' + _bbEsc(_bbAm(r.bestAmerican)) + '</span></div>'
+                + '<ul class="mt-1.5 text-[11px] text-slate-600 space-y-0.5 list-disc list-inside">' + why.map(w => '<li>' + w + '</li>').join('') + '</ul>'
+                + '</div><div class="flex-shrink-0 text-right space-y-1">'
+                + '<div class="inline-block px-2 py-1 rounded-lg text-xs font-bold tabular-nums ' + edgeCls + '">' + _bbEdge(r.edge) + '</div>'
+                + '<div class="text-[10px] text-slate-500 tabular-nums">' + (r.evPct != null ? ((Number(r.evPct)>=0?"+":"")+Number(r.evPct).toFixed(1)+"% EV") : "—") + '</div>'
+                + '</div></div></div>';
+        }).join("");
+        el.innerHTML = '<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-3">'
+            + '<div class="rounded-lg bg-slate-900 text-white px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Board rows</div><div class="text-lg font-bold tabular-nums">' + list.length + '</div></div>'
+            + '<div class="rounded-lg bg-emerald-50 border border-emerald-100 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-emerald-700/80">+Edge</div><div class="text-lg font-bold tabular-nums text-emerald-800">' + pos.length + '</div></div>'
+            + '<div class="rounded-lg bg-white border border-slate-200 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Avg +edge</div><div class="text-lg font-bold tabular-nums text-slate-800">' + (pos.length ? _bbEdge(avgEdge) : "—") + '</div></div>'
+            + '<div class="rounded-lg bg-white border border-slate-200 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Market</div><div class="text-sm font-bold text-slate-800 capitalize">' + _bbEsc(market) + '</div></div>'
+            + '</div><div class="text-[11px] text-slate-500 mb-2"><span class="font-semibold text-slate-700">Proj sources on +edge:</span> ' + _bbEsc(srcTxt) + '</div>'
+            + '<div class="space-y-2">' + cards + '</div>'
+            + '<p class="text-[10px] text-slate-400 mt-3">Why these? Largest <b>model % − no-vig market %</b>, then +EV% at best non-lottery price. 925/CM ranks are context. Tap a card for the player profile.</p>';
+    }
+    window.updatePropsBestBetsSummary = updatePropsBestBetsSummary;
+    window.updateEvBestBetsSummary = updateEvBestBetsSummary;
+
 
     function formatOwnership(own) {
         if (own == null || isNaN(Number(own))) return "—";
@@ -16529,13 +16978,58 @@ function renderOwnershipLeverage() {
 
 
     function namesMatch(a, b) {
-        const ka = nameKey(a), kb = nameKey(b);
+        if (!a || !b) return false;
+        const ta = nameTokens(a), tb = nameTokens(b);
+        const ka = ta.join(""), kb = tb.join("");
         if (!ka || !kb) return false;
         if (ka === kb) return true;
-        // partial: one contains the other (handles Jr/II differences lightly)
+
+        // One key contains the other (short suffixes / residual punctuation) — min length guard
         if (ka.length >= 6 && kb.length >= 6 && (ka.includes(kb) || kb.includes(ka))) return true;
+
+        // Same last name + compatible first (nickname / middle initial already stripped)
+        if (lastNamesMatch(ta, tb) && ta.length && tb.length) {
+            if (firstNamesMatch(ta[0], tb[0])) return true;
+            // "J. Smith" style already collapsed; also allow first-initial vs full first
+            if (ta[0].length === 1 && tb[0].startsWith(ta[0])) return true;
+            if (tb[0].length === 1 && ta[0].startsWith(tb[0])) return true;
+        }
+
+        // Token-set overlap: all of the shorter multi-token name appears in the longer
+        // (handles "Min Woo Lee" vs "Minwoo Lee" after join differences)
+        if (ta.length >= 2 && tb.length >= 2) {
+            const [short, long] = ta.length <= tb.length ? [ta, tb] : [tb, ta];
+            if (short.length >= 2 && short.every(tok => long.some(x => x === tok || (tok.length >= 3 && (x.startsWith(tok) || tok.startsWith(x)))))) {
+                // require last-name alignment to avoid cross-player hits
+                if (lastNamesMatch(ta, tb)) return true;
+            }
+        }
+
         return false;
     }
+
+    /**
+     * Find best matching row in a list by player-name fields.
+     * Prefer exact nameKey, then namesMatch. Used for salaries / ownership / odds glue.
+     */
+    function findNameRow(rows, playerName, nameFields) {
+        if (!rows || !rows.length || !playerName) return null;
+        const fields = nameFields || ["player_name", "name_adjusted", "Player Name", "Name", "PLAYER", "name", "Player"];
+        const k = nameKey(playerName);
+        let fuzzy = null;
+        for (let i = 0; i < rows.length; i++) {
+            const r = rows[i];
+            let n = "";
+            for (const f of fields) {
+                if (r[f] != null && String(r[f]).trim()) { n = r[f]; break; }
+            }
+            if (!n) continue;
+            if (nameKey(n) === k) return r;
+            if (!fuzzy && namesMatch(n, playerName)) fuzzy = r;
+        }
+        return fuzzy;
+    }
+
 
     /** Fuzzy course name match (Sedgefield vs Sedgefield Country Club). */
     function coursesMatch(a, b) {
@@ -16677,7 +17171,11 @@ function renderOwnershipLeverage() {
     }
 
     function dkMatches(playerName) {
-        return dkSalaries.filter(r => namesMatch(r.player_name, playerName));
+        if (!dkSalaries || !dkSalaries.length) return [];
+        const k = nameKey(playerName);
+        const exact = dkSalaries.filter(r => nameKey(r.player_name || r.Name || r.name || "") === k);
+        if (exact.length) return exact;
+        return dkSalaries.filter(r => namesMatch(r.player_name || r.Name || r.name || "", playerName));
     }
 
     function lookupDkRow(playerName) {
@@ -16802,16 +17300,17 @@ function renderOwnershipLeverage() {
     }
 
     function rankCellColor(rank, maxRank) {
-        if (rank == null || rank === "—" || rank === "" || rank === 0 || rank === "0") return "bg-slate-100 text-slate-400";
+        // Higher-contrast rank chips for scanability
+        if (rank == null || rank === "—" || rank === "" || rank === 0 || rank === "0") return "cs-rank-pill bg-slate-100 text-slate-500";
         const n = Number(rank);
-        if (isNaN(n) || n <= 0) return "bg-slate-100 text-slate-400";
-        if (n >= 100) return "bg-red-500 text-white font-semibold";
-        if (n <= 5) return "bg-cyan-500 text-white font-bold";
-        if (n <= 15) return "bg-emerald-500 text-white font-semibold";
-        if (n <= 30) return "bg-emerald-200 text-emerald-900";
-        if (n <= 50) return "bg-yellow-100 text-yellow-900";
-        if (n <= 75) return "bg-slate-200 text-slate-700";
-        return "bg-orange-200 text-orange-900";
+        if (isNaN(n) || n <= 0) return "cs-rank-pill bg-slate-100 text-slate-500";
+        if (n >= 100) return "cs-rank-pill bg-red-600 text-white font-bold";
+        if (n <= 5) return "cs-rank-pill bg-cyan-600 text-white font-bold";
+        if (n <= 15) return "cs-rank-pill bg-emerald-600 text-white font-bold";
+        if (n <= 30) return "cs-rank-pill bg-emerald-100 text-emerald-900 font-bold";
+        if (n <= 50) return "cs-rank-pill bg-amber-100 text-amber-950 font-semibold";
+        if (n <= 75) return "cs-rank-pill bg-slate-200 text-slate-800 font-semibold";
+        return "cs-rank-pill bg-orange-200 text-orange-950 font-semibold";
     }
     function displayRank(rank) {
         if (rank == null || rank === "" || rank === "—") return "—";
@@ -18865,10 +19364,10 @@ function getCutStreakFromLogs(playerName) {
                     </div>
                 </td>
                 <td class="px-2 py-1.5 text-center text-slate-700 font-medium sticky bg-white z-[1]" style="left:11rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
-                <td class="px-2 py-1.5 text-center text-slate-700 text-xs sticky bg-white z-[1]" style="left:14rem">${r.winOdds ? r.winOdds.display : "—"}</td>
+                <td class="px-2 py-1.5 text-center text-slate-900 text-xs font-semibold sticky bg-white z-[1] tabular-nums" style="left:14rem">${r.winOdds ? r.winOdds.display : "—"}</td>
                 <td class="px-1.5 py-1.5 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:17rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
-                    <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-700" : r.own != null && r.own >= 8 ? "text-slate-800" : "text-slate-500"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
-                    ${r.levTag ? `<div class="text-[9px] font-semibold mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-600" : /over|fade/i.test(r.levTag) ? "text-rose-600" : "text-slate-500"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
+                    <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-800" : r.own != null && r.own >= 8 ? "text-slate-900" : "text-slate-700"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
+                    ${r.levTag ? `<div class="cs-subnum mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-700" : /over|fade/i.test(r.levTag) ? "text-rose-700" : "text-slate-600"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
                 </td>
                 ${cheatCell(r.h1, null, "cs-sec")}
                 ${cheatCell(r.h2)}
@@ -18884,7 +19383,7 @@ function getCutStreakFromLogs(playerName) {
                     if (r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
                     return bits.join(" · ");
                 })()}">
-                    <div class="font-semibold text-slate-800 tabular-nums">${r.cutPct ?? "—"}${r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="font-bold text-cyan-700">(${r.cutNoVigLabel})</span>` : ""}</div>
+                    <div class="font-bold text-slate-900 tabular-nums">${r.cutPct ?? "—"}${r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="cs-subnum font-bold text-cyan-800">(${r.cutNoVigLabel})</span>` : ""}</div>
                 </td>
                 <td class="px-1.5 py-1.5 text-center cs-sec cs-g-ks" title="${(keyStatNames&&keyStatNames[0])||'Key Stat 1'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s1, maxR)}">${displayRank(r.s1)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[1])||'Key Stat 2'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s2, maxR)}">${displayRank(r.s2)}</span></td>
@@ -20830,6 +21329,7 @@ function renderPropsTab() {
                 hint = `Expanded ${expanded.length} sides (PP ${nPP} · UD ${nUD}) but filters removed all. ${hint}`;
             }
             tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-10 text-center text-slate-500">${hint}</td></tr>`;
+            try { if (typeof updatePropsBestBetsSummary === "function") updatePropsBestBetsSummary([]); } catch (e) {}
             return;
         }
 
@@ -20853,6 +21353,9 @@ function renderPropsTab() {
         };
         const tagBg = (t) => t === "OVER" ? "bg-emerald-600 text-white" : "bg-red-600 text-white";
         const bookBg = (b) => b === "PrizePicks" ? "bg-violet-100 text-violet-800" : "bg-orange-100 text-orange-800";
+
+        // Best-bets collapsible summary (respects current filters)
+        try { if (typeof updatePropsBestBetsSummary === "function") updatePropsBestBetsSummary(filtered); } catch (e) { console.warn("props best bets", e); }
 
         // Browse order for prop sheet (current sort — usually Edge)
         window._propsTableNav = filtered.map(row => ({
@@ -23228,6 +23731,7 @@ function propEdgeForSide(row, sideKey) {
 
             const countEl = document.getElementById("ev-count");
             if (countEl) countEl.textContent = board.length + " players";
+            try { if (typeof updateEvBestBetsSummary === "function") updateEvBestBetsSummary(board); } catch (e) { console.warn("ev best bets", e); }
 
             if (!board.length) {
                 tbody.innerHTML = `<tr><td colspan="11" class="px-4 py-10 text-center text-slate-500">No rows for this market/filter. Uncheck +EV only, or open Cheat Sheet once so model ranks can score edges.</td></tr>`;
@@ -24943,4 +25447,3 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
 
 </body>
 </html>
-
