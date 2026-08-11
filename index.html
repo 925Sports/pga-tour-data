@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-08-10-name-match -->
+<!-- 925-HUB-VERSION: 2026-08-10-cs-multi-filters -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -54,9 +54,142 @@
             animation: spin 0.75s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
-        .modal-tab { cursor: pointer; padding: 10px 16px; font-size: 14px; color: #64748b; border-bottom: 2px solid transparent; }
-        .modal-tab.active { color: #2563eb; border-bottom-color: #2563eb; font-weight: 600; }
+        .modal-tab {
+            cursor: pointer;
+            padding: 12px 14px;
+            font-size: 13px;
+            color: #94a3b8;
+            border-bottom: 2px solid transparent;
+            flex: 0 0 auto;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            line-height: 1.2;
+            user-select: none;
+        }
+        .modal-tab:hover { color: #e2e8f0; }
+        .modal-tab.active { color: #60a5fa; border-bottom-color: #3b82f6; font-weight: 600; }
+
+        /* Player modal: chrome never collapses under tall tab content */
+        #player-modal { z-index: 80; }
+        #player-modal > .player-modal-shell {
+            display: flex;
+            flex-direction: column;
+            max-height: 92vh;
+            min-height: 0;
+            overflow: hidden;
+        }
+        #player-modal .modal-chrome-header,
+        #player-modal .modal-chrome-stats,
+        #player-modal .modal-tabs-row {
+            flex-shrink: 0 !important;
+            flex-grow: 0 !important;
+        }
+        #player-modal .modal-tabs-row {
+            display: flex;
+            flex-wrap: nowrap !important;
+            align-items: stretch;
+            gap: 2px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            overscroll-behavior-x: contain;
+            background: #0f172a;
+            position: relative;
+            z-index: 40;
+            min-height: 48px;
+            border-bottom: 1px solid #334155;
+            scrollbar-width: thin;
+            /* keep active underline fully visible inside the scroller */
+            padding-bottom: 0;
+            box-shadow: 0 1px 0 rgba(15, 23, 42, 0.9);
+        }
+        #player-modal .modal-tabs-row .modal-tab {
+            min-height: 48px;
+            box-sizing: border-box;
+        }
+        #player-modal #modal-body {
+            flex: 1 1 auto !important;
+            min-height: 0 !important;
+            overflow: auto !important;
+            position: relative;
+            z-index: 1;
+            -webkit-overflow-scrolling: touch;
+        }
+        /* Sticky heads inside modal body must stay under the tab chrome */
+        #player-modal #modal-body thead.sticky,
+        #player-modal #modal-body .sticky.top-0,
+        #player-modal #modal-body thead[class*="sticky"] {
+            z-index: 5 !important;
+        }
+        #player-modal #modal-body table thead th {
+            background-clip: padding-box;
+        }
+        /* Stats strip: allow wrap but never steal space from tabs via shrink */
+        #player-modal .modal-chrome-stats {
+            background: #0f172a;
+            position: relative;
+            z-index: 30;
+        }
+        #player-modal .modal-chrome-header {
+            background: #0f172a;
+            position: relative;
+            z-index: 30;
+        }
+        @media (max-height: 700px) {
+            #player-modal #modal-stats {
+                max-height: 88px;
+                overflow: auto;
+                padding-bottom: 8px !important;
+            }
+            #player-modal .modal-chrome-stats .text-xs.uppercase { margin-bottom: 4px; }
+        }
         /* Data tags (cheat sheet exposure labels) */
+        /* Cheat Sheet multi-select filters */
+        .cs-ms { position: relative; display: inline-block; }
+        .cs-ms-btn {
+            display: inline-flex; align-items: center; gap: 0.35rem;
+            font-size: 0.75rem; line-height: 1.1;
+            border: 1px solid #e2e8f0; border-radius: 0.5rem;
+            padding: 0.45rem 0.6rem; background: #fff; color: #334155;
+            cursor: pointer; max-width: 11.5rem; min-height: 2.1rem;
+            white-space: nowrap;
+        }
+        .cs-ms-btn:hover { border-color: #cbd5e1; background: #f8fafc; }
+        .cs-ms-btn.has-sel { border-color: #93c5fd; background: #eff6ff; color: #1e3a8a; font-weight: 600; }
+        .cs-ms-btn .cs-ms-chev { font-size: 0.55rem; color: #94a3b8; margin-left: 0.15rem; }
+        .cs-ms-count {
+            display: none; min-width: 1.1rem; height: 1.1rem; padding: 0 0.3rem;
+            border-radius: 999px; background: #2563eb; color: #fff;
+            font-size: 0.65rem; font-weight: 700; align-items: center; justify-content: center;
+        }
+        .cs-ms-btn.has-sel .cs-ms-count { display: inline-flex; }
+        .cs-ms-panel {
+            position: absolute; top: calc(100% + 4px); left: 0; z-index: 60;
+            min-width: 13.5rem; max-width: 18rem; max-height: 16rem; overflow: auto;
+            background: #fff; border: 1px solid #e2e8f0; border-radius: 0.75rem;
+            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12);
+            padding: 0.35rem;
+        }
+        .cs-ms-panel.hidden { display: none; }
+        .cs-ms-opt {
+            display: flex; align-items: center; gap: 0.45rem;
+            padding: 0.4rem 0.5rem; border-radius: 0.45rem;
+            font-size: 0.72rem; color: #334155; cursor: pointer; user-select: none;
+        }
+        .cs-ms-opt:hover { background: #f1f5f9; }
+        .cs-ms-opt input { accent-color: #2563eb; flex-shrink: 0; }
+        .cs-ms-opt .cs-ms-opt-count { margin-left: auto; color: #94a3b8; font-variant-numeric: tabular-nums; font-size: 0.65rem; }
+        .cs-ms-actions {
+            display: flex; justify-content: space-between; gap: 0.5rem;
+            padding: 0.3rem 0.45rem 0.15rem; border-bottom: 1px solid #f1f5f9; margin-bottom: 0.2rem;
+        }
+        .cs-ms-actions button {
+            font-size: 0.65rem; font-weight: 600; color: #2563eb; background: none; border: 0; cursor: pointer; padding: 0.15rem 0;
+        }
+        .cs-ms-actions button:hover { text-decoration: underline; }
+        .cs-ms-empty { padding: 0.6rem 0.5rem; font-size: 0.7rem; color: #94a3b8; }
+
         .data-tag {
             display: inline-block; margin-top: 2px; padding: 1px 6px; border-radius: 9999px;
             font-size: 9px; font-weight: 700; letter-spacing: 0.02em; line-height: 1.4;
@@ -231,6 +364,11 @@
         .cs-sort-ind::after { content: ""; opacity: 0.35; font-size: 9px; margin-left: 2px; }
         .cs-sort-ind.active-asc::after { content: "▲"; opacity: 1; color: #93c5fd; }
         .cs-sort-ind.active-desc::after { content: "▼"; opacity: 1; color: #93c5fd; }
+        .sf-sort-ind::after { content: ""; opacity: 0.35; font-size: 9px; margin-left: 2px; }
+        .sf-sort-ind.active-asc::after { content: "▲"; opacity: 1; color: #93c5fd; }
+        .sf-sort-ind.active-desc::after { content: "▼"; opacity: 1; color: #93c5fd; }
+        .ch-sort-ind.active-asc::after { content: "▲"; opacity: 1; color: #93c5fd; }
+        .ch-sort-ind.active-desc::after { content: "▼"; opacity: 1; color: #93c5fd; }
         .props-sort-ind::after, .bet-sort-ind::after, .ev-sort-ind::after { content: ""; opacity: 0.35; font-size: 9px; margin-left: 2px; }
         .props-sort-ind.active-asc::after, .bet-sort-ind.active-asc::after, .ev-sort-ind.active-asc::after { content: "▲"; opacity: 1; color: #2563eb; }
         .props-sort-ind.active-desc::after, .bet-sort-ind.active-desc::after, .ev-sort-ind.active-desc::after { content: "▼"; opacity: 1; color: #2563eb; }
@@ -379,8 +517,6 @@
             border-right: 1px solid #cbd5e1 !important;
         }
 
-.ch-sort-ind.active-asc::after { content: "▲"; opacity: 1; color: #93c5fd; }
-        .ch-sort-ind.active-desc::after { content: "▼"; opacity: 1; color: #93c5fd; }
         .hot-badge {
             display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 999px;
             font-size: 10px; font-weight: 700; letter-spacing: 0.03em;
@@ -408,23 +544,61 @@
             position: fixed; inset: 0; z-index: 99999;
             pointer-events: none;
         }
-        #hub-tour-root:not(.hidden) { pointer-events: auto; }
+        #hub-tour-root.hidden { display: none !important; }
+        #hub-tour-root:not(.hidden) { pointer-events: auto; display: block; }
         #hub-tour-spotlight {
             position: fixed; border-radius: 12px;
             box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.55);
             border: 2px solid #60a5fa; pointer-events: none;
             transition: all 0.25s ease; z-index: 1;
         }
+        #hub-tour-spotlight.tour-center {
+            box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.45);
+            border-color: transparent;
+        }
         #hub-tour-card {
-            position: fixed; z-index: 2; width: min(360px, calc(100vw - 24px));
+            position: fixed; z-index: 2; width: min(400px, calc(100vw - 24px));
+            max-height: min(70vh, 560px);
+            display: flex; flex-direction: column;
             background: #fff; border-radius: 16px;
             box-shadow: 0 20px 50px rgba(15,23,42,.35);
             border: 1px solid #e2e8f0; padding: 16px 18px;
             pointer-events: auto;
         }
+        #hub-tour-body {
+            overflow: auto; flex: 1 1 auto;
+            font-size: 13px; line-height: 1.5; color: #334155;
+            margin: 10px 0 12px;
+        }
+        #hub-tour-body p { margin: 0 0 0.5rem; }
+        #hub-tour-body ul { margin: 0.25rem 0 0.5rem 1.1rem; padding: 0; }
+        #hub-tour-body li { margin: 0.2rem 0; }
+        #hub-tour-body b { color: #0f172a; }
+        #hub-tour-body code {
+            font-size: 11px; background: #f1f5f9; padding: 1px 5px;
+            border-radius: 4px; color: #334155;
+        }
+        #hub-tour-progress-track {
+            height: 4px; background: #e2e8f0; border-radius: 999px; overflow: hidden;
+            margin-bottom: 10px;
+        }
+        #hub-tour-progress {
+            height: 100%; width: 0%; background: linear-gradient(90deg, #2563eb, #38bdf8);
+            border-radius: 999px; transition: width 0.2s ease;
+        }
         body.hub-tour-on { overflow: hidden; }
         #hub-tour-fab {
             position: fixed; right: 16px; bottom: 16px; z-index: 50;
+        }
+        .tour-pulse-target {
+            position: relative; z-index: 100000 !important;
+            outline: 2px solid #60a5fa;
+            outline-offset: 2px;
+            animation: tour-pulse 1.4s ease-in-out infinite;
+        }
+        @keyframes tour-pulse {
+            0%, 100% { outline-color: rgba(96,165,250,0.95); }
+            50% { outline-color: rgba(37,99,235,0.35); }
         }
         .cm-collapse-head {
             width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px;
@@ -634,6 +808,7 @@
                 padding: 0 !important;
                 align-items: stretch !important;
             }
+            #player-modal > .player-modal-shell,
             #player-modal > div {
                 max-width: 100% !important;
                 max-height: 100% !important;
@@ -642,8 +817,13 @@
             }
             #player-modal .modal-tabs-row {
                 overflow-x: auto;
+                overflow-y: hidden;
                 -webkit-overflow-scrolling: touch;
                 flex-wrap: nowrap !important;
+                min-height: 48px;
+            }
+            #player-modal .modal-tab {
+                min-height: 48px;
             }
             #player-modal button[onclick*="closeModal"] {
                 min-width: 44px;
@@ -656,7 +836,7 @@
             #main-section-0 > div.bg-white.border-b { padding-left: 0; padding-right: 0; }
             #main-section-1 > div.bg-white.border-b,
             #main-section-2 > div.bg-white.border-b { padding-left: 0; padding-right: 0; }
-            #fantasy-sub-1, #fantasy-sub-2, #fantasy-sub-3, #fantasy-sub-4 { padding: 12px !important; }
+            #fantasy-sub-1, #fantasy-sub-2, #fantasy-sub-3, #fantasy-sub-4, #fantasy-sub-6 { padding: 12px !important; }
             #betting-sub-0, #betting-sub-1, #betting-sub-2 { padding: 12px !important; }
             #dfs-sub-1 { padding: 12px !important; }
 
@@ -671,10 +851,10 @@
             #player-modal #modal-stats .stat-pill { min-width: 64px; padding: 6px 8px; }
             #player-modal #modal-stats .stat-pill .value { font-size: 14px; }
             #player-modal .modal-tabs-row {
-                scrollbar-width: none;
-                mask-image: linear-gradient(90deg, #000 90%, transparent);
+                scrollbar-width: thin;
+                /* no mask-image — it made trailing tabs look washed-out/overlapped */
             }
-            #player-modal .modal-tabs-row::-webkit-scrollbar { display: none; }
+            #player-modal .modal-tabs-row::-webkit-scrollbar { height: 4px; }
             /* Mobile profile density */
             #modal-body details summary::-webkit-details-marker { display: none; }
             #modal-body details summary { list-style: none; }
@@ -780,18 +960,20 @@
                     <option value="0">Custom Model</option>
                     <option value="1">Recent Form</option>
                     <option value="2">Course History</option>
+                    <option value="6">Stat Fit</option>
                     <option value="3">Course Stats</option>
                     <option value="4">Specialist</option>
                     <option value="5" selected>Cheat Sheet</option>
                 </select>
             </div>
             <div class="flex gap-1 py-2 justify-center flex-wrap sub-nav-desktop-row">
-                <button onclick="switchFantasySubTab(0)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Custom Model</button>
-                <button onclick="switchFantasySubTab(1)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Recent Form</button>
-                <button onclick="switchFantasySubTab(2)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Course History</button>
-                <button onclick="switchFantasySubTab(3)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Course Stats</button>
-                <button onclick="switchFantasySubTab(4)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Specialist</button>
-                <button onclick="switchFantasySubTab(5)" class="sub-nav active px-4 py-1.5 rounded-lg text-sm bg-blue-600 text-white">Cheat Sheet</button>
+                <button type="button" data-fantasy-sub="0" onclick="switchFantasySubTab(0)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Custom Model</button>
+                <button type="button" data-fantasy-sub="1" onclick="switchFantasySubTab(1)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Recent Form</button>
+                <button type="button" data-fantasy-sub="2" onclick="switchFantasySubTab(2)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Course History</button>
+                <button type="button" data-fantasy-sub="6" onclick="switchFantasySubTab(6)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Stat Fit</button>
+                <button type="button" data-fantasy-sub="3" onclick="switchFantasySubTab(3)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Course Stats</button>
+                <button type="button" data-fantasy-sub="4" onclick="switchFantasySubTab(4)" class="sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Specialist</button>
+                <button type="button" data-fantasy-sub="5" onclick="switchFantasySubTab(5)" class="sub-nav active px-4 py-1.5 rounded-lg text-sm bg-blue-600 text-white">Cheat Sheet</button>
             </div>
         </div>
 
@@ -946,6 +1128,54 @@
                 </div>
                 <div id="ch-empty" class="hidden py-16 text-center text-slate-500 text-sm">
                     No course history found for the current event course yet.
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Stat Fit (weekly key stats S1–S5) -->
+        <div id="fantasy-sub-6" class="hidden p-6">
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                <div class="px-6 py-5 border-b border-slate-100">
+                    <div class="flex flex-wrap items-start justify-between gap-4">
+                        <div class="min-w-0">
+                            <h2 class="text-xl font-semibold text-slate-900">Stat Fit</h2>
+                            <p class="text-sm text-slate-500 mt-1" id="stat-fit-subtitle">How each golfer ranks on this week’s key course stats (S1–S5)</p>
+                            <p class="text-[11px] text-slate-400 mt-1">SF rank = average of available S1–S5 field ranks (lower = better fit). Same S1–S5 / SF columns as the Cheat Sheet.</p>
+                        </div>
+                        <div class="flex items-center gap-3 flex-wrap">
+                            <input type="search" id="sf-search" placeholder="Search player…"
+                                   class="px-3 py-2 text-sm border border-slate-200 rounded-lg w-52 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                   oninput="renderStatFit()">
+                            <div class="text-xs text-slate-400" id="stat-fit-count"></div>
+                        </div>
+                    </div>
+                    <div id="stat-fit-keys" class="mt-3 flex flex-wrap gap-1.5"></div>
+                </div>
+                <div class="overflow-auto max-h-[70vh]">
+                    <table class="modern-table w-full text-sm">
+                        <thead class="sticky top-0 z-10">
+                            <tr class="bg-slate-900 text-white">
+                                <th class="px-3 py-2.5 text-left sticky left-0 bg-slate-900 z-20 cursor-pointer" onclick="sortStatFit('name')">Player <span class="sf-sort-ind" data-k="name"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('salary')">Sal <span class="sf-sort-ind" data-k="salary"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('sfRank')" title="Average of S1–S5 ranks (1 = best)">SF Rk <span class="sf-sort-ind" data-k="sfRank"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('sfAvg')" title="Mean of available S ranks">SF Avg <span class="sf-sort-ind" data-k="sfAvg"></span></th>
+                                <th id="sf-th-s1" class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('s1')">S1 <span class="sf-sort-ind" data-k="s1"></span></th>
+                                <th id="sf-th-s2" class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('s2')">S2 <span class="sf-sort-ind" data-k="s2"></span></th>
+                                <th id="sf-th-s3" class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('s3')">S3 <span class="sf-sort-ind" data-k="s3"></span></th>
+                                <th id="sf-th-s4" class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('s4')">S4 <span class="sf-sort-ind" data-k="s4"></span></th>
+                                <th id="sf-th-s5" class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('s5')">S5 <span class="sf-sort-ind" data-k="s5"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('specRank')">SPEC <span class="sf-sort-ind" data-k="specRank"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('chRank')">CH <span class="sf-sort-ind" data-k="chRank"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('rfRank')">RF <span class="sf-sort-ind" data-k="rfRank"></span></th>
+                                <th class="px-2 py-2.5 text-center cursor-pointer" onclick="sortStatFit('rank925')">925 <span class="sf-sort-ind" data-k="rank925"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="stat-fit-table" class="divide-y divide-slate-100"></tbody>
+                    </table>
+                </div>
+                <div class="px-5 py-2 text-[11px] text-slate-400 border-t border-slate-100">
+                    Key stats come from this week’s pre-tournament preview. Rank chips match Cheat Sheet coloring. Click a row for the full player profile / Stat Fit modal.
                 </div>
             </div>
         </div>
@@ -1396,20 +1626,38 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
                                 </svg>
                             </div>
-                            <select id="csheet-data-tag-filter" onchange="try{renderCheatSheet()}catch(e){}"
-                                    class="text-xs border border-slate-200 rounded-lg px-2 py-2 bg-white text-slate-700">
-                                <option value="">All Data Tags</option>
-                                <option value="Core Play">Core Play</option>
-                                <option value="High Exposure">High Exposure</option>
-                                <option value="Mid Exposure">Mid Exposure</option>
-                                <option value="Low Exposure">Low Exposure</option>
-                                <option value="Lower Exposure">Lower Exposure</option>
-                                <option value="Fade">Fade</option>
-                            </select>
-                            <select id="csheet-outright-filter" onchange="try{renderCheatSheet()}catch(e){}"
-                                    class="text-xs border border-slate-200 rounded-lg px-2 py-2 bg-white text-slate-700">
-                                <option value="">All Outright Tags</option>
-                            </select>
+                            <div class="cs-ms" data-ms="dataTag">
+                                <button type="button" class="cs-ms-btn" id="cs-ms-btn-dataTag" onclick="toggleCsMultiFilter('dataTag', event)" title="Filter by Data Tag (multi-select)">
+                                    <span class="cs-ms-label" id="cs-ms-label-dataTag">Data Tags</span>
+                                    <span class="cs-ms-count" id="cs-ms-count-dataTag">0</span>
+                                    <span class="cs-ms-chev">▼</span>
+                                </button>
+                                <div class="cs-ms-panel hidden" id="cs-ms-panel-dataTag" role="listbox" aria-label="Data Tags"></div>
+                            </div>
+                            <div class="cs-ms" data-ms="outright">
+                                <button type="button" class="cs-ms-btn" id="cs-ms-btn-outright" onclick="toggleCsMultiFilter('outright', event)" title="Filter by Outright / Bet Tag (multi-select)">
+                                    <span class="cs-ms-label" id="cs-ms-label-outright">Bet Tags</span>
+                                    <span class="cs-ms-count" id="cs-ms-count-outright">0</span>
+                                    <span class="cs-ms-chev">▼</span>
+                                </button>
+                                <div class="cs-ms-panel hidden" id="cs-ms-panel-outright" role="listbox" aria-label="Bet Tags"></div>
+                            </div>
+                            <div class="cs-ms" data-ms="ties">
+                                <button type="button" class="cs-ms-btn" id="cs-ms-btn-ties" onclick="toggleCsMultiFilter('ties', event)" title="Filter by Local Ties (multi-select)">
+                                    <span class="cs-ms-label" id="cs-ms-label-ties">Local Ties</span>
+                                    <span class="cs-ms-count" id="cs-ms-count-ties">0</span>
+                                    <span class="cs-ms-chev">▼</span>
+                                </button>
+                                <div class="cs-ms-panel hidden" id="cs-ms-panel-ties" role="listbox" aria-label="Local Ties"></div>
+                            </div>
+                            <div class="cs-ms" data-ms="tier">
+                                <button type="button" class="cs-ms-btn" id="cs-ms-btn-tier" onclick="toggleCsMultiFilter('tier', event)" title="Filter by salary tier (multi-select)">
+                                    <span class="cs-ms-label" id="cs-ms-label-tier">Tier</span>
+                                    <span class="cs-ms-count" id="cs-ms-count-tier">0</span>
+                                    <span class="cs-ms-chev">▼</span>
+                                </button>
+                                <div class="cs-ms-panel hidden" id="cs-ms-panel-tier" role="listbox" aria-label="Salary Tier"></div>
+                            </div>
                             <div class="text-xs text-slate-400" id="csheet-count"></div>
                         </div>
                     </div>
@@ -1905,34 +2153,36 @@
     </div>
 <!-- Player Modal -->
     <div id="player-modal" onclick="if(event.target.id==='player-modal') closeModal()"
-         class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-3 sm:p-6">
-        <div onclick="event.stopImmediatePropagation()" class="bg-[#0f172a] text-slate-100 rounded-2xl w-full max-w-6xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col">
-            <div class="px-6 py-5 border-b border-slate-700 flex items-start justify-between gap-4">
+         class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[80] p-3 sm:p-6">
+        <div onclick="event.stopImmediatePropagation()" class="player-modal-shell bg-[#0f172a] text-slate-100 rounded-2xl w-full max-w-6xl shadow-2xl max-h-[92vh]">
+            <div class="modal-chrome-header px-6 py-4 sm:py-5 border-b border-slate-700 flex items-start justify-between gap-4">
                 <div class="flex items-center gap-4 min-w-0 flex-1">
                     <div id="modal-player-headshot" class="flex-shrink-0"></div>
                     <div class="min-w-0">
-                        <div id="modal-player-name" class="text-2xl font-bold text-white truncate"></div>
+                        <div id="modal-player-name" class="text-xl sm:text-2xl font-bold text-white truncate"></div>
                         <div id="modal-player-meta" class="text-sm text-slate-400 mt-1"></div>
                         <div id="modal-player-datatag" class="mt-1.5"></div>
                         <div id="modal-player-odds" class="text-xs text-slate-500 mt-1"></div>
                     </div>
                 </div>
                 <div id="modal-player-counter" class="hidden sm:flex flex-col items-end justify-center text-right flex-shrink-0 max-w-[220px] pr-2"></div>
-                <button onclick="closeModal()" class="w-9 h-9 rounded-full hover:bg-slate-700 flex items-center justify-center text-slate-400 text-2xl leading-none flex-shrink-0">&times;</button>
+                <button type="button" onclick="closeModal()" class="w-9 h-9 rounded-full hover:bg-slate-700 flex items-center justify-center text-slate-400 text-2xl leading-none flex-shrink-0" aria-label="Close">&times;</button>
             </div>
-            <div class="px-6 pt-3 pb-1">
+            <div class="modal-chrome-stats px-6 pt-3 pb-1">
                 <div class="text-xs text-slate-500 uppercase tracking-wide mb-2">Past Year</div>
-                <div id="modal-stats" class="flex flex-wrap gap-3 pb-4 border-b border-slate-700"></div>
+                <div id="modal-stats" class="flex flex-wrap gap-3 pb-3 border-b border-slate-700"></div>
             </div>
-            <div class="px-6 flex gap-1 border-b border-slate-700 modal-tabs-row overflow-x-auto">
-                <div class="modal-tab active" onclick="switchModalTab(0)">Game Log</div>
-                <div class="modal-tab" onclick="switchModalTab(1)">Profile</div>
-                <div class="modal-tab" onclick="switchModalTab(2)">Course History</div>
-                <div class="modal-tab" onclick="switchModalTab(3)">Betting</div>
-                <div class="modal-tab" onclick="switchModalTab(4)">Props</div>
-                <div class="modal-tab" onclick="switchModalTab(5)">Specialist</div>
+            <div class="modal-tabs-row px-3 sm:px-6 gap-1" role="tablist" aria-label="Player sections">
+                <div class="modal-tab" role="tab" onclick="switchModalTab(7)">AI Summary</div>
+                <div class="modal-tab active" role="tab" onclick="switchModalTab(0)">Game Log</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(1)">Profile</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(2)">Course History</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(6)">Stat Fit</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(3)">Betting</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(4)">Props</div>
+                <div class="modal-tab" role="tab" onclick="switchModalTab(5)">Specialist</div>
             </div>
-            <div class="flex-1 overflow-auto p-0" id="modal-body"></div>
+            <div class="flex-1 overflow-auto p-0 min-h-0" id="modal-body"></div>
         </div>
     </div>
 </div>
@@ -2073,6 +2323,7 @@ const REPO = "925Sports/pga-tour-data";
 
     let currentModalPlayer = null;
     let sortState = { key: "value_rank", dir: "asc" };
+    let sfSort = { key: "sfRank", dir: "asc" };
     let cheatRows = [];
     let prebuiltCheat = [];
     let prebuiltCheatByKey = {};
@@ -2352,13 +2603,26 @@ function switchFantasySubTab(sub) {
         try {
             const sel = document.getElementById("mobile-fantasy-sub");
             if (sel && String(sel.value) !== String(sub)) sel.value = String(sub);
-            document.querySelectorAll(".sub-nav").forEach((btn, i) => {
-                const on = i === sub;
-                btn.classList.toggle("active", on);
-                btn.classList.toggle("bg-blue-600", on);
-                btn.classList.toggle("text-white", on);
-                btn.classList.toggle("text-slate-600", !on);
-            });
+            const fancyBtns = document.querySelectorAll(".sub-nav[data-fantasy-sub]");
+            if (fancyBtns.length) {
+                fancyBtns.forEach((btn) => {
+                    const on = Number(btn.getAttribute("data-fantasy-sub")) === Number(sub);
+                    btn.classList.toggle("active", on);
+                    btn.classList.toggle("bg-blue-600", on);
+                    btn.classList.toggle("text-white", on);
+                    btn.classList.toggle("text-slate-600", !on);
+                    if (!on) btn.classList.remove("hover:bg-slate-100");
+                    else btn.classList.add("hover:bg-slate-100");
+                });
+            } else {
+                document.querySelectorAll(".sub-nav").forEach((btn, i) => {
+                    const on = i === sub;
+                    btn.classList.toggle("active", on);
+                    btn.classList.toggle("bg-blue-600", on);
+                    btn.classList.toggle("text-white", on);
+                    btn.classList.toggle("text-slate-600", !on);
+                });
+            }
         } catch (e) {}
         if (sub === 0) {
             try { cmInitCollapsibleSections(); } catch (e) {}
@@ -2396,11 +2660,7 @@ function switchFantasySubTab(sub) {
                 }
             } catch (e) {}
         }
-        document.querySelectorAll(".sub-nav").forEach((el, i) => {
-            el.classList.toggle("active", i === sub);
-            el.classList.toggle("bg-blue-600", i === sub);
-            el.classList.toggle("text-white", i === sub);
-        });
+        // NOTE: do not re-loop .sub-nav by DOM index — Stat Fit is data-fantasy-sub=6 but not index 6
 
         // Course History / Course Stats / Specialist / Custom Model need game logs
         // Custom Model checkboxes can render without logs — do it immediately
@@ -2543,6 +2803,33 @@ function switchFantasySubTab(sub) {
                             renderCheatSheet();
                         }
                     } catch (e) {}
+                }
+            } catch (e) {}
+        }
+        if (sub === 6) {
+            // Stat Fit — same S1–S5 / SF ranks as Cheat Sheet
+            const paintSf = () => {
+                try {
+                    if (!(cheatRows && cheatRows.length) && typeof buildCheatSheet === "function") {
+                        _cheatBuilt = true;
+                        buildCheatSheet();
+                    }
+                } catch (e) { console.warn(e); }
+                try { if (typeof updateKeyStatHeaders === "function") updateKeyStatHeaders(); } catch (e) {}
+                try { renderStatFit(); } catch (e) { console.warn(e); }
+            };
+            paintSf();
+            try {
+                if (typeof ensureSeasonStats === "function") {
+                    ensureSeasonStats().then(() => {
+                        try {
+                            if (!(cheatRows && cheatRows.length)) {
+                                _cheatBuilt = true;
+                                buildCheatSheet();
+                            }
+                        } catch (e) {}
+                        try { renderStatFit(); } catch (e) {}
+                    }).catch(() => {});
                 }
             } catch (e) {}
         }
@@ -3373,8 +3660,24 @@ function switchFantasySubTab(sub) {
             const lab = keyStatNames[i - 1] || ("KEY STAT " + i);
             el.textContent = "S" + i;
             el.title = lab;
+            // restore sort indicator span if textContent wiped children
+            if (!el.querySelector(".cs-sort-ind")) {
+                el.innerHTML = "S" + i + ' <span class="cs-sort-ind" data-k="s' + i + '"></span>';
+            }
             const sub = document.getElementById("csheet-ks-sub-" + i);
             if (sub) sub.textContent = lab.length > 18 ? lab.slice(0, 16) + "…" : lab;
+            // Stat Fit table headers
+            const sfTh = document.getElementById("sf-th-s" + i);
+            if (sfTh) {
+                const short = lab && lab.length > 14 ? lab.slice(0, 12) + "…" : (lab || ("S" + i));
+                sfTh.title = lab || ("Key Stat " + i);
+                // keep S# label + sort indicator
+                const ind = sfTh.querySelector(".sf-sort-ind");
+                sfTh.innerHTML = "S" + i + ' <span class="sf-sort-ind" data-k="s' + i + '"></span>';
+                // small subtitle via title only (column stays compact)
+                void short;
+                void ind;
+            }
         }
         const banner = document.getElementById("csheet-keystats-banner");
         if (banner) {
@@ -3382,6 +3685,20 @@ function switchFantasySubTab(sub) {
                 `<span class="px-2 py-0.5 rounded bg-indigo-50 text-indigo-900 text-[11px] font-semibold border border-indigo-100">S${i+1}: ${s}</span>`
             ).join(" ");
             banner.innerHTML = chips || `<span class="text-xs text-slate-400">Key stats not loaded yet</span>`;
+        }
+        const sfKeys = document.getElementById("stat-fit-keys");
+        if (sfKeys) {
+            const chips = keyStatNames.filter(Boolean).map((s, i) =>
+                `<span class="px-2 py-0.5 rounded bg-indigo-50 text-indigo-900 text-[11px] font-semibold border border-indigo-100">S${i+1}: ${s}</span>`
+            ).join(" ");
+            sfKeys.innerHTML = chips || `<span class="text-xs text-slate-400">Key stats load with the pre-tournament preview / cheat sheet</span>`;
+        }
+        const sfSub = document.getElementById("stat-fit-subtitle");
+        if (sfSub) {
+            const course = currentCourseName || (allPlayers && allPlayers[0] && allPlayers[0].course_name) || "";
+            sfSub.textContent = course
+                ? `How each golfer ranks on this week’s key course stats (S1–S5) · ${course}`
+                : "How each golfer ranks on this week’s key course stats (S1–S5)";
         }
     }
 
@@ -11892,6 +12209,128 @@ el.innerHTML = `
     window.chShowAllYears = chShowAllYears;
     window.toggleChYear = toggleChYear;
 
+    // ---------- Stat Fit (S1–S5 field ranks + SF composite) ----------
+    function sortStatFit(key) {
+        if (!sfSort) sfSort = { key: "sfRank", dir: "asc" };
+        if (sfSort.key === key) sfSort.dir = sfSort.dir === "asc" ? "desc" : "asc";
+        else {
+            sfSort.key = key;
+            // Ranks / salary: lower better → default asc; name: asc
+            const higherBetter = (key === "salary" || key === "name");
+            sfSort.dir = higherBetter ? "desc" : "asc";
+            if (key === "name") sfSort.dir = "asc";
+        }
+        renderStatFit();
+    }
+
+    function updateSfSortIndicators() {
+        document.querySelectorAll(".sf-sort-ind").forEach(el => {
+            el.classList.remove("active-asc", "active-desc");
+            if (el.getAttribute("data-k") === (sfSort && sfSort.key)) {
+                el.classList.add(sfSort.dir === "asc" ? "active-asc" : "active-desc");
+            }
+        });
+    }
+
+    function renderStatFit() {
+        const tbody = document.getElementById("stat-fit-table");
+        if (!tbody) return;
+        try { if (typeof updateKeyStatHeaders === "function") updateKeyStatHeaders(); } catch (e) {}
+
+        if (!(cheatRows && cheatRows.length)) {
+            tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-10 text-center text-slate-400">
+                <div class="font-medium text-slate-600 mb-1">No field ranks yet</div>
+                <div class="text-xs">Open Cheat Sheet once (or wait for the slate to load) so S1–S5 ranks can build.</div>
+            </td></tr>`;
+            const cnt = document.getElementById("stat-fit-count");
+            if (cnt) cnt.textContent = "";
+            return;
+        }
+
+        const q = ((document.getElementById("sf-search") || {}).value || "").trim().toLowerCase();
+        let rows = cheatRows.slice();
+        if (q) {
+            rows = rows.filter(r => {
+                const n = String(r.name || "").toLowerCase();
+                const d = (typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name || "").toLowerCase();
+                return n.includes(q) || d.includes(q);
+            });
+        }
+
+        const key = (sfSort && sfSort.key) || "sfRank";
+        const dir = (sfSort && sfSort.dir === "desc") ? -1 : 1;
+        rows.sort((a, b) => {
+            if (key === "name") {
+                const va = String(a.name || "").toLowerCase();
+                const vb = String(b.name || "").toLowerCase();
+                return va < vb ? -dir : va > vb ? dir : 0;
+            }
+            let va = a[key], vb = b[key];
+            const aMiss = (va == null || va === "" || va === "—" || (typeof va === "number" && isNaN(va)));
+            const bMiss = (vb == null || vb === "" || vb === "—" || (typeof vb === "number" && isNaN(vb)));
+            if (aMiss && bMiss) return String(a.name || "").localeCompare(String(b.name || ""));
+            if (aMiss) return 1;
+            if (bMiss) return -1;
+            const na = Number(va), nb = Number(vb);
+            if (!isNaN(na) && !isNaN(nb)) {
+                if (na === nb) return String(a.name || "").localeCompare(String(b.name || ""));
+                return na < nb ? -dir : dir;
+            }
+            return String(va).localeCompare(String(vb)) * dir;
+        });
+
+        const maxR = Math.max(rows.length, (cheatRows && cheatRows.length) || 1, 1);
+        const cnt = document.getElementById("stat-fit-count");
+        if (cnt) cnt.textContent = rows.length + " players";
+
+        const rk = (v) => {
+            const cls = typeof rankCellColor === "function" ? rankCellColor(v, maxR) : "bg-slate-100 text-slate-500";
+            const show = typeof displayRank === "function" ? displayRank(v) : (v ?? "—");
+            return `<span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${show}</span>`;
+        };
+        const avgCell = (v) => {
+            if (v == null || isNaN(Number(v))) return `<span class="text-slate-400">—</span>`;
+            const n = Number(v);
+            const tone = n <= 20 ? "text-emerald-700 font-bold" : n <= 40 ? "text-sky-700 font-semibold" : n <= 60 ? "text-slate-700" : "text-orange-800 font-semibold";
+            return `<span class="tabular-nums ${tone}">${n.toFixed(1)}</span>`;
+        };
+
+        let html = "";
+        rows.forEach(r => {
+            const safe = String(r.name || "").replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+            const labels = (typeof keyStatNames !== "undefined" && keyStatNames) ? keyStatNames : [];
+            const tip = (i) => {
+                const raw = (labels[i] && String(labels[i]).trim()) || ("Key Stat " + (i + 1));
+                return typeof escAttr === "function" ? escAttr(raw) : String(raw).split('"').join("&" + "quot;");
+            };
+            html += `<tr class="hover:bg-slate-50/90 cursor-pointer" onclick="openPlayerModal('${safe}', 6)">
+                <td class="px-3 py-2 sticky left-0 bg-white z-[1]">
+                    <div class="flex items-center gap-2 min-w-0">
+                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 28) : ""}
+                        <span class="font-medium text-slate-900 whitespace-nowrap text-sm">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : (r.name || "—")}</span>
+                    </div>
+                </td>
+                <td class="px-2 py-2 text-center text-slate-700 font-medium tabular-nums">${r.salary != null ? Number(r.salary).toLocaleString() : "—"}</td>
+                <td class="px-2 py-2 text-center" title="SF rank = field rank of avg S1–S5">${rk(r.sfRank)}</td>
+                <td class="px-2 py-2 text-center" title="Mean of available S ranks">${avgCell(r.sfAvg)}</td>
+                <td class="px-2 py-2 text-center" title="${tip(0)}">${rk(r.s1)}</td>
+                <td class="px-2 py-2 text-center" title="${tip(1)}">${rk(r.s2)}</td>
+                <td class="px-2 py-2 text-center" title="${tip(2)}">${rk(r.s3)}</td>
+                <td class="px-2 py-2 text-center" title="${tip(3)}">${rk(r.s4)}</td>
+                <td class="px-2 py-2 text-center" title="${tip(4)}">${rk(r.s5)}</td>
+                <td class="px-2 py-2 text-center">${rk(r.specRank)}</td>
+                <td class="px-2 py-2 text-center">${rk(r.chRank)}</td>
+                <td class="px-2 py-2 text-center">${rk(r.rfRank)}</td>
+                <td class="px-2 py-2 text-center">${rk(r.rank925)}</td>
+            </tr>`;
+        });
+        tbody.innerHTML = html || `<tr><td colspan="13" class="px-4 py-8 text-center text-slate-400">No matching players</td></tr>`;
+        try { updateSfSortIndicators(); } catch (e) {}
+    }
+
+    window.sortStatFit = sortStatFit;
+    window.renderStatFit = renderStatFit;
+
 // ---------- Player Modal (Past Year only) ----------
 
     function getPlayerRounds(player) {
@@ -12147,8 +12586,15 @@ el.innerHTML = `
         try {
             if (typeof switchModalTab === "function") switchModalTab(openTab);
             else {
-                document.querySelectorAll(".modal-tab").forEach((el, i) => el.classList.toggle("active", i === openTab));
-                if (openTab === 0) renderModalPlayerSummary(player);
+                document.querySelectorAll(".modal-tab").forEach((el) => {
+                    const oc = el.getAttribute("onclick") || "";
+                    const m = oc.match(/switchModalTab\((\d+)\)/);
+                    const tab = m ? Number(m[1]) : -1;
+                    el.classList.toggle("active", tab === openTab);
+                });
+                if (openTab === 7) renderModalPlayerSummary(player);
+                else if (openTab === 0) renderModalGameLog(events);
+                else if (openTab === 1 && typeof renderModalProfile === "function") renderModalProfile(player);
                 else renderModalGameLog(events);
             }
         } catch (e) {
@@ -12179,6 +12625,9 @@ el.innerHTML = `
                     }
                     else if (label.includes("profile")) renderModalProfile(player);
                     else if (label.includes("course")) renderModalCourseHistory(getPlayerCourseEvents(player));
+                    else if (label.includes("stat fit") || label === "stat fit") {
+                        try { renderModalStatFit(player); } catch (e) {}
+                    }
                     else if (label.includes("game") || label.includes("log")) {
                         try { renderModalGameLog(buildEventLog(getPlayerRounds(player))); } catch (e) {}
                     }
@@ -12324,13 +12773,24 @@ el.innerHTML = `
             return;
         }
 
-        // Sort by SG @ course (best first), then most recent — matches course-history board logic
+        // Most recent season on top, then most recent date within the season
+        const seasonYear = (e) => {
+            const raw = e.season != null && e.season !== "" && e.season !== "—"
+                ? e.season
+                : (e.date || e.event_completed || "");
+            const m = String(raw).match(/(20\d{2}|19\d{2})/);
+            if (m) return parseInt(m[1], 10);
+            const n = Number(raw);
+            return (!isNaN(n) && n > 1900) ? n : 0;
+        };
+        const eventTime = (e) => {
+            const t = new Date(e.date || e.event_completed || 0).getTime();
+            return isNaN(t) ? 0 : t;
+        };
         events = [...events].sort((a, b) => {
-            const sa = a.sg, sb = b.sg;
-            if (sa != null && sb != null && sa !== sb) return sb - sa;
-            if (sa != null && sb == null) return -1;
-            if (sa == null && sb != null) return 1;
-            return new Date(b.date) - new Date(a.date);
+            const ya = seasonYear(a), yb = seasonYear(b);
+            if (yb !== ya) return yb - ya; // newest season first
+            return eventTime(b) - eventTime(a); // then newest date
         });
 
         const made = events.filter(e => !e.isCut).length;
@@ -12374,7 +12834,7 @@ el.innerHTML = `
                     <div class="stat-pill"><div class="label">SG @ Course</div><div class="value">${sgAvgLabel}</div></div>
                 </div>
                 <div class="text-[11px] text-slate-400 flex flex-wrap gap-x-3 gap-y-1 pb-1">
-                    <span>Same layout as Game Log · rows sorted by <b class="text-slate-300">SG @ course</b> (best first)</span>
+                    <span>Same layout as Game Log · rows sorted by <b class="text-slate-300">most recent season</b> (newest on top)</span>
                     <span class="text-slate-600">·</span>
                     <span>OTT / APP / ARG / PUTT / T2G = full strokes-gained split for that tournament</span>
                     <span class="text-slate-600">·</span>
@@ -12705,15 +13165,40 @@ el.innerHTML = `
     }
 
     function switchModalTab(idx) {
-        // MUST match HTML .modal-tab order:
-        // 0 Game Log · 1 Profile · 2 Course History · 3 Betting · 4 Props · 5 Specialist
+        // MUST match HTML .modal-tab onclick indices:
+        // 7 AI Summary · 0 Game Log · 1 Profile · 2 Course History · 6 Stat Fit · 3 Betting · 4 Props · 5 Specialist
+        // (tab buttons are not strictly ascending; active state uses onclick index)
         window._modalTabIdx = idx;
-        document.querySelectorAll(".modal-tab").forEach((el, i) => el.classList.toggle("active", i === idx));
+        document.querySelectorAll(".modal-tab").forEach((el) => {
+            const oc = el.getAttribute("onclick") || "";
+            const m = oc.match(/switchModalTab\((\d+)\)/);
+            const tab = m ? Number(m[1]) : -1;
+            el.classList.toggle("active", tab === idx);
+        });
         if (!currentModalPlayer) return;
         const name = currentModalPlayer.name_adjusted || currentModalPlayer.player_name || "";
         const body = document.getElementById("modal-body");
 
-        if (idx === 0) {
+        if (idx === 7) {
+            // AI Summary — narrative this-week write-up
+            const goSum = () => {
+                try {
+                    renderModalPlayerSummary(currentModalPlayer);
+                } catch (e) {
+                    console.warn(e);
+                    if (body) body.innerHTML = `<div class="p-8 text-slate-400 text-sm">Could not load AI Summary.</div>`;
+                }
+            };
+            // Prefer cheat sheet + course events when ready; still paint immediately from CSV ranks
+            try { goSum(); } catch (e) {}
+            if (typeof ensurePlayerLogsLoaded === "function" && !(playerLogs && playerLogs.length)) {
+                ensurePlayerLogsLoaded().then(goSum).catch(goSum);
+            }
+            Promise.all([
+                typeof ensureSeasonStats === "function" ? Promise.resolve(ensureSeasonStats()).catch(() => null) : Promise.resolve(),
+                typeof ensurePlayerInfoLoaded === "function" ? ensurePlayerInfoLoaded().catch(() => null) : Promise.resolve(),
+            ]).then(goSum).catch(goSum);
+        } else if (idx === 0) {
             // Game Log
             const go = () => {
                 try {
@@ -12754,6 +13239,12 @@ el.innerHTML = `
                 if (body) body.innerHTML = `<div class="p-8 text-slate-400 text-sm">Loading course history…</div>`;
                 ensurePlayerLogsLoaded().then(goCh).catch(goCh);
             } else goCh();
+        } else if (idx === 6) {
+            // Stat Fit
+            try { renderModalStatFit(currentModalPlayer); } catch (e) {
+                console.warn(e);
+                if (body) body.innerHTML = `<div class="p-8 text-slate-400 text-sm">Could not load Stat Fit.</div>`;
+            }
         } else if (idx === 3) {
             // Betting
             const goBet = () => { try { renderModalBetting(name); } catch (e) { console.warn(e); } };
@@ -12775,6 +13266,113 @@ el.innerHTML = `
                 if (body) body.innerHTML = `<div class="p-8 text-slate-400 text-sm">Could not load specialist.</div>`;
             }
         }
+    }
+
+    function renderModalStatFit(player) {
+        const body = document.getElementById("modal-body");
+        if (!body) return;
+        const nameKeyStr = (player && (player.name_adjusted || player.player_name || player.name)) || "";
+        const nice = typeof displayName === "function" ? displayName(player || nameKeyStr) : nameKeyStr;
+        let row = null;
+        try {
+            row = (cheatRows || []).find(r =>
+                (typeof namesMatch === "function"
+                    ? (namesMatch(r.name || "", nameKeyStr) || namesMatch(r.name || "", nice))
+                    : (String(r.name || "").toLowerCase() === String(nameKeyStr).toLowerCase()))
+            ) || null;
+        } catch (e) { row = null; }
+        if (!row) {
+            body.innerHTML = `<div class="p-8 text-slate-400 text-sm">No Stat Fit ranks for ${nice || "this player"} yet. Open the Stat Fit or Cheat Sheet tab after the slate loads.</div>`;
+            return;
+        }
+        const labels = (typeof keyStatNames !== "undefined" && keyStatNames) ? keyStatNames : [];
+        const maxR = Math.max((cheatRows && cheatRows.length) || 1, 1);
+        const tipEsc = (s) => (typeof escAttr === "function" ? escAttr(s) : String(s || "").split('"').join("&" + "quot;"));
+        const pill = (lab, val, tip) => {
+            const show = typeof displayRank === "function" ? displayRank(val) : (val ?? "—");
+            const cls = typeof rankCellColor === "function" ? rankCellColor(val, maxR) : "bg-slate-100 text-slate-500";
+            return `<div class="rounded-xl border border-slate-700 bg-slate-800/60 px-3 py-2.5 text-center" title="${tipEsc(tip || lab)}">
+                <div class="text-[9px] uppercase tracking-wide text-slate-500 font-semibold">${lab}</div>
+                <div class="mt-1"><span class="inline-block min-w-[2.25rem] px-2 py-0.5 rounded text-sm ${cls}">${show}</span></div>
+            </div>`;
+        };
+        const avgStr = (row.sfAvg != null && !isNaN(Number(row.sfAvg)))
+            ? Number(row.sfAvg).toFixed(1)
+            : "—";
+        const sCards = [1, 2, 3, 4, 5].map(i => {
+            const lab = (labels[i - 1] && String(labels[i - 1]).trim()) || ("Key Stat " + i);
+            const val = row["s" + i];
+            const show = typeof displayRank === "function" ? displayRank(val) : (val ?? "—");
+            const cls = typeof rankCellColor === "function" ? rankCellColor(val, maxR) : "bg-slate-100 text-slate-500";
+            const short = lab.length > 28 ? lab.slice(0, 26) + "…" : lab;
+            return `<div class="rounded-xl border border-slate-700 bg-slate-900/50 px-3 py-3">
+                <div class="flex items-start justify-between gap-2">
+                    <div class="min-w-0">
+                        <div class="text-[10px] font-bold text-indigo-300">S${i}</div>
+                        <div class="text-xs text-slate-300 mt-0.5 leading-snug" title="${tipEsc(lab)}">${short}</div>
+                    </div>
+                    <span class="inline-block min-w-[2.25rem] px-2 py-1 rounded text-sm tabular-nums ${cls}">${show}</span>
+                </div>
+            </div>`;
+        }).join("");
+
+        // Quick read of strengths / soft spots
+        const ranked = [1, 2, 3, 4, 5].map(i => ({
+            i,
+            lab: (labels[i - 1] && String(labels[i - 1]).trim()) || ("S" + i),
+            v: row["s" + i] != null && !isNaN(Number(row["s" + i])) ? Number(row["s" + i]) : null,
+        })).filter(x => x.v != null && x.v > 0).sort((a, b) => a.v - b.v);
+        const best = ranked.slice(0, 2);
+        const soft = ranked.slice().reverse().slice(0, 2).filter(x => x.v > 40);
+
+        body.innerHTML = `
+            <div class="p-5 space-y-4">
+                <div>
+                    <div class="text-[10px] uppercase tracking-wide text-slate-500 font-semibold">Stat Fit · this week</div>
+                    <div class="text-lg font-semibold text-slate-100 mt-0.5">${nice}</div>
+                    <p class="text-xs text-slate-400 mt-1">Field ranks on the weekly key stats (S1–S5). SF rank is the average of available S ranks, then ranked across the field (1 = best fit).</p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                    ${pill("SF Rk", row.sfRank, "Stat Fit field rank")}
+                    <div class="rounded-xl border border-slate-700 bg-slate-800/60 px-3 py-2.5 text-center" title="Mean of available S ranks">
+                        <div class="text-[9px] uppercase tracking-wide text-slate-500 font-semibold">SF Avg</div>
+                        <div class="mt-1 text-lg font-bold tabular-nums text-cyan-300">${avgStr}</div>
+                    </div>
+                    ${pill("SPEC", row.specRank, "Specialist rank")}
+                    ${pill("925", row.rank925, "925 model rank")}
+                </div>
+
+                <div>
+                    <div class="text-[10px] uppercase tracking-wide text-slate-500 font-semibold mb-2">Key stats (field ranks)</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${sCards}</div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-3">
+                    <div class="rounded-xl border border-emerald-800/40 bg-emerald-950/30 p-3">
+                        <div class="text-[10px] uppercase tracking-wide text-emerald-400/90 font-semibold mb-1.5">Best fits</div>
+                        ${best.length
+                            ? `<ul class="space-y-1 text-sm text-slate-200 list-disc pl-4">${best.map(b => `<li>S${b.i} ${b.lab} · <span class="font-semibold text-emerald-300">#${b.v}</span></li>`).join("")}</ul>`
+                            : `<p class="text-sm text-slate-400">No S ranks on file.</p>`}
+                    </div>
+                    <div class="rounded-xl border border-amber-800/40 bg-amber-950/20 p-3">
+                        <div class="text-[10px] uppercase tracking-wide text-amber-400/90 font-semibold mb-1.5">Softer spots</div>
+                        ${soft.length
+                            ? `<ul class="space-y-1 text-sm text-slate-200 list-disc pl-4">${soft.map(b => `<li>S${b.i} ${b.lab} · <span class="font-semibold text-amber-300">#${b.v}</span></li>`).join("")}</ul>`
+                            : `<p class="text-sm text-slate-400">No obvious soft key-stat ranks (>40).</p>`}
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-2">
+                    ${pill("CH", row.chRank, "Course History rank")}
+                    ${pill("RF", row.rfRank, "Recent Form rank")}
+                    ${pill("S1", row.s1, labels[0] || "S1")}
+                    ${pill("S2", row.s2, labels[1] || "S2")}
+                    ${pill("S3", row.s3, labels[2] || "S3")}
+                    ${pill("S4", row.s4, labels[3] || "S4")}
+                    ${pill("S5", row.s5, labels[4] || "S5")}
+                </div>
+            </div>`;
     }
 
     function displayName(playerOrName) {
@@ -13695,13 +14293,64 @@ el.innerHTML = `
         return isNaN(n) ? null : n;
     }
 
-    /** +EV% = modelProb * decimalOdds - 1 (as %). Edge pts = (model − book) * 100. */
-    function modalOddsEv(modelProb, americanOdds) {
+    /** Consensus / average rows — not a sportsbook for fair-price calculation. */
+    function isConsensusBook(book) {
+        const b = String(book || "").toLowerCase().trim();
+        return /^(consensus|market|avg|average|composite)$/i.test(b) || b.includes("consensus");
+    }
+
+    /** Implied win probability from American odds (0–1). */
+    function modalBookImplied(americanOdds) {
         const am = modalParseAmerican(americanOdds);
-        const imp = (typeof americanToImplied === "function") ? americanToImplied(am != null ? am : americanOdds) : null;
-        if (modelProb == null || imp == null || imp <= 0) return { plusEv: null, edgePts: null, bookImp: imp };
-        const plusEv = (modelProb * (1 / imp) - 1) * 100;
-        const edgePts = (modelProb - imp) * 100;
+        if (am == null || am === 0) return null;
+        if (typeof americanToImplied === "function") {
+            const p = americanToImplied(am);
+            if (p != null && !isNaN(p) && p > 0) return p;
+        }
+        return am > 0 ? (100 / (am + 100)) : ((-am) / ((-am) + 100));
+    }
+
+    /**
+     * Fair market probability for a market = mean implied of real sportsbooks
+     * (DK / FD / Bet365 / etc). Consensus / DataGolf excluded from the average.
+     */
+    function modalMarketFairProb(bookLines) {
+        const lines = Array.isArray(bookLines) ? bookLines : [];
+        const imps = [];
+        lines.forEach(l => {
+            if (!l) return;
+            if (typeof isExcludedBettingSource === "function" && isExcludedBettingSource(l.book)) return;
+            if (typeof isConsensusBook === "function" && isConsensusBook(l.book)) return;
+            let p = (l.bookImpNum != null && !isNaN(Number(l.bookImpNum))) ? Number(l.bookImpNum) : null;
+            if (p == null) p = modalBookImplied(l.odds);
+            if (p != null && p > 0 && p < 1) imps.push(p);
+        });
+        if (imps.length) return imps.reduce((a, b) => a + b, 0) / imps.length;
+        // fallback: consensus / average line if no real books
+        for (const l of lines) {
+            if (l && isConsensusBook(l.book)) {
+                const p = l.bookImpNum != null ? Number(l.bookImpNum) : modalBookImplied(l.odds);
+                if (p != null && p > 0) return p;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Edge / +EV vs market average (not 925 model).
+     * fairProb = avg book implied for this market.
+     * Edge pts = (fair − bookImplied) × 100  → + when this book is longer than market.
+     * +EV% = fairProb × decimalOdds − 1.
+     */
+    function modalOddsEv(fairProb, americanOdds) {
+        const am = modalParseAmerican(americanOdds);
+        const imp = modalBookImplied(am != null ? am : americanOdds);
+        if (fairProb == null || imp == null || imp <= 0 || fairProb <= 0) {
+            return { plusEv: null, edgePts: null, bookImp: imp };
+        }
+        const dec = am > 0 ? (1 + am / 100) : (1 + 100 / Math.abs(am));
+        const plusEv = (fairProb * dec - 1) * 100;
+        const edgePts = (fairProb - imp) * 100;
         return { plusEv, edgePts, bookImp: imp };
     }
 
@@ -13795,24 +14444,44 @@ el.innerHTML = `
             return;
         }
 
-        // Expand multi-book columns → one row per sportsbook + attach model EV
+        // Expand multi-book columns → one row per sportsbook
+        // Fair % / Edge / +EV = this book vs average of real books (not 925 model buckets)
         let lines = [];
         mine.forEach(r => {
-            const expanded = (typeof expandOddsBookLines === "function")
+            let expanded = (typeof expandOddsBookLines === "function")
                 ? expandOddsBookLines(r)
                 : [{ market: formatMarketLabel(r.market), marketKey: String(r.market || "").toLowerCase(), book: "—", odds: "—", implied: "—" }];
+            if (typeof isExcludedBettingSource === "function") {
+                expanded = (expanded || []).filter(x => !isExcludedBettingSource(x.book));
+            }
             const mKey = String(r.market || "").toLowerCase().replace(/[\s-]+/g, "_");
-            const modelProb = modalMarketModelProb(playerName, mKey);
+            // Ensure each line has book-implied from its own price
+            expanded.forEach(x => {
+                if (x.bookImpNum == null) {
+                    x.bookImpNum = modalBookImplied(x.odds);
+                    if (x.bookImpNum != null) x.implied = (x.bookImpNum * 100).toFixed(2) + "%";
+                }
+                x.marketKey = x.marketKey || mKey;
+                x.isConsensus = x.isConsensus || isConsensusBook(x.book);
+            });
+            const fairProb = modalMarketFairProb(expanded);
+            // Optional: blend with feed average_odds if present and no real books
+            let fair = fairProb;
+            if (fair == null) {
+                const avgAm = r.average_odds ?? r.avg_odds;
+                fair = modalBookImplied(avgAm);
+            }
             expanded.forEach(x => {
                 const region = isAmericanSportsbook(x.book);
-                const ev = modalOddsEv(modelProb, x.odds);
+                const ev = modalOddsEv(fair, x.odds);
                 lines.push({
                     ...x,
                     marketKey: x.marketKey || mKey,
-                    modelProb,
+                    fairProb: fair,
+                    modelProb: fair, // column still reads modelProb field → now fair mkt %
                     plusEv: ev.plusEv,
                     edgePts: ev.edgePts,
-                    bookImp: ev.bookImp,
+                    bookImp: ev.bookImp != null ? ev.bookImp : x.bookImpNum,
                     american: region, // true / false / null
                 });
             });
@@ -13882,10 +14551,10 @@ el.innerHTML = `
                 <th class="px-3 py-2 text-left">Sportsbook</th>
                 <th class="px-2 py-2 text-center">Region</th>
                 <th class="px-3 py-2 text-center">Odds</th>
-                <th class="px-3 py-2 text-center">Implied</th>
-                <th class="px-3 py-2 text-center" title="Model probability from 925 rank">Model %</th>
-                <th class="px-3 py-2 text-center" title="(model − book) × 100">Edge</th>
-                <th class="px-3 py-2 text-center" title="modelProb × decimalOdds − 1">+EV</th>
+                <th class="px-3 py-2 text-center" title="Implied probability from this book's price">Implied</th>
+                <th class="px-3 py-2 text-center" title="Average implied % of real books (DK/FD/Bet365) for this market">Mkt %</th>
+                <th class="px-3 py-2 text-center" title="(market avg − book implied) × 100. Positive = this book is longer than the market average">Edge</th>
+                <th class="px-3 py-2 text-center" title="Market-avg prob × this book's decimal odds − 1. Positive = +EV vs average book line">+EV</th>
             </tr></thead><tbody class="divide-y divide-slate-700/50">`;
         if (!shown.length) {
             html += `<tr><td colspan="8" class="px-4 py-8 text-center text-slate-500">No prices for this filter.</td></tr>`;
@@ -13896,8 +14565,8 @@ el.innerHTML = `
             const modelStr = r.modelProb != null ? (r.modelProb * 100).toFixed(1) + "%" : "—";
             const edgeStr = r.edgePts == null ? "—" : ((r.edgePts >= 0 ? "+" : "") + r.edgePts.toFixed(1));
             const evStr = r.plusEv == null ? "—" : ((r.plusEv >= 0 ? "+" : "") + r.plusEv.toFixed(1) + "%");
-            const edgeCls = r.edgePts == null ? "text-slate-500" : (r.edgePts >= 1 ? "text-emerald-400 font-semibold" : (r.edgePts >= 0 ? "text-slate-300" : "text-red-400"));
-            const evCls = r.plusEv == null ? "text-slate-500" : (r.plusEv >= 5 ? "text-emerald-300 font-semibold" : (r.plusEv >= 0 ? "text-emerald-400/90" : "text-red-400"));
+            const edgeCls = r.edgePts == null ? "text-slate-500" : (r.edgePts >= 0.25 ? "text-emerald-400 font-semibold" : (r.edgePts >= -0.15 ? "text-slate-300" : "text-red-400"));
+            const evCls = r.plusEv == null ? "text-slate-500" : (r.plusEv >= 2 ? "text-emerald-300 font-semibold" : (r.plusEv >= 0 ? "text-emerald-400/90" : "text-red-400"));
             html += `<tr class="hover:bg-slate-800/50">
                 <td class="px-3 py-2 text-slate-200 font-medium">${esc(r.market)}</td>
                 <td class="px-3 py-2 text-slate-400">${esc(r.book)}</td>
@@ -13910,7 +14579,7 @@ el.innerHTML = `
             </tr>`;
         });
         html += `</tbody></table>
-            <div class="px-1 pt-2 text-[11px] text-slate-500">+EV uses 925 rank → model market probability vs book implied. Consensus/DataGolf are region “—”. Open Cheat Sheet once so ranks are ready.</div>
+            <div class="px-1 pt-2 text-[11px] text-slate-500"><b>Mkt %</b> = average implied of real books (DraftKings / FanDuel / Bet365). <b>Edge</b> = Mkt % − book implied (pts). <b>+EV</b> = Mkt % × this book’s decimal odds − 1. Consensus is shown for reference and is not used in the average. Longer prices vs the market average show positive edge.</div>
         </div>`;
         body.innerHTML = html;
     }
@@ -14995,7 +15664,7 @@ el.innerHTML = `
     // Sources (in order): GitHub data/, Google published sheets, local attachments.
     const PLAYER_TIES_SOURCES = [
         // Prefer GitHub (fast + stable once committed)
-        `${typeof DATA_BASE !== "undefined" ? DATA_BASE : "https://raw.githubusercontent.com/925Sports/pga-tour-data/main/data"}/player_ties.csv?v=20260802-ties1`,
+        `${typeof DATA_BASE !== "undefined" ? DATA_BASE : "https://raw.githubusercontent.com/925Sports/pga-tour-data/main/data"}/player_ties.csv?v=20260810-ties-memphis`,
         "https://docs.google.com/spreadsheets/d/e/2PACX-1vReQ-HHf6-bm3nxNpQax9K3TGv5qkDH4o10Ug7oNjSfXqiHSgvSsB0uWUAyOdbBfWYSLOX9Jo4hc3vy/pub?gid=1364477788&single=true&output=csv",
         "/attachments/PLAYER%20INFORMATION%20-%20PLAYER%20LOCATION%20AND%20TIES.csv",
     ];
@@ -15081,10 +15750,97 @@ el.innerHTML = `
         return "";
     }
 
+    /** Known PGA venues — used when preview / ties sheets lag the live field. */
+    const HUB_COURSE_COORDS = [
+        // 2026 FedEx St. Jude / Playoffs
+        { keys: ["tpc southwind", "southwind", "fedex st. jude", "fedex st jude", "st. jude championship", "st jude championship", "memphis"], lat: 35.0572, lon: -89.7794, label: "TPC Southwind · Memphis, TN" },
+        // Prior / upcoming common hosts
+        { keys: ["detroit golf club", "rocket mortgage", "detroit, mi", "detroit mi"], lat: 42.4263, lon: -83.1262, label: "Detroit Golf Club · Detroit, MI" },
+        { keys: ["sedgefield", "wyndham", "greensboro"], lat: 36.0695, lon: -79.8378, label: "Sedgefield · Greensboro, NC" },
+        { keys: ["east lake", "tour championship"], lat: 33.7445, lon: -84.3030, label: "East Lake · Atlanta, GA" },
+        { keys: ["tpc sawgrass", "players championship", "stadium course"], lat: 30.1981, lon: -81.3940, label: "TPC Sawgrass · Ponte Vedra, FL" },
+        { keys: ["augusta national", "masters"], lat: 33.5030, lon: -82.0199, label: "Augusta National · Augusta, GA" },
+        { keys: ["pebble beach"], lat: 36.5681, lon: -121.9490, label: "Pebble Beach · CA" },
+        { keys: ["torrey pines"], lat: 32.9044, lon: -117.2453, label: "Torrey Pines · San Diego, CA" },
+        { keys: ["riviera", "genesis"], lat: 34.0497, lon: -118.4977, label: "Riviera · Pacific Palisades, CA" },
+        { keys: ["quail hollow"], lat: 35.1200, lon: -80.8420, label: "Quail Hollow · Charlotte, NC" },
+        { keys: ["tpc scottsdale", "waste management", "wm phoenix"], lat: 33.6380, lon: -111.9120, label: "TPC Scottsdale · AZ" },
+        { keys: ["harbour town", "hilton head", "rbc heritage"], lat: 32.1350, lon: -80.8070, label: "Harbour Town · Hilton Head, SC" },
+        { keys: ["muirfield village", "memorial"], lat: 40.1420, lon: -83.0910, label: "Muirfield Village · Dublin, OH" },
+        { keys: ["oak hill", "rochester"], lat: 43.1120, lon: -77.5330, label: "Oak Hill · Rochester, NY" },
+        { keys: ["valhalla"], lat: 38.2450, lon: -85.4720, label: "Valhalla · Louisville, KY" },
+        { keys: ["whistling straits"], lat: 43.8490, lon: -87.7350, label: "Whistling Straits · Kohler, WI" },
+        { keys: ["pinehurst"], lat: 35.1895, lon: -79.4678, label: "Pinehurst · NC" },
+        { keys: ["colonial", "fort worth"], lat: 32.7210, lon: -97.3720, label: "Colonial · Fort Worth, TX" },
+        { keys: ["innisbrook", "copperhead"], lat: 28.0870, lon: -82.7530, label: "Innisbrook · Palm Harbor, FL" },
+        { keys: ["kapalua", "plantation"], lat: 21.0030, lon: -156.6540, label: "Kapalua · Maui, HI" },
+        { keys: ["tpc harding park", "harding park"], lat: 37.7240, lon: -122.4930, label: "TPC Harding Park · San Francisco, CA" },
+        { keys: ["caves valley"], lat: 39.4230, lon: -76.7480, label: "Caves Valley · Owings Mills, MD" },
+        { keys: ["liberty national"], lat: 40.6970, lon: -74.0680, label: "Liberty National · Jersey City, NJ" },
+        { keys: ["tpc jasper park", "banff"], lat: 52.8770, lon: -118.0720, label: "Jasper Park · AB" },
+        { keys: ["royal montreal", "île bizard", "ile bizard"], lat: 45.4940, lon: -73.9020, label: "Royal Montreal · QC" },
+    ];
+
+    function hubLiveEventContext() {
+        const course =
+            (typeof currentCourseName === "string" && currentCourseName) ||
+            (typeof allPlayers !== "undefined" && allPlayers[0] && (allPlayers[0].course_name || allPlayers[0].course)) ||
+            (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name) ||
+            (typeof cheatRows !== "undefined" && cheatRows[0] && cheatRows[0].course_name) ||
+            "";
+        const event =
+            (typeof allPlayers !== "undefined" && allPlayers[0] && (allPlayers[0].event_name || allPlayers[0].tournament)) ||
+            (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && (prebuiltCheat[0].event_name || prebuiltCheat[0].tournament)) ||
+            (typeof cheatRows !== "undefined" && cheatRows[0] && (cheatRows[0].event_name || cheatRows[0].tournament)) ||
+            "";
+        return { course: String(course || "").trim(), event: String(event || "").trim() };
+    }
+
+    function lookupKnownCourseCoords(course, event) {
+        const blob = (String(course || "") + " " + String(event || "")).toLowerCase();
+        if (!blob.trim()) return null;
+        for (const row of HUB_COURSE_COORDS) {
+            if (row.keys.some(k => blob.includes(k))) {
+                return { lat: row.lat, lon: row.lon, label: row.label, source: "known-course" };
+            }
+        }
+        return null;
+    }
+
+    function hubEventsOrPlacesClose(a, b) {
+        if (!a || !b) return false;
+        if (typeof hubEventsClose === "function" && hubEventsClose(a, b)) return true;
+        const na = String(a).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        const nb = String(b).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        if (!na || !nb) return false;
+        if (na.includes(nb) || nb.includes(na)) return true;
+        const ta = na.split(" ").filter(t => t.length > 3);
+        const tb = new Set(nb.split(" ").filter(t => t.length > 3));
+        const hit = ta.filter(t => tb.has(t));
+        return hit.length >= 2 || (hit.length >= 1 && (na.includes("southwind") || nb.includes("southwind") || na.includes("memphis") || nb.includes("memphis")));
+    }
+
     function resolveTournamentCoords() {
-        // 1) PRE TOURNAMENT PREVIEW columns (user is adding these)
+        const live = hubLiveEventContext();
+        // 1) Live field / cheat sheet course → known venue coords (always wins when matched)
+        const known = lookupKnownCourseCoords(live.course, live.event);
+        if (known) {
+            console.log("[hub] tournament coords from live field:", known.label, live.event || live.course);
+            return known;
+        }
+
+        // 2) PRE TOURNAMENT PREVIEW — only if it matches this week's event/course
         const pv = preTournamentPreview || window.preTournamentPreview || null;
         if (pv) {
+            const pvTourn = pickField(pv, ["TOURNAMENT", "Tournament", "EVENT", "Event"]);
+            const pvCourse = pickField(pv, ["COURSE NAME", "Course Name", "COURSE", "Course"]);
+            const pvLoc = pickField(pv, ["LOCATION", "Location"]);
+            const matchesLive = !!(live.event || live.course) && (
+                hubEventsOrPlacesClose(live.event, pvTourn) ||
+                hubEventsOrPlacesClose(live.course, pvCourse) ||
+                hubEventsOrPlacesClose(live.course, pvLoc) ||
+                hubEventsOrPlacesClose(live.event, pvLoc)
+            );
             const lat = parseLatLon(pickField(pv, [
                 "Latitude Tournament", "LATITUDE TOURNAMENT", "Tournament Latitude",
                 "latitude_tournament", "LAT TOURNAMENT", "Lat Tournament",
@@ -15093,42 +15849,83 @@ el.innerHTML = `
                 "Longitude Tournament", "LONGITUDE TOURNAMENT", "Tournament Longitude",
                 "longitude_tournament", "LON TOURNAMENT", "Long Tournament",
             ]));
-            if (lat != null && lon != null) {
-                const label = pickField(pv, ["LOCATION", "Location", "TOURNAMENT", "COURSE NAME"]) || "Tournament";
-                return { lat, lon, label: String(label) };
+            if (lat != null && lon != null && (matchesLive || !(live.event || live.course))) {
+                const label = pvLoc || pvTourn || pvCourse || "Tournament";
+                return { lat, lon, label: String(label), source: "preview" };
+            }
+            if (lat != null && lon != null && !matchesLive) {
+                console.log("[hub] preview tournament coords ignored (stale sheet):", pvTourn || pvCourse, "live:", live.event || live.course);
             }
         }
-        // 2) Any loaded ties row that already carries tournament coords
+
+        // 3) Ties sheet tournament coords — only if they match live event/course
         for (const k of Object.keys(playerTiesByKey || {})) {
             const rows = (playerTiesByKey[k] && playerTiesByKey[k].rows) || [];
             for (const r of rows) {
-                if (r.tLat != null && r.tLon != null) {
-                    return { lat: r.tLat, lon: r.tLon, label: r.tournamentLocation || "Tournament" };
+                if (r.tLat == null || r.tLon == null) continue;
+                const tLab = r.tournamentLocation || "";
+                const matches = !!(live.event || live.course) && (
+                    hubEventsOrPlacesClose(live.event, tLab) ||
+                    hubEventsOrPlacesClose(live.course, tLab)
+                );
+                if (matches || !(live.event || live.course)) {
+                    return { lat: r.tLat, lon: r.tLon, label: tLab || "Tournament", source: "ties-sheet" };
                 }
+                // first stale hit is enough to know sheet is behind — keep scanning for a match
             }
         }
-        return null;
+        // 4) Last resort: known coords from whatever label we have on screen
+        const fallback = lookupKnownCourseCoords(
+            (document.getElementById("event-scope-label") || {}).textContent || "",
+            live.event || live.course
+        );
+        return fallback;
     }
 
-    function recomputePlayerTiesDistances() {
+    function recomputePlayerTiesDistances(force) {
         const tc = resolveTournamentCoords();
         if (tc) tournamentCoords = tc;
-        if (!tournamentCoords) return;
+        if (!tournamentCoords) {
+            console.warn("[hub] no tournament coords for local ties");
+            return;
+        }
+        // If venue is from live field / known course, ALWAYS recompute miles + labels.
+        // Sheet DISTANCE / Local Ties labels are for whatever tournament was last exported
+        // (e.g. Detroit) and must not stick when the slate moved to Memphis.
+        const forceRecompute = force === true
+            || (tournamentCoords.source === "known-course")
+            || (tournamentCoords.source === "preview");
+        let updated = 0;
         Object.keys(playerTiesByKey || {}).forEach(k => {
             const pack = playerTiesByKey[k];
             if (!pack || !pack.rows) return;
             pack.rows.forEach(r => {
-                // Prefer sheet DISTANCE when present; only fill gaps via haversine
-                if (r.miles != null && !isNaN(r.miles) && r.milesFromSheet) return;
                 if (r.lat == null || r.lon == null) return;
+                // Skip sheet distances only when we are still on the same tournament the sheet used
+                if (!forceRecompute && r.miles != null && !isNaN(r.miles) && r.milesFromSheet) {
+                    // Still refresh label from miles if blank
+                    if (!r.tiesLabel) r.tiesLabel = localTiesLabelFromMiles(r.miles);
+                    return;
+                }
                 const d = haversineMiles(r.lat, r.lon, tournamentCoords.lat, tournamentCoords.lon);
                 if (d != null) {
                     r.miles = Math.round(d * 1000) / 1000;
                     r.tiesLabel = localTiesLabelFromMiles(r.miles);
+                    r.milesFromSheet = false; // mark as hub-computed for this venue
+                    r.tournamentLocation = tournamentCoords.label || r.tournamentLocation;
+                    r.tLat = tournamentCoords.lat;
+                    r.tLon = tournamentCoords.lon;
+                    updated++;
                 }
             });
             pack.best = pickBestTie(pack.rows);
+            // Meaningful local ties only: hide Not Likely as "best" for badges
+            if (pack.best && (pack.best.tiesLabel === "Not Likely" || pack.best.tiesLabel === "Not Listed")) {
+                // keep best for modal detail, badges already filter Not Likely
+            }
         });
+        console.log("[hub] local ties recomputed vs", tournamentCoords.label, "rows", updated, "source", tournamentCoords.source || "—");
+        try { window.tournamentCoords = tournamentCoords; } catch (e) {}
     }
 
     function pickBestTie(rows) {
@@ -15207,17 +16004,10 @@ el.innerHTML = `
             by[k].best = pickBestTie(by[k].rows);
         });
         playerTiesByKey = by;
-        // seed tournament coords from first available
-        if (!tournamentCoords) {
-            for (const k of Object.keys(by)) {
-                const b = by[k].best;
-                if (b && b.tLat != null && b.tLon != null) {
-                    tournamentCoords = { lat: b.tLat, lon: b.tLon, label: b.tournamentLocation || "Tournament" };
-                    break;
-                }
-            }
-        }
-        recomputePlayerTiesDistances();
+        // Do NOT seed from stale sheet tournament (often last week's Detroit).
+        // resolveTournamentCoords() prefers live field / known course.
+        tournamentCoords = null;
+        recomputePlayerTiesDistances(true);
         return Object.keys(by).length;
     }
 
@@ -15297,6 +16087,7 @@ el.innerHTML = `
     }
 
     function applyLocalTiesToCheatRows() {
+        try { recomputePlayerTiesDistances(true); } catch (e) {}
         if (!(cheatRows || []).length) return 0;
         let n = 0;
         cheatRows.forEach(r => {
@@ -15958,7 +16749,27 @@ el.innerHTML = `
                 : "Expand for top market edges + why";
         }
         const cards = top.map((r, i) => {
+            // Win market: same Bet Tag labels as Cheat Sheet
+            const mktKey = String(document.getElementById("ev-market")?.value || market || "win");
+            const isWin = (typeof isWinMarketKey === "function") ? isWinMarketKey(mktKey) : /win/i.test(String(mktKey));
+            if (isWin) {
+                try {
+                    const ot = (typeof lookupOutrightBetTagForPlayer === "function")
+                        ? lookupOutrightBetTagForPlayer(r.name)
+                        : null;
+                    if (ot && ot.tag) {
+                        r.outrightTag = ot.tag;
+                        r.outrightCls = ot.cls;
+                        r.outrightTip = ot.tip;
+                        r.outrightTally = ot.tally;
+                    }
+                } catch (e) {}
+            }
             const why = [];
+            if (isWin && r.outrightTag && r.outrightTag !== "—" && r.outrightTag !== "–") {
+                why.push("Cheat Sheet Bet Tag <b>" + _bbEsc(r.outrightTag) + "</b>"
+                    + (r.outrightTally != null ? " (tally " + r.outrightTally + "/10)" : ""));
+            }
             why.push("Edge <b>" + _bbEdge(r.edge) + "</b> — model <b>" + _bbPct(r.modelProb) + "</b> vs market <b>" + _bbPct(r.noVig) + "</b>");
             if (r.evPct != null && !isNaN(Number(r.evPct))) why.push("+EV <b>" + (Number(r.evPct) >= 0 ? "+" : "") + Number(r.evPct).toFixed(1) + "%</b> at best price");
             if (r.bestBook || r.bestAmerican != null) why.push("Best book <b>" + _bbEsc(r.bestBook || "—") + "</b> " + _bbEsc(_bbAm(r.bestAmerican)));
@@ -15967,15 +16778,34 @@ el.innerHTML = `
             if (r.cmRank != null) why.push("CM rank <b>#" + r.cmRank + "</b>");
             if (r.rank != null) why.push("Proj rank <b>#" + r.rank + "</b>");
             if (r.valSrc) why.push("Source <b>" + _bbEsc(r.valSrc) + "</b>");
-            if (r.bestAmerican != null && Number(r.bestAmerican) >= 2000) why.push('<span class="text-amber-700">Longshot — only if model rank supports an upset</span>');
-            else if (r.bestAmerican != null && Number(r.bestAmerican) <= 500 && Number(r.edge) > 2) why.push("Shorter price with solid edge — cash-friendly");
+            if (isWin && r.outrightTag === "Longshot Only") {
+                why.push('<span class="text-amber-700">CS flags Longshot Only on the win market — size accordingly</span>');
+            } else if (isWin && r.outrightTag === "Outright") {
+                why.push('<span class="text-emerald-700">CS Outright tag — core win-ticket profile</span>');
+            } else if (isWin && r.outrightTag === "Viable Outright") {
+                why.push('<span class="text-emerald-700">CS Viable Outright — legitimate win contender</span>');
+            } else if (r.bestAmerican != null && Number(r.bestAmerican) >= 2000) {
+                why.push('<span class="text-amber-700">Longshot price — only if model rank supports an upset</span>');
+            } else if (r.bestAmerican != null && Number(r.bestAmerican) <= 500 && Number(r.edge) > 2) {
+                why.push("Shorter price with solid edge — cash-friendly");
+            }
             const safe = String(r.name || "").replace(/'/g, "\\'");
             const edgeCls = Number(r.edge) >= 5 ? "bg-emerald-700 text-white" : Number(r.edge) >= 2 ? "bg-emerald-100 text-emerald-900" : Number(r.edge) >= 0 ? "bg-slate-100 text-slate-700" : "bg-rose-50 text-rose-700";
+            let tagPill = "";
+            if (isWin && r.outrightTag && r.outrightTag !== "—" && r.outrightTag !== "–") {
+                const cls = r.outrightCls || (
+                    r.outrightTag === "Outright" ? "obtag-strong" :
+                    r.outrightTag === "Viable Outright" ? "obtag-viable" :
+                    r.outrightTag === "Longshot Only" ? "obtag-long" : "obtag-none"
+                );
+                tagPill = '<span class="ob-tag ' + cls + '" title="' + _bbEsc(r.outrightTip || r.outrightTag) + '">' + _bbEsc(r.outrightTag) + '</span>';
+            }
             return '<div class="rounded-xl border border-slate-200 bg-slate-50/80 px-3 py-2.5 hover:border-emerald-300 transition-colors cursor-pointer" onclick="try{openPlayerModal(\'' + safe + '\',3)}catch(e){}">'
                 + '<div class="flex items-start justify-between gap-2"><div class="min-w-0">'
                 + '<div class="flex items-center gap-2 flex-wrap">'
                 + '<span class="text-[10px] font-bold text-slate-400">#' + (i+1) + '</span>'
                 + '<span class="font-semibold text-slate-900 text-sm truncate">' + _bbEsc(r.name || "—") + '</span>'
+                + tagPill
                 + '<span class="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-slate-200 text-slate-700">' + _bbEsc(market) + '</span>'
                 + '<span class="text-[11px] text-slate-500">' + _bbEsc(r.bestBook || "") + ' ' + _bbEsc(_bbAm(r.bestAmerican)) + '</span></div>'
                 + '<ul class="mt-1.5 text-[11px] text-slate-600 space-y-0.5 list-disc list-inside">' + why.map(w => '<li>' + w + '</li>').join('') + '</ul>'
@@ -15991,7 +16821,7 @@ el.innerHTML = `
             + '<div class="rounded-lg bg-white border border-slate-200 px-3 py-2"><div class="text-[9px] uppercase tracking-wide text-slate-400">Market</div><div class="text-sm font-bold text-slate-800 capitalize">' + _bbEsc(market) + '</div></div>'
             + '</div><div class="text-[11px] text-slate-500 mb-2"><span class="font-semibold text-slate-700">Proj sources on +edge:</span> ' + _bbEsc(srcTxt) + '</div>'
             + '<div class="space-y-2">' + cards + '</div>'
-            + '<p class="text-[10px] text-slate-400 mt-3">Why these? Largest <b>model % − no-vig market %</b>, then +EV% at best non-lottery price. 925/CM ranks are context. Tap a card for the player profile.</p>';
+            + '<p class="text-[10px] text-slate-400 mt-3">Why these? Largest <b>model % − no-vig market %</b>, then +EV% at best non-lottery price. On <b>Win</b>, Bet Tags match the Cheat Sheet (Outright / Viable Outright / Longshot Only). Tap a card for the player profile.</p>';
     }
     window.updatePropsBestBetsSummary = updatePropsBestBetsSummary;
     window.updateEvBestBetsSummary = updateEvBestBetsSummary;
@@ -17118,6 +17948,16 @@ function renderOwnershipLeverage() {
             .replace(/\b\w/g, c => c.toUpperCase());
     }
 
+    /** True for non-book sources that must never appear as a sportsbook. */
+    function isExcludedBettingSource(book) {
+        const b = String(book || "").toLowerCase().trim();
+        if (!b) return false;
+        // DataGolf is a model/odds feed, not a sportsbook — never list it in Betting UI
+        if (/data\s*golf|datagolf|\bdg\b|dg baseline|baseline model/.test(b)) return true;
+        if (/odds_datagolf|datagolf_baseline/.test(b)) return true;
+        return false;
+    }
+
     /** Expand a betting_odds row into per-sportsbook lines. */
     function expandOddsBookLines(r) {
         const mkt = formatMarketLabel(r.market || r.Market || r.bet_type || "Odds");
@@ -17127,11 +17967,12 @@ function renderOwnershipLeverage() {
             ["FanDuel", r.odds_fanduel ?? r.fd_odds ?? r.FanDuel],
             ["Bet365", r.odds_bet365 ?? r.bet365_odds ?? r.Bet365],
             ["Consensus", r.average_odds ?? r.avg_odds ?? r.odds ?? r.american ?? r.price],
-            ["DataGolf", r.odds_datagolf_baseline ?? r.datagolf_odds],
+            // intentionally omit DataGolf / odds_datagolf_baseline — not a book
         ];
         const out = [];
         const seen = new Set();
         pairs.forEach(([book, odds]) => {
+            if (typeof isExcludedBettingSource === "function" && isExcludedBettingSource(book)) return;
             if (odds == null || odds === "" || String(odds).toLowerCase() === "n/a") return;
             const key = book + "|" + String(odds);
             if (seen.has(key)) return;
@@ -17144,30 +17985,46 @@ function renderOwnershipLeverage() {
                 if (n > 0 && !String(am).startsWith("+")) am = "+" + Math.round(n);
                 else if (n <= 0) am = String(Math.round(n));
             }
-            let imp = r.true_implied_probability || r.implied_probability || r.implied || "";
-            if ((!imp || imp === "") && !isNaN(n)) {
-                const a = n;
-                const p = a > 0 ? 100 / (a + 100) : (-a) / (-a + 100);
-                imp = (p * 100).toFixed(1) + "%";
-            } else if (imp && !String(imp).includes("%")) {
-                const p = parseFloat(imp);
-                if (!isNaN(p)) imp = (p <= 1.5 ? p * 100 : p).toFixed(1) + "%";
+            // Always imply from THIS book's price (never paste field true_implied onto every book)
+            let imp = "—";
+            let impNum = null;
+            if (!isNaN(n) && n !== 0) {
+                impNum = n > 0 ? (100 / (n + 100)) : ((-n) / ((-n) + 100));
+                imp = (impNum * 100).toFixed(2) + "%";
             }
-            out.push({ market: mkt, marketKey: String(r.market || "").toLowerCase(), tour, book, odds: am, implied: imp || "—" });
+            out.push({
+                market: mkt,
+                marketKey: String(r.market || "").toLowerCase().replace(/[\s-]+/g, "_"),
+                tour,
+                book,
+                odds: am,
+                implied: imp,
+                bookImpNum: impNum,
+                isConsensus: /^(consensus|market|avg|average)$/i.test(String(book).trim()),
+            });
         });
-        // If no book columns had values, still emit one generic row
+        // If no book columns had values, still emit one generic row (never DataGolf)
         if (!out.length) {
             const am = r.odds || r.american || r.price || r.Odds || "—";
+            let bookLabel = r.book || r.Book || r.sportsbook || "Market";
+            if (typeof isExcludedBettingSource === "function" && isExcludedBettingSource(bookLabel)) {
+                bookLabel = "Market";
+            }
+            // Prefer real-book columns even if labeled oddly on the row
+            if (r.odds_draftkings != null && r.odds_draftkings !== "") bookLabel = "DraftKings";
+            else if (r.odds_fanduel != null && r.odds_fanduel !== "") bookLabel = "FanDuel";
+            else if (r.odds_bet365 != null && r.odds_bet365 !== "") bookLabel = "Bet365";
             out.push({
                 market: mkt,
                 marketKey: String(r.market || "").toLowerCase(),
                 tour,
-                book: r.book || r.Book || r.sportsbook || "Market",
+                book: bookLabel,
                 odds: am,
                 implied: r.implied || r.implied_probability || "—"
             });
         }
-        return out;
+        // Final safety net — never surface DataGolf as a sportsbook line
+        return out.filter(x => !(typeof isExcludedBettingSource === "function" && isExcludedBettingSource(x.book)));
     }
 
     function dkMatches(playerName) {
@@ -17688,11 +18545,59 @@ function computeOutrightBetTag(r) {
         } catch (e) { return ""; }
     }
 
+    /** Same Win / outright Bet Tag as the Cheat Sheet (Outright / Viable / Longshot). */
+    function lookupCheatSheetRow(playerName) {
+        if (!playerName) return null;
+        const rows = (typeof cheatRows !== "undefined" && cheatRows) ? cheatRows : [];
+        let hit = rows.find(r =>
+            (typeof namesMatch === "function")
+                ? namesMatch(r.name || r.name_adjusted || "", playerName)
+                : (nameKey(r.name || "") === nameKey(playerName))
+        );
+        if (hit) return hit;
+        try {
+            const pre = (typeof prebuiltCheat !== "undefined" && prebuiltCheat) ? prebuiltCheat : [];
+            hit = pre.find(r =>
+                (typeof namesMatch === "function")
+                    ? namesMatch(r.name_adjusted || r.player_name || r.name || "", playerName)
+                    : false
+            );
+        } catch (e) {}
+        return hit || null;
+    }
 
+    function lookupOutrightBetTagForPlayer(playerName) {
+        try {
+            const row = lookupCheatSheetRow(playerName);
+            if (row) {
+                if (row.outrightTag && row.outrightTag !== "—" && row.outrightCls) {
+                    return {
+                        tag: row.outrightTag,
+                        cls: row.outrightCls,
+                        tip: row.outrightTip || "",
+                        tally: row.outrightTally,
+                    };
+                }
+                const o = computeOutrightBetTag(row);
+                try {
+                    row.outrightTag = o.tag;
+                    row.outrightCls = o.cls;
+                    row.outrightTip = o.tip;
+                    row.outrightTally = o.tally;
+                } catch (e) {}
+                return o;
+            }
+            return computeOutrightBetTag({ name: playerName });
+        } catch (e) {
+            return { tag: "—", cls: "obtag-none", tip: "", tally: 0 };
+        }
+    }
 
+    function isWinMarketKey(m) {
+        const s = String(m || "").toLowerCase().replace(/[\s-]+/g, "_");
+        return s === "win" || s === "outright" || s === "winner" || s === "to_win";
+    }
 
-    
-    
     function americanToImplied(odds) {
         if (odds == null || odds === "" || odds === "N/A" || odds === "—") return null;
         let s = String(odds).trim().replace(/^\+/, "");
@@ -19128,6 +20033,15 @@ function getCutStreakFromLogs(playerName) {
     function bindCheatSheetFilters() {
         if (window._csheetFilterBound) return;
         window._csheetFilterBound = true;
+        // Multi-select state (OR within each filter, AND across filters)
+        if (!window._csheetMultiFilters) {
+            window._csheetMultiFilters = {
+                dataTag: new Set(),
+                outright: new Set(),
+                ties: new Set(),
+                tier: new Set(),
+            };
+        }
         const run = () => {
             try {
                 if (typeof renderCheatSheet === "function") renderCheatSheet();
@@ -19138,72 +20052,217 @@ function getCutStreakFromLogs(playerName) {
         document.addEventListener("input", (e) => {
             if (e.target && e.target.id === "csheet-search") run();
         }, true);
-        document.addEventListener("change", (e) => {
-            if (!e.target) return;
-            if (e.target.id === "csheet-data-tag-filter" || e.target.id === "csheet-outright-filter" || e.target.id === "csheet-ties-filter" || e.target.id === "csheet-search") run();
+        // Close multi-select panels on outside click
+        document.addEventListener("click", (e) => {
+            try {
+                if (e.target && e.target.closest && e.target.closest(".cs-ms")) return;
+                document.querySelectorAll(".cs-ms-panel").forEach(p => p.classList.add("hidden"));
+            } catch (err) {}
         }, true);
-        console.log("[hub] cheat sheet filters bound (delegated)");
+        console.log("[hub] cheat sheet multi-filters bound");
     }
 
+    function csGetMultiFilters() {
+        if (!window._csheetMultiFilters) {
+            window._csheetMultiFilters = {
+                dataTag: new Set(),
+                outright: new Set(),
+                ties: new Set(),
+                tier: new Set(),
+            };
+        }
+        return window._csheetMultiFilters;
+    }
 
-    
+    /** Salary tier by DFS price (DK-style). */
+    function csSalaryTierKey(salary) {
+        let n = Number(salary);
+        if (isNaN(n) || n <= 0) {
+            const s = String(salary == null ? "" : salary).replace(/[^0-9.]/g, "");
+            n = Number(s);
+        }
+        if (!n || isNaN(n) || n <= 0) return null;
+        if (n >= 9000) return "high";
+        if (n >= 8000) return "mid";
+        if (n >= 7000) return "low";
+        return "value";
+    }
+
+    const CS_TIER_META = {
+        high:  { key: "high",  label: "High Tier (Favorites)",  tip: "$9,000+" },
+        mid:   { key: "mid",   label: "Mid Tier (Darkhorses)", tip: "$8,000–$8,900" },
+        low:   { key: "low",   label: "Low Tier (Sleepers)",   tip: "$7,000–$7,900" },
+        value: { key: "value", label: "Values",               tip: "Under $7,000" },
+    };
+    const CS_TIER_ORDER = ["high", "mid", "low", "value"];
+
+    function toggleCsMultiFilter(key, ev) {
+        if (ev) { try { ev.stopPropagation(); ev.preventDefault(); } catch (e) {} }
+        const panel = document.getElementById("cs-ms-panel-" + key);
+        if (!panel) return;
+        const open = !panel.classList.contains("hidden");
+        document.querySelectorAll(".cs-ms-panel").forEach(p => p.classList.add("hidden"));
+        if (!open) panel.classList.remove("hidden");
+    }
+    window.toggleCsMultiFilter = toggleCsMultiFilter;
+
+    function clearCsMultiFilter(key, ev) {
+        if (ev) { try { ev.stopPropagation(); ev.preventDefault(); } catch (e) {} }
+        const f = csGetMultiFilters();
+        if (f[key]) f[key].clear();
+        try { refreshCheatSheetFilterOptions(true); } catch (e) {}
+        try { renderCheatSheet(); } catch (e) {}
+    }
+    window.clearCsMultiFilter = clearCsMultiFilter;
+
+    function onCsMultiOptChange(key, value, checked) {
+        const f = csGetMultiFilters();
+        if (!f[key]) f[key] = new Set();
+        if (checked) f[key].add(value);
+        else f[key].delete(value);
+        updateCsMultiButton(key);
+        try { renderCheatSheet(); } catch (e) {}
+    }
+    window.onCsMultiOptChange = onCsMultiOptChange;
+
+    function updateCsMultiButton(key) {
+        const f = csGetMultiFilters();
+        const set = f[key] || new Set();
+        const n = set.size;
+        const btn = document.getElementById("cs-ms-btn-" + key);
+        const countEl = document.getElementById("cs-ms-count-" + key);
+        const labelEl = document.getElementById("cs-ms-label-" + key);
+        const defaults = {
+            dataTag: "Data Tags",
+            outright: "Bet Tags",
+            ties: "Local Ties",
+            tier: "Tier",
+        };
+        if (btn) btn.classList.toggle("has-sel", n > 0);
+        if (countEl) countEl.textContent = String(n);
+        if (labelEl) {
+            if (n === 0) labelEl.textContent = defaults[key] || key;
+            else if (n === 1) {
+                const only = [...set][0];
+                if (key === "tier" && CS_TIER_META[only]) labelEl.textContent = CS_TIER_META[only].label;
+                else labelEl.textContent = only;
+            } else {
+                labelEl.textContent = (defaults[key] || key) + " · " + n;
+            }
+        }
+    }
+
+    function fillCsMultiPanel(key, options, selectedSet) {
+        // options: [{value, label, count, tip?}]
+        const panel = document.getElementById("cs-ms-panel-" + key);
+        if (!panel) return;
+        const esc = (s) => {
+            const t = String(s == null ? "" : s);
+            return t.split("&").join("&"+"amp;").split("<").join("&"+"lt;").split('"').join("&"+"quot;");
+        };
+        if (!options.length) {
+            panel.innerHTML = '<div class="cs-ms-empty">No options yet</div>';
+            updateCsMultiButton(key);
+            return;
+        }
+        let html = '<div class="cs-ms-actions">'
+            + '<button type="button" onclick="clearCsMultiFilter(\'' + key + '\', event)">Clear</button>'
+            + '<span class="text-[10px] text-slate-400">Multi-select</span>'
+            + '</div>';
+        options.forEach(opt => {
+            const val = String(opt.value);
+            const checked = selectedSet && selectedSet.has(val) ? " checked" : "";
+            const tip = opt.tip ? ' title="' + esc(opt.tip) + '"' : "";
+            html += '<label class="cs-ms-opt"' + tip + '>'
+                + '<input type="checkbox" value="' + esc(val) + '"' + checked
+                + ' onchange="onCsMultiOptChange(\'' + key + '\', this.value, this.checked)">'
+                + '<span>' + esc(opt.label) + '</span>'
+                + (opt.count != null ? '<span class="cs-ms-opt-count">' + opt.count + '</span>' : '')
+                + '</label>';
+        });
+        panel.innerHTML = html;
+        updateCsMultiButton(key);
+    }
+
     function refreshCheatSheetFilterOptions(force) {
-        const tagSel = document.getElementById("csheet-data-tag-filter");
-        const obSel = document.getElementById("csheet-outright-filter");
-        const tiesSel = document.getElementById("csheet-ties-filter");
-        if (!tagSel && !obSel && !tiesSel) return;
-        const escOpt = (s) => String(s == null ? "" : s).split(String.fromCharCode(34)).join("");
-        const tagSet = [...new Set((cheatRows || []).map(r => r.dataTag).filter(Boolean))];
-        const sig = tagSet.slice().sort().join("|");
-        if (!force && window._csheetTagSig === sig && tagSel && tagSel.options.length > 1) {
-            // still refresh ties counts below
-        } else {
-            window._csheetTagSig = sig;
+        const f = csGetMultiFilters();
+        const rows = cheatRows || [];
+        if (!rows.length && !force) {
+            // still ensure empty panels exist
         }
 
-        if (tagSel) {
-            const prev = tagSel.value;
+        // --- Data Tags ---
+        {
             const order = ["Core Play","High Exposure","Mid Exposure","Low Exposure","Lower Exposure","Fade"];
-            tagSet.sort((a,b) => (order.indexOf(a) < 0 ? 99 : order.indexOf(a)) - (order.indexOf(b) < 0 ? 99 : order.indexOf(b)));
             const counts = {};
-            (cheatRows || []).forEach(r => { if (r.dataTag) counts[r.dataTag] = (counts[r.dataTag] || 0) + 1; });
-            tagSel.innerHTML = '<option value="">All Data Tags</option>' +
-                tagSet.map(lab => '<option value="' + escOpt(lab) + '">' + lab + ' (' + (counts[lab]||0) + ')</option>').join("");
-            if ([...tagSel.options].some(o => o.value === prev)) tagSel.value = prev;
-        }
-        if (obSel) {
-            const prev = obSel.value;
-            const tags = [...new Set((cheatRows || []).map(r => r.outrightTag).filter(lab => lab && lab !== "-" && lab !== "\u2014"))].sort();
-            const counts = {};
-            (cheatRows || []).forEach(r => {
-                const lab = r.outrightTag;
-                if (lab && lab !== "-" && lab !== "\u2014") counts[lab] = (counts[lab] || 0) + 1;
+            rows.forEach(r => {
+                const lab = String(r.dataTag || "").trim();
+                if (lab) counts[lab] = (counts[lab] || 0) + 1;
             });
-            obSel.innerHTML = '<option value="">All Outright Tags</option>' +
-                tags.map(lab => '<option value="' + escOpt(lab) + '">' + lab + ' (' + (counts[lab]||0) + ')</option>').join("");
-            if ([...obSel.options].some(o => o.value === prev)) obSel.value = prev;
+            const labs = Object.keys(counts).sort((a,b) => {
+                const ia = order.indexOf(a), ib = order.indexOf(b);
+                return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+            });
+            fillCsMultiPanel("dataTag",
+                labs.map(lab => ({ value: lab, label: lab, count: counts[lab] })),
+                f.dataTag);
         }
-        if (tiesSel) {
-            const prev = tiesSel.value;
+
+        // --- Outright / Bet Tags ---
+        {
+            const counts = {};
+            rows.forEach(r => {
+                const lab = String(r.outrightTag || "").trim();
+                if (lab && lab !== "-" && lab !== "—" && lab !== "–") counts[lab] = (counts[lab] || 0) + 1;
+            });
+            const order = ["Outright", "Viable Outright", "Longshot Only"];
+            const labs = Object.keys(counts).sort((a,b) => {
+                const ia = order.indexOf(a), ib = order.indexOf(b);
+                return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+            });
+            fillCsMultiPanel("outright",
+                labs.map(lab => ({ value: lab, label: lab, count: counts[lab] })),
+                f.outright);
+        }
+
+        // --- Local Ties ---
+        {
             const order = ["Extremely Likely", "Very Likely", "Likely", "Possible"];
             const counts = {};
             let any = 0;
-            (cheatRows || []).forEach(r => {
+            rows.forEach(r => {
                 const lab = String(r.localTies || "").trim();
                 if (order.includes(lab)) {
                     counts[lab] = (counts[lab] || 0) + 1;
                     any++;
                 }
             });
-            tiesSel.innerHTML =
-                '<option value="">All Local Ties</option>' +
-                '<option value="any">Any Local Tie (' + any + ')</option>' +
-                order.map(lab => '<option value="' + escOpt(lab) + '">' + lab + ' (' + (counts[lab] || 0) + ')</option>').join("");
-            if ([...tiesSel.options].some(o => o.value === prev)) tiesSel.value = prev;
+            const opts = [
+                { value: "any", label: "Any Local Tie", count: any, tip: "Any of Extremely / Very / Likely / Possible" },
+            ].concat(order.map(lab => ({
+                value: lab, label: lab, count: counts[lab] || 0
+            })));
+            fillCsMultiPanel("ties", opts, f.ties);
+        }
+
+        // --- Salary Tier ---
+        {
+            const counts = { high: 0, mid: 0, low: 0, value: 0 };
+            rows.forEach(r => {
+                const k = csSalaryTierKey(r.salary);
+                if (k && counts[k] != null) counts[k]++;
+            });
+            const opts = CS_TIER_ORDER.map(k => ({
+                value: k,
+                label: CS_TIER_META[k].label,
+                count: counts[k] || 0,
+                tip: CS_TIER_META[k].tip,
+            }));
+            fillCsMultiPanel("tier", opts, f.tier);
         }
     }
 
-    function renderCheatSheet() {
+function renderCheatSheet() {
         try { bindCheatSheetFilters(); } catch (e) {}
         try { updateCourseHistoryYearHeaders(cheatRows); } catch (e) {}
         try { renderCheatSheetWeather(); } catch (e) {}
@@ -19246,9 +20305,11 @@ function getCutStreakFromLogs(playerName) {
         } catch (e) {}
 
         const search = (document.getElementById("csheet-search")?.value || "").trim().toLowerCase();
-        const tagFilt = (document.getElementById("csheet-data-tag-filter")?.value || "").trim();
-        const obFilt = (document.getElementById("csheet-outright-filter")?.value || "").trim();
-        const tiesFilt = (document.getElementById("csheet-ties-filter")?.value || "").trim();
+        const multi = (typeof csGetMultiFilters === "function") ? csGetMultiFilters() : { dataTag: new Set(), outright: new Set(), ties: new Set(), tier: new Set() };
+        const tagSel = multi.dataTag || new Set();
+        const obSel = multi.outright || new Set();
+        const tiesSel = multi.ties || new Set();
+        const tierSel = multi.tier || new Set();
         const tbody = document.getElementById("csheet-body");
         if (!tbody) { console.warn("csheet-body missing"); return; }
 
@@ -19274,31 +20335,43 @@ function getCutStreakFromLogs(playerName) {
                 return n1.includes(search) || n2.includes(search) || n3.includes(search);
             });
         }
-        if (tagFilt) {
-            rows = rows.filter(r => {
-                const t = String(r.dataTag || "").trim();
-                return t.toLowerCase() === tagFilt.toLowerCase();
-            });
+        // Multi-select: OR within each dropdown, AND across dropdowns
+        if (tagSel.size) {
+            const want = new Set([...tagSel].map(x => String(x).toLowerCase()));
+            rows = rows.filter(r => want.has(String(r.dataTag || "").trim().toLowerCase()));
         }
-        if (obFilt) {
-            rows = rows.filter(r => {
-                const t = String(r.outrightTag || "").trim();
-                return t.toLowerCase() === obFilt.toLowerCase();
-            });
+        if (obSel.size) {
+            const want = new Set([...obSel].map(x => String(x).toLowerCase()));
+            rows = rows.filter(r => want.has(String(r.outrightTag || "").trim().toLowerCase()));
         }
-        if (tiesFilt) {
+        if (tiesSel.size) {
             const meaningful = new Set(["Extremely Likely", "Very Likely", "Likely", "Possible"]);
+            const wantAny = tiesSel.has("any");
+            const wantLabs = new Set([...tiesSel].filter(x => x !== "any").map(x => String(x).toLowerCase()));
             rows = rows.filter(r => {
                 const t = String(r.localTies || "").trim();
-                if (tiesFilt === "any") return meaningful.has(t);
-                return t.toLowerCase() === tiesFilt.toLowerCase();
+                if (wantAny && meaningful.has(t)) return true;
+                if (wantLabs.size && wantLabs.has(t.toLowerCase())) return true;
+                return false;
+            });
+        }
+        if (tierSel.size) {
+            rows = rows.filter(r => {
+                const k = (typeof csSalaryTierKey === "function") ? csSalaryTierKey(r.salary) : null;
+                return k && tierSel.has(k);
             });
         }
 
-        
-        // Debug + ensure count always reflects filter
         try {
-            console.log("[csheet filter]", { search, tagFilt, obFilt, tiesFilt, before: (cheatRows||[]).length, after: rows.length, sampleTag: rows[0] && rows[0].dataTag });
+            console.log("[csheet filter]", {
+                search,
+                dataTag: [...tagSel],
+                outright: [...obSel],
+                ties: [...tiesSel],
+                tier: [...tierSel],
+                before: (cheatRows||[]).length,
+                after: rows.length,
+            });
         } catch (e) {}
 
         // Default / user sort — 925 best-first
@@ -23666,6 +24739,22 @@ function propEdgeForSide(row, sideKey) {
                     if (cm && cm.has(kk)) cmRank = cm.get(kk).rank;
                 } catch (e) {}
 
+                // Win market: attach Cheat Sheet Bet Tag (Outright / Viable / Longshot)
+                let outrightTag = null, outrightCls = null, outrightTip = null, outrightTally = null;
+                if (typeof isWinMarketKey === "function" ? isWinMarketKey(market) : (market === "win")) {
+                    try {
+                        const ot = (typeof lookupOutrightBetTagForPlayer === "function")
+                            ? lookupOutrightBetTagForPlayer(name)
+                            : null;
+                        if (ot) {
+                            outrightTag = ot.tag;
+                            outrightCls = ot.cls;
+                            outrightTip = ot.tip;
+                            outrightTally = ot.tally;
+                        }
+                    } catch (e) {}
+                }
+
                 board.push({
                     name, rank, edge, noVig, modelProb, evPct,
                     modelOdds: modelOddsStr,
@@ -23673,7 +24762,8 @@ function propEdgeForSide(row, sideKey) {
                     bestBook, bestAmerican, avg, books,
                     favoriteDec, // for sorting favorites first
                     bestDec,
-                    dk: books.DK, fd: books.FD, b365: books.B365
+                    dk: books.DK, fd: books.FD, b365: books.B365,
+                    outrightTag, outrightCls, outrightTip, outrightTally,
                 });
             });
 
@@ -23759,10 +24849,16 @@ function propEdgeForSide(row, sideKey) {
                 const r925s = r.r925 != null ? r.r925 : "—";
                 const cms = r.cmRank != null ? r.cmRank : "—";
                 const rowBg = r.edge != null && r.edge >= 1.5 ? "bg-emerald-50/50" : "";
+                const betTagHtml = (r.outrightTag && r.outrightTag !== "—" && r.outrightTag !== "–")
+                    ? `<div class="ob-tag ${r.outrightCls || ""}" title="${typeof escAttr === "function" ? escAttr(r.outrightTip || r.outrightTag || "") : String(r.outrightTip || r.outrightTag || "")}">${r.outrightTag}</div>`
+                    : "";
                 return `<tr class="hover:bg-slate-50 cursor-pointer ${rowBg}" onclick="openPlayerModal('${safe}', 0)" title="${src !== "—" ? ("Projection: " + src) : "Run Custom Model or open Cheat Sheet for 925"}">
                     <td class="px-3 py-2 sticky left-0 bg-white">
                         <div class="flex items-center gap-2">${typeof headshotHtml==="function"?headshotHtml(r.name,26):""}
-                            <span class="font-medium text-slate-900 whitespace-nowrap">${r.name}</span>
+                            <div class="min-w-0 leading-tight">
+                                <span class="font-medium text-slate-900 whitespace-nowrap">${r.name}</span>
+                                ${betTagHtml}
+                            </div>
                         </div>
                     </td>
                     <td class="px-2 py-2 text-center"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs font-bold ${rankCls}">${rankStr}</span></td>
@@ -24878,7 +25974,7 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
             {
                 section: "Cheat Sheet",
                 title: "Filters — tags, outrights, local ties",
-                target: "[data-tour='cs-filters'], #csheet-data-tag-filter",
+                target: "[data-tour='cs-filters'], .cs-ms, #cs-ms-btn-dataTag",
                 before: () => { goFantasy(5); },
                 body: `
                     <p>Three filters narrow the board without losing context:</p>
@@ -24970,7 +26066,7 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
                     <p>Player <b>Betting</b> expands every market × sportsbook:</p>
                     <ul>
                         <li>Filter by <b>market</b> (Win, Top 5/10/20), <b>book</b>, and <b>American vs non-American</b> books.</li>
-                        <li><b>Model %</b> / <b>Edge</b> / <b>+EV</b> use 925 rank buckets vs book implied probability.</li>
+                        <li><b>Mkt %</b> / <b>Edge</b> / <b>+EV</b> compare each book to the average of real book lines (not a model rank).</li>
                         <li><b>+EV only</b> hides non-positive prices.</li>
                     </ul>
                     <p class="mt-2">Open Cheat Sheet once so ranks exist — otherwise Model % may be blank.</p>`
@@ -25251,20 +26347,53 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
         window.removeEventListener("scroll", hubTourReposition, true);
     }
 
+    function hubTourEnsureDom() {
+        let root = document.getElementById("hub-tour-root");
+        if (root) return root;
+        // Fallback if markup was stripped — rebuild minimal overlay
+        root = document.createElement("div");
+        root.id = "hub-tour-root";
+        root.className = "hidden";
+        root.setAttribute("role", "dialog");
+        root.setAttribute("aria-modal", "true");
+        root.innerHTML = [
+            '<div id="hub-tour-spotlight" class="tour-center" aria-hidden="true"></div>',
+            '<div id="hub-tour-card">',
+            '  <div id="hub-tour-progress-track" aria-hidden="true"><div id="hub-tour-progress"></div></div>',
+            '  <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start">',
+            '    <div><div id="hub-tour-kicker" style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#2563eb">Walkthrough</div>',
+            '    <h3 id="hub-tour-title" style="margin:.15rem 0 0;font-size:16px;font-weight:600;color:#0f172a">Welcome</h3></div>',
+            '    <div style="display:flex;gap:8px;align-items:center"><span id="hub-tour-stepnum" style="font-size:11px;color:#94a3b8"></span>',
+            '    <button type="button" id="hub-tour-skip" onclick="hubTourEnd()" style="font-size:11px;font-weight:600;color:#64748b;background:none;border:0;cursor:pointer">Skip</button></div>',
+            '  </div>',
+            '  <div id="hub-tour-body"></div>',
+            '  <div style="display:flex;justify-content:space-between;gap:8px;padding-top:8px;border-top:1px solid #f1f5f9">',
+            '    <button type="button" id="hub-tour-prev" onclick="hubTourPrev()" style="padding:6px 12px;border-radius:8px;font-size:12px;font-weight:600;border:1px solid #e2e8f0;background:#fff;cursor:pointer">Back</button>',
+            '    <button type="button" id="hub-tour-next" onclick="hubTourNext()" style="padding:6px 14px;border-radius:8px;font-size:12px;font-weight:600;border:0;background:#2563eb;color:#fff;cursor:pointer">Next</button>',
+            '  </div>',
+            '</div>'
+        ].join("");
+        document.body.appendChild(root);
+        return root;
+    }
+
     function hubTourStart(at) {
-        window._hubTourActive = true;
-        window._hubTourIdx = Math.max(0, at || 0);
-        document.body.classList.add("hub-tour-on");
-        const root = document.getElementById("hub-tour-root");
-        if (root) {
+        try {
+            const root = hubTourEnsureDom();
+            window._hubTourActive = true;
+            window._hubTourIdx = Math.max(0, Number(at) || 0);
+            document.body.classList.add("hub-tour-on");
             root.classList.remove("hidden");
             root.classList.add("tour-active");
             // Keep tour DOM last so it paints above any sticky/stacking contexts
             try { document.body.appendChild(root); } catch (e) {}
+            window.addEventListener("resize", hubTourReposition);
+            window.addEventListener("scroll", hubTourReposition, true);
+            hubTourRender();
+        } catch (e) {
+            console.error("hubTourStart failed", e);
+            try { alert("Could not open the guide. Refresh and try again."); } catch (e2) {}
         }
-        window.addEventListener("resize", hubTourReposition);
-        window.addEventListener("scroll", hubTourReposition, true);
-        hubTourRender();
     }
 
     function hubTourNext() {
@@ -25431,6 +26560,13 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
         }
     } catch (e) {}
 
+
+    window.hubTourStart = hubTourStart;
+    window.hubTourEnd = hubTourEnd;
+    window.hubTourNext = hubTourNext;
+    window.hubTourPrev = hubTourPrev;
+    window.hubTourEnsureDom = hubTourEnsureDom;
+
     // Keyboard: arrows + Esc
     document.addEventListener("keydown", (ev) => {
         if (!window._hubTourActive) return;
@@ -25444,6 +26580,33 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
 
 
 </script>
+
+
+<!-- Guided walkthrough overlay -->
+<div id="hub-tour-root" class="hidden" aria-live="polite" role="dialog" aria-modal="true" aria-labelledby="hub-tour-title">
+    <div id="hub-tour-spotlight" class="tour-center" aria-hidden="true"></div>
+    <div id="hub-tour-card">
+        <div id="hub-tour-progress-track" aria-hidden="true"><div id="hub-tour-progress"></div></div>
+        <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+                <div id="hub-tour-kicker" class="text-[10px] font-bold uppercase tracking-wider text-blue-600">Walkthrough</div>
+                <h3 id="hub-tour-title" class="text-base font-semibold text-slate-900 mt-0.5 leading-snug">Welcome</h3>
+            </div>
+            <div class="flex items-center gap-2 flex-shrink-0">
+                <span id="hub-tour-stepnum" class="text-[11px] font-semibold text-slate-400 tabular-nums">1 / 1</span>
+                <button type="button" id="hub-tour-skip" onclick="hubTourEnd()" class="text-[11px] font-semibold text-slate-500 hover:text-slate-800 px-1.5 py-1 rounded hover:bg-slate-100">Skip</button>
+            </div>
+        </div>
+        <div id="hub-tour-body"></div>
+        <div class="flex items-center justify-between gap-2 pt-1 border-t border-slate-100">
+            <button type="button" id="hub-tour-prev" onclick="hubTourPrev()" class="px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50 disabled:opacity-40 disabled:pointer-events-none">Back</button>
+            <button type="button" id="hub-tour-next" onclick="hubTourNext()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 shadow-sm">Next</button>
+        </div>
+    </div>
+</div>
+<button type="button" id="hub-tour-fab" class="hidden items-center gap-2 px-3.5 py-2.5 rounded-full bg-blue-600 text-white text-xs font-semibold shadow-lg hover:bg-blue-700 border border-blue-500" onclick="hubTourStart(0)" title="Open hub walkthrough">
+    <span aria-hidden="true">?</span> Guide
+</button>
 
 </body>
 </html>
