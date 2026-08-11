@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-08-10-cs-multi-filters -->
+<!-- 925-HUB-VERSION: 2026-08-11-cs-colors-blog-mode -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -145,6 +145,189 @@
             #player-modal .modal-chrome-stats .text-xs.uppercase { margin-bottom: 4px; }
         }
         /* Data tags (cheat sheet exposure labels) */
+        /* DFS Blog / Player Summary — larger, more readable type + collapsible tiers */
+        .blog-wrap { max-width: 980px; margin: 0 auto; color: #1e293b; }
+        .blog-hero { margin-bottom: 1.35rem; }
+        .blog-hero h2 { font-size: 1.65rem; line-height: 1.25; }
+        .blog-hero p { font-size: 0.95rem; line-height: 1.55; color: #475569; }
+        .blog-mode-btn {
+            font-size: 0.8rem; font-weight: 600; padding: 0.45rem 0.85rem;
+            border-radius: 0.5rem; border: 1px solid #e2e8f0; background: #fff; color: #475569;
+            cursor: pointer;
+        }
+        .blog-mode-btn.active { background: #1d4ed8; color: #fff; border-color: #1d4ed8; }
+        .blog-tier {
+            margin-bottom: 1.35rem; border: 1px solid #e2e8f0; border-radius: 1rem;
+            overflow: hidden; background: #fff;
+            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+        }
+        .blog-tier-head {
+            padding: 1rem 1.2rem;
+            background: linear-gradient(180deg, #f8fafc 0%, #fff 100%);
+            cursor: pointer; user-select: none;
+            display: flex; flex-direction: column; gap: 0.3rem;
+            transition: background 0.15s ease;
+        }
+        .blog-tier-head:hover { background: #f1f5f9; }
+        .blog-tier-head-row {
+            display: flex; align-items: center; gap: 0.55rem; width: 100%;
+        }
+        .blog-tier-chev {
+            flex-shrink: 0; width: 1.35rem; height: 1.35rem;
+            display: inline-flex; align-items: center; justify-content: center;
+            border-radius: 0.35rem; background: #e2e8f0; color: #334155;
+            font-size: 0.7rem; font-weight: 800; line-height: 1;
+            transition: transform 0.15s ease, background 0.15s ease;
+        }
+        .blog-tier.collapsed .blog-tier-chev { transform: rotate(-90deg); background: #cbd5e1; }
+        .blog-tier-head h3 {
+            font-size: 1.2rem; font-weight: 800; letter-spacing: 0.01em;
+            color: #0f172a; margin: 0; flex: 1; line-height: 1.3;
+        }
+        .blog-tier-def {
+            margin: 0.15rem 0 0 1.9rem; font-size: 0.92rem; color: #475569; line-height: 1.55;
+            max-width: 52rem;
+        }
+        .blog-tier.collapsed .blog-tier-def { display: none; }
+        .blog-tier.collapsed .blog-tier-head { border-bottom: 0; }
+        .blog-tier-count {
+            display: inline-flex; margin-left: 0.35rem; font-size: 0.72rem; font-weight: 700;
+            padding: 0.15rem 0.5rem; border-radius: 999px; background: #e2e8f0; color: #334155;
+            vertical-align: middle;
+        }
+        .blog-tier-toggle-hint {
+            margin-left: auto; font-size: 0.72rem; font-weight: 600; color: #64748b;
+            white-space: nowrap;
+        }
+        .blog-tier-body { border-top: 1px solid #e2e8f0; }
+        .blog-tier.collapsed .blog-tier-body { display: none; }
+        .blog-player {
+            padding: 1.25rem 1.35rem; border-bottom: 1px solid #f1f5f9;
+        }
+        .blog-player:last-child { border-bottom: 0; }
+        .blog-player-head {
+            display: flex; flex-wrap: nowrap; align-items: flex-start; gap: 0.75rem 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+        .blog-player-shot {
+            flex-shrink: 0; width: 56px; height: 56px; border-radius: 999px;
+            overflow: hidden; background: #e2e8f0;
+            border: 2px solid #e2e8f0;
+            box-shadow: 0 1px 2px rgba(15,23,42,0.06);
+        }
+        .blog-player-shot img {
+            width: 100%; height: 100%; object-fit: cover; display: block;
+        }
+        .blog-player-shot .blog-shot-ph {
+            width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+            font-weight: 800; font-size: 1.15rem; color: #64748b; background: #f1f5f9;
+        }
+        .blog-player-name {
+            font-size: 1.2rem; font-weight: 800; color: #0f172a; cursor: pointer;
+            line-height: 1.3;
+        }
+        .blog-player-name:hover { color: #1d4ed8; }
+        .blog-meta {
+            font-size: 0.95rem; color: #475569; font-variant-numeric: tabular-nums;
+            line-height: 1.45; margin-top: 0.15rem;
+        }
+        .blog-sec { margin-top: 0.85rem; padding-left: 0.1rem; }
+        .blog-sec-title {
+            display: inline-block;
+            font-size: 0.8rem; font-weight: 800; letter-spacing: 0.05em;
+            text-transform: uppercase; color: #1e293b; margin-bottom: 0.4rem;
+            padding: 0.28rem 0.65rem; border-radius: 0.4rem;
+            background: #f1f5f9; line-height: 1.3;
+        }
+        .blog-sec-title.blog-h-ch {
+            background: #e2e8f0; color: #334155; /* light grey */
+        }
+        .blog-sec-title.blog-h-rf {
+            background: #fef08a; color: #713f12; /* yellow */
+        }
+        .blog-sec-title.blog-h-sf {
+            background: #e9d5ff; color: #5b21b6; /* purple */
+        }
+        .blog-sec-title.blog-h-sp {
+            background: #bbf7d0; color: #14532d; /* green */
+        }
+        .blog-sec-title.blog-h-ob {
+            background: #dbeafe; color: #1e3a8a; /* blue — outright */
+        }
+        .blog-ob-callout {
+            margin-top: 0.45rem; padding: 0.55rem 0.75rem; border-radius: 0.55rem;
+            background: #eff6ff; border: 1px solid #bfdbfe;
+            font-size: 0.92rem; line-height: 1.5; color: #1e3a8a;
+        }
+        .blog-ob-edge-pos { color: #047857; font-weight: 700; }
+        .blog-ob-edge-neg { color: #b91c1c; font-weight: 700; }
+        .blog-ob-edge-flat { color: #475569; font-weight: 700; }
+        .blog-sec ul {
+            margin: 0; padding-left: 1.2rem; font-size: 0.98rem; color: #1e293b; line-height: 1.6;
+        }
+        .blog-sec ul ul {
+            margin-top: 0.2rem; padding-left: 1.05rem; color: #475569; font-size: 0.92rem; line-height: 1.55;
+        }
+        .blog-sec li { margin: 0.12rem 0; }
+        .blog-para {
+            margin-top: 0.9rem; padding: 0.9rem 1rem; border-radius: 0.7rem;
+            background: #f8fafc; border: 1px solid #e2e8f0;
+            font-size: 0.98rem; line-height: 1.65; color: #1e293b;
+        }
+        .blog-empty {
+            padding: 1.5rem; text-align: center; color: #64748b; font-size: 0.95rem;
+        }
+        .blog-tier.tag-core .blog-tier-head { border-left: 4px solid #1d4ed8; }
+        .blog-tier.tag-high .blog-tier-head { border-left: 4px solid #2563eb; }
+        .blog-tier.tag-mid .blog-tier-head { border-left: 4px solid #0ea5e9; }
+        .blog-tier.tag-low .blog-tier-head { border-left: 4px solid #64748b; }
+        .blog-tier.tag-lower .blog-tier-head { border-left: 4px solid #94a3b8; }
+        .blog-tier.tag-fade .blog-tier-head { border-left: 4px solid #f87171; }
+        .blog-tier.obtag-strong .blog-tier-head { border-left: 4px solid #059669; }
+        .blog-tier.obtag-viable .blog-tier-head { border-left: 4px solid #10b981; }
+        .blog-tier.obtag-long .blog-tier-head { border-left: 4px solid #f59e0b; }
+        .blog-toolbar {
+            display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+            margin-bottom: 1rem;
+        }
+        .blog-collapse-tools {
+            display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        .blog-collapse-tools button {
+            font-size: 0.75rem; font-weight: 600; padding: 0.3rem 0.65rem;
+            border-radius: 0.45rem; border: 1px solid #e2e8f0; background: #fff;
+            color: #475569; cursor: pointer;
+        }
+        .blog-collapse-tools button:hover { background: #f8fafc; border-color: #cbd5e1; }
+
+
+        /* Force CS header TEXT colors only (dark bg preserved — subtle) */
+        #csheet-table.modern-table thead tr.cs-head-1 > th.cs-h-rf {
+            background:#1e293b !important; background-color:#1e293b !important;
+            color:#fde047 !important; font-weight:800 !important;
+        }
+        #csheet-table.modern-table thead tr.cs-head-2 > th.cs-h-rf {
+            background:#0f172a !important; background-color:#0f172a !important;
+            color:#facc15 !important; font-weight:700 !important;
+        }
+        #csheet-table.modern-table thead tr.cs-head-1 > th.cs-h-ks {
+            background:#1e293b !important; background-color:#1e293b !important;
+            color:#d8b4fe !important; font-weight:800 !important;
+        }
+        #csheet-table.modern-table thead tr.cs-head-2 > th.cs-h-ks {
+            background:#0f172a !important; background-color:#0f172a !important;
+            color:#c084fc !important; font-weight:700 !important;
+        }
+        #csheet-table.modern-table thead tr.cs-head-1 > th.cs-h-sp {
+            background:#1e293b !important; background-color:#1e293b !important;
+            color:#86efac !important; font-weight:800 !important;
+        }
+        #csheet-table.modern-table thead tr.cs-head-2 > th.cs-h-sp {
+            background:#0f172a !important; background-color:#0f172a !important;
+            color:#4ade80 !important; font-weight:700 !important;
+        }
+
         /* Cheat Sheet multi-select filters */
         .cs-ms { position: relative; display: inline-block; }
         .cs-ms-btn {
@@ -418,9 +601,72 @@
             text-transform: uppercase;
         }
         #csheet-table tbody td.cs-g-ch { background-color: rgba(59, 130, 246, 0.04) !important; }
-        #csheet-table tbody td.cs-g-rf { background-color: rgba(16, 185, 129, 0.04) !important; }
+        #csheet-table tbody td.cs-g-rf { background-color: rgba(250, 204, 21, 0.06) !important; }
         #csheet-table tbody td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.04) !important; }
+        #csheet-table tbody td.cs-g-ks { background-color: rgba(168, 85, 247, 0.05) !important; }
+        #csheet-table tbody td.cs-g-sp { background-color: rgba(34, 197, 94, 0.06) !important; }
         #csheet-table tbody td.cs-g-proj { background-color: rgba(139, 92, 246, 0.04) !important; }
+
+        /* Cheat Sheet header TEXT colors only (subtle) — RF yellow · KS purple · SPEC green
+           Keep dark slate header background; do NOT paint the column cells. */
+        #csheet-table thead tr.cs-head-1 th.cs-h-rf,
+        #csheet-table thead tr.cs-head-2 th.cs-h-rf,
+        #csheet-table thead tr:first-child th.cs-h-rf.cs-sec {
+            background: #1e293b !important;
+            background-color: #1e293b !important;
+            color: #fde047 !important; /* soft yellow text */
+            border-color: #475569 !important;
+            letter-spacing: 0.04em;
+            font-weight: 800 !important;
+            text-transform: uppercase;
+        }
+        #csheet-table thead tr.cs-head-2 th.cs-h-rf {
+            background-color: #0f172a !important;
+            color: #facc15 !important;
+            text-transform: none;
+            font-weight: 700 !important;
+            letter-spacing: 0.02em;
+        }
+        #csheet-table thead tr.cs-head-1 th.cs-h-ks,
+        #csheet-table thead tr.cs-head-2 th.cs-h-ks,
+        #csheet-table thead tr:first-child th.cs-h-ks.cs-sec {
+            background: #1e293b !important;
+            background-color: #1e293b !important;
+            color: #d8b4fe !important; /* soft purple text */
+            border-color: #475569 !important;
+            letter-spacing: 0.04em;
+            font-weight: 800 !important;
+            text-transform: uppercase;
+        }
+        #csheet-table thead tr.cs-head-2 th.cs-h-ks {
+            background-color: #0f172a !important;
+            color: #c084fc !important;
+            text-transform: none;
+            font-weight: 700 !important;
+            letter-spacing: 0.02em;
+        }
+        #csheet-table thead tr.cs-head-1 th.cs-h-sp,
+        #csheet-table thead tr.cs-head-2 th.cs-h-sp,
+        #csheet-table thead tr:first-child th.cs-h-sp.cs-sec {
+            background: #1e293b !important;
+            background-color: #1e293b !important;
+            color: #86efac !important; /* soft green text */
+            border-color: #475569 !important;
+            letter-spacing: 0.04em;
+            font-weight: 800 !important;
+        }
+        #csheet-table thead tr.cs-head-2 th.cs-h-sp {
+            background-color: #0f172a !important;
+            color: #4ade80 !important;
+            text-transform: none;
+            font-weight: 700 !important;
+            letter-spacing: 0.02em;
+        }
+        #csheet-table thead th.cs-h-rf .cs-sort-ind,
+        #csheet-table thead th.cs-h-ks .cs-sort-ind,
+        #csheet-table thead th.cs-h-sp .cs-sort-ind {
+            color: inherit !important; opacity: 0.8;
+        }
 
         /* Cheat Sheet — sharper, easier-to-read numbers (layout unchanged) */
         #csheet-table {
@@ -455,16 +701,20 @@
             background-color: #f8fafc;
         }
         #csheet-table tbody tr:nth-child(even) > td.cs-g-ch { background-color: rgba(59, 130, 246, 0.075) !important; }
-        #csheet-table tbody tr:nth-child(even) > td.cs-g-rf { background-color: rgba(16, 185, 129, 0.075) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-rf { background-color: rgba(250, 204, 21, 0.10) !important; }
         #csheet-table tbody tr:nth-child(even) > td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.08) !important; }
-        #csheet-table tbody tr:nth-child(even) > td.cs-g-proj { background-color: rgba(139, 92, 246, 0.075) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-ks { background-color: rgba(168, 85, 247, 0.09) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-sp { background-color: rgba(34, 197, 94, 0.10) !important; }
+        #csheet-table tbody tr:nth-child(even) > td.cs-g-proj { background-color: rgba(100, 116, 139, 0.06) !important; }
         #csheet-table tbody tr:hover > td {
             background-color: #eef2f7 !important;
         }
         #csheet-table tbody tr:hover > td.cs-g-ch { background-color: rgba(59, 130, 246, 0.14) !important; }
-        #csheet-table tbody tr:hover > td.cs-g-rf { background-color: rgba(16, 185, 129, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-rf { background-color: rgba(250, 204, 21, 0.16) !important; }
         #csheet-table tbody tr:hover > td.cs-g-mkt { background-color: rgba(245, 158, 11, 0.14) !important; }
-        #csheet-table tbody tr:hover > td.cs-g-proj { background-color: rgba(139, 92, 246, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-ks { background-color: rgba(168, 85, 247, 0.14) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-sp { background-color: rgba(34, 197, 94, 0.16) !important; }
+        #csheet-table tbody tr:hover > td.cs-g-proj { background-color: rgba(100, 116, 139, 0.12) !important; }
         #csheet-table tbody td.sticky {
             color: #020617 !important;
             font-weight: 650;
@@ -1014,15 +1264,18 @@
                 
                     <div class="flex flex-wrap items-center gap-1.5" id="rf-filter-bar">
                         <span class="text-[10px] font-bold uppercase tracking-wide text-slate-400 mr-1">Trend</span>
-                        <button type="button" data-rf-filter="all" onclick="setRfFilter('all')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-blue-600 text-white">All</button>
-                        <button type="button" data-rf-filter="ascending" onclick="setRfFilter('ascending')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Rising</button>
-                        <button type="button" data-rf-filter="descending" onclick="setRfFilter('descending')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Fading</button>
-                        <button type="button" data-rf-filter="consistent" onclick="setRfFilter('consistent')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Consistent</button>
+                        <span class="text-[10px] text-slate-400 mr-0.5">(multi)</span>
+                        <button type="button" data-rf-filter="all" onclick="setRfFilter('all')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-blue-600 text-white" title="Clear trend filters">All</button>
+                        <button type="button" data-rf-filter="hot_form" onclick="setRfFilter('hot_form')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50" title="Strong L3 SG, no missed cut in last 3">Hot form</button>
+                        <button type="button" data-rf-filter="ascending" onclick="setRfFilter('ascending')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50" title="SG improved each of last 3 starts + gained strokes">Ascending</button>
+                        <button type="button" data-rf-filter="descending" onclick="setRfFilter('descending')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50" title="SG declined each of last 3 starts">Descending</button>
+                        <button type="button" data-rf-filter="consistent" onclick="setRfFilter('consistent')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50" title="Steady finishes, low volatility">Consistent</button>
+                        <button type="button" data-rf-filter="risk_reward" onclick="setRfFilter('risk_reward')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50" title="Top-5 finish mixed with a recent missed cut">Risk/Reward</button>
                         <button type="button" data-rf-filter="hot_putter" onclick="setRfFilter('hot_putter')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Hot putter</button>
                         <button type="button" data-rf-filter="cold_putter" onclick="setRfFilter('cold_putter')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Cold putter</button>
                         <button type="button" data-rf-filter="made_cut" onclick="setRfFilter('made_cut')" class="rf-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold border border-slate-200 text-slate-700 bg-white hover:bg-slate-50">Cut streak 3+</button>
                     </div>
-                    <p class="text-[11px] text-slate-400 mt-2">RF1–RF7 = last tournament results (not rounds) · finish (avg SG) · Streak = made cuts in a row · click headers to sort</p>
+                    <p class="text-[11px] text-slate-400 mt-2">Click trends to multi-select (OR — match any selected). Hot form = strong L3 SG with <b>no cut in last 3</b>. Ascending = SG up each of last 3 starts. Descending = opposite. Consistent = steady. Risk/Reward = recent top-5 mixed with a cut. RF1–RF7 = tournament results (finish + avg SG).</p>
 
                 <div id="loading-state" class="py-20 flex flex-col items-center justify-center text-slate-500">
                     <div class="spinner mb-4"></div>
@@ -1688,9 +1941,9 @@
                                 <th class="sticky bg-slate-900 z-[35]" style="left:14rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:17rem"></th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="4">Course History</th>
-                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="5">Recent Form</th>
+                                <th class="px-2 py-1 text-center border-b cs-sec cs-h-rf" colspan="5">Recent Form</th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="1">Market / Cut</th>
-                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="5">Key Stats</th>
+                                <th class="px-2 py-1 text-center border-b cs-sec cs-h-ks" colspan="5">Key Stats</th>
                                 <!-- SPEC · CH · SF · RF · 925 · RANK = 6 -->
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="6">Projection Ranks</th>
                                 <th class="bg-slate-900 px-2 py-1 text-center border-b border-slate-600 text-[10px] text-slate-300">FTPS</th>
@@ -1705,21 +1958,21 @@
                                 <th id="cs-h2-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h2')">24 <span class="cs-sort-ind" data-k="h2"></span></th>
                                 <th id="cs-h3-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h3')">23 <span class="cs-sort-ind" data-k="h3"></span></th>
                                 <th id="cs-h4-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('h4')">22 <span class="cs-sort-ind" data-k="h4"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('rf1')">RF1 <span class="cs-sort-ind" data-k="rf1"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rf2')">RF2 <span class="cs-sort-ind" data-k="rf2"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rf3')">RF3 <span class="cs-sort-ind" data-k="rf3"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rf4')">RF4 <span class="cs-sort-ind" data-k="rf4"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('cuts')">Cuts <span class="cs-sort-ind" data-k="cuts"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-h-rf" onclick="sortCheatSheet('rf1')">RF1 <span class="cs-sort-ind" data-k="rf1"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rf2')">RF2 <span class="cs-sort-ind" data-k="rf2"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rf3')">RF3 <span class="cs-sort-ind" data-k="rf3"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rf4')">RF4 <span class="cs-sort-ind" data-k="rf4"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end cs-h-rf" onclick="sortCheatSheet('cuts')">Cuts <span class="cs-sort-ind" data-k="cuts"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-sec-end min-w-[5.5rem]" onclick="sortCheatSheet('cutOddsNum')" title="Cut Odds = make-cut American odds. Number in parentheses = no-vig make-cut %. Hover cell for detail.">Cut Odds <span class="cs-sort-ind" data-k="cutOddsNum"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('s1')" id="csheet-ks-1">S1 <span class="cs-sort-ind" data-k="s1"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('s2')" id="csheet-ks-2">S2 <span class="cs-sort-ind" data-k="s2"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('s3')" id="csheet-ks-3">S3 <span class="cs-sort-ind" data-k="s3"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('s4')" id="csheet-ks-4">S4 <span class="cs-sort-ind" data-k="s4"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('s5')" id="csheet-ks-5">S5 <span class="cs-sort-ind" data-k="s5"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('specRank')">SPEC <span class="cs-sort-ind" data-k="specRank"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-h-ks" onclick="sortCheatSheet('s1')" id="csheet-ks-1">S1 <span class="cs-sort-ind" data-k="s1"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('s2')" id="csheet-ks-2">S2 <span class="cs-sort-ind" data-k="s2"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('s3')" id="csheet-ks-3">S3 <span class="cs-sort-ind" data-k="s3"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('s4')" id="csheet-ks-4">S4 <span class="cs-sort-ind" data-k="s4"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end cs-h-ks" onclick="sortCheatSheet('s5')" id="csheet-ks-5">S5 <span class="cs-sort-ind" data-k="s5"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-h-sp" onclick="sortCheatSheet('specRank')" title="Specialist rank">SPEC <span class="cs-sort-ind" data-k="specRank"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('chRank')">CH <span class="cs-sort-ind" data-k="chRank"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('sfRank')">SF <span class="cs-sort-ind" data-k="sfRank"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rfRank')" title="Recent Form rank: combined event SG Total over last 7 starts (CUT weeks use 2-round SG). Higher SG → better rank (#1).">RF <span class="cs-sort-ind" data-k="rfRank"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('sfRank')" title="Stat Fit / Key Stats rank">SF <span class="cs-sort-ind" data-k="sfRank"></span></th>
+                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rfRank')" title="Recent Form rank: combined event SG Total over last 7 starts (CUT weeks use 2-round SG). Higher SG → better rank (#1).">RF <span class="cs-sort-ind" data-k="rfRank"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('rank925')">925 <span class="cs-sort-ind" data-k="rank925"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end" onclick="sortCheatSheet('finalRank')">RANK <span class="cs-sort-ind" data-k="finalRank"></span></th>
                                 <th class="px-1.5 py-1.5 text-center cursor-pointer sticky bg-slate-900 z-[30]" onclick="sortCheatSheet('ftps')">FTPS <span class="cs-sort-ind" data-k="ftps"></span></th>
@@ -2045,6 +2298,7 @@
                     <option value="0" selected>Cheat Sheet</option>
                     <option value="1">Ownership Leverage</option>
                     <option value="2">Custom Model</option>
+                    <option value="3">Blog / Player Summary</option>
                     <option value="lb">Lineup Builder ↗</option>
                 </select>
             </div>
@@ -2052,6 +2306,7 @@
                 <button onclick="switchDfsSubTab(0)" class="dfs-sub-nav active px-4 py-1.5 rounded-lg text-sm bg-blue-600 text-white">Cheat Sheet</button>
                 <button onclick="switchDfsSubTab(1)" class="dfs-sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Ownership Leverage</button>
                 <button onclick="switchDfsSubTab(2)" class="dfs-sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Custom Model</button>
+                <button onclick="switchDfsSubTab(3)" class="dfs-sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100">Blog / Player Summary</button>
                 <a href="/lineup-builder.html" class="dfs-sub-nav px-4 py-1.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100 font-medium border border-emerald-200 bg-emerald-50 text-emerald-800" title="Opens DFS Lineup Builder with 925 Custom Model import">Lineup Builder ↗</a>
             </div>
         </div>
@@ -2129,6 +2384,34 @@
                 <p class="font-medium text-slate-700">Custom Model also lives under Fantasy Golf → Custom Model</p>
                 <p class="text-sm mt-2">Use the Fantasy Golf tab for the full weight builder.</p>
                 <button type="button" onclick="switchMainTab(0); switchFantasySubTab(0);" class="mt-4 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm">Open Custom Model</button>
+            </div>
+        </div>
+        <div id="dfs-sub-3" class="hidden p-4 sm:p-6 bg-slate-50 min-h-[70vh]">
+            <div class="blog-wrap">
+                <div class="blog-hero">
+                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Blog / Player Summary</h2>
+                    <p class="mt-1">Field write-ups grouped by <b>Data Tags</b> and <b>Outright / Bet Tags</b> — course history, recent form, stat fit, specialist notes, and a short summary for each golfer. Click a tag header to collapse or expand that section.</p>
+                </div>
+                <div class="blog-toolbar">
+                    <button type="button" class="blog-mode-btn active" data-blog-mode="data" onclick="setBlogGroupMode('data')">Data Tags</button>
+                    <button type="button" class="blog-mode-btn" data-blog-mode="outright" onclick="setBlogGroupMode('outright')">Bet Tags (Outright)</button>
+                    <button type="button" class="blog-mode-btn" data-blog-mode="both" onclick="setBlogGroupMode('both')">Both</button>
+                    <label class="inline-flex items-center gap-1.5 text-xs text-slate-600 sm:ml-auto">
+                        <input type="checkbox" id="blog-core-first" checked onchange="renderDfsBlogSummary()" class="rounded border-slate-300">
+                        Core / Outright first
+                    </label>
+                    <input type="search" id="blog-search" placeholder="Search player…" oninput="renderDfsBlogSummary()"
+                        class="text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 w-40 bg-white">
+                </div>
+                <div class="blog-collapse-tools">
+                    <button type="button" onclick="blogExpandAllTiers()" title="Expand all tag sections">Expand all</button>
+                    <button type="button" onclick="blogCollapseAllTiers()" title="Collapse all tag sections">Collapse all</button>
+                    <span class="text-[11px] text-slate-400">Tip: click a tag header (e.g. Core Plays) to collapse it</span>
+                </div>
+                <div id="blog-summary-status" class="text-xs text-slate-500 mb-3"></div>
+                <div id="blog-summary-root">
+                    <div class="blog-empty">Loading write-ups…</div>
+                </div>
             </div>
         </div>
     </div>
@@ -2593,6 +2876,21 @@ const REPO = "925Sports/pga-tour-data";
         if (sub === 2) {
             switchMainTab(0);
             switchFantasySubTab(0);
+        }
+        if (sub === 3) {
+            const go = () => {
+                try {
+                    if (!(cheatRows && cheatRows.length) && typeof buildCheatSheet === "function") buildCheatSheet();
+                } catch (e) {}
+                try { renderDfsBlogSummary(); } catch (e) { console.warn("blog summary", e); }
+            };
+            go();
+            // Refresh once logs land (CH / RF event names)
+            try {
+                if (!(playerLogs && playerLogs.length) && typeof ensurePlayerLogsLoaded === "function") {
+                    ensurePlayerLogsLoaded().then(() => { try { renderDfsBlogSummary(); } catch (e) {} }).catch(() => {});
+                }
+            } catch (e) {}
         }
     }
 
@@ -9933,18 +10231,50 @@ function setEventScope(scope) {
     }
 
 
-    let rfFilter = "all";
-    function setRfFilter(key) {
-        rfFilter = key || "all";
+    // Multi-select Recent Form trend filters (OR within selected)
+    let rfFilters = new Set(); // empty = All
+    function syncRfFilterButtons() {
+        const empty = !rfFilters.size;
         document.querySelectorAll(".rf-filter-btn, .rf-chip").forEach(btn => {
-            const on = btn.getAttribute("data-rf-filter") === rfFilter;
+            const key = btn.getAttribute("data-rf-filter");
+            if (!key) return;
+            const on = key === "all" ? empty : rfFilters.has(key);
             btn.classList.toggle("bg-blue-600", on);
             btn.classList.toggle("text-white", on);
             btn.classList.toggle("border-slate-200", !on);
             btn.classList.toggle("bg-white", !on);
             btn.classList.toggle("text-slate-700", !on);
+            btn.setAttribute("aria-pressed", on ? "true" : "false");
         });
+    }
+    function setRfFilter(key) {
+        key = key || "all";
+        if (key === "all") {
+            rfFilters.clear();
+        } else {
+            if (rfFilters.has(key)) rfFilters.delete(key);
+            else rfFilters.add(key);
+        }
+        // keep legacy single-value mirror for any old callers
+        window.rfFilter = rfFilters.size === 0 ? "all" : [...rfFilters].join(",");
+        syncRfFilterButtons();
         filterAndRender();
+    }
+    function playerMatchesRfFilter(p, key) {
+        if (key === "made_cut") {
+            const s = Number(p.cut_streak);
+            return Number.isFinite(s) && s >= 3;
+        }
+        const tr = formTrend(p);
+        const badges = (tr.badges || []).map(b => b.t);
+        if (key === "ascending") return badges.includes("Ascending");
+        if (key === "descending") return badges.includes("Descending");
+        if (key === "consistent") return badges.includes("Consistent");
+        if (key === "hot_form") return badges.includes("Hot form");
+        if (key === "risk_reward") return badges.includes("Risk/Reward");
+        if (key === "hot_putter") return badges.includes("Hot putter");
+        if (key === "cold_putter") return badges.includes("Cold putter");
+        return true;
     }
 
     function sortByRfSlot(n) {
@@ -10006,24 +10336,17 @@ function setEventScope(scope) {
             return true;
         });
 
-        if (typeof rfFilter !== "undefined" && rfFilter && rfFilter !== "all") {
+        // Multi-select trends: OR (match any selected). Empty set = All.
+        const activeRf = (typeof rfFilters !== "undefined" && rfFilters && rfFilters.size)
+            ? [...rfFilters]
+            : (typeof rfFilter !== "undefined" && rfFilter && rfFilter !== "all"
+                ? String(rfFilter).split(",").map(x => x.trim()).filter(Boolean)
+                : []);
+        if (activeRf.length) {
             displayedPlayers = displayedPlayers.filter(p => {
-                if (rfFilter === "made_cut") {
-                    const s = Number(p.cut_streak);
-                    return Number.isFinite(s) && s >= 3;
-                }
-                const tr = formTrend(p);
-                const badges = (tr.badges || []).map(b => b.t);
-                if (rfFilter === "ascending") return badges.some(x => x === "Ascending" || x === "Rising");
-                if (rfFilter === "descending") return badges.some(x => x === "Descending" || x === "Fading");
-                if (rfFilter === "consistent") return badges.includes("Consistent");
-                if (rfFilter === "hot_putter") return badges.includes("Hot putter");
-                if (rfFilter === "cold_putter") return badges.includes("Cold putter");
-                if (rfFilter === "made_cut") {
-                    const s = Number(p.cut_streak);
-                    return Number.isFinite(s) && s >= 3;
-                }
-                return true;
+                try {
+                    return activeRf.some(key => playerMatchesRfFilter(p, key));
+                } catch (e) { return false; }
             });
         }
         try {
@@ -10066,74 +10389,210 @@ function setEventScope(scope) {
         });
     }
 
+    /** Parse a single RF cell: "T12 (1.79)", "CUT", "3 (+2.66)" → {isCut, sg, fin} */
+    function parseRfStartCell(v) {
+        if (v == null || v === "" || v === "—" || v === "…") return null;
+        const s = String(v).trim();
+        const u = s.toUpperCase();
+        const isCut = u.includes("CUT") || u === "MC" || /\bWD\b/.test(u) || /\bDQ\b/.test(u);
+        const sm = s.match(/\(([+-]?\d+(?:\.\d+)?)\)/);
+        const sg = sm ? parseFloat(sm[1]) : null;
+        let fin = null;
+        if (!isCut) {
+            const m = s.match(/T?(\d+)/i);
+            if (m) fin = parseInt(m[1], 10);
+        }
+        return {
+            isCut: !!isCut,
+            sg: (sg != null && !isNaN(sg)) ? sg : null,
+            fin,
+            raw: s,
+        };
+    }
+
+    /**
+     * Last N tournament starts for form logic (most recent first).
+     * Prefers live event SG totals from logs; falls back to RF1–RF7 cells.
+     */
+    function getLastNStartsForForm(p, n) {
+        n = n || 7;
+        const name = (p && (p.name_adjusted || p.player_name || p.name)) || "";
+        const out = [];
+        try {
+            if (name && playerLogs && playerLogs.length && typeof getRecentEventSgTotals === "function") {
+                const arr = getRecentEventSgTotals(name, n, "sg_total") || [];
+                arr.forEach(hit => {
+                    if (!hit) return;
+                    let finRaw = String(hit.fin || hit.pos || "").trim();
+                    const fu = finRaw.toUpperCase();
+                    const isCut = fu.includes("CUT") || fu === "MC" || /\bWD\b/.test(fu) || /\bDQ\b/.test(fu);
+                    let fin = null;
+                    if (!isCut) {
+                        const m = finRaw.match(/T?(\d+)/i);
+                        if (m) fin = parseInt(m[1], 10);
+                    }
+                    const sg = (hit.sg != null && !isNaN(Number(hit.sg))) ? Number(hit.sg) : null;
+                    if (!isCut && fin == null && sg == null && !finRaw) return;
+                    out.push({ isCut, sg, fin, event: hit.event || hit.event_name || "", raw: finRaw });
+                });
+            }
+        } catch (e) {}
+        if (out.length >= Math.min(3, n)) return out.slice(0, n);
+        // Fallback: RF cells on player / cheat row
+        const cells = [];
+        for (let i = 1; i <= 7; i++) {
+            const v = p["rf" + i];
+            const parsed = parseRfStartCell(v);
+            if (parsed) cells.push(parsed);
+        }
+        return cells.slice(0, n);
+    }
+
+    /**
+     * Form trend badges:
+     *  - Hot form: strong L3 SG, NO missed cut in last 3 starts
+     *  - Ascending: gained strokes over last 3 AND each start improved (SG RF1 > RF2 > RF3)
+     *  - Descending: each start got worse (SG RF1 < RF2 < RF3)
+     *  - Consistent: steady finishes (not strictly ascending/descending)
+     *  - Risk/Reward: recent top-5 mixed with a missed cut
+     */
     function formTrend(p) {
-        // Compare RF1-3 vs RF4-7
         try {
             if (!window._rfTrendCache) window._rfTrendCache = new Map();
-            const ck = (p && (p.name_adjusted || p.player_name) || "") + "|" + (playerLogs && playerLogs.length ? "L" : "0");
+            const nameKey = (p && (p.name_adjusted || p.player_name || p.name)) || "";
+            const logsFlag = (playerLogs && playerLogs.length) ? "L" : "0";
+            const ck = "v3|" + nameKey + "|" + logsFlag
+                + "|" + String(p.rf1 || "") + "|" + String(p.rf2 || "") + "|" + String(p.rf3 || "");
             if (ck && window._rfTrendCache.has(ck)) return window._rfTrendCache.get(ck);
-            const _cacheTrend = function(res) {
+            const cache = (res) => {
                 if (ck) window._rfTrendCache.set(ck, res);
                 return res;
             };
-            // wrap return points below via helper at end
-            var __ftCache = _cacheTrend;
-        } catch (e) { var __ftCache = function(r){ return r; }; }
-// positive diff = improving (lower finish numbers)
-        const score = (v) => {
-            if (!v || v === "—") return null;
-            if (String(v).toUpperCase() === "CUT") return 110;
-            const m = String(v).match(/(\d+)/);
-            return m ? parseInt(m[1], 10) : null;
-        };
-        const recent = [p.rf1, p.rf2, p.rf3].map(score).filter(x => x != null);
-        const prior = [p.rf4, p.rf5, p.rf6, p.rf7].map(score).filter(x => x != null);
-        const all = [p.rf1, p.rf2, p.rf3, p.rf4, p.rf5, p.rf6, p.rf7].map(score).filter(x => x != null);
-        if (!recent.length || !prior.length) {
-            return (typeof __ftCache === "function") ? __ftCache({ symbol: "—", cls: "text-slate-400", label: "", badges: [] }) : { symbol: "—", cls: "text-slate-400", label: "", badges: [] };
-        }
-        const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
-        const diff = avg(prior) - avg(recent); // + = better recent finishes
-        let symbol = "→", cls = "text-slate-500", label = "Steady";
-        if (diff >= 12) { symbol = "↑↑"; cls = "text-emerald-600 font-bold"; label = "Ascending"; }
-        else if (diff >= 4) { symbol = "↑"; cls = "text-emerald-600 font-semibold"; label = "Rising"; }
-        else if (diff <= -12) { symbol = "↓↓"; cls = "text-red-600 font-bold"; label = "Descending"; }
-        else if (diff <= -4) { symbol = "↓"; cls = "text-red-500 font-semibold"; label = "Fading"; }
 
-        const badges = [];
-        if (label === "Ascending" || label === "Rising") badges.push({ t: label, c: "bg-emerald-100 text-emerald-800" });
-        if (label === "Descending" || label === "Fading") badges.push({ t: label, c: "bg-red-100 text-red-800" });
+            const starts = getLastNStartsForForm(p, 7);
+            const last3 = starts.slice(0, 3);
+            const last7 = starts.slice(0, 7);
+            const badges = [];
+            let symbol = "→", cls = "text-slate-500", label = "Steady";
 
-        // Consistency: low variance in finish positions
-        if (all.length >= 5) {
-            const mean = avg(all);
-            const variance = all.reduce((s, x) => s + (x - mean) * (x - mean), 0) / all.length;
-            if (variance < 120 && mean <= 45) badges.push({ t: "Consistent", c: "bg-sky-100 text-sky-800" });
-        }
-
-        // Hot / cold putter from recent logs (SG Putting) — skip if logs not loaded
-        try {
-            if (!(playerLogs && playerLogs.length)) {
-                return (typeof __ftCache === "function") ? __ftCache({ symbol, cls, label, badges }) : { symbol, cls, label, badges };
+            // --- Ascending / Descending from SG trajectory (last 3) ---
+            // Ascending: each start improved (SG RF1 > RF2 > RF3), gained strokes (avg SG > 0),
+            //            and no missed cut in the last 3 (cut bounce-backs are Risk/Reward, not pure ascend).
+            const sg3 = last3.map(x => (x && x.sg != null && !isNaN(x.sg)) ? x.sg : null);
+            const have3sg = sg3.length === 3 && sg3.every(v => v != null);
+            const l3CutForTrend = last3.some(x => x && x.isCut);
+            if (have3sg) {
+                const improving = sg3[0] > sg3[1] && sg3[1] > sg3[2];
+                const declining = sg3[0] < sg3[1] && sg3[1] < sg3[2];
+                const avgSg = (sg3[0] + sg3[1] + sg3[2]) / 3;
+                if (improving && avgSg > 0 && !l3CutForTrend) {
+                    symbol = "↑↑"; cls = "text-emerald-600 font-bold"; label = "Ascending";
+                    badges.push({ t: "Ascending", c: "bg-emerald-100 text-emerald-800" });
+                } else if (declining) {
+                    symbol = "↓↓"; cls = "text-red-600 font-bold"; label = "Descending";
+                    badges.push({ t: "Descending", c: "bg-red-100 text-red-800" });
+                }
             }
-            const name = p.name_adjusted || p.player_name || "";
-            const logs = (typeof logsForPlayer === "function" ? logsForPlayer(name) : (playerLogs || []).filter(r => namesMatch(r.player_name, name)));
-            const putt = logs
-                .map(r => ({ d: r.event_completed || r.date || "", v: Number(r.sg_putt) }))
-                .filter(x => !isNaN(x.v))
-                .sort((a, b) => String(b.d).localeCompare(String(a.d)))
-                .slice(0, 12);
-            if (putt.length >= 4) {
-                const avgP = putt.reduce((s, x) => s + x.v, 0) / putt.length;
-                if (avgP >= 0.35) badges.push({ t: "Hot putter", c: "bg-amber-100 text-amber-900" });
-                else if (avgP <= -0.35) badges.push({ t: "Cold putter", c: "bg-slate-200 text-slate-700" });
-            }
-        } catch (e) {}
 
-        return (typeof __ftCache === "function") ? __ftCache({ symbol, cls, label, badges }) : { symbol, cls, label, badges };
+            // --- Consistent: steady, not strictly climbing/falling ---
+            // Low finish variance, mostly made cuts, reasonable avg finish
+            if (label !== "Ascending" && label !== "Descending" && last7.length >= 4) {
+                const finNums = last7
+                    .filter(x => x && !x.isCut && x.fin != null)
+                    .map(x => x.fin);
+                const cuts = last7.filter(x => x && x.isCut).length;
+                const made = last7.length - cuts;
+                if (finNums.length >= 3 && made >= Math.ceil(last7.length * 0.6)) {
+                    const mean = finNums.reduce((a, b) => a + b, 0) / finNums.length;
+                    const variance = finNums.reduce((s, x) => s + (x - mean) * (x - mean), 0) / finNums.length;
+                    // Tighter than old threshold so "Rising-ish" middle profiles land here
+                    if (variance <= 220 && mean <= 40) {
+                        if (label === "Steady") {
+                            symbol = "→"; cls = "text-sky-600 font-semibold"; label = "Consistent";
+                        }
+                        badges.push({ t: "Consistent", c: "bg-sky-100 text-sky-800" });
+                    }
+                }
+            }
+
+            // --- Hot form: strong L3 SG, ZERO missed cuts in last 3 ---
+            const l3Complete = last3.length >= 3;
+            const l3HasCut = last3.some(x => x && x.isCut);
+            if (l3Complete && !l3HasCut) {
+                const sgs = last3.map(x => x.sg).filter(v => v != null && !isNaN(v));
+                let l3Avg = sgs.length ? sgs.reduce((a, b) => a + b, 0) / sgs.length : null;
+                // optional: vs season
+                let season = null;
+                try {
+                    if (nameKey && typeof seasonStatForPlayer === "function") {
+                        const r = seasonStatForPlayer(nameKey, "combined", "SG_Total");
+                        if (r && r.value != null) season = Number(r.value);
+                    }
+                } catch (e) {}
+                let isHot = false;
+                if (l3Avg != null && season != null && !isNaN(season)) {
+                    // clearly above season baseline
+                    if ((l3Avg - season) >= 0.45 && l3Avg >= 0.35) isHot = true;
+                }
+                if (!isHot && l3Avg != null && l3Avg >= 0.75) isHot = true;
+                // also require solid finishes (avg finish <= 30) when we have them
+                const fins = last3.map(x => x.fin).filter(v => v != null);
+                if (isHot && fins.length === 3) {
+                    const avgFin = fins.reduce((a, b) => a + b, 0) / 3;
+                    if (avgFin > 45) isHot = false;
+                }
+                if (isHot) {
+                    badges.push({ t: "Hot form", c: "bg-rose-100 text-rose-800" });
+                    if (label === "Steady" || label === "Consistent") {
+                        // keep Consistent if present; Hot form is additive
+                    }
+                }
+            }
+
+            // --- Risk/Reward: recent top-5 mixed with a missed cut (last 5 starts) ---
+            // Examples: Tom Kim, Fitzpatrick, Schauffele — elite finish + volatility.
+            const last5 = starts.slice(0, 5);
+            const windowRR = last5.length >= 3 ? last5 : last3;
+            const hasTop5 = windowRR.some(x => x && !x.isCut && x.fin != null && x.fin <= 5);
+            const hasCutRR = windowRR.some(x => x && x.isCut);
+            if (hasTop5 && hasCutRR) {
+                badges.push({ t: "Risk/Reward", c: "bg-violet-100 text-violet-900" });
+            }
+
+            // Hot / cold putter
+            try {
+                if (playerLogs && playerLogs.length && nameKey) {
+                    const logs = (typeof logsForPlayer === "function"
+                        ? logsForPlayer(nameKey)
+                        : (playerLogs || []).filter(r => namesMatch(r.player_name, nameKey)));
+                    const putt = logs
+                        .map(r => ({ d: r.event_completed || r.date || "", v: Number(r.sg_putt) }))
+                        .filter(x => !isNaN(x.v))
+                        .sort((a, b) => String(b.d).localeCompare(String(a.d)))
+                        .slice(0, 12);
+                    if (putt.length >= 4) {
+                        const avgP = putt.reduce((s, x) => s + x.v, 0) / putt.length;
+                        if (avgP >= 0.35) badges.push({ t: "Hot putter", c: "bg-amber-100 text-amber-900" });
+                        else if (avgP <= -0.35) badges.push({ t: "Cold putter", c: "bg-slate-200 text-slate-700" });
+                    }
+                }
+            } catch (e) {}
+
+            // Dedupe badges by title
+            const seen = new Set();
+            const uniq = [];
+            badges.forEach(b => {
+                if (!b || !b.t || seen.has(b.t)) return;
+                seen.add(b.t);
+                uniq.push(b);
+            });
+
+            return cache({ symbol, cls, label, badges: uniq, starts: last3 });
+        } catch (e) {
+            return { symbol: "—", cls: "text-slate-400", label: "", badges: [] };
+        }
     }
 
-    
     function rfCellClass(v) {
         if (!v || v === "—") return "text-slate-400";
         const s = String(v).toUpperCase();
@@ -13517,15 +13976,25 @@ el.innerHTML = `
             if (r && r.value != null) seasonTotal = Number(r.value);
         } catch (e) {}
         let formBadge = { label: "Form —", cls: "bg-slate-700 text-slate-300" };
+        // Hot form cannot include a missed cut in the last 3 starts
+        let l3HasCut = false;
+        try {
+            const st = (typeof getLastNStartsForForm === "function")
+                ? getLastNStartsForForm({ name: nameKeyStr, name_adjusted: nameKeyStr, player_name: nameKeyStr, rf1: row.rf1, rf2: row.rf2, rf3: row.rf3, rf4: row.rf4, rf5: row.rf5, rf6: row.rf6, rf7: row.rf7 }, 3)
+                : [];
+            l3HasCut = (st || []).some(x => x && x.isCut);
+        } catch (e) {}
         if (l3Total != null && seasonTotal != null) {
             const d = l3Total - seasonTotal;
-            if (d >= 0.6) formBadge = { label: "Hot", cls: "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" };
-            else if (d >= 0.15) formBadge = { label: "Warm", cls: "bg-lime-500/20 text-lime-300 border border-lime-500/40" };
+            if (!l3HasCut && d >= 0.45 && l3Total >= 0.35) formBadge = { label: "Hot form", cls: "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" };
+            else if (!l3HasCut && d >= 0.15) formBadge = { label: "Warm", cls: "bg-lime-500/20 text-lime-300 border border-lime-500/40" };
+            else if (l3HasCut && (d >= 0.45 || l3Total >= 0.5)) formBadge = { label: "Risk/Reward", cls: "bg-violet-500/20 text-violet-300 border border-violet-500/40" };
             else if (d <= -0.6) formBadge = { label: "Cold", cls: "bg-red-500/20 text-red-300 border border-red-500/40" };
             else if (d <= -0.15) formBadge = { label: "Cool", cls: "bg-amber-500/20 text-amber-300 border border-amber-500/40" };
             else formBadge = { label: "Steady", cls: "bg-sky-500/20 text-sky-300 border border-sky-500/40" };
         } else if (l3Total != null) {
-            if (l3Total >= 1) formBadge = { label: "Hot", cls: "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" };
+            if (!l3HasCut && l3Total >= 0.75) formBadge = { label: "Hot form", cls: "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" };
+            else if (l3HasCut && l3Total >= 0.5) formBadge = { label: "Risk/Reward", cls: "bg-violet-500/20 text-violet-300 border border-violet-500/40" };
             else if (l3Total <= -0.5) formBadge = { label: "Cold", cls: "bg-red-500/20 text-red-300 border border-red-500/40" };
             else formBadge = { label: "Steady", cls: "bg-sky-500/20 text-sky-300 border border-sky-500/40" };
         }
@@ -13597,7 +14066,7 @@ el.innerHTML = `
         if (l3Total != null) {
             const s = (l3Total >= 0 ? "+" : "") + l3Total.toFixed(2);
             formBits.push(`last 3 starts at ${s} SG/round (${formBadge.label.toLowerCase()})`);
-            if (formBadge.label === "Hot" || formBadge.label === "Warm") bulletsWhy.push(`L3 form ${s} (${formBadge.label})`);
+            if (formBadge.label === "Hot form" || formBadge.label === "Hot" || formBadge.label === "Warm") bulletsWhy.push(`L3 form ${s} (${formBadge.label})`);
             if (formBadge.label === "Cold" || formBadge.label === "Cool") bulletsRisk.push(`L3 form ${s} (${formBadge.label})`);
         }
 
@@ -13969,18 +14438,28 @@ el.innerHTML = `
             return `<span class="${cls}">${d >= 0 ? "+" : ""}${d.toFixed(2)} vs season</span>`;
         };
 
-        // Form label from L3 total vs season
+        // Form label from L3 total vs season (Hot form cannot include L3 cut)
         let formLabel = "Form —";
         let formCls = "text-slate-400";
+        let l3CutProf = false;
+        try {
+            const pname = name || (player && (player.name_adjusted || player.player_name)) || "";
+            const st = (typeof getLastNStartsForForm === "function")
+                ? getLastNStartsForForm({ name: pname, name_adjusted: pname, player_name: pname }, 3)
+                : [];
+            l3CutProf = (st || []).some(x => x && x.isCut);
+        } catch (e) {}
         if (l3Sg.total != null && seasonSg.total != null) {
             const d = l3Sg.total - seasonSg.total;
-            if (d >= 0.6) { formLabel = "Hot (L3)"; formCls = "text-emerald-400"; }
-            else if (d >= 0.15) { formLabel = "Warm (L3)"; formCls = "text-lime-400"; }
+            if (!l3CutProf && d >= 0.45 && l3Sg.total >= 0.35) { formLabel = "Hot form"; formCls = "text-emerald-400"; }
+            else if (!l3CutProf && d >= 0.15) { formLabel = "Warm (L3)"; formCls = "text-lime-400"; }
+            else if (l3CutProf && (d >= 0.45 || l3Sg.total >= 0.5)) { formLabel = "Risk/Reward"; formCls = "text-violet-300"; }
             else if (d <= -0.6) { formLabel = "Cold (L3)"; formCls = "text-red-400"; }
             else if (d <= -0.15) { formLabel = "Cool (L3)"; formCls = "text-amber-400"; }
             else { formLabel = "Steady (L3)"; formCls = "text-sky-400"; }
         } else if (l3Sg.total != null) {
-            if (l3Sg.total >= 1) { formLabel = "Hot (L3)"; formCls = "text-emerald-400"; }
+            if (!l3CutProf && l3Sg.total >= 0.75) { formLabel = "Hot form"; formCls = "text-emerald-400"; }
+            else if (l3CutProf && l3Sg.total >= 0.5) { formLabel = "Risk/Reward"; formCls = "text-violet-300"; }
             else if (l3Sg.total <= -0.5) { formLabel = "Cold (L3)"; formCls = "text-red-400"; }
             else { formLabel = "Steady (L3)"; formCls = "text-sky-400"; }
         }
@@ -18598,6 +19077,1106 @@ function computeOutrightBetTag(r) {
         return s === "win" || s === "outright" || s === "winner" || s === "to_win";
     }
 
+
+    // ═══════════════════════════════════════════════════════════
+    // DFS Blog / Player Summary
+    // ═══════════════════════════════════════════════════════════
+    window._blogGroupMode = window._blogGroupMode || "data";
+
+    const BLOG_DATA_TAG_ORDER = ["Core Play", "High Exposure", "Mid Exposure", "Low Exposure", "Lower Exposure", "Fade"];
+    const BLOG_OUTRIGHT_ORDER = ["Outright", "Viable Outright", "Longshot Only"];
+
+    const BLOG_DATA_TAG_DEFS = {
+        "Core Play": "Strong all-around profile this week — form, course fit, and projection ranks line up. A primary building-block option for DFS builds.",
+        "High Exposure": "Looks like a high-priority play. Multiple positive signals; worth heavy consideration in lineups and cards.",
+        "Mid Exposure": "Solid middling option. Enough upside to use, but not a must-have core piece.",
+        "Low Exposure": "Fringe play. One or two positives, but not enough for large exposure on most builds.",
+        "Lower Exposure": "Thin profile this week. Only for very specific leverage builds.",
+        "Fade": "Projection stack is soft relative to the field — treat as a pass or pure dart on most cards.",
+    };
+    const BLOG_OUTRIGHT_DEFS = {
+        "Outright": "Checks nearly every box for a win ticket — course, form, price, and projection fit. A real outright candidate.",
+        "Viable Outright": "Strong enough profile to include on win tickets. Not perfect, but a legitimate contender this week.",
+        "Longshot Only": "More of a longshot / dart on the win market. Upside case exists, but gaps keep him off most core outright cards.",
+    };
+    const BLOG_DATA_CLS = {
+        "Core Play": "tag-core", "High Exposure": "tag-high", "Mid Exposure": "tag-mid",
+        "Low Exposure": "tag-low", "Lower Exposure": "tag-lower", "Fade": "tag-fade",
+    };
+    const BLOG_OUTRIGHT_CLS = {
+        "Outright": "obtag-strong", "Viable Outright": "obtag-viable", "Longshot Only": "obtag-long",
+    };
+
+    function setBlogGroupMode(mode) {
+        window._blogGroupMode = mode || "data";
+        document.querySelectorAll(".blog-mode-btn").forEach(btn => {
+            const on = btn.getAttribute("data-blog-mode") === window._blogGroupMode;
+            btn.classList.toggle("active", on);
+        });
+        try { renderDfsBlogSummary(); } catch (e) {}
+    }
+    window.setBlogGroupMode = setBlogGroupMode;
+
+    function blogCollapsedSet() {
+        if (!window._blogCollapsedTags) window._blogCollapsedTags = new Set();
+        return window._blogCollapsedTags;
+    }
+    function toggleBlogTier(tagKey, ev) {
+        if (ev) { try { ev.preventDefault(); ev.stopPropagation(); } catch (e) {} }
+        const key = String(tagKey || "");
+        const set = blogCollapsedSet();
+        if (set.has(key)) set.delete(key);
+        else set.add(key);
+        const sec = document.querySelector('.blog-tier[data-blog-tag="' + key.replace(/"/g, "") + '"]');
+        // Prefer id-based lookup
+        const el = document.getElementById("blog-tier-" + key)
+            || document.querySelector('[data-blog-tag="' + CSS.escape(key) + '"]');
+        const target = el || sec;
+        if (target) {
+            const collapsed = set.has(key);
+            target.classList.toggle("collapsed", collapsed);
+            const hint = target.querySelector(".blog-tier-toggle-hint");
+            if (hint) hint.textContent = collapsed ? "Expand" : "Collapse";
+            const chev = target.querySelector(".blog-tier-chev");
+            if (chev) chev.textContent = collapsed ? "▶" : "▼";
+        }
+    }
+    window.toggleBlogTier = toggleBlogTier;
+    function blogExpandAllTiers() {
+        blogCollapsedSet().clear();
+        document.querySelectorAll(".blog-tier").forEach(el => {
+            el.classList.remove("collapsed");
+            const hint = el.querySelector(".blog-tier-toggle-hint");
+            if (hint) hint.textContent = "Collapse";
+            const chev = el.querySelector(".blog-tier-chev");
+            if (chev) chev.textContent = "▼";
+        });
+    }
+    window.blogExpandAllTiers = blogExpandAllTiers;
+    function blogCollapseAllTiers() {
+        const set = blogCollapsedSet();
+        document.querySelectorAll(".blog-tier").forEach(el => {
+            const key = el.getAttribute("data-blog-tag") || "";
+            if (key) set.add(key);
+            el.classList.add("collapsed");
+            const hint = el.querySelector(".blog-tier-toggle-hint");
+            if (hint) hint.textContent = "Expand";
+            const chev = el.querySelector(".blog-tier-chev");
+            if (chev) chev.textContent = "▶";
+        });
+    }
+    window.blogCollapseAllTiers = blogCollapseAllTiers;
+
+    function blogEsc(s) {
+        return String(s == null ? "" : s)
+            .split("&").join("&"+"amp;")
+            .split("<").join("&"+"lt;")
+            .split(">").join("&"+"gt;")
+            .split('"').join("&"+"quot;");
+    }
+
+    function blogDispName(name) {
+        if (typeof displayName === "function") return displayName(name);
+        const s = String(name || "").trim();
+        if (s.includes(",")) {
+            const p = s.split(",").map(x => x.trim());
+            if (p.length === 2) return p[1] + " " + p[0];
+        }
+        return s;
+    }
+
+    function blogFmtSal(sal) {
+        if (sal == null || sal === "" || isNaN(Number(sal))) return "—";
+        return "$" + Number(sal).toLocaleString();
+    }
+
+    function blogFmtOdds(row) {
+        if (!row) return "—";
+        const w = row.winOdds;
+        if (w && typeof w === "object") {
+            const am = w.display || w.american || w.average || w.avg;
+            if (am != null && am !== "") {
+                const n = Number(String(am).replace(/[^0-9.+-]/g, ""));
+                if (!isNaN(n)) return (n > 0 ? "+" : "") + Math.round(n);
+                return String(am);
+            }
+        }
+        if (row.oddsNum != null && !isNaN(Number(row.oddsNum))) {
+            const n = Number(row.oddsNum);
+            return (n > 0 ? "+" : "") + Math.round(n);
+        }
+        if (row.odds != null && row.odds !== "") return String(row.odds);
+        return "—";
+    }
+
+    function blogFinLabel(v) {
+        if (v == null || v === "" || v === "—") return "—";
+        const s = String(v).trim();
+        const u = s.toUpperCase();
+        if (u.includes("CUT") || u === "MC") return "CUT";
+        if (/\bWD\b/.test(u)) return "WD";
+        if (/\bDQ\b/.test(u)) return "DQ";
+        // strip SG parentheses "T12 (+1.79)" → "T12"
+        const m = s.match(/^(T?\d+|CUT|WD|DQ)/i);
+        return m ? m[1].toUpperCase().replace(/^T/, "T") : s.split(/\s*\(/)[0];
+    }
+
+    function blogFinNum(v) {
+        const s = String(v || "").toUpperCase();
+        if (!s || s === "—" || s === "…") return null;
+        if (s.includes("CUT") || s === "MC") return 75;
+        if (/\bWD\b/.test(s) || /\bDQ\b/.test(s)) return 80;
+        const m = s.match(/T?(\d+)/);
+        return m ? parseInt(m[1], 10) : null;
+    }
+
+    /** Recent starts with event names (most recent first). */
+    function blogRecentStarts(playerName, n) {
+        n = n || 3;
+        const out = [];
+        try {
+            const rows = (typeof logsForPlayer === "function")
+                ? logsForPlayer(playerName)
+                : (playerLogs || []).filter(r =>
+                    (typeof namesMatch === "function")
+                        ? namesMatch(r.player_name || r.name_adjusted || "", playerName)
+                        : nameKey(r.player_name || "") === nameKey(playerName)
+                );
+            const events = {};
+            (rows || []).forEach(r => {
+                const ek = (typeof logEventKey === "function")
+                    ? logEventKey(r, false)
+                    : ((r.event_name || "") + "||" + (r.year || "") + "||" + (r.event_completed || r.event_id || ""));
+                if (!events[ek]) {
+                    events[ek] = {
+                        event: r.event_name || "—",
+                        course: r.course_name || "",
+                        date: r.event_completed || r.date || "",
+                        fin: String(r.fin_text || r.finish || r.pos || "").trim(),
+                        sgs: [],
+                    };
+                }
+                const sg = parseFloat(r.sg_total);
+                if (!isNaN(sg)) events[ek].sgs.push(sg);
+                if ((!events[ek].fin || events[ek].fin === "—") && (r.fin_text || r.finish || r.pos)) {
+                    events[ek].fin = String(r.fin_text || r.finish || r.pos || "").trim();
+                }
+            });
+            Object.values(events).forEach(e => {
+                if (!e.fin || e.fin === "—") return;
+                e.sg = e.sgs.length ? e.sgs.reduce((a, b) => a + b, 0) / e.sgs.length : null;
+                out.push(e);
+            });
+            out.sort((a, b) => {
+                const da = new Date(a.date).getTime(), db = new Date(b.date).getTime();
+                if (!isNaN(db) && !isNaN(da) && db !== da) return db - da;
+                return String(b.date).localeCompare(String(a.date));
+            });
+        } catch (e) {}
+        return out.slice(0, n);
+    }
+
+    function blogFormBadge(playerName, row) {
+        // Prefer shared formTrend logic (Hot form excludes L3 cuts)
+        try {
+            let p = null;
+            if (typeof allPlayers !== "undefined" && allPlayers && allPlayers.length) {
+                p = allPlayers.find(x =>
+                    namesMatch(x.player_name || x.name_adjusted || "", playerName)
+                    || namesMatch(x.name_adjusted || "", playerName)
+                ) || null;
+            }
+            if (!p && row) {
+                p = {
+                    name: row.name,
+                    name_adjusted: row.name_adjusted || row.name,
+                    player_name: row.name,
+                    rf1: row.rf1, rf2: row.rf2, rf3: row.rf3, rf4: row.rf4,
+                    rf5: row.rf5, rf6: row.rf6, rf7: row.rf7,
+                };
+            }
+            if (p && typeof formTrend === "function") {
+                const tr = formTrend(p);
+                const badges = (tr.badges || []).map(b => b.t);
+                let label = tr.label || "Steady";
+                if (badges.includes("Hot form")) label = "Hot form";
+                else if (badges.includes("Ascending")) label = "Ascending";
+                else if (badges.includes("Descending")) label = "Descending";
+                else if (badges.includes("Consistent")) label = "Consistent";
+                else if (badges.includes("Risk/Reward") && label === "Steady") label = "Risk/Reward";
+                // L3 SG for display
+                let l3 = null;
+                const starts = tr.starts || getLastNStartsForForm(p, 3);
+                const sgs = (starts || []).map(x => x && x.sg).filter(v => v != null && !isNaN(v));
+                if (sgs.length) l3 = sgs.reduce((a, b) => a + b, 0) / sgs.length;
+                return { label, l3, season: null, badges };
+            }
+        } catch (e) {}
+        // Fallback (still enforce no-cut rule for Hot)
+        let l3 = null, season = null, hasCut = false;
+        try {
+            const starts = getLastNStartsForForm({ name: playerName, rf1: row && row.rf1, rf2: row && row.rf2, rf3: row && row.rf3 }, 3);
+            hasCut = starts.some(x => x && x.isCut);
+            const sgs = starts.map(x => x.sg).filter(v => v != null);
+            if (sgs.length) l3 = sgs.reduce((a, b) => a + b, 0) / sgs.length;
+        } catch (e) {}
+        try {
+            const r = typeof seasonStatForPlayer === "function"
+                ? seasonStatForPlayer(playerName, "combined", "SG_Total") : null;
+            if (r && r.value != null) season = Number(r.value);
+        } catch (e) {}
+        let label = "Steady";
+        if (!hasCut && l3 != null) {
+            if (season != null && (l3 - season) >= 0.45 && l3 >= 0.35) label = "Hot form";
+            else if (l3 >= 0.75) label = "Hot form";
+            else if (l3 <= -0.6) label = "Cold";
+        } else if (hasCut && l3 != null && l3 >= 0.5) {
+            label = "Risk/Reward"; // heat with a cut mixed in L3
+        } else if (l3 != null && l3 <= -0.6) {
+            label = "Cold";
+        }
+        return { label, l3, season, badges: [] };
+    }
+
+    /** Cheap specialist notes — board only (full trait breakdown is too heavy for full-field blog). */
+    function blogSpecialistNotes(playerName) {
+        const strengths = [], weaknesses = [];
+        try {
+            const board = (window.specialistBoard || specialistRows || []);
+            const hit = board.find(r =>
+                namesMatch(r.player_name || r.name || r.name_adjusted || "", playerName)
+            );
+            if (hit) {
+                const rk = hit.rank != null ? Number(hit.rank) : (hit.specRank != null ? Number(hit.specRank) : null);
+                const sg = hit.sg_total_avg != null ? Number(hit.sg_total_avg) : (hit.sg != null ? Number(hit.sg) : null);
+                if (rk != null && !isNaN(rk) && rk > 0) {
+                    if (rk <= 15) strengths.push("SPEC board rank #" + rk);
+                    else if (rk >= 45) weaknesses.push("SPEC board rank #" + rk);
+                }
+                if (sg != null && !isNaN(sg)) {
+                    if (sg >= 0.4) strengths.push("Trait-sample SG " + (sg >= 0 ? "+" : "") + sg.toFixed(2));
+                    else if (sg <= -0.25) weaknesses.push("Trait-sample SG " + (sg >= 0 ? "+" : "") + sg.toFixed(2));
+                }
+                // Optional string fields if present on board
+                ["top_strength", "strength", "best_trait"].forEach(k => {
+                    if (hit[k]) strengths.push(String(hit[k]));
+                });
+                ["top_weakness", "weakness", "soft_trait"].forEach(k => {
+                    if (hit[k]) weaknesses.push(String(hit[k]));
+                });
+            }
+        } catch (e) {}
+        return {
+            strengths: strengths.slice(0, 3),
+            weaknesses: weaknesses.slice(0, 3),
+        };
+    }
+
+    function blogParagraph(row, nice, form, chStats, rfStats) {
+        const bits = [];
+        const dataTag = row.dataTag || "—";
+        const obTag = row.outrightTag || "—";
+        bits.push(nice + " is tagged <b>" + blogEsc(dataTag) + "</b>"
+            + (obTag && obTag !== "—" ? " with a <b>" + blogEsc(obTag) + "</b> win profile" : "")
+            + " this week.");
+        if (chStats.starts) {
+            bits.push("At this course he has " + chStats.starts + " start" + (chStats.starts === 1 ? "" : "s")
+                + (chStats.avgFinish != null ? " (avg finish " + chStats.avgFinish + ")" : "")
+                + (chStats.made != null ? ", " + chStats.made + "/" + chStats.starts + " cuts made" : "")
+                + ".");
+        } else {
+            bits.push("Limited course history is on file here, so the lean leans more on form and projection ranks.");
+        }
+        if (rfStats.avgFinish != null || row.rfRank != null) {
+            const rfBits = [];
+            if (row.rfRank != null) rfBits.push("RF rank #" + row.rfRank);
+            if (rfStats.avgFinish != null) rfBits.push("recent avg finish " + rfStats.avgFinish);
+            if (form.label && form.label !== "—" && form.label !== "Steady") rfBits.push(form.label);
+            if (row.cuts != null && row.cuts !== "" && !isNaN(Number(row.cuts))) {
+                rfBits.push(Number(row.cuts) + " made cuts in a row");
+            }
+            if (rfBits.length) bits.push("Recent form: " + rfBits.join(", ") + ".");
+        }
+        const sRanks = [1,2,3,4,5].map(i => row["s"+i]).filter(v => v != null && !isNaN(Number(v)) && Number(v) > 0).map(Number);
+        if (sRanks.length) {
+            const best = Math.min(...sRanks);
+            const labels = (typeof keyStatNames !== "undefined" && keyStatNames) ? keyStatNames : [];
+            let bestLab = "";
+            for (let i = 1; i <= 5; i++) {
+                if (Number(row["s"+i]) === best) { bestLab = labels[i-1] || ("S"+i); break; }
+            }
+            bits.push("Stat Fit peaks with " + blogEsc(bestLab) + " (field rank #" + best + ")"
+                + (row.sfRank != null ? "; SF rank #" + row.sfRank : "") + ".");
+        }
+        if (row.specRank != null) bits.push("Specialist rank #" + row.specRank + " for this setup.");
+        if (row.rank925 != null) bits.push("925 model rank #" + Math.round(Number(row.rank925)) + ".");
+        return bits.join(" ");
+    }
+
+
+    /** Unique tournament wins for a player (deduped by event+date). */
+    function blogCollectWins(playerName) {
+        if (!window._blogWinCache) window._blogWinCache = new Map();
+        const ck = (typeof nameKey === "function") ? nameKey(playerName) : String(playerName || "").toLowerCase();
+        if (window._blogWinCache.has(ck)) return window._blogWinCache.get(ck);
+        const out = [];
+        const seen = new Set();
+        try {
+            const rows = (typeof logsForPlayer === "function")
+                ? logsForPlayer(playerName)
+                : (playerLogs || []).filter(r =>
+                    namesMatch(r.player_name || r.name_adjusted || "", playerName));
+            (rows || []).forEach(r => {
+                const fin = String(r.fin_text || r.finish || r.pos || "").trim().toUpperCase();
+                if (!fin || fin.includes("CUT") || fin.includes("WD") || fin.includes("DQ")) return;
+                // Win only: 1 / T1 / WIN — not T10/T12
+                const isWin = (
+                    fin === "1" || fin === "T1" || fin === "WIN" || fin === "W"
+                    || /^1\b/.test(fin) || /^1\s*\(/.test(fin)
+                ) && !/^T1\d/.test(fin) && !/^T[2-9]/.test(fin);
+                if (!isWin) return;
+                const date = r.event_completed || r.date || "";
+                const event = r.event_name || "—";
+                const course = (r.course_name || "").trim();
+                // One win per event week (multi-course events count once)
+                const key = (event + "||" + String(date).slice(0, 10)).toLowerCase();
+                if (seen.has(key)) {
+                    const prev = out.find(w => (w.event + "||" + w.date).toLowerCase() === key);
+                    if (prev && !prev.course && course) prev.course = course;
+                    return;
+                }
+                seen.add(key);
+                out.push({
+                    event,
+                    course,
+                    date: String(date).slice(0, 10),
+                    year: (date && String(date).slice(0, 4)) || (r.year != null ? String(r.year) : ""),
+                });
+            });
+            out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        } catch (e) {}
+        window._blogWinCache.set(ck, out);
+        return out;
+    }
+
+    function blogWinsLast24Months(playerName) {
+        const wins = blogCollectWins(playerName);
+        const cutoff = new Date();
+        cutoff.setMonth(cutoff.getMonth() - 24);
+        const cutMs = cutoff.getTime();
+        return wins.filter(w => {
+            if (!w.date) return false;
+            const t = new Date(w.date).getTime();
+            return !isNaN(t) && t >= cutMs;
+        });
+    }
+
+    /** Vegas win% vs 925 model win%. */
+    function blogVegasVs925(playerName, row) {
+        let vegasP = null, vegasOdds = null;
+        try {
+            const w = (typeof lookupWinOdds === "function") ? lookupWinOdds(playerName) : null;
+            if (w) {
+                vegasOdds = w.display || null;
+                if (w.implied != null) {
+                    const raw = String(w.implied).replace("%", "").trim();
+                    const n = parseFloat(raw);
+                    if (!isNaN(n)) vegasP = n > 1 ? n / 100 : n;
+                }
+                if (vegasP == null && w.average != null && typeof americanToImplied === "function") {
+                    vegasP = americanToImplied(w.average);
+                }
+            }
+            if (vegasP == null && row && row.oddsNum != null && typeof americanToImplied === "function") {
+                vegasP = americanToImplied(row.oddsNum);
+                if (!vegasOdds && row.oddsNum != null) {
+                    const n = Number(row.oddsNum);
+                    vegasOdds = (n > 0 ? "+" : "") + Math.round(n);
+                }
+            }
+        } catch (e) {}
+
+        let modelP = null, modelOdds = null, modelRank = null, source = null;
+        try {
+            if (typeof resolveValueProjection === "function") {
+                const proj = resolveValueProjection(playerName, "win", "r925")
+                    || resolveValueProjection(playerName, "win", "auto");
+                if (proj && proj.modelProb != null) {
+                    modelP = Number(proj.modelProb);
+                    modelRank = proj.rank != null ? proj.rank : null;
+                    source = proj.source || "925";
+                    if (vegasP != null && typeof calibrateModelProb === "function") {
+                        modelP = calibrateModelProb(modelP, vegasP, "win");
+                    }
+                    modelOdds = (typeof formatModelOddsLocal === "function")
+                        ? formatModelOddsLocal(modelP)
+                        : (proj.modelOdds || null);
+                }
+            }
+        } catch (e) {}
+        if (modelP == null && row && row.rank925 != null && !isNaN(Number(row.rank925))) {
+            const rk = Math.max(1, Number(row.rank925));
+            const n = Math.max(40, (cheatRows || []).length || 70);
+            let raw = Math.pow(1 / rk, 1.15);
+            let sum = 0;
+            for (let i = 1; i <= n; i++) sum += Math.pow(1 / i, 1.15);
+            modelP = raw / (sum || 1);
+            modelRank = rk;
+            source = "925";
+            if (vegasP != null && typeof calibrateModelProb === "function") {
+                modelP = calibrateModelProb(modelP, vegasP, "win");
+            }
+            modelOdds = (typeof formatModelOddsLocal === "function") ? formatModelOddsLocal(modelP) : null;
+        }
+
+        let edgePp = null;
+        if (modelP != null && vegasP != null) edgePp = (modelP - vegasP) * 100;
+        return { vegasP, vegasOdds, modelP, modelOdds, modelRank, source, edgePp };
+    }
+
+    /** Build set of comparable course name keys for this week. */
+    function blogComparableCourseKeys() {
+        if (window._blogCompKeys && window._blogCompKeys.length) return window._blogCompKeys;
+        const keys = new Set();
+        const add = (c) => {
+            const t = String(c || "").trim();
+            if (!t) return;
+            keys.add(t.toLowerCase());
+            const short = t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+            if (short) keys.add(short);
+            const core = short.replace(/\b(tpc|gc|cc|golf|club|country|course|links|resort)\b/g, " ").replace(/\s+/g, " ").trim();
+            if (core.length >= 5) keys.add(core);
+        };
+        const thisCourse = String(
+            (typeof currentCourseName !== "undefined" && currentCourseName) || window.previewCourseName || ""
+        ).trim();
+        try {
+            add(thisCourse);
+            add(window.previewCourseName);
+            add(window._cmComparableCourse);
+        } catch (e) {}
+
+        // TPC / setup family comps for FedEx Cup style venues
+        const family = {
+            "southwind": ["tpc southwind", "tpc sawgrass", "tpc scottsdale", "tpc river highlands", "tpc deere run", "tpc boston", "tpc twin cities", "tpc louisiana", "tpc san antonio", "colonial country club", "innisbrook", "copperhead", "harbour town", "quail hollow", "east lake", "memorial tournament", "muirfield village"],
+            "sawgrass": ["tpc sawgrass", "tpc southwind", "harbour town", "copperhead"],
+            "colonial": ["colonial country club", "tpc southwind", "innisbrook", "copperhead"],
+            "copperhead": ["innisbrook", "copperhead", "tpc southwind", "colonial country club"],
+            "east lake": ["east lake", "quail hollow", "tpc southwind"],
+        };
+        const tc = thisCourse.toLowerCase();
+        Object.keys(family).forEach(k => {
+            if (tc.includes(k)) family[k].forEach(add);
+        });
+        if (/\btpc\b/i.test(thisCourse)) {
+            ["tpc sawgrass", "tpc scottsdale", "tpc river highlands", "tpc deere run", "tpc boston", "tpc southwind", "tpc twin cities", "tpc louisiana", "tpc san antonio"].forEach(add);
+        }
+
+        window._blogCompKeys = [...keys];
+        return window._blogCompKeys;
+    }
+
+    function blogCourseMatchesComp(courseName, compKeys) {
+        if (!courseName) return false;
+        const c = String(courseName).trim().toLowerCase();
+        if (!c) return false;
+        if (compKeys.includes(c)) return true;
+        const short = c.replace(/[^a-z0-9]+/g, " ").trim();
+        if (compKeys.includes(short)) return true;
+        // fuzzy contains
+        return compKeys.some(k => k.length >= 6 && (c.includes(k) || k.includes(c) || short.includes(k) || k.includes(short)));
+    }
+
+    function blogComparableWins(playerName) {
+        const wins = blogCollectWins(playerName);
+        const compKeys = blogComparableCourseKeys();
+        const thisCourse = String(
+            (typeof currentCourseName !== "undefined" && currentCourseName) || window.previewCourseName || ""
+        ).trim();
+        const atVenue = [];
+        const onComp = [];
+        wins.forEach(w => {
+            const c = w.course || "";
+            const isVenue = thisCourse && (
+                c.toLowerCase() === thisCourse.toLowerCase()
+                || c.toLowerCase().includes(thisCourse.toLowerCase().slice(0, 12))
+                || thisCourse.toLowerCase().includes(c.toLowerCase().slice(0, 12))
+            );
+            if (isVenue) atVenue.push(w);
+            else if (blogCourseMatchesComp(c, compKeys)) onComp.push(w);
+        });
+        return { atVenue, onComp, thisCourse };
+    }
+
+    /** Unique starts on comparable courses in the last 12 months (for Data Tags view). */
+    function blogComparableResults12m(playerName) {
+        const compKeys = blogComparableCourseKeys();
+        const thisCourse = String(
+            (typeof currentCourseName !== "undefined" && currentCourseName) || window.previewCourseName || ""
+        ).trim();
+        const cutoff = new Date();
+        cutoff.setMonth(cutoff.getMonth() - 12);
+        const cutMs = cutoff.getTime();
+        const out = [];
+        const seen = new Set();
+        try {
+            const rows = (typeof logsForPlayer === "function")
+                ? logsForPlayer(playerName)
+                : (playerLogs || []).filter(r =>
+                    namesMatch(r.player_name || r.name_adjusted || "", playerName));
+            (rows || []).forEach(r => {
+                const course = (r.course_name || "").trim();
+                if (!course) return;
+                const date = String(r.event_completed || r.date || "").slice(0, 10);
+                if (!date) return;
+                const t = new Date(date).getTime();
+                if (isNaN(t) || t < cutMs) return;
+                const isVenue = thisCourse && (
+                    course.toLowerCase() === thisCourse.toLowerCase()
+                    || course.toLowerCase().includes(thisCourse.toLowerCase().slice(0, 12))
+                    || thisCourse.toLowerCase().includes(course.toLowerCase().slice(0, 12))
+                );
+                if (!isVenue && !blogCourseMatchesComp(course, compKeys)) return;
+                const finRaw = String(r.fin_text || r.finish || r.pos || "").trim();
+                if (!finRaw) return;
+                const event = r.event_name || "—";
+                const key = (event + "||" + date).toLowerCase();
+                if (seen.has(key)) return;
+                seen.add(key);
+                let fin = finRaw;
+                try {
+                    if (typeof blogFinLabel === "function") fin = blogFinLabel(finRaw);
+                } catch (e) {}
+                out.push({
+                    event,
+                    course,
+                    fin,
+                    date,
+                    year: date.slice(0, 4),
+                    isVenue: !!isVenue,
+                });
+            });
+            out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        } catch (e) {}
+        return out;
+    }
+
+    /** Most recent start (last week / RF1). */
+    function blogLastWeekStart(playerName, row) {
+        try {
+            const starts = (typeof blogRecentStarts === "function") ? blogRecentStarts(playerName, 1) : [];
+            if (starts && starts.length) {
+                const e = starts[0];
+                return {
+                    event: e.event || "Last start",
+                    fin: (typeof blogFinLabel === "function") ? blogFinLabel(e.fin) : String(e.fin || "—"),
+                    sg: e.sg != null && !isNaN(e.sg) ? Number(e.sg) : null,
+                    date: e.date || "",
+                };
+            }
+        } catch (e) {}
+        // Fallback to RF1 cell on cheat row
+        try {
+            if (row && row.rf1 != null && row.rf1 !== "" && row.rf1 !== "—") {
+                let fin = String(row.rf1);
+                let sg = null;
+                try {
+                    if (typeof parseRfStartCell === "function") {
+                        const p = parseRfStartCell(row.rf1);
+                        if (p) {
+                            fin = p.isCut ? "CUT" : (p.fin != null ? String(p.fin) : fin);
+                            if (p.sg != null) sg = p.sg;
+                        }
+                    }
+                } catch (e2) {}
+                return { event: "Last start (RF1)", fin: (typeof blogFinLabel === "function") ? blogFinLabel(fin) : fin, sg, date: "" };
+            }
+        } catch (e) {}
+        return null;
+    }
+
+    function blogFmtPct(p) {
+        if (p == null || isNaN(p)) return "—";
+        return (Number(p) * 100).toFixed(1) + "%";
+    }
+
+    function blogOutrightSectionHtml(row, name, nice) {
+        const wins24 = blogWinsLast24Months(name);
+        const vs = blogVegasVs925(name, row);
+        const comp = blogComparableWins(name);
+        const mode = (window._blogGroupMode || "data");
+        const obTag = (row.outrightTag && row.outrightTag !== "—" && row.outrightTag !== "–") ? row.outrightTag : "";
+        const lastWk = blogLastWeekStart(name, row);
+
+        let html = '<div class="blog-sec"><div class="blog-sec-title blog-h-ob">Outright Snapshot</div><ul>';
+
+        // Last week / most recent start
+        if (lastWk) {
+            html += '<li>Last week: <b>' + blogEsc(lastWk.fin) + '</b>';
+            if (lastWk.event && lastWk.event !== "—") html += ' <span class="text-slate-500">— ' + blogEsc(lastWk.event) + '</span>';
+            if (lastWk.sg != null) {
+                html += ' <span class="text-slate-500">(' + (lastWk.sg >= 0 ? "+" : "") + lastWk.sg.toFixed(2) + ' SG)</span>';
+            }
+            html += '</li>';
+        } else {
+            html += '<li>Last week: <b>—</b></li>';
+        }
+
+        // Wins last 24 months
+        if (wins24.length) {
+            html += '<li>Wins (past 24 months): <b>' + wins24.length + '</b>';
+            const bits = wins24.slice(0, 4).map(w => {
+                const lab = (w.event && w.event !== "—") ? w.event : (w.course || "Win");
+                return blogEsc(lab) + (w.year ? " (" + blogEsc(w.year) + ")" : "");
+            });
+            html += '<ul><li>' + bits.join(" · ") + (wins24.length > 4 ? " · +" + (wins24.length - 4) + " more" : "") + '</li></ul>';
+            html += '</li>';
+        } else {
+            html += '<li>Wins (past 24 months): <b>0</b></li>';
+        }
+
+        // Vegas vs 925
+        html += '<li>Win probability — Vegas: <b>' + blogFmtPct(vs.vegasP) + '</b>';
+        if (vs.vegasOdds) html += ' <span class="text-slate-500">(' + blogEsc(String(vs.vegasOdds)) + ')</span>';
+        html += ' · 925 model: <b>' + blogFmtPct(vs.modelP) + '</b>';
+        if (vs.modelOdds) html += ' <span class="text-slate-500">(' + blogEsc(String(vs.modelOdds)) + ')</span>';
+        if (vs.modelRank != null) html += ' <span class="text-slate-500">· 925 #' + Math.round(Number(vs.modelRank)) + '</span>';
+        html += '</li>';
+
+        if (vs.edgePp != null && !isNaN(vs.edgePp)) {
+            const cls = vs.edgePp > 0.25 ? "blog-ob-edge-pos" : (vs.edgePp < -0.25 ? "blog-ob-edge-neg" : "blog-ob-edge-flat");
+            const sign = vs.edgePp >= 0 ? "+" : "";
+            html += '<li>925 vs Vegas edge: <span class="' + cls + '">' + sign + vs.edgePp.toFixed(1) + ' pp</span>';
+            if (vs.edgePp > 0.5) html += ' <span class="text-slate-500">— model likes him more than the market</span>';
+            else if (vs.edgePp < -0.5) html += ' <span class="text-slate-500">— market is longer on him than 925</span>';
+            html += '</li>';
+        }
+
+        if (obTag) html += '<li>Bet tag: <b>' + blogEsc(obTag) + '</b></li>';
+        html += '</ul>';
+
+        // Callouts — mode aware:
+        //   Data Tags → results on comparable courses (last 12 months)
+        //   Bet Tags (Outright) → won on comparable courses
+        //   Both → show both when available
+        const callouts = [];
+        const showWins = (mode === "outright" || mode === "both");
+        const showResults = (mode === "data" || mode === "both");
+
+        if (showWins) {
+            if (comp.atVenue.length) {
+                const w = comp.atVenue[0];
+                callouts.push(
+                    '<b>Won at this venue</b> — '
+                    + blogEsc(w.event || comp.thisCourse)
+                    + (w.year ? ' (' + blogEsc(w.year) + ')' : '')
+                    + (comp.atVenue.length > 1 ? ' · ' + comp.atVenue.length + ' total wins here' : '')
+                );
+            }
+            if (comp.onComp.length) {
+                const shown = comp.onComp.slice(0, 3).map(w => {
+                    return blogEsc(w.course || w.event)
+                        + (w.year ? ' (' + blogEsc(w.year) + ')' : '');
+                });
+                callouts.push(
+                    '<b>Won on comparable courses</b> — '
+                    + shown.join(' · ')
+                    + (comp.onComp.length > 3 ? ' · +' + (comp.onComp.length - 3) + ' more' : '')
+                );
+            }
+        }
+
+        if (showResults) {
+            const results = blogComparableResults12m(name);
+            if (results.length) {
+                const shown = results.slice(0, 5).map(r => {
+                    const place = blogEsc(r.course || r.event);
+                    return place + ': <b>' + blogEsc(r.fin) + '</b>'
+                        + (r.year ? ' <span class="text-slate-500">(' + blogEsc(r.year) + ')</span>' : '');
+                });
+                callouts.push(
+                    '<b>Comparable courses (last 12 months)</b> — '
+                    + shown.join(' · ')
+                    + (results.length > 5 ? ' · +' + (results.length - 5) + ' more' : '')
+                );
+            }
+        }
+
+        if (callouts.length) {
+            html += '<div class="blog-ob-callout">' + callouts.join('<br>') + '</div>';
+        }
+        html += '</div>';
+        return html;
+    }
+
+    function blogPlayerCardHtml(row) {
+        try {
+            const name = row.name || row.name_adjusted || "";
+            const nice = blogDispName(name);
+            const sal = blogFmtSal(row.salary);
+            const odds = blogFmtOdds(row);
+            const dataTag = row.dataTag || "—";
+            const obTag = (row.outrightTag && row.outrightTag !== "—" && row.outrightTag !== "–") ? row.outrightTag : "";
+            const safe = String(nice).replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+
+            const chLines = [];
+            for (let i = 1; i <= 4; i++) {
+                const fin = row["h" + i];
+                if (fin == null || fin === "" || fin === "—") continue;
+                const yr = row["h" + i + "_year"] || ("Year " + i);
+                chLines.push({ yr, fin: blogFinLabel(fin) });
+            }
+            const chFins = chLines.map(x => blogFinNum(x.fin)).filter(n => n != null && n < 70);
+            const chCuts = chLines.filter(x => /CUT|WD|DQ/i.test(String(x.fin))).length;
+            const chMade = chLines.length - chCuts;
+            const chAvg = chFins.length ? (chFins.reduce((a, b) => a + b, 0) / chFins.length) : null;
+            const chStats = { starts: chLines.length, avgFinish: chAvg != null ? chAvg.toFixed(1) : null, made: chMade, missed: chCuts };
+
+            let rfStarts = blogRecentStarts(name, 3);
+            if (!rfStarts.length) {
+                for (let i = 1; i <= 3; i++) {
+                    const fin = row["rf" + i];
+                    if (fin == null || fin === "" || fin === "—") continue;
+                    const parsed = parseRfStartCell(fin);
+                    rfStarts.push({
+                        event: "RF" + i,
+                        fin: parsed ? (parsed.isCut ? "CUT" : String(fin)) : String(fin),
+                        sg: parsed ? parsed.sg : null,
+                        date: "",
+                    });
+                }
+            }
+            const rfFins = rfStarts.map(e => blogFinNum(e.fin)).filter(n => n != null && n < 70);
+            const rfSg = rfStarts.map(e => e.sg).filter(v => v != null && !isNaN(v));
+            const rfAvgFin = rfFins.length ? (rfFins.reduce((a, b) => a + b, 0) / rfFins.length) : null;
+            const rfAvgSg = rfSg.length ? (rfSg.reduce((a, b) => a + b, 0) / rfSg.length) : null;
+            const form = blogFormBadge(name, row);
+            const rfStats = { avgFinish: rfAvgFin != null ? rfAvgFin.toFixed(1) : null, avgSg: rfAvgSg };
+
+            let l5Rank = null, l5Avg = null;
+            try {
+                const p = (allPlayers || []).find(x => namesMatch(x.player_name || x.name_adjusted || "", name));
+                if (p) {
+                    if (p.rflst5_rank != null) l5Rank = Number(p.rflst5_rank);
+                    if (p.rflst5 != null) l5Avg = Number(p.rflst5);
+                }
+            } catch (e) {}
+
+            const labels = (typeof keyStatNames !== "undefined" && keyStatNames) ? keyStatNames : [];
+            const sLines = [];
+            for (let i = 1; i <= 5; i++) {
+                const v = row["s" + i];
+                if (v == null || v === "" || isNaN(Number(v)) || Number(v) <= 0) continue;
+                sLines.push({ lab: (labels[i - 1] && String(labels[i - 1]).trim()) || ("Key Stat " + i), rank: Number(v) });
+            }
+
+            const spec = blogSpecialistNotes(name);
+
+            let tagHtml = "";
+            if (dataTag && dataTag !== "—") {
+                tagHtml += '<span class="data-tag ' + (row.dataTagCls || BLOG_DATA_CLS[dataTag] || "") + '">' + blogEsc(dataTag) + '</span> ';
+            }
+            if (obTag) {
+                tagHtml += '<span class="ob-tag ' + (row.outrightCls || BLOG_OUTRIGHT_CLS[obTag] || "") + '">' + blogEsc(obTag) + '</span>';
+            }
+            // form badge chips
+            const formBadges = (form.badges || []);
+            if (formBadges.length) {
+                formBadges.slice(0, 3).forEach(t => {
+                    tagHtml += ' <span class="inline-flex px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700">' + blogEsc(t) + '</span>';
+                });
+            } else if (form.label && form.label !== "Steady" && form.label !== "—") {
+                tagHtml += ' <span class="inline-flex px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700">' + blogEsc(form.label) + '</span>';
+            }
+
+            // Headshot (reuse shared helper)
+            let shotHtml = '';
+            try {
+                if (typeof headshotHtml === "function") {
+                    shotHtml = '<div class="blog-player-shot">' + headshotHtml(name, 56) + '</div>';
+                } else {
+                    shotHtml = '<div class="blog-player-shot"><div class="blog-shot-ph">' + blogEsc((nice || "?").charAt(0)) + '</div></div>';
+                }
+            } catch (e) {
+                shotHtml = '<div class="blog-player-shot"><div class="blog-shot-ph">' + blogEsc((nice || "?").charAt(0)) + '</div></div>';
+            }
+
+            let html = '<div class="blog-player">';
+            html += '<div class="blog-player-head">' + shotHtml + '<div class="min-w-0 flex-1">';
+            html += '<div class="blog-player-name" onclick="try{openPlayerModal(\'' + safe + '\',7)}catch(e){}">' + blogEsc(nice) + '</div>';
+            html += '<div class="blog-meta mt-0.5">' + blogEsc(sal) + ' · Odds to Win ' + blogEsc(odds);
+            if (row.rank925 != null) html += ' · 925 #' + Math.round(Number(row.rank925));
+            html += '</div>';
+            html += '<div class="mt-1.5 flex flex-wrap gap-1.5 items-center">' + tagHtml + '</div>';
+            html += '</div></div>';
+
+            // Outright snapshot (wins / Vegas vs 925 / comparable)
+            html += blogOutrightSectionHtml(row, name, nice);
+
+            html += '<div class="blog-sec"><div class="blog-sec-title blog-h-ch">Course History (CH)</div><ul>';
+            if (chLines.length) {
+                chLines.forEach(x => {
+                    html += '<li>' + blogEsc(String(x.yr)) + ': <b>' + blogEsc(x.fin) + '</b></li>';
+                });
+                html += '<ul>';
+                if (chStats.avgFinish != null) html += '<li>Average Finish: <b>' + chStats.avgFinish + '</b></li>';
+                html += '<li>Course Made Cuts / Missed Cuts: <b>' + chStats.made + ' / ' + chStats.missed + '</b></li>';
+                if (row.chRank != null) html += '<li>CH Rank: <b>#' + row.chRank + '</b></li>';
+                html += '</ul>';
+            } else {
+                html += '<li>No course history starts on file.</li>';
+            }
+            html += '</ul></div>';
+
+            html += '<div class="blog-sec"><div class="blog-sec-title blog-h-rf">Recent Form (RF)</div><ul>';
+            if (rfStarts.length) {
+                rfStarts.forEach((e, idx) => {
+                    const label = e.event && e.event !== "—" ? e.event : ("Start " + (idx + 1));
+                    const fin = blogFinLabel(e.fin);
+                    const sgBit = e.sg != null ? ' <span class="text-slate-400">(' + (e.sg >= 0 ? "+" : "") + Number(e.sg).toFixed(2) + ' SG)</span>' : '';
+                    html += '<li>' + blogEsc(label) + ': <b>' + blogEsc(fin) + '</b>' + sgBit + '</li>';
+                });
+                html += '<ul>';
+                if (rfStats.avgFinish != null) html += '<li>Average Finish: <b>' + rfStats.avgFinish + '</b></li>';
+                if (rfStats.avgSg != null) html += '<li>Average SG Total: <b>' + (rfStats.avgSg >= 0 ? "+" : "") + Number(rfStats.avgSg).toFixed(2) + '</b></li>';
+                if (row.rfRank != null) html += '<li>Recent Form Rank: <b>#' + row.rfRank + '</b></li>';
+                if (l5Rank != null && !isNaN(l5Rank)) html += '<li>Recent Form Rank Last 5: <b>#' + l5Rank + '</b>' + (l5Avg != null && !isNaN(l5Avg) ? ' (avg ' + Number(l5Avg).toFixed(1) + ')' : '') + '</li>';
+                html += '<li>Form: <b>' + blogEsc(form.label) + '</b>' + (form.l3 != null ? ' (L3 ' + (form.l3 >= 0 ? "+" : "") + form.l3.toFixed(2) + ' SG)' : '') + '</li>';
+                if (row.cuts != null && row.cuts !== "" && row.cuts !== "…") {
+                    html += '<li>Made Cuts in a Row: <b>' + blogEsc(String(row.cuts)) + '</b></li>';
+                }
+                html += '</ul>';
+            } else {
+                html += '<li>Recent form starts not loaded yet.</li>';
+            }
+            html += '</ul></div>';
+
+            html += '<div class="blog-sec"><div class="blog-sec-title blog-h-sf">Stat Fit (SF)</div><ul>';
+            if (sLines.length) {
+                sLines.forEach(x => { html += '<li>' + blogEsc(x.lab) + ': <b>#' + x.rank + '</b></li>'; });
+                if (row.sfRank != null) html += '<li>SF Rank: <b>#' + row.sfRank + '</b></li>';
+            } else {
+                html += '<li>Key stat ranks not available.</li>';
+            }
+            html += '</ul></div>';
+
+            html += '<div class="blog-sec"><div class="blog-sec-title blog-h-sp">Specialist</div><ul>';
+            if (row.specRank != null) html += '<li>SPEC Rank: <b>#' + row.specRank + '</b></li>';
+            if (spec.strengths.length) {
+                html += '<li>Top Strengths:<ul>' + spec.strengths.map(t => '<li>' + blogEsc(t) + '</li>').join("") + '</ul></li>';
+            } else {
+                html += '<li>Top Strengths: <span class="text-slate-400">—</span></li>';
+            }
+            if (spec.weaknesses.length) {
+                html += '<li>Top Weaknesses:<ul>' + spec.weaknesses.map(t => '<li>' + blogEsc(t) + '</li>').join("") + '</ul></li>';
+            } else {
+                html += '<li>Top Weaknesses: <span class="text-slate-400">—</span></li>';
+            }
+            html += '</ul></div>';
+
+            html += '<div class="blog-para">' + blogParagraph(row, nice, form, chStats, rfStats) + '</div>';
+            html += '</div>';
+            return html;
+        } catch (e) {
+            console.warn("blog card", row && row.name, e);
+            return '<div class="blog-player"><div class="text-sm text-slate-500">Could not build write-up for '
+                + blogEsc((row && (row.name || row.name_adjusted)) || "player") + '.</div></div>';
+        }
+    }
+
+    function blogSortPlayers(list) {
+        return list.slice().sort((a, b) => {
+            const ra = a.rank925 != null ? Number(a.rank925) : (a.finalRank != null ? Number(a.finalRank) : 999);
+            const rb = b.rank925 != null ? Number(b.rank925) : (b.finalRank != null ? Number(b.finalRank) : 999);
+            if (ra !== rb) return ra - rb;
+            const sa = a.salary != null ? Number(a.salary) : 0;
+            const sb = b.salary != null ? Number(b.salary) : 0;
+            return sb - sa;
+        });
+    }
+
+    function blogRenderGroupSections(mode, rows) {
+        let order, defs, clsMap, keyFn;
+        if (mode === "outright") {
+            order = BLOG_OUTRIGHT_ORDER.slice();
+            defs = BLOG_OUTRIGHT_DEFS;
+            clsMap = BLOG_OUTRIGHT_CLS;
+            keyFn = r => {
+                const t = String(r.outrightTag || "").trim();
+                return (t && t !== "—" && t !== "–") ? t : null;
+            };
+        } else {
+            order = BLOG_DATA_TAG_ORDER.slice();
+            defs = BLOG_DATA_TAG_DEFS;
+            clsMap = BLOG_DATA_CLS;
+            keyFn = r => {
+                const t = String(r.dataTag || "").trim();
+                return t || null;
+            };
+        }
+        const groups = {};
+        rows.forEach(r => {
+            const k = keyFn(r);
+            if (!k) return;
+            if (!groups[k]) groups[k] = [];
+            groups[k].push(r);
+        });
+        Object.keys(groups).forEach(k => {
+            if (!order.includes(k)) order.push(k);
+        });
+        // Return structured data for progressive paint (avoid 20s+ freezes)
+        const sections = [];
+        order.forEach(tag => {
+            const list = groups[tag];
+            if (!list || !list.length) return;
+            sections.push({
+                tag,
+                def: defs[tag] || ("Players tagged " + tag + " this week."),
+                cls: clsMap[tag] || "",
+                players: blogSortPlayers(list),
+            });
+        });
+        return sections;
+    }
+
+    function renderDfsBlogSummary() {
+        const root = document.getElementById("blog-summary-root");
+        const status = document.getElementById("blog-summary-status");
+        if (!root) return;
+
+        // Cancel any in-flight progressive render
+        window._blogRenderToken = (window._blogRenderToken || 0) + 1;
+        const token = window._blogRenderToken;
+        // Refresh comparable-course keys each full render
+        try { window._blogCompKeys = null; } catch (e) {}
+
+        try {
+            if ((cheatRows || []).length && cheatRows.some(r => !r.dataTag)) {
+                cheatRows.forEach(r => {
+                    try {
+                        const t = computeDataTag(r);
+                        r.dataTag = t.tag; r.dataTagCls = t.cls; r.dataTagTip = t.tip;
+                    } catch (e) {}
+                    try {
+                        const o = computeOutrightBetTag(r);
+                        r.outrightTag = o.tag; r.outrightCls = o.cls; r.outrightTip = o.tip;
+                    } catch (e) {}
+                });
+            }
+        } catch (e) {}
+
+        let rows = (cheatRows || []).slice();
+        if (!rows.length) {
+            root.innerHTML = '<div class="blog-empty">Cheat Sheet is still loading — open Fantasy Golf → Cheat Sheet once, then return here.</div>';
+            if (status) status.textContent = "Waiting on field…";
+            return;
+        }
+
+        const q = (document.getElementById("blog-search")?.value || "").trim().toLowerCase();
+        if (q) {
+            rows = rows.filter(r => {
+                const n = (r.name || "") + " " + (r.name_adjusted || "");
+                return n.toLowerCase().includes(q) || blogDispName(r.name || "").toLowerCase().includes(q);
+            });
+        }
+
+        const mode = window._blogGroupMode || "data";
+        const eventName = (typeof currentCourseName !== "undefined" && currentCourseName)
+            || (rows[0] && (rows[0].event_name || rows[0].course_name))
+            || "This week";
+        if (status) {
+            status.textContent = "Building write-ups… " + rows.length + " players · " + eventName;
+        }
+
+        // Build section skeletons first (instant paint)
+        const blocks = [];
+        if (mode === "both") {
+            blocks.push({ title: "By Data Tag", sections: blogRenderGroupSections("data", rows) });
+            blocks.push({ title: "By Outright / Bet Tag", sections: blogRenderGroupSections("outright", rows) });
+        } else {
+            blocks.push({ title: "", sections: blogRenderGroupSections(mode, rows) });
+        }
+
+        let shell = "";
+        const jobs = []; // {secId, player}
+        let secId = 0;
+        blocks.forEach(block => {
+            if (block.title) shell += '<h3 class="text-sm font-bold uppercase tracking-wide text-slate-500 mb-2 mt-4 first:mt-0">' + blogEsc(block.title) + '</h3>';
+            if (!block.sections.length) {
+                shell += '<div class="blog-empty">No players match this grouping.</div>';
+                return;
+            }
+            block.sections.forEach(sec => {
+                const id = "blog-sec-body-" + (secId++);
+                const tagKey = String(sec.tag || "tag");
+                const tierId = "blog-tier-" + tagKey.replace(/[^a-zA-Z0-9_-]/g, "_");
+                const collapsed = blogCollapsedSet().has(tagKey);
+                const colCls = collapsed ? " collapsed" : "";
+                const chev = collapsed ? "▶" : "▼";
+                const hint = collapsed ? "Expand" : "Collapse";
+                // Safe onclick key via encodeURIComponent then decode in handler
+                const safeKey = encodeURIComponent(tagKey);
+                shell += '<section class="blog-tier ' + sec.cls + colCls + '" id="' + tierId
+                    + '" data-blog-tag="' + blogEsc(tagKey) + '">';
+                shell += '<div class="blog-tier-head" role="button" tabindex="0"'
+                    + ' aria-expanded="' + (collapsed ? "false" : "true") + '"'
+                    + ' onclick="toggleBlogTier(decodeURIComponent(\'' + safeKey + '\'), event)"'
+                    + ' onkeydown="if(event.key===\'Enter\'||event.key===\' \'){toggleBlogTier(decodeURIComponent(\'' + safeKey + '\'), event);}">';
+                shell += '<div class="blog-tier-head-row">'
+                    + '<span class="blog-tier-chev" aria-hidden="true">' + chev + '</span>'
+                    + '<h3>' + blogEsc(String(sec.tag).toUpperCase())
+                    + ' <span class="blog-tier-count">' + sec.players.length + '</span></h3>'
+                    + '<span class="blog-tier-toggle-hint">' + hint + '</span>'
+                    + '</div>';
+                shell += '<div class="blog-tier-def">' + blogEsc(sec.def) + '</div></div>';
+                shell += '<div class="blog-tier-body" id="' + id + '"><div class="blog-empty py-4">Writing cards…</div></div>';
+                shell += '</section>';
+                sec.players.forEach(p => jobs.push({ id, player: p }));
+            });
+        });
+        root.innerHTML = shell;
+
+        // Progressive fill — keeps UI responsive (prevents tab freeze/crash)
+        let idx = 0;
+        const chunk = 6;
+        const bodies = {};
+        function tick() {
+            if (token !== window._blogRenderToken) return; // cancelled
+            const end = Math.min(jobs.length, idx + chunk);
+            for (; idx < end; idx++) {
+                const job = jobs[idx];
+                if (!bodies[job.id]) bodies[job.id] = "";
+                try {
+                    bodies[job.id] += blogPlayerCardHtml(job.player);
+                } catch (e) {
+                    bodies[job.id] += '<div class="blog-player text-sm text-slate-400 px-4 py-2">Error on player card</div>';
+                }
+            }
+            // flush completed sections partially
+            Object.keys(bodies).forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = bodies[id] || '<div class="blog-empty">—</div>';
+            });
+            if (status) {
+                status.textContent = "Building write-ups… " + idx + "/" + jobs.length
+                    + " · " + eventName
+                    + (playerLogs && playerLogs.length ? " · logs ready" : "");
+            }
+            if (idx < jobs.length) {
+                setTimeout(tick, 0);
+            } else {
+                if (status) {
+                    status.textContent = jobs.length + " write-ups · " + eventName
+                        + (playerLogs && playerLogs.length ? " · logs ready" : " · history still loading");
+                }
+            }
+        }
+        setTimeout(tick, 0);
+    }
+    window.renderDfsBlogSummary = renderDfsBlogSummary;
+
+
+
     function americanToImplied(odds) {
         if (odds == null || odds === "" || odds === "N/A" || odds === "—") return null;
         let s = String(odds).trim().replace(/^\+/, "");
@@ -20463,7 +22042,7 @@ function renderCheatSheet() {
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[2])||'Key Stat 3'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s3, maxR)}">${displayRank(r.s3)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[3])||'Key Stat 4'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s4, maxR)}">${displayRank(r.s4)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-sec-end cs-g-ks" title="${(keyStatNames&&keyStatNames[4])||'Key Stat 5'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s5, maxR)}">${displayRank(r.s5)}</span></td>
-                <td class="px-1.5 py-1.5 text-center cs-sec cs-g-proj"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.specRank, maxR)}">${displayRank(r.specRank)}</span></td>
+                <td class="px-1.5 py-1.5 text-center cs-sec cs-g-sp"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.specRank, maxR)}">${displayRank(r.specRank)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-proj"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.chRank, maxR)}">${displayRank(r.chRank)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-proj"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.sfRank, maxR)}">${displayRank(r.sfRank)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-proj"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.rfRank, maxR)}" title="${(() => {
