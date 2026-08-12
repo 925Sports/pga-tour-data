@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Sedgefield Country Club | Updated: 8/10/2026, 8:55:19 PM",,,,,,,,,,,
+"Location: TPC Southwind | Updated: 8/11/2026, 7:55:19 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Mon Aug 10,12:00 AM,73.3,79.4,11,0,Overcast,6.4,13.4,SW,100,94
-Mon Aug 10,1:00 AM,75.5,81.1,11,0,Overcast,5.1,10.7,WSW,100,82
-Mon Aug 10,2:00 AM,73.5,79.1,13,0,Partly Cloudy,4.4,12.1,SW,52,86
-Mon Aug 10,3:00 AM,71.9,78.4,8,0,Clear,1.6,6,SW,15,89
-Mon Aug 10,4:00 AM,70.6,77.2,1,0,Clear,1.8,5.8,W,18,94
-Mon Aug 10,5:00 AM,69.9,76.4,1,0,Clear,1.3,4.5,SW,5,94
-Mon Aug 10,6:00 AM,69.4,75.5,1,0,Clear,1.8,4,S,2,95
-Mon Aug 10,7:00 AM,69.3,75.5,1,0,Clear,1.7,5.4,SW,11,96
-Mon Aug 10,8:00 AM,72.4,79.3,2,0,Mainly Clear,3.8,7.6,SW,24,95
-Mon Aug 10,9:00 AM,75.2,82.2,4,0,Mainly Clear,4.1,7.8,SW,22,88
-Mon Aug 10,10:00 AM,79.2,85.6,1,0,Clear,6,8.5,WSW,12,78
-Mon Aug 10,11:00 AM,83.2,91.4,0,0,Clear,6.3,11.4,W,3,71
-Mon Aug 10,12:00 PM,88.2,95.9,0,0,Clear,6.5,9.4,W,1,54
-Mon Aug 10,1:00 PM,87.8,96.7,0,0,Clear,6.9,8.9,WNW,4,57
-Mon Aug 10,2:00 PM,90.4,97.3,0,0,Clear,9.4,11,WSW,2,49
-Mon Aug 10,3:00 PM,89.5,96.4,0,0,Clear,7.7,11.6,WSW,12,53
-Mon Aug 10,4:00 PM,89.7,95.8,0,0,Clear,8.5,11.9,W,6,52
-Mon Aug 10,5:00 PM,90,93.8,4,0,Clear,8.4,12.8,W,12,50
-Mon Aug 10,6:00 PM,88.6,93.6,7,0,Clear,7.6,10.3,W,1,55
-Mon Aug 10,7:00 PM,87.6,91.4,13,0,Overcast,6.6,12.8,WSW,89,51
-Mon Aug 10,8:00 PM,80.3,87.3,4,0,Overcast,7.2,9.4,ENE,92,80
-Mon Aug 10,9:00 PM,78.6,87.2,2,0,Mainly Clear,3.6,4.7,N,36,85
-Mon Aug 10,10:00 PM,78,86.5,6,0,Clear,2.9,3.1,S,0,85
-Mon Aug 10,11:00 PM,77,83.8,1,0,Clear,5.2,8.1,S,0,84
-Tue Aug 11,12:00 AM,75.7,81.7,1,0,Clear,5.7,12.5,S,0,85
-Tue Aug 11,1:00 AM,74.7,81.4,1,0,Clear,5.3,11.6,SW,0,91
-Tue Aug 11,2:00 AM,74,81.1,1,0,Clear,3.8,11.9,SW,0,91
-Tue Aug 11,3:00 AM,73.2,80.1,1,0,Clear,3.5,10.5,SW,0,92
-Tue Aug 11,4:00 AM,72.3,78.6,1,0,Clear,4,10.1,SW,1,92
-Tue Aug 11,5:00 AM,71.5,77.2,1,0,Clear,4.4,9.8,WNW,3,92
-Tue Aug 11,6:00 AM,71.8,76.9,1,0,Clear,4.7,11.4,W,4,89
-Tue Aug 11,7:00 AM,72,76.8,1,0,Clear,3.6,8.5,W,6,84
-Tue Aug 11,8:00 AM,74.7,81,0,0,Clear,3.3,8.7,WSW,3,84
-Tue Aug 11,9:00 AM,80,85.4,0,0,Clear,6.7,11.4,WNW,0,73
-Tue Aug 11,10:00 AM,83.4,88.4,1,0,Clear,5.8,10.7,WNW,0,62
-Tue Aug 11,11:00 AM,86.8,91.6,1,0,Clear,7.4,10.7,WSW,0,53
-Tue Aug 11,12:00 PM,89.6,95.5,3,0,Clear,9.8,12.5,W,0,52
-Tue Aug 11,1:00 PM,91.4,98.7,7,0,Clear,10.3,13,W,0,52
-Tue Aug 11,2:00 PM,93.7,100.1,3,0,Clear,10.4,18.6,WSW,7,45
-Tue Aug 11,3:00 PM,94.5,98.8,4,0,Overcast,12.8,19.2,W,82,43
-Tue Aug 11,4:00 PM,93.3,92.9,5,0,Overcast,12.8,18.3,WNW,100,38
-Tue Aug 11,5:00 PM,92.4,92,14,0,Mainly Clear,17.3,24.4,WSW,23,43
-Tue Aug 11,6:00 PM,85.6,87.4,14,0,Overcast,9.3,19.2,WSW,99,51
-Tue Aug 11,7:00 PM,84.3,84.1,9,0,Overcast,13.2,24.2,WSW,100,52
-Tue Aug 11,8:00 PM,80.8,81.7,24,0,Overcast,8.9,17,SW,100,55
-Tue Aug 11,9:00 PM,79.3,80.2,13,0,Overcast,9.8,21.7,SW,100,59
-Tue Aug 11,10:00 PM,76.8,78,8,0,Overcast,7.9,17.2,SW,100,62
-Tue Aug 11,11:00 PM,75.7,77.2,8,0,Overcast,8.6,19,W,98,67
+Tue Aug 11,12:00 AM,78.9,86.5,0,0,Clear,3.8,10.3,S,0,80
+Tue Aug 11,1:00 AM,78.3,86.3,0,0,Clear,3.4,10.3,S,0,83
+Tue Aug 11,2:00 AM,77.5,84.7,0,0,Clear,5.4,11.9,S,0,85
+Tue Aug 11,3:00 AM,76.5,83.3,0,0,Clear,5.8,13,S,2,87
+Tue Aug 11,4:00 AM,76.2,83,0,0,Clear,5.6,13,S,0,87
+Tue Aug 11,5:00 AM,76.3,82.3,0,0,Clear,7.1,16.6,SSW,5,86
+Tue Aug 11,6:00 AM,76.2,83.7,0,0,Clear,4.5,8.3,SSW,0,88
+Tue Aug 11,7:00 AM,75.3,83.1,0,0,Clear,2.9,7.6,S,1,89
+Tue Aug 11,8:00 AM,76,84,0,0,Clear,4,11.4,SSW,1,91
+Tue Aug 11,9:00 AM,79.4,88.4,0,0,Clear,5.6,10.5,SSW,3,89
+Tue Aug 11,10:00 AM,82.9,91.6,0,0,Clear,8.4,13.2,SW,2,83
+Tue Aug 11,11:00 AM,86.1,96.3,0,0,Mainly Clear,7,10.3,SW,36,77
+Tue Aug 11,12:00 PM,87.8,100.2,0,0,Clear,7,9.4,SSW,18,75
+Tue Aug 11,1:00 PM,89.6,101.2,0,0,Mainly Clear,9.1,10.5,SSW,30,70
+Tue Aug 11,2:00 PM,90.7,102.1,1,0,Mainly Clear,9.8,12.3,SSW,26,65
+Tue Aug 11,3:00 PM,91.4,102.4,1,0,Mainly Clear,12.1,14.5,SSW,32,65
+Tue Aug 11,4:00 PM,92.1,103.1,1,0,Mainly Clear,10.4,12.5,SSW,26,63
+Tue Aug 11,5:00 PM,92,101.6,1,0,Clear,10.1,12.1,SSW,9,63
+Tue Aug 11,6:00 PM,91.5,99.1,1,0,Clear,10.1,13,SSW,1,61
+Tue Aug 11,7:00 PM,91.5,96.8,2,0,Clear,8.9,13.2,SSW,0,53
+Tue Aug 11,8:00 PM,89.3,94.6,3,0,Clear,7.6,15.2,SW,11,55
+Tue Aug 11,9:00 PM,86.9,93.5,4,0,Partly Cloudy,4.2,9.6,SSW,61,59
+Tue Aug 11,10:00 PM,84.6,91.6,4,0,Clear,4.9,13.2,S,0,66
+Tue Aug 11,11:00 PM,83.3,89,2,0,Clear,6.6,14.5,SSW,0,66
+Wed Aug 12,12:00 AM,82.2,87.6,1,0,Clear,6.7,14.8,SSW,0,68
+Wed Aug 12,1:00 AM,81.4,87,1,0,Clear,7,15,SSW,0,71
+Wed Aug 12,2:00 AM,80.6,86.6,1,0,Clear,6.5,14.8,SSW,0,74
+Wed Aug 12,3:00 AM,79.8,86.2,0,0,Clear,6.3,14.8,SSW,0,77
+Wed Aug 12,4:00 AM,79.4,85.3,0,0,Clear,6.8,15,SSW,0,77
+Wed Aug 12,5:00 AM,78.9,84.6,0,0,Clear,7.4,15.9,SSW,0,78
+Wed Aug 12,6:00 AM,78.6,84.4,0,0,Clear,6.9,15,SSW,2,79
+Wed Aug 12,7:00 AM,78.2,83.7,0,0,Clear,7.3,15.2,SW,15,79
+Wed Aug 12,8:00 AM,78.8,84.3,1,0,Clear,7.8,15.7,SW,1,78
+Wed Aug 12,9:00 AM,83,87.5,1,0,Clear,11,27.1,WSW,0,70
+Wed Aug 12,10:00 AM,86.3,90.4,1,0,Clear,12.8,24.4,WSW,2,64
+Wed Aug 12,11:00 AM,88.7,93.4,1,0,Partly Cloudy,12.8,19.9,WSW,75,61
+Wed Aug 12,12:00 PM,90.7,97,1,0,Clear,13,18.1,WSW,18,59
+Wed Aug 12,1:00 PM,93.1,100.4,2,0,Clear,11.8,15.4,SW,6,52
+Wed Aug 12,2:00 PM,94.1,100,3,0,Mainly Clear,12.7,16.8,SW,27,49
+Wed Aug 12,3:00 PM,95,100.8,3,0,Clear,13.1,17.2,SW,17,47
+Wed Aug 12,4:00 PM,95.1,101.2,3,0,Mainly Clear,13.3,18.1,SW,20,47
+Wed Aug 12,5:00 PM,95,100.1,4,0,Clear,13.3,18.1,SW,2,47
+Wed Aug 12,6:00 PM,94.6,97.5,3,0,Clear,13.5,19.2,SW,4,46
+Wed Aug 12,7:00 PM,92.8,96.2,2,0,Clear,11.8,18.6,SW,3,49
+Wed Aug 12,8:00 PM,89.9,94.2,2,0,Mainly Clear,8.7,18.3,SSW,36,52
+Wed Aug 12,9:00 PM,86.5,91.1,2,0,Clear,8,21.3,SSW,0,58
+Wed Aug 12,10:00 PM,84.2,87.8,1,0,Clear,8.8,18.1,SSW,0,60
+Wed Aug 12,11:00 PM,82.8,86.2,1,0,Clear,8.8,17.9,SSW,0,62
