@@ -1,358 +1,214 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Rasmus Højgaard,10500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,43811545,08/13/2026 1:30 AM,2026-08-13T04:28:06.049938Z
-Oliver Lindell,10300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/finland.png,230887,43811546,08/13/2026 1:30 AM,2026-08-13T04:28:06.049958Z
-Eugenio Lopez-Chacarra,10100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,696842,43811547,08/13/2026 1:30 AM,2026-08-13T04:28:06.049968Z
-Angel Ayora Fanegas,10000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768633,43811548,08/13/2026 1:30 AM,2026-08-13T04:28:06.049978Z
-Rasmus Neergaard-Petersen,9800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,720984,43811549,08/13/2026 1:30 AM,2026-08-13T04:28:06.049986Z
-Jacob Skov Olesen,9600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,797154,43811550,08/13/2026 1:30 AM,2026-08-13T04:28:06.049993Z
-Thorbjørn Olesen,9500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/756.png,437,43811551,08/13/2026 1:30 AM,2026-08-13T04:28:06.050001Z
-Ewen Ferguson,9400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,290967,43811552,08/13/2026 1:30 AM,2026-08-13T04:28:06.050011Z
-Mikael Lindberg,9300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,769321,43811553,08/13/2026 1:30 AM,2026-08-13T04:28:06.050018Z
-Calum Hill,9100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,43811554,08/13/2026 1:30 AM,2026-08-13T04:28:06.050024Z
-Caleb Surratt,9000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43811555,08/13/2026 1:30 AM,2026-08-13T04:28:06.050030Z
-Bernd Wiesberger,8900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/718.png,479,43811556,08/13/2026 1:30 AM,2026-08-13T04:28:06.050036Z
-Alejandro Del Rey,8800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,670992,43811557,08/13/2026 1:30 AM,2026-08-13T04:28:06.050043Z
-Nathan Kimsey,8700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,345110,43811558,08/13/2026 1:30 AM,2026-08-13T04:28:06.050048Z
-Marcus Armitage,8600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,344989,43811559,08/13/2026 1:30 AM,2026-08-13T04:28:06.050054Z
-Antoine Rozner,8500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,43811560,08/13/2026 1:30 AM,2026-08-13T04:28:06.050059Z
-Todd Clements,8400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,670556,43811561,08/13/2026 1:30 AM,2026-08-13T04:28:06.050065Z
-Bubba Watson,8300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/637.png,411,43811562,08/13/2026 1:30 AM,2026-08-13T04:28:06.050070Z
-Wenyi Ding,8200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/china.png,769378,43811563,08/13/2026 1:30 AM,2026-08-13T04:28:06.050077Z
-Julien Guerrier,8100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,43811564,08/13/2026 1:30 AM,2026-08-13T04:28:06.050082Z
-Andy Sullivan,8000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,43811565,08/13/2026 1:30 AM,2026-08-13T04:28:06.050088Z
-Niklas Nørgaard Møller,8000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,43811566,08/13/2026 1:30 AM,2026-08-13T04:28:06.050096Z
-Oihan Guillamoundeguy,7900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,768105,43811567,08/13/2026 1:30 AM,2026-08-13T04:28:06.050102Z
-Paul Waring,7900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,43811568,08/13/2026 1:30 AM,2026-08-13T04:28:06.050112Z
-Joe Dean,7800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,544869,43811569,08/13/2026 1:30 AM,2026-08-13T04:28:06.050117Z
-Dan Bradbury,7800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,766740,43811570,08/13/2026 1:30 AM,2026-08-13T04:28:06.050123Z
-Francesco Laporta,7800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/69807.png,259,43811571,08/13/2026 1:30 AM,2026-08-13T04:28:06.050129Z
-Romain Langasque,7700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/688.png,1090,43811572,08/13/2026 1:30 AM,2026-08-13T04:28:06.050135Z
-Matthew Jordan,7700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,43811573,08/13/2026 1:30 AM,2026-08-13T04:28:06.050142Z
-Eddie Pepperell,7700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,43811574,08/13/2026 1:30 AM,2026-08-13T04:28:06.050148Z
-Hamish Brown,7600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,773778,43811575,08/13/2026 1:30 AM,2026-08-13T04:28:06.050153Z
-MJ Daffue,7600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,43811576,08/13/2026 1:30 AM,2026-08-13T04:28:06.050158Z
-Andreas Halvorsen,7600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,566210,43811577,08/13/2026 1:30 AM,2026-08-13T04:28:06.050163Z
-Gregorio De Leo,7600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/italy.png,753705,43811578,08/13/2026 1:30 AM,2026-08-13T04:28:06.050171Z
-Daniel Van Tonder,7500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,380,43811579,08/13/2026 1:30 AM,2026-08-13T04:28:06.050177Z
-Joost Luiten,7500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/810.png,383,43811580,08/13/2026 1:30 AM,2026-08-13T04:28:06.050183Z
-Brandon Robinson-Thompson,7500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,701399,43811581,08/13/2026 1:30 AM,2026-08-13T04:28:06.050189Z
-Ricardo Gouveia,7500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60234.png,414,43811582,08/13/2026 1:30 AM,2026-08-13T04:28:06.050194Z
-Frederic Lacroix,7400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,699576,43811583,08/13/2026 1:30 AM,2026-08-13T04:28:06.050224Z
-Maximilian Steinlechner,7400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/austria.png,73304,43811584,08/13/2026 1:30 AM,2026-08-13T04:28:06.050231Z
-Nicolai Von Dellingshausen,7400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/germany.png,519957,43811585,08/13/2026 1:30 AM,2026-08-13T04:28:06.050237Z
-Kiradech Aphibarnrat,7400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1110.png,655,43811586,08/13/2026 1:30 AM,2026-08-13T04:28:06.050244Z
-Yanhan Zhou,7400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/china.png,795440,43811587,08/13/2026 1:30 AM,2026-08-13T04:28:06.050249Z
-Marcus Helligkilde,7300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,702176,43811588,08/13/2026 1:30 AM,2026-08-13T04:28:06.050258Z
-Jeff Winther,7300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,581,43811589,08/13/2026 1:30 AM,2026-08-13T04:28:06.050263Z
-Sam Bairstow,7300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,722206,43811590,08/13/2026 1:30 AM,2026-08-13T04:28:06.050268Z
-Freddy Schott,7300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/germany.png,721368,43811591,08/13/2026 1:30 AM,2026-08-13T04:28:06.050274Z
-David Ravetto,7300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,699574,43811592,08/13/2026 1:30 AM,2026-08-13T04:28:06.050279Z
-Henrik Stenson,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/860.png,688,43811593,08/13/2026 1:30 AM,2026-08-13T04:28:06.050284Z
-Tatsunori Shogenji,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/japan.png,851061,43811594,08/13/2026 1:30 AM,2026-08-13T04:28:06.050290Z
-Kristian Krogh Johannessen,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,471773,43811595,08/13/2026 1:30 AM,2026-08-13T04:28:06.050296Z
-Benjamin Schmidt,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,723288,43811596,08/13/2026 1:30 AM,2026-08-13T04:28:06.050302Z
-Brandon Stone,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/877.png,181,43811597,08/13/2026 1:30 AM,2026-08-13T04:28:06.050307Z
-Darius Van Driel,7200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,43811598,08/13/2026 1:30 AM,2026-08-13T04:28:06.050313Z
-Sebastian Soderberg,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60233.png,839,43811599,08/13/2026 1:30 AM,2026-08-13T04:28:06.050319Z
-Marcel Schneider,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/germany.png,269380,43811600,08/13/2026 1:30 AM,2026-08-13T04:28:06.050324Z
-Filippo Celli,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/italy.png,753704,43811601,08/13/2026 1:30 AM,2026-08-13T04:28:06.050331Z
-Dylan Frittelli,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,43811602,08/13/2026 1:30 AM,2026-08-13T04:28:06.050336Z
-Matteo Manassero,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60495.png,421,43811603,08/13/2026 1:30 AM,2026-08-13T04:28:06.050341Z
-Mats Ege,7100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,796517,43811604,08/13/2026 1:30 AM,2026-08-13T04:28:06.050346Z
-Alexander Björk,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/935.png,775,43811605,08/13/2026 1:30 AM,2026-08-13T04:28:06.050353Z
-Daniel Rodrigues,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/portugal.png,699770,43811606,08/13/2026 1:30 AM,2026-08-13T04:28:06.050359Z
-Hugo Townsend,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,772986,43811607,08/13/2026 1:30 AM,2026-08-13T04:28:06.050368Z
-Sean Crocker,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/926.png,519953,43811608,08/13/2026 1:30 AM,2026-08-13T04:28:06.050373Z
-Jason Scrivener,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,43811609,08/13/2026 1:30 AM,2026-08-13T04:28:06.050379Z
-Alexander Levy,7000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1060.png,1111,43811610,08/13/2026 1:30 AM,2026-08-13T04:28:06.050384Z
-David Horsey,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60260.png,547,43811611,08/13/2026 1:30 AM,2026-08-13T04:28:06.050390Z
-Joel Girrbach,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,43811612,08/13/2026 1:30 AM,2026-08-13T04:28:06.050395Z
-Johannes Veerman,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,250167,43811613,08/13/2026 1:30 AM,2026-08-13T04:28:06.050401Z
-David Law,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,355,43811614,08/13/2026 1:30 AM,2026-08-13T04:28:06.050406Z
-Andrew Wilson,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,697207,43811615,08/13/2026 1:30 AM,2026-08-13T04:28:06.050411Z
-Rafa Cabrera Bello,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/868.png,984,43811616,08/13/2026 1:30 AM,2026-08-13T04:28:06.050417Z
-Adrian Otaegui,6900,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,43811617,08/13/2026 1:30 AM,2026-08-13T04:28:06.050422Z
-Angel Hidalgo,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,670990,43811618,08/13/2026 1:30 AM,2026-08-13T04:28:06.050427Z
-Sadom Kaewkanjana,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,695714,43811619,08/13/2026 1:30 AM,2026-08-13T04:28:06.050432Z
-Renato Paratore,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/964.png,1187,43811620,08/13/2026 1:30 AM,2026-08-13T04:28:06.050437Z
-Niklas Lemke,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,496763,43811621,08/13/2026 1:30 AM,2026-08-13T04:28:06.050444Z
-Richard Sterne,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1118.png,636,43811622,08/13/2026 1:30 AM,2026-08-13T04:28:06.050450Z
-Ross Fisher,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/729.png,161,43811623,08/13/2026 1:30 AM,2026-08-13T04:28:06.050455Z
-Albin Bergstrom,6800,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,698400,43811624,08/13/2026 1:30 AM,2026-08-13T04:28:06.050460Z
-Richie Ramsay,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60511.png,1180,43811625,08/13/2026 1:30 AM,2026-08-13T04:28:06.050465Z
-Félix Mory,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,702165,43811626,08/13/2026 1:30 AM,2026-08-13T04:28:06.050473Z
-Jens Dantorp,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,1152,43811627,08/13/2026 1:30 AM,2026-08-13T04:28:06.050481Z
-Alfredo Garcia-Heredia,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,671014,43811628,08/13/2026 1:30 AM,2026-08-13T04:28:06.050486Z
-Lucas Bjerregaard,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/945.png,677,43811629,08/13/2026 1:30 AM,2026-08-13T04:28:06.050492Z
-Ivan Cantero Gutierrez,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,162,43811630,08/13/2026 1:30 AM,2026-08-13T04:28:06.050497Z
-Jordan Gumberg,6700,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,690517,43811631,08/13/2026 1:30 AM,2026-08-13T04:28:06.050502Z
-Herman Wibe Sekne,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,795023,43811632,08/13/2026 1:30 AM,2026-08-13T04:28:06.050510Z
-Euan Walker,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,698883,43811633,08/13/2026 1:30 AM,2026-08-13T04:28:06.050516Z
-Tobias Jonsson,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,772989,43811634,08/13/2026 1:30 AM,2026-08-13T04:28:06.050521Z
-Scott Jamieson,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,43811635,08/13/2026 1:30 AM,2026-08-13T04:28:06.050526Z
-Callum Tarren,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1100.png,670471,43811636,08/13/2026 1:30 AM,2026-08-13T04:28:06.050531Z
-Zander Lombard,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1181.png,449,43811637,08/13/2026 1:30 AM,2026-08-13T04:28:06.050536Z
-Rocco Repetto Taylor,6600,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,861890,43811638,08/13/2026 1:30 AM,2026-08-13T04:28:06.050544Z
-Per Längfors,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,690558,43811639,08/13/2026 1:30 AM,2026-08-13T04:28:06.050551Z
-Kyoung-Hoon Lee,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/625.png,1491,43811640,08/13/2026 1:30 AM,2026-08-13T04:28:06.050557Z
-Daniel Young,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,398,43811641,08/13/2026 1:30 AM,2026-08-13T04:28:06.050562Z
-Cameron Adam,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,851066,43811642,08/13/2026 1:30 AM,2026-08-13T04:28:06.050567Z
-Yurav Premlall,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,43811643,08/13/2026 1:30 AM,2026-08-13T04:28:06.050572Z
-Anton Albers,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/germany.png,765219,43811644,08/13/2026 1:30 AM,2026-08-13T04:28:06.050577Z
-Lukas Nemecz,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/austria.png,889,43811645,08/13/2026 1:30 AM,2026-08-13T04:28:06.050581Z
-Jeong-Weon Ko,6500,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,699573,43811646,08/13/2026 1:30 AM,2026-08-13T04:28:06.050589Z
-Adri Arnaus,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1074.png,670432,43811647,08/13/2026 1:30 AM,2026-08-13T04:28:06.050593Z
-Matthew Baldwin,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/686.png,798,43811648,08/13/2026 1:30 AM,2026-08-13T04:28:06.050599Z
-Yannik Paul,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/germany.png,100830,43811649,08/13/2026 1:30 AM,2026-08-13T04:28:06.050604Z
-Junghwan Lee,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,669783,43811650,08/13/2026 1:30 AM,2026-08-13T04:28:06.050609Z
-Anthony Quayle,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/australia.png,591733,43811651,08/13/2026 1:30 AM,2026-08-13T04:28:06.050614Z
-Fabrizio Zanotti,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60715.png,356,43811652,08/13/2026 1:30 AM,2026-08-13T04:28:06.050619Z
-Ryggs Johnston,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,818540,43811653,08/13/2026 1:30 AM,2026-08-13T04:28:06.050624Z
-David Micheluzzi,6400,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/australia.png,690250,43811654,08/13/2026 1:30 AM,2026-08-13T04:28:06.050629Z
-Shubhankar Sharma,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/893.png,402,43811655,08/13/2026 1:30 AM,2026-08-13T04:28:06.050635Z
-James Morrison,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60676.png,543,43811656,08/13/2026 1:30 AM,2026-08-13T04:28:06.050642Z
-Michael Mjaaseth,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,854123,43811657,08/13/2026 1:30 AM,2026-08-13T04:28:06.050647Z
-Julian Perico,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/peru.png,793633,43811658,08/13/2026 1:30 AM,2026-08-13T04:28:06.050652Z
-Edoardo Molinari,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60348.png,212,43811659,08/13/2026 1:30 AM,2026-08-13T04:28:06.050657Z
-Jack Senior,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/740.png,474,43811660,08/13/2026 1:30 AM,2026-08-13T04:28:06.050662Z
-Quentin Debove,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,862384,43811661,08/13/2026 1:30 AM,2026-08-13T04:28:06.050667Z
-Marcel Siem,6300,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,43811662,08/13/2026 1:30 AM,2026-08-13T04:28:06.050672Z
-Martin Simonsen,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,236798,43811663,08/13/2026 1:30 AM,2026-08-13T04:28:06.050677Z
-Quim Vidal,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768542,43811664,08/13/2026 1:30 AM,2026-08-13T04:28:06.050682Z
-Benjamin Hebert,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1133.png,919,43811665,08/13/2026 1:30 AM,2026-08-13T04:28:06.050687Z
-Robin Williams,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,642346,43811666,08/13/2026 1:30 AM,2026-08-13T04:28:06.050694Z
-Christian Jacobsen,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,767889,43811667,08/13/2026 1:30 AM,2026-08-13T04:28:06.050699Z
-Fred Biondi,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645124.png,765452,43811668,08/13/2026 1:30 AM,2026-08-13T04:28:06.050704Z
-Clement Charmasson,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/france.png,857133,43811669,08/13/2026 1:30 AM,2026-08-13T04:28:06.050709Z
-Jack Buchanan,6200,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/australia.png,769395,43811670,08/13/2026 1:30 AM,2026-08-13T04:28:06.050714Z
-Dylan Naidoo,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,1185,43811671,08/13/2026 1:30 AM,2026-08-13T04:28:06.050719Z
-Simon Forsström,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,346230,43811672,08/13/2026 1:30 AM,2026-08-13T04:28:06.050726Z
-August Thor Host,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,773825,43811673,08/13/2026 1:30 AM,2026-08-13T04:28:06.050732Z
-John Axelsen,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,230886,43811674,08/13/2026 1:30 AM,2026-08-13T04:28:06.050737Z
-Andres Gallegos,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/argentina.png,762249,43811675,08/13/2026 1:30 AM,2026-08-13T04:28:06.050742Z
-Benjamin Follett-Smith,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/zimbabwe.png,670452,43811676,08/13/2026 1:30 AM,2026-08-13T04:28:06.050750Z
-Mike Toorop,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,694400,43811677,08/13/2026 1:30 AM,2026-08-13T04:28:06.050755Z
-Yuvraj Sandhu,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/india.png,426065,43811678,08/13/2026 1:30 AM,2026-08-13T04:28:06.050760Z
-Oliver Hundebøll Jørgensen,6100,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,696109,43811679,08/13/2026 1:30 AM,2026-08-13T04:28:06.050768Z
-Ryan Peake,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/australia.png,818541,43811680,08/13/2026 1:30 AM,2026-08-13T04:28:06.050773Z
-Anders Emil Ejlersen,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,884408,43811681,08/13/2026 1:30 AM,2026-08-13T04:28:06.050779Z
-Jacob Worm Agerschou,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,884407,43811682,08/13/2026 1:30 AM,2026-08-13T04:28:06.050787Z
-Joshua Berry,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,775022,43811683,08/13/2026 1:30 AM,2026-08-13T04:28:06.050792Z
-Jack Yule,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,230882,43811684,08/13/2026 1:30 AM,2026-08-13T04:28:06.050797Z
-Connor McKinney,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/australia.png,769324,43811685,08/13/2026 1:30 AM,2026-08-13T04:28:06.050805Z
-Gavin Green,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60491.png,609,43811686,08/13/2026 1:30 AM,2026-08-13T04:28:06.050810Z
-Palmer Jackson,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,768999,43811687,08/13/2026 1:30 AM,2026-08-13T04:28:06.050815Z
-Daniel Gavins,6000,Danish Golf Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,1204,43811688,08/13/2026 1:30 AM,2026-08-13T04:28:06.050820Z
-Scottie Scheffler,13500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43804980,08/13/2026 8:10 AM,2026-08-13T04:28:06.050825Z
-Rory McIlroy,11500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43804981,08/13/2026 8:10 AM,2026-08-13T04:28:06.050830Z
-Tommy Fleetwood,10200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43804982,08/13/2026 8:10 AM,2026-08-13T04:28:06.050835Z
-Xander Schauffele,10000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43804983,08/13/2026 8:10 AM,2026-08-13T04:28:06.050840Z
-Matt Fitzpatrick,9900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43804984,08/13/2026 8:10 AM,2026-08-13T04:28:06.050845Z
-Cameron Young,9700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43804985,08/13/2026 8:10 AM,2026-08-13T04:28:06.050851Z
-Sam Burns,9500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/582.png,1154,43804986,08/13/2026 8:10 AM,2026-08-13T04:28:06.050856Z
-Collin Morikawa,9300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/789.png,300102,43804987,08/13/2026 8:10 AM,2026-08-13T04:28:06.050861Z
-Ludvig Åberg,9100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,43804988,08/13/2026 8:10 AM,2026-08-13T04:28:06.050867Z
-Hideki Matsuyama,9000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43804989,08/13/2026 8:10 AM,2026-08-13T04:28:06.050872Z
-Chris Gotterup,8900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43804990,08/13/2026 8:10 AM,2026-08-13T04:28:06.050877Z
-Patrick Cantlay,8800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43804991,08/13/2026 8:10 AM,2026-08-13T04:28:06.050882Z
-Si Woo Kim,8700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/870.png,1284,43804992,08/13/2026 8:10 AM,2026-08-13T04:28:06.050887Z
-Russell Henley,8600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43804993,08/13/2026 8:10 AM,2026-08-13T04:28:06.050892Z
-Wyndham Clark,8500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,43804994,08/13/2026 8:10 AM,2026-08-13T04:28:06.050897Z
-Viktor Hovland,8400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43804995,08/13/2026 8:10 AM,2026-08-13T04:28:06.050902Z
-Robert MacIntyre,8300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/822.png,670464,43804996,08/13/2026 8:10 AM,2026-08-13T04:28:06.050909Z
-Jackson Koivun,8200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43804997,08/13/2026 8:10 AM,2026-08-13T04:28:06.050914Z
-Justin Thomas,8100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,43804998,08/13/2026 8:10 AM,2026-08-13T04:28:06.050920Z
-Justin Rose,8000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/734.png,625,43804999,08/13/2026 8:10 AM,2026-08-13T04:28:06.050925Z
-Tom Kim,7900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43805000,08/13/2026 8:10 AM,2026-08-13T04:28:06.050930Z
-J.J. Spaun,7800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43805001,08/13/2026 8:10 AM,2026-08-13T04:28:06.050936Z
-Min Woo Lee,7700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43805002,08/13/2026 8:10 AM,2026-08-13T04:28:06.050941Z
-Ben Griffin,7700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,43805003,08/13/2026 8:10 AM,2026-08-13T04:28:06.050946Z
-Maverick McNealy,7600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43805004,08/13/2026 8:10 AM,2026-08-13T04:28:06.050953Z
-Kurt Kitayama,7600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/921.png,329671,43805005,08/13/2026 8:10 AM,2026-08-13T04:28:06.050958Z
-Michael Thorbjornsen,7500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/787.png,696522,43805006,08/13/2026 8:10 AM,2026-08-13T04:28:06.050963Z
-Rickie Fowler,7500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/991.png,1237,43805007,08/13/2026 8:10 AM,2026-08-13T04:28:06.050968Z
-Michael Brennan,7400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43805008,08/13/2026 8:10 AM,2026-08-13T04:28:06.050973Z
-Ryan Gerard,7400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43805009,08/13/2026 8:10 AM,2026-08-13T04:28:06.050978Z
-Akshay Bhatia,7300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/952.png,694628,43805010,08/13/2026 8:10 AM,2026-08-13T04:28:06.050984Z
-Shane Lowry,7300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1052.png,395,43805011,08/13/2026 8:10 AM,2026-08-13T04:28:06.050988Z
-Nicolai Højgaard,7200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,43805012,08/13/2026 8:10 AM,2026-08-13T04:28:06.050995Z
-Jacob Bridgeman,7200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43805013,08/13/2026 8:10 AM,2026-08-13T04:28:06.051000Z
-Alex Noren,7100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43805014,08/13/2026 8:10 AM,2026-08-13T04:28:06.051005Z
-Kristoffer Reitan,7100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,671051,43805015,08/13/2026 8:10 AM,2026-08-13T04:28:06.051013Z
-Jake Knapp,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1050.png,1894,43805016,08/13/2026 8:10 AM,2026-08-13T04:28:06.051017Z
-Adam Scott,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/875.png,2078,43805017,08/13/2026 8:10 AM,2026-08-13T04:28:06.051022Z
-Alex Smalley,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43805018,08/13/2026 8:10 AM,2026-08-13T04:28:06.051027Z
-Keith Mitchell,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,43805019,08/13/2026 8:10 AM,2026-08-13T04:28:06.051032Z
-Harris English,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/598.png,1600,43805020,08/13/2026 8:10 AM,2026-08-13T04:28:06.051037Z
-Jordan Spieth,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/882.png,171,43805021,08/13/2026 8:10 AM,2026-08-13T04:28:06.051048Z
-Aaron Rai,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/861.png,353925,43805022,08/13/2026 8:10 AM,2026-08-13T04:28:06.051053Z
-Ryan Fox,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1070.png,1048,43805023,08/13/2026 8:10 AM,2026-08-13T04:28:06.051058Z
-Alex Fitzpatrick,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43805024,08/13/2026 8:10 AM,2026-08-13T04:28:06.051063Z
-Gary Woodland,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/689.png,1055,43805025,08/13/2026 8:10 AM,2026-08-13T04:28:06.051068Z
-Sungjae Im,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/621.png,670620,43805026,08/13/2026 8:10 AM,2026-08-13T04:28:06.051073Z
-Corey Conners,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1038.png,1860,43805027,08/13/2026 8:10 AM,2026-08-13T04:28:06.051078Z
-Jordan L. Smith,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43805028,08/13/2026 8:10 AM,2026-08-13T04:28:06.051084Z
-Eric Cole,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,43805029,08/13/2026 8:10 AM,2026-08-13T04:28:06.051088Z
-Sahith Theegala,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43805030,08/13/2026 8:10 AM,2026-08-13T04:28:06.051093Z
-Bud Cauley,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43805031,08/13/2026 8:10 AM,2026-08-13T04:28:06.051098Z
-Michael Kim,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/597.png,1932,43805032,08/13/2026 8:10 AM,2026-08-13T04:28:06.051103Z
-Brian Harman,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/533.png,805,43805033,08/13/2026 8:10 AM,2026-08-13T04:28:06.051108Z
-Harry Hall,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43805034,08/13/2026 8:10 AM,2026-08-13T04:28:06.051113Z
-Max Homa,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/946.png,2024,43805035,08/13/2026 8:10 AM,2026-08-13T04:28:06.051120Z
-Nick Taylor,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,43805036,08/13/2026 8:10 AM,2026-08-13T04:28:06.051125Z
-Nicolas Echavarria,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43805037,08/13/2026 8:10 AM,2026-08-13T04:28:06.051130Z
-Ryo Hisatsune,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,43805038,08/13/2026 8:10 AM,2026-08-13T04:28:06.051135Z
-J.T. Poston,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43805039,08/13/2026 8:10 AM,2026-08-13T04:28:06.051140Z
-Sepp Straka,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/654.png,73285,43805040,08/13/2026 8:10 AM,2026-08-13T04:28:06.051145Z
-Ricky Castillo,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,43805041,08/13/2026 8:10 AM,2026-08-13T04:28:06.051150Z
-Sudarshan Yellamaraju,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/canada.png,772264,43805042,08/13/2026 8:10 AM,2026-08-13T04:28:06.051155Z
-Matthew McCarty,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43805043,08/13/2026 8:10 AM,2026-08-13T04:28:06.051160Z
-Sam Stevens,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/564993.png,720888,43805044,08/13/2026 8:10 AM,2026-08-13T04:28:06.051167Z
-Aldrich Potgieter,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,43805045,08/13/2026 8:10 AM,2026-08-13T04:28:06.051174Z
-Pierceson Coody,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,43805046,08/13/2026 8:10 AM,2026-08-13T04:28:06.051179Z
-Matti Schmid,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/790.png,697208,43805047,08/13/2026 8:10 AM,2026-08-13T04:28:06.051184Z
-Patrick Rodgers,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,43805048,08/13/2026 8:10 AM,2026-08-13T04:28:06.051189Z
-Jeeno Thitikul,11000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,710156,43812060,08/13/2026 10:15 AM,2026-08-13T04:28:06.051193Z
-Hae-Ran Ryu,10800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704517,43812061,08/13/2026 10:15 AM,2026-08-13T04:28:06.051212Z
-Ruoning Yin,10400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,721269,43812062,08/13/2026 10:15 AM,2026-08-13T04:28:06.051218Z
-Lottie Woad,10200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,794872,43812063,08/13/2026 10:15 AM,2026-08-13T04:28:06.051223Z
-Aki Iwai,9900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,770691,43812064,08/13/2026 10:15 AM,2026-08-13T04:28:06.051228Z
-Hye Jin Choi,9700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704104,43812065,08/13/2026 10:15 AM,2026-08-13T04:28:06.051235Z
-Jin Hee Im,9500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704064,43812066,08/13/2026 10:15 AM,2026-08-13T04:28:06.051241Z
-Hannah Green,9400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704130,43812067,08/13/2026 10:15 AM,2026-08-13T04:28:06.051246Z
-Esther Henseleit,9300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,704376,43812068,08/13/2026 10:15 AM,2026-08-13T04:28:06.051251Z
-Somi Lee,9200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,760753,43812069,08/13/2026 10:15 AM,2026-08-13T04:28:06.051255Z
-Minami Katsu,9100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704369,43812070,08/13/2026 10:15 AM,2026-08-13T04:28:06.051260Z
-Celine Boutier,8900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704395,43812071,08/13/2026 10:15 AM,2026-08-13T04:28:06.051265Z
-Chizzy Iwai,8800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,769143,43812072,08/13/2026 10:15 AM,2026-08-13T04:28:06.051270Z
-Lauren Coughlin,8700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703594,43812073,08/13/2026 10:15 AM,2026-08-13T04:28:06.051274Z
-Maja Stark,8600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704535,43812074,08/13/2026 10:15 AM,2026-08-13T04:28:06.051279Z
-Mao Saigo,8500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765250,43812075,08/13/2026 10:15 AM,2026-08-13T04:28:06.051284Z
-Ayaka Furue,8400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704544,43812076,08/13/2026 10:15 AM,2026-08-13T04:28:06.051289Z
-Ariya Jutanugarn,8300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,223640,43812077,08/13/2026 10:15 AM,2026-08-13T04:28:06.051294Z
-Andrea Lee,8200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704296,43812078,08/13/2026 10:15 AM,2026-08-13T04:28:06.051300Z
-Rose Zhang,8100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703983,43812079,08/13/2026 10:15 AM,2026-08-13T04:28:06.051305Z
-Grace Kim,8000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704362,43812080,08/13/2026 10:15 AM,2026-08-13T04:28:06.051310Z
-Pajaree Anannarukarn,8000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,704295,43812081,08/13/2026 10:15 AM,2026-08-13T04:28:06.051315Z
-Maria Marin,7900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/colombia.png,814849,43812082,08/13/2026 10:15 AM,2026-08-13T04:28:06.051320Z
-Erika Hara,7900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704355,43812083,08/13/2026 10:15 AM,2026-08-13T04:28:06.051325Z
-Farah O'Keefe,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,722007,43812084,08/13/2026 10:15 AM,2026-08-13T04:28:06.051330Z
-Kaleiya Romero,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,875457,43812085,08/13/2026 10:15 AM,2026-08-13T04:28:06.051337Z
-Wei-Ling Hsu,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/chinese_taipei.png,704389,43812086,08/13/2026 10:15 AM,2026-08-13T04:28:06.051342Z
-You Min Hwang,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771850,43812087,08/13/2026 10:15 AM,2026-08-13T04:28:06.051348Z
-Julia Lopez Ramirez,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/spain.png,774829,43812088,08/13/2026 10:15 AM,2026-08-13T04:28:06.051354Z
-Nastasia Nadaud,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,772996,43812089,08/13/2026 10:15 AM,2026-08-13T04:28:06.051359Z
-Yealimi Noh,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704100,43812090,08/13/2026 10:15 AM,2026-08-13T04:28:06.051363Z
-Arpichaya Yubol,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,766877,43812091,08/13/2026 10:15 AM,2026-08-13T04:28:06.051368Z
-Nataliya Guseva,7600,The Standard Portland Classic,Classic,,792521,43812092,08/13/2026 10:15 AM,2026-08-13T04:28:06.051373Z
-Chanettee Wannasaen,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,710157,43812093,08/13/2026 10:15 AM,2026-08-13T04:28:06.051378Z
-Lexi Thompson,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,223608,43812094,08/13/2026 10:15 AM,2026-08-13T04:28:06.051383Z
-Na Rin An,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704546,43812095,08/13/2026 10:15 AM,2026-08-13T04:28:06.051389Z
-Aditi Ashok,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/india.png,223614,43812096,08/13/2026 10:15 AM,2026-08-13T04:28:06.051393Z
-Megan Khang,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704037,43812097,08/13/2026 10:15 AM,2026-08-13T04:28:06.051402Z
-Leona Maguire,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ireland.png,223545,43812098,08/13/2026 10:15 AM,2026-08-13T04:28:06.051407Z
-MinJi Kang,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,792534,43812099,08/13/2026 10:15 AM,2026-08-13T04:28:06.051411Z
-Anne Chen,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867451,43812100,08/13/2026 10:15 AM,2026-08-13T04:28:06.051416Z
-Yan Liu,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,771493,43812101,08/13/2026 10:15 AM,2026-08-13T04:28:06.051423Z
-Ryann O'Toole,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704231,43812102,08/13/2026 10:15 AM,2026-08-13T04:28:06.051428Z
-Alexa Pano,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,702177,43812103,08/13/2026 10:15 AM,2026-08-13T04:28:06.051433Z
-Lindy Duncan,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704326,43812104,08/13/2026 10:15 AM,2026-08-13T04:28:06.051439Z
-Mary Liu,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,792519,43812105,08/13/2026 10:15 AM,2026-08-13T04:28:06.051444Z
-Dewi Weber,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,762119,43812106,08/13/2026 10:15 AM,2026-08-13T04:28:06.051449Z
-Mimi Rhodes,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,849716,43812107,08/13/2026 10:15 AM,2026-08-13T04:28:06.051454Z
-Dongeun Lee,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,853555,43812108,08/13/2026 10:15 AM,2026-08-13T04:28:06.051459Z
-Gurleen Kaur,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721240,43812109,08/13/2026 10:15 AM,2026-08-13T04:28:06.051463Z
-Yana Wilson,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,773803,43812110,08/13/2026 10:15 AM,2026-08-13T04:28:06.051468Z
-Perrine Delacour,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704202,43812111,08/13/2026 10:15 AM,2026-08-13T04:28:06.051473Z
-Jenny Bae,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,775325,43812112,08/13/2026 10:15 AM,2026-08-13T04:28:06.051478Z
-Carolina Lopez-Chacarra Coto,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/spain.png,848572,43812113,08/13/2026 10:15 AM,2026-08-13T04:28:06.051484Z
-Bianca Pagdanganan,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/philippines.png,703989,43812114,08/13/2026 10:15 AM,2026-08-13T04:28:06.051489Z
-Olivia Cowan,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,704252,43812115,08/13/2026 10:15 AM,2026-08-13T04:28:06.051494Z
-Yu Liu,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704151,43812116,08/13/2026 10:15 AM,2026-08-13T04:28:06.051499Z
-Megha Ganne,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704114,43812117,08/13/2026 10:15 AM,2026-08-13T04:28:06.051503Z
-Morgane Metraux,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,722436,43812118,08/13/2026 10:15 AM,2026-08-13T04:28:06.051509Z
-Hinako Shibuno,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,703917,43812119,08/13/2026 10:15 AM,2026-08-13T04:28:06.051513Z
-Lucy Li,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721260,43812120,08/13/2026 10:15 AM,2026-08-13T04:28:06.051518Z
-Soo Bin Joo,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,765234,43812121,08/13/2026 10:15 AM,2026-08-13T04:28:06.051523Z
-Amanda Doherty,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762114,43812122,08/13/2026 10:15 AM,2026-08-13T04:28:06.051528Z
-Robyn Choi,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703823,43812123,08/13/2026 10:15 AM,2026-08-13T04:28:06.051533Z
-Manon De Roey,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/belgium.png,704054,43812124,08/13/2026 10:15 AM,2026-08-13T04:28:06.051542Z
-Chella Choi,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,703984,43812125,08/13/2026 10:15 AM,2026-08-13T04:28:06.051547Z
-Ashleigh Buhai,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,223621,43812126,08/13/2026 10:15 AM,2026-08-13T04:28:06.051552Z
-Weiwei Zhang,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704084,43812127,08/13/2026 10:15 AM,2026-08-13T04:28:06.051557Z
-Ana Belac,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/slovenia.png,703841,43812128,08/13/2026 10:15 AM,2026-08-13T04:28:06.051562Z
-Mariel Galdiano,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765225,43812129,08/13/2026 10:15 AM,2026-08-13T04:28:06.051566Z
-Moriya Jutanugarn,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,704009,43812130,08/13/2026 10:15 AM,2026-08-13T04:28:06.051572Z
-Carolina Melgrati,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/italy.png,765430,43812131,08/13/2026 10:15 AM,2026-08-13T04:28:06.051576Z
-Isabella Fierro,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/mexico.png,763475,43812132,08/13/2026 10:15 AM,2026-08-13T04:28:06.051581Z
-Valentine Delon,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,882475,43812133,08/13/2026 10:15 AM,2026-08-13T04:28:06.051586Z
-Jodi Ewart Shadoff,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,704106,43812134,08/13/2026 10:15 AM,2026-08-13T04:28:06.051592Z
-Pauline Roussin-Bouchard,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704525,43812135,08/13/2026 10:15 AM,2026-08-13T04:28:06.051597Z
-Pornanong Phatlum,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,223595,43812136,08/13/2026 10:15 AM,2026-08-13T04:28:06.051604Z
-Brooke Matthews,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704298,43812137,08/13/2026 10:15 AM,2026-08-13T04:28:06.051609Z
-Jessica Porvasnik,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,720869,43812138,08/13/2026 10:15 AM,2026-08-13T04:28:06.051614Z
-Jeongeun Lee6,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704081,43812139,08/13/2026 10:15 AM,2026-08-13T04:28:06.051619Z
-Daniela Darquea,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ecuador.png,704039,43812140,08/13/2026 10:15 AM,2026-08-13T04:28:06.051624Z
-Emily Pedersen,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,703874,43812141,08/13/2026 10:15 AM,2026-08-13T04:28:06.051629Z
-Ingrid Lindblad,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704538,43812142,08/13/2026 10:15 AM,2026-08-13T04:28:06.051634Z
-Briana Chacon,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867453,43812143,08/13/2026 10:15 AM,2026-08-13T04:28:06.051640Z
-Caley McGinty,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,767141,43812144,08/13/2026 10:15 AM,2026-08-13T04:28:06.051645Z
-Lilia Vu,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762117,43812145,08/13/2026 10:15 AM,2026-08-13T04:28:06.051650Z
-Chiara Tamburlini,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,796503,43812146,08/13/2026 10:15 AM,2026-08-13T04:28:06.051655Z
-Yuka Saso,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704022,43812147,08/13/2026 10:15 AM,2026-08-13T04:28:06.051660Z
-Yuri Yoshida,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,703857,43812148,08/13/2026 10:15 AM,2026-08-13T04:28:06.051665Z
-Gina Kim,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721237,43812149,08/13/2026 10:15 AM,2026-08-13T04:28:06.051670Z
-Sofia Garcia,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/paraguay.png,765236,43812150,08/13/2026 10:15 AM,2026-08-13T04:28:06.051676Z
-Benedetta Moresco,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/italy.png,704551,43812151,08/13/2026 10:15 AM,2026-08-13T04:28:06.051681Z
-Stephanie Kyriacou,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704372,43812152,08/13/2026 10:15 AM,2026-08-13T04:28:06.051687Z
-Celine Herbin,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,694627,43812153,08/13/2026 10:15 AM,2026-08-13T04:28:06.051695Z
-Yahui Zhang,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,837748,43812154,08/13/2026 10:15 AM,2026-08-13T04:28:06.051699Z
-Jiwon Jeon,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704328,43812155,08/13/2026 10:15 AM,2026-08-13T04:28:06.051704Z
-Suvichaya Vinijchaitham,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,793181,43812156,08/13/2026 10:15 AM,2026-08-13T04:28:06.051710Z
-Lauren Walsh,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ireland.png,723911,43812157,08/13/2026 10:15 AM,2026-08-13T04:28:06.051715Z
-Yuna Nishimura,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704549,43812158,08/13/2026 10:15 AM,2026-08-13T04:28:06.051720Z
-Gemma Dryburgh,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,704000,43812159,08/13/2026 10:15 AM,2026-08-13T04:28:06.051725Z
-Natasha Andrea Oon,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/malaysia.png,763476,43812160,08/13/2026 10:15 AM,2026-08-13T04:28:06.051730Z
-Nicole Broch Estrup,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,223592,43812161,08/13/2026 10:15 AM,2026-08-13T04:28:06.051736Z
-Saki Baba,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765223,43812162,08/13/2026 10:15 AM,2026-08-13T04:28:06.051741Z
-Frida Kinhult,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704511,43812163,08/13/2026 10:15 AM,2026-08-13T04:28:06.051747Z
-Paula Reto,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,223596,43812164,08/13/2026 10:15 AM,2026-08-13T04:28:06.051752Z
-Celine Borge,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/norway.png,771498,43812165,08/13/2026 10:15 AM,2026-08-13T04:28:06.051757Z
-Lauren Tenuta,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,722448,43812166,08/13/2026 10:15 AM,2026-08-13T04:28:06.051761Z
-Isi Gabsa,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,703967,43812167,08/13/2026 10:15 AM,2026-08-13T04:28:06.051766Z
-Laney Frye,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765227,43812168,08/13/2026 10:15 AM,2026-08-13T04:28:06.051771Z
-Kate Smith-Stroh,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,836005,43812169,08/13/2026 10:15 AM,2026-08-13T04:28:06.051778Z
-Muni He,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704109,43812170,08/13/2026 10:15 AM,2026-08-13T04:28:06.051782Z
-Jennifer Chang,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704187,43812171,08/13/2026 10:15 AM,2026-08-13T04:28:06.051788Z
-Camille Boyd,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867455,43812172,08/13/2026 10:15 AM,2026-08-13T04:28:06.051792Z
-Lizette Salas,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704315,43812173,08/13/2026 10:15 AM,2026-08-13T04:28:06.051797Z
-Polly Mack,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,771499,43812174,08/13/2026 10:15 AM,2026-08-13T04:28:06.051802Z
-Gabriela Ruffels,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703892,43812175,08/13/2026 10:15 AM,2026-08-13T04:28:06.051809Z
-Jacinda Lee,6300,The Standard Portland Classic,Classic,,884404,43812176,08/13/2026 10:15 AM,2026-08-13T04:28:06.051813Z
-Laetitia Beck,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/israel.png,223594,43812177,08/13/2026 10:15 AM,2026-08-13T04:28:06.051818Z
-Maude-Aimee Leblanc,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,762118,43812178,08/13/2026 10:15 AM,2026-08-13T04:28:06.051823Z
-Sophia Schubert,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762116,43812179,08/13/2026 10:15 AM,2026-08-13T04:28:06.051828Z
-Linnea Strom,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,703878,43812180,08/13/2026 10:15 AM,2026-08-13T04:28:06.051833Z
-Juniper Jang,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771849,43812181,08/13/2026 10:15 AM,2026-08-13T04:28:06.051838Z
-Jeong Eun Lee5,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704167,43812182,08/13/2026 10:15 AM,2026-08-13T04:28:06.051845Z
-Dani Holmqvist,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,703953,43812183,08/13/2026 10:15 AM,2026-08-13T04:28:06.051850Z
-Michelle Zhang,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,765252,43812184,08/13/2026 10:15 AM,2026-08-13T04:28:06.051855Z
-Kokona Sakurai,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,774831,43812185,08/13/2026 10:15 AM,2026-08-13T04:28:06.051860Z
-Riley Smyth,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867454,43812186,08/13/2026 10:15 AM,2026-08-13T04:28:06.051864Z
-Savannah Grewal,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,766209,43812187,08/13/2026 10:15 AM,2026-08-13T04:28:06.051869Z
-Caroline Inglis,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704018,43812188,08/13/2026 10:15 AM,2026-08-13T04:28:06.051874Z
-Mina Kreiter,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703819,43812189,08/13/2026 10:15 AM,2026-08-13T04:28:06.051879Z
-Brianna Do,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703848,43812190,08/13/2026 10:15 AM,2026-08-13T04:28:06.051883Z
-Emma McMyler,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765246,43812191,08/13/2026 10:15 AM,2026-08-13T04:28:06.051888Z
-Kum Kang Park,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771496,43812192,08/13/2026 10:15 AM,2026-08-13T04:28:06.051893Z
-Danielle Kang,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,670994,43812193,08/13/2026 10:15 AM,2026-08-13T04:28:06.051898Z
-Madison Young,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796380,43812194,08/13/2026 10:15 AM,2026-08-13T04:28:06.051903Z
-Gigi Stoll,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704111,43812195,08/13/2026 10:15 AM,2026-08-13T04:28:06.051908Z
-Hira Naveed,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703865,43812196,08/13/2026 10:15 AM,2026-08-13T04:28:06.051912Z
-Stephanie Meadow,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/northern_ireland.png,223605,43812197,08/13/2026 10:15 AM,2026-08-13T04:28:06.051919Z
-Nika Ito,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765228,43812198,08/13/2026 10:15 AM,2026-08-13T04:28:06.051924Z
-Emily Tubert,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,884652,43812199,08/13/2026 10:15 AM,2026-08-13T04:28:06.051929Z
-Adela Cernousek,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,796363,43812200,08/13/2026 10:15 AM,2026-08-13T04:28:06.051933Z
-Hailee Cooper,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,848569,43812201,08/13/2026 10:15 AM,2026-08-13T04:28:06.051938Z
-Leah John,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,798461,43812202,08/13/2026 10:15 AM,2026-08-13T04:28:06.051945Z
-Christina Kim,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704322,43812203,08/13/2026 10:15 AM,2026-08-13T04:28:06.051950Z
+Scottie Scheffler,13500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43804980,08/13/2026 8:10 AM,2026-08-13T06:02:15.372206Z
+Rory McIlroy,11500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43804981,08/13/2026 8:10 AM,2026-08-13T06:02:15.372228Z
+Tommy Fleetwood,10200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43804982,08/13/2026 8:10 AM,2026-08-13T06:02:15.372237Z
+Xander Schauffele,10000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43804983,08/13/2026 8:10 AM,2026-08-13T06:02:15.372246Z
+Matt Fitzpatrick,9900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43804984,08/13/2026 8:10 AM,2026-08-13T06:02:15.372254Z
+Cameron Young,9700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43804985,08/13/2026 8:10 AM,2026-08-13T06:02:15.372260Z
+Sam Burns,9500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/582.png,1154,43804986,08/13/2026 8:10 AM,2026-08-13T06:02:15.372267Z
+Collin Morikawa,9300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/789.png,300102,43804987,08/13/2026 8:10 AM,2026-08-13T06:02:15.372277Z
+Ludvig Åberg,9100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,43804988,08/13/2026 8:10 AM,2026-08-13T06:02:15.372289Z
+Hideki Matsuyama,9000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43804989,08/13/2026 8:10 AM,2026-08-13T06:02:15.372296Z
+Chris Gotterup,8900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43804990,08/13/2026 8:10 AM,2026-08-13T06:02:15.372302Z
+Patrick Cantlay,8800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43804991,08/13/2026 8:10 AM,2026-08-13T06:02:15.372308Z
+Si Woo Kim,8700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/870.png,1284,43804992,08/13/2026 8:10 AM,2026-08-13T06:02:15.372315Z
+Russell Henley,8600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43804993,08/13/2026 8:10 AM,2026-08-13T06:02:15.372320Z
+Wyndham Clark,8500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,43804994,08/13/2026 8:10 AM,2026-08-13T06:02:15.372325Z
+Viktor Hovland,8400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43804995,08/13/2026 8:10 AM,2026-08-13T06:02:15.372331Z
+Robert MacIntyre,8300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/822.png,670464,43804996,08/13/2026 8:10 AM,2026-08-13T06:02:15.372336Z
+Jackson Koivun,8200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796535,43804997,08/13/2026 8:10 AM,2026-08-13T06:02:15.372347Z
+Justin Thomas,8100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,43804998,08/13/2026 8:10 AM,2026-08-13T06:02:15.372353Z
+Justin Rose,8000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/734.png,625,43804999,08/13/2026 8:10 AM,2026-08-13T06:02:15.372358Z
+Tom Kim,7900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43805000,08/13/2026 8:10 AM,2026-08-13T06:02:15.372363Z
+J.J. Spaun,7800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43805001,08/13/2026 8:10 AM,2026-08-13T06:02:15.372369Z
+Min Woo Lee,7700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43805002,08/13/2026 8:10 AM,2026-08-13T06:02:15.372375Z
+Ben Griffin,7700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,43805003,08/13/2026 8:10 AM,2026-08-13T06:02:15.372382Z
+Maverick McNealy,7600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43805004,08/13/2026 8:10 AM,2026-08-13T06:02:15.372388Z
+Kurt Kitayama,7600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/921.png,329671,43805005,08/13/2026 8:10 AM,2026-08-13T06:02:15.372394Z
+Michael Thorbjornsen,7500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/787.png,696522,43805006,08/13/2026 8:10 AM,2026-08-13T06:02:15.372399Z
+Rickie Fowler,7500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/991.png,1237,43805007,08/13/2026 8:10 AM,2026-08-13T06:02:15.372404Z
+Michael Brennan,7400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43805008,08/13/2026 8:10 AM,2026-08-13T06:02:15.372409Z
+Ryan Gerard,7400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43805009,08/13/2026 8:10 AM,2026-08-13T06:02:15.372414Z
+Akshay Bhatia,7300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/952.png,694628,43805010,08/13/2026 8:10 AM,2026-08-13T06:02:15.372420Z
+Shane Lowry,7300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1052.png,395,43805011,08/13/2026 8:10 AM,2026-08-13T06:02:15.372425Z
+Nicolai Højgaard,7200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,43805012,08/13/2026 8:10 AM,2026-08-13T06:02:15.372437Z
+Jacob Bridgeman,7200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43805013,08/13/2026 8:10 AM,2026-08-13T06:02:15.372443Z
+Alex Noren,7100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43805014,08/13/2026 8:10 AM,2026-08-13T06:02:15.372448Z
+Kristoffer Reitan,7100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,671051,43805015,08/13/2026 8:10 AM,2026-08-13T06:02:15.372454Z
+Jake Knapp,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1050.png,1894,43805016,08/13/2026 8:10 AM,2026-08-13T06:02:15.372459Z
+Adam Scott,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/875.png,2078,43805017,08/13/2026 8:10 AM,2026-08-13T06:02:15.372464Z
+Alex Smalley,7000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43805018,08/13/2026 8:10 AM,2026-08-13T06:02:15.372469Z
+Keith Mitchell,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,43805019,08/13/2026 8:10 AM,2026-08-13T06:02:15.372474Z
+Harris English,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/598.png,1600,43805020,08/13/2026 8:10 AM,2026-08-13T06:02:15.372480Z
+Jordan Spieth,6900,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/882.png,171,43805021,08/13/2026 8:10 AM,2026-08-13T06:02:15.372485Z
+Aaron Rai,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/861.png,353925,43805022,08/13/2026 8:10 AM,2026-08-13T06:02:15.372491Z
+Ryan Fox,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1070.png,1048,43805023,08/13/2026 8:10 AM,2026-08-13T06:02:15.372498Z
+Alex Fitzpatrick,6800,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43805024,08/13/2026 8:10 AM,2026-08-13T06:02:15.372504Z
+Gary Woodland,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/689.png,1055,43805025,08/13/2026 8:10 AM,2026-08-13T06:02:15.372509Z
+Sungjae Im,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/621.png,670620,43805026,08/13/2026 8:10 AM,2026-08-13T06:02:15.372514Z
+Corey Conners,6700,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1038.png,1860,43805027,08/13/2026 8:10 AM,2026-08-13T06:02:15.372519Z
+Jordan L. Smith,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,43805028,08/13/2026 8:10 AM,2026-08-13T06:02:15.372525Z
+Eric Cole,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,43805029,08/13/2026 8:10 AM,2026-08-13T06:02:15.372531Z
+Sahith Theegala,6600,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43805030,08/13/2026 8:10 AM,2026-08-13T06:02:15.372536Z
+Bud Cauley,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43805031,08/13/2026 8:10 AM,2026-08-13T06:02:15.372541Z
+Michael Kim,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/597.png,1932,43805032,08/13/2026 8:10 AM,2026-08-13T06:02:15.372547Z
+Brian Harman,6500,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/533.png,805,43805033,08/13/2026 8:10 AM,2026-08-13T06:02:15.372553Z
+Harry Hall,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43805034,08/13/2026 8:10 AM,2026-08-13T06:02:15.372560Z
+Max Homa,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/946.png,2024,43805035,08/13/2026 8:10 AM,2026-08-13T06:02:15.372565Z
+Nick Taylor,6400,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,43805036,08/13/2026 8:10 AM,2026-08-13T06:02:15.372570Z
+Nicolas Echavarria,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43805037,08/13/2026 8:10 AM,2026-08-13T06:02:15.372576Z
+Ryo Hisatsune,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,43805038,08/13/2026 8:10 AM,2026-08-13T06:02:15.372581Z
+J.T. Poston,6300,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43805039,08/13/2026 8:10 AM,2026-08-13T06:02:15.372586Z
+Sepp Straka,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/654.png,73285,43805040,08/13/2026 8:10 AM,2026-08-13T06:02:15.372593Z
+Ricky Castillo,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,43805041,08/13/2026 8:10 AM,2026-08-13T06:02:15.372598Z
+Sudarshan Yellamaraju,6200,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/countries/50/canada.png,772264,43805042,08/13/2026 8:10 AM,2026-08-13T06:02:15.372606Z
+Matthew McCarty,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43805043,08/13/2026 8:10 AM,2026-08-13T06:02:15.372611Z
+Sam Stevens,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/564993.png,720888,43805044,08/13/2026 8:10 AM,2026-08-13T06:02:15.372616Z
+Aldrich Potgieter,6100,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,43805045,08/13/2026 8:10 AM,2026-08-13T06:02:15.372622Z
+Pierceson Coody,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,43805046,08/13/2026 8:10 AM,2026-08-13T06:02:15.372627Z
+Matti Schmid,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/790.png,697208,43805047,08/13/2026 8:10 AM,2026-08-13T06:02:15.372632Z
+Patrick Rodgers,6000,FedEx St. Jude Championship,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,43805048,08/13/2026 8:10 AM,2026-08-13T06:02:15.372637Z
+Jeeno Thitikul,11000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,710156,43812060,08/13/2026 10:15 AM,2026-08-13T06:02:15.372642Z
+Hae-Ran Ryu,10800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704517,43812061,08/13/2026 10:15 AM,2026-08-13T06:02:15.372647Z
+Ruoning Yin,10400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,721269,43812062,08/13/2026 10:15 AM,2026-08-13T06:02:15.372652Z
+Lottie Woad,10200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,794872,43812063,08/13/2026 10:15 AM,2026-08-13T06:02:15.372657Z
+Aki Iwai,9900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,770691,43812064,08/13/2026 10:15 AM,2026-08-13T06:02:15.372662Z
+Hye Jin Choi,9700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704104,43812065,08/13/2026 10:15 AM,2026-08-13T06:02:15.372667Z
+Jin Hee Im,9500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704064,43812066,08/13/2026 10:15 AM,2026-08-13T06:02:15.372673Z
+Hannah Green,9400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704130,43812067,08/13/2026 10:15 AM,2026-08-13T06:02:15.372698Z
+Esther Henseleit,9300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,704376,43812068,08/13/2026 10:15 AM,2026-08-13T06:02:15.372705Z
+Somi Lee,9200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,760753,43812069,08/13/2026 10:15 AM,2026-08-13T06:02:15.372713Z
+Minami Katsu,9100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704369,43812070,08/13/2026 10:15 AM,2026-08-13T06:02:15.372718Z
+Celine Boutier,8900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704395,43812071,08/13/2026 10:15 AM,2026-08-13T06:02:15.372724Z
+Chizzy Iwai,8800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,769143,43812072,08/13/2026 10:15 AM,2026-08-13T06:02:15.372729Z
+Lauren Coughlin,8700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703594,43812073,08/13/2026 10:15 AM,2026-08-13T06:02:15.372736Z
+Maja Stark,8600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704535,43812074,08/13/2026 10:15 AM,2026-08-13T06:02:15.372742Z
+Mao Saigo,8500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765250,43812075,08/13/2026 10:15 AM,2026-08-13T06:02:15.372747Z
+Ayaka Furue,8400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704544,43812076,08/13/2026 10:15 AM,2026-08-13T06:02:15.372752Z
+Ariya Jutanugarn,8300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,223640,43812077,08/13/2026 10:15 AM,2026-08-13T06:02:15.372757Z
+Andrea Lee,8200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704296,43812078,08/13/2026 10:15 AM,2026-08-13T06:02:15.372762Z
+Rose Zhang,8100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703983,43812079,08/13/2026 10:15 AM,2026-08-13T06:02:15.372767Z
+Grace Kim,8000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704362,43812080,08/13/2026 10:15 AM,2026-08-13T06:02:15.372772Z
+Pajaree Anannarukarn,8000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,704295,43812081,08/13/2026 10:15 AM,2026-08-13T06:02:15.372778Z
+Maria Marin,7900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/colombia.png,814849,43812082,08/13/2026 10:15 AM,2026-08-13T06:02:15.372783Z
+Erika Hara,7900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704355,43812083,08/13/2026 10:15 AM,2026-08-13T06:02:15.372788Z
+Farah O'Keefe,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,722007,43812084,08/13/2026 10:15 AM,2026-08-13T06:02:15.372794Z
+Kaleiya Romero,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,875457,43812085,08/13/2026 10:15 AM,2026-08-13T06:02:15.372799Z
+Wei-Ling Hsu,7800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/chinese_taipei.png,704389,43812086,08/13/2026 10:15 AM,2026-08-13T06:02:15.372805Z
+You Min Hwang,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771850,43812087,08/13/2026 10:15 AM,2026-08-13T06:02:15.372811Z
+Julia Lopez Ramirez,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/spain.png,774829,43812088,08/13/2026 10:15 AM,2026-08-13T06:02:15.372817Z
+Nastasia Nadaud,7700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,772996,43812089,08/13/2026 10:15 AM,2026-08-13T06:02:15.372822Z
+Yealimi Noh,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704100,43812090,08/13/2026 10:15 AM,2026-08-13T06:02:15.372827Z
+Arpichaya Yubol,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,766877,43812091,08/13/2026 10:15 AM,2026-08-13T06:02:15.372832Z
+Nataliya Guseva,7600,The Standard Portland Classic,Classic,,792521,43812092,08/13/2026 10:15 AM,2026-08-13T06:02:15.372844Z
+Chanettee Wannasaen,7600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,710157,43812093,08/13/2026 10:15 AM,2026-08-13T06:02:15.372849Z
+Lexi Thompson,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,223608,43812094,08/13/2026 10:15 AM,2026-08-13T06:02:15.372855Z
+Na Rin An,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704546,43812095,08/13/2026 10:15 AM,2026-08-13T06:02:15.372860Z
+Aditi Ashok,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/india.png,223614,43812096,08/13/2026 10:15 AM,2026-08-13T06:02:15.372865Z
+Megan Khang,7500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704037,43812097,08/13/2026 10:15 AM,2026-08-13T06:02:15.372870Z
+Leona Maguire,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ireland.png,223545,43812098,08/13/2026 10:15 AM,2026-08-13T06:02:15.372875Z
+MinJi Kang,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,792534,43812099,08/13/2026 10:15 AM,2026-08-13T06:02:15.372880Z
+Anne Chen,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867451,43812100,08/13/2026 10:15 AM,2026-08-13T06:02:15.372885Z
+Yan Liu,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,771493,43812101,08/13/2026 10:15 AM,2026-08-13T06:02:15.372890Z
+Ryann O'Toole,7400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704231,43812102,08/13/2026 10:15 AM,2026-08-13T06:02:15.372896Z
+Alexa Pano,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,702177,43812103,08/13/2026 10:15 AM,2026-08-13T06:02:15.372900Z
+Lindy Duncan,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704326,43812104,08/13/2026 10:15 AM,2026-08-13T06:02:15.372905Z
+Mary Liu,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,792519,43812105,08/13/2026 10:15 AM,2026-08-13T06:02:15.372911Z
+Dewi Weber,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,762119,43812106,08/13/2026 10:15 AM,2026-08-13T06:02:15.372916Z
+Mimi Rhodes,7300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,849716,43812107,08/13/2026 10:15 AM,2026-08-13T06:02:15.372921Z
+Dongeun Lee,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,853555,43812108,08/13/2026 10:15 AM,2026-08-13T06:02:15.372926Z
+Gurleen Kaur,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721240,43812109,08/13/2026 10:15 AM,2026-08-13T06:02:15.372931Z
+Yana Wilson,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,773803,43812110,08/13/2026 10:15 AM,2026-08-13T06:02:15.372936Z
+Perrine Delacour,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704202,43812111,08/13/2026 10:15 AM,2026-08-13T06:02:15.372941Z
+Jenny Bae,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,775325,43812112,08/13/2026 10:15 AM,2026-08-13T06:02:15.372948Z
+Carolina Lopez-Chacarra Coto,7200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/spain.png,848572,43812113,08/13/2026 10:15 AM,2026-08-13T06:02:15.372955Z
+Bianca Pagdanganan,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/philippines.png,703989,43812114,08/13/2026 10:15 AM,2026-08-13T06:02:15.372960Z
+Olivia Cowan,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,704252,43812115,08/13/2026 10:15 AM,2026-08-13T06:02:15.372965Z
+Yu Liu,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704151,43812116,08/13/2026 10:15 AM,2026-08-13T06:02:15.372973Z
+Megha Ganne,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704114,43812117,08/13/2026 10:15 AM,2026-08-13T06:02:15.372978Z
+Morgane Metraux,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,722436,43812118,08/13/2026 10:15 AM,2026-08-13T06:02:15.372984Z
+Hinako Shibuno,7100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,703917,43812119,08/13/2026 10:15 AM,2026-08-13T06:02:15.372989Z
+Lucy Li,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721260,43812120,08/13/2026 10:15 AM,2026-08-13T06:02:15.372995Z
+Soo Bin Joo,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,765234,43812121,08/13/2026 10:15 AM,2026-08-13T06:02:15.373001Z
+Amanda Doherty,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762114,43812122,08/13/2026 10:15 AM,2026-08-13T06:02:15.373006Z
+Robyn Choi,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703823,43812123,08/13/2026 10:15 AM,2026-08-13T06:02:15.373095Z
+Manon De Roey,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/belgium.png,704054,43812124,08/13/2026 10:15 AM,2026-08-13T06:02:15.373101Z
+Chella Choi,7000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,703984,43812125,08/13/2026 10:15 AM,2026-08-13T06:02:15.373107Z
+Ashleigh Buhai,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,223621,43812126,08/13/2026 10:15 AM,2026-08-13T06:02:15.373112Z
+Weiwei Zhang,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704084,43812127,08/13/2026 10:15 AM,2026-08-13T06:02:15.373117Z
+Ana Belac,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/slovenia.png,703841,43812128,08/13/2026 10:15 AM,2026-08-13T06:02:15.373122Z
+Mariel Galdiano,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765225,43812129,08/13/2026 10:15 AM,2026-08-13T06:02:15.373127Z
+Moriya Jutanugarn,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,704009,43812130,08/13/2026 10:15 AM,2026-08-13T06:02:15.373133Z
+Carolina Melgrati,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/italy.png,765430,43812131,08/13/2026 10:15 AM,2026-08-13T06:02:15.373141Z
+Isabella Fierro,6900,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/mexico.png,763475,43812132,08/13/2026 10:15 AM,2026-08-13T06:02:15.373146Z
+Valentine Delon,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,882475,43812133,08/13/2026 10:15 AM,2026-08-13T06:02:15.373153Z
+Jodi Ewart Shadoff,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,704106,43812134,08/13/2026 10:15 AM,2026-08-13T06:02:15.373159Z
+Pauline Roussin-Bouchard,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,704525,43812135,08/13/2026 10:15 AM,2026-08-13T06:02:15.373165Z
+Pornanong Phatlum,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,223595,43812136,08/13/2026 10:15 AM,2026-08-13T06:02:15.373170Z
+Brooke Matthews,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704298,43812137,08/13/2026 10:15 AM,2026-08-13T06:02:15.373175Z
+Jessica Porvasnik,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,720869,43812138,08/13/2026 10:15 AM,2026-08-13T06:02:15.373181Z
+Jeongeun Lee6,6800,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704081,43812139,08/13/2026 10:15 AM,2026-08-13T06:02:15.373186Z
+Daniela Darquea,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ecuador.png,704039,43812140,08/13/2026 10:15 AM,2026-08-13T06:02:15.373191Z
+Emily Pedersen,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,703874,43812141,08/13/2026 10:15 AM,2026-08-13T06:02:15.373200Z
+Ingrid Lindblad,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704538,43812142,08/13/2026 10:15 AM,2026-08-13T06:02:15.373205Z
+Briana Chacon,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867453,43812143,08/13/2026 10:15 AM,2026-08-13T06:02:15.373210Z
+Caley McGinty,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/england.png,767141,43812144,08/13/2026 10:15 AM,2026-08-13T06:02:15.373215Z
+Lilia Vu,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762117,43812145,08/13/2026 10:15 AM,2026-08-13T06:02:15.373221Z
+Chiara Tamburlini,6700,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,796503,43812146,08/13/2026 10:15 AM,2026-08-13T06:02:15.373226Z
+Yuka Saso,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704022,43812147,08/13/2026 10:15 AM,2026-08-13T06:02:15.373231Z
+Yuri Yoshida,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,703857,43812148,08/13/2026 10:15 AM,2026-08-13T06:02:15.373236Z
+Gina Kim,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,721237,43812149,08/13/2026 10:15 AM,2026-08-13T06:02:15.373240Z
+Sofia Garcia,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/paraguay.png,765236,43812150,08/13/2026 10:15 AM,2026-08-13T06:02:15.373246Z
+Benedetta Moresco,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/italy.png,704551,43812151,08/13/2026 10:15 AM,2026-08-13T06:02:15.373253Z
+Stephanie Kyriacou,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,704372,43812152,08/13/2026 10:15 AM,2026-08-13T06:02:15.373258Z
+Celine Herbin,6600,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,694627,43812153,08/13/2026 10:15 AM,2026-08-13T06:02:15.373263Z
+Yahui Zhang,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,837748,43812154,08/13/2026 10:15 AM,2026-08-13T06:02:15.373269Z
+Jiwon Jeon,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704328,43812155,08/13/2026 10:15 AM,2026-08-13T06:02:15.373274Z
+Suvichaya Vinijchaitham,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,793181,43812156,08/13/2026 10:15 AM,2026-08-13T06:02:15.373279Z
+Lauren Walsh,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/ireland.png,723911,43812157,08/13/2026 10:15 AM,2026-08-13T06:02:15.373284Z
+Yuna Nishimura,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,704549,43812158,08/13/2026 10:15 AM,2026-08-13T06:02:15.373289Z
+Gemma Dryburgh,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,704000,43812159,08/13/2026 10:15 AM,2026-08-13T06:02:15.373294Z
+Natasha Andrea Oon,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/malaysia.png,763476,43812160,08/13/2026 10:15 AM,2026-08-13T06:02:15.373300Z
+Nicole Broch Estrup,6500,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,223592,43812161,08/13/2026 10:15 AM,2026-08-13T06:02:15.373306Z
+Saki Baba,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765223,43812162,08/13/2026 10:15 AM,2026-08-13T06:02:15.373311Z
+Frida Kinhult,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704511,43812163,08/13/2026 10:15 AM,2026-08-13T06:02:15.373319Z
+Paula Reto,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,223596,43812164,08/13/2026 10:15 AM,2026-08-13T06:02:15.373324Z
+Celine Borge,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/norway.png,771498,43812165,08/13/2026 10:15 AM,2026-08-13T06:02:15.373329Z
+Lauren Tenuta,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,722448,43812166,08/13/2026 10:15 AM,2026-08-13T06:02:15.373336Z
+Isi Gabsa,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,703967,43812167,08/13/2026 10:15 AM,2026-08-13T06:02:15.373341Z
+Laney Frye,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765227,43812168,08/13/2026 10:15 AM,2026-08-13T06:02:15.373346Z
+Kate Smith-Stroh,6400,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,836005,43812169,08/13/2026 10:15 AM,2026-08-13T06:02:15.373352Z
+Muni He,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,704109,43812170,08/13/2026 10:15 AM,2026-08-13T06:02:15.373359Z
+Jennifer Chang,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704187,43812171,08/13/2026 10:15 AM,2026-08-13T06:02:15.373364Z
+Camille Boyd,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867455,43812172,08/13/2026 10:15 AM,2026-08-13T06:02:15.373369Z
+Lizette Salas,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704315,43812173,08/13/2026 10:15 AM,2026-08-13T06:02:15.373374Z
+Polly Mack,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/germany.png,771499,43812174,08/13/2026 10:15 AM,2026-08-13T06:02:15.373378Z
+Gabriela Ruffels,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703892,43812175,08/13/2026 10:15 AM,2026-08-13T06:02:15.373384Z
+Jacinda Lee,6300,The Standard Portland Classic,Classic,,884404,43812176,08/13/2026 10:15 AM,2026-08-13T06:02:15.373389Z
+Laetitia Beck,6300,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/israel.png,223594,43812177,08/13/2026 10:15 AM,2026-08-13T06:02:15.373393Z
+Maude-Aimee Leblanc,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,762118,43812178,08/13/2026 10:15 AM,2026-08-13T06:02:15.373399Z
+Sophia Schubert,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762116,43812179,08/13/2026 10:15 AM,2026-08-13T06:02:15.373404Z
+Linnea Strom,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,703878,43812180,08/13/2026 10:15 AM,2026-08-13T06:02:15.373410Z
+Juniper Jang,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771849,43812181,08/13/2026 10:15 AM,2026-08-13T06:02:15.373415Z
+Jeong Eun Lee5,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,704167,43812182,08/13/2026 10:15 AM,2026-08-13T06:02:15.373420Z
+Dani Holmqvist,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,703953,43812183,08/13/2026 10:15 AM,2026-08-13T06:02:15.373426Z
+Michelle Zhang,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/china.png,765252,43812184,08/13/2026 10:15 AM,2026-08-13T06:02:15.373431Z
+Kokona Sakurai,6200,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,774831,43812185,08/13/2026 10:15 AM,2026-08-13T06:02:15.373436Z
+Riley Smyth,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,867454,43812186,08/13/2026 10:15 AM,2026-08-13T06:02:15.373441Z
+Savannah Grewal,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,766209,43812187,08/13/2026 10:15 AM,2026-08-13T06:02:15.373446Z
+Caroline Inglis,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704018,43812188,08/13/2026 10:15 AM,2026-08-13T06:02:15.373456Z
+Mina Kreiter,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703819,43812189,08/13/2026 10:15 AM,2026-08-13T06:02:15.373464Z
+Brianna Do,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703848,43812190,08/13/2026 10:15 AM,2026-08-13T06:02:15.373472Z
+Emma McMyler,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,765246,43812191,08/13/2026 10:15 AM,2026-08-13T06:02:15.373477Z
+Kum Kang Park,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,771496,43812192,08/13/2026 10:15 AM,2026-08-13T06:02:15.373484Z
+Danielle Kang,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,670994,43812193,08/13/2026 10:15 AM,2026-08-13T06:02:15.373488Z
+Madison Young,6100,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,796380,43812194,08/13/2026 10:15 AM,2026-08-13T06:02:15.373493Z
+Gigi Stoll,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704111,43812195,08/13/2026 10:15 AM,2026-08-13T06:02:15.373498Z
+Hira Naveed,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/australia.png,703865,43812196,08/13/2026 10:15 AM,2026-08-13T06:02:15.373503Z
+Stephanie Meadow,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/northern_ireland.png,223605,43812197,08/13/2026 10:15 AM,2026-08-13T06:02:15.373509Z
+Nika Ito,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/japan.png,765228,43812198,08/13/2026 10:15 AM,2026-08-13T06:02:15.373514Z
+Emily Tubert,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,884652,43812199,08/13/2026 10:15 AM,2026-08-13T06:02:15.373519Z
+Adela Cernousek,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/france.png,796363,43812200,08/13/2026 10:15 AM,2026-08-13T06:02:15.373524Z
+Hailee Cooper,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,848569,43812201,08/13/2026 10:15 AM,2026-08-13T06:02:15.373529Z
+Leah John,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/canada.png,798461,43812202,08/13/2026 10:15 AM,2026-08-13T06:02:15.373534Z
+Christina Kim,6000,The Standard Portland Classic,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704322,43812203,08/13/2026 10:15 AM,2026-08-13T06:02:15.373539Z
