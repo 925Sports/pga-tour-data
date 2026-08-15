@@ -1,36 +1,106 @@
 player_name,stat_type,prizepicks_line,underdog_line,average_line,higher_price_ud,lower_price_ud,book_avg,sg_total_avg,proj,is_matchup
-Aaron Rai,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Adam Scott,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Adam Scott,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Alex Noren,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Alex Smalley,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Alex Smalley,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Brian Harman,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Brian Harman,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Bud Cauley,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Chris Gotterup,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Gary Woodland,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Brian Harman,Birdies Or Better,,3.5,3.5,-127.0,103.0,4.0,,4.0,False
+Brian Harman,Bogeys or Worse,,2.5,2.5,-137.0,112.0,2.5,,2.5,False
+Brian Harman,Eagles or Better,,0.5,0.5,769.0,,0.5,,0.5,False
+Brian Harman,Fairways Hit,,8.5,8.5,119.0,-148.0,7.954545454545454,,7.954545454545454,False
+Brian Harman,Greens In Regulation,,10.5,10.5,-112.0,-112.0,11.045454545454545,,11.045454545454545,False
+Brian Harman,R3 Leaderboard Position,,10.5,10.5,,-127.0,10.5,,10.5,False
+Brian Harman,Round Strokes,,68.5,68.5,-115.0,-107.0,68.33333333333333,,68.33333333333333,False
+Brian Harman,Tourney Finishing Position,,10.5,10.5,,114.0,8.5,,8.5,False
+Chris Gotterup,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
 Hideki Matsuyama,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Jake Knapp,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Jake Knapp,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Jordan Spieth,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Jordan Spieth,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Keith Mitchell,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Keith Mitchell,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Ludvig Åberg,Hole 10 thru 18 Shots,34.5,,34.5,,,35.0,,35.0,False
-Nick Taylor,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Nicolas Echavarria,Hole 10 thru 18 Shots,35.5,,35.5,,,35.0,,35.0,False
-Patrick Cantlay,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Patrick Rodgers,Hole 10 thru 18 Shots,35.5,,35.5,,,35.0,,35.0,False
-Patrick Rodgers,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Pierceson Coody,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Scottie Scheffler,Hole 10 thru 18 Shots,33.5,,33.5,,,35.0,,35.0,False
-Scottie Scheffler,Hole 3 Shots,4.5,,4.5,,,,,,False
-Sudarshan Yellamaraju,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Sudarshan Yellamaraju,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Sungjae Im,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
-Sungjae Im,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
-Tommy Fleetwood,Hole 10 thru 18 Shots,34.5,,34.5,,,35.0,,35.0,False
-Viktor Hovland,Hole 10 thru 18 Shots,34.5,,34.5,,,35.0,,35.0,False
-Wyndham Clark,Hole 10 thru 18 Shots,35.0,,35.0,,,35.0,,35.0,False
+Jake Knapp,Birdies Or Better,,4.5,4.5,138.0,-170.0,4.0,,4.0,False
+Jake Knapp,Bogeys or Worse,,3.5,3.5,140.0,-173.0,2.5,,2.5,False
+Jake Knapp,Eagles or Better,,0.5,0.5,596.0,,0.5,,0.5,False
+Jake Knapp,Fairways Hit,,7.5,7.5,112.0,-137.0,7.954545454545454,,7.954545454545454,False
+Jake Knapp,Greens In Regulation,,10.5,10.5,-117.0,-106.0,11.045454545454545,,11.045454545454545,False
+Jake Knapp,R3 Leaderboard Position,,10.5,10.5,,136.0,10.5,,10.5,False
+Jake Knapp,Round Strokes,,69.5,69.5,109.0,-134.0,68.33333333333333,,68.33333333333333,False
+Jake Knapp,Tourney Finishing Position,,10.5,10.5,,167.0,8.5,,8.5,False
+Jordan Spieth,Birdies Or Better,,3.5,3.5,-159.0,129.0,4.0,,4.0,False
+Jordan Spieth,Bogeys or Worse,,2.5,2.5,-157.0,127.0,2.5,,2.5,False
+Jordan Spieth,Eagles or Better,,0.5,0.5,619.0,,0.5,,0.5,False
+Jordan Spieth,Fairways Hit,,7.5,7.5,-117.0,-106.0,7.954545454545454,,7.954545454545454,False
+Jordan Spieth,Greens In Regulation,,10.5,10.5,-154.0,126.0,11.045454545454545,,11.045454545454545,False
+Jordan Spieth,R3 Leaderboard Position,,10.5,10.5,,-134.0,10.5,,10.5,False
+Jordan Spieth,Round Strokes,,68.5,68.5,-136.0,111.0,68.33333333333333,,68.33333333333333,False
+Jordan Spieth,Tourney Finishing Position,,10.5,10.5,,107.0,8.5,,8.5,False
+Keith Mitchell,Birdies Or Better,,3.5,3.5,-134.0,109.0,4.0,,4.0,False
+Keith Mitchell,Bogeys or Worse,,2.5,2.5,-170.0,136.0,2.5,,2.5,False
+Keith Mitchell,Eagles or Better,,0.5,0.5,590.0,,0.5,,0.5,False
+Keith Mitchell,Fairways Hit,,7.5,7.5,115.0,-141.0,7.954545454545454,,7.954545454545454,False
+Keith Mitchell,Greens In Regulation,,11.5,11.5,116.0,-141.0,11.045454545454545,,11.045454545454545,False
+Keith Mitchell,R3 Leaderboard Position,,10.5,10.5,,136.0,10.5,,10.5,False
+Keith Mitchell,Round Strokes,,69.5,69.5,-115.0,-107.0,68.33333333333333,,68.33333333333333,False
+Keith Mitchell,Tourney Finishing Position,,10.5,10.5,,166.0,8.5,,8.5,False
+Ludvig Åberg,Birdies Or Better,,4.5,4.5,132.0,-162.0,4.0,,4.0,False
+Ludvig Åberg,Bogeys or Worse,,2.5,2.5,-107.0,-115.0,2.5,,2.5,False
+Ludvig Åberg,Eagles or Better,,0.5,0.5,566.0,,0.5,,0.5,False
+Ludvig Åberg,Fairways Hit,,7.5,7.5,-145.0,117.0,7.954545454545454,,7.954545454545454,False
+Ludvig Åberg,Greens In Regulation,,11.5,11.5,-121.0,-103.0,11.045454545454545,,11.045454545454545,False
+Ludvig Åberg,Hole 10 thru 18 Shots,34.5,,34.5,,,34.8,,34.8,False
+Ludvig Åberg,R3 Leaderboard Position,,10.5,10.5,,-371.0,10.5,,10.5,False
+Ludvig Åberg,Round Strokes,,67.5,67.5,-124.0,101.0,68.33333333333333,,68.33333333333333,False
+Ludvig Åberg,Tourney Finishing Position,,5.5,5.5,,105.0,8.5,,8.5,False
+Matt Fitzpatrick,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Nico Echavarria,Birdies Or Better,,3.5,3.5,-107.0,-115.0,4.0,,4.0,False
+Nico Echavarria,Bogeys or Worse,,3.5,3.5,142.0,-176.0,2.5,,2.5,False
+Nico Echavarria,Eagles or Better,,0.5,0.5,666.0,,0.5,,0.5,False
+Nico Echavarria,Fairways Hit,,7.5,7.5,-148.0,119.0,7.954545454545454,,7.954545454545454,False
+Nico Echavarria,Greens In Regulation,,10.5,10.5,-105.0,-118.0,11.045454545454545,,11.045454545454545,False
+Nico Echavarria,R3 Leaderboard Position,,10.5,10.5,,-106.0,10.5,,10.5,False
+Nico Echavarria,Round Strokes,,69.5,69.5,-141.0,115.0,68.33333333333333,,68.33333333333333,False
+Nico Echavarria,Tourney Finishing Position,,10.5,10.5,,148.0,8.5,,8.5,False
+Nicolas Echavarria,Hole 10 thru 18 Shots,35.5,,35.5,,,34.8,,34.8,False
+Patrick Cantlay,Birdies Or Better,,4.5,4.5,123.0,-152.0,4.0,,4.0,False
+Patrick Cantlay,Bogeys or Worse,,2.5,2.5,107.0,-132.0,2.5,,2.5,False
+Patrick Cantlay,Eagles or Better,,0.5,0.5,637.0,,0.5,,0.5,False
+Patrick Cantlay,Fairways Hit,,7.5,7.5,-121.0,-102.0,7.954545454545454,,7.954545454545454,False
+Patrick Cantlay,Greens In Regulation,,11.5,11.5,-113.0,-109.0,11.045454545454545,,11.045454545454545,False
+Patrick Cantlay,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Patrick Cantlay,R3 Leaderboard Position,,10.5,10.5,,-109.0,10.5,,10.5,False
+Patrick Cantlay,Round Strokes,,67.5,67.5,-136.0,111.0,68.33333333333333,,68.33333333333333,False
+Patrick Cantlay,Tourney Finishing Position,,10.5,10.5,,-105.0,8.5,,8.5,False
+Sam Burns,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Scottie Scheffler,Birdies Or Better,,4.5,4.5,-145.0,118.0,4.0,,4.0,False
+Scottie Scheffler,Bogeys or Worse,,1.5,1.5,-159.0,130.0,2.5,,2.5,False
+Scottie Scheffler,Eagles or Better,,0.5,0.5,596.0,,0.5,,0.5,False
+Scottie Scheffler,Fairways Hit,,8.5,8.5,-102.0,-121.0,7.954545454545454,,7.954545454545454,False
+Scottie Scheffler,Greens In Regulation,,12.5,12.5,100.0,-124.0,11.045454545454545,,11.045454545454545,False
+Scottie Scheffler,Hole 10 thru 18 Shots,33.5,,33.5,,,34.8,,34.8,False
+Scottie Scheffler,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Scottie Scheffler,Round Strokes,,66.5,66.5,-124.0,101.0,68.33333333333333,,68.33333333333333,False
+Sudarshan Yellamaraju,Birdies Or Better,,3.5,3.5,103.0,-127.0,4.0,,4.0,False
+Sudarshan Yellamaraju,Eagles or Better,,0.5,0.5,654.0,,0.5,,0.5,False
+Sudarshan Yellamaraju,R3 Leaderboard Position,,10.5,10.5,,176.0,10.5,,10.5,False
+Sudarshan Yellamaraju,Round Strokes,,69.5,69.5,-145.0,118.0,68.33333333333333,,68.33333333333333,False
+Sudarshan Yellamaraju,Tourney Finishing Position,,20.5,20.5,,-136.0,8.5,,8.5,False
+Sungjae Im,Birdies Or Better,,3.5,3.5,-150.0,122.0,4.0,,4.0,False
+Sungjae Im,Bogeys or Worse,,2.5,2.5,-145.0,118.0,2.5,,2.5,False
+Sungjae Im,Eagles or Better,,0.5,0.5,716.0,,0.5,,0.5,False
+Sungjae Im,Fairways Hit,,8.5,8.5,121.0,-150.0,7.954545454545454,,7.954545454545454,False
+Sungjae Im,Greens In Regulation,,10.5,10.5,111.0,-136.0,11.045454545454545,,11.045454545454545,False
+Sungjae Im,Hole 10 thru 18 Shots,35.0,,35.0,,,34.8,,34.8,False
+Sungjae Im,R3 Leaderboard Position,,10.5,10.5,,-435.0,10.5,,10.5,False
+Sungjae Im,Round Strokes,,68.5,68.5,-124.0,101.0,68.33333333333333,,68.33333333333333,False
+Sungjae Im,Tourney Finishing Position,,5.5,5.5,,128.0,8.5,,8.5,False
+Tommy Fleetwood,Birdies Or Better,,4.5,4.5,122.0,-150.0,4.0,,4.0,False
+Tommy Fleetwood,Bogeys or Worse,,2.5,2.5,126.0,-157.0,2.5,,2.5,False
+Tommy Fleetwood,Eagles or Better,,0.5,0.5,697.0,,0.5,,0.5,False
+Tommy Fleetwood,Fairways Hit,,8.5,8.5,-159.0,129.0,7.954545454545454,,7.954545454545454,False
+Tommy Fleetwood,Greens In Regulation,,11.5,11.5,106.0,-130.0,11.045454545454545,,11.045454545454545,False
+Tommy Fleetwood,Hole 10 thru 18 Shots,34.5,,34.5,,,34.8,,34.8,False
+Tommy Fleetwood,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Tommy Fleetwood,R3 Leaderboard Position,,10.5,10.5,,-233.0,10.5,,10.5,False
+Tommy Fleetwood,Round Strokes,,67.5,67.5,-136.0,111.0,68.33333333333333,,68.33333333333333,False
+Tommy Fleetwood,Tourney Finishing Position,,5.5,5.5,,135.0,8.5,,8.5,False
+Viktor Hovland,Birdies Or Better,,4.5,4.5,134.0,-164.0,4.0,,4.0,False
+Viktor Hovland,Bogeys or Worse,,2.5,2.5,-110.0,-112.0,2.5,,2.5,False
+Viktor Hovland,Eagles or Better,,0.5,0.5,659.0,,0.5,,0.5,False
+Viktor Hovland,Fairways Hit,,8.5,8.5,104.0,-127.0,7.954545454545454,,7.954545454545454,False
+Viktor Hovland,Greens In Regulation,,10.5,10.5,-150.0,122.0,11.045454545454545,,11.045454545454545,False
+Viktor Hovland,Hole 10 thru 18 Shots,34.5,,34.5,,,34.8,,34.8,False
+Viktor Hovland,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
+Viktor Hovland,Round Strokes,,67.5,67.5,-157.0,128.0,68.33333333333333,,68.33333333333333,False
+Viktor Hovland,Tourney Finishing Position,,5.5,5.5,,-118.0,8.5,,8.5,False
 Wyndham Clark,Hole 16 Shots,4.5,,4.5,,,4.5,,4.5,False
