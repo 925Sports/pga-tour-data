@@ -4072,7 +4072,7 @@ function switchFantasySubTab(sub) {
         // Preview sheet wins over log-inferred traits (course updates / redesigns)
         // Only adopt preview traits when the preview row matches this week's event.
         // Never set previewCourseName to last week's course (e.g. Detroit) during FedEx week.
-        if (traitPairs.length && (previewMatches || !liveEv)) {
+        if (traitPairs.length && (previewMatches || window._hubCalendarRolled || !liveEv)) {
             currentCourseTraits = {};
             traitPairs.forEach(([k, v]) => { currentCourseTraits[k] = { key: k, value: v }; });
             window.previewCourseTraits = currentCourseTraits;
@@ -16842,6 +16842,88 @@ el.innerHTML = `
         "GREEN SPEEDS", "ROUGH LENGTH", "WATER HAZARDS", "ROUGH AMOUNT",
         "BUNKERS", "LOCATION", "Redesigned", "DRAINAGE"
     ];
+    const TRAIT_SKIP = /^(type|weather|weather details|location|cut|cut line|winning score|yardage|rain|notes|report)$/i;
+
+    function hubSpecialistColKey(label) {
+        const raw = String(label || "").trim();
+        if (!raw) return "";
+        const up = raw.toUpperCase().replace(/_/g, " ").trim();
+        const map = {
+            DESIGNER: "DESIGNER", STYLE: "STYLE", GREENS: "GREENS",
+            "GREENS (2)": "GREENS (2)", "GREENS 2": "GREENS (2)", "GREENS ALT": "GREENS (2)",
+            FAIRWAYS: "FAIRWAYS", LENGTH: "LENGTH", PAR: "PAR", SCORING: "SCORING",
+            "FAIRWAY WIDTH": "FAIRWAY WIDTH", "FW WIDTH": "FAIRWAY WIDTH",
+            "GREEN WIDTH": "GREEN WIDTH", "GREEN SPEEDS": "GREEN SPEEDS", "GREEN SPEED": "GREEN SPEEDS",
+            "GRN SPD": "GREEN SPEEDS", "ROUGH LENGTH": "ROUGH LENGTH", "ROUGH LEN": "ROUGH LENGTH",
+            "WATER HAZARDS": "WATER HAZARDS", WATER: "WATER HAZARDS",
+            "ROUGH AMOUNT": "ROUGH AMOUNT", BUNKERS: "BUNKERS", DRAINAGE: "DRAINAGE",
+            REDESIGNED: "Redesigned", REDESIGN: "Redesigned",
+        };
+        if (map[up]) return map[up];
+        const hit = TRAIT_CANDIDATES.find(c => c.toUpperCase() === up);
+        return hit || raw;
+    }
+
+    function traitValuesMatch(a, b) {
+        const na = String(a || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        const nb = String(b || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        if (!na || !nb) return false;
+        if (na === nb) return true;
+        if (na.length >= 3 && nb.length >= 3 && (na.includes(nb) || nb.includes(na))) return true;
+        const aliases = {
+            rtj: "robert trent jones",
+            "robert trent jones": "rtj",
+            "trent jones": "robert trent jones",
+            bent: "bentgrass",
+            bentgrass: "bent",
+            "bent grass": "bentgrass",
+            poa: "poa annua",
+            bermuda: "bermudagrass",
+            bermudagrass: "bermuda",
+            zoysia: "zoysiagrass",
+            zoysiagrass: "zoysia",
+            rye: "ryegrass",
+            ryegrass: "rye",
+        };
+        if (aliases[na] && (aliases[na] === nb || nb.includes(aliases[na]) || aliases[na].includes(nb))) return true;
+        if (aliases[nb] && (aliases[nb] === na || na.includes(aliases[nb]) || aliases[nb].includes(na))) return true;
+        const ta = na.split(" ").filter(t => t.length > 2);
+        const tb = nb.split(" ").filter(t => t.length > 2);
+        if (ta.length && tb.length && ta.every(t => tb.some(x => x === t || x.includes(t) || t.includes(x)))) return true;
+        return false;
+    }
+
+    function hubTraitsFromPreview() {
+        const out = {};
+        const src = currentCourseTraits || window.previewCourseTraits || {};
+        Object.values(src).forEach(t => {
+            if (!t) return;
+            const label = t.key || t.Key || "";
+            if (!label || TRAIT_SKIP.test(String(label).trim())) return;
+            const col = hubSpecialistColKey(label);
+            if (!col || TRAIT_SKIP.test(col)) return;
+            const val = String(t.value != null ? t.value : t).trim();
+            if (!val || val.length > 80) return;
+            out[col] = { key: col, value: val, green: isGreenTrait(col), fromPreview: true };
+        });
+        return out;
+    }
+
+    function mergeSpecialistTraits(courseName) {
+        const fromLogs = detectCourseTraits(courseName) || {};
+        const fromPreview = hubTraitsFromPreview();
+        const merged = {};
+        TRAIT_CANDIDATES.forEach(col => {
+            const prev = fromPreview[col];
+            const log = fromLogs[col] || Object.values(fromLogs).find(t => hubSpecialistColKey(t.key) === col);
+            const pick = prev || log;
+            if (pick) merged[col] = { key: col, value: pick.value, green: isGreenTrait(col), count: pick.count, fromPreview: !!prev };
+        });
+        Object.values(fromPreview).forEach(t => {
+            if (!merged[t.key]) merged[t.key] = t;
+        });
+        return merged;
+    }
 
     function isGreenTrait(key) {
         const k = String(key || "").toUpperCase().replace(/_/g, " ").trim();
@@ -16991,6 +17073,21 @@ el.innerHTML = `
         return rows;
     }
 
+    function rebuildSpecialistFromLogs() {
+        window._forceLiveSpecialist = true;
+        window._spSortUserTouched = false;
+        try { selectedTraitKey = "ALL"; } catch (e) {}
+        const chips = document.getElementById("sp-trait-chips");
+        if (chips) chips.innerHTML = '<span class="text-sm text-slate-500">Rebuilding traits from this week’s course + logs…</span>';
+        const go = () => { try { buildSpecialist(); } catch (e) { console.warn(e); } };
+        if (typeof ensurePlayerLogsLoaded === "function") {
+            ensurePlayerLogsLoaded().then(go).catch(go);
+        } else {
+            go();
+        }
+    }
+    window.rebuildSpecialistFromLogs = rebuildSpecialistFromLogs;
+
     function buildSpecialist() {
         const chips = document.getElementById("sp-trait-chips");
         const empty = document.getElementById("sp-empty");
@@ -17038,7 +17135,7 @@ el.innerHTML = `
                     chips.innerHTML = `<div class="flex flex-wrap items-center gap-2">
                         <span class="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">Fast board loaded · ${specialistRows.length} players</span>
                         <span class="text-[11px] text-slate-500">Trait filters need full history (optional).</span>
-                        <button type="button" class="text-[11px] text-blue-600 underline" onclick="window._forceLiveSpecialist=true; ensurePlayerLogsLoaded().then(()=>buildSpecialist()).catch(()=>buildSpecialist())">Rebuild from logs</button>
+                        <button type="button" class="text-[11px] text-blue-600 underline" onclick="rebuildSpecialistFromLogs()">Rebuild from logs</button>
                     </div>`;
                 }
                 // SPEC ranks on cheat sheet
@@ -17090,27 +17187,46 @@ el.innerHTML = `
             }
         }
         if (!playerLogs.length) {
+            if (chips) chips.innerHTML = `<span class="text-sm text-slate-500">Loading player logs so trait columns can be built…</span>`;
             if (empty) empty.classList.remove("hidden");
             if (wrap) wrap.classList.add("hidden");
+            try {
+                if (typeof ensurePlayerLogsLoaded === "function") {
+                    ensurePlayerLogsLoaded().then(() => {
+                        window._forceLiveSpecialist = true;
+                        buildSpecialist();
+                    }).catch(() => {});
+                }
+            } catch (e) {}
             return;
         }
 
-        if (!currentCourseName) {
-            buildCourseHistory();
+        if (typeof hubThisWeekCourse === "function") {
+            const pinned = hubThisWeekCourse();
+            if (pinned) currentCourseName = pinned;
         }
+        if (!currentCourseName) {
+            try { buildCourseHistory(); } catch (e) {}
+        }
+        try {
+            const hasPrev = currentCourseTraits && Object.keys(currentCourseTraits).length;
+            if (!hasPrev && typeof loadPreTournamentPreview === "function") loadPreTournamentPreview();
+        } catch (e) {}
 
-        currentCourseTraits = detectCourseTraits(currentCourseName);
-        specialistTraits = Object.values(currentCourseTraits);
+        currentCourseTraits = (typeof mergeSpecialistTraits === "function")
+            ? mergeSpecialistTraits(currentCourseName)
+            : detectCourseTraits(currentCourseName);
+        specialistTraits = Object.values(currentCourseTraits).filter(t => t && t.value && !TRAIT_SKIP.test(t.key));
 
         if (!specialistTraits.length) {
-            if (chips) chips.innerHTML = `<span class="text-sm text-slate-400">No course characteristic columns found in logs for this venue.</span>`;
+            if (chips) chips.innerHTML = `<span class="text-sm text-slate-400">No course characteristics found for ${currentCourseName || "this venue"} in the preview or logs.</span>`;
             if (empty) empty.classList.remove("hidden");
             if (wrap) wrap.classList.add("hidden");
             return;
         }
 
-        // Default: combined "ALL"
-        if (selectedTraitKey == null) selectedTraitKey = "ALL";
+        // Default: combined "ALL" so trait columns show in the table
+        if (selectedTraitKey == null || selectedTraitKey === "BOARD") selectedTraitKey = "ALL";
         if (selectedTraitKey !== "ALL" && !currentCourseTraits[selectedTraitKey]) {
             selectedTraitKey = "ALL";
         }
@@ -17179,9 +17295,11 @@ el.innerHTML = `
     function eventsForTrait(trait, windowN) {
         const col = trait.key;
         let matchedRounds = playerLogs.filter(r => {
-            const v = r[col];
+            const v = r[col] != null ? r[col] : (r[String(col).toUpperCase()] != null ? r[String(col).toUpperCase()] : r[String(col).toLowerCase()]);
             if (v == null) return false;
-            return String(v).trim() === String(trait.value).trim();
+            return (typeof traitValuesMatch === "function")
+                ? traitValuesMatch(v, trait.value)
+                : String(v).trim() === String(trait.value).trim();
         });
 
         // Apply window globally then regroup — per player limit is cleaner
@@ -17276,9 +17394,12 @@ el.innerHTML = `
                 if (!pname) return;
                 const matched = [];
                 traitList.forEach(t => {
-                    const v = r[t.key];
+                    const v = r[t.key] != null ? r[t.key] : r[String(t.key).toUpperCase()];
                     if (v == null) return;
-                    if (String(v).trim() === String(t.value).trim()) matched.push(t);
+                    const hit = (typeof traitValuesMatch === "function")
+                        ? traitValuesMatch(v, t.value)
+                        : String(v).trim() === String(t.value).trim();
+                    if (hit) matched.push(t);
                 });
                 if (!matched.length) return;
                 const onlyGreen = matched.every(t => t.green);
@@ -17357,7 +17478,9 @@ el.innerHTML = `
 
                 const traitHits = Object.values(traitSg).filter(v => v != null).length;
                 const inField = allPlayers.some(p =>
-                    (p.player_name || "") === pname || (p.name_adjusted || "") === pname
+                    (typeof namesMatch === "function"
+                        ? (namesMatch(p.player_name || "", pname) || namesMatch(p.name_adjusted || "", pname))
+                        : ((p.player_name || "") === pname || (p.name_adjusted || "") === pname))
                 );
 
                 specialistRows.push({
@@ -17396,7 +17519,9 @@ el.innerHTML = `
         Object.entries(byPlayer).forEach(([pname, { events, roundCount }]) => {
             const sum = summarizeEvents(events);
             const inField = allPlayers.some(p =>
-                (p.player_name || "") === pname || (p.name_adjusted || "") === pname
+                (typeof namesMatch === "function"
+                    ? (namesMatch(p.player_name || "", pname) || namesMatch(p.name_adjusted || "", pname))
+                    : ((p.player_name || "") === pname || (p.name_adjusted || "") === pname))
             );
             specialistRows.push({
                 player_name: pname,
