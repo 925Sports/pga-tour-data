@@ -21,8 +21,13 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Generate slate CSVs
-        run: python scripts/generate_slate_data.py
+        run: |
+          python scripts/fetch_dk_salaries.py
+          python scripts/generate_slate_data.py
 
       - name: Commit & push
         id: commit
