@@ -1,70 +1,51 @@
 player_name,course_name,event_name,h1,h2,h3,h4,avg_finish,starts,last_sg
-"Scheffler, Scottie",TPC Southwind,FedEx St. Jude Championship,3,4,31,CUT,34.5,7,2.8732499999999996
-"Burns, Sam",TPC Southwind,FedEx St. Jude Championship,28,5,52,20,26.25,5,0.37324999999999986
-"McIlroy, Rory",TPC Southwind,FedEx St. Jude Championship,—,68,3,CUT,57.0,6,-3.30375
-"Kim, Tom",TPC Southwind,FedEx St. Jude Championship,—,50,24,—,37.0,2,-0.8037500000000001
-"Fleetwood, Tommy",TPC Southwind,FedEx St. Jude Championship,3,22,3,—,9.333333333333334,6,2.8732500000000005
-"Kim, Si Woo",TPC Southwind,FedEx St. Jude Championship,14,50,16,42,30.5,5,1.1232499999999999
-"Fitzpatrick, Matt",TPC Southwind,FedEx St. Jude Championship,32,18,66,5,30.25,5,0.12324999999999998
-"Brennan, Michael",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Clark, Wyndham",TPC Southwind,FedEx St. Jude Championship,56,7,66,28,39.25,4,-1.37675
-"Gerard, Ryan",TPC Southwind,FedEx St. Jude Championship,44,—,—,—,44.0,1,-0.37675000000000003
-"Thorbjornsen, Michael",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Matsuyama, Hideki",TPC Southwind,FedEx St. Jude Championship,17,1,16,—,11.333333333333334,6,0.87325
-"Thomas, Justin",TPC Southwind,FedEx St. Jude Championship,28,30,—,13,23.666666666666668,6,0.37324999999999986
-"Morikawa, Collin",TPC Southwind,FedEx St. Jude Championship,22,22,13,5,15.5,6,0.6232500000000001
-"Henley, Russell",TPC Southwind,FedEx St. Jude Championship,17,30,6,CUT,38.25,5,0.8732500000000001
-"Koivun, Jackson",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Gotterup, Chris",TPC Southwind,FedEx St. Jude Championship,54,—,—,—,54.0,1,-1.12675
-"Schauffele, Xander",TPC Southwind,FedEx St. Jude Championship,22,2,24,57,26.25,8,0.6232499999999999
-"Fox, Ryan",TPC Southwind,FedEx St. Jude Championship,50,—,—,—,50.0,1,-0.8767500000000001
-"Cantlay, Patrick",TPC Southwind,FedEx St. Jude Championship,9,12,2,57,20.0,7,1.3732499999999999
-"Smith, Jordan",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"MacIntyre, Robert",TPC Southwind,FedEx St. Jude Championship,38,7,—,—,22.5,4,-0.12674999999999992
-"Aberg, Ludvig",TPC Southwind,FedEx St. Jude Championship,9,40,—,—,24.5,2,1.37325
-"Kitayama, Kurt",TPC Southwind,FedEx St. Jude Championship,9,—,52,CUT,53.666666666666664,3,1.3732499999999999
-"Conners, Corey",TPC Southwind,FedEx St. Jude Championship,50,50,6,28,33.5,8,-0.8767500000000001
-"Spaun, J.J.",TPC Southwind,FedEx St. Jude Championship,2,—,24,42,22.666666666666668,3,3.1232499999999996
-"Hovland, Viktor",TPC Southwind,FedEx St. Jude Championship,32,2,13,20,16.75,6,0.12324999999999992
-"Bridgeman, Jacob",TPC Southwind,FedEx St. Jude Championship,17,—,—,—,17.0,1,0.8732499999999999
-"Fitzpatrick, Alex",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Mitchell, Keith",TPC Southwind,FedEx St. Jude Championship,—,—,43,31,37.0,4,-0.36424999999999996
-"Young, Cameron",TPC Southwind,FedEx St. Jude Championship,5,61,31,31,32.0,4,1.8732499999999999
-"McNealy, Maverick",TPC Southwind,FedEx St. Jude Championship,28,12,—,31,23.666666666666668,3,0.3732500000000001
-"Lowry, Shane",TPC Southwind,FedEx St. Jude Championship,59,50,—,46,51.666666666666664,6,-1.62675
-"Rose, Justin",TPC Southwind,FedEx St. Jude Championship,1,22,20,CUT,35.75,6,3.1232499999999996
-"Poston, J.T.",TPC Southwind,FedEx St. Jude Championship,22,33,24,20,24.75,7,0.6232499999999999
-"Rai, Aaron",TPC Southwind,FedEx St. Jude Championship,22,16,49,51,34.5,6,0.62325
-"Griffin, Ben",TPC Southwind,FedEx St. Jude Championship,9,50,24,—,27.666666666666668,3,1.3732499999999999
-"Reitan, Kristoffer",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Castillo, Ricky",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Cauley, Bud",TPC Southwind,FedEx St. Jude Championship,14,—,—,—,14.0,1,1.1232499999999999
-"Theegala, Sahith",TPC Southwind,FedEx St. Jude Championship,—,46,13,13,24.0,3,-0.55375
-"Lee, Min Woo",TPC Southwind,FedEx St. Jude Championship,68,22,—,—,45.0,3,-3.3767500000000004
-"Kim, Michael",TPC Southwind,FedEx St. Jude Championship,59,—,—,—,59.0,2,-1.6267500000000001
-"Im, Sungjae",TPC Southwind,FedEx St. Jude Championship,17,40,6,12,18.75,6,0.8732499999999999
-"Echavarria, Nico",TPC Southwind,FedEx St. Jude Championship,38,—,—,—,38.0,1,-0.12674999999999992
-"Homa, Max",TPC Southwind,FedEx St. Jude Championship,—,70,6,42,39.333333333333336,7,-3.80375
-"Taylor, Nick",TPC Southwind,FedEx St. Jude Championship,44,65,24,CUT,58.25,6,-0.37675000000000003
-"Bhatia, Akshay",TPC Southwind,FedEx St. Jude Championship,6,12,—,—,9.0,2,1.6232499999999999
-"Harman, Brian",TPC Southwind,FedEx St. Jude Championship,22,50,31,3,26.5,5,0.6232500000000001
-"Yellamaraju, Sudarshan",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Cole, Eric",TPC Southwind,FedEx St. Jude Championship,—,18,31,—,24.5,2,0.69625
-"English, Harris",TPC Southwind,FedEx St. Jude Championship,48,61,52,—,53.666666666666664,6,-0.62675
-"Noren, Alex",TPC Southwind,FedEx St. Jude Championship,—,30,—,WD,30.0,3,0.19624999999999987
-"Woodland, Gary",TPC Southwind,FedEx St. Jude Championship,—,—,—,51,51.0,3,-0.027499999999999927
-"Scott, Adam",TPC Southwind,FedEx St. Jude Championship,—,18,—,5,11.5,5,0.69625
-"Hisatsune, Ryo",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Smalley, Alex",TPC Southwind,FedEx St. Jude Championship,—,—,65,CUT,82.5,2,-2.11425
-"McCarty, Matt",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Hall, Harry",TPC Southwind,FedEx St. Jude Championship,22,—,—,—,22.0,1,0.6232499999999999
-"Knapp, Jake",TPC Southwind,FedEx St. Jude Championship,62,67,—,—,64.5,2,-2.12675
-"Fowler, Rickie",TPC Southwind,FedEx St. Jude Championship,6,—,58,64,42.666666666666664,5,1.62325
-"Stevens, Sam",TPC Southwind,FedEx St. Jude Championship,54,—,37,—,45.5,2,-1.1267500000000001
-"Hojgaard, Nicolai",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Spieth, Jordan",TPC Southwind,FedEx St. Jude Championship,38,68,6,CUT,53.0,7,-0.12675000000000003
-"Schmid, Matti",TPC Southwind,FedEx St. Jude Championship,38,—,—,—,38.0,1,-0.12675000000000008
-"Straka, Sepp",TPC Southwind,FedEx St. Jude Championship,17,61,63,2,35.75,4,0.8732499999999999
-"Potgieter, Aldrich",TPC Southwind,FedEx St. Jude Championship,59,—,—,—,59.0,1,-1.6267500000000001
-"Coody, Pierceson",TPC Southwind,FedEx St. Jude Championship,—,—,—,—,,0,
-"Rodgers, Patrick",TPC Southwind,FedEx St. Jude Championship,38,33,52,CUT,55.75,5,-0.12675000000000003
+"Scheffler, Scottie",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Burns, Sam",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"McIlroy, Rory",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Kim, Tom",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Fleetwood, Tommy",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Kim, Si Woo",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Fitzpatrick, Matt",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Brennan, Michael",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Clark, Wyndham",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Gerard, Ryan",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Thorbjornsen, Michael",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Matsuyama, Hideki",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Thomas, Justin",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Morikawa, Collin",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Henley, Russell",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Gotterup, Chris",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Schauffele, Xander",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Fox, Ryan",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Cantlay, Patrick",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"MacIntyre, Robert",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Aberg, Ludvig",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Kitayama, Kurt",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Spaun, J.J.",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Hovland, Viktor",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Bridgeman, Jacob",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Fitzpatrick, Alex",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Young, Cameron",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"McNealy, Maverick",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Rose, Justin",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Poston, J.T.",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Rai, Aaron",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Griffin, Ben",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Reitan, Kristoffer",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Cauley, Bud",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Theegala, Sahith",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Lee, Min Woo",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Im, Sungjae",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Echavarria, Nico",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Bhatia, Akshay",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Cole, Eric",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Noren, Alex",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Woodland, Gary",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Scott, Adam",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Hisatsune, Ryo",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Smalley, Alex",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"McCarty, Matt",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Knapp, Jake",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Fowler, Rickie",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Hojgaard, Nicolai",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
+"Straka, Sepp",Bellerive Country Club,BMW Championship,—,—,—,—,,0,
