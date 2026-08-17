@@ -1891,6 +1891,7 @@
                             <h2 class="text-xl font-semibold text-slate-900">Cheat Sheet</h2>
                             <p class="text-sm text-slate-500 mt-0.5" id="cheat-subtitle">Course History · Recent Form · Specialist · Combined 925 Rank</p>
                             <p class="text-[11px] text-slate-400 mt-0.5" id="cheat-slate-status"></p>
+                            <div id="cheat-comp-banner" class="hidden mt-2 text-[12px] leading-snug rounded-lg border border-violet-200 bg-violet-50 text-violet-950 px-3 py-2"></div>
                         </div>
                         <div class="flex items-center gap-3 flex-wrap">
                             <div class="relative">
@@ -1973,7 +1974,7 @@
                                 <th class="sticky bg-slate-900 z-[35]" style="left:11rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:14rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:17rem"></th>
-                                <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="4">Course History</th>
+                                <th id="cs-ch-section" class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="4">Course History</th>
                                 <th class="px-2 py-1 text-center border-b cs-sec cs-h-rf" colspan="5">Recent Form</th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="1">Market / Cut</th>
                                 <th class="px-2 py-1 text-center border-b cs-sec cs-h-ks" colspan="5">Key Stats</th>
@@ -2610,7 +2611,7 @@
 
 const REPO = "925Sports/pga-tour-data";
     // Bump when weekly data flips so browsers skip stale CDN/cache
-    const DATA_VER = "20260810p";
+    const DATA_VER = "20260817a";
     const DATA_BASE = `https://raw.githubusercontent.com/${REPO}/main/data`;
     function withDataVer(url) {
         if (!url || typeof url !== "string") return url;
@@ -4034,7 +4035,10 @@ function switchFantasySubTab(sub) {
         const liveEv = fieldEv
             || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
             || "";
-        if (liveCourse) {
+        if (window._hubCalendarRolled && course) {
+            currentCourseName = course;
+            window.previewCourseName = course;
+        } else if (liveCourse) {
             currentCourseName = liveCourse;
             if (course && !previewMatches) {
                 console.log("[hub] preview course ignored (stale sheet):", course, "keeping", liveCourse);
@@ -4169,8 +4173,12 @@ function switchFantasySubTab(sub) {
                     if (crsL && c && (c.includes(crsL.slice(0, 8)) || crsL.includes(c.slice(0, 8)))) return true;
                     if (/jude|fedex|southwind/.test(evL + crsL) && /jude|fedex|southwind/.test(t + c)) return true;
                     if (/wyndham|sedgefield/.test(evL + crsL) && /wyndham|sedgefield/.test(t + c)) return true;
+                    if (/bmw|bellerive/.test(evL + crsL) && /bmw|bellerive/.test(t + c)) return true;
                     return false;
                 }) || null;
+                if (!row && window._hubCalendarRolled) {
+                    try { row = (hubPickNextPreviewEvent(rows) || {}).row || null; } catch (e) {}
+                }
                 // NEVER default to rows[0] when we already know this week's event/course
                 if (!row && !ev && !crs) row = rows[0];
             }
@@ -4280,6 +4288,14 @@ function switchFantasySubTab(sub) {
                                 if (typeof renderCheatSheet === "function") renderCheatSheet();
                             }
                         } catch (e) {}
+                        try {
+                            window._hubTriedCompStats = false;
+                            window._hubCheatCompApplied = false;
+                            if (typeof buildCourseHistory === "function") buildCourseHistory();
+                            if (typeof applyCheatCompCourseHistory === "function") applyCheatCompCourseHistory();
+                            if (typeof finalize925Ranks === "function") finalize925Ranks();
+                            if (typeof renderCheatSheet === "function") renderCheatSheet();
+                        } catch (e) { console.warn("comp CH after logs", e); }
                     }
                 } catch (e) {}
                 try { window._rfTrendCache = new Map(); } catch (e) {}
@@ -9493,6 +9509,133 @@ function runCustomModel() {
         m.forEach((c, k) => { if (c > n) { n = c; best = k; } });
         return best;
     }
+    function hubParseLooseDate(s) {
+        if (s == null || s === "") return null;
+        const t = String(s).trim();
+        let m = t.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+        if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+        m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+        if (m) {
+            let y = Number(m[3]);
+            if (y < 100) y += 2000;
+            return new Date(y, Number(m[1]) - 1, Number(m[2]));
+        }
+        const d = new Date(t);
+        return isNaN(d.getTime()) ? null : d;
+    }
+    function hubDayNum(d) {
+        if (!d || isNaN(d.getTime())) return null;
+        return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+    }
+    function hubTodayNum() {
+        const d = new Date();
+        return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+    }
+    function hubNiceTitle(s) {
+        return String(s || "")
+            .toLowerCase()
+            .replace(/\b\w/g, c => c.toUpperCase())
+            .replace(/\bBmw\b/g, "BMW")
+            .replace(/\bTpc\b/g, "TPC")
+            .replace(/\bUsa\b/g, "USA");
+    }
+    function hubPreviewCell(row, keys) {
+        if (!row) return "";
+        for (const k of keys) {
+            if (row[k] != null && String(row[k]).trim()) return String(row[k]).trim();
+            const hit = Object.keys(row).find(x => String(x).toLowerCase().replace(/\s+/g, " ") === String(k).toLowerCase());
+            if (hit && row[hit] != null && String(row[hit]).trim()) return String(row[hit]).trim();
+        }
+        return "";
+    }
+    function hubParsePreviewEvents(rows) {
+        const out = [];
+        (rows || []).forEach(row => {
+            const ev = hubPreviewCell(row, ["TOURNAMENT", "Tournament"]);
+            const course = hubPreviewCell(row, ["COURSE NAME", "Course Name", "Course"]);
+            const finish = hubParseLooseDate(hubPreviewCell(row, ["TOURNAMENT FINISHING DATE", "FINISHING DATE", "DATE"]));
+            if (!ev || !finish) return;
+            out.push({
+                event: hubNiceTitle(ev),
+                course: hubNiceTitle(course),
+                finish,
+                date_end: finish.toISOString().slice(0, 10),
+                row,
+            });
+        });
+        out.sort((a, b) => a.finish - b.finish);
+        return out;
+    }
+    function hubPickNextPreviewEvent(rows, afterDate) {
+        const items = hubParsePreviewEvents(rows);
+        const after = hubDayNum(afterDate) != null ? hubDayNum(afterDate) : hubTodayNum();
+        return items.find(it => hubDayNum(it.finish) >= after) || null;
+    }
+    function hubPackEndDate(rfRows, fieldRows) {
+        const r = (fieldRows && fieldRows[0]) || (rfRows && rfRows[0]) || {};
+        let end = hubParseLooseDate(r.date_end || r.dateEnd || r.event_completed);
+        if (!end) {
+            const start = hubParseLooseDate(r.date_start || r.dateStart);
+            if (start) {
+                end = new Date(start.getFullYear(), start.getMonth(), start.getDate() + 3);
+            }
+        }
+        return end;
+    }
+    function hubCurrentEventEnded(rfRows, fieldRows) {
+        const end = hubPackEndDate(rfRows, fieldRows);
+        if (!end) return false;
+        return hubDayNum(end) < hubTodayNum();
+    }
+    function hubStampRowsToEvent(rows, next) {
+        if (!(rows && rows.length) || !next) return;
+        rows.forEach(r => {
+            r.event_name = next.event;
+            if (next.course) r.course_name = next.course;
+            if (next.date_end) r.date_end = next.date_end;
+            if (next.date_start) r.date_start = next.date_start;
+        });
+    }
+    function hubStripStaleCourseHistory(rows) {
+        (rows || []).forEach(r => {
+            r.h1 = r.h2 = r.h3 = r.h4 = null;
+            r.h1_year = r.h2_year = r.h3_year = r.h4_year = null;
+            r.ch_rank = r.chRank = null;
+            r.avg_finish_course = r.starts_at_course = null;
+        });
+    }
+    // Official BMW Championship 2026 field (PGA Tour, published 8/14). Used only
+    // when upcoming_field.csv is still last week's event.
+    const HUB_BMW_2026_FIELD = [
+        "Aberg, Ludvig", "Bhatia, Akshay", "Brennan, Michael", "Bridgeman, Jacob",
+        "Burns, Sam", "Cantlay, Patrick", "Cauley, Bud", "Clark, Wyndham",
+        "Cole, Eric", "Echavarria, Nico", "Fitzpatrick, Alex", "Fitzpatrick, Matt",
+        "Fleetwood, Tommy", "Fowler, Rickie", "Fox, Ryan", "Gerard, Ryan",
+        "Gotterup, Chris", "Griffin, Ben", "Henley, Russell", "Hisatsune, Ryo",
+        "Hojgaard, Nicolai", "Hovland, Viktor", "Im, Sungjae", "Kim, Si Woo",
+        "Kim, Tom", "Kitayama, Kurt", "Knapp, Jake", "Lee, Min Woo",
+        "MacIntyre, Robert", "Matsuyama, Hideki", "McCarty, Matt", "McIlroy, Rory",
+        "McNealy, Maverick", "Mitchell, Keith", "Morikawa, Collin", "Noren, Alex",
+        "Poston, J.T.", "Rai, Aaron", "Reitan, Kristoffer", "Rose, Justin",
+        "Schauffele, Xander", "Scheffler, Scottie", "Scott, Adam", "Smalley, Alex",
+        "Spaun, J.J.", "Straka, Sepp", "Theegala, Sahith", "Thomas, Justin",
+        "Thorbjornsen, Michael", "Woodland, Gary", "Young, Cameron",
+    ];
+    function hubFallbackFieldForEvent(eventName) {
+        const ev = String(eventName || "").toLowerCase();
+        if (/bmw/.test(ev) || /bellerive/.test(ev)) return HUB_BMW_2026_FIELD;
+        return null;
+    }
+    function hubFilterRowsToNames(rows, names) {
+        if (!(rows && rows.length) || !(names && names.length)) return rows || [];
+        const want = new Set(names.map(n => (typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase())).filter(Boolean));
+        const kept = rows.filter(r => {
+            const n = r.player_name || r.name_adjusted || r.PLAYER || r.Name || "";
+            const k = typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase();
+            return k && want.has(k);
+        });
+        return kept.length ? kept : rows;
+    }
     /** Attach DK salaries onto RF/field-shaped rows by player name. */
     function hubApplySalariesToRows(rows, salRows) {
         if (!(rows && rows.length) || !(salRows && salRows.length)) return rows || [];
@@ -9676,14 +9819,31 @@ function setEventScope(scope) {
                 .then(r => r.ok ? r.json() : null)
                 .then(j => { if (j) window.customModelDefaults = j; return j; })
                 .catch(() => null);
+            const previewCsvP = fetch(withDataVer(PREVIEW_GITHUB))
+                .then(r => r.ok ? r.text() : "")
+                .catch(() => "");
 
             setLoaderStatus("Fetching field, cheat sheet, props, odds…");
                         const [
-                rfRows, cheatRowsPre, propsBoardRows, specialistBoardRows,
+                _rfRowsIn, _cheatRowsPreIn, propsBoardRows, _specialistBoardRowsIn,
                 propsRows, salRows, oddsRows, fptsRows,
                 rfUpcoming, cheatUpcoming, specUpcoming, upcomingFieldRows,
                 propsSpecRows, propsSpecUpcomingRows
             ] = await corePromise;
+            let rfRows = _rfRowsIn || [];
+            let cheatRowsPre = _cheatRowsPreIn || [];
+            let specialistBoardRows = _specialistBoardRowsIn || [];
+
+            await cmDefaultsP;
+            let previewRows = [];
+            try {
+                const ptxt = await previewCsvP;
+                if (ptxt && typeof Papa !== "undefined") {
+                    const parsed = Papa.parse(ptxt, { header: true, skipEmptyLines: true });
+                    previewRows = (parsed.data || []).filter(r => Object.values(r).some(v => String(v || "").trim()));
+                }
+            } catch (e) { previewRows = []; }
+            window._previewRows = previewRows;
 
             await cmDefaultsP;
             let propsSpecBaselines = null, propsSpecBaselinesUp = null;
@@ -9715,13 +9875,65 @@ function setEventScope(scope) {
             if (!upField.length) upField = upFieldAll.slice();
 
             const curEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || "").trim();
+            // Monday flip: if published "current" event already ended, roll to the next
+            // preview tournament (e.g. St. Jude ended Sunday → BMW at Bellerive).
+            try {
+                if (hubCurrentEventEnded(rfRows, upField) && previewRows.length) {
+                    const next = hubPickNextPreviewEvent(previewRows);
+                    if (next && next.event && !hubEventsClose(next.event, curEvent)) {
+                        console.log("[hub] calendar roll", curEvent, "→", next.event, next.course);
+                        hubStampRowsToEvent(rfRows, next);
+                        hubStampRowsToEvent(cheatRowsPre, next);
+                        hubStripStaleCourseHistory(cheatRowsPre);
+                        const fallbackNames = hubFallbackFieldForEvent(next.event);
+                        if (fallbackNames) {
+                            const nRf = (rfRows || []).length;
+                            const nCh = (cheatRowsPre || []).length;
+                            rfRows = hubFilterRowsToNames(rfRows, fallbackNames);
+                            cheatRowsPre = hubFilterRowsToNames(cheatRowsPre, fallbackNames);
+                            console.log("[hub] filtered stale field", nRf, "→", (rfRows || []).length, "cheat", nCh, "→", (cheatRowsPre || []).length);
+                        }
+                        specialistBoardRows = [];
+                        window._hubCalendarRolled = true;
+                        window._hubModelPartial = true;
+                        window._hubModelPartialNote = next.event + " at " + (next.course || "this week's course")
+                            + " — official field / salaries / cheat sheet not published yet. Using last week's field on this week's course; Course History rebuilds from logs.";
+                        currentCourseName = next.course || currentCourseName;
+                        window.previewCourseName = next.course || "";
+                        window._eventPacks.current = {
+                            recentForm: rfRows || [],
+                            cheat: cheatRowsPre || [],
+                            specialist: [],
+                            propsSpecialist: propsSpecRows || [],
+                            propsSpecialistBaselines: propsSpecBaselines || null,
+                            logsUrl: `${DATA_BASE}/field_player_logs.csv`,
+                            label: [next.event, next.course].filter(Boolean).join(" · "),
+                            calendarRolled: true,
+                            partial: true,
+                        };
+                    }
+                }
+            } catch (e) { console.warn("[hub] calendar roll failed", e); }
+            const liveEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || curEvent).trim();
+            if (window._hubCalendarRolled) {
+                const staleField = String((upField[0] && upField[0].event_name) || "").trim();
+                if (staleField && hubEventsClose(staleField, curEvent)) {
+                    console.log("[hub] upcoming_field still last week:", staleField);
+                    upField = [];
+                }
+            }
             // Prefer upcoming_field event over stale cheat_sheet_upcoming (often still last week)
             const upFieldEvent = String((upField[0] && upField[0].event_name) || "").trim();
             const upCheatEvent = String((upCheat[0] && upCheat[0].event_name) || "").trim();
             // If upcoming cheat is still last week's event, ignore it for synthesis
-            if (upCheat.length && upFieldEvent && curEvent && hubEventsClose(upCheatEvent, curEvent)
+            if (upCheat.length && upFieldEvent && liveEvent && hubEventsClose(upCheatEvent, liveEvent)
                 && !hubEventsClose(upCheatEvent, upFieldEvent)) {
                 console.log("[hub] ignoring stale cheat_sheet_upcoming (still", upCheatEvent, ")");
+                upCheat = [];
+            }
+            // Also drop upcoming cheat if it is older than the rolled live event (Wyndham vs BMW)
+            if (upCheat.length && liveEvent && hubEventsClose(upCheatEvent, curEvent) && !hubEventsClose(upCheatEvent, liveEvent)) {
+                console.log("[hub] ignoring leftover upcoming cheat", upCheatEvent, "live is", liveEvent);
                 upCheat = [];
             }
             // Drop specialist_upcoming if still on old course while field moved
@@ -9739,7 +9951,7 @@ function setEventScope(scope) {
                 (upCheat[0] && upCheat[0].event_name) || ""
             ).trim();
             const hasDedicatedRf = (rfUpcoming || []).length > 0;
-            const differentEvent = !!(upEventGuess && curEvent && !hubEventsClose(upEventGuess, curEvent));
+            const differentEvent = !!(upEventGuess && liveEvent && !hubEventsClose(upEventGuess, liveEvent));
 
             // Synthesize from field (+ form carry from current RF) when dedicated upcoming RF missing
             if (!upRf.length && differentEvent && (upField.length || upCheat.length)) {
@@ -9774,9 +9986,11 @@ function setEventScope(scope) {
                     : "",
                 field: upcomingReady ? upField : [],
                 ready: upcomingReady,
-                reason: upcomingReady ? "ok" : (!hasDedicatedRf && !differentEvent
+                reason: upcomingReady ? "ok" : (window._hubCalendarRolled
+                    ? "upcoming_field.csv is still last week (St. Jude ended 8/16). Add BMW / Tour Championship on the field sheet as upcoming_pga, then re-run Update Upcoming Field."
+                    : (!hasDedicatedRf && !differentEvent
                     ? "Next-week field not published yet (same event or missing recent_form_upcoming.csv)"
-                    : "Upcoming pack empty"),
+                    : "Upcoming pack empty")),
                 partial: upcomingReady && !(rfUpcoming || []).length,
             };
             console.log("[hub] upcoming ready?", upcomingReady, "cur", curEvent, "up", upEventGuess, "rf", (rfUpcoming||[]).length, "field", upField.length);
@@ -11175,100 +11389,99 @@ function renderTable(players) {
             return;
         }
 
-        // Infer current course from the most common course_name among recent logs
-        // that match the current event name, otherwise use the most frequent course overall
+        // This week's course from preview / calendar (BMW 2026 = Bellerive, not last year's Caves Valley)
         const eventName = (allPlayers[0] && allPlayers[0].event_name) || "";
         if (!_logsByCourse && (playerLogs || []).length) {
             try { indexPlayerLogs(); } catch (e) {}
         }
+        const pinned = (typeof hubThisWeekCourse === "function") ? hubThisWeekCourse() : "";
+        let bestCourse = pinned || "";
         const courseCounts = {};
-        if (_logsByCourse) {
-            for (const [ck, rows] of _logsByCourse) {
-                const sample = rows[0] && rows[0].course_name;
-                const c = (sample || ck || "").trim();
-                if (!c) continue;
-                courseCounts[c] = (courseCounts[c] || 0) + rows.length;
+        if (!bestCourse) {
+            if (_logsByCourse) {
+                for (const [ck, rows] of _logsByCourse) {
+                    const sample = rows[0] && rows[0].course_name;
+                    const c = (sample || ck || "").trim();
+                    if (!c) continue;
+                    courseCounts[c] = (courseCounts[c] || 0) + rows.length;
+                }
+            } else {
+                playerLogs.forEach(r => {
+                    const c = (r.course_name || "").trim();
+                    if (!c) return;
+                    const weight = (eventName && String(r.event_name || "").includes(eventName.split(" ")[0])) ? 3 : 1;
+                    courseCounts[c] = (courseCounts[c] || 0) + weight;
+                });
             }
-        } else {
-            playerLogs.forEach(r => {
-                const c = (r.course_name || "").trim();
-                if (!c) return;
-                const weight = (eventName && String(r.event_name || "").includes(eventName.split(" ")[0])) ? 3 : 1;
-                courseCounts[c] = (courseCounts[c] || 0) + weight;
+
+            let bestCount = 0;
+            Object.entries(courseCounts).forEach(([c, n]) => {
+                if (n > bestCount) { bestCount = n; bestCourse = c; }
             });
-        }
 
-        // Also try matching by event_name in logs to find the course for this week's event historically
-        let bestCourse = "";
-        let bestCount = 0;
-        Object.entries(courseCounts).forEach(([c, n]) => {
-            if (n > bestCount) { bestCount = n; bestCourse = c; }
-        });
-
-        // Better: find course used in the same event_name historically
-        const eventCourses = {};
-        const evNeedle = eventName ? String(eventName).toLowerCase().slice(0, 12) : "";
-        if (evNeedle && _logsByCourse) {
-            for (const rows of _logsByCourse.values()) {
-                const sample = rows[0];
-                if (!sample) continue;
-                if (String(sample.event_name || "").toLowerCase().includes(evNeedle)) {
-                    const c = (sample.course_name || "").trim();
-                    if (c) eventCourses[c] = (eventCourses[c] || 0) + rows.length;
-                } else {
-                    for (let i = 0; i < rows.length; i += Math.max(1, Math.floor(rows.length / 8))) {
-                        if (String(rows[i].event_name || "").toLowerCase().includes(evNeedle)) {
-                            const c = (rows[i].course_name || "").trim();
-                            if (c) eventCourses[c] = (eventCourses[c] || 0) + 1;
-                            break;
+            const eventCourses = {};
+            const evNeedle = eventName ? String(eventName).toLowerCase().slice(0, 12) : "";
+            if (evNeedle && _logsByCourse) {
+                for (const rows of _logsByCourse.values()) {
+                    const sample = rows[0];
+                    if (!sample) continue;
+                    if (String(sample.event_name || "").toLowerCase().includes(evNeedle)) {
+                        const c = (sample.course_name || "").trim();
+                        if (c) eventCourses[c] = (eventCourses[c] || 0) + rows.length;
+                    } else {
+                        for (let i = 0; i < rows.length; i += Math.max(1, Math.floor(rows.length / 8))) {
+                            if (String(rows[i].event_name || "").toLowerCase().includes(evNeedle)) {
+                                const c = (rows[i].course_name || "").trim();
+                                if (c) eventCourses[c] = (eventCourses[c] || 0) + 1;
+                                break;
+                            }
                         }
                     }
                 }
+            } else if (evNeedle) {
+                playerLogs.forEach(r => {
+                    if (String(r.event_name || "").toLowerCase().includes(evNeedle)) {
+                        const c = (r.course_name || "").trim();
+                        if (c) eventCourses[c] = (eventCourses[c] || 0) + 1;
+                    }
+                });
             }
-        } else if (evNeedle) {
-            playerLogs.forEach(r => {
-                if (String(r.event_name || "").toLowerCase().includes(evNeedle)) {
-                    const c = (r.course_name || "").trim();
-                    if (c) eventCourses[c] = (eventCourses[c] || 0) + 1;
-                }
-            });
-        }
-        if (Object.keys(eventCourses).length) {
-            bestCourse = Object.entries(eventCourses).sort((a, b) => b[1] - a[1])[0][0];
-        }
-        // Renamed events: Rocket Classic → Detroit Golf Club
-        if ((!bestCourse || !/detroit/i.test(bestCourse)) && /rocket/i.test(eventName || "")) {
-            const detroit = Object.keys(courseCounts).find(c => /detroit/i.test(c));
-            if (detroit) bestCourse = detroit;
-            else {
-                // scan logs for Detroit when event mentions Rocket
-                for (const r of playerLogs) {
-                    const c = (r.course_name || "").trim();
-                    if (c && /detroit/i.test(c)) { bestCourse = c; break; }
+            if (Object.keys(eventCourses).length) {
+                bestCourse = Object.entries(eventCourses).sort((a, b) => b[1] - a[1])[0][0];
+            }
+            if ((!bestCourse || !/detroit/i.test(bestCourse)) && /rocket/i.test(eventName || "")) {
+                const detroit = Object.keys(courseCounts).find(c => /detroit/i.test(c));
+                if (detroit) bestCourse = detroit;
+                else {
+                    for (const r of playerLogs) {
+                        const c = (r.course_name || "").trim();
+                        if (c && /detroit/i.test(c)) { bestCourse = c; break; }
+                    }
                 }
             }
-        }
-
-        // Prefer field/cheat course seed when logs haven't named this week's track yet
-        if (!bestCourse) {
-            const seed = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
-                || (allPlayers[0] && allPlayers[0].course_name)
-                || "";
-            if (seed) bestCourse = seed;
+            if (!bestCourse) {
+                const seed = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                    || (allPlayers[0] && allPlayers[0].course_name)
+                    || "";
+                if (seed) bestCourse = seed;
+            }
         }
         if (bestCourse && typeof resolveCanonicalCourseName === "function") {
             bestCourse = resolveCanonicalCourseName(bestCourse) || bestCourse;
         }
+        if (pinned) bestCourse = pinned;
         currentCourseName = bestCourse;
-        console.log("[hub] CH course:", bestCourse, "event:", eventName);
+        console.log("[hub] CH course:", bestCourse, "event:", eventName, "pinned:", pinned);
         const chSub = document.getElementById("course-history-subtitle");
         if (chSub) chSub.textContent = bestCourse ? `Results at ${bestCourse}` : "Results at the current course";
 
         // Build per-player course history (fuzzy course match)
         const byPlayer = {};
-        const courseRows = (typeof logsForCourse === "function")
-            ? logsForCourse(bestCourse)
-            : playerLogs;
+        const courseRows = (typeof hubCollectCourseRounds === "function")
+            ? hubCollectCourseRounds(bestCourse)
+            : ((typeof logsForCourse === "function")
+                ? logsForCourse(bestCourse)
+                : playerLogs);
         courseRows.forEach(r => {
             const c = (r.course_name || "").trim();
             if (!c) return;
@@ -12738,25 +12951,30 @@ function renderTable(players) {
 
     function buildCourseStats(courseName) {
         const el = document.getElementById("ch-course-stats");
+        if (!courseName) {
+            try { courseName = (typeof hubThisWeekCourse === "function") ? hubThisWeekCourse() : ""; } catch (e) {}
+        }
         if (!courseName || !playerLogs.length) {
             el.classList.add("hidden");
             return;
         }
 
-        // Use rounds at this course (fuzzy match short labels)
+        // Use rounds at this course (fuzzy match short labels) — all years, including 2018
         const resolvedName = (typeof resolveCanonicalCourseName === "function")
             ? (resolveCanonicalCourseName(courseName) || courseName) : courseName;
-        const rounds = (typeof logsForCourse === "function")
-            ? logsForCourse(resolvedName).concat(
-                (courseName && courseName !== resolvedName) ? (logsForCourse(courseName) || []) : []
-            )
-            : playerLogs.filter(r => {
-                const c = (r.course_name || "").trim();
-                if (!c) return false;
-                return (typeof coursesMatch === "function")
-                    ? (coursesMatch(c, resolvedName) || coursesMatch(c, courseName))
-                    : (c === courseName || c === resolvedName);
-            });
+        let rounds = (typeof hubCollectCourseRounds === "function")
+            ? hubCollectCourseRounds(resolvedName, [courseName])
+            : ((typeof logsForCourse === "function")
+                ? logsForCourse(resolvedName).concat(
+                    (courseName && courseName !== resolvedName) ? (logsForCourse(courseName) || []) : []
+                )
+                : playerLogs.filter(r => {
+                    const c = (r.course_name || "").trim();
+                    if (!c) return false;
+                    return (typeof coursesMatch === "function")
+                        ? (coursesMatch(c, resolvedName) || coursesMatch(c, courseName))
+                        : (c === courseName || c === resolvedName);
+                }));
         // Dedupe if we concatenated two course keys
         const seenR = new Set();
         const roundsUniq = [];
@@ -12766,13 +12984,30 @@ function renderTable(players) {
             seenR.add(r);
             roundsUniq.push(r);
         }
+        let statsSource = "venue";
+        let statsComps = [];
+        if (!roundsUniq.length) {
+            statsComps = (typeof hubPickCompCourses === "function") ? hubPickCompCourses(resolvedName || courseName) : [];
+            statsComps.forEach(cn => {
+                const extra = (typeof hubCollectCourseRounds === "function")
+                    ? hubCollectCourseRounds(cn)
+                    : ((typeof logsForCourse === "function") ? (logsForCourse(cn) || []) : []);
+                extra.forEach(r => {
+                    if (seenR.has(r)) return;
+                    seenR.add(r);
+                    roundsUniq.push(r);
+                });
+            });
+            if (roundsUniq.length) statsSource = "comps";
+        }
         if (!roundsUniq.length) {
             el.classList.add("hidden");
             return;
         }
-        rounds.length = 0;
-        for (let i = 0; i < roundsUniq.length; i++) rounds.push(roundsUniq[i]);
+        rounds = roundsUniq;
         courseName = resolvedName || courseName;
+        window._csStatsSource = statsSource;
+        window._csStatsComps = statsComps;
 
         // Aggregate to player-event level with finish + scoring rates
         const eventMap = new Map();
@@ -13072,13 +13307,16 @@ function renderTable(players) {
         };
 
         let pgaSeasonRows = 0;
+        const thisWeekCk = (typeof courseKey === "function") ? courseKey(courseName) : String(courseName || "").toLowerCase();
         (playerLogs || []).forEach(r => {
             if (!isPgaTourRow(r)) return;
             const d = parseLogDate(r);
-            // Prefer past/current season; if date missing, still allow (PGA logs)
-            if (d && d < seasonStart) return;
             const c = (r.course_name || "").trim();
             if (!c) return;
+            const ck = (typeof courseKey === "function") ? courseKey(c) : c.toLowerCase();
+            const isThisWeek = thisWeekCk && ck && (ck === thisWeekCk || ck.includes(thisWeekCk) || thisWeekCk.includes(ck));
+            // Keep this week's venue even when the last start is old (Bellerive 2018)
+            if (d && d < seasonStart && !isThisWeek) return;
             pgaSeasonRows += 1;
             const a = ensure(c);
             const push = (key, val, asPct = false) => {
@@ -13280,6 +13518,18 @@ el.innerHTML = `
                 </div>
             </div>
             <div class="text-sm font-semibold text-slate-800 mb-1">${courseName}</div>
+            ${(() => {
+                const lastY = yearMax;
+                const nowY = new Date().getFullYear();
+                if (statsSource === "comps") {
+                    const list = (statsComps || []).slice(0, 6).join(", ");
+                    return `<div class="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-[12px] text-amber-950 leading-relaxed"><b>No starts on file at ${courseName}.</b> Trends below use comparable courses${list ? " — " + list : ""}.</div>`;
+                }
+                if (lastY && lastY <= nowY - 5) {
+                    return `<div class="mb-3 rounded-lg border border-sky-200 bg-sky-50 px-3 py-2 text-[12px] text-sky-950 leading-relaxed"><b>${courseName}</b> last hosted a PGA event in ${lastY} — trends use that history (not last year’s rotating-event venue). Comparable courses below are for more recent data.</div>`;
+                }
+                return "";
+            })()}
             <div id="course-blurb-text" class="hidden">${blurbText}</div>
             <div class="text-xs text-slate-400 mb-3">${sampleN < 30 ? "Limited sample — treat rates with caution." : ""}</div>
 
@@ -13401,7 +13651,7 @@ el.innerHTML = `
         const winRounds = {};
         playerLogs.forEach(r => {
             const c = (r.course_name || "").trim();
-            if (c !== courseName) return;
+            if (!(typeof coursesMatch === "function" ? coursesMatch(c, courseName) : c === courseName)) return;
             const fin = String(r.fin_text || "").toUpperCase().trim();
             const numMatch = fin.replace("T", "").match(/^(\d+)/);
             const posNum = numMatch ? parseInt(numMatch[1]) : null;
@@ -13422,7 +13672,7 @@ el.innerHTML = `
         const madeCutTotals = {};
         playerLogs.forEach(r => {
             const c = (r.course_name || "").trim();
-            if (c !== courseName) return;
+            if (!(typeof coursesMatch === "function" ? coursesMatch(c, courseName) : c === courseName)) return;
             const ek = `${r.event_name || ""}||${r.event_completed || ""}`;
             if (!eventKeysNeeded.has(ek)) return;
             const fin = String(r.fin_text || "").toUpperCase().trim();
@@ -15582,7 +15832,9 @@ el.innerHTML = `
         const wo = typeof lookupWinOdds === "function" ? lookupWinOdds(name) : null;
         const ftps = typeof lookupFtps === "function" ? lookupFtps(name) : null;
         const t10 = typeof lookupTop10Odds === "function" ? lookupTop10Odds(name) : null;
-        const cutOdds = typeof lookupCutOdds === "function" ? lookupCutOdds(name) : null;
+        const cutOdds = typeof getMakeCutOddsDisplay === "function"
+            ? getMakeCutOddsDisplay(name)
+            : (typeof lookupCutOdds === "function" ? lookupCutOdds(name) : null);
 
         // Recent 5 finishes strip
         const recent = events.slice(0, 5).map(e => {
@@ -21145,6 +21397,8 @@ function computeOutrightBetTag(r) {
             add(thisCourse);
             add(window.previewCourseName);
             add(window._cmComparableCourse);
+            (window._csTopComps || []).forEach(r => add(r && r.name));
+            (window._hubCheatCompCh && window._hubCheatCompCh.comps || []).forEach(add);
         } catch (e) {}
 
         // TPC / setup family comps for FedEx Cup style venues
@@ -21154,6 +21408,7 @@ function computeOutrightBetTag(r) {
             "colonial": ["colonial country club", "tpc southwind", "innisbrook", "copperhead"],
             "copperhead": ["innisbrook", "copperhead", "tpc southwind", "colonial country club"],
             "east lake": ["east lake", "quail hollow", "tpc southwind"],
+            "bellerive": ["bellerive", "muirfield village", "quail hollow", "east lake", "olympia fields", "medinah", "aronimink", "congressional", "innisbrook", "copperhead", "oak hill"],
         };
         const tc = thisCourse.toLowerCase();
         Object.keys(family).forEach(k => {
@@ -22048,7 +22303,36 @@ function getCutStreakFromLogs(playerName) {
         return streak;
     }
 
+    function hubEventTypeIsNoCut() {
+        const bits = [];
+        try {
+            const pv = preTournamentPreview || {};
+            ["TYPE", "Type", "EVENT TYPE", "CUT", "CUT LINE", "NO CUT"].forEach(k => {
+                if (pv[k] != null) bits.push(String(pv[k]));
+            });
+        } catch (e) {}
+        try {
+            const tr = (typeof currentCourseTraits !== "undefined" && currentCourseTraits) ? currentCourseTraits : {};
+            const type = tr.Type || tr.TYPE || tr["Event Type"];
+            if (type) bits.push(String(type.value != null ? type.value : type));
+        } catch (e) {}
+        const txt = bits.join(" ");
+        if (/no\s*cut|no-cut|\bnocut\b|uncut/i.test(txt)) return true;
+        try {
+            const ev = String(
+                (allPlayers && allPlayers[0] && allPlayers[0].event_name)
+                || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+                || ""
+            ).toLowerCase();
+            if (/tour championship|bmw championship|st\.?\s*jude/.test(ev)) return true;
+        } catch (e) {}
+        return false;
+    }
+
     function getMakeCutOddsDisplay(playerName) {
+        if (typeof hubEventTypeIsNoCut === "function" && hubEventTypeIsNoCut()) {
+            return { display: "100%", num: 100, implied: 1, noVigPct: 100, noVigLabel: "100%", noCut: true };
+        }
         // Vegas make-cut odds + No-Vig probability (true_implied preferred)
         const rows = (bettingOdds || []).filter(r => {
             const m = String(r.market || "").toLowerCase().replace(/_/g, " ");
@@ -22152,8 +22436,455 @@ function getCutStreakFromLogs(playerName) {
     // Back-compat alias
     function mirrorCheatSheetToDfs() { mirrorCheatSheetToFantasy(); }
 
+    function hubPreviewCourseThisWeek() {
+        try {
+            const pv = preTournamentPreview || {};
+            return {
+                course: String(pv["COURSE NAME"] || pv["Course Name"] || pv.Course || "").trim(),
+                event: String(pv.TOURNAMENT || pv.Tournament || pv.Event || "").trim(),
+            };
+        } catch (e) {
+            return { course: "", event: "" };
+        }
+    }
+
+    /** This week's venue from preview / calendar — never last year's rotating-event host. */
+    function hubThisWeekCourse() {
+        const resolve = (n) => {
+            const s = String(n || "").trim();
+            if (!s) return "";
+            try {
+                if (typeof resolveCanonicalCourseName === "function") {
+                    const c = resolveCanonicalCourseName(s);
+                    if (c) return String(c).trim();
+                }
+            } catch (e) {}
+            return s;
+        };
+        const ev = String(
+            (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].event_name)
+            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+            || ""
+        ).trim();
+        const pv = hubPreviewCourseThisWeek();
+        const previewOk = !!(pv.course && (
+            !ev || !pv.event
+            || (typeof hubEventsClose === "function" && hubEventsClose(pv.event, ev))
+            || /bmw/i.test(ev + " " + pv.event)
+        ));
+        if (window._hubCalendarRolled && (window.previewCourseName || pv.course)) {
+            return resolve(window.previewCourseName || pv.course);
+        }
+        if (previewOk && pv.course) return resolve(pv.course);
+        if (window.previewCourseName) return resolve(window.previewCourseName);
+        const live = String(
+            (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].course_name)
+            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+            || currentCourseName
+            || ""
+        ).trim();
+        if (/bmw/i.test(ev + " " + (pv.event || "")) && /caves\s*valley/i.test(live)) {
+            if (pv.course && /bellerive/i.test(pv.course)) return resolve(pv.course);
+            return resolve("Bellerive Country Club");
+        }
+        if (live) return resolve(live);
+        return resolve(currentCourseName);
+    }
+
+    function hubCollectCourseRounds(courseName, extraNames) {
+        const names = [courseName].concat(extraNames || []).filter(Boolean);
+        const seen = new Set();
+        const out = [];
+        names.forEach(n => {
+            const rows = (typeof logsForCourse === "function") ? (logsForCourse(n) || []) : [];
+            rows.forEach(r => {
+                if (seen.has(r)) return;
+                seen.add(r);
+                out.push(r);
+            });
+        });
+        if (!out.length && (playerLogs || []).length && typeof coursesMatch === "function") {
+            (playerLogs || []).forEach(r => {
+                const c = (r.course_name || "").trim();
+                if (!c) return;
+                if (!names.some(n => coursesMatch(c, n))) return;
+                if (seen.has(r)) return;
+                seen.add(r);
+                out.push(r);
+            });
+        }
+        return out;
+    }
+
+    const HUB_COMP_FAMILY = {
+        bellerive: [
+            "Muirfield Village Golf Club", "Quail Hollow Club", "East Lake Golf Club",
+            "Olympia Fields Country Club", "Medinah Country Club", "Aronimink Golf Club",
+            "Congressional Country Club", "Innisbrook Resort (Copperhead)", "Oak Hill Country Club",
+        ],
+        defaultParkland: [
+            "Muirfield Village Golf Club", "Quail Hollow Club", "East Lake Golf Club",
+            "Olympia Fields Country Club", "Congressional Country Club", "Innisbrook Resort (Copperhead)",
+        ],
+    };
+
+    function hubCourseRecentYear(courseName) {
+        if (!courseName || !(playerLogs && playerLogs.length)) return null;
+        const rows = (typeof logsForCourse === "function") ? logsForCourse(courseName) : playerLogs;
+        let maxY = null;
+        (rows || []).forEach(r => {
+            const c = r.course_name || "";
+            if (typeof coursesMatch === "function") {
+                if (!coursesMatch(c, courseName)) return;
+            } else if (String(c).toLowerCase() !== String(courseName).toLowerCase()) return;
+            let y = null;
+            if (r.year != null && String(r.year).match(/20\d{2}/)) y = parseInt(String(r.year).match(/(20\d{2})/)[1], 10);
+            if (y == null) {
+                const m = String(r.event_completed || r.date || "").match(/(20\d{2})/);
+                if (m) y = parseInt(m[1], 10);
+            }
+            if (y && (maxY == null || y > maxY)) maxY = y;
+        });
+        return maxY;
+    }
+
+    function hubVenueChIsStale(courseName) {
+        const nowY = new Date().getFullYear();
+        const last = hubCourseRecentYear(courseName);
+        if (/bellerive/i.test(String(courseName || ""))) {
+            return { stale: true, last: last || 2018, reason: "Bellerive last hosted a PGA event in 2018" };
+        }
+        if (last == null) return { stale: !!(playerLogs && playerLogs.length), last: null, reason: "no PGA logs at this venue" };
+        if (last <= nowY - 5) return { stale: true, last, reason: "last PGA start at this venue was " + last };
+        return { stale: false, last, reason: "ok" };
+    }
+
+    function hubFamilyComps(courseName) {
+        const tc = String(courseName || "").toLowerCase();
+        if (/bellerive/.test(tc)) return HUB_COMP_FAMILY.bellerive.slice();
+        return HUB_COMP_FAMILY.defaultParkland.slice();
+    }
+
+    function hubPickCompCourses(courseName) {
+        const names = [];
+        const seen = new Set();
+        const add = (n) => {
+            const t = String(n || "").trim();
+            if (!t) return;
+            const k = t.toLowerCase().replace(/[^a-z0-9]+/g, "");
+            if (!k || seen.has(k)) return;
+            if (courseName && (typeof coursesMatch === "function" ? coursesMatch(t, courseName) : k === String(courseName).toLowerCase().replace(/[^a-z0-9]+/g, ""))) return;
+            seen.add(k);
+            names.push(t);
+        };
+        (window._csTopComps || []).forEach(r => add(r && r.name));
+        if (names.length < 4 && playerLogs && playerLogs.length && typeof buildCourseStats === "function" && !window._hubTriedCompStats) {
+            window._hubTriedCompStats = true;
+            try { buildCourseStats(courseName); } catch (e) {}
+            (window._csTopComps || []).forEach(r => add(r && r.name));
+        }
+        hubFamilyComps(courseName).forEach(add);
+        const nowY = new Date().getFullYear();
+        const ranked = names.map(n => {
+            const ed = (typeof hubLatestEventAtCourse === "function") ? hubLatestEventAtCourse(n) : null;
+            return { n, ed, y: (ed && ed.year) || 0 };
+        }).sort((a, b) => b.y - a.y);
+        const recent = ranked.filter(x => x.y >= nowY - 1).map(x => x.n);
+        const rest = ranked.filter(x => x.y < nowY - 1).map(x => x.n);
+        return (recent.concat(rest)).slice(0, 8);
+    }
+
+    function hubNormFinCell(v) {
+        if (v == null || v === "") return "—";
+        const s = String(v).trim();
+        if (!s || s === "—" || s.toLowerCase() === "nan") return "—";
+        const u = s.toUpperCase();
+        if (u.includes("CUT") || u === "MC") return "CUT";
+        if (/\bWD\b/.test(u)) return "WD";
+        if (/\bDQ\b/.test(u)) return "DQ";
+        const m = s.match(/T?(\d+)/i);
+        return m ? m[1] : s;
+    }
+
+    function hubPlayerCompStarts(playerName, compNames, limit) {
+        limit = limit || 4;
+        if (!playerName || !(compNames && compNames.length) || !(playerLogs && playerLogs.length)) return [];
+        const rows = (typeof logsForPlayer === "function")
+            ? logsForPlayer(playerName)
+            : (playerLogs || []).filter(r =>
+                (typeof namesMatch === "function")
+                    ? (namesMatch(r.player_name || "", playerName) || namesMatch(r.name_adjusted || "", playerName))
+                    : ((r.player_name || "") === playerName));
+        const matchComp = (course) => {
+            const c = String(course || "").trim();
+            if (!c) return "";
+            for (const n of compNames) {
+                if (typeof coursesMatch === "function") {
+                    if (coursesMatch(c, n)) return n;
+                } else if (c.toLowerCase().includes(String(n).toLowerCase().slice(0, 10)) || String(n).toLowerCase().includes(c.toLowerCase().slice(0, 10))) {
+                    return n;
+                }
+            }
+            return "";
+        };
+        const eventMap = new Map();
+        (rows || []).forEach(r => {
+            const hit = matchComp(r.course_name);
+            if (!hit) return;
+            const key = (typeof logEventKey === "function")
+                ? logEventKey(r, false)
+                : `${r.event_name || ""}||${r.year || ""}||${r.event_completed || ""}`;
+            if (!eventMap.has(key)) eventMap.set(key, []);
+            eventMap.get(key).push(r);
+        });
+        const events = [];
+        eventMap.forEach((rnds) => {
+            const first = rnds[0];
+            const fin = String(first.fin_text || first.finish || "").trim();
+            const u = fin.toUpperCase();
+            const isCut = u.includes("CUT") || u === "MC";
+            let posNum = null;
+            const m = u.replace("T", "").match(/(\d+)/);
+            if (m && !isCut) posNum = parseInt(m[1], 10);
+            let yearNum = null;
+            if (first.year != null && String(first.year).match(/20\d{2}/)) yearNum = parseInt(String(first.year).match(/(20\d{2})/)[1], 10);
+            if (yearNum == null) {
+                const ym = String(first.event_completed || first.date || "").match(/(20\d{2})/);
+                if (ym) yearNum = parseInt(ym[1], 10);
+            }
+            const sgs = rnds.map(x => parseFloat(x.sg_total)).filter(n => !isNaN(n));
+            const sgAvg = sgs.length ? sgs.reduce((a, b) => a + b, 0) / sgs.length : null;
+            const course = matchComp(first.course_name) || (first.course_name || "");
+            events.push({
+                date: first.event_completed || first.date || "",
+                year: yearNum,
+                pos: isCut ? "CUT" : (fin || "—"),
+                posNum,
+                isCut,
+                sg: sgAvg,
+                course,
+                event: first.event_name || "",
+            });
+        });
+        events.sort((a, b) => {
+            const da = new Date(a.date || 0).getTime() || 0;
+            const db = new Date(b.date || 0).getTime() || 0;
+            if (db !== da) return db - da;
+            return (b.year || 0) - (a.year || 0);
+        });
+        return events.slice(0, limit);
+    }
+
+    function hubLatestEventAtCourse(courseName) {
+        const cache = (window._hubLatestAtCourse = window._hubLatestAtCourse || {});
+        const ck = String(courseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+        if (ck && cache[ck] && cache[ck]._ok) return cache[ck];
+        const rows = (typeof hubCollectCourseRounds === "function")
+            ? hubCollectCourseRounds(courseName)
+            : ((typeof logsForCourse === "function") ? (logsForCourse(courseName) || []) : []);
+        const editions = new Map();
+        (rows || []).forEach(r => {
+            const date = String(r.event_completed || r.date || "").slice(0, 10);
+            let year = null;
+            if (r.year != null && String(r.year).match(/20\d{2}/)) year = parseInt(String(r.year).match(/(20\d{2})/)[1], 10);
+            if (year == null && date) {
+                const m = date.match(/(20\d{2})/);
+                if (m) year = parseInt(m[1], 10);
+            }
+            if (!year && !date) return;
+            const ev = String(r.event_name || "").trim();
+            const key = (ev || courseName) + "||" + (year || date.slice(0, 4));
+            const t = date ? (Date.parse(date) || 0) : ((year || 0) * 1e10);
+            const prev = editions.get(key);
+            if (!prev || t > prev.t) {
+                editions.set(key, { course: courseName, event: ev, date, year, t, n: (prev && prev.n || 0) + 1 });
+            } else {
+                prev.n += 1;
+            }
+        });
+        let best = null;
+        editions.forEach(ed => {
+            if (!best) { best = ed; return; }
+            if ((ed.year || 0) !== (best.year || 0)) {
+                if ((ed.year || 0) > (best.year || 0)) best = ed;
+                return;
+            }
+            if (ed.t !== best.t) {
+                if (ed.t > best.t) best = ed;
+                return;
+            }
+            if ((ed.n || 0) > (best.n || 0)) best = ed;
+        });
+        if (best) best._ok = true;
+        if (ck) cache[ck] = best;
+        return best;
+    }
+
+    function hubStartMatchesEdition(start, edition) {
+        if (!start || !edition) return false;
+        if (edition.year && start.year && Number(start.year) !== Number(edition.year)) return false;
+        if (edition.event && start.event && typeof hubEventsClose === "function") {
+            if (hubEventsClose(edition.event, start.event)) return true;
+        }
+        if (edition.event && start.event) {
+            const a = String(edition.event).toLowerCase();
+            const b = String(start.event).toLowerCase();
+            if (a && b && (a.includes(b.slice(0, 10)) || b.includes(a.slice(0, 10)))) return true;
+        }
+        if (edition.date && start.date) {
+            const a = String(edition.date).slice(0, 10);
+            const b = String(start.date).slice(0, 10);
+            if (a && b && a === b) return true;
+            const da = Date.parse(a), db = Date.parse(b);
+            if (da && db && Math.abs(da - db) <= 10 * 86400000) return true;
+        }
+        return !!(edition.year && start.year && Number(edition.year) === Number(start.year));
+    }
+
+    function hubShortCourseLabel(name) {
+        return String(name || "")
+            .replace(/\s+\((Copperhead|South|North|East|West)\)$/i, "")
+            .replace(/\s+(Country Club|Golf Club|Golf Course|Resort|Club).*$/i, "")
+            .trim() || String(name || "");
+    }
+
+    function updateCompCourseHeaders(comps, editions) {
+        const list = (comps && comps.length) ? comps.slice(0, 4) : ((window._hubCheatCompCh && window._hubCheatCompCh.comps) || []);
+        const eds = editions || (window._hubCheatCompCh && window._hubCheatCompCh.editions) || [];
+        const mapBits = [];
+        for (let i = 0; i < 4; i++) {
+            const el = document.getElementById("cs-h" + (i + 1) + "-year");
+            const course = list[i] || "";
+            const ed = eds[i] || null;
+            const when = ed ? [ed.year, ed.event].filter(Boolean).join(" ") : "";
+            const tip = course
+                ? ("C" + (i + 1) + " = " + course + (when ? " · most recent edition (" + when + ")" : " · most recent tournament there") + ". Only that week — not older starts at this track.")
+                : ("C" + (i + 1) + " = comparable course (not assigned)");
+            if (course) mapBits.push("C" + (i + 1) + ": " + course + (when ? " (" + when + ")" : ""));
+            if (el) {
+                const yy = ed && ed.year ? String(ed.year).slice(-2) : ("C" + (i + 1));
+                el.title = tip;
+                el.innerHTML = yy + ' <span class="cs-sort-ind" data-k="h' + (i + 1) + '"></span>';
+            }
+        }
+        const sec = document.getElementById("cs-ch-section");
+        if (sec) {
+            sec.textContent = "Comp Course History";
+            sec.title = mapBits.length
+                ? ("Comparable courses used for H1–H4 — " + mapBits.join(" · "))
+                : "Course History from comparable venues";
+        }
+        if (window._hubCheatCompCh) window._hubCheatCompCh.headerMap = mapBits;
+    }
+
+    function applyCheatCompCourseHistory() {
+        const course = String(currentCourseName || window.previewCourseName || "").trim();
+        const banner = document.getElementById("cheat-comp-banner");
+        const mode = window._hubCheatChMode || "auto";
+        const info = hubVenueChIsStale(course);
+        const useComp = (mode === "comp") || (mode === "auto" && info.stale);
+        window._hubCheatCompCh = useComp ? { last: info.last, reason: info.reason, comps: [] } : null;
+        if (!useComp) {
+            if (banner) {
+                if (info.stale && mode === "venue") {
+                    banner.classList.remove("hidden");
+                    banner.innerHTML = "<b>Venue-only Course History</b> — "
+                        + (course || "This track") + " last hosted in " + (info.last || "—")
+                        + ", so most golfers will be blank. "
+                        + "<button type='button' class='underline font-semibold' onclick=\"window._hubCheatChMode='comp'; window._hubCheatCompApplied=false; try{cheatRows=[];}catch(e){} if(typeof buildCheatSheet==='function')buildCheatSheet();\">Use comparable courses</button>";
+                } else {
+                    banner.classList.add("hidden");
+                    banner.innerHTML = "";
+                }
+            }
+            const sec = document.getElementById("cs-ch-section");
+            if (sec) { sec.textContent = "Course History"; sec.title = ""; }
+            return false;
+        }
+        if (!(playerLogs && playerLogs.length)) {
+            if (banner) {
+                banner.classList.remove("hidden");
+                banner.innerHTML = "This venue has no recent PGA history"
+                    + (info.last ? " (last start " + info.last + ")" : "")
+                    + " — loading logs to fill Course History from comparable courses…";
+            }
+            return false;
+        }
+        const comps = hubPickCompCourses(course).slice(0, 4);
+        try { window._hubLatestAtCourse = {}; } catch (e) {}
+        const editions = comps.map(c => hubLatestEventAtCourse(c));
+        if (window._hubCheatCompCh) {
+            window._hubCheatCompCh.comps = comps;
+            window._hubCheatCompCh.editions = editions;
+        }
+        try { updateCompCourseHeaders(comps, editions); } catch (e) {}
+        if (!(cheatRows && cheatRows.length)) return false;
+
+        cheatRows.forEach(r => {
+            const h = ["—", "—", "—", "—"];
+            const tips = [null, null, null, null];
+            const years = [null, null, null, null];
+            const starts = [];
+            comps.forEach((compName, i) => {
+                const latest = editions[i] || null;
+                const evs = hubPlayerCompStarts(r.name, [compName], 8);
+                const e = (evs || []).find(s => hubStartMatchesEdition(s, latest)) || null;
+                if (e) {
+                    starts.push(e);
+                    h[i] = hubNormFinCell(e.pos);
+                    years[i] = e.year || (latest && latest.year) || null;
+                    tips[i] = [compName, latest && latest.year, latest && latest.event, e.pos].filter(Boolean).join(" · ");
+                } else {
+                    const miss = latest
+                        ? ("Did not play the most recent " + (latest.event || "event") + " at " + hubShortCourseLabel(compName) + (latest.year ? " (" + latest.year + ")" : ""))
+                        : ("No start on file at " + compName);
+                    tips[i] = miss;
+                }
+            });
+            r.h1 = h[0]; r.h2 = h[1]; r.h3 = h[2]; r.h4 = h[3];
+            r.h1_year = years[0]; r.h2_year = years[1]; r.h3_year = years[2]; r.h4_year = years[3];
+            r.h1Tip = tips[0]; r.h2Tip = tips[1]; r.h3Tip = tips[2]; r.h4Tip = tips[3];
+            r.chCompStarts = starts;
+            const cutAs = 72;
+            const scored = starts.map(e => e.isCut ? cutAs : (e.posNum != null ? e.posNum : null)).filter(n => n != null);
+            r.chCompAvg = scored.length ? (scored.reduce((a, b) => a + b, 0) / scored.length) : null;
+            r.chCompN = starts.length;
+            r.avg_finish_course = r.chCompAvg;
+            r.starts_at_course = starts.length;
+        });
+
+        const ranked = cheatRows
+            .map((r, idx) => ({ idx, avg: r.chCompAvg, n: r.chCompN || 0, name: r.name || "" }))
+            .filter(x => x.avg != null && x.n > 0);
+        ranked.sort((a, b) => a.avg - b.avg || b.n - a.n || String(a.name).localeCompare(String(b.name)));
+        cheatRows.forEach(r => { r.chRank = null; });
+        ranked.forEach((x, i) => { cheatRows[x.idx].chRank = i + 1; });
+
+        window._hubCheatCompApplied = true;
+        try { window._blogCompKeys = null; } catch (e) {}
+
+        const named = comps.map((n, i) => {
+            const ed = editions[i];
+            const when = ed ? [ed.year, ed.event].filter(Boolean).join(" ") : "";
+            return "C" + (i + 1) + " " + hubShortCourseLabel(n) + (when ? " (" + when + ")" : "");
+        }).join(" · ");
+        if (banner) {
+            banner.classList.remove("hidden");
+            banner.innerHTML = "<b>Comp Course History</b> — "
+                + (course || "This venue") + " last hosted in " + (info.last || "—")
+                + ". Each column is <b>only the most recent edition</b> of that comparable tournament (not older starts). Hover C1–C4: "
+                + named
+                + ". "
+                + "<button type='button' class='underline font-semibold' onclick=\"window._hubCheatChMode='venue'; window._hubCheatCompApplied=false; try{cheatRows=[];}catch(e){} if(typeof buildCheatSheet==='function')buildCheatSheet();\">Use venue-only</button>";
+        }
+        return true;
+    }
+
     function buildCheatSheet() {
-        if (cheatRows && cheatRows.length >= 20) {
+        if (cheatRows && cheatRows.length >= 20 && window._hubCheatCompApplied) {
+            try { renderCheatSheet(); return; } catch (e) {}
+        }
+        if (cheatRows && cheatRows.length >= 20 && !(playerLogs && playerLogs.length)) {
             try { renderCheatSheet(); return; } catch (e) {}
         }
         // Ensure supporting data is ready
@@ -22330,13 +23061,17 @@ function getCutStreakFromLogs(playerName) {
                 const m = s.match(/T?(\d+)/i);
                 return m ? m[1] : s;
             };
+            const venueStale = (typeof hubVenueChIsStale === "function")
+                ? !!(hubVenueChIsStale(currentCourseName || window.previewCourseName || "").stale
+                    && (window._hubCheatChMode || "auto") !== "venue")
+                : false;
             const h = ["—", "—", "—", "—"];
-            if (pre && (pre.h1 != null || pre.h2 != null || pre.h3 != null || pre.h4 != null)) {
+            if (!venueStale && pre && (pre.h1 != null || pre.h2 != null || pre.h3 != null || pre.h4 != null)) {
                 h[0] = normFin(pre.h1); h[1] = normFin(pre.h2);
                 h[2] = normFin(pre.h3); h[3] = normFin(pre.h4);
             } else if (logsPending) {
                 h[0] = h[1] = h[2] = h[3] = "…";
-            } else if (ch && ch.last4Events) {
+            } else if (!venueStale && ch && ch.last4Events) {
                 ch.last4Events.slice(0, 4).forEach((e, i) => {
                     h[i] = e.isCut ? "CUT" : (e.pos || "—");
                 });
@@ -22401,9 +23136,11 @@ function getCutStreakFromLogs(playerName) {
                 ? Number(pre.value_rank)
                 : (p.value_rank != null ? Number(p.value_rank) : null);
             let rfRank = pipelineRfRank; // temporary until recompute
-            const chRank = (pre && pre.ch_rank != null && pre.ch_rank !== "")
+            const chRank = (venueStale)
+                ? (chRankMap[nk] || chRankMap[nk2] || chRankMap[key] || chRankMap[key2] || null)
+                : ((pre && pre.ch_rank != null && pre.ch_rank !== "")
                 ? Number(pre.ch_rank)
-                : (chRankMap[nk] || chRankMap[nk2] || chRankMap[key] || chRankMap[key2] || null);
+                : (chRankMap[nk] || chRankMap[nk2] || chRankMap[key] || chRankMap[key2] || null));
             const specRank = spRankMap[nk] || spRankMap[nk2] || spRankMap[key] || spRankMap[key2] || null;
 
             // Include key-stat ranks in 925 blend when present
@@ -22474,11 +23211,12 @@ function getCutStreakFromLogs(playerName) {
                 missedCuts7,
                 pipelineRfRank,
                 cuts: cutStreak,
-                cutPct: cutOdds.display, // American cut odds
+                cutPct: cutOdds.display, // American cut odds (or 100% on no-cut)
                 cutOddsNum: cutOdds.num,
                 cutImplied: cutOdds.implied,
                 cutNoVig: cutOdds.noVigPct,
                 cutNoVigLabel: cutOdds.noVigLabel,
+                cutNoCut: !!cutOdds.noCut,
                 cutProp: lookupCutProp(name),
                 top10: lookupTop10Odds(name),
                 specRank,
@@ -22584,6 +23322,7 @@ function getCutStreakFromLogs(playerName) {
         })();
 
         // Finalize ordinal 925 + FTPS (also used after late SPEC board fills)
+        try { applyCheatCompCourseHistory(); } catch (e) { console.warn("[hub] comp CH", e); }
         try { finalize925Ranks(); } catch (e) { console.warn(e); }
 
         const st = document.getElementById("cheat-slate-status");
@@ -22975,17 +23714,23 @@ function getCutStreakFromLogs(playerName) {
         renderCheatSheet();
     }
 
-    function cheatCell(v, pct, extraClass) {
+    function cheatCell(v, pct, extraClass, title) {
         const extra = extraClass ? (" " + extraClass) : "";
         if (v === "…") {
             return `<td class="px-1.5 py-1.5 text-center${extra}"><span class="inline-flex items-center justify-center min-w-[28px] h-6"><span class="w-3.5 h-3.5 border-2 border-slate-300 border-t-blue-600 rounded-full animate-spin"></span></span></td>`;
         }
         const cls = typeof posRankColor === "function" ? posRankColor(v, pct) : "bg-slate-100 text-slate-600";
-        return `<td class="px-1.5 py-1.5 text-center${extra}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${v ?? "—"}</span></td>`;
+        const safeTip = title ? String(title).replace(/[<>"]/g, "") : "";
+        const tip = safeTip ? (" title=\"" + safeTip + "\"") : "";
+        return `<td class="px-1.5 py-1.5 text-center${extra}"${tip}><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${v ?? "—"}</span></td>`;
     }
 
     
     function updateCourseHistoryYearHeaders(rows) {
+        if (window._hubCheatCompCh) {
+            try { updateCompCourseHeaders(window._hubCheatCompCh.comps); } catch (e) {}
+            return;
+        }
         // Prefer years from CSV (h1_year…); else derive from most recent event year
         const years = [null, null, null, null];
         const list = rows || cheatRows || [];
@@ -23720,6 +24465,18 @@ function getCutStreakFromLogs(playerName) {
     }
 
 function renderCheatSheet() {
+        try {
+            if (typeof hubEventTypeIsNoCut === "function" && hubEventTypeIsNoCut() && (cheatRows || []).length) {
+                cheatRows.forEach(r => {
+                    r.cutPct = "100%";
+                    r.cutOddsNum = 100;
+                    r.cutImplied = 1;
+                    r.cutNoVig = 100;
+                    r.cutNoVigLabel = "100%";
+                    r.cutNoCut = true;
+                });
+            }
+        } catch (e) {}
         try { bindCheatSheetFilters(); } catch (e) {}
         try { updateCourseHistoryYearHeaders(cheatRows); } catch (e) {}
         try { renderCheatSheetWeather(); } catch (e) {}
@@ -23897,21 +24654,27 @@ function renderCheatSheet() {
                     <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-800" : r.own != null && r.own >= 8 ? "text-slate-900" : "text-slate-700"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
                     ${r.levTag ? `<div class="cs-subnum mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-700" : /over|fade/i.test(r.levTag) ? "text-rose-700" : "text-slate-600"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
                 </td>
-                ${cheatCell(r.h1, null, "cs-sec")}
-                ${cheatCell(r.h2)}
-                ${cheatCell(r.h3)}
-                ${cheatCell(r.h4, null, "cs-sec-end")}
+                ${cheatCell(r.h1, null, "cs-sec", r.h1Tip)}
+                ${cheatCell(r.h2, null, "", r.h2Tip)}
+                ${cheatCell(r.h3, null, "", r.h3Tip)}
+                ${cheatCell(r.h4, null, "cs-sec-end", r.h4Tip)}
                 ${cheatCell(r.rf1, null, "cs-sec")}
                 ${cheatCell(r.rf2)}
                 ${cheatCell(r.rf3)}
                 ${cheatCell(r.rf4)}
                 <td class="px-1.5 py-1.5 text-center text-slate-700 font-medium cs-sec-end cs-g-rf">${r.cuts ?? "—"}</td>
                 <td class="px-1.5 py-1.5 text-center text-xs cs-sec cs-sec-end cs-g-mkt leading-tight" title="${(() => {
-                    const bits = ["Cut Odds = make-cut American odds"];
-                    if (r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
+                    const bits = r.cutNoCut || r.cutPct === "100%"
+                        ? ["No-cut event — everyone plays all four rounds (100%)"]
+                        : ["Cut Odds = make-cut American odds"];
+                    if (!r.cutNoCut && r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
                     return bits.join(" · ");
                 })()}">
-                    <div class="font-bold text-slate-900 tabular-nums">${r.cutPct ?? "—"}${r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="cs-subnum font-bold text-cyan-800">(${r.cutNoVigLabel})</span>` : ""}</div>
+                    <div class="font-bold text-slate-900 tabular-nums">${
+                        (r.cutNoCut || r.cutPct === "100%")
+                            ? "100%"
+                            : ((r.cutPct ?? "—") + (r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="cs-subnum font-bold text-cyan-800">(${r.cutNoVigLabel})</span>` : ""))
+                    }</div>
                 </td>
                 <td class="px-1.5 py-1.5 text-center cs-sec cs-g-ks" title="${(keyStatNames&&keyStatNames[0])||'Key Stat 1'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s1, maxR)}">${displayRank(r.s1)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[1])||'Key Stat 2'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s2, maxR)}">${displayRank(r.s2)}</span></td>
