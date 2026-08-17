@@ -1,5 +1,5 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: TPC Southwind | Updated: 8/16/2026, 3:55:19 PM",,,,,,,,,,,
+"Location: TPC Southwind | Updated: 8/16/2026, 8:55:19 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Sun Aug 16,12:00 AM,79.4,85.7,0,0,Clear,3.4,6.9,SE,0,72
@@ -17,36 +17,36 @@ Sun Aug 16,11:00 AM,91.4,99.2,0,0,Clear,8.8,15.4,W,9,60
 Sun Aug 16,12:00 PM,93.6,102.3,0,0,Clear,9.3,12.3,WNW,4,55
 Sun Aug 16,1:00 PM,95.6,104,0,0,Mainly Clear,10.4,12.3,W,24,49
 Sun Aug 16,2:00 PM,96.3,107.7,0,0,Clear,6.5,10.1,W,14,49
-Sun Aug 16,3:00 PM,98,106,0,0,Clear,7.8,9.4,WSW,6,40
-Sun Aug 16,4:00 PM,98.9,106,0,0,Clear,7.8,9.4,W,2,38
-Sun Aug 16,5:00 PM,98.7,104.5,1,0,Clear,4.7,9.6,W,18,39
-Sun Aug 16,6:00 PM,99,103.1,0,0,Clear,8,10.1,SW,3,38
-Sun Aug 16,7:00 PM,97.6,100.4,0,0,Clear,8.4,11.6,WSW,0,37
-Sun Aug 16,8:00 PM,94.3,99.9,0,0,Clear,5.4,10.3,SW,0,45
-Sun Aug 16,9:00 PM,90.4,94.4,0,0,Clear,5.5,11,SSW,0,46
-Sun Aug 16,10:00 PM,88.1,91.5,0,0,Clear,5.4,12.3,SSW,0,47
-Sun Aug 16,11:00 PM,86,89.4,0,0,Clear,7,17.2,SSW,7,53
-Mon Aug 17,12:00 AM,84.9,88.3,0,0,Clear,8.2,18.6,SSW,3,57
-Mon Aug 17,1:00 AM,84.2,87.8,0,0,Clear,7.6,18.3,SW,0,58
-Mon Aug 17,2:00 AM,83.4,87,0,0,Clear,7.4,17,SW,0,59
-Mon Aug 17,3:00 AM,82.5,86.7,0,0,Clear,6.8,17,SW,0,62
-Mon Aug 17,4:00 AM,82.3,86,1,0,Clear,7.6,17.7,SW,0,62
-Mon Aug 17,5:00 AM,81.6,85.9,1,0,Clear,6.7,15,WSW,19,64
-Mon Aug 17,6:00 AM,80.7,85.8,1,0,Clear,4.9,11.6,WSW,0,66
-Mon Aug 17,7:00 AM,79.7,85.1,4,0,Clear,4.5,9.8,SSW,0,69
-Mon Aug 17,8:00 AM,80,85.9,5,0,Clear,4.6,11,S,10,71
-Mon Aug 17,9:00 AM,83.8,89.7,5,0,Overcast,4.2,15,WSW,85,62
-Mon Aug 17,10:00 AM,89.3,93.9,4,0,Clear,7.8,14.1,W,6,53
-Mon Aug 17,11:00 AM,91.4,97.6,5,0,Clear,6.5,13.9,WNW,0,52
-Mon Aug 17,12:00 PM,93.8,101.1,3,0,Clear,8.1,16.3,WNW,1,49
-Mon Aug 17,1:00 PM,95.8,102.9,3,0,Clear,10.5,17.2,WNW,8,46
-Mon Aug 17,2:00 PM,96.3,104.2,3,0,Clear,11.4,14.8,WNW,9,47
-Mon Aug 17,3:00 PM,97.1,105.3,8,0,Mainly Clear,9.9,14.5,WNW,25,47
-Mon Aug 17,4:00 PM,97,104.3,10,0,Clear,10.8,16.6,NW,15,47
-Mon Aug 17,5:00 PM,97,104.1,10,0,Clear,10.6,14.8,NW,3,47
-Mon Aug 17,6:00 PM,97,101.1,8,0,Clear,10.7,14.1,NW,0,43
-Mon Aug 17,7:00 PM,95.3,98.8,3,0,Clear,9.7,13.4,NW,0,43
+Sun Aug 16,3:00 PM,98,108.3,0,0,Mainly Clear,7.8,9.4,WSW,39,46
+Sun Aug 16,4:00 PM,98.8,107.5,0,0,Partly Cloudy,9.3,11.6,SW,60,45
+Sun Aug 16,5:00 PM,98.3,104,1,0,Clear,9.8,12.1,SW,0,44
+Sun Aug 16,6:00 PM,97.8,103.1,0,0,Clear,7.9,10.3,SW,0,42
+Sun Aug 16,7:00 PM,96.6,101.9,0,0,Clear,6.8,10.7,SW,0,43
+Sun Aug 16,8:00 PM,94.1,98.8,0,0,Clear,6,12.1,SW,0,44
+Sun Aug 16,9:00 PM,91.4,96.1,0,0,Clear,4.3,6.5,SSW,0,45
+Sun Aug 16,10:00 PM,89.5,94.7,0,0,Clear,3.7,4.9,SSE,0,49
+Sun Aug 16,11:00 PM,87.2,93.1,0,0,Clear,5,9.8,SSE,0,57
+Mon Aug 17,12:00 AM,86.2,91.9,1,0,Clear,5.1,11.6,S,0,58
+Mon Aug 17,1:00 AM,85.3,91.1,2,0,Clear,4.9,12.3,S,6,60
+Mon Aug 17,2:00 AM,84.9,89.9,3,0,Overcast,6.9,16.3,SSW,81,61
+Mon Aug 17,3:00 AM,83.5,88.3,3,0,Mainly Clear,7.1,15.4,SSW,31,63
+Mon Aug 17,4:00 AM,82.8,87.8,3,0,Clear,6.4,15.7,SW,0,64
+Mon Aug 17,5:00 AM,82.4,86.8,2,0,Clear,6.6,15.2,WSW,0,63
+Mon Aug 17,6:00 AM,81.8,86.1,2,0,Clear,6.2,13.9,WSW,0,63
+Mon Aug 17,7:00 AM,80.9,85.3,2,0,Clear,6.2,13.4,SW,14,65
+Mon Aug 17,8:00 AM,80.8,85.2,4,0,Clear,7.1,13.6,SW,0,67
+Mon Aug 17,9:00 AM,85,88.5,5,0,Partly Cloudy,10,19.7,SW,73,60
+Mon Aug 17,10:00 AM,85.8,89.6,5,0,Overcast,7.7,20.1,WSW,100,56
+Mon Aug 17,11:00 AM,92,95.4,3,0,Clear,10.5,15.7,W,4,48
+Mon Aug 17,12:00 PM,94.3,99.9,3,0,Mainly Clear,10.1,15,W,20,46
+Mon Aug 17,1:00 PM,95.8,102.4,9,0,Clear,11.2,16.1,WNW,17,46
+Mon Aug 17,2:00 PM,96.3,104.2,9,0,Clear,11.4,14.8,WNW,9,47
+Mon Aug 17,3:00 PM,97.1,105.3,9,0,Mainly Clear,9.9,14.5,WNW,25,47
+Mon Aug 17,4:00 PM,97,104.3,4,0,Clear,10.8,16.6,NW,15,47
+Mon Aug 17,5:00 PM,97,104.1,3,0,Clear,10.6,14.8,NW,3,47
+Mon Aug 17,6:00 PM,97,101.1,2,0,Clear,10.7,14.1,NW,0,43
+Mon Aug 17,7:00 PM,95.3,98.8,1,0,Clear,9.7,13.4,NW,0,43
 Mon Aug 17,8:00 PM,92.4,96.9,2,0,Overcast,5.9,11.2,NNW,100,45
 Mon Aug 17,9:00 PM,89.7,95.4,2,0,Overcast,3.8,10.3,N,86,50
-Mon Aug 17,10:00 PM,84.6,90,2,0,Overcast,7.4,13.2,WNW,100,64
-Mon Aug 17,11:00 PM,83.3,90.8,1,0,Overcast,2.5,6.3,WNW,100,67
+Mon Aug 17,10:00 PM,84.6,90,1,0,Overcast,7.4,13.2,WNW,100,64
+Mon Aug 17,11:00 PM,83.3,90.8,0,0,Overcast,2.5,6.3,WNW,100,67
