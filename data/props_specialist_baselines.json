@@ -7,7 +7,7 @@
       "key": "designer",
       "label": "DESIGNER",
       "value": "RON PRICHARD",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "TPC",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -25,7 +25,7 @@
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 767,
+      "count": 581,
       "green": true,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -34,7 +34,7 @@
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "CHAMPION",
-      "count": 767,
+      "count": 581,
       "green": true,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "ZOYSIA",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "70.0",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -70,7 +70,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -79,7 +79,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "GREAT",
-      "count": 763,
+      "count": 581,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "NO CUT",
-      "count": 652,
+      "count": 492,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -97,7 +97,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 797,
+      "count": 589,
       "green": true,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -115,7 +115,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "NORMAL",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -124,7 +124,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "11.0",
-      "count": 767,
+      "count": 581,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -133,7 +133,7 @@
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "LOTS",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -142,7 +142,7 @@
       "key": "bunkers",
       "label": "BUNKERS",
       "value": "75.0",
-      "count": 707,
+      "count": 537,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -151,7 +151,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "TENNESSEE",
-      "count": 797,
+      "count": 589,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -160,7 +160,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 737,
+      "count": 545,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
@@ -169,19 +169,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "YES",
-      "count": 419,
+      "count": 325,
       "green": false,
       "course_name": "TPC Southwind",
       "event_name": "FedEx St. Jude Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.9146,
-    "strokes": 70.0149,
-    "bogeys": 2.2931,
-    "pars": 11.1772,
-    "fw_pct": 60.7759,
-    "gir_pct": 66.888,
+    "birdies_plus": 3.946,
+    "strokes": 69.9928,
+    "bogeys": 2.2733,
+    "pars": 11.3185,
+    "fw_pct": 60.8898,
+    "gir_pct": 67.0541,
     "n_rounds_sample": 8000,
     "window": "24"
   },
