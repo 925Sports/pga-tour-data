@@ -44,9 +44,9 @@ def norm_name(name: str) -> str:
         return ""
     s = str(name).strip()
     # "Young, Cameron" → "Cameron Young"
-    if "," in s:
+    if "," in s and not s.lower().startswith("de "):
         parts = [p.strip() for p in s.split(",", 1)]
-        if len(parts) == 2:
+        if len(parts) == 2 and parts[0] and parts[1]:
             s = f"{parts[1]} {parts[0]}"
     return re.sub(r"\s+", " ", s).strip()
 
@@ -117,7 +117,7 @@ def main() -> None:
         draft_groups[dg]["contest_ids"].append(cid)
         draft_groups[dg]["contest_names"].append(cname)
         # Prefer Classic / main PGA TOUR naming
-        if "classic" in name or "pga tour" in name and "single" not in name:
+        if "classic" in name or ("pga tour" in name and "single" not in name and "tiers" not in name):
             draft_groups[dg]["slate_type"] = "Classic"
 
     print(f"Found {len(draft_groups)} draft groups")
@@ -204,7 +204,7 @@ def main() -> None:
                 "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             })
 
-        # Once we have a good Classic slate we can stop if we want only one main field
+        # Once we have a good Classic slate we can stop
         if group["slate_type"] == "Classic" and len(rows) > 40:
             print(f"    Got solid Classic field ({len(rows)} players) — stopping early")
             break
