@@ -1,187 +1,214 @@
 {
-  "course_name": "TPC Southwind",
-  "event_name": "FedEx St. Jude Championship",
-  "trait_sig": "DESIGNER:RON PRICHARD | STYLE:TPC | GREENS:BERMUDA | GREENS (2):CHAMPION | FAIRWAYS:ZOYSIA | LENGTH:NORMAL | PAR:70.0 | SCORING:NORMAL | WEATHER:GREAT | TYPE:NO CUT | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | ROUGH LENGTH:NORMAL | WATER HAZARDS:11.0 | ROUGH AMOUNT:LOTS | BUNKERS:75.0 | LOCATION:TENNESSEE | DRAINAGE:GOOD | RAIN:YES",
+  "course_name": "Bellerive Country Club",
+  "event_name": "BMW Championship",
+  "trait_sig": "DESIGNER:DONALD ROSS | STYLE:PARKLAND | GREENS:BENT | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:70.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:13.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:THICK | WATER HAZARDS:4.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:NORTH CAROLINA | Redesigned:KRIS SPENCER | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "RON PRICHARD",
-      "count": 589,
+      "value": "DONALD ROSS",
+      "count": 1377,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "style",
       "label": "STYLE",
-      "value": "TPC",
-      "count": 589,
+      "value": "PARKLAND",
+      "count": 6158,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "greens",
       "label": "GREENS",
-      "value": "BERMUDA",
-      "count": 581,
+      "value": "BENT",
+      "count": 3850,
       "green": true,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "greens_2",
       "label": "GREENS (2)",
-      "value": "CHAMPION",
-      "count": 581,
+      "value": "POA",
+      "count": 2142,
       "green": true,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
-      "value": "ZOYSIA",
-      "count": 589,
+      "value": "BERMUDA",
+      "count": 3118,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "length",
       "label": "LENGTH",
-      "value": "NORMAL",
-      "count": 589,
+      "value": "LONG",
+      "count": 4601,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "par",
       "label": "PAR",
       "value": "70.0",
-      "count": 589,
+      "count": 3644,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "scoring",
       "label": "SCORING",
-      "value": "NORMAL",
-      "count": 589,
+      "value": "HARD",
+      "count": 4941,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "weather",
       "label": "WEATHER",
-      "value": "GREAT",
-      "count": 581,
+      "value": "FAIR",
+      "count": 2711,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "type",
       "label": "TYPE",
-      "value": "NO CUT",
-      "count": 492,
+      "value": "FULL",
+      "count": 7067,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 589,
+      "count": 4043,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 589,
+      "count": 7771,
       "green": true,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
+    },
+    {
+      "key": "green_speeds",
+      "label": "GREEN SPEEDS",
+      "value": "13.0",
+      "count": 1444,
+      "green": true,
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
+    },
+    {
+      "key": "green_speeds_1",
+      "label": "GREEN SPEEDS.1",
+      "value": "FAST",
+      "count": 2317,
+      "green": true,
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
-      "value": "NORMAL",
-      "count": 589,
+      "value": "THICK",
+      "count": 4165,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "11.0",
-      "count": 581,
+      "value": "4.0",
+      "count": 1564,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
-      "value": "LOTS",
-      "count": 589,
+      "value": "NORMAL",
+      "count": 3958,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "75.0",
-      "count": 537,
+      "value": "74.0",
+      "count": 1035,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "TENNESSEE",
-      "count": 589,
+      "value": "NORTH CAROLINA",
+      "count": 1022,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
+    },
+    {
+      "key": "redesigned",
+      "label": "Redesigned",
+      "value": "KRIS SPENCER",
+      "count": 365,
+      "green": false,
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 545,
+      "count": 3866,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     },
     {
       "key": "rain",
       "label": "RAIN",
-      "value": "YES",
-      "count": 325,
+      "value": "NO",
+      "count": 7861,
       "green": false,
-      "course_name": "TPC Southwind",
-      "event_name": "FedEx St. Jude Championship"
+      "course_name": "Bellerive Country Club",
+      "event_name": "BMW Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.946,
-    "strokes": 69.9928,
-    "bogeys": 2.2733,
-    "pars": 11.3185,
-    "fw_pct": 60.8898,
-    "gir_pct": 67.0541,
+    "birdies_plus": 3.953,
+    "strokes": 69.973,
+    "bogeys": 2.2787,
+    "pars": 11.1641,
+    "fw_pct": 60.8733,
+    "gir_pct": 67.02,
     "n_rounds_sample": 8000,
     "window": "24"
   },

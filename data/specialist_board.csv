@@ -1,70 +1,51 @@
 player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3,spec_rank
-"Scheffler, Scottie",TPC Southwind,3,26,1.308,29.33,14.0,0.0,31|14|43,4.0
-"McIlroy, Rory",TPC Southwind,2,22,0.398,7.5,3.0,0.0,3|12,22.0
-"Schauffele, Xander",TPC Southwind,3,32,0.616,40.67,24.0,0.0,24|46|52,15.0
-"Koivun, Jackson",TPC Southwind,0,0,,,,,,
-"Fleetwood, Tommy",TPC Southwind,2,24,1.178,24.5,3.0,0.0,3|46,6.0
-"Cantlay, Patrick",TPC Southwind,2,28,0.934,12.5,2.0,0.0,2|23,9.0
-"Hovland, Viktor",TPC Southwind,2,24,0.589,24.5,13.0,0.0,13|36,16.0
-"Fitzpatrick, Matt",TPC Southwind,2,20,-0.254,61.5,57.0,0.0,66|57,35.0
-"Kim, Tom",TPC Southwind,1,8,-0.209,24.0,24.0,0.0,24,34.0
-"Thorbjornsen, Michael",TPC Southwind,0,0,,,,,,
-"Matsuyama, Hideki",TPC Southwind,2,24,1.428,9.0,2.0,0.0,16|2,1.0
-"Brennan, Michael",TPC Southwind,0,0,,,,,,
-"Aberg, Ludvig",TPC Southwind,1,8,0.535,40.0,40.0,0.0,40,17.0
-"MacIntyre, Robert",TPC Southwind,2,16,0.419,11.0,7.0,0.0,15|7,20.0
-"Lowry, Shane",TPC Southwind,0,0,,,,,,
-"Burns, Sam",TPC Southwind,2,20,1.196,27.0,2.0,0.0,52|2,5.0
-"Henley, Russell",TPC Southwind,2,16,0.125,6.0,6.0,50.0,6|CUT,28.0
-"Young, Cameron",TPC Southwind,1,16,0.294,31.0,31.0,0.0,31,26.0
-"Griffin, Ben",TPC Southwind,1,12,0.318,24.0,24.0,0.0,24,25.0
-"Fitzpatrick, Alex",TPC Southwind,0,0,,,,,,
-"Morikawa, Collin",TPC Southwind,2,24,0.922,19.5,13.0,0.0,13|26,10.0
-"Harman, Brian",TPC Southwind,0,0,,,,,,
-"Fowler, Rickie",TPC Southwind,3,18,0.019,36.5,15.0,33.3,58|CUT|15,31.0
-"Conners, Corey",TPC Southwind,0,0,,,,,,
-"Scott, Adam",TPC Southwind,3,20,0.823,17.0,5.0,0.0,5|36|10,12.0
-"Clark, Wyndham",TPC Southwind,1,16,-0.206,66.0,66.0,0.0,66,33.0
-"Gotterup, Chris",TPC Southwind,1,4,-1.127,54.0,54.0,0.0,54,40.0
-"Rose, Justin",TPC Southwind,2,22,0.365,37.0,20.0,0.0,20|54,24.0
-"Rai, Aaron",TPC Southwind,2,24,0.372,37.5,26.0,0.0,49|26,23.0
-"Thomas, Justin",TPC Southwind,2,24,1.026,19.5,13.0,0.0,13|26,8.0
-"Im, Sungjae",TPC Southwind,2,24,0.506,26.0,6.0,0.0,6|46,19.0
-"McCarty, Matt",TPC Southwind,0,0,,,,,,
-"Kim, Si Woo",TPC Southwind,2,20,-0.504,40.5,16.0,0.0,16|65,37.0
-"Smith, Jordan",TPC Southwind,0,0,,,,,,
-"Spieth, Jordan",TPC Southwind,0,0,,,,,,
-"Spaun, J.J.",TPC Southwind,1,12,1.327,24.0,24.0,0.0,24,3.0
-"Bridgeman, Jacob",TPC Southwind,1,4,0.873,17.0,17.0,0.0,17,11.0
-"Bhatia, Akshay",TPC Southwind,1,8,1.41,12.0,12.0,0.0,12,2.0
-"Fox, Ryan",TPC Southwind,1,4,-0.877,50.0,50.0,0.0,50,38.0
-"Cole, Eric",TPC Southwind,1,8,0.416,31.0,31.0,0.0,31,21.0
-"Mitchell, Keith",TPC Southwind,0,0,,,,,,
-"Kitayama, Kurt",TPC Southwind,1,10,0.101,52.0,52.0,0.0,52,29.0
-"Woodland, Gary",TPC Southwind,2,12,-0.99,53.0,51.0,0.0,51|55,39.0
-"Reitan, Kristoffer",TPC Southwind,0,0,,,,,,
-"Homa, Max",TPC Southwind,0,0,,,,,,
-"English, Harris",TPC Southwind,0,0,,,,,,
-"Gerard, Ryan",TPC Southwind,1,4,-0.377,44.0,44.0,0.0,44,36.0
-"Noren, Alex",TPC Southwind,2,9,0.04,12.0,12.0,0.0,WD|12,30.0
-"Straka, Sepp",TPC Southwind,1,16,0.169,63.0,63.0,0.0,63,27.0
-"Taylor, Nick",TPC Southwind,0,0,,,,,,
-"McNealy, Maverick",TPC Southwind,1,12,0.764,31.0,31.0,0.0,31,13.0
-"Hall, Harry",TPC Southwind,0,0,,,,,,
-"Poston, J.T.",TPC Southwind,3,26,0.535,24.0,18.0,0.0,24|18|30,18.0
-"Cauley, Bud",TPC Southwind,1,4,1.123,14.0,14.0,0.0,14,7.0
-"Lee, Min Woo",TPC Southwind,2,12,-1.959,42.0,22.0,0.0,62|22,42.0
-"Castillo, Ricky",TPC Southwind,0,0,,,,,,
-"Rodgers, Patrick",TPC Southwind,0,0,,,,,,
-"Theegala, Sahith",TPC Southwind,1,12,0.685,13.0,13.0,0.0,13,14.0
-"Stevens, Sam",TPC Southwind,0,0,,,,,,
-"Hojgaard, Nicolai",TPC Southwind,0,0,,,,,,
-"Knapp, Jake",TPC Southwind,1,8,-2.34,67.0,67.0,0.0,67,43.0
-"Echavarria, Nico",TPC Southwind,1,4,-0.127,38.0,38.0,0.0,38,32.0
-"Kim, Michael",TPC Southwind,0,0,,,,,,
-"Smalley, Alex",TPC Southwind,1,6,-1.747,65.0,65.0,0.0,65,41.0
-"Hisatsune, Ryo",TPC Southwind,0,0,,,,,,
-"Coody, Pierceson",TPC Southwind,0,0,,,,,,
-"Schmid, Matti",TPC Southwind,0,0,,,,,,
-"Yellamaraju, Sudarshan",TPC Southwind,0,0,,,,,,
-"Potgieter, Aldrich",TPC Southwind,0,0,,,,,,
+"Scheffler, Scottie",Bellerive Country Club,29,273,1.857,15.33,1,17.2,4|CUT|4,2
+"McIlroy, Rory",Bellerive Country Club,29,353,2.052,14.31,1,7.1,40|7|32,1
+"Schauffele, Xander",Bellerive Country Club,32,338,1.512,15.93,1,9.4,2|18|CUT,3
+"Fleetwood, Tommy",Bellerive Country Club,34,347,1.276,24.5,2,5.9,4|13|11,7
+"Cantlay, Patrick",Bellerive Country Club,25,270,1.422,14.86,1,16.0,8|28|CUT,5
+"Hovland, Viktor",Bellerive Country Club,33,301,1.348,17.28,1,12.1,CUT|13|CUT,6
+"Fitzpatrick, Matt",Bellerive Country Club,23,179,0.992,23.32,1,17.4,CUT|3|22,11
+"Kim, Tom",Bellerive Country Club,24,167,0.658,22.63,1,20.8,5|CUT|1,27
+"Thorbjornsen, Michael",Bellerive Country Club,18,80,0.837,23.1,1,44.4,1|40|7,18
+"Matsuyama, Hideki",Bellerive Country Club,34,376,0.797,29.07,1,9.1,7|5|14,20
+"Brennan, Michael",Bellerive Country Club,15,51,0.544,37.09,1,26.7,1|15|53,33
+"Aberg, Ludvig",Bellerive Country Club,22,153,1.435,16.95,1,4.8,9|CUT|17,4
+"MacIntyre, Robert",Bellerive Country Club,35,228,0.819,27.08,1,23.5,28|3|39,19
+"Burns, Sam",Bellerive Country Club,37,305,0.926,16.7,1,22.9,3|2|4,14
+"Henley, Russell",Bellerive Country Club,35,308,0.976,25.93,1,20.0,20|9|65,12
+"Young, Cameron",Bellerive Country Club,30,229,0.976,23.46,1,20.0,61|8|2,13
+"Griffin, Ben",Bellerive Country Club,39,222,1.066,22.39,2,28.2,CUT|CUT|59,10
+"Fitzpatrick, Alex",Bellerive Country Club,23,101,0.337,32.33,2,31.8,61|71|CUT,42
+"Morikawa, Collin",Bellerive Country Club,34,305,1.26,18.17,1,12.1,18|17|55,8
+"Fowler, Rickie",Bellerive Country Club,30,304,0.693,24.24,1,16.7,8|18|CUT,24
+"Scott, Adam",Bellerive Country Club,34,314,0.778,26.0,4,11.8,9|66|CUT,21
+"Clark, Wyndham",Bellerive Country Club,42,284,0.425,19.08,1,42.9,CUT|CUT|13,36
+"Gotterup, Chris",Bellerive Country Club,48,212,0.862,26.56,1,23.4,CUT|18|11,16
+"Rose, Justin",Bellerive Country Club,33,283,0.645,26.5,3,21.2,CUT|11|12,28
+"Rai, Aaron",Bellerive Country Club,40,261,0.858,23.55,1,22.5,29|CUT|CUT,17
+"Thomas, Justin",Bellerive Country Club,36,332,1.145,17.85,1,5.6,14|65|50,9
+"Im, Sungjae",Bellerive Country Club,50,425,0.864,20.9,2,20.4,14|15|14,15
+"McCarty, Matt",Bellerive Country Club,51,281,0.776,25.56,1,28.0,29|50|CUT,22
+"Kim, Si Woo",Bellerive Country Club,37,378,0.306,32.67,5,8.3,42|6|9,46
+"Spaun, J.J.",Bellerive Country Club,43,318,0.33,35.03,3,20.9,50|40|44,44
+"Bridgeman, Jacob",Bellerive Country Club,51,228,0.663,27.34,1,18.0,26|28|39,26
+"Bhatia, Akshay",Bellerive Country Club,41,215,0.351,24.92,1,39.0,CUT|CUT|17,40
+"Fox, Ryan",Bellerive Country Club,33,235,0.671,29.59,1,18.2,1|30|23,25
+"Cole, Eric",Bellerive Country Club,46,268,0.518,24.48,2,31.1,29|CUT|53,35
+"Kitayama, Kurt",Bellerive Country Club,38,227,0.264,32.33,2,36.8,40|44|53,47
+"Woodland, Gary",Bellerive Country Club,37,282,0.332,32.42,5,29.7,CUT|7|36,43
+"Reitan, Kristoffer",Bellerive Country Club,20,66,0.532,19.7,1,50.0,18|CUT|CUT,34
+"Gerard, Ryan",Bellerive Country Club,55,240,0.694,27.05,1,31.5,CUT|8|9,23
+"Noren, Alex",Bellerive Country Club,40,308,0.629,25.94,1,20.0,7|18|CUT,30
+"Straka, Sepp",Bellerive Country Club,51,372,0.161,37.32,2,33.3,CUT|67|CUT,49
+"McNealy, Maverick",Bellerive Country Club,39,258,0.643,25.83,1,25.6,25|CUT|32,29
+"Poston, J.T.",Bellerive Country Club,34,321,0.343,26.0,1,38.2,CUT|CUT|4,41
+"Cauley, Bud",Bellerive Country Club,32,186,0.242,35.45,5,31.2,54|18|CUT,48
+"Lee, Min Woo",Bellerive Country Club,20,142,0.363,19.27,2,25.0,59|2|CUT,38
+"Theegala, Sahith",Bellerive Country Club,33,250,0.326,34.83,2,12.1,49|53|66,45
+"Hojgaard, Nicolai",Bellerive Country Club,29,175,0.361,25.33,2,37.9,61|CUT|26,39
+"Knapp, Jake",Bellerive Country Club,47,190,0.551,25.6,5,34.8,CUT|CUT|CUT,32
+"Echavarria, Nico",Bellerive Country Club,26,146,0.398,27.77,1,50.0,12|CUT|67,37
+"Smalley, Alex",Bellerive Country Club,32,204,0.556,25.0,2,21.9,7|53|CUT,31
+"Hisatsune, Ryo",Bellerive Country Club,31,150,0.118,36.36,6,29.0,CUT|50|53,50
