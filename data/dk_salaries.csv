@@ -1,51 +1,80 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Scottie Scheffler,14400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43859123,08/20/2026 10:03 AM,2026-08-20T14:03:35.127901Z
-Rory McIlroy,11400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43859124,08/20/2026 10:03 AM,2026-08-20T14:03:35.127919Z
-Tommy Fleetwood,10900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43859125,08/20/2026 10:03 AM,2026-08-20T14:03:35.127927Z
-Sam Burns,10400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/582.png,1154,43859126,08/20/2026 10:03 AM,2026-08-20T14:03:35.127936Z
-Xander Schauffele,9900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43859127,08/20/2026 10:03 AM,2026-08-20T14:03:35.127942Z
-Ludvig Åberg,9700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,43859128,08/20/2026 10:03 AM,2026-08-20T14:03:35.127953Z
-Cameron Young,9400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43859129,08/20/2026 10:03 AM,2026-08-20T14:03:35.127959Z
-Matt Fitzpatrick,9300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43859130,08/20/2026 10:03 AM,2026-08-20T14:03:35.127969Z
-Si Woo Kim,9100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/870.png,1284,43859131,08/20/2026 10:03 AM,2026-08-20T14:03:35.127976Z
-Hideki Matsuyama,9000,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43859132,08/20/2026 10:03 AM,2026-08-20T14:03:35.127983Z
-Chris Gotterup,8900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43859133,08/20/2026 10:03 AM,2026-08-20T14:03:35.127989Z
-Viktor Hovland,8800,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43859134,08/20/2026 10:03 AM,2026-08-20T14:03:35.127994Z
-Wyndham Clark,8700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,43859135,08/20/2026 10:03 AM,2026-08-20T14:03:35.128000Z
-Collin Morikawa,8600,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/789.png,300102,43859136,08/20/2026 10:03 AM,2026-08-20T14:03:35.128005Z
-Patrick Cantlay,8500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43859137,08/20/2026 10:03 AM,2026-08-20T14:03:35.128010Z
-Russell Henley,8400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43859138,08/20/2026 10:03 AM,2026-08-20T14:03:35.128015Z
-Justin Thomas,8300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,43859139,08/20/2026 10:03 AM,2026-08-20T14:03:35.128020Z
-Jake Knapp,8200,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1050.png,1894,43859140,08/20/2026 10:03 AM,2026-08-20T14:03:35.128025Z
-Tom Kim,8100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43859141,08/20/2026 10:03 AM,2026-08-20T14:03:35.128031Z
-Maverick McNealy,8000,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43859142,08/20/2026 10:03 AM,2026-08-20T14:03:35.128036Z
-Kurt Kitayama,7900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/921.png,329671,43859143,08/20/2026 10:03 AM,2026-08-20T14:03:35.128047Z
-Ryan Gerard,7800,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43859144,08/20/2026 10:03 AM,2026-08-20T14:03:35.128052Z
-Robert MacIntyre,7700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/822.png,670464,43859145,08/20/2026 10:03 AM,2026-08-20T14:03:35.128057Z
-J.J. Spaun,7600,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43859146,08/20/2026 10:03 AM,2026-08-20T14:03:35.128064Z
-Michael Thorbjornsen,7500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/787.png,696522,43859147,08/20/2026 10:03 AM,2026-08-20T14:03:35.128070Z
-Rickie Fowler,7400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/991.png,1237,43859148,08/20/2026 10:03 AM,2026-08-20T14:03:35.128075Z
-Michael Brennan,7300,BMW Championship,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,762470,43859149,08/20/2026 10:03 AM,2026-08-20T14:03:35.128080Z
-Min Woo Lee,7200,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43859150,08/20/2026 10:03 AM,2026-08-20T14:03:35.128086Z
-Adam Scott,7100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/875.png,2078,43859151,08/20/2026 10:03 AM,2026-08-20T14:03:35.128090Z
-Sungjae Im,7000,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/621.png,670620,43859152,08/20/2026 10:03 AM,2026-08-20T14:03:35.128095Z
-Alex Noren,6900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1162.png,867,43859153,08/20/2026 10:03 AM,2026-08-20T14:03:35.128100Z
-Ben Griffin,6900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,43859154,08/20/2026 10:03 AM,2026-08-20T14:03:35.128105Z
-Jacob Bridgeman,6800,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43859155,08/20/2026 10:03 AM,2026-08-20T14:03:35.128110Z
-Justin Rose,6800,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/734.png,625,43859156,08/20/2026 10:03 AM,2026-08-20T14:03:35.128115Z
-Alex Smalley,6700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43859157,08/20/2026 10:03 AM,2026-08-20T14:03:35.128120Z
-Nicolai Højgaard,6700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,43859158,08/20/2026 10:03 AM,2026-08-20T14:03:35.128127Z
-Gary Woodland,6600,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/689.png,1055,43859159,08/20/2026 10:03 AM,2026-08-20T14:03:35.128132Z
-Bud Cauley,6600,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43859160,08/20/2026 10:03 AM,2026-08-20T14:03:35.128137Z
-Kristoffer Reitan,6500,BMW Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,671051,43859161,08/20/2026 10:03 AM,2026-08-20T14:03:35.128143Z
-Alex Fitzpatrick,6500,BMW Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43859162,08/20/2026 10:03 AM,2026-08-20T14:03:35.128148Z
-Aaron Rai,6400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/861.png,353925,43859163,08/20/2026 10:03 AM,2026-08-20T14:03:35.128154Z
-J.T. Poston,6400,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43859164,08/20/2026 10:03 AM,2026-08-20T14:03:35.128162Z
-Akshay Bhatia,6300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/952.png,694628,43859165,08/20/2026 10:03 AM,2026-08-20T14:03:35.128167Z
-Eric Cole,6300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,43859166,08/20/2026 10:03 AM,2026-08-20T14:03:35.128172Z
-Ryan Fox,6200,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1070.png,1048,43859167,08/20/2026 10:03 AM,2026-08-20T14:03:35.128176Z
-Ryo Hisatsune,6200,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,43859168,08/20/2026 10:03 AM,2026-08-20T14:03:35.128181Z
-Sahith Theegala,6100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,43859169,08/20/2026 10:03 AM,2026-08-20T14:03:35.128188Z
-Nicolas Echavarria,6100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,43859170,08/20/2026 10:03 AM,2026-08-20T14:03:35.128193Z
-Sepp Straka,6000,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/654.png,73285,43859171,08/20/2026 10:03 AM,2026-08-20T14:03:35.128198Z
-Matthew McCarty,6000,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43859172,08/20/2026 10:03 AM,2026-08-20T14:03:35.128205Z
+Scottie Scheffler,14500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43877132,08/20/2026 1:20 PM,2026-08-20T14:57:49.143562Z
+Bryson DeChambeau,11000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,08/20/2026 1:15 PM,2026-08-20T14:57:49.143583Z
+Tommy Fleetwood,10800,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43877133,08/20/2026 1:20 PM,2026-08-20T14:57:49.143590Z
+Jon Rahm,10800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,08/20/2026 1:15 PM,2026-08-20T14:57:49.143597Z
+Rory McIlroy,10700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43877134,08/20/2026 1:20 PM,2026-08-20T14:57:49.143602Z
+Joaquin Niemann,10500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,08/20/2026 1:15 PM,2026-08-20T14:57:49.143606Z
+Tyrrell Hatton,10000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,08/20/2026 1:15 PM,2026-08-20T14:57:49.143611Z
+Lucas Herbert,9800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,08/20/2026 1:15 PM,2026-08-20T14:57:49.143618Z
+Xander Schauffele,9600,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43877135,08/20/2026 1:20 PM,2026-08-20T14:57:49.143623Z
+David Puig,9600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,08/20/2026 1:15 PM,2026-08-20T14:57:49.143628Z
+Branden Grace,9400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,08/20/2026 1:15 PM,2026-08-20T14:57:49.143631Z
+Cameron Smith,9200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,08/20/2026 1:15 PM,2026-08-20T14:57:49.143635Z
+Chris Gotterup,9100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43877136,08/20/2026 1:20 PM,2026-08-20T14:57:49.143639Z
+Marc Leishman,9100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,08/20/2026 1:15 PM,2026-08-20T14:57:49.143645Z
+Thomas Detry,9000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,08/20/2026 1:15 PM,2026-08-20T14:57:49.143649Z
+Matt Fitzpatrick,8900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43877137,08/20/2026 1:20 PM,2026-08-20T14:57:49.143652Z
+Tom McKibbin,8900,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,08/20/2026 1:15 PM,2026-08-20T14:57:49.143656Z
+Carlos Ortiz,8800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,08/20/2026 1:15 PM,2026-08-20T14:57:49.143660Z
+Dean Burmester,8700,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,08/20/2026 1:15 PM,2026-08-20T14:57:49.143664Z
+Harold Varner III,8600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,08/20/2026 1:15 PM,2026-08-20T14:57:49.143669Z
+Viktor Hovland,8500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43877138,08/20/2026 1:20 PM,2026-08-20T14:57:49.143673Z
+Abraham Ancer,8500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,08/20/2026 1:15 PM,2026-08-20T14:57:49.143677Z
+Victor Perez,8400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,08/20/2026 1:15 PM,2026-08-20T14:57:49.143680Z
+Kurt Kitayama,8300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/921.png,329671,43877139,08/20/2026 1:20 PM,2026-08-20T14:57:49.143684Z
+Dustin Johnson,8300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,08/20/2026 1:15 PM,2026-08-20T14:57:49.143687Z
+Scott Vincent,8200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,08/20/2026 1:15 PM,2026-08-20T14:57:49.143690Z
+Russell Henley,8100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43877140,08/20/2026 1:20 PM,2026-08-20T14:57:49.143694Z
+Byeong Hun An,8100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,08/20/2026 1:15 PM,2026-08-20T14:57:49.143698Z
+Charles Howell III,8000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,08/20/2026 1:15 PM,2026-08-20T14:57:49.143702Z
+Ryan Gerard,7900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43877141,08/20/2026 1:20 PM,2026-08-20T14:57:49.143705Z
+Caleb Surratt,7900,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,08/20/2026 1:15 PM,2026-08-20T14:57:49.143709Z
+Thomas Pieters,7800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,08/20/2026 1:15 PM,2026-08-20T14:57:49.143712Z
+Maverick McNealy,7700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,43877142,08/20/2026 1:20 PM,2026-08-20T14:57:49.143716Z
+Paul Casey,7700,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,08/20/2026 1:15 PM,2026-08-20T14:57:49.143719Z
+Josele Ballester,7600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,08/20/2026 1:15 PM,2026-08-20T14:57:49.143723Z
+Sergio Garcia,7600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,08/20/2026 1:15 PM,2026-08-20T14:57:49.143726Z
+Min Woo Lee,7500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43877143,08/20/2026 1:20 PM,2026-08-20T14:57:49.143730Z
+Talor Gooch,7500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,08/20/2026 1:15 PM,2026-08-20T14:57:49.143733Z
+Bubba Watson,7500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,08/20/2026 1:15 PM,2026-08-20T14:57:49.143737Z
+Laurie Canter,7400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,08/20/2026 1:15 PM,2026-08-20T14:57:49.143741Z
+Sebastián Muñoz,7400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,08/20/2026 1:15 PM,2026-08-20T14:57:49.143751Z
+Peter Uihlein,7300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,08/20/2026 1:15 PM,2026-08-20T14:57:49.143755Z
+Anirban Lahiri,7300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,08/20/2026 1:15 PM,2026-08-20T14:57:49.143758Z
+Cameron John,7300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,08/20/2026 1:15 PM,2026-08-20T14:57:49.143761Z
+Lee Westwood,7200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,08/20/2026 1:15 PM,2026-08-20T14:57:49.143765Z
+Louis Oosthuizen,7200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,08/20/2026 1:15 PM,2026-08-20T14:57:49.143769Z
+Nicolai Højgaard,7100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,43877144,08/20/2026 1:20 PM,2026-08-20T14:57:49.143773Z
+Richard T. Lee,7100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,08/20/2026 1:15 PM,2026-08-20T14:57:49.143778Z
+Charl Schwartzel,7100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,08/20/2026 1:15 PM,2026-08-20T14:57:49.143781Z
+Anthony Kim,7000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,08/20/2026 1:15 PM,2026-08-20T14:57:49.143798Z
+Ian Poulter,7000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,08/20/2026 1:15 PM,2026-08-20T14:57:49.143802Z
+Jacob Bridgeman,6900,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43877145,08/20/2026 1:20 PM,2026-08-20T14:57:49.143806Z
+Brendan Steele,6900,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,08/20/2026 1:15 PM,2026-08-20T14:57:49.143810Z
+Matthew Wolff,6900,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,08/20/2026 1:15 PM,2026-08-20T14:57:49.143813Z
+Elvis Smylie,6800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,08/20/2026 1:15 PM,2026-08-20T14:57:49.143816Z
+Younghan Song,6800,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,08/20/2026 1:15 PM,2026-08-20T14:57:49.143820Z
+J.T. Poston,6700,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,43877146,08/20/2026 1:20 PM,2026-08-20T14:57:49.143825Z
+Richard Bland,6700,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,08/20/2026 1:15 PM,2026-08-20T14:57:49.143829Z
+Adrian Meronk,6700,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,08/20/2026 1:15 PM,2026-08-20T14:57:49.143832Z
+Cameron Tringale,6600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,08/20/2026 1:15 PM,2026-08-20T14:57:49.143837Z
+Luis Masaveu,6600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,08/20/2026 1:15 PM,2026-08-20T14:57:49.143840Z
+Travis Smyth,6600,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,08/20/2026 1:15 PM,2026-08-20T14:57:49.143844Z
+Bud Cauley,6500,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/549.png,1673,43877147,08/20/2026 1:20 PM,2026-08-20T14:57:49.143848Z
+Jason Kokrak,6500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,08/20/2026 1:15 PM,2026-08-20T14:57:49.143851Z
+Danny Lee,6500,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,08/20/2026 1:15 PM,2026-08-20T14:57:49.143855Z
+Michael La Sasso,6400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,08/20/2026 1:15 PM,2026-08-20T14:57:49.143859Z
+Martin Kaymer,6400,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,08/20/2026 1:15 PM,2026-08-20T14:57:49.143862Z
+J.J. Spaun,6300,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43877148,08/20/2026 1:20 PM,2026-08-20T14:57:49.143866Z
+Björn Hellgren,6300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,08/20/2026 1:15 PM,2026-08-20T14:57:49.143871Z
+Graeme McDowell,6300,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,08/20/2026 1:15 PM,2026-08-20T14:57:49.143874Z
+Doyeob Mun,6200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,08/20/2026 1:15 PM,2026-08-20T14:57:49.143878Z
+Yosuke Asaji,6200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,08/20/2026 1:15 PM,2026-08-20T14:57:49.143881Z
+Ollie Schniederjans,6200,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,08/20/2026 1:15 PM,2026-08-20T14:57:49.143885Z
+Matthew McCarty,6100,BMW Championship,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,43877149,08/20/2026 1:20 PM,2026-08-20T14:57:49.143888Z
+Minkyu Kim,6100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,08/20/2026 1:15 PM,2026-08-20T14:57:49.143892Z
+Sam Horsfield,6100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,08/20/2026 1:15 PM,2026-08-20T14:57:49.143895Z
+Max Rottluff,6100,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,08/20/2026 1:15 PM,2026-08-20T14:57:49.143900Z
+Miguel Tabuena,6000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,08/20/2026 1:15 PM,2026-08-20T14:57:49.143904Z
+Ben Campbell,6000,LIV Golf Indianapolis,Classic,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,08/20/2026 1:15 PM,2026-08-20T14:57:49.143908Z
