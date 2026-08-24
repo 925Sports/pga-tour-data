@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,DONALD ROSS,1377,False,Bellerive Country Club,BMW Championship
-style,STYLE,PARKLAND,6158,False,Bellerive Country Club,BMW Championship
-greens,GREENS,BENT,3850,True,Bellerive Country Club,BMW Championship
-greens_2,GREENS (2),POA,2142,True,Bellerive Country Club,BMW Championship
-fairways,FAIRWAYS,BERMUDA,3118,False,Bellerive Country Club,BMW Championship
-length,LENGTH,LONG,4601,False,Bellerive Country Club,BMW Championship
-par,PAR,70.0,3644,False,Bellerive Country Club,BMW Championship
-scoring,SCORING,HARD,4941,False,Bellerive Country Club,BMW Championship
-weather,WEATHER,FAIR,2711,False,Bellerive Country Club,BMW Championship
-type,TYPE,FULL,7067,False,Bellerive Country Club,BMW Championship
-fairway_width,FAIRWAY WIDTH,SMALL,4043,False,Bellerive Country Club,BMW Championship
-green_width,GREEN WIDTH,SMALL,7771,True,Bellerive Country Club,BMW Championship
-green_speeds,GREEN SPEEDS,13.0,1444,True,Bellerive Country Club,BMW Championship
-green_speeds_1,GREEN SPEEDS.1,FAST,2317,True,Bellerive Country Club,BMW Championship
-rough_length,ROUGH LENGTH,THICK,4165,False,Bellerive Country Club,BMW Championship
-water_hazards,WATER HAZARDS,4.0,1564,False,Bellerive Country Club,BMW Championship
-rough_amount,ROUGH AMOUNT,NORMAL,3958,False,Bellerive Country Club,BMW Championship
-bunkers,BUNKERS,74.0,1035,False,Bellerive Country Club,BMW Championship
-location,LOCATION,NORTH CAROLINA,1022,False,Bellerive Country Club,BMW Championship
-redesigned,Redesigned,KRIS SPENCER,365,False,Bellerive Country Club,BMW Championship
-drainage,DRAINAGE,GOOD,3866,False,Bellerive Country Club,BMW Championship
-rain,RAIN,NO,7861,False,Bellerive Country Club,BMW Championship
+designer,DESIGNER,TOM FAZIO,912,False,East Lake Golf Club,TOUR Championship
+style,STYLE,PARKLAND,4486,False,East Lake Golf Club,TOUR Championship
+greens,GREENS,BENT,2496,True,East Lake Golf Club,TOUR Championship
+greens_2,GREENS (2),POA,1360,True,East Lake Golf Club,TOUR Championship
+fairways,FAIRWAYS,BERMUDA,2396,False,East Lake Golf Club,TOUR Championship
+length,LENGTH,LONG,3388,False,East Lake Golf Club,TOUR Championship
+par,PAR,72.0,2890,False,East Lake Golf Club,TOUR Championship
+scoring,SCORING,HARD,3612,False,East Lake Golf Club,TOUR Championship
+weather,WEATHER,FAIR,2160,False,East Lake Golf Club,TOUR Championship
+type,TYPE,FULL,5068,False,East Lake Golf Club,TOUR Championship
+fairway_width,FAIRWAY WIDTH,SMALL,3472,False,East Lake Golf Club,TOUR Championship
+green_width,GREEN WIDTH,SMALL,6267,True,East Lake Golf Club,TOUR Championship
+green_speeds,GREEN SPEEDS,13.0,981,True,East Lake Golf Club,TOUR Championship
+green_speeds_1,GREEN SPEEDS.1,FAST,1578,True,East Lake Golf Club,TOUR Championship
+rough_length,ROUGH LENGTH,THICK,2973,False,East Lake Golf Club,TOUR Championship
+water_hazards,WATER HAZARDS,1.0,1168,False,East Lake Golf Club,TOUR Championship
+rough_amount,ROUGH AMOUNT,NORMAL,2836,False,East Lake Golf Club,TOUR Championship
+bunkers,BUNKERS,74.0,691,False,East Lake Golf Club,TOUR Championship
+location,LOCATION,CALIFORNIA,1219,False,East Lake Golf Club,TOUR Championship
+redesigned,Redesigned,REES JONES,404,False,East Lake Golf Club,TOUR Championship
+drainage,DRAINAGE,GOOD,3271,False,East Lake Golf Club,TOUR Championship
+rain,RAIN,NO,6146,False,East Lake Golf Club,TOUR Championship

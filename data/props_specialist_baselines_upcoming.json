@@ -7,7 +7,7 @@
       "key": "designer",
       "label": "DESIGNER",
       "value": "DONALD ROSS",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -25,7 +25,7 @@
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 410,
+      "count": 208,
       "green": true,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -34,7 +34,7 @@
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "CHAMPION",
-      "count": 410,
+      "count": 208,
       "green": true,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "70.0",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -70,7 +70,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 253,
+      "count": 137,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -79,7 +79,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "GREAT",
-      "count": 197,
+      "count": 123,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -97,7 +97,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 410,
+      "count": 208,
       "green": true,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -115,7 +115,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "NORMAL",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -124,7 +124,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "5.0",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -133,7 +133,7 @@
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -142,7 +142,7 @@
       "key": "bunkers",
       "label": "BUNKERS",
       "value": "52.0",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -151,7 +151,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "NORTH CAROLINA",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -160,7 +160,7 @@
       "key": "redesigned",
       "label": "Redesigned",
       "value": "KRIS SPENCER",
-      "count": 365,
+      "count": 183,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -169,7 +169,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "BAD",
-      "count": 410,
+      "count": 208,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
@@ -178,19 +178,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 365,
+      "count": 183,
       "green": false,
       "course_name": "SEDGEFIELD",
       "event_name": "Wyndham Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.9664,
-    "strokes": 69.8919,
-    "bogeys": 2.2492,
-    "pars": 11.2953,
-    "fw_pct": 60.9397,
-    "gir_pct": 66.8653,
+    "birdies_plus": 3.9832,
+    "strokes": 69.7953,
+    "bogeys": 2.2594,
+    "pars": 11.1439,
+    "fw_pct": 61.0478,
+    "gir_pct": 67.1612,
     "n_rounds_sample": 8000,
     "window": "24"
   },

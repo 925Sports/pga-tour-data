@@ -1,51 +1,31 @@
 player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3,spec_rank
-"Scheffler, Scottie",Bellerive Country Club,29,273,1.857,15.33,1,17.2,4|CUT|4,2
-"Schauffele, Xander",Bellerive Country Club,32,338,1.512,15.93,1,9.4,2|18|CUT,3
-"McIlroy, Rory",Bellerive Country Club,29,353,2.052,14.31,1,7.1,40|7|32,1
-"Fleetwood, Tommy",Bellerive Country Club,34,347,1.276,24.5,2,5.9,4|13|11,7
-"Cantlay, Patrick",Bellerive Country Club,25,270,1.422,14.86,1,16.0,8|28|CUT,5
-"Hovland, Viktor",Bellerive Country Club,33,301,1.348,17.28,1,12.1,CUT|13|CUT,6
-"Matsuyama, Hideki",Bellerive Country Club,34,376,0.797,29.07,1,9.1,7|5|14,20
-"Fitzpatrick, Matt",Bellerive Country Club,23,179,0.992,23.32,1,17.4,CUT|3|22,11
-"Brennan, Michael",Bellerive Country Club,15,51,0.544,37.09,1,26.7,1|15|53,33
-"Kim, Tom",Bellerive Country Club,24,167,0.658,22.63,1,20.8,5|CUT|1,27
-"Burns, Sam",Bellerive Country Club,37,305,0.926,16.7,1,22.9,3|2|4,14
-"Henley, Russell",Bellerive Country Club,35,308,0.976,25.93,1,20.0,20|9|65,12
-"Aberg, Ludvig",Bellerive Country Club,22,153,1.435,16.95,1,4.8,9|CUT|17,4
-"Thorbjornsen, Michael",Bellerive Country Club,18,80,0.837,23.1,1,44.4,1|40|7,18
-"Rose, Justin",Bellerive Country Club,33,283,0.645,26.5,3,21.2,CUT|11|12,28
-"Scott, Adam",Bellerive Country Club,34,314,0.778,26.0,4,11.8,9|66|CUT,21
-"Young, Cameron",Bellerive Country Club,30,229,0.976,23.46,1,20.0,61|8|2,13
-"MacIntyre, Robert",Bellerive Country Club,35,228,0.819,27.08,1,23.5,28|3|39,19
-"Gotterup, Chris",Bellerive Country Club,48,212,0.862,26.56,1,23.4,CUT|18|11,16
-"Fowler, Rickie",Bellerive Country Club,30,304,0.693,24.24,1,16.7,8|18|CUT,24
-"Im, Sungjae",Bellerive Country Club,50,425,0.864,20.9,2,20.4,14|15|14,15
-"Morikawa, Collin",Bellerive Country Club,34,305,1.26,18.17,1,12.1,18|17|55,8
-"Clark, Wyndham",Bellerive Country Club,42,284,0.425,19.08,1,42.9,CUT|CUT|13,36
-"Rai, Aaron",Bellerive Country Club,40,261,0.858,23.55,1,22.5,29|CUT|CUT,17
-"Bridgeman, Jacob",Bellerive Country Club,51,228,0.663,27.34,1,18.0,26|28|39,26
-"Thomas, Justin",Bellerive Country Club,36,332,1.145,17.85,1,5.6,14|65|50,9
-"Griffin, Ben",Bellerive Country Club,39,222,1.066,22.39,2,28.2,CUT|CUT|59,10
-"McCarty, Matt",Bellerive Country Club,51,281,0.776,25.56,1,28.0,29|50|CUT,22
-"Spaun, J.J.",Bellerive Country Club,43,318,0.33,35.03,3,20.9,50|40|44,44
-"Bhatia, Akshay",Bellerive Country Club,41,215,0.351,24.92,1,39.0,CUT|CUT|17,40
-"Cole, Eric",Bellerive Country Club,46,268,0.518,24.48,2,31.1,29|CUT|53,35
-"Kim, Si Woo",Bellerive Country Club,37,378,0.306,32.67,5,8.3,42|6|9,46
-"Noren, Alex",Bellerive Country Club,40,308,0.629,25.94,1,20.0,7|18|CUT,30
-"Hojgaard, Nicolai",Bellerive Country Club,29,175,0.361,25.33,2,37.9,61|CUT|26,39
-"Kitayama, Kurt",Bellerive Country Club,38,227,0.264,32.33,2,36.8,40|44|53,47
-"Fox, Ryan",Bellerive Country Club,33,235,0.671,29.59,1,18.2,1|30|23,25
-"Fitzpatrick, Alex",Bellerive Country Club,23,101,0.337,32.33,2,31.8,61|71|CUT,42
-"McNealy, Maverick",Bellerive Country Club,39,258,0.643,25.83,1,25.6,25|CUT|32,29
-"Woodland, Gary",Bellerive Country Club,37,282,0.332,32.42,5,29.7,CUT|7|36,43
-"Gerard, Ryan",Bellerive Country Club,55,240,0.694,27.05,1,31.5,CUT|8|9,23
-"Knapp, Jake",Bellerive Country Club,47,190,0.551,25.6,5,34.8,CUT|CUT|CUT,32
-"Echavarria, Nico",Bellerive Country Club,26,146,0.398,27.77,1,50.0,12|CUT|67,37
-"Reitan, Kristoffer",Bellerive Country Club,20,66,0.532,19.7,1,50.0,18|CUT|CUT,34
-"Poston, J.T.",Bellerive Country Club,34,321,0.343,26.0,1,38.2,CUT|CUT|4,41
-"Cauley, Bud",Bellerive Country Club,32,186,0.242,35.45,5,31.2,54|18|CUT,48
-"Lee, Min Woo",Bellerive Country Club,20,142,0.363,19.27,2,25.0,59|2|CUT,38
-"Straka, Sepp",Bellerive Country Club,51,372,0.161,37.32,2,33.3,CUT|67|CUT,49
-"Hisatsune, Ryo",Bellerive Country Club,31,150,0.118,36.36,6,29.0,CUT|50|53,50
-"Theegala, Sahith",Bellerive Country Club,33,250,0.326,34.83,2,12.1,49|53|66,45
-"Smalley, Alex",Bellerive Country Club,32,204,0.556,25.0,2,21.9,7|53|CUT,31
+"Scheffler, Scottie",East Lake Golf Club,37,338,1.914,14.72,1,13.5,4|CUT|4,2
+"Schauffele, Xander",East Lake Golf Club,38,407,1.474,15.91,1,10.5,2|18|CUT,3
+"McIlroy, Rory",East Lake Golf Club,37,419,1.985,14.88,1,5.6,40|7|32,1
+"Fleetwood, Tommy",East Lake Golf Club,45,472,1.307,23.88,2,6.7,4|13|11,6
+"Cantlay, Patrick",East Lake Golf Club,29,339,1.41,15.5,1,17.2,8|28|CUT,4
+"Hovland, Viktor",East Lake Golf Club,40,370,1.23,18.34,1,12.5,CUT|13|CUT,8
+"Matsuyama, Hideki",East Lake Golf Club,40,435,0.867,26.88,1,10.5,7|5|14,13
+"Fitzpatrick, Matt",East Lake Golf Club,27,228,0.948,22.18,1,15.4,CUT|3|22,10
+"Kim, Tom",East Lake Golf Club,29,196,0.634,25.65,1,20.7,5|CUT|1,21
+"Burns, Sam",East Lake Golf Club,43,363,0.936,15.88,1,20.0,3|2|4,11
+"Henley, Russell",East Lake Golf Club,41,369,1.035,22.85,1,19.5,20|9|65,9
+"Aberg, Ludvig",East Lake Golf Club,29,203,1.326,17.54,1,7.1,9|CUT|17,5
+"Rose, Justin",East Lake Golf Club,42,374,0.791,23.03,1,19.0,CUT|11|12,14
+"Scott, Adam",East Lake Golf Club,42,360,0.784,25.84,3,9.8,9|66|CUT,15
+"Young, Cameron",East Lake Golf Club,36,276,0.728,25.71,1,22.2,61|8|2,16
+"MacIntyre, Robert",East Lake Golf Club,49,320,0.688,24.22,1,22.9,28|3|39,18
+"Gotterup, Chris",East Lake Golf Club,52,248,0.894,26.05,1,21.6,CUT|18|11,12
+"Morikawa, Collin",East Lake Golf Club,41,382,1.273,15.92,1,10.0,18|17|55,7
+"Clark, Wyndham",East Lake Golf Club,52,382,0.487,21.25,1,38.5,CUT|CUT|13,24
+"Bridgeman, Jacob",East Lake Golf Club,56,256,0.652,27.5,1,16.4,26|28|39,20
+"Spaun, J.J.",East Lake Golf Club,49,388,0.3,34.31,3,20.4,50|40|44,30
+"Bhatia, Akshay",East Lake Golf Club,48,267,0.46,23.48,1,35.4,CUT|CUT|17,26
+"Kim, Si Woo",East Lake Golf Club,44,456,0.395,30.69,2,9.3,42|6|9,28
+"Fox, Ryan",East Lake Golf Club,55,357,0.697,27.8,1,18.2,1|30|23,17
+"Fitzpatrick, Alex",East Lake Golf Club,35,152,0.462,31.84,2,26.5,61|71|CUT,25
+"Woodland, Gary",East Lake Golf Club,44,346,0.351,30.68,1,29.5,CUT|7|36,29
+"Gerard, Ryan",East Lake Golf Club,61,274,0.678,28.64,1,30.0,CUT|8|9,19
+"Reitan, Kristoffer",East Lake Golf Club,33,107,0.526,18.06,1,48.5,18|CUT|CUT,22
+"Lee, Min Woo",East Lake Golf Club,25,184,0.433,20.95,2,20.0,59|2|CUT,27
+"Smalley, Alex",East Lake Golf Club,40,270,0.526,23.39,2,22.5,7|53|CUT,23

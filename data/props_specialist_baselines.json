@@ -1,214 +1,214 @@
 {
-  "course_name": "Bellerive Country Club",
-  "event_name": "BMW Championship",
-  "trait_sig": "DESIGNER:DONALD ROSS | STYLE:PARKLAND | GREENS:BENT | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:70.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:13.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:THICK | WATER HAZARDS:4.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:NORTH CAROLINA | Redesigned:KRIS SPENCER | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "East Lake Golf Club",
+  "event_name": "TOUR Championship",
+  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BENT | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:13.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:THICK | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:CALIFORNIA | Redesigned:REES JONES | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "DONALD ROSS",
-      "count": 1377,
+      "value": "TOM FAZIO",
+      "count": 912,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 6158,
+      "count": 4486,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "greens",
       "label": "GREENS",
       "value": "BENT",
-      "count": 3850,
+      "count": 2496,
       "green": true,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "POA",
-      "count": 2142,
+      "count": 1360,
       "green": true,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 3118,
+      "count": 2396,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 4601,
+      "count": 3388,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "par",
       "label": "PAR",
-      "value": "70.0",
-      "count": 3644,
+      "value": "72.0",
+      "count": 2890,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "scoring",
       "label": "SCORING",
       "value": "HARD",
-      "count": 4941,
+      "count": 3612,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 2711,
+      "count": 2160,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 7067,
+      "count": 5068,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 4043,
+      "count": 3472,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 7771,
+      "count": 6267,
       "green": true,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "13.0",
-      "count": 1444,
+      "count": 981,
       "green": true,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "FAST",
-      "count": 2317,
+      "count": 1578,
       "green": true,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "THICK",
-      "count": 4165,
+      "count": 2973,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "4.0",
-      "count": 1564,
+      "value": "1.0",
+      "count": 1168,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 3958,
+      "count": 2836,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
       "value": "74.0",
-      "count": 1035,
+      "count": 691,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "NORTH CAROLINA",
-      "count": 1022,
+      "value": "CALIFORNIA",
+      "count": 1219,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "redesigned",
       "label": "Redesigned",
-      "value": "KRIS SPENCER",
-      "count": 365,
+      "value": "REES JONES",
+      "count": 404,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 3866,
+      "count": 3271,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 7861,
+      "count": 6146,
       "green": false,
-      "course_name": "Bellerive Country Club",
-      "event_name": "BMW Championship"
+      "course_name": "East Lake Golf Club",
+      "event_name": "TOUR Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.9664,
-    "strokes": 69.8919,
-    "bogeys": 2.2492,
-    "pars": 11.2953,
-    "fw_pct": 60.9397,
-    "gir_pct": 66.8653,
+    "birdies_plus": 3.9832,
+    "strokes": 69.7953,
+    "bogeys": 2.2594,
+    "pars": 11.1439,
+    "fw_pct": 61.0478,
+    "gir_pct": 67.1612,
     "n_rounds_sample": 8000,
     "window": "24"
   },
