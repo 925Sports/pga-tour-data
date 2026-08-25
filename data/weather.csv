@@ -1,5 +1,5 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Bellerive Country Club | Updated: 8/24/2026, 7:55:18 PM",,,,,,,,,,,
+BMW Championship – Hourly Weather Forecast,,,,,,,,,,,
+"Location: Bellerive Country Club | Updated: 8/24/2026, 10:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Mon Aug 24,12:00 AM,67,68.6,0,0,Clear,2.6,5.6,NNW,0,73
@@ -22,31 +22,31 @@ Mon Aug 24,4:00 PM,85.2,90,0,0,Partly Cloudy,3.6,5.4,WSW,71,43
 Mon Aug 24,5:00 PM,83.2,86.7,1,0,Overcast,1.5,3.1,NNE,100,44
 Mon Aug 24,6:00 PM,80.1,81,5,0,Overcast,6,7.6,NE,99,51
 Mon Aug 24,7:00 PM,75.5,79.6,20,0,Overcast,5.1,14.3,NE,100,74
-Mon Aug 24,8:00 PM,74.2,78.3,21,0,Overcast,3.8,11,NE,100,74
-Mon Aug 24,9:00 PM,73.5,78.5,9,0,Overcast,3.4,8.7,NNE,100,80
-Mon Aug 24,10:00 PM,72.4,77.8,9,0,Overcast,2.1,8.3,NNE,100,82
-Mon Aug 24,11:00 PM,71.4,75.3,5,0,Partly Cloudy,4.1,12.1,ENE,60,81
-Tue Aug 25,12:00 AM,70,73.2,1,0,Clear,4.3,11.9,E,2,81
-Tue Aug 25,1:00 AM,68.7,71,1,0,Clear,4.5,10.7,E,8,79
-Tue Aug 25,2:00 AM,68,70.4,1,0,Clear,3.8,9.6,E,6,80
-Tue Aug 25,3:00 AM,67.9,71,1,0,Partly Cloudy,2.9,8.3,E,66,82
-Tue Aug 25,4:00 AM,68.4,71.8,1,0,Overcast,2.5,7.4,ENE,100,82
-Tue Aug 25,5:00 AM,68,70.6,1,0,Overcast,3.8,9.4,E,100,81
-Tue Aug 25,6:00 AM,67.8,70.4,1,0,Overcast,3.6,8.5,E,100,81
-Tue Aug 25,7:00 AM,67.7,70.7,1,0,Overcast,2.9,7.2,E,100,82
-Tue Aug 25,8:00 AM,67.6,70.1,1,0,Overcast,3.4,7.8,E,100,81
-Tue Aug 25,9:00 AM,68.6,70.3,1,0,Overcast,5.5,15.7,SE,84,78
-Tue Aug 25,10:00 AM,72.1,74.1,1,0,Overcast,5.2,13.6,SE,100,71
-Tue Aug 25,11:00 AM,74.7,77.2,1,0,Overcast,4.6,11.4,SE,97,66
-Tue Aug 25,12:00 PM,77.8,80.3,2,0,Mainly Clear,5.2,9.6,SE,44,59
-Tue Aug 25,1:00 PM,80.9,82.7,2,0,Overcast,6.5,9.6,SE,100,52
-Tue Aug 25,2:00 PM,85.9,89.7,2,0,Clear,5.1,6,SE,12,40
-Tue Aug 25,3:00 PM,87.4,91.5,2,0,Clear,5.2,6,SE,10,39
-Tue Aug 25,4:00 PM,88.3,92.5,2,0,Clear,5.7,6.5,SE,6,40
-Tue Aug 25,5:00 PM,88.4,91,2,0,Overcast,5.4,6.5,SE,100,40
-Tue Aug 25,6:00 PM,88,89.9,2,0,Overcast,4.7,5.1,SE,100,41
-Tue Aug 25,7:00 PM,86.9,88.2,1,0,Overcast,5.9,6.9,SE,100,42
-Tue Aug 25,8:00 PM,84.4,86,1,0,Overcast,5.5,8.9,SE,100,46
-Tue Aug 25,9:00 PM,80.3,82.4,1,0,Overcast,4.7,9.4,SE,98,53
-Tue Aug 25,10:00 PM,77.7,80,1,0,Overcast,4.2,10.7,ESE,100,58
-Tue Aug 25,11:00 PM,76,78.2,1,0,Overcast,4.3,10.5,SE,100,61
+Mon Aug 24,8:00 PM,73.7,77.3,21,0,Overcast,3.5,13.9,NE,100,72
+Mon Aug 24,9:00 PM,71.9,77.5,6,0,Overcast,1.4,5.4,N,100,83
+Mon Aug 24,10:00 PM,71.2,75.9,14,0,Partly Cloudy,3,7.4,NE,76,83
+Mon Aug 24,11:00 PM,70.3,73.8,3,0,Clear,3.3,8.7,ENE,0,80
+Tue Aug 25,12:00 AM,68.6,71.9,1,0,Clear,4.3,10.5,E,0,85
+Tue Aug 25,1:00 AM,67.8,70.5,1,0,Clear,4.7,11.2,E,0,85
+Tue Aug 25,2:00 AM,66.9,69.5,0,0,Clear,4.1,11.4,ENE,0,85
+Tue Aug 25,3:00 AM,66.3,68.7,0,0,Clear,3.8,9.6,E,0,85
+Tue Aug 25,4:00 AM,65.6,67.9,1,0,Clear,3.4,7.6,ENE,0,85
+Tue Aug 25,5:00 AM,64.9,67,1,0,Clear,3.8,7.6,ENE,0,87
+Tue Aug 25,6:00 AM,64,66,1,0,Clear,3.9,8.9,ENE,5,88
+Tue Aug 25,7:00 AM,63.6,65.5,1,0,Overcast,3.9,8.5,E,87,89
+Tue Aug 25,8:00 AM,63.7,65.8,1,0,Overcast,3.1,7.2,ESE,96,88
+Tue Aug 25,9:00 AM,66.3,67.5,1,0,Mainly Clear,5.5,14.8,SE,20,81
+Tue Aug 25,10:00 AM,69.8,71.1,1,0,Clear,5.6,13.9,SE,0,73
+Tue Aug 25,11:00 AM,73.5,75.3,1,0,Clear,5.5,11.6,SE,0,67
+Tue Aug 25,12:00 PM,77.5,80.1,1,0,Clear,7,10.5,SE,0,58
+Tue Aug 25,1:00 PM,81.4,85.6,1,0,Clear,5.4,7.2,SE,6,50
+Tue Aug 25,2:00 PM,84.2,89.1,1,0,Clear,5.1,6.3,SE,3,45
+Tue Aug 25,3:00 PM,86.2,91.7,1,0,Clear,4.6,5.4,SE,3,44
+Tue Aug 25,4:00 PM,87.4,92.7,2,0,Overcast,4,6.3,SE,100,43
+Tue Aug 25,5:00 PM,88.2,93.6,2,0,Overcast,2.7,5.1,ESE,100,45
+Tue Aug 25,6:00 PM,88.2,91.5,2,0,Overcast,3.5,6.3,ESE,100,44
+Tue Aug 25,7:00 PM,86.9,89.6,1,0,Overcast,4.5,5.1,ESE,100,45
+Tue Aug 25,8:00 PM,84.3,86.7,1,0,Overcast,5.9,9.6,SE,99,50
+Tue Aug 25,9:00 PM,80.2,83.1,1,0,Overcast,4.7,9.4,ESE,100,57
+Tue Aug 25,10:00 PM,77.8,81.1,1,0,Overcast,4,10.3,SE,100,62
+Tue Aug 25,11:00 PM,76.4,79.7,1,0,Overcast,3.4,8.9,E,100,64
