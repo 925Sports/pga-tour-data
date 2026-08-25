@@ -1,187 +1,31 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Scottie Scheffler,14000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43930074,08/27/2026 11:00 AM,2026-08-25T17:59:03.928627Z
-Rory McIlroy,11000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43930075,08/27/2026 11:00 AM,2026-08-25T17:59:03.928649Z
-Tyrrell Hatton,10800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43940811,08/27/2026 2:30 AM,2026-08-25T17:59:03.928658Z
-Patrick Reed,10600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/976.png,782,43940812,08/27/2026 2:30 AM,2026-08-25T17:59:03.928666Z
-Matt Wallace,10200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,43940813,08/27/2026 2:30 AM,2026-08-25T17:59:03.928673Z
-Xander Schauffele,10000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43930076,08/27/2026 11:00 AM,2026-08-25T17:59:03.928679Z
-Marco Penge,10000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,698887,43940814,08/27/2026 2:30 AM,2026-08-25T17:59:03.928685Z
-Keita Nakajima,9800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/japan.png,699011,43940815,08/27/2026 2:30 AM,2026-08-25T17:59:03.928695Z
-Ludvig Åberg,9700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,43930077,08/27/2026 11:00 AM,2026-08-25T17:59:03.928707Z
-Tom McKibbin,9600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43940816,08/27/2026 2:30 AM,2026-08-25T17:59:03.928713Z
-Wyndham Clark,9400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,43930078,08/27/2026 11:00 AM,2026-08-25T17:59:03.928720Z
-Oliver Lindell,9400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/finland.png,230887,43940817,08/27/2026 2:30 AM,2026-08-25T17:59:03.928726Z
-Eugenio Lopez-Chacarra,9300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,696842,43940818,08/27/2026 2:30 AM,2026-08-25T17:59:03.928732Z
-Sam Burns,9200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/582.png,1154,43930079,08/27/2026 11:00 AM,2026-08-25T17:59:03.928738Z
-Angel Ayora Fanegas,9200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768633,43940819,08/27/2026 2:30 AM,2026-08-25T17:59:03.928745Z
-Ewen Ferguson,9100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,290967,43940820,08/27/2026 2:30 AM,2026-08-25T17:59:03.928750Z
-Tommy Fleetwood,9000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43930080,08/27/2026 11:00 AM,2026-08-25T17:59:03.928756Z
-Harry Hall,9000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,43940821,08/27/2026 2:30 AM,2026-08-25T17:59:03.928761Z
-Patrick Cantlay,8900,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43930081,08/27/2026 11:00 AM,2026-08-25T17:59:03.928767Z
-Daniel Hillier,8900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/new_zealand.png,696565,43940822,08/27/2026 2:30 AM,2026-08-25T17:59:03.928772Z
-Jacob Skov Olesen,8800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,797154,43940823,08/27/2026 2:30 AM,2026-08-25T17:59:03.928782Z
-Casey Jarvis,8700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,700282,43940824,08/27/2026 2:30 AM,2026-08-25T17:59:03.928787Z
-Daniel Brown,8600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,769318,43940825,08/27/2026 2:30 AM,2026-08-25T17:59:03.928791Z
-Cameron Young,8500,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43930082,08/27/2026 11:00 AM,2026-08-25T17:59:03.928796Z
-Andy Sullivan,8500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,43940826,08/27/2026 2:30 AM,2026-08-25T17:59:03.928801Z
-Matthew Jordan,8400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,43940827,08/27/2026 2:30 AM,2026-08-25T17:59:03.928806Z
-Thorbjørn Olesen,8300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/756.png,437,43940828,08/27/2026 2:30 AM,2026-08-25T17:59:03.928815Z
-Hennie Du Plessis,8200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,354076,43940829,08/27/2026 2:30 AM,2026-08-25T17:59:03.928821Z
-Collin Morikawa,8100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/789.png,300102,43930083,08/27/2026 11:00 AM,2026-08-25T17:59:03.928827Z
-John Parry,8100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,43940830,08/27/2026 2:30 AM,2026-08-25T17:59:03.928832Z
-Calum Hill,8000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,43940831,08/27/2026 2:30 AM,2026-08-25T17:59:03.928837Z
-Jayden Trey Schaper,8000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,700083,43940832,08/27/2026 2:30 AM,2026-08-25T17:59:03.928843Z
-Chris Gotterup,7900,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43930084,08/27/2026 11:00 AM,2026-08-25T17:59:03.928848Z
-Thomas Rosenmueller,7900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,43940833,08/27/2026 2:30 AM,2026-08-25T17:59:03.928856Z
-Marcus Armitage,7900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,344989,43940834,08/27/2026 2:30 AM,2026-08-25T17:59:03.928861Z
-Matt Fitzpatrick,7800,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43930085,08/27/2026 11:00 AM,2026-08-25T17:59:03.928866Z
-Antoine Rozner,7800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,43940835,08/27/2026 2:30 AM,2026-08-25T17:59:03.928871Z
-Mikael Lindberg,7800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,769321,43940836,08/27/2026 2:30 AM,2026-08-25T17:59:03.928876Z
-Jorge Campillo,7800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/910.png,1023,43940837,08/27/2026 2:30 AM,2026-08-25T17:59:03.928881Z
-Si Woo Kim,7700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/870.png,1284,43930086,08/27/2026 11:00 AM,2026-08-25T17:59:03.928887Z
-Richard Mansell,7700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,702169,43940838,08/27/2026 2:30 AM,2026-08-25T17:59:03.928894Z
-Shaun Norris,7700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1193.png,861,43940839,08/27/2026 2:30 AM,2026-08-25T17:59:03.928899Z
-Dan Bradbury,7700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,766740,43940840,08/27/2026 2:30 AM,2026-08-25T17:59:03.928904Z
-Hideki Matsuyama,7600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43930087,08/27/2026 11:00 AM,2026-08-25T17:59:03.928909Z
-Matthieu Pavon,7600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,43940841,08/27/2026 2:30 AM,2026-08-25T17:59:03.928914Z
-Romain Langasque,7600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/688.png,1090,43940842,08/27/2026 2:30 AM,2026-08-25T17:59:03.928919Z
-Hao-Tong Li,7600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,43940843,08/27/2026 2:30 AM,2026-08-25T17:59:03.928924Z
-Julien Guerrier,7600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,43940844,08/27/2026 2:30 AM,2026-08-25T17:59:03.928929Z
-Russell Henley,7500,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43930088,08/27/2026 11:00 AM,2026-08-25T17:59:03.928935Z
-Bernd Wiesberger,7500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/718.png,479,43940845,08/27/2026 2:30 AM,2026-08-25T17:59:03.928940Z
-Matteo Manassero,7500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60495.png,421,43940846,08/27/2026 2:30 AM,2026-08-25T17:59:03.928944Z
-Tom Vaillant,7500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,768110,43940847,08/27/2026 2:30 AM,2026-08-25T17:59:03.928949Z
-Todd Clements,7500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,670556,43940848,08/27/2026 2:30 AM,2026-08-25T17:59:03.928956Z
-Ryan Gerard,7400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43930089,08/27/2026 11:00 AM,2026-08-25T17:59:03.928962Z
-Niklas Nørgaard Møller,7400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,43940849,08/27/2026 2:30 AM,2026-08-25T17:59:03.928970Z
-Kazuma Kobori,7400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/new_zealand.png,776760,43940850,08/27/2026 2:30 AM,2026-08-25T17:59:03.928975Z
-Alejandro Del Rey,7400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,670992,43940851,08/27/2026 2:30 AM,2026-08-25T17:59:03.928980Z
-Kiradech Aphibarnrat,7400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1110.png,655,43940852,08/27/2026 2:30 AM,2026-08-25T17:59:03.928986Z
-Joost Luiten,7400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/810.png,383,43940853,08/27/2026 2:30 AM,2026-08-25T17:59:03.928990Z
-Viktor Hovland,7300,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43930090,08/27/2026 11:00 AM,2026-08-25T17:59:03.928997Z
-Jeff Winther,7300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,581,43940854,08/27/2026 2:30 AM,2026-08-25T17:59:03.929002Z
-Yanhan Zhou,7300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/china.png,795440,43940855,08/27/2026 2:30 AM,2026-08-25T17:59:03.929007Z
-Joe Dean,7300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,544869,43940856,08/27/2026 2:30 AM,2026-08-25T17:59:03.929012Z
-Oihan Guillamoundeguy,7300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,768105,43940857,08/27/2026 2:30 AM,2026-08-25T17:59:03.929017Z
-Marcus Kinhult,7300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1011.png,927,43940858,08/27/2026 2:30 AM,2026-08-25T17:59:03.929022Z
-J.J. Spaun,7200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43930091,08/27/2026 11:00 AM,2026-08-25T17:59:03.929028Z
-Brandon Stone,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/877.png,181,43940859,08/27/2026 2:30 AM,2026-08-25T17:59:03.929033Z
-Ugo Coussaud,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,694555,43940860,08/27/2026 2:30 AM,2026-08-25T17:59:03.929038Z
-Thriston Lawrence,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,43940861,08/27/2026 2:30 AM,2026-08-25T17:59:03.929043Z
-Francesco Laporta,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/69807.png,259,43940862,08/27/2026 2:30 AM,2026-08-25T17:59:03.929050Z
-Sam Bairstow,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,722206,43940863,08/27/2026 2:30 AM,2026-08-25T17:59:03.929055Z
-Davis Bryant,7200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,819151,43940864,08/27/2026 2:30 AM,2026-08-25T17:59:03.929060Z
-Robert MacIntyre,7100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/822.png,670464,43930092,08/27/2026 11:00 AM,2026-08-25T17:59:03.929066Z
-Erik Van Rooyen,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,43940865,08/27/2026 2:30 AM,2026-08-25T17:59:03.929071Z
-Kota Kaneko,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/japan.png,858837,43940866,08/27/2026 2:30 AM,2026-08-25T17:59:03.929076Z
-Paul Waring,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,43940867,08/27/2026 2:30 AM,2026-08-25T17:59:03.929081Z
-Daniel Van Tonder,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,380,43940868,08/27/2026 2:30 AM,2026-08-25T17:59:03.929089Z
-JC Ritchie,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,43940869,08/27/2026 2:30 AM,2026-08-25T17:59:03.929096Z
-Wenyi Ding,7100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/china.png,769378,43940870,08/27/2026 2:30 AM,2026-08-25T17:59:03.929102Z
-Jacob Bridgeman,7000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43930093,08/27/2026 11:00 AM,2026-08-25T17:59:03.929109Z
-Marcus Helligkilde,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,702176,43940871,08/27/2026 2:30 AM,2026-08-25T17:59:03.929114Z
-Manuel Elvira,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,769413,43940872,08/27/2026 2:30 AM,2026-08-25T17:59:03.929119Z
-David Ravetto,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,699574,43940873,08/27/2026 2:30 AM,2026-08-25T17:59:03.929124Z
-Gregorio De Leo,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/italy.png,753705,43940874,08/27/2026 2:30 AM,2026-08-25T17:59:03.929130Z
-Eddie Pepperell,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,43940875,08/27/2026 2:30 AM,2026-08-25T17:59:03.929135Z
-Jason Scrivener,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,43940876,08/27/2026 2:30 AM,2026-08-25T17:59:03.929140Z
-Guido Migliozzi,7000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60583.png,987,43940877,08/27/2026 2:30 AM,2026-08-25T17:59:03.929145Z
-Justin Rose,6900,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/734.png,625,43930094,08/27/2026 11:00 AM,2026-08-25T17:59:03.929150Z
-Grant Forrest,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,1393,43940878,08/27/2026 2:30 AM,2026-08-25T17:59:03.929154Z
-Darius Van Driel,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,43940879,08/27/2026 2:30 AM,2026-08-25T17:59:03.929160Z
-Freddy Schott,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/germany.png,721368,43940880,08/27/2026 2:30 AM,2026-08-25T17:59:03.929165Z
-Nacho Elvira,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,561,43940881,08/27/2026 2:30 AM,2026-08-25T17:59:03.929169Z
-Sebastian Soderberg,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60233.png,839,43940882,08/27/2026 2:30 AM,2026-08-25T17:59:03.929175Z
-Joakim Lagergren,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1153.png,673,43940883,08/27/2026 2:30 AM,2026-08-25T17:59:03.929180Z
-Andreas Halvorsen,6900,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/norway.png,566210,43940884,08/27/2026 2:30 AM,2026-08-25T17:59:03.929185Z
-Tom Kim,6800,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43930095,08/27/2026 11:00 AM,2026-08-25T17:59:03.929190Z
-Angel Hidalgo,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,670990,43940885,08/27/2026 2:30 AM,2026-08-25T17:59:03.929195Z
-Maximilian Steinlechner,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/austria.png,73304,43940886,08/27/2026 2:30 AM,2026-08-25T17:59:03.929200Z
-Joel Girrbach,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,43940887,08/27/2026 2:30 AM,2026-08-25T17:59:03.929208Z
-Frederic Lacroix,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,699576,43940888,08/27/2026 2:30 AM,2026-08-25T17:59:03.929213Z
-Adrian Meronk,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/poland.png,292342,43940889,08/27/2026 2:30 AM,2026-08-25T17:59:03.929218Z
-Filippo Celli,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/italy.png,753704,43940890,08/27/2026 2:30 AM,2026-08-25T17:59:03.929222Z
-Brandon Robinson-Thompson,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,701399,43940891,08/27/2026 2:30 AM,2026-08-25T17:59:03.929230Z
-Benjamin Schmidt,6800,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,723288,43940892,08/27/2026 2:30 AM,2026-08-25T17:59:03.929238Z
-Min Woo Lee,6700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43930096,08/27/2026 11:00 AM,2026-08-25T17:59:03.929259Z
-Scott Jamieson,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,43940893,08/27/2026 2:30 AM,2026-08-25T17:59:03.929263Z
-Marcel Schneider,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/germany.png,269380,43940894,08/27/2026 2:30 AM,2026-08-25T17:59:03.929268Z
-MJ Daffue,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,43940895,08/27/2026 2:30 AM,2026-08-25T17:59:03.929273Z
-Connor Syme,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,405819,43940896,08/27/2026 2:30 AM,2026-08-25T17:59:03.929278Z
-Danny Willett,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/792.png,199,43940897,08/27/2026 2:30 AM,2026-08-25T17:59:03.929284Z
-David Law,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,355,43940898,08/27/2026 2:30 AM,2026-08-25T17:59:03.929288Z
-Alexander Levy,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1060.png,1111,43940899,08/27/2026 2:30 AM,2026-08-25T17:59:03.929293Z
-Sean Crocker,6700,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/926.png,519953,43940900,08/27/2026 2:30 AM,2026-08-25T17:59:03.929298Z
-Gary Woodland,6600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/689.png,1055,43930097,08/27/2026 11:00 AM,2026-08-25T17:59:03.929303Z
-Félix Mory,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,702165,43940901,08/27/2026 2:30 AM,2026-08-25T17:59:03.929309Z
-Jens Dantorp,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,1152,43940902,08/27/2026 2:30 AM,2026-08-25T17:59:03.929314Z
-Euan Walker,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,698883,43940903,08/27/2026 2:30 AM,2026-08-25T17:59:03.929319Z
-Stefano Mazzoli,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/italy.png,122743,43940904,08/27/2026 2:30 AM,2026-08-25T17:59:03.929323Z
-Niklas Lemke,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,496763,43940905,08/27/2026 2:30 AM,2026-08-25T17:59:03.929331Z
-Yuto Katsuragawa,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,43940906,08/27/2026 2:30 AM,2026-08-25T17:59:03.929336Z
-Rikuya Hoshino,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/872.png,681998,43940907,08/27/2026 2:30 AM,2026-08-25T17:59:03.929341Z
-Michael Hollick,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,506,43940908,08/27/2026 2:30 AM,2026-08-25T17:59:03.929346Z
-Ross Fisher,6600,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/729.png,161,43940909,08/27/2026 2:30 AM,2026-08-25T17:59:03.929351Z
-Adam Scott,6500,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/875.png,2078,43930098,08/27/2026 11:00 AM,2026-08-25T17:59:03.929363Z
-Fabrizio Zanotti,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60715.png,356,43940910,08/27/2026 2:30 AM,2026-08-25T17:59:03.929371Z
-Renato Paratore,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/964.png,1187,43940911,08/27/2026 2:30 AM,2026-08-25T17:59:03.929380Z
-Kyoung-Hoon Lee,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/625.png,1491,43940912,08/27/2026 2:30 AM,2026-08-25T17:59:03.929391Z
-Sebastian Garcia Rodriguez,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,670993,43940913,08/27/2026 2:30 AM,2026-08-25T17:59:03.929401Z
-Luke List,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/719.png,559,43940914,08/27/2026 2:30 AM,2026-08-25T17:59:03.929410Z
-Rafa Cabrera Bello,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/868.png,984,43940915,08/27/2026 2:30 AM,2026-08-25T17:59:03.929416Z
-Ashun Wu,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/china.png,626,43940916,08/27/2026 2:30 AM,2026-08-25T17:59:03.929421Z
-Cameron Adam,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,851066,43940917,08/27/2026 2:30 AM,2026-08-25T17:59:03.929426Z
-Daniel Rodrigues,6500,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/portugal.png,699770,43940918,08/27/2026 2:30 AM,2026-08-25T17:59:03.929431Z
-Kristoffer Reitan,6400,TOUR Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,671051,43930099,08/27/2026 11:00 AM,2026-08-25T17:59:03.929436Z
-Jordan Gumberg,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,690517,43940919,08/27/2026 2:30 AM,2026-08-25T17:59:03.929441Z
-Marcel Siem,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,43940920,08/27/2026 2:30 AM,2026-08-25T17:59:03.929446Z
-Dylan Frittelli,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,43940921,08/27/2026 2:30 AM,2026-08-25T17:59:03.929451Z
-Zander Lombard,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1181.png,449,43940922,08/27/2026 2:30 AM,2026-08-25T17:59:03.929458Z
-Tobias Jonsson,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,772989,43940923,08/27/2026 2:30 AM,2026-08-25T17:59:03.929463Z
-Sadom Kaewkanjana,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/thailand.png,695714,43940924,08/27/2026 2:30 AM,2026-08-25T17:59:03.929468Z
-Quim Vidal,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,768542,43940925,08/27/2026 2:30 AM,2026-08-25T17:59:03.929473Z
-Johannes Veerman,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,250167,43940926,08/27/2026 2:30 AM,2026-08-25T17:59:03.929478Z
-Ivan Cantero Gutierrez,6400,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,162,43940927,08/27/2026 2:30 AM,2026-08-25T17:59:03.929486Z
-Alex Smalley,6300,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43930100,08/27/2026 11:00 AM,2026-08-25T17:59:03.929491Z
-Daniel Young,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/scotland.png,398,43940928,08/27/2026 2:30 AM,2026-08-25T17:59:03.929496Z
-Albin Bergstrom,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,698400,43940929,08/27/2026 2:30 AM,2026-08-25T17:59:03.929501Z
-Jeong-Weon Ko,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,699573,43940930,08/27/2026 2:30 AM,2026-08-25T17:59:03.929506Z
-Hugo Townsend,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,772986,43940931,08/27/2026 2:30 AM,2026-08-25T17:59:03.929511Z
-Jack Senior,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/740.png,474,43940932,08/27/2026 2:30 AM,2026-08-25T17:59:03.929516Z
-Rocco Repetto Taylor,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/spain.png,861890,43940933,08/27/2026 2:30 AM,2026-08-25T17:59:03.929522Z
-Shubhankar Sharma,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/893.png,402,43940934,08/27/2026 2:30 AM,2026-08-25T17:59:03.929527Z
-Frankie Capan,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/451339.png,1924,43940935,08/27/2026 2:30 AM,2026-08-25T17:59:03.929532Z
-Adri Arnaus,6300,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1074.png,670432,43940936,08/27/2026 2:30 AM,2026-08-25T17:59:03.929539Z
-Alex Fitzpatrick,6200,TOUR Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43930101,08/27/2026 11:00 AM,2026-08-25T17:59:03.929544Z
-James Morrison,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60676.png,543,43940937,08/27/2026 2:30 AM,2026-08-25T17:59:03.929549Z
-Yurav Premlall,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,43940938,08/27/2026 2:30 AM,2026-08-25T17:59:03.929554Z
-John Gough,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,766878,43940939,08/27/2026 2:30 AM,2026-08-25T17:59:03.929559Z
-Junghwan Lee,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_korea.png,669783,43940940,08/27/2026 2:30 AM,2026-08-25T17:59:03.929566Z
-Pablo Larrazábal,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60659.png,465,43940941,08/27/2026 2:30 AM,2026-08-25T17:59:03.929573Z
-Michael Mjaaseth,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/norway.png,854123,43940942,08/27/2026 2:30 AM,2026-08-25T17:59:03.929578Z
-Anthony Quayle,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/australia.png,591733,43940943,08/27/2026 2:30 AM,2026-08-25T17:59:03.929583Z
-Edoardo Molinari,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60348.png,212,43940944,08/27/2026 2:30 AM,2026-08-25T17:59:03.929588Z
-Quentin Debove,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,862384,43940945,08/27/2026 2:30 AM,2026-08-25T17:59:03.929592Z
-Matthew Baldwin,6200,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/686.png,798,43940946,08/27/2026 2:30 AM,2026-08-25T17:59:03.929597Z
-Akshay Bhatia,6100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/952.png,694628,43930102,08/27/2026 11:00 AM,2026-08-25T17:59:03.929602Z
-Fred Biondi,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/645124.png,765452,43940947,08/27/2026 2:30 AM,2026-08-25T17:59:03.929607Z
-Clement Charmasson,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/france.png,857133,43940948,08/27/2026 2:30 AM,2026-08-25T17:59:03.929612Z
-Luke Donald,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/1104.png,1822,43940949,08/27/2026 2:30 AM,2026-08-25T17:59:03.929617Z
-Benjamin Follett-Smith,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/zimbabwe.png,670452,43940950,08/27/2026 2:30 AM,2026-08-25T17:59:03.929622Z
-Connor McKinney,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/australia.png,769324,43940951,08/27/2026 2:30 AM,2026-08-25T17:59:03.929627Z
-Jack Buchanan,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/australia.png,769395,43940952,08/27/2026 2:30 AM,2026-08-25T17:59:03.929632Z
-David Micheluzzi,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/australia.png,690250,43940953,08/27/2026 2:30 AM,2026-08-25T17:59:03.929637Z
-Harley Smith,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,764552,43940954,08/27/2026 2:30 AM,2026-08-25T17:59:03.929642Z
-Yuvraj Sandhu,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/india.png,426065,43940955,08/27/2026 2:30 AM,2026-08-25T17:59:03.929647Z
-Ryggs Johnston,6100,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,818540,43940956,08/27/2026 2:30 AM,2026-08-25T17:59:03.929652Z
-Ryan Fox,6000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1070.png,1048,43930103,08/27/2026 11:00 AM,2026-08-25T17:59:03.929657Z
-Ryan Peake,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/australia.png,818541,43940957,08/27/2026 2:30 AM,2026-08-25T17:59:03.929664Z
-Haydn McCullen,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,545060,43940958,08/27/2026 2:30 AM,2026-08-25T17:59:03.929671Z
-Louis De Jager,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60575.png,1283,43940959,08/27/2026 2:30 AM,2026-08-25T17:59:03.929679Z
-Dylan Naidoo,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/south_africa.png,1185,43940960,08/27/2026 2:30 AM,2026-08-25T17:59:03.929684Z
-Andres Gallegos,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/argentina.png,762249,43940961,08/27/2026 2:30 AM,2026-08-25T17:59:03.929689Z
-Mike Toorop,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/netherlands.png,694400,43940962,08/27/2026 2:30 AM,2026-08-25T17:59:03.929693Z
-Joshua Berry,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,775022,43940963,08/27/2026 2:30 AM,2026-08-25T17:59:03.929699Z
-Jordan Loft,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,885464,43940964,08/27/2026 2:30 AM,2026-08-25T17:59:03.929704Z
-Gonzalo Fernandez-Castaño,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/golf/players/50/60308.png,445,43940965,08/27/2026 2:30 AM,2026-08-25T17:59:03.929711Z
-Daniel Gavins,6000,Husqvarna British Masters hosted by Sir Nick Faldo,Classic,https://dkn.gs/sports/images/countries/50/england.png,1204,43940966,08/27/2026 2:30 AM,2026-08-25T17:59:03.929716Z
+Scottie Scheffler,14200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/607.png,1496,43944652,08/27/2026 11:00 AM,2026-08-25T18:52:02.723669Z
+Rory McIlroy,11200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1080.png,463,43944653,08/27/2026 11:00 AM,2026-08-25T18:52:02.723693Z
+Xander Schauffele,10100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/722.png,902,43944654,08/27/2026 11:00 AM,2026-08-25T18:52:02.723707Z
+Ludvig Åberg,9700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,43930077,08/27/2026 11:00 AM,2026-08-25T18:52:02.723722Z
+Wyndham Clark,9600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,43944655,08/27/2026 11:00 AM,2026-08-25T18:52:02.723734Z
+Sam Burns,9200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/582.png,1154,43930079,08/27/2026 11:00 AM,2026-08-25T18:52:02.723748Z
+Tommy Fleetwood,9000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/733.png,871,43930080,08/27/2026 11:00 AM,2026-08-25T18:52:02.723758Z
+Patrick Cantlay,9000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/929.png,1408,43944658,08/27/2026 11:00 AM,2026-08-25T18:52:02.723764Z
+Cameron Young,8500,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/849.png,696569,43930082,08/27/2026 11:00 AM,2026-08-25T18:52:02.723775Z
+Collin Morikawa,8400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/789.png,300102,43944660,08/27/2026 11:00 AM,2026-08-25T18:52:02.723781Z
+Chris Gotterup,8200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/525575.png,703905,43944661,08/27/2026 11:00 AM,2026-08-25T18:52:02.723787Z
+Matt Fitzpatrick,7800,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,43930085,08/27/2026 11:00 AM,2026-08-25T18:52:02.723802Z
+Si Woo Kim,7700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/870.png,1284,43930086,08/27/2026 11:00 AM,2026-08-25T18:52:02.723813Z
+Hideki Matsuyama,7700,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,43944664,08/27/2026 11:00 AM,2026-08-25T18:52:02.723819Z
+Russell Henley,7600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/628.png,1654,43944665,08/27/2026 11:00 AM,2026-08-25T18:52:02.723827Z
+Ryan Gerard,7400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,43930089,08/27/2026 11:00 AM,2026-08-25T18:52:02.723839Z
+Viktor Hovland,7400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/669.png,690049,43944667,08/27/2026 11:00 AM,2026-08-25T18:52:02.723845Z
+J.J. Spaun,7200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/611.png,2167,43930091,08/27/2026 11:00 AM,2026-08-25T18:52:02.723857Z
+Justin Rose,7200,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/734.png,625,43944669,08/27/2026 11:00 AM,2026-08-25T18:52:02.723863Z
+Robert MacIntyre,7100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/822.png,670464,43930092,08/27/2026 11:00 AM,2026-08-25T18:52:02.723869Z
+Jacob Bridgeman,7000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,43930093,08/27/2026 11:00 AM,2026-08-25T18:52:02.723881Z
+Tom Kim,7000,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,43944671,08/27/2026 11:00 AM,2026-08-25T18:52:02.723886Z
+Min Woo Lee,6800,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,43944673,08/27/2026 11:00 AM,2026-08-25T18:52:02.723900Z
+Gary Woodland,6600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/689.png,1055,43930097,08/27/2026 11:00 AM,2026-08-25T18:52:02.723911Z
+Adam Scott,6600,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/875.png,2078,43944675,08/27/2026 11:00 AM,2026-08-25T18:52:02.723917Z
+Kristoffer Reitan,6400,TOUR Championship,Classic,https://dkn.gs/sports/images/countries/50/norway.png,671051,43930099,08/27/2026 11:00 AM,2026-08-25T18:52:02.723928Z
+Alex Smalley,6400,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,43944677,08/27/2026 11:00 AM,2026-08-25T18:52:02.723934Z
+Alex Fitzpatrick,6200,TOUR Championship,Classic,https://dkn.gs/sports/images/countries/50/england.png,690047,43930101,08/27/2026 11:00 AM,2026-08-25T18:52:02.723946Z
+Akshay Bhatia,6100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/952.png,694628,43930102,08/27/2026 11:00 AM,2026-08-25T18:52:02.723954Z
+Ryan Fox,6100,TOUR Championship,Classic,https://dkn.gs/sports/images/golf/players/50/1070.png,1048,43944680,08/27/2026 11:00 AM,2026-08-25T18:52:02.723960Z
