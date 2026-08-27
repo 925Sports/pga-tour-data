@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetch live DraftKings GOLF data and write:
-  - data/drafttable.csv   (full rich columns for Google Sheets — all slates, correctly labeled)
-  - data/dk_salaries.csv  (simplified hub file — MAIN CLASSIC SLATE ONLY, one row per player)
+  - data/drafttable.csv   (full rich columns — Classic / Showdown / Late Showdown)
+  - data/dk_salaries.csv  (simplified hub file — MAIN CLASSIC SLATE ONLY)
 """
 
 from __future__ import annotations
@@ -101,6 +101,9 @@ def classify_contest(name: str) -> str:
     n = (name or "").lower()
     if "madden" in n or "best ball" in n:
         return "SKIP"
+    # Late Showdown must be checked BEFORE generic Showdown
+    if "showdown" in n and "late" in n:
+        return "Late Showdown"
     if "showdown" in n:
         return "Showdown"
     if "turbo" in n:
@@ -119,7 +122,7 @@ def classify_contest(name: str) -> str:
 
 
 def classify_group(contest_names: list[str]) -> str:
-    """Pick the group's slate type from its contest names (majority, specific wins)."""
+    """Pick the group's slate type from its contest names."""
     counts: dict[str, int] = defaultdict(int)
     for name in contest_names:
         st = classify_contest(name)
@@ -127,10 +130,11 @@ def classify_group(contest_names: list[str]) -> str:
             counts[st] += 1
     if not counts:
         return "Classic"
-    # If any Showdown contests exist in this group, treat the whole group as Showdown
+    # Specific showdown types win if present
+    if counts.get("Late Showdown", 0) > 0:
+        return "Late Showdown"
     if counts.get("Showdown", 0) > 0:
         return "Showdown"
-    # Otherwise use the most common type
     return max(counts.items(), key=lambda kv: kv[1])[0]
 
 
@@ -170,7 +174,6 @@ def main() -> None:
         draft_groups[dg]["contest_ids"].append(cid)
         draft_groups[dg]["contest_names"].append(cname)
 
-    # Finalize slate type per group AFTER all contests are collected
     for dg_id, group in draft_groups.items():
         group["slate_type"] = classify_group(group["contest_names"])
 
@@ -185,9 +188,11 @@ def main() -> None:
             return (0, -len(g["contest_ids"]))
         if st == "showdown":
             return (1, -len(g["contest_ids"]))
-        if "tiers" in st:
+        if st == "late showdown":
             return (2, -len(g["contest_ids"]))
-        return (3, -len(g["contest_ids"]))
+        if "tiers" in st:
+            return (3, -len(g["contest_ids"]))
+        return (4, -len(g["contest_ids"]))
 
     ordered = sorted(draft_groups.items(), key=group_priority)
 
@@ -272,7 +277,7 @@ def main() -> None:
                 "date": format_date_only(start),
             })
 
-        is_showdown = slate_type == "Showdown"
+        is_showdown = "Showdown" in slate_type  # covers Showdown and Late Showdown
 
         for player_id, versions in player_versions.items():
             versions.sort(key=lambda x: x["salary"], reverse=True)
@@ -331,7 +336,6 @@ def main() -> None:
                     "Make the Cut": "",
                 })
 
-                # Hub file: MAIN CLASSIC SLATE ONLY, one row per player
                 if slate_type == "Classic":
                     key = norm_name(v["name"]).lower()
                     if key not in seen_simple:
