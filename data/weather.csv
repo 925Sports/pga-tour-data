@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: East Lake Golf Club | Updated: 8/25/2026, 11:55:19 PM",,,,,,,,,,,
+"Location: East Lake Golf Club | Updated: 8/26/2026, 11:55:19 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Wed Aug 26,12:00 AM,76.1,76.7,0,0,Clear,5.7,11.9,E,2,56
-Wed Aug 26,1:00 AM,74.4,76.8,1,0,Clear,6.8,19,SSE,0,71
-Wed Aug 26,2:00 AM,73.4,77.3,1,0,Clear,6.6,17.9,SSE,6,82
-Wed Aug 26,3:00 AM,72.5,78.1,2,0,Clear,4,11.9,S,10,88
-Wed Aug 26,4:00 AM,71.4,77.5,1,0,Clear,3.2,10.1,WSW,15,92
-Wed Aug 26,5:00 AM,70.6,76.6,1,0,Clear,3.1,3.1,ESE,9,94
-Wed Aug 26,6:00 AM,70.1,75.7,1,0,Mainly Clear,4.3,7.2,ESE,28,96
-Wed Aug 26,7:00 AM,70.8,77.2,2,0,Partly Cloudy,3.2,5.6,E,62,96
-Wed Aug 26,8:00 AM,71.8,77.9,1,0,Overcast,3.8,5.4,E,100,92
-Wed Aug 26,9:00 AM,73.4,79.7,1,0,Overcast,3.4,4.5,E,91,88
-Wed Aug 26,10:00 AM,76.4,82.6,3,0,Mainly Clear,3.9,5.1,ENE,41,80
-Wed Aug 26,11:00 AM,80.3,86.1,1,0,Clear,4.7,5.8,E,4,68
-Wed Aug 26,12:00 PM,84,91.9,4,0,Partly Cloudy,3.3,3.6,ESE,58,58
-Wed Aug 26,1:00 PM,86.3,93.1,8,0,Mainly Clear,3.4,3.8,SE,21,51
-Wed Aug 26,2:00 PM,88.7,96.8,16,0,Mainly Clear,2.8,3.1,ESE,28,46
-Wed Aug 26,3:00 PM,89.7,95.5,22,0,Partly Cloudy,4.1,4.3,ESE,67,43
-Wed Aug 26,4:00 PM,90.4,95.2,25,0,Overcast,4.3,4.9,ESE,100,42
-Wed Aug 26,5:00 PM,90.2,93,22,0,Overcast,3.8,4.7,ESE,100,40
-Wed Aug 26,6:00 PM,89.3,92.8,18,0,Overcast,2,3.6,S,100,41
-Wed Aug 26,7:00 PM,88.4,90.7,15,0,Overcast,6.2,7.6,SE,100,44
-Wed Aug 26,8:00 PM,83.9,86.9,15,0,Overcast,6.9,12.3,SSE,94,55
-Wed Aug 26,9:00 PM,81.6,85.7,14,0,Overcast,4.6,10.3,SSE,100,60
-Wed Aug 26,10:00 PM,80.2,84.7,11,0,Overcast,3.6,7.8,SSE,100,62
-Wed Aug 26,11:00 PM,79.3,83.1,9,0,Overcast,4.3,8.9,S,100,62
-Thu Aug 27,12:00 AM,78.7,82.2,12,0,Overcast,5.1,11,SSE,85,64
-Thu Aug 27,1:00 AM,78.9,81.1,12,0,Overcast,9.6,23.3,S,100,66
-Thu Aug 27,2:00 AM,74.9,78.1,15,0.016,Light Drizzle,11.4,19.7,W,98,85
-Thu Aug 27,3:00 AM,75,79.8,13,0,Overcast,3.4,11,WSW,100,75
-Thu Aug 27,4:00 AM,74.2,80.4,10,0,Overcast,3.9,8.3,SSE,100,86
-Thu Aug 27,5:00 AM,73.4,79.8,12,0,Mainly Clear,3.6,9.8,SSW,46,89
-Thu Aug 27,6:00 AM,73,78,12,0,Overcast,6.6,18.6,WSW,81,89
-Thu Aug 27,7:00 AM,73.3,80.9,15,0,Overcast,1.8,4.9,SSW,100,92
-Thu Aug 27,8:00 AM,72.6,79,20,0.453,Violent Showers,5,11.2,W,100,94
-Thu Aug 27,9:00 AM,72.6,79.8,28,0.098,Moderate Rain,1.9,5.4,WNW,100,92
-Thu Aug 27,10:00 AM,74.1,80.8,14,0,Overcast,3.8,6.9,SW,98,89
-Thu Aug 27,11:00 AM,78,84,13,0,Overcast,7.1,10.7,SW,100,82
-Thu Aug 27,12:00 PM,78.5,85.1,21,0,Overcast,6.2,7.4,SW,96,81
-Thu Aug 27,1:00 PM,80.7,92.3,21,0,Overcast,3.8,4.3,SW,100,78
-Thu Aug 27,2:00 PM,81.1,87.7,21,0,Overcast,4.8,5.8,SW,100,72
-Thu Aug 27,3:00 PM,83.6,93.7,58,0,Overcast,5,6,SW,100,68
-Thu Aug 27,4:00 PM,85.4,92,58,0,Overcast,5.5,6.5,SW,100,58
-Thu Aug 27,5:00 PM,85,90.4,58,0,Overcast,5.3,8.1,WSW,100,60
-Thu Aug 27,6:00 PM,84.5,89.6,58,0.004,Overcast,5.9,9.1,SW,100,60
-Thu Aug 27,7:00 PM,83.1,88.4,58,0.002,Partly Cloudy,5,9.1,SW,82,63
-Thu Aug 27,8:00 PM,79.6,86.2,58,0.006,Overcast,3.3,7.7,SW,98,73
-Thu Aug 27,9:00 PM,77.7,84.4,40,0,Mainly Clear,3.5,5.8,SSW,36,78
-Thu Aug 27,10:00 PM,76.8,83.2,40,0,Clear,4,9.6,SSW,5,80
-Thu Aug 27,11:00 PM,76.3,82.4,40,0.004,Light Drizzle,4.4,13,SW,5,81
+Thu Aug 27,12:00 AM,74.8,80.2,3,0,Clear,4,9.8,SW,2,80
+Thu Aug 27,1:00 AM,75.2,81.3,7,0,Overcast,2.3,4.7,S,86,79
+Thu Aug 27,2:00 AM,73.6,79.6,8,0,Overcast,2.9,3.8,S,100,84
+Thu Aug 27,3:00 AM,72.7,78.7,7,0,Overcast,3.1,5.1,S,100,87
+Thu Aug 27,4:00 AM,71.8,77.6,5,0,Overcast,4.1,8.5,SE,100,91
+Thu Aug 27,5:00 AM,71.1,77.4,4,0,Overcast,2.7,6.9,SW,97,93
+Thu Aug 27,6:00 AM,71.1,78.1,5,0,Overcast,1.4,4,NNW,100,94
+Thu Aug 27,7:00 AM,71.9,78.9,6,0,Overcast,1.8,4.5,NNW,100,92
+Thu Aug 27,8:00 AM,72.6,79.1,6,0,Overcast,3,4.3,NE,100,91
+Thu Aug 27,9:00 AM,74.3,80.6,7,0,Overcast,4.2,4.9,ENE,85,87
+Thu Aug 27,10:00 AM,78.2,85.7,9,0,Clear,1.8,2.7,E,8,77
+Thu Aug 27,11:00 AM,82.6,91.2,8,0,Clear,0.5,3.6,NNE,4,65
+Thu Aug 27,12:00 PM,86.2,95.8,9,0,Mainly Clear,1.5,2.9,NNW,21,57
+Thu Aug 27,1:00 PM,87,93.1,10,0,Overcast,2,2.5,ESE,100,53
+Thu Aug 27,2:00 PM,86.1,89.9,13,0,Overcast,4.7,5.4,SE,100,51
+Thu Aug 27,3:00 PM,86.7,90.7,18,0,Overcast,6.3,7.4,SSE,100,53
+Thu Aug 27,4:00 PM,88,92.3,27,0,Overcast,5.2,6,SE,86,50
+Thu Aug 27,5:00 PM,86.9,90,31,0,Overcast,4.7,5.6,S,100,47
+Thu Aug 27,6:00 PM,75.9,76.9,20,0,Overcast,11.4,16.6,ENE,100,71
+Thu Aug 27,7:00 PM,78.2,82.8,17,0,Overcast,4.6,5.8,SSW,100,69
+Thu Aug 27,8:00 PM,77.7,83,17,0,Overcast,3.2,5.6,SW,100,71
+Thu Aug 27,9:00 PM,76.2,81.6,11,0,Overcast,2.7,3.8,WNW,100,74
+Thu Aug 27,10:00 PM,75.1,80.1,6,0,Overcast,2,4.3,WNW,88,73
+Thu Aug 27,11:00 PM,74.4,79.3,9,0,Overcast,2.2,2.2,ENE,100,74
+Fri Aug 28,12:00 AM,73.8,78,7,0,Overcast,3.2,3.8,SSE,100,74
+Fri Aug 28,1:00 AM,73.6,77.9,2,0,Overcast,2.4,4,SSE,100,73
+Fri Aug 28,2:00 AM,73.2,77,4,0,Overcast,5,7.4,SSE,100,78
+Fri Aug 28,3:00 AM,71.8,77.3,3,0,Overcast,4.4,4.9,ENE,100,90
+Fri Aug 28,4:00 AM,71.6,78.1,3,0,Overcast,0.8,3.1,SW,100,88
+Fri Aug 28,5:00 AM,71.2,77.3,6,0,Overcast,1.7,3.1,NW,97,89
+Fri Aug 28,6:00 AM,70.5,76,5,0,Overcast,3,4,NNW,99,91
+Fri Aug 28,7:00 AM,70,76.2,6,0,Overcast,1,2.5,WNW,100,91
+Fri Aug 28,8:00 AM,72.1,78.2,6,0,Partly Cloudy,4.1,7.6,NW,50,92
+Fri Aug 28,9:00 AM,76.4,83,8,0,Clear,4.4,8.5,NNW,0,83
+Fri Aug 28,10:00 AM,80.7,88.5,9,0,Clear,1.9,2.7,NW,5,73
+Fri Aug 28,11:00 AM,84.6,92.3,5,0,Mainly Clear,1.8,2.2,WNW,31,63
+Fri Aug 28,12:00 PM,87,96.5,8,0,Mainly Clear,0.7,1.1,ESE,33,57
+Fri Aug 28,1:00 PM,86.2,92.4,8,0,Overcast,1.3,2.7,S,100,54
+Fri Aug 28,2:00 PM,89.2,97.9,8,0,Overcast,1.8,3.6,S,80,49
+Fri Aug 28,3:00 PM,90.7,96.4,46,0,Partly Cloudy,0.5,1.6,NNW,60,43
+Fri Aug 28,4:00 PM,91.8,97.5,46,0,Mainly Clear,3,3.6,NNW,45,44
+Fri Aug 28,5:00 PM,88.2,89.8,46,0,Overcast,5.6,6.7,W,100,41
+Fri Aug 28,6:00 PM,89,93,46,0,Partly Cloudy,1.2,4.1,S,75,42
+Fri Aug 28,7:00 PM,84.6,88.3,46,0,Clear,4.6,6.5,SSW,58,53
+Fri Aug 28,8:00 PM,82.4,86.1,46,0,Clear,4.5,9.3,WSW,75,57
+Fri Aug 28,9:00 PM,81.5,85.5,20,0,Overcast,3.9,8.5,WNW,100,58
+Fri Aug 28,10:00 PM,80.8,84.8,20,0,Overcast,4.1,7.8,WNW,100,60
+Fri Aug 28,11:00 PM,80.2,85.3,20,0.004,Light Drizzle,2.3,3.1,WNW,100,62
