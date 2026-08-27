@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetch live DraftKings GOLF data and write:
-  - data/drafttable.csv   (full rich columns for Google Sheets)
-  - data/dk_salaries.csv  (simplified for the Fantasy Golf Hub)
+  - data/drafttable.csv   (full rich columns for Google Sheets — all slates, correctly labeled)
+  - data/dk_salaries.csv  (simplified hub file — MAIN CLASSIC SLATE ONLY, one row per player)
 """
 
 from __future__ import annotations
@@ -27,7 +27,6 @@ HEADERS = {
     "Origin": "https://www.draftkings.com",
 }
 
-# Full rich columns (matches original DRAFTTABLE)
 DRAFTTABLE_FIELDS = [
     "Player Name - Slate Type",
     "Contest IDs",
@@ -53,7 +52,6 @@ DRAFTTABLE_FIELDS = [
     "Make the Cut",
 ]
 
-# Simplified columns for the hub
 DK_SALARIES_FIELDS = [
     "player_name",
     "salary",
@@ -98,6 +96,44 @@ def format_date_only(iso_str: str) -> str:
         return ""
 
 
+def classify_contest(name: str) -> str:
+    """Classify a single contest. More specific types win over Classic."""
+    n = (name or "").lower()
+    if "madden" in n or "best ball" in n:
+        return "SKIP"
+    if "showdown" in n:
+        return "Showdown"
+    if "turbo" in n:
+        return "Turbo"
+    if "tiers" in n or "nosebleed" in n:
+        return "Tiers"
+    if "snake" in n:
+        return "Snake"
+    if "single stat" in n:
+        return "Single Stat"
+    if "late" in n:
+        return "Late"
+    if "early" in n:
+        return "Early"
+    return "Classic"
+
+
+def classify_group(contest_names: list[str]) -> str:
+    """Pick the group's slate type from its contest names (majority, specific wins)."""
+    counts: dict[str, int] = defaultdict(int)
+    for name in contest_names:
+        st = classify_contest(name)
+        if st != "SKIP":
+            counts[st] += 1
+    if not counts:
+        return "Classic"
+    # If any Showdown contests exist in this group, treat the whole group as Showdown
+    if counts.get("Showdown", 0) > 0:
+        return "Showdown"
+    # Otherwise use the most common type
+    return max(counts.items(), key=lambda kv: kv[1])[0]
+
+
 def main() -> None:
     print("Fetching DraftKings GOLF contests…")
     contest_url = "https://www.draftkings.com/lobby/getcontests?sport=GOLF"
@@ -115,67 +151,53 @@ def main() -> None:
         print("No contests found")
         return
 
-    # Group by draft group
     draft_groups: dict[str, dict] = {}
     for c in contests:
-        name = (c.get("n") or c.get("Name") or "").lower()
-        if "madden" in name or "best ball" in name:
+        cname = c.get("n") or c.get("Name") or ""
+        if classify_contest(cname) == "SKIP":
             continue
 
         dg = str(c.get("dg") or c.get("DraftGroupId") or "")
         cid = str(c.get("id") or c.get("ContestId") or "")
-        cname = c.get("n") or c.get("Name") or ""
         if not dg or not cid:
             continue
 
-        slate_type = "Classic"
-        if "showdown" in name:
-            slate_type = "Showdown Captain Mode"
-        elif "turbo" in name:
-            slate_type = "Turbo"
-        elif "tiers" in name or "nosebleed" in name:
-            slate_type = "Tiers"
-        elif "snake" in name:
-            slate_type = "Snake"
-        elif "single stat" in name:
-            slate_type = "Single Stat"
-        elif "late" in name:
-            slate_type = "Late"
-        elif "early" in name:
-            slate_type = "Early"
-
-        if "classic" in name or ("pga tour" in name and "single" not in name and "tiers" not in name):
-            slate_type = "Classic"
-
         if dg not in draft_groups:
             draft_groups[dg] = {
-                "slate_type": slate_type,
                 "contest_ids": [],
                 "contest_names": [],
             }
         draft_groups[dg]["contest_ids"].append(cid)
         draft_groups[dg]["contest_names"].append(cname)
-        draft_groups[dg]["slate_type"] = slate_type
+
+    # Finalize slate type per group AFTER all contests are collected
+    for dg_id, group in draft_groups.items():
+        group["slate_type"] = classify_group(group["contest_names"])
 
     print(f"Found {len(draft_groups)} draft groups")
+    for dg_id, g in draft_groups.items():
+        print(f"  DG {dg_id}: {g['slate_type']} ({len(g['contest_ids'])} contests)")
 
     def group_priority(item):
         _, g = item
         st = g["slate_type"].lower()
         if st == "classic":
             return (0, -len(g["contest_ids"]))
-        if "tiers" in st:
+        if st == "showdown":
             return (1, -len(g["contest_ids"]))
-        return (2, -len(g["contest_ids"]))
+        if "tiers" in st:
+            return (2, -len(g["contest_ids"]))
+        return (3, -len(g["contest_ids"]))
 
     ordered = sorted(draft_groups.items(), key=group_priority)
 
-    rich_rows = []          # for drafttable.csv
-    simple_rows = []        # for dk_salaries.csv
+    rich_rows = []
+    simple_rows = []
     seen_simple = set()
 
     for dg_id, group in ordered:
-        print(f"  Fetching draftables for DG {dg_id} ({group['slate_type']})…")
+        slate_type = group["slate_type"]
+        print(f"  Fetching draftables for DG {dg_id} ({slate_type})…")
         url = f"https://api.draftkings.com/draftgroups/v1/draftgroups/{dg_id}/draftables?format=json"
 
         try:
@@ -192,7 +214,6 @@ def main() -> None:
         if not draftables:
             continue
 
-        # Competition lookup
         comps = {}
         start_times = []
         for p in draftables:
@@ -209,8 +230,7 @@ def main() -> None:
                     except Exception:
                         pass
 
-        # Slate header
-        slate_header = group["slate_type"]
+        slate_header = slate_type
         if start_times:
             min_start = min(start_times)
             date_part = min_start.astimezone(ZoneInfo("America/New_York")).strftime("%-m/%-d")
@@ -218,7 +238,6 @@ def main() -> None:
             matchup = list(comps.values())[0]["name"] if comps else ""
             slate_header = f"{date_part} {time_part} ({matchup})"
 
-        # Collect player versions
         player_versions = defaultdict(list)
         for p in draftables:
             player_id = str(p.get("playerId") or "")
@@ -253,17 +272,16 @@ def main() -> None:
                 "date": format_date_only(start),
             })
 
-        is_showdown = "Showdown" in group["slate_type"]
+        is_showdown = slate_type == "Showdown"
 
         for player_id, versions in player_versions.items():
             versions.sort(key=lambda x: x["salary"], reverse=True)
 
             if is_showdown and len(versions) >= 2:
-                # Captain + Flex
                 for role, v in [("Captain", versions[0]), ("Flex", versions[1])]:
                     pos = "CPT" if role == "Captain" else v["pos"]
                     rich_rows.append({
-                        "Player Name - Slate Type": f"{v['name']} - {group['slate_type']} ({role})",
+                        "Player Name - Slate Type": f"{v['name']} - {slate_type} ({role})",
                         "Contest IDs": ";".join(group["contest_ids"][:20]),
                         "Player ID": player_id,
                         "Draftable ID": v["draftable_id"],
@@ -277,7 +295,7 @@ def main() -> None:
                         "Game Start Time": format_datetime(v["start"]),
                         "Player Image": v["image"],
                         "Tournament": v["game"],
-                        "Slate Type": group["slate_type"],
+                        "Slate Type": slate_type,
                         "Game Type": "PGA",
                         "Date": v["date"],
                         "Role": role,
@@ -287,10 +305,9 @@ def main() -> None:
                         "Make the Cut": "",
                     })
             else:
-                # Classic / standard – take highest salary version
                 v = versions[0]
                 rich_rows.append({
-                    "Player Name - Slate Type": f"{v['name']} - {group['slate_type']}",
+                    "Player Name - Slate Type": f"{v['name']} - {slate_type}",
                     "Contest IDs": ";".join(group["contest_ids"][:20]),
                     "Player ID": player_id,
                     "Draftable ID": v["draftable_id"],
@@ -304,7 +321,7 @@ def main() -> None:
                     "Game Start Time": format_datetime(v["start"]),
                     "Player Image": v["image"],
                     "Tournament": v["game"],
-                    "Slate Type": group["slate_type"],
+                    "Slate Type": slate_type,
                     "Game Type": "PGA",
                     "Date": v["date"],
                     "Role": "Standard",
@@ -314,36 +331,30 @@ def main() -> None:
                     "Make the Cut": "",
                 })
 
-                # Simplified version (prefer Classic)
-                key = norm_name(v["name"]).lower()
-                if key not in seen_simple or group["slate_type"] == "Classic":
-                    seen_simple.add(key)
-                    simple_rows.append({
-                        "player_name": norm_name(v["name"]),
-                        "salary": int(v["salary"]),
-                        "tournament": v["game"],
-                        "slate_type": group["slate_type"],
-                        "player_image": v["image"],
-                        "player_id": player_id,
-                        "draftable_id": v["draftable_id"],
-                        "game_start": format_datetime(v["start"]),
-                        "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    })
-
-        # Stop after a solid Classic field
-        if group["slate_type"] == "Classic" and len(simple_rows) > 40:
-            print(f"    Got solid Classic field — stopping early")
-            break
+                # Hub file: MAIN CLASSIC SLATE ONLY, one row per player
+                if slate_type == "Classic":
+                    key = norm_name(v["name"]).lower()
+                    if key not in seen_simple:
+                        seen_simple.add(key)
+                        simple_rows.append({
+                            "player_name": norm_name(v["name"]),
+                            "salary": int(v["salary"]),
+                            "tournament": v["game"],
+                            "slate_type": slate_type,
+                            "player_image": v["image"],
+                            "player_id": player_id,
+                            "draftable_id": v["draftable_id"],
+                            "game_start": format_datetime(v["start"]),
+                            "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                        })
 
     if not rich_rows:
         print("No player rows generated")
         return
 
-    # Sort both by salary descending
     rich_rows.sort(key=lambda x: int(x["Salary"]) if str(x["Salary"]).isdigit() else 0, reverse=True)
     simple_rows.sort(key=lambda x: x["salary"], reverse=True)
 
-    # Write rich drafttable.csv
     drafttable_path = DATA_DIR / "drafttable.csv"
     with drafttable_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=DRAFTTABLE_FIELDS)
@@ -351,7 +362,6 @@ def main() -> None:
         writer.writerows(rich_rows)
     print(f"Wrote {len(rich_rows)} rows → {drafttable_path}")
 
-    # Write simplified dk_salaries.csv
     salaries_path = DATA_DIR / "dk_salaries.csv"
     with salaries_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=DK_SALARIES_FIELDS)
@@ -360,7 +370,7 @@ def main() -> None:
     print(f"Wrote {len(simple_rows)} rows → {salaries_path}")
 
     if simple_rows:
-        print(f"Top salary: {simple_rows[0]['player_name']} ${simple_rows[0]['salary']:,}")
+        print(f"Top Classic salary: {simple_rows[0]['player_name']} ${simple_rows[0]['salary']:,}")
         print(f"Tournament: {simple_rows[0]['tournament']}")
 
 
