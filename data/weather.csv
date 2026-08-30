@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: East Lake Golf Club | Updated: 8/29/2026, 7:55:19 PM",,,,,,,,,,,
+"Location: East Lake Golf Club | Updated: 8/30/2026, 2:55:18 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Sat Aug 29,12:00 AM,73.5,79.4,15,0,Overcast,6.5,14.8,NE,99,93
-Sat Aug 29,1:00 AM,73.7,81.1,29,0,Overcast,2.2,10.5,NNW,100,90
-Sat Aug 29,2:00 AM,73.7,80.7,23,0,Overcast,3,9.6,NE,100,90
-Sat Aug 29,3:00 AM,73.2,79.7,28,0,Overcast,3,11.9,NE,100,89
-Sat Aug 29,4:00 AM,72.5,78.7,24,0,Overcast,4.1,10.3,NE,100,92
-Sat Aug 29,5:00 AM,72.3,78.2,13,0,Overcast,6.3,13,E,100,96
-Sat Aug 29,6:00 AM,71.9,78.3,14,0,Mainly Clear,3.8,8.5,ENE,41,94
-Sat Aug 29,7:00 AM,72.2,79.3,4,0,Clear,2.9,9.8,E,17,95
-Sat Aug 29,8:00 AM,72.6,79.7,1,0,Overcast,3.4,8.7,E,100,95
-Sat Aug 29,9:00 AM,73.3,80,1,0,Overcast,5.7,8.9,ENE,100,96
-Sat Aug 29,10:00 AM,74.9,82.2,1,0,Overcast,5.1,7.6,ENE,100,93
-Sat Aug 29,11:00 AM,77.3,84.7,1,0,Overcast,5.6,9.2,SE,100,87
-Sat Aug 29,12:00 PM,78.3,86.3,2,0,Overcast,4.6,7.6,SE,100,85
-Sat Aug 29,1:00 PM,80.7,88.1,2,0,Overcast,6.3,8.3,ESE,100,79
-Sat Aug 29,2:00 PM,81.6,87.2,4,0,Clear,8.2,9.2,ESE,18,73
-Sat Aug 29,3:00 PM,83.8,92.8,4,0,Mainly Clear,6.9,10.1,SE,44,74
-Sat Aug 29,4:00 PM,84.3,96.1,13,0,Mainly Clear,1.6,3.6,E,48,71
-Sat Aug 29,5:00 PM,83.9,92.7,20,0,Partly Cloudy,5.4,5.8,ENE,50,74
-Sat Aug 29,6:00 PM,85.4,92.4,9,0,Partly Cloudy,2.9,6.3,E,50,61
-Sat Aug 29,7:00 PM,84.6,90,4,0,Clear,7.4,11,SE,14,64
-Sat Aug 29,8:00 PM,81.9,86.9,4,0,Clear,5.2,11.2,SE,0,64
-Sat Aug 29,9:00 PM,78.8,85.8,3,0,Clear,2.3,8.5,SSE,0,75
-Sat Aug 29,10:00 PM,76.2,80.1,0,0,Overcast,11.3,22.1,ENE,89,85
-Sat Aug 29,11:00 PM,74.9,79.8,0,0,Overcast,10.5,15.2,SSW,99,92
-Sun Aug 30,12:00 AM,75.2,83.3,1,0.016,Light Drizzle,2.7,10.3,SE,100,91
-Sun Aug 30,1:00 AM,75.4,83.9,1,0,Partly Cloudy,2.8,9.8,ENE,64,92
-Sun Aug 30,2:00 AM,76,84.9,3,0,Overcast,2.5,9.6,E,88,92
-Sun Aug 30,3:00 AM,74.7,82.3,1,0,Clear,3.5,10.7,ESE,13,91
-Sun Aug 30,4:00 AM,73.7,80.8,0,0,Clear,3.8,13.6,ESE,5,92
-Sun Aug 30,5:00 AM,72.9,79.9,0,0,Clear,3.4,10.1,E,7,93
-Sun Aug 30,6:00 AM,72.5,79.5,0,0,Mainly Clear,3.4,10.3,E,21,95
-Sun Aug 30,7:00 AM,72.7,80.1,0,0,Overcast,3.4,8.9,E,100,96
-Sun Aug 30,8:00 AM,73.6,81.1,1,0,Partly Cloudy,4.3,6.5,ENE,73,96
-Sun Aug 30,9:00 AM,74.4,81.8,0,0,Partly Cloudy,4.8,6.7,ENE,72,94
-Sun Aug 30,10:00 AM,76.5,84,0,0,Partly Cloudy,4.6,7.6,ENE,70,88
-Sun Aug 30,11:00 AM,78.6,84.8,1,0,Mainly Clear,6.5,9.2,E,43,80
-Sun Aug 30,12:00 PM,80.3,86,2,0,Mainly Clear,6.9,9.8,E,29,74
-Sun Aug 30,1:00 PM,83.4,90.3,2,0,Mainly Clear,6.8,9.4,E,28,65
-Sun Aug 30,2:00 PM,88.7,95.3,3,0,Clear,6.5,8.1,E,17,48
-Sun Aug 30,3:00 PM,90.1,95,3,0,Clear,6.7,8.1,E,17,43
-Sun Aug 30,4:00 PM,90.7,95.2,3,0,Clear,6.3,7.6,E,10,41
-Sun Aug 30,5:00 PM,90.3,93.4,2,0,Mainly Clear,7.9,9.4,E,21,44
-Sun Aug 30,6:00 PM,89.4,92.1,3,0,Clear,6.8,8.3,E,12,45
-Sun Aug 30,7:00 PM,88,90.9,4,0,Clear,6.6,8.5,E,1,47
-Sun Aug 30,8:00 PM,84.8,87.6,3,0,Clear,6,11.6,SE,0,51
-Sun Aug 30,9:00 PM,82.1,85.6,2,0,Clear,4.4,8.7,SE,0,56
-Sun Aug 30,10:00 PM,80.6,83.7,3,0,Clear,4.3,8.9,SE,0,57
-Sun Aug 30,11:00 PM,78.9,82.7,3,0,Clear,4.7,11,ESE,0,64
+Sun Aug 30,12:00 AM,76.4,84.8,1,0,Mainly Clear,0.7,2.7,ESE,40,84
+Sun Aug 30,1:00 AM,75.6,82.6,8,0,Mainly Clear,2.9,9.4,SSE,40,84
+Sun Aug 30,2:00 AM,74.3,80.9,3,0,Clear,3,7.8,SE,0,86
+Sun Aug 30,3:00 AM,73.4,79.8,1,0,Clear,2.8,4.3,ENE,0,87
+Sun Aug 30,4:00 AM,72.6,78.2,1,0,Clear,3.9,6.5,E,0,87
+Sun Aug 30,5:00 AM,72,77.8,1,0,Clear,4.3,9.2,E,1,91
+Sun Aug 30,6:00 AM,71.7,78,0,0,Clear,2.9,6.9,E,0,92
+Sun Aug 30,7:00 AM,71.4,77.3,0,0,Clear,3.6,6.7,E,0,92
+Sun Aug 30,8:00 AM,72.2,78.9,0,0,Clear,3.1,6,ENE,1,93
+Sun Aug 30,9:00 AM,75.1,81.9,1,0,Clear,4.3,7.4,ENE,2,88
+Sun Aug 30,10:00 AM,78.1,84.2,1,0,Clear,5.4,10.1,NE,0,78
+Sun Aug 30,11:00 AM,81.4,86.9,0,0,Clear,6.4,10.3,ENE,0,66
+Sun Aug 30,12:00 PM,84.7,90.3,0,0,Mainly Clear,7.2,9.4,E,24,55
+Sun Aug 30,1:00 PM,87,92.4,1,0,Mainly Clear,8.2,10.3,E,26,50
+Sun Aug 30,2:00 PM,87.8,91.3,1,0,Mainly Clear,8,9.8,E,33,47
+Sun Aug 30,3:00 PM,89,93.4,1,0,Mainly Clear,6.1,7.4,E,31,44
+Sun Aug 30,4:00 PM,90.2,95.5,1,0,Mainly Clear,5.7,6.9,E,27,43
+Sun Aug 30,5:00 PM,90.5,93.5,2,0,Clear,5.2,6.3,E,7,41
+Sun Aug 30,6:00 PM,90.3,92.3,2,0,Clear,5.8,7.2,ESE,5,40
+Sun Aug 30,7:00 PM,89,90.6,2,0,Clear,6.4,8.5,ESE,0,41
+Sun Aug 30,8:00 PM,85.2,87.1,4,0,Clear,4.5,8.3,ESE,0,44
+Sun Aug 30,9:00 PM,82.2,84.7,4,0,Clear,4.3,8.3,ESE,0,51
+Sun Aug 30,10:00 PM,80.9,83.6,2,0,Clear,3.7,5.8,SE,11,53
+Sun Aug 30,11:00 PM,78.6,82.4,1,0,Clear,4.3,7.8,SE,0,64
+Mon Aug 31,12:00 AM,77.4,82.2,1,0,Clear,4.3,8.1,SE,0,71
+Mon Aug 31,1:00 AM,76.3,81.6,1,0,Clear,4.6,8.3,SE,0,77
+Mon Aug 31,2:00 AM,75.5,81,1,0,Clear,4.1,8.7,SE,0,79
+Mon Aug 31,3:00 AM,74.7,80.2,0,0,Clear,4.2,8.1,SE,0,81
+Mon Aug 31,4:00 AM,74.1,79.7,2,0,Clear,3.9,6.5,ESE,0,83
+Mon Aug 31,5:00 AM,73.3,79,2,0,Clear,3.8,6.7,E,0,86
+Mon Aug 31,6:00 AM,72.6,78.4,1,0,Clear,3.9,6.7,ESE,0,88
+Mon Aug 31,7:00 AM,72.2,78.4,1,0,Clear,3.4,6,ESE,2,91
+Mon Aug 31,8:00 AM,73.1,80.6,1,0,Clear,2.3,6,ESE,4,93
+Mon Aug 31,9:00 AM,76,85,1,0,Clear,1.7,4.9,SSE,6,91
+Mon Aug 31,10:00 AM,79.5,89.1,1,0,Clear,1.8,2.7,W,2,84
+Mon Aug 31,11:00 AM,82.9,92.1,0,0,Clear,1.6,3.8,NW,14,73
+Mon Aug 31,12:00 PM,86.6,97.4,0,0,Clear,0.9,4,NNE,19,60
+Mon Aug 31,1:00 PM,88.6,96.2,1,0,Clear,1.3,4.7,N,18,53
+Mon Aug 31,2:00 PM,91.3,99.7,2,0,Clear,1.9,4.5,NE,18,45
+Mon Aug 31,3:00 PM,92.9,100.5,7,0,Mainly Clear,1.6,4.9,E,26,41
+Mon Aug 31,4:00 PM,93.3,98,7,0,Mainly Clear,1.4,6.3,ENE,26,39
+Mon Aug 31,5:00 PM,92.3,94.8,7,0,Overcast,4.2,4.9,NNE,100,37
+Mon Aug 31,6:00 PM,90.1,93.8,7,0,Partly Cloudy,4,6.9,SSW,63,43
+Mon Aug 31,7:00 PM,89.1,92.5,7,0,Clear,4.1,6,SSE,58,44
+Mon Aug 31,8:00 PM,87,91.1,7,0,Overcast,2.1,4.2,SSE,100,46
+Mon Aug 31,9:00 PM,85.8,90,4,0,Overcast,3.2,4.9,SSE,100,50
+Mon Aug 31,10:00 PM,84.9,89.9,4,0,Overcast,2.2,3.4,SE,100,53
+Mon Aug 31,11:00 PM,82.9,88,4,0,Clear,2.2,2,E,0,57
