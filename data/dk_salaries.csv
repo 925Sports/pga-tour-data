@@ -1,156 +1,71 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Ryan Gerard,10800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44042445,09/05/2026 1:15 AM,2026-09-05T15:58:07.829128Z
-Patrick Reed,10600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/976.png,782,44042446,09/05/2026 1:15 AM,2026-09-05T15:58:07.829144Z
-Matt Wallace,10400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44042447,09/05/2026 1:15 AM,2026-09-05T15:58:07.829151Z
-Rasmus Højgaard,10100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44042448,09/05/2026 1:15 AM,2026-09-05T15:58:07.829162Z
-Harry Hall,9700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44042449,09/05/2026 1:15 AM,2026-09-05T15:58:07.829168Z
-Eugenio Lopez-Chacarra,9600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,696842,44042450,09/05/2026 1:15 AM,2026-09-05T15:58:07.829173Z
-Marco Penge,9500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,698887,44042451,09/05/2026 1:15 AM,2026-09-05T15:58:07.829177Z
-Nicolai Højgaard,9400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44042452,09/05/2026 1:15 AM,2026-09-05T15:58:07.829187Z
-Antoine Rozner,9200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44042453,09/05/2026 1:15 AM,2026-09-05T15:58:07.829192Z
-Angel Ayora Fanegas,9100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,768633,44042454,09/05/2026 1:15 AM,2026-09-05T15:58:07.829197Z
-Davis Bryant,9000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,819151,44042455,09/05/2026 1:15 AM,2026-09-05T15:58:07.829202Z
-Keita Nakajima,8900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/japan.png,699011,44042456,09/05/2026 1:15 AM,2026-09-05T15:58:07.829206Z
-Thomas Detry,8800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44042457,09/05/2026 1:15 AM,2026-09-05T15:58:07.829210Z
-David Puig,8700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,756216,44042458,09/05/2026 1:15 AM,2026-09-05T15:58:07.829214Z
-Sudarshan Yellamaraju,8600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/canada.png,772264,44042459,09/05/2026 1:15 AM,2026-09-05T15:58:07.829219Z
-Jayden Trey Schaper,8500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700083,44042460,09/05/2026 1:15 AM,2026-09-05T15:58:07.829224Z
-Thriston Lawrence,8400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44042461,09/05/2026 1:15 AM,2026-09-05T15:58:07.829227Z
-Casey Jarvis,8300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700282,44042462,09/05/2026 1:15 AM,2026-09-05T15:58:07.829232Z
-Paul Casey,8200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,44042463,09/05/2026 1:15 AM,2026-09-05T15:58:07.829236Z
-Sergio Garcia,8100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/981.png,780,44042464,09/05/2026 1:15 AM,2026-09-05T15:58:07.829240Z
-Rasmus Neergaard-Petersen,8000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,720984,44042465,09/05/2026 1:15 AM,2026-09-05T15:58:07.829247Z
-Calum Hill,7900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44042466,09/05/2026 1:15 AM,2026-09-05T15:58:07.829251Z
-Hennie Du Plessis,7900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,354076,44042467,09/05/2026 1:15 AM,2026-09-05T15:58:07.829257Z
-Erik Van Rooyen,7800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44042468,09/05/2026 1:15 AM,2026-09-05T15:58:07.829261Z
-Nacho Elvira,7800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,561,44042469,09/05/2026 1:15 AM,2026-09-05T15:58:07.829265Z
-Alejandro Del Rey,7700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670992,44042470,09/05/2026 1:15 AM,2026-09-05T15:58:07.829270Z
-Todd Clements,7700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,670556,44042471,09/05/2026 1:15 AM,2026-09-05T15:58:07.829273Z
-Guido Migliozzi,7600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44042472,09/05/2026 1:15 AM,2026-09-05T15:58:07.829277Z
-Joost Luiten,7600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/810.png,383,44042473,09/05/2026 1:15 AM,2026-09-05T15:58:07.829281Z
-Adrian Meronk,7500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/poland.png,292342,44042474,09/05/2026 1:15 AM,2026-09-05T15:58:07.829284Z
-Joakim Lagergren,7500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44042475,09/05/2026 1:15 AM,2026-09-05T15:58:07.829288Z
-Ugo Coussaud,7500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,694555,44042476,09/05/2026 1:15 AM,2026-09-05T15:58:07.829291Z
-Bernd Wiesberger,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/718.png,479,44042477,09/05/2026 1:15 AM,2026-09-05T15:58:07.829295Z
-Hao-Tong Li,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44042478,09/05/2026 1:15 AM,2026-09-05T15:58:07.829299Z
-Romain Langasque,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44042479,09/05/2026 1:15 AM,2026-09-05T15:58:07.829303Z
-Mikael Lindberg,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,769321,44042480,09/05/2026 1:15 AM,2026-09-05T15:58:07.829307Z
-Jesper Svensson,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44042481,09/05/2026 1:15 AM,2026-09-05T15:58:07.829310Z
-Nicolai Von Dellingshausen,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,519957,44042482,09/05/2026 1:15 AM,2026-09-05T15:58:07.829315Z
-Jorge Campillo,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44042483,09/05/2026 1:15 AM,2026-09-05T15:58:07.829318Z
-Francesco Laporta,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44042484,09/05/2026 1:15 AM,2026-09-05T15:58:07.829322Z
-Manuel Elvira,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,769413,44042485,09/05/2026 1:15 AM,2026-09-05T15:58:07.829327Z
-Miguel Ángel Jiménez,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,1160,44042486,09/05/2026 1:15 AM,2026-09-05T15:58:07.829333Z
-Rafa Cabrera Bello,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/868.png,984,44042487,09/05/2026 1:15 AM,2026-09-05T15:58:07.829338Z
-Ashun Wu,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/china.png,626,44042488,09/05/2026 1:15 AM,2026-09-05T15:58:07.829341Z
-Matteo Manassero,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44042489,09/05/2026 1:15 AM,2026-09-05T15:58:07.829345Z
-Jeremy Paul,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44042490,09/05/2026 1:15 AM,2026-09-05T15:58:07.829349Z
-Maximilian Steinlechner,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/austria.png,73304,44042491,09/05/2026 1:15 AM,2026-09-05T15:58:07.829353Z
-Oihan Guillamoundeguy,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768105,44042492,09/05/2026 1:15 AM,2026-09-05T15:58:07.829357Z
-Fabrizio Zanotti,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60715.png,356,44042493,09/05/2026 1:15 AM,2026-09-05T15:58:07.829361Z
-Daniel Rodrigues,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/portugal.png,699770,44042494,09/05/2026 1:15 AM,2026-09-05T15:58:07.829364Z
-Wenyi Ding,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/china.png,769378,44042495,09/05/2026 1:15 AM,2026-09-05T15:58:07.829369Z
-Nathan Kimsey,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,345110,44042496,09/05/2026 1:15 AM,2026-09-05T15:58:07.829374Z
-Sebastian Garcia Rodriguez,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670993,44042497,09/05/2026 1:15 AM,2026-09-05T15:58:07.829378Z
-Niklas Lemke,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,496763,44042498,09/05/2026 1:15 AM,2026-09-05T15:58:07.829382Z
-Alexander Levy,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1060.png,1111,44042499,09/05/2026 1:15 AM,2026-09-05T15:58:07.829386Z
-Brandon Stone,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/877.png,181,44042500,09/05/2026 1:15 AM,2026-09-05T15:58:07.829390Z
-Danny Willett,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/792.png,199,44042501,09/05/2026 1:15 AM,2026-09-05T15:58:07.829393Z
-Darius Van Driel,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,44042502,09/05/2026 1:15 AM,2026-09-05T15:58:07.829397Z
-Daniel Van Tonder,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,380,44042503,09/05/2026 1:15 AM,2026-09-05T15:58:07.829401Z
-John Daly II,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,796721,44042504,09/05/2026 1:15 AM,2026-09-05T15:58:07.829406Z
-Gregorio De Leo,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,753705,44042505,09/05/2026 1:15 AM,2026-09-05T15:58:07.829411Z
-Jacques Kruyswijk,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1035,44042506,09/05/2026 1:15 AM,2026-09-05T15:58:07.829414Z
-Dan Bradbury,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,766740,44042538,09/05/2026 1:15 AM,2026-09-05T15:58:07.829418Z
-Sam Bairstow,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,722206,44042507,09/05/2026 1:15 AM,2026-09-05T15:58:07.829422Z
-Niklas Nørgaard Møller,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44042508,09/05/2026 1:15 AM,2026-09-05T15:58:07.829428Z
-Jason Scrivener,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44042509,09/05/2026 1:15 AM,2026-09-05T15:58:07.829432Z
-Lucas Bjerregaard,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/945.png,677,44042510,09/05/2026 1:15 AM,2026-09-05T15:58:07.829436Z
-Angel Hidalgo,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670990,44042511,09/05/2026 1:15 AM,2026-09-05T15:58:07.829449Z
-Yanhan Zhou,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/china.png,795440,44042512,09/05/2026 1:15 AM,2026-09-05T15:58:07.829454Z
-Martin Couvra,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768104,44042513,09/05/2026 1:15 AM,2026-09-05T15:58:07.829457Z
-JC Ritchie,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44042514,09/05/2026 1:15 AM,2026-09-05T15:58:07.829461Z
-Jens Dantorp,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,1152,44042515,09/05/2026 1:15 AM,2026-09-05T15:58:07.829464Z
-Marcus Helligkilde,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,702176,44042516,09/05/2026 1:15 AM,2026-09-05T15:58:07.829468Z
-Shubhankar Sharma,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/893.png,402,44042517,09/05/2026 1:15 AM,2026-09-05T15:58:07.829472Z
-Ivan Cantero Gutierrez,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,162,44042518,09/05/2026 1:15 AM,2026-09-05T15:58:07.829476Z
-Sebastian Soderberg,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60233.png,839,44042519,09/05/2026 1:15 AM,2026-09-05T15:58:07.829480Z
-Adrian Otaegui,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44042520,09/05/2026 1:15 AM,2026-09-05T15:58:07.829485Z
-Marcel Schneider,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,269380,44042521,09/05/2026 1:15 AM,2026-09-05T15:58:07.829489Z
-Eddie Pepperell,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44042522,09/05/2026 1:15 AM,2026-09-05T15:58:07.829494Z
-Adrien Saddier,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,2649,44042523,09/05/2026 1:15 AM,2026-09-05T15:58:07.829498Z
-Joel Girrbach,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,44042524,09/05/2026 1:15 AM,2026-09-05T15:58:07.829502Z
-Sean Crocker,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44042525,09/05/2026 1:15 AM,2026-09-05T15:58:07.829506Z
-Ricardo Gouveia,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44042526,09/05/2026 1:15 AM,2026-09-05T15:58:07.829509Z
-Marcus Kinhult,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1011.png,927,44042527,09/05/2026 1:15 AM,2026-09-05T15:58:07.829513Z
-Zander Lombard,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1181.png,449,44042528,09/05/2026 1:15 AM,2026-09-05T15:58:07.829517Z
-Andreas Halvorsen,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/norway.png,566210,44042529,09/05/2026 1:15 AM,2026-09-05T15:58:07.829521Z
-Connor Syme,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,405819,44042530,09/05/2026 1:15 AM,2026-09-05T15:58:07.829525Z
-Michael Hollick,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,506,44042531,09/05/2026 1:15 AM,2026-09-05T15:58:07.829529Z
-Yurav Premlall,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,44042532,09/05/2026 1:15 AM,2026-09-05T15:58:07.829532Z
-Renato Paratore,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44042533,09/05/2026 1:15 AM,2026-09-05T15:58:07.829536Z
-Kiradech Aphibarnrat,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44042534,09/05/2026 1:15 AM,2026-09-05T15:58:07.829540Z
-Yuto Katsuragawa,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44042535,09/05/2026 1:15 AM,2026-09-05T15:58:07.829543Z
-Tom Vaillant,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768110,44042536,09/05/2026 1:15 AM,2026-09-05T15:58:07.829547Z
-Ronan Kleu,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,698631,44042537,09/05/2026 1:15 AM,2026-09-05T15:58:07.829551Z
-Kyoung-Hoon Lee,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/625.png,1491,44042539,09/05/2026 1:15 AM,2026-09-05T15:58:07.829555Z
-Rikuya Hoshino,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44042540,09/05/2026 1:15 AM,2026-09-05T15:58:07.829558Z
-Albin Bergstrom,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,698400,44042541,09/05/2026 1:15 AM,2026-09-05T15:58:07.829562Z
-Brandon Robinson-Thompson,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,701399,44042542,09/05/2026 1:15 AM,2026-09-05T15:58:07.829566Z
-Luke List,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/719.png,559,44042543,09/05/2026 1:15 AM,2026-09-05T15:58:07.829572Z
-Tobias Jonsson,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,772989,44042544,09/05/2026 1:15 AM,2026-09-05T15:58:07.829576Z
-Félix Mory,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,702165,44042545,09/05/2026 1:15 AM,2026-09-05T15:58:07.829581Z
-Stefano Mazzoli,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,122743,44042546,09/05/2026 1:15 AM,2026-09-05T15:58:07.829585Z
-Euan Walker,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,698883,44042547,09/05/2026 1:15 AM,2026-09-05T15:58:07.829589Z
-Jack Yule,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,230882,44042548,09/05/2026 1:15 AM,2026-09-05T15:58:07.829593Z
-Sadom Kaewkanjana,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/thailand.png,695714,44042549,09/05/2026 1:15 AM,2026-09-05T15:58:07.829596Z
-Alfredo Garcia-Heredia,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,671014,44042550,09/05/2026 1:15 AM,2026-09-05T15:58:07.829600Z
-Fred Biondi,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/645124.png,765452,44042551,09/05/2026 1:15 AM,2026-09-05T15:58:07.829604Z
-Richard Sterne,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44042552,09/05/2026 1:15 AM,2026-09-05T15:58:07.829607Z
-Filippo Celli,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,753704,44042553,09/05/2026 1:15 AM,2026-09-05T15:58:07.829610Z
-David Law,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,355,44042554,09/05/2026 1:15 AM,2026-09-05T15:58:07.829614Z
-Dylan Frittelli,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44042555,09/05/2026 1:15 AM,2026-09-05T15:58:07.829618Z
-Cameron Adam,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,851066,44042556,09/05/2026 1:15 AM,2026-09-05T15:58:07.829621Z
-Benjamin Schmidt,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,723288,44042557,09/05/2026 1:15 AM,2026-09-05T15:58:07.829625Z
-Marcel Siem,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44042558,09/05/2026 1:15 AM,2026-09-05T15:58:07.829628Z
-Ryan Peake,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,818541,44042559,09/05/2026 1:15 AM,2026-09-05T15:58:07.829632Z
-Joshua Berry,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,775022,44042560,09/05/2026 1:15 AM,2026-09-05T15:58:07.829635Z
-Jack Senior,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/740.png,474,44042561,09/05/2026 1:15 AM,2026-09-05T15:58:07.829638Z
-Mischa Candinas,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,886249,44042562,09/05/2026 1:15 AM,2026-09-05T15:58:07.829642Z
-Yannik Paul,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,100830,44042563,09/05/2026 1:15 AM,2026-09-05T15:58:07.829646Z
-Daniel Young,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,398,44042564,09/05/2026 1:15 AM,2026-09-05T15:58:07.829650Z
-Rocco Repetto Taylor,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,861890,44042565,09/05/2026 1:15 AM,2026-09-05T15:58:07.829654Z
-Simon Forsström,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,346230,44042566,09/05/2026 1:15 AM,2026-09-05T15:58:07.829659Z
-Quentin Debove,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,862384,44042567,09/05/2026 1:15 AM,2026-09-05T15:58:07.829663Z
-Connor McKinney,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,769324,44042568,09/05/2026 1:15 AM,2026-09-05T15:58:07.829666Z
-Junghwan Lee,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_korea.png,669783,44042569,09/05/2026 1:15 AM,2026-09-05T15:58:07.829670Z
-Adri Arnaus,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1074.png,670432,44042570,09/05/2026 1:15 AM,2026-09-05T15:58:07.829673Z
-Jordan Gumberg,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,690517,44042571,09/05/2026 1:15 AM,2026-09-05T15:58:07.829678Z
-Ben Steinmann,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,886250,44042572,09/05/2026 1:15 AM,2026-09-05T15:58:07.829682Z
-Andres Gallegos,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/argentina.png,762249,44042573,09/05/2026 1:15 AM,2026-09-05T15:58:07.829685Z
-Nicola Gerhardsen,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,691136,44042574,09/05/2026 1:15 AM,2026-09-05T15:58:07.829689Z
-Quim Vidal,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,768542,44042575,09/05/2026 1:15 AM,2026-09-05T15:58:07.829692Z
-Clement Charmasson,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,857133,44042576,09/05/2026 1:15 AM,2026-09-05T15:58:07.829696Z
-Louis De Jager,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60575.png,1283,44042577,09/05/2026 1:15 AM,2026-09-05T15:58:07.829700Z
-David Micheluzzi,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,690250,44042578,09/05/2026 1:15 AM,2026-09-05T15:58:07.829704Z
-Benjamin Hebert,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1133.png,919,44042579,09/05/2026 1:15 AM,2026-09-05T15:58:07.829707Z
-Hugo Townsend,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,772986,44042580,09/05/2026 1:15 AM,2026-09-05T15:58:07.829711Z
-Edoardo Molinari,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60348.png,212,44042581,09/05/2026 1:15 AM,2026-09-05T15:58:07.829715Z
-Anthony Quayle,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,591733,44042582,09/05/2026 1:15 AM,2026-09-05T15:58:07.829719Z
-Ryggs Johnston,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,818540,44042583,09/05/2026 1:15 AM,2026-09-05T15:58:07.829723Z
-Mike Toorop,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,694400,44042584,09/05/2026 1:15 AM,2026-09-05T15:58:07.829726Z
-Robert Foley,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,691133,44042585,09/05/2026 1:15 AM,2026-09-05T15:58:07.829729Z
-Jeong-Weon Ko,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699573,44042586,09/05/2026 1:15 AM,2026-09-05T15:58:07.829733Z
-Maximilien Sturdza,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,767641,44042587,09/05/2026 1:15 AM,2026-09-05T15:58:07.829737Z
-Benjamin Follett-Smith,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/zimbabwe.png,670452,44042588,09/05/2026 1:15 AM,2026-09-05T15:58:07.829741Z
-Benjamin Rusch,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,615014,44042589,09/05/2026 1:15 AM,2026-09-05T15:58:07.829745Z
-Matthew Baldwin,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/686.png,798,44042590,09/05/2026 1:15 AM,2026-09-05T15:58:07.829748Z
-James Morrison,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44042591,09/05/2026 1:15 AM,2026-09-05T15:58:07.829752Z
-Frankie Capan,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/451339.png,1924,44042592,09/05/2026 1:15 AM,2026-09-05T15:58:07.829755Z
-Robin Williams,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,642346,44042593,09/05/2026 1:15 AM,2026-09-05T15:58:07.829759Z
-Anton Mostrom,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,886883,44042594,09/05/2026 1:15 AM,2026-09-05T15:58:07.829762Z
-Daniel Gavins,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,1204,44042595,09/05/2026 1:15 AM,2026-09-05T15:58:07.829767Z
-Jack Buchanan,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,769395,44042596,09/05/2026 1:15 AM,2026-09-05T15:58:07.829770Z
-Yuvraj Sandhu,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/india.png,426065,44042597,09/05/2026 1:15 AM,2026-09-05T15:58:07.829774Z
-Mike Lorenzo-Vera,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/856.png,966,44042598,09/05/2026 1:15 AM,2026-09-05T15:58:07.829777Z
-Pablo Larrazábal,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60659.png,465,44042599,09/05/2026 1:15 AM,2026-09-05T15:58:07.829782Z
+Patrick Reed,10800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/976.png,782,44047754,09/06/2026 12:00 AM,2026-09-05T18:09:29.657894Z
+Ryan Gerard,10500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44047755,09/06/2026 12:00 AM,2026-09-05T18:09:29.657912Z
+Matt Wallace,10300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44047756,09/06/2026 12:00 AM,2026-09-05T18:09:29.657920Z
+Eugenio Lopez-Chacarra,10000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,696842,44047757,09/06/2026 12:00 AM,2026-09-05T18:09:29.657929Z
+Harry Hall,9900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44047758,09/06/2026 12:00 AM,2026-09-05T18:09:29.657936Z
+Rasmus Højgaard,9800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44047759,09/06/2026 12:00 AM,2026-09-05T18:09:29.657946Z
+Keita Nakajima,9500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/japan.png,699011,44047760,09/06/2026 12:00 AM,2026-09-05T18:09:29.657953Z
+Angel Ayora Fanegas,9400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,768633,44047761,09/06/2026 12:00 AM,2026-09-05T18:09:29.657963Z
+Marco Penge,9300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,698887,44047762,09/06/2026 12:00 AM,2026-09-05T18:09:29.657970Z
+Thriston Lawrence,9200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44047763,09/06/2026 12:00 AM,2026-09-05T18:09:29.657976Z
+Thomas Detry,9100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44047764,09/06/2026 12:00 AM,2026-09-05T18:09:29.657982Z
+Davis Bryant,9000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,819151,44047765,09/06/2026 12:00 AM,2026-09-05T18:09:29.657988Z
+Antoine Rozner,8900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44047766,09/06/2026 12:00 AM,2026-09-05T18:09:29.657993Z
+Paul Casey,8800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,44047767,09/06/2026 12:00 AM,2026-09-05T18:09:29.657998Z
+David Puig,8700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,756216,44047768,09/06/2026 12:00 AM,2026-09-05T18:09:29.658003Z
+Nacho Elvira,8600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,561,44047769,09/06/2026 12:00 AM,2026-09-05T18:09:29.658008Z
+Sergio Garcia,8500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/981.png,780,44047770,09/06/2026 12:00 AM,2026-09-05T18:09:29.658014Z
+Jayden Trey Schaper,8400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700083,44047771,09/06/2026 12:00 AM,2026-09-05T18:09:29.658020Z
+Casey Jarvis,8300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700282,44047772,09/06/2026 12:00 AM,2026-09-05T18:09:29.658025Z
+Todd Clements,8200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,670556,44047773,09/06/2026 12:00 AM,2026-09-05T18:09:29.658030Z
+Erik Van Rooyen,8100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44047774,09/06/2026 12:00 AM,2026-09-05T18:09:29.658040Z
+Calum Hill,8000,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44047775,09/06/2026 12:00 AM,2026-09-05T18:09:29.658045Z
+Rafa Cabrera Bello,7900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/868.png,984,44047776,09/06/2026 12:00 AM,2026-09-05T18:09:29.658051Z
+Joakim Lagergren,7900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44047777,09/06/2026 12:00 AM,2026-09-05T18:09:29.658056Z
+Jeremy Paul,7800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44047778,09/06/2026 12:00 AM,2026-09-05T18:09:29.658061Z
+Adrian Meronk,7800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/poland.png,292342,44047779,09/06/2026 12:00 AM,2026-09-05T18:09:29.658066Z
+Ashun Wu,7700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/china.png,626,44047780,09/06/2026 12:00 AM,2026-09-05T18:09:29.658071Z
+Hao-Tong Li,7700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44047781,09/06/2026 12:00 AM,2026-09-05T18:09:29.658076Z
+Alejandro Del Rey,7600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670992,44047782,09/06/2026 12:00 AM,2026-09-05T18:09:29.658082Z
+Joost Luiten,7600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/810.png,383,44047783,09/06/2026 12:00 AM,2026-09-05T18:09:29.658087Z
+Guido Migliozzi,7500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44047784,09/06/2026 12:00 AM,2026-09-05T18:09:29.658094Z
+Brandon Stone,7500,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/877.png,181,44047785,09/06/2026 12:00 AM,2026-09-05T18:09:29.658099Z
+Shubhankar Sharma,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/893.png,402,44047786,09/06/2026 12:00 AM,2026-09-05T18:09:29.658104Z
+Ugo Coussaud,7400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,694555,44047787,09/06/2026 12:00 AM,2026-09-05T18:09:29.658110Z
+Francesco Laporta,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44047788,09/06/2026 12:00 AM,2026-09-05T18:09:29.658115Z
+Gregorio De Leo,7300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,753705,44047789,09/06/2026 12:00 AM,2026-09-05T18:09:29.658121Z
+Romain Langasque,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44047790,09/06/2026 12:00 AM,2026-09-05T18:09:29.658126Z
+Bernd Wiesberger,7200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/718.png,479,44047791,09/06/2026 12:00 AM,2026-09-05T18:09:29.658131Z
+Angel Hidalgo,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670990,44047792,09/06/2026 12:00 AM,2026-09-05T18:09:29.658136Z
+Maximilian Steinlechner,7100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/austria.png,73304,44047793,09/06/2026 12:00 AM,2026-09-05T18:09:29.658141Z
+Jacques Kruyswijk,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1035,44047794,09/06/2026 12:00 AM,2026-09-05T18:09:29.658148Z
+Joel Girrbach,7000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,44047795,09/06/2026 12:00 AM,2026-09-05T18:09:29.658155Z
+Manuel Elvira,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,769413,44047796,09/06/2026 12:00 AM,2026-09-05T18:09:29.658160Z
+Sebastian Soderberg,6900,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60233.png,839,44047797,09/06/2026 12:00 AM,2026-09-05T18:09:29.658165Z
+Fabrizio Zanotti,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60715.png,356,44047798,09/06/2026 12:00 AM,2026-09-05T18:09:29.658170Z
+Niklas Lemke,6800,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,496763,44047799,09/06/2026 12:00 AM,2026-09-05T18:09:29.658175Z
+Nathan Kimsey,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,345110,44047800,09/06/2026 12:00 AM,2026-09-05T18:09:29.658180Z
+Danny Willett,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/792.png,199,44047801,09/06/2026 12:00 AM,2026-09-05T18:09:29.658185Z
+Jack Yule,6700,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,230882,44047802,09/06/2026 12:00 AM,2026-09-05T18:09:29.658193Z
+Yurav Premlall,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,44047803,09/06/2026 12:00 AM,2026-09-05T18:09:29.658198Z
+Yanhan Zhou,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/china.png,795440,44047804,09/06/2026 12:00 AM,2026-09-05T18:09:29.658203Z
+Fred Biondi,6600,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/645124.png,765452,44047805,09/06/2026 12:00 AM,2026-09-05T18:09:29.658207Z
+Marcel Schneider,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,269380,44047806,09/06/2026 12:00 AM,2026-09-05T18:09:29.658215Z
+Andreas Halvorsen,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/norway.png,566210,44047807,09/06/2026 12:00 AM,2026-09-05T18:09:29.658220Z
+Ivan Cantero Gutierrez,6500,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,162,44047808,09/06/2026 12:00 AM,2026-09-05T18:09:29.658228Z
+Zander Lombard,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1181.png,449,44047809,09/06/2026 12:00 AM,2026-09-05T18:09:29.658234Z
+Michael Hollick,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,506,44047810,09/06/2026 12:00 AM,2026-09-05T18:09:29.658239Z
+Sean Crocker,6400,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44047811,09/06/2026 12:00 AM,2026-09-05T18:09:29.658247Z
+Darius Van Driel,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,44047812,09/06/2026 12:00 AM,2026-09-05T18:09:29.658255Z
+Tom Vaillant,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768110,44047813,09/06/2026 12:00 AM,2026-09-05T18:09:29.658263Z
+Kiradech Aphibarnrat,6300,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44047814,09/06/2026 12:00 AM,2026-09-05T18:09:29.658268Z
+Edoardo Molinari,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60348.png,212,44047815,09/06/2026 12:00 AM,2026-09-05T18:09:29.658275Z
+Stefano Mazzoli,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,122743,44047816,09/06/2026 12:00 AM,2026-09-05T18:09:29.658280Z
+Joshua Berry,6200,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/england.png,775022,44047817,09/06/2026 12:00 AM,2026-09-05T18:09:29.658286Z
+Dylan Frittelli,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44047818,09/06/2026 12:00 AM,2026-09-05T18:09:29.658291Z
+Louis De Jager,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/golf/players/50/60575.png,1283,44047819,09/06/2026 12:00 AM,2026-09-05T18:09:29.658297Z
+Quentin Debove,6100,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/france.png,862384,44047820,09/06/2026 12:00 AM,2026-09-05T18:09:29.658302Z
+Rocco Repetto Taylor,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,861890,44047821,09/06/2026 12:00 AM,2026-09-05T18:09:29.658307Z
+David Law,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,355,44047822,09/06/2026 12:00 AM,2026-09-05T18:09:29.658312Z
+Mike Toorop,6000,Omega European Masters,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,694400,44047823,09/06/2026 12:00 AM,2026-09-05T18:09:29.658317Z
