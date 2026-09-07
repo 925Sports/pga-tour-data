@@ -31073,5 +31073,36 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
     <span aria-hidden="true">?</span> Guide
 </button>
 
+
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var token = params.get("access");
+  var endpoint =
+    "https://www.ninetofivesports.com/_functions/checkAccess?token=" +
+    encodeURIComponent(token || "");
+
+  function deny() {
+    document.body.innerHTML =
+      '<div style="font-family:Inter,system-ui,sans-serif;background:#070b14;color:#e7ecf5;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;text-align:center">' +
+      "<div><h1 style='margin:0 0 8px'>NineToFive Paid Members Only</h1>" +
+      "<p style='color:#8b93a7'>This builder is for active 925 members.</p>" +
+      "<p><a href='https://www.ninetofivesports.com/plans-pricing' style='color:#2E8DA1'>Become a Member</a></p></div></div>";
+  }
+
+  if (!token) {
+    deny();
+    return;
+  }
+
+  fetch(endpoint)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data || data.ok !== true) deny();
+    })
+    .catch(function () { deny(); });
+})();
+</script>
+
 </body>
 </html>
