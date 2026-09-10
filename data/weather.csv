@@ -1,5 +1,5 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: The Cliffs at Walnut Cove | Updated: 9/10/2026, 5:55:19 AM",,,,,,,,,,,
+"Location: The Cliffs at Walnut Cove | Updated: 9/10/2026, 10:55:21 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Thu Sep 10,12:00 AM,66.1,68,0,0,Clear,5.7,6.5,ESE,0,87
@@ -8,45 +8,45 @@ Thu Sep 10,2:00 AM,64.9,66.4,0,0,Clear,6.1,6.5,E,0,90
 Thu Sep 10,3:00 AM,63.7,65.1,0,0,Clear,5.6,5.8,E,1,91
 Thu Sep 10,4:00 AM,63,64.2,0,0,Clear,5.4,6.5,E,3,91
 Thu Sep 10,5:00 AM,61.9,63,0,0,Clear,3.9,4.5,ENE,1,88
-Thu Sep 10,6:00 AM,60.4,60.8,0,0,Clear,4,5.6,ESE,0,87
-Thu Sep 10,7:00 AM,59.8,61.3,0,0,Clear,0.2,1.3,E,0,84
-Thu Sep 10,8:00 AM,61.1,62.8,0,0,Clear,1.6,1.8,E,0,87
-Thu Sep 10,9:00 AM,67.7,71.3,0,0,Clear,0.7,3.1,WNW,4,80
-Thu Sep 10,10:00 AM,74.7,76.8,0,0,Clear,3,11.6,NW,10,60
-Thu Sep 10,11:00 AM,80.5,83.6,0,0,Clear,1.6,5.8,N,2,47
-Thu Sep 10,12:00 PM,84.3,88.2,0,0,Clear,2.6,4.9,NE,0,40
-Thu Sep 10,1:00 PM,86.6,90.7,0,0,Clear,3.4,5.4,E,11,36
-Thu Sep 10,2:00 PM,87.8,91,2,0,Mainly Clear,3.8,5.8,ESE,21,33
-Thu Sep 10,3:00 PM,88.8,90.9,1,0,Mainly Clear,4.9,6.7,SSE,33,31
-Thu Sep 10,4:00 PM,86.8,87.2,1,0,Overcast,1.4,2.5,N,100,32
-Thu Sep 10,5:00 PM,86.8,86.3,1,0,Overcast,3.5,4.3,NNW,100,32
-Thu Sep 10,6:00 PM,84.7,83.5,1,0,Overcast,6.3,9.4,NNW,100,36
-Thu Sep 10,7:00 PM,83,82.4,1,0,Overcast,4.4,7.4,NNW,100,37
-Thu Sep 10,8:00 PM,80.9,80.6,1,0,Overcast,3.3,6.3,NNW,100,39
-Thu Sep 10,9:00 PM,79.6,79.9,1,0,Overcast,1.4,1.6,WSW,100,40
-Thu Sep 10,10:00 PM,76.7,76.3,0,0,Partly Cloudy,1.8,2.5,W,54,41
-Thu Sep 10,11:00 PM,73.8,72.7,0,0,Overcast,3.4,3.4,ESE,100,45
-Fri Sep 11,12:00 AM,73.3,73.8,0,0,Overcast,2,2.5,N,100,51
-Fri Sep 11,1:00 AM,71.1,70.7,0,0,Mainly Clear,3.9,3.8,E,36,55
-Fri Sep 11,2:00 AM,69.4,69.4,0,0,Overcast,3.4,3.4,E,100,59
-Fri Sep 11,3:00 AM,68.8,68.3,0,0,Overcast,3.8,4,N,100,58
-Fri Sep 11,4:00 AM,68,68,0,0,Overcast,2.1,2,WNW,100,58
-Fri Sep 11,5:00 AM,67,66.9,0,0,Overcast,2.3,2.2,NNW,98,60
-Fri Sep 11,6:00 AM,66.1,66.3,0,0,Overcast,2.1,2,NE,100,63
-Fri Sep 11,7:00 AM,65.4,65.6,0,0,Overcast,1.8,1.8,N,100,64
-Fri Sep 11,8:00 AM,66.6,66.6,0,0,Overcast,2.7,2.9,N,84,63
-Fri Sep 11,9:00 AM,73.3,74.8,0,0,Mainly Clear,1.7,7.4,NNW,32,56
-Fri Sep 11,10:00 AM,79.6,80.6,0,0,Partly Cloudy,2.6,7.6,NNW,69,45
-Fri Sep 11,11:00 AM,84.2,84.6,0,0,Clear,4.7,7.2,NNW,19,37
-Fri Sep 11,12:00 PM,86.8,89.6,0,0,Clear,3.6,4,N,4,35
-Fri Sep 11,1:00 PM,88.6,92,1,0,Mainly Clear,2.6,3.4,ENE,25,33
-Fri Sep 11,2:00 PM,89.5,92.3,2,0,Clear,4.4,5.1,ESE,15,32
-Fri Sep 11,3:00 PM,90.4,91.6,5,0,Mainly Clear,4.6,5.6,SSE,21,29
-Fri Sep 11,4:00 PM,91.1,92.8,6,0,Mainly Clear,2.1,3.6,SSE,21,26
-Fri Sep 11,5:00 PM,89.2,86.7,9,0,Overcast,8.6,10.7,S,80,30
-Fri Sep 11,6:00 PM,88.7,86.4,24,0,Overcast,6.5,8.7,S,96,28
-Fri Sep 11,7:00 PM,86.5,84.7,24,0,Partly Cloudy,6.6,12.1,S,65,32
-Fri Sep 11,8:00 PM,81.5,80.3,24,0,Overcast,4.9,12.3,SE,100,37
-Fri Sep 11,9:00 PM,79.1,79.1,17,0,Overcast,2.9,10.7,S,100,42
-Fri Sep 11,10:00 PM,77.1,77,17,0,Overcast,4.7,17.2,S,100,48
-Fri Sep 11,11:00 PM,74.2,74.9,17,0,Mainly Clear,6.5,13.6,SE,21,61
+Thu Sep 10,6:00 AM,60.4,61,0,0,Clear,3.5,4.9,ESE,0,87
+Thu Sep 10,7:00 AM,59.6,61.2,0,0,Partly Cloudy,0.8,2,NE,50,88
+Thu Sep 10,8:00 AM,60.7,63.2,0,0,Partly Cloudy,1,1.6,ESE,50,93
+Thu Sep 10,9:00 AM,65.8,70.4,0,0,Partly Cloudy,0.7,2.5,WNW,50,93
+Thu Sep 10,10:00 AM,73.5,77.8,0,0,Mainly Clear,0.9,6.5,NE,23,70
+Thu Sep 10,11:00 AM,78.7,83.2,0,0,Clear,0.7,6.5,NNE,0,55
+Thu Sep 10,12:00 PM,83.1,86.2,0,0,Clear,4.3,5.6,N,0,42
+Thu Sep 10,1:00 PM,85.8,89.3,0,0,Clear,3.6,4.3,N,0,35
+Thu Sep 10,2:00 PM,87.5,91.7,2,0,Clear,2.2,4.9,E,1,32
+Thu Sep 10,3:00 PM,88.2,90.7,1,0,Clear,4.8,5.4,SE,7,32
+Thu Sep 10,4:00 PM,88.2,89.2,1,0,Mainly Clear,4.4,6.7,SSE,22,33
+Thu Sep 10,5:00 PM,88,87.4,1,0,Clear,5.6,7.6,S,18,33
+Thu Sep 10,6:00 PM,86.8,85.7,1,0,Overcast,5.6,7.8,S,85,33
+Thu Sep 10,7:00 PM,84.2,83.6,0,0,Overcast,4.8,9.4,S,100,36
+Thu Sep 10,8:00 PM,81.4,80.9,0,0,Overcast,5.4,13.9,SSE,82,41
+Thu Sep 10,9:00 PM,77.8,78.2,0,0,Partly Cloudy,3.1,7.2,S,63,46
+Thu Sep 10,10:00 PM,78.4,78.5,0,0,Overcast,2.1,4,WNW,90,42
+Thu Sep 10,11:00 PM,74.8,74.1,0,0,Overcast,2.2,2.2,NNW,83,43
+Fri Sep 11,12:00 AM,71.9,70.5,0,0,Overcast,5.3,8.5,NNW,87,51
+Fri Sep 11,1:00 AM,70.1,70.8,0,0,Overcast,3.3,4.3,NW,100,62
+Fri Sep 11,2:00 AM,68.5,69,0,0,Overcast,5.2,6,NNW,100,70
+Fri Sep 11,3:00 AM,67.8,69.2,0,0,Overcast,3.2,3.8,NNW,100,72
+Fri Sep 11,4:00 AM,67.1,69.5,0,0,Overcast,0.7,0.7,ENE,100,73
+Fri Sep 11,5:00 AM,66.9,67.2,0,0,Overcast,3,3.1,ESE,100,66
+Fri Sep 11,6:00 AM,66.8,66,0,0,Overcast,4.3,4.3,E,100,62
+Fri Sep 11,7:00 AM,67.1,66.5,0,0,Overcast,3.8,4.3,ESE,100,61
+Fri Sep 11,8:00 AM,68.5,68.1,0,0,Partly Cloudy,3.8,3.8,E,76,60
+Fri Sep 11,9:00 AM,73.4,73.9,0,0,Mainly Clear,2.8,3.6,ESE,26,53
+Fri Sep 11,10:00 AM,79.3,80.5,0,0,Mainly Clear,1.6,8.9,ESE,22,45
+Fri Sep 11,11:00 AM,84.4,86,0,0,Mainly Clear,0.7,6.9,ENE,36,38
+Fri Sep 11,12:00 PM,86.8,87.7,0,0,Mainly Clear,1.5,5.1,NNE,42,34
+Fri Sep 11,1:00 PM,87.5,87.6,0,0,Overcast,3.3,4,ESE,97,33
+Fri Sep 11,2:00 PM,88.9,90.3,1,0,Partly Cloudy,3.2,3.8,SSE,78,32
+Fri Sep 11,3:00 PM,89.6,89.8,2,0,Partly Cloudy,2.7,4,S,60,30
+Fri Sep 11,4:00 PM,90.3,88.6,3,0,Mainly Clear,8,9.8,SSE,28,30
+Fri Sep 11,5:00 PM,89.1,87.7,4,0,Overcast,5.9,7.2,SSE,100,30
+Fri Sep 11,6:00 PM,87,85.5,4,0,Overcast,5.5,8.9,SSW,100,31
+Fri Sep 11,7:00 PM,85.3,85.5,5,0,Overcast,1.1,4.5,SW,100,32
+Fri Sep 11,8:00 PM,82.3,81,5,0,Partly Cloudy,3.2,3.4,NE,64,33
+Fri Sep 11,9:00 PM,79,77.2,4,0,Overcast,5.1,6,SE,100,38
+Fri Sep 11,10:00 PM,76.4,74.1,4,0,Overcast,4.8,4.7,E,85,38
+Fri Sep 11,11:00 PM,74.9,72.9,6,0,Overcast,4.9,7.6,ESE,100,42
