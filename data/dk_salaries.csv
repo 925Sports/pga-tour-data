@@ -1,163 +1,139 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Nelly Korda,14700,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703855,44081037,09/11/2026 1:40 AM,2026-09-11T14:12:29.418108Z
-Charley Hull,14400,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/england.png,223629,44081038,09/11/2026 1:40 AM,2026-09-11T14:12:29.418127Z
-Rose Zhang,14100,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703983,44081039,09/11/2026 1:40 AM,2026-09-11T14:12:29.418133Z
-Lottie Woad,13800,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/england.png,794872,44081040,09/11/2026 1:40 AM,2026-09-11T14:12:29.418139Z
-Allisen Corpuz,13500,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704523,44081041,09/11/2026 1:40 AM,2026-09-11T14:12:29.418144Z
-Esther Henseleit,13200,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/germany.png,704376,44081042,09/11/2026 1:40 AM,2026-09-11T14:12:29.418148Z
-Lauren Coughlin,12900,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,703594,44081043,09/11/2026 1:40 AM,2026-09-11T14:12:29.418152Z
-Celine Boutier,12600,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/france.png,704395,44081044,09/11/2026 1:40 AM,2026-09-11T14:12:29.418159Z
-Jennifer Kupcho,12300,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,700158,44081045,09/11/2026 1:40 AM,2026-09-11T14:12:29.418164Z
-Maja Stark,12000,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704535,44081046,09/11/2026 1:40 AM,2026-09-11T14:12:29.418168Z
-Andrea Lee,11700,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704296,44081047,09/11/2026 1:40 AM,2026-09-11T14:12:29.418171Z
-Carlota Ciganda,11400,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/spain.png,223609,44081048,09/11/2026 1:40 AM,2026-09-11T14:12:29.418175Z
-Linn Grant,11100,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/sweden.png,704512,44081049,09/11/2026 1:40 AM,2026-09-11T14:12:29.418178Z
-Auston Kim,10800,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704521,44081050,09/11/2026 1:40 AM,2026-09-11T14:12:29.418182Z
-Nanna Koerstz Madsen,10500,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/denmark.png,223618,44081051,09/11/2026 1:40 AM,2026-09-11T14:12:29.418186Z
-Yealimi Noh,10200,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704100,44081052,09/11/2026 1:40 AM,2026-09-11T14:12:29.418190Z
-Angel Yin,9600,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704051,44081053,09/11/2026 1:40 AM,2026-09-11T14:12:29.418193Z
-Leona Maguire,9300,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/ireland.png,223545,44081054,09/11/2026 1:40 AM,2026-09-11T14:12:29.418196Z
-Alison Lee,9000,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704274,44081055,09/11/2026 1:40 AM,2026-09-11T14:12:29.418201Z
-Megan Khang,8700,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704037,44081056,09/11/2026 1:40 AM,2026-09-11T14:12:29.418204Z
-Nastasia Nadaud,8400,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/france.png,772996,44081057,09/11/2026 1:40 AM,2026-09-11T14:12:29.418209Z
-Lindy Duncan,8100,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/united_states.png,704326,44081058,09/11/2026 1:40 AM,2026-09-11T14:12:29.418212Z
-Julia Lopez Ramirez,7800,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/spain.png,774829,44081059,09/11/2026 1:40 AM,2026-09-11T14:12:29.418216Z
-Mimi Rhodes,7500,Solheim Cup,Classic,https://dkn.gs/sports/images/countries/50/england.png,849716,44081060,09/11/2026 1:40 AM,2026-09-11T14:12:29.418219Z
-Rory McIlroy,12100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1080.png,463,44087661,09/11/2026 2:15 AM,2026-09-11T14:12:29.418223Z
-Jon Rahm,11000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1173.png,680,44087662,09/11/2026 2:15 AM,2026-09-11T14:12:29.418226Z
-Robert MacIntyre,10300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/822.png,670464,44087663,09/11/2026 2:15 AM,2026-09-11T14:12:29.418229Z
-Patrick Reed,10000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/976.png,782,44087664,09/11/2026 2:15 AM,2026-09-11T14:12:29.418233Z
-Joaquin Niemann,9900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/563.png,509671,44087665,09/11/2026 2:15 AM,2026-09-11T14:12:29.418236Z
-Tyrrell Hatton,9800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44087666,09/11/2026 2:15 AM,2026-09-11T14:12:29.418239Z
-Alex Fitzpatrick,9700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,690047,44087667,09/11/2026 2:15 AM,2026-09-11T14:12:29.418242Z
-Oliver Lindell,9400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/finland.png,230887,44087668,09/11/2026 2:15 AM,2026-09-11T14:12:29.418245Z
-Shane Lowry,9300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44087669,09/11/2026 2:15 AM,2026-09-11T14:12:29.418248Z
-Harry Hall,9200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44087670,09/11/2026 2:15 AM,2026-09-11T14:12:29.418251Z
-Matt Wallace,9100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44087671,09/11/2026 2:15 AM,2026-09-11T14:12:29.418254Z
-Rasmus Højgaard,9000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44087672,09/11/2026 2:15 AM,2026-09-11T14:12:29.418262Z
-Jacob Skov Olesen,8900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,797154,44087673,09/11/2026 2:15 AM,2026-09-11T14:12:29.418267Z
-Eugenio Lopez-Chacarra,8800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,696842,44087674,09/11/2026 2:15 AM,2026-09-11T14:12:29.418271Z
-Angel Ayora Fanegas,8700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,768633,44087675,09/11/2026 2:15 AM,2026-09-11T14:12:29.418274Z
-Tom McKibbin,8600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,44087676,09/11/2026 2:15 AM,2026-09-11T14:12:29.418277Z
-Nicolai Højgaard,8500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44087677,09/11/2026 2:15 AM,2026-09-11T14:12:29.418282Z
-Jordan L. Smith,8400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44087678,09/11/2026 2:15 AM,2026-09-11T14:12:29.418287Z
-Brooks Koepka,8300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,44087679,09/11/2026 2:15 AM,2026-09-11T14:12:29.418290Z
-Matthew Jordan,8200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44087680,09/11/2026 2:15 AM,2026-09-11T14:12:29.418293Z
-Sergio Garcia,8100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/981.png,780,44087681,09/11/2026 2:15 AM,2026-09-11T14:12:29.418296Z
-Ewen Ferguson,8000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,290967,44087682,09/11/2026 2:15 AM,2026-09-11T14:12:29.418299Z
-Casey Jarvis,7900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700282,44087683,09/11/2026 2:15 AM,2026-09-11T14:12:29.418303Z
-Bernd Wiesberger,7900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/718.png,479,44087684,09/11/2026 2:15 AM,2026-09-11T14:12:29.418306Z
-Thomas Detry,7800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44087685,09/11/2026 2:15 AM,2026-09-11T14:12:29.418309Z
-Antoine Rozner,7800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44087686,09/11/2026 2:15 AM,2026-09-11T14:12:29.418312Z
-David Puig,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,756216,44087687,09/11/2026 2:15 AM,2026-09-11T14:12:29.418315Z
-Sepp Straka,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/654.png,73285,44087688,09/11/2026 2:15 AM,2026-09-11T14:12:29.418318Z
-Calum Hill,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44087689,09/11/2026 2:15 AM,2026-09-11T14:12:29.418321Z
-Thorbjørn Olesen,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/756.png,437,44087690,09/11/2026 2:15 AM,2026-09-11T14:12:29.418325Z
-Daniel Hillier,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/new_zealand.png,696565,44087691,09/11/2026 2:15 AM,2026-09-11T14:12:29.418328Z
-Thriston Lawrence,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44087692,09/11/2026 2:15 AM,2026-09-11T14:12:29.418331Z
-Shaun Norris,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1193.png,861,44087693,09/11/2026 2:15 AM,2026-09-11T14:12:29.418334Z
-Davis Bryant,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,819151,44087694,09/11/2026 2:15 AM,2026-09-11T14:12:29.418337Z
-Marcus Armitage,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,344989,44087695,09/11/2026 2:15 AM,2026-09-11T14:12:29.418340Z
-Hao-Tong Li,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44087696,09/11/2026 2:15 AM,2026-09-11T14:12:29.418344Z
-Jayden Trey Schaper,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700083,44087697,09/11/2026 2:15 AM,2026-09-11T14:12:29.418348Z
-Nacho Elvira,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,561,44087698,09/11/2026 2:15 AM,2026-09-11T14:12:29.418352Z
-Rasmus Neergaard-Petersen,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,720984,44087699,09/11/2026 2:15 AM,2026-09-11T14:12:29.418359Z
-Francesco Molinari,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44087700,09/11/2026 2:15 AM,2026-09-11T14:12:29.418362Z
-Joe Dean,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,544869,44087701,09/11/2026 2:15 AM,2026-09-11T14:12:29.418365Z
-Adrian Meronk,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/poland.png,292342,44087702,09/11/2026 2:15 AM,2026-09-11T14:12:29.418369Z
-Romain Langasque,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44087703,09/11/2026 2:15 AM,2026-09-11T14:12:29.418372Z
-Laurie Canter,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,834,44087704,09/11/2026 2:15 AM,2026-09-11T14:12:29.418375Z
-Joost Luiten,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/810.png,383,44087705,09/11/2026 2:15 AM,2026-09-11T14:12:29.418378Z
-Seamus Power,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44087706,09/11/2026 2:15 AM,2026-09-11T14:12:29.418381Z
-Gregorio De Leo,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,753705,44087707,09/11/2026 2:15 AM,2026-09-11T14:12:29.418384Z
-Manuel Elvira,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,769413,44087708,09/11/2026 2:15 AM,2026-09-11T14:12:29.418387Z
-Joakim Lagergren,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44087709,09/11/2026 2:15 AM,2026-09-11T14:12:29.418390Z
-Erik Van Rooyen,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44087710,09/11/2026 2:15 AM,2026-09-11T14:12:29.418394Z
-Andy Sullivan,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44087711,09/11/2026 2:15 AM,2026-09-11T14:12:29.418397Z
-Alejandro Del Rey,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670992,44087712,09/11/2026 2:15 AM,2026-09-11T14:12:29.418400Z
-Mikael Lindberg,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,769321,44087713,09/11/2026 2:15 AM,2026-09-11T14:12:29.418405Z
-Hennie Du Plessis,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,354076,44087714,09/11/2026 2:15 AM,2026-09-11T14:12:29.418409Z
-Angel Hidalgo,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670990,44087715,09/11/2026 2:15 AM,2026-09-11T14:12:29.418412Z
-Todd Clements,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,670556,44087716,09/11/2026 2:15 AM,2026-09-11T14:12:29.418416Z
-Francesco Laporta,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44087717,09/11/2026 2:15 AM,2026-09-11T14:12:29.418419Z
-Darius Van Driel,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,44087718,09/11/2026 2:15 AM,2026-09-11T14:12:29.418422Z
-Nathan Kimsey,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,345110,44087719,09/11/2026 2:15 AM,2026-09-11T14:12:29.418425Z
-Kazuma Kobori,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/new_zealand.png,776760,44087720,09/11/2026 2:15 AM,2026-09-11T14:12:29.418428Z
-Ugo Coussaud,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,694555,44087721,09/11/2026 2:15 AM,2026-09-11T14:12:29.418431Z
-Padraig Harrington,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1067.png,297,44087722,09/11/2026 2:15 AM,2026-09-11T14:12:29.418434Z
-Tom Vaillant,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768110,44087723,09/11/2026 2:15 AM,2026-09-11T14:12:29.418437Z
-Rafa Cabrera Bello,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/868.png,984,44087724,09/11/2026 2:15 AM,2026-09-11T14:12:29.418442Z
-Dan Bradbury,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,766740,44087725,09/11/2026 2:15 AM,2026-09-11T14:12:29.418445Z
-Martin Couvra,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768104,44087726,09/11/2026 2:15 AM,2026-09-11T14:12:29.418448Z
-Marcus Helligkilde,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,702176,44087727,09/11/2026 2:15 AM,2026-09-11T14:12:29.418452Z
-Guido Migliozzi,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44087728,09/11/2026 2:15 AM,2026-09-11T14:12:29.418455Z
-Grant Forrest,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,1393,44087729,09/11/2026 2:15 AM,2026-09-11T14:12:29.418469Z
-Matteo Manassero,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44087730,09/11/2026 2:15 AM,2026-09-11T14:12:29.418474Z
-Freddy Schott,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,721368,44087731,09/11/2026 2:15 AM,2026-09-11T14:12:29.418477Z
-John Catlin,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/844.png,178891,44087732,09/11/2026 2:15 AM,2026-09-11T14:12:29.418480Z
-Mark Power,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,703040,44087733,09/11/2026 2:15 AM,2026-09-11T14:12:29.418483Z
-Brandon Stone,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/877.png,181,44087734,09/11/2026 2:15 AM,2026-09-11T14:12:29.418487Z
-Maximilian Steinlechner,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/austria.png,73304,44087735,09/11/2026 2:15 AM,2026-09-11T14:12:29.418491Z
-Kota Kaneko,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/japan.png,858837,44087736,09/11/2026 2:15 AM,2026-09-11T14:12:29.418494Z
-Julien Guerrier,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44087737,09/11/2026 2:15 AM,2026-09-11T14:12:29.418497Z
-Jorge Campillo,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44087738,09/11/2026 2:15 AM,2026-09-11T14:12:29.418500Z
-Sam Bairstow,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,722206,44087739,09/11/2026 2:15 AM,2026-09-11T14:12:29.418503Z
-Joel Girrbach,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,44087740,09/11/2026 2:15 AM,2026-09-11T14:12:29.418506Z
-Jeff Winther,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,581,44087741,09/11/2026 2:15 AM,2026-09-11T14:12:29.418509Z
-Yanhan Zhou,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,795440,44087742,09/11/2026 2:15 AM,2026-09-11T14:12:29.418512Z
-Paul Waring,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44087743,09/11/2026 2:15 AM,2026-09-11T14:12:29.418515Z
-Danny Willett,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/792.png,199,44087744,09/11/2026 2:15 AM,2026-09-11T14:12:29.418518Z
-Oihan Guillamoundeguy,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768105,44087745,09/11/2026 2:15 AM,2026-09-11T14:12:29.418521Z
-Wenyi Ding,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,769378,44087746,09/11/2026 2:15 AM,2026-09-11T14:12:29.418524Z
-Max Kennedy,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,774924,44087747,09/11/2026 2:15 AM,2026-09-11T14:12:29.418527Z
-Richard Mansell,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,702169,44087748,09/11/2026 2:15 AM,2026-09-11T14:12:29.418531Z
-JC Ritchie,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44087749,09/11/2026 2:15 AM,2026-09-11T14:12:29.418535Z
-Scott Jamieson,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,44087750,09/11/2026 2:15 AM,2026-09-11T14:12:29.418538Z
-Adrian Otaegui,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44087751,09/11/2026 2:15 AM,2026-09-11T14:12:29.418541Z
-Stefano Mazzoli,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,122743,44087752,09/11/2026 2:15 AM,2026-09-11T14:12:29.418544Z
-Nicolai Von Dellingshausen,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,519957,44087753,09/11/2026 2:15 AM,2026-09-11T14:12:29.418548Z
-Cormac Sharvin,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/northern_ireland.png,141,44087754,09/11/2026 2:15 AM,2026-09-11T14:12:29.418551Z
-Jacques Kruyswijk,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1035,44087755,09/11/2026 2:15 AM,2026-09-11T14:12:29.418555Z
-Ross Fisher,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/729.png,161,44087756,09/11/2026 2:15 AM,2026-09-11T14:12:29.418558Z
-Niklas Nørgaard Møller,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44087757,09/11/2026 2:15 AM,2026-09-11T14:12:29.418563Z
-Ashun Wu,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,626,44087758,09/11/2026 2:15 AM,2026-09-11T14:12:29.418566Z
-Eddie Pepperell,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44087759,09/11/2026 2:15 AM,2026-09-11T14:12:29.418569Z
-Ricardo Gouveia,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44087760,09/11/2026 2:15 AM,2026-09-11T14:12:29.418572Z
-Kiradech Aphibarnrat,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44087761,09/11/2026 2:15 AM,2026-09-11T14:12:29.418575Z
-Frederic Lacroix,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699576,44087762,09/11/2026 2:15 AM,2026-09-11T14:12:29.418578Z
-Jason Scrivener,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44087763,09/11/2026 2:15 AM,2026-09-11T14:12:29.418581Z
-David Law,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,355,44087764,09/11/2026 2:15 AM,2026-09-11T14:12:29.418584Z
-Brandon Robinson-Thompson,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,701399,44087765,09/11/2026 2:15 AM,2026-09-11T14:12:29.418588Z
-Sean Crocker,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44087766,09/11/2026 2:15 AM,2026-09-11T14:12:29.418591Z
-David Ravetto,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699574,44087767,09/11/2026 2:15 AM,2026-09-11T14:12:29.418594Z
-Daniel Rodrigues,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/portugal.png,699770,44087768,09/11/2026 2:15 AM,2026-09-11T14:12:29.418597Z
-Sebastian Soderberg,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60233.png,839,44087769,09/11/2026 2:15 AM,2026-09-11T14:12:29.418602Z
-Dylan Frittelli,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44087770,09/11/2026 2:15 AM,2026-09-11T14:12:29.418605Z
-Zander Lombard,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1181.png,449,44087771,09/11/2026 2:15 AM,2026-09-11T14:12:29.418608Z
-Connor Syme,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,405819,44087772,09/11/2026 2:15 AM,2026-09-11T14:12:29.418611Z
-Marcel Schneider,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,269380,44087773,09/11/2026 2:15 AM,2026-09-11T14:12:29.418614Z
-Renato Paratore,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44087774,09/11/2026 2:15 AM,2026-09-11T14:12:29.418619Z
-Rikuya Hoshino,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44087775,09/11/2026 2:15 AM,2026-09-11T14:12:29.418622Z
-Dylan Naidoo,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1185,44087776,09/11/2026 2:15 AM,2026-09-11T14:12:29.418625Z
-Michael Hollick,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,506,44087777,09/11/2026 2:15 AM,2026-09-11T14:12:29.418628Z
-Ryggs Johnston,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,818540,44087778,09/11/2026 2:15 AM,2026-09-11T14:12:29.418631Z
-Yurav Premlall,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,44087779,09/11/2026 2:15 AM,2026-09-11T14:12:29.418634Z
-Thomas Higgins,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,887123,44087780,09/11/2026 2:15 AM,2026-09-11T14:12:29.418637Z
-Jens Dantorp,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,1152,44087781,09/11/2026 2:15 AM,2026-09-11T14:12:29.418640Z
-Niklas Lemke,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,496763,44087782,09/11/2026 2:15 AM,2026-09-11T14:12:29.418643Z
-Luke Donald,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1104.png,1822,44087783,09/11/2026 2:15 AM,2026-09-11T14:12:29.418646Z
-Pablo Larrazábal,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60659.png,465,44087784,09/11/2026 2:15 AM,2026-09-11T14:12:29.418650Z
-Benjamin Schmidt,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,723288,44087785,09/11/2026 2:15 AM,2026-09-11T14:12:29.418653Z
-David Micheluzzi,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,690250,44087786,09/11/2026 2:15 AM,2026-09-11T14:12:29.418656Z
-Liam Nolan,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,797579,44087787,09/11/2026 2:15 AM,2026-09-11T14:12:29.418659Z
-Frankie Capan,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/451339.png,1924,44087788,09/11/2026 2:15 AM,2026-09-11T14:12:29.418662Z
-Daniel Gavins,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,1204,44087789,09/11/2026 2:15 AM,2026-09-11T14:12:29.418665Z
-Junghwan Lee,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_korea.png,669783,44087790,09/11/2026 2:15 AM,2026-09-11T14:12:29.418668Z
-Jordan Gumberg,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,690517,44087791,09/11/2026 2:15 AM,2026-09-11T14:12:29.418671Z
-Yuto Katsuragawa,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44087792,09/11/2026 2:15 AM,2026-09-11T14:12:29.418674Z
-Kyoung-Hoon Lee,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/625.png,1491,44087793,09/11/2026 2:15 AM,2026-09-11T14:12:29.418677Z
-Jeong-Weon Ko,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699573,44087794,09/11/2026 2:15 AM,2026-09-11T14:12:29.418682Z
-Jack Senior,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/740.png,474,44087795,09/11/2026 2:15 AM,2026-09-11T14:12:29.418685Z
-Richard Sterne,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44087796,09/11/2026 2:15 AM,2026-09-11T14:12:29.418688Z
-Johannes Veerman,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,250167,44087797,09/11/2026 2:15 AM,2026-09-11T14:12:29.418692Z
-Ivan Cantero Gutierrez,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,162,44087798,09/11/2026 2:15 AM,2026-09-11T14:12:29.418695Z
+Rory McIlroy,12000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1080.png,463,44115334,09/12/2026 12:00 AM,2026-09-11T17:46:42.471762Z
+Jon Rahm,10900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1173.png,680,44115335,09/12/2026 12:00 AM,2026-09-11T17:46:42.471780Z
+Joaquin Niemann,10500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/563.png,509671,44115336,09/12/2026 12:00 AM,2026-09-11T17:46:42.471789Z
+Patrick Reed,10300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/976.png,782,44115337,09/12/2026 12:00 AM,2026-09-11T17:46:42.471797Z
+Robert MacIntyre,10000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/822.png,670464,44115338,09/12/2026 12:00 AM,2026-09-11T17:46:42.471804Z
+Shane Lowry,9900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44115339,09/12/2026 12:00 AM,2026-09-11T17:46:42.471810Z
+Alex Fitzpatrick,9700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,690047,44115340,09/12/2026 12:00 AM,2026-09-11T17:46:42.471816Z
+Oliver Lindell,9500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/finland.png,230887,44115341,09/12/2026 12:00 AM,2026-09-11T17:46:42.471826Z
+Tyrrell Hatton,9400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44115342,09/12/2026 12:00 AM,2026-09-11T17:46:42.471833Z
+Jacob Skov Olesen,9200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,797154,44115343,09/12/2026 12:00 AM,2026-09-11T17:46:42.471840Z
+Harry Hall,9100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44115344,09/12/2026 12:00 AM,2026-09-11T17:46:42.471846Z
+Tom McKibbin,9000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,44115345,09/12/2026 12:00 AM,2026-09-11T17:46:42.471852Z
+Nicolai Højgaard,8900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44115346,09/12/2026 12:00 AM,2026-09-11T17:46:42.471862Z
+Rasmus Højgaard,8800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44115347,09/12/2026 12:00 AM,2026-09-11T17:46:42.471873Z
+Matt Wallace,8700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44115348,09/12/2026 12:00 AM,2026-09-11T17:46:42.471879Z
+Ewen Ferguson,8600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,290967,44115349,09/12/2026 12:00 AM,2026-09-11T17:46:42.471884Z
+Eugenio Lopez-Chacarra,8500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,696842,44115350,09/12/2026 12:00 AM,2026-09-11T17:46:42.471890Z
+Shaun Norris,8400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1193.png,861,44115351,09/12/2026 12:00 AM,2026-09-11T17:46:42.471896Z
+Angel Ayora Fanegas,8300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,768633,44115352,09/12/2026 12:00 AM,2026-09-11T17:46:42.471903Z
+Casey Jarvis,8200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700282,44115353,09/12/2026 12:00 AM,2026-09-11T17:46:42.471908Z
+Jordan L. Smith,8100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44115354,09/12/2026 12:00 AM,2026-09-11T17:46:42.471916Z
+Brooks Koepka,8000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,44115355,09/12/2026 12:00 AM,2026-09-11T17:46:42.471921Z
+Adrian Meronk,7900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/poland.png,292342,44115356,09/12/2026 12:00 AM,2026-09-11T17:46:42.471926Z
+Calum Hill,7900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44115357,09/12/2026 12:00 AM,2026-09-11T17:46:42.471931Z
+Bernd Wiesberger,7800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/718.png,479,44115358,09/12/2026 12:00 AM,2026-09-11T17:46:42.471936Z
+Daniel Hillier,7800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/new_zealand.png,696565,44115359,09/12/2026 12:00 AM,2026-09-11T17:46:42.471942Z
+Matthew Jordan,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44115360,09/12/2026 12:00 AM,2026-09-11T17:46:42.471947Z
+Thomas Detry,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44115361,09/12/2026 12:00 AM,2026-09-11T17:46:42.471952Z
+Sepp Straka,7700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/654.png,73285,44115362,09/12/2026 12:00 AM,2026-09-11T17:46:42.471959Z
+Rasmus Neergaard-Petersen,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,720984,44115363,09/12/2026 12:00 AM,2026-09-11T17:46:42.471966Z
+Hao-Tong Li,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44115364,09/12/2026 12:00 AM,2026-09-11T17:46:42.471971Z
+David Puig,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,756216,44115365,09/12/2026 12:00 AM,2026-09-11T17:46:42.471976Z
+Sergio Garcia,7600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/981.png,780,44115366,09/12/2026 12:00 AM,2026-09-11T17:46:42.471981Z
+Romain Langasque,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44115367,09/12/2026 12:00 AM,2026-09-11T17:46:42.471987Z
+Joe Dean,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,544869,44115368,09/12/2026 12:00 AM,2026-09-11T17:46:42.471993Z
+Antoine Rozner,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44115369,09/12/2026 12:00 AM,2026-09-11T17:46:42.471998Z
+Maximilian Steinlechner,7500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/austria.png,73304,44115370,09/12/2026 12:00 AM,2026-09-11T17:46:42.472004Z
+Andy Sullivan,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44115371,09/12/2026 12:00 AM,2026-09-11T17:46:42.472009Z
+Nathan Kimsey,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,345110,44115372,09/12/2026 12:00 AM,2026-09-11T17:46:42.472014Z
+Kazuma Kobori,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/new_zealand.png,776760,44115373,09/12/2026 12:00 AM,2026-09-11T17:46:42.472019Z
+Davis Bryant,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,819151,44115374,09/12/2026 12:00 AM,2026-09-11T17:46:42.472026Z
+Thriston Lawrence,7400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44115375,09/12/2026 12:00 AM,2026-09-11T17:46:42.472031Z
+Thorbjørn Olesen,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/756.png,437,44115376,09/12/2026 12:00 AM,2026-09-11T17:46:42.472038Z
+Francesco Molinari,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44115377,09/12/2026 12:00 AM,2026-09-11T17:46:42.472043Z
+Marcus Armitage,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,344989,44115378,09/12/2026 12:00 AM,2026-09-11T17:46:42.472049Z
+Jayden Trey Schaper,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,700083,44115379,09/12/2026 12:00 AM,2026-09-11T17:46:42.472054Z
+Tom Vaillant,7300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768110,44115380,09/12/2026 12:00 AM,2026-09-11T17:46:42.472060Z
+Nacho Elvira,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,561,44115381,09/12/2026 12:00 AM,2026-09-11T17:46:42.472064Z
+Rafa Cabrera Bello,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/868.png,984,44115382,09/12/2026 12:00 AM,2026-09-11T17:46:42.472072Z
+Padraig Harrington,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1067.png,297,44115383,09/12/2026 12:00 AM,2026-09-11T17:46:42.472077Z
+Darius Van Driel,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/netherlands.png,345213,44115384,09/12/2026 12:00 AM,2026-09-11T17:46:42.472083Z
+Ugo Coussaud,7200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,694555,44115385,09/12/2026 12:00 AM,2026-09-11T17:46:42.472088Z
+Todd Clements,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,670556,44115386,09/12/2026 12:00 AM,2026-09-11T17:46:42.472093Z
+Alejandro Del Rey,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670992,44115387,09/12/2026 12:00 AM,2026-09-11T17:46:42.472099Z
+Dan Bradbury,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,766740,44115388,09/12/2026 12:00 AM,2026-09-11T17:46:42.472104Z
+Seamus Power,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44115389,09/12/2026 12:00 AM,2026-09-11T17:46:42.472111Z
+Laurie Canter,7100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,834,44115390,09/12/2026 12:00 AM,2026-09-11T17:46:42.472116Z
+Matteo Manassero,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44115391,09/12/2026 12:00 AM,2026-09-11T17:46:42.472121Z
+Brandon Stone,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/877.png,181,44115392,09/12/2026 12:00 AM,2026-09-11T17:46:42.472126Z
+Joel Girrbach,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/switzerland.png,241748,44115393,09/12/2026 12:00 AM,2026-09-11T17:46:42.472133Z
+Kota Kaneko,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/japan.png,858837,44115394,09/12/2026 12:00 AM,2026-09-11T17:46:42.472138Z
+Mikael Lindberg,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,769321,44115395,09/12/2026 12:00 AM,2026-09-11T17:46:42.472143Z
+Paul Waring,7000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44115396,09/12/2026 12:00 AM,2026-09-11T17:46:42.472148Z
+Francesco Laporta,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44115397,09/12/2026 12:00 AM,2026-09-11T17:46:42.472153Z
+Joost Luiten,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/810.png,383,44115398,09/12/2026 12:00 AM,2026-09-11T17:46:42.472158Z
+Grant Forrest,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,1393,44115399,09/12/2026 12:00 AM,2026-09-11T17:46:42.472164Z
+Marcus Helligkilde,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,702176,44115400,09/12/2026 12:00 AM,2026-09-11T17:46:42.472169Z
+Sam Bairstow,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,722206,44115401,09/12/2026 12:00 AM,2026-09-11T17:46:42.472174Z
+Jorge Campillo,6900,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44115402,09/12/2026 12:00 AM,2026-09-11T17:46:42.472179Z
+Jeff Winther,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/denmark.png,581,44115403,09/12/2026 12:00 AM,2026-09-11T17:46:42.472184Z
+JC Ritchie,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44115404,09/12/2026 12:00 AM,2026-09-11T17:46:42.472189Z
+Ross Fisher,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/729.png,161,44115405,09/12/2026 12:00 AM,2026-09-11T17:46:42.472194Z
+Niklas Nørgaard Møller,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44115406,09/12/2026 12:00 AM,2026-09-11T17:46:42.472201Z
+Frederic Lacroix,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699576,44115407,09/12/2026 12:00 AM,2026-09-11T17:46:42.472206Z
+David Law,6800,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,355,44115408,09/12/2026 12:00 AM,2026-09-11T17:46:42.472211Z
+Joakim Lagergren,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44115409,09/12/2026 12:00 AM,2026-09-11T17:46:42.472217Z
+Hennie Du Plessis,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,354076,44115410,09/12/2026 12:00 AM,2026-09-11T17:46:42.472224Z
+Richard Mansell,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,702169,44115411,09/12/2026 12:00 AM,2026-09-11T17:46:42.472229Z
+Manuel Elvira,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,769413,44115412,09/12/2026 12:00 AM,2026-09-11T17:46:42.472234Z
+Gregorio De Leo,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,753705,44115413,09/12/2026 12:00 AM,2026-09-11T17:46:42.472251Z
+Erik Van Rooyen,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44115414,09/12/2026 12:00 AM,2026-09-11T17:46:42.472257Z
+Renato Paratore,6700,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44115415,09/12/2026 12:00 AM,2026-09-11T17:46:42.472262Z
+Guido Migliozzi,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44115416,09/12/2026 12:00 AM,2026-09-11T17:46:42.472267Z
+Connor Syme,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/scotland.png,405819,44115417,09/12/2026 12:00 AM,2026-09-11T17:46:42.472272Z
+John Catlin,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/844.png,178891,44115418,09/12/2026 12:00 AM,2026-09-11T17:46:42.472279Z
+Martin Couvra,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768104,44115419,09/12/2026 12:00 AM,2026-09-11T17:46:42.472303Z
+Angel Hidalgo,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,670990,44115420,09/12/2026 12:00 AM,2026-09-11T17:46:42.472309Z
+Oihan Guillamoundeguy,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,768105,44115421,09/12/2026 12:00 AM,2026-09-11T17:46:42.472314Z
+Daniel Rodrigues,6600,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/portugal.png,699770,44115422,09/12/2026 12:00 AM,2026-09-11T17:46:42.472319Z
+Freddy Schott,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,721368,44115423,09/12/2026 12:00 AM,2026-09-11T17:46:42.472324Z
+Mark Power,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,703040,44115424,09/12/2026 12:00 AM,2026-09-11T17:46:42.472329Z
+Julien Guerrier,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44115425,09/12/2026 12:00 AM,2026-09-11T17:46:42.472334Z
+Jens Dantorp,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,1152,44115426,09/12/2026 12:00 AM,2026-09-11T17:46:42.472339Z
+Yanhan Zhou,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,795440,44115427,09/12/2026 12:00 AM,2026-09-11T17:46:42.472344Z
+Ricardo Gouveia,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44115428,09/12/2026 12:00 AM,2026-09-11T17:46:42.472349Z
+Kiradech Aphibarnrat,6500,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44115429,09/12/2026 12:00 AM,2026-09-11T17:46:42.472355Z
+Jason Scrivener,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44115430,09/12/2026 12:00 AM,2026-09-11T17:46:42.472360Z
+Luke Donald,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1104.png,1822,44115431,09/12/2026 12:00 AM,2026-09-11T17:46:42.472365Z
+Niklas Lemke,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/sweden.png,496763,44115432,09/12/2026 12:00 AM,2026-09-11T17:46:42.472372Z
+Danny Willett,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/792.png,199,44115433,09/12/2026 12:00 AM,2026-09-11T17:46:42.472377Z
+Max Kennedy,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,774924,44115434,09/12/2026 12:00 AM,2026-09-11T17:46:42.472383Z
+Cormac Sharvin,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/northern_ireland.png,141,44115435,09/12/2026 12:00 AM,2026-09-11T17:46:42.472388Z
+Stefano Mazzoli,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/italy.png,122743,44115436,09/12/2026 12:00 AM,2026-09-11T17:46:42.472393Z
+Sebastian Soderberg,6400,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60233.png,839,44115437,09/12/2026 12:00 AM,2026-09-11T17:46:42.472400Z
+David Ravetto,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699574,44115438,09/12/2026 12:00 AM,2026-09-11T17:46:42.472405Z
+Sean Crocker,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44115439,09/12/2026 12:00 AM,2026-09-11T17:46:42.472410Z
+Zander Lombard,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1181.png,449,44115440,09/12/2026 12:00 AM,2026-09-11T17:46:42.472415Z
+Liam Nolan,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,797579,44115441,09/12/2026 12:00 AM,2026-09-11T17:46:42.472420Z
+Johannes Veerman,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,250167,44115442,09/12/2026 12:00 AM,2026-09-11T17:46:42.472425Z
+Frankie Capan,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/451339.png,1924,44115443,09/12/2026 12:00 AM,2026-09-11T17:46:42.472431Z
+David Micheluzzi,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/australia.png,690250,44115444,09/12/2026 12:00 AM,2026-09-11T17:46:42.472436Z
+James Morrison,6300,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44115445,09/12/2026 12:00 AM,2026-09-11T17:46:42.472441Z
+Dylan Frittelli,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44115446,09/12/2026 12:00 AM,2026-09-11T17:46:42.472445Z
+Jacques Kruyswijk,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1035,44115447,09/12/2026 12:00 AM,2026-09-11T17:46:42.472450Z
+Nicolai Von Dellingshausen,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,519957,44115448,09/12/2026 12:00 AM,2026-09-11T17:46:42.472457Z
+Wenyi Ding,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,769378,44115449,09/12/2026 12:00 AM,2026-09-11T17:46:42.472461Z
+Adrian Otaegui,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44115450,09/12/2026 12:00 AM,2026-09-11T17:46:42.472466Z
+Ashun Wu,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/china.png,626,44115451,09/12/2026 12:00 AM,2026-09-11T17:46:42.472471Z
+Scott Jamieson,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,44115452,09/12/2026 12:00 AM,2026-09-11T17:46:42.472478Z
+Rikuya Hoshino,6200,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44115453,09/12/2026 12:00 AM,2026-09-11T17:46:42.472483Z
+Yurav Premlall,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,692918,44115454,09/12/2026 12:00 AM,2026-09-11T17:46:42.472488Z
+Brandon Robinson-Thompson,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,701399,44115455,09/12/2026 12:00 AM,2026-09-11T17:46:42.472495Z
+Thomas Higgins,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/ireland.png,887123,44115456,09/12/2026 12:00 AM,2026-09-11T17:46:42.472501Z
+Dylan Naidoo,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,1185,44115457,09/12/2026 12:00 AM,2026-09-11T17:46:42.472506Z
+Michael Hollick,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_africa.png,506,44115458,09/12/2026 12:00 AM,2026-09-11T17:46:42.472511Z
+Ryggs Johnston,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,818540,44115459,09/12/2026 12:00 AM,2026-09-11T17:46:42.472516Z
+Jack Senior,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/740.png,474,44115460,09/12/2026 12:00 AM,2026-09-11T17:46:42.472520Z
+Pablo Larrazábal,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/60659.png,465,44115461,09/12/2026 12:00 AM,2026-09-11T17:46:42.472529Z
+Kyoung-Hoon Lee,6100,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/625.png,1491,44115462,09/12/2026 12:00 AM,2026-09-11T17:46:42.472535Z
+Marcel Schneider,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/germany.png,269380,44115463,09/12/2026 12:00 AM,2026-09-11T17:46:42.472540Z
+Daniel Gavins,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,1204,44115464,09/12/2026 12:00 AM,2026-09-11T17:46:42.472545Z
+Benjamin Schmidt,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/england.png,723288,44115465,09/12/2026 12:00 AM,2026-09-11T17:46:42.472550Z
+Junghwan Lee,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/south_korea.png,669783,44115466,09/12/2026 12:00 AM,2026-09-11T17:46:42.472555Z
+Jordan Gumberg,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/united_states.png,690517,44115467,09/12/2026 12:00 AM,2026-09-11T17:46:42.472560Z
+Richard Sterne,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44115468,09/12/2026 12:00 AM,2026-09-11T17:46:42.472565Z
+Ivan Cantero Gutierrez,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/spain.png,162,44115469,09/12/2026 12:00 AM,2026-09-11T17:46:42.472571Z
+Yuto Katsuragawa,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44115470,09/12/2026 12:00 AM,2026-09-11T17:46:42.472576Z
+Jeong-Weon Ko,6000,Amgen Irish Open,Showdown,https://dkn.gs/sports/images/countries/50/france.png,699573,44115471,09/12/2026 12:00 AM,2026-09-11T17:46:42.472583Z
