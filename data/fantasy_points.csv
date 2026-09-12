@@ -1,126 +1,187 @@
 player_name,Player Name,Slate-Tournament,Headshot,Player ID,Draftable ID,Tournament,Game Start Time,Salary,Fantasy Points,Ownership,Made Cut,MC,Win,Top 5,Top 10,Top 20,Teetime,Course,updated_at
-Rory McIlroy,Rory McIlroy,Showdown: Amgen Irish,https://dkn.gs/sports/images/golf/players/50/1080.png,463,44115334,Amgen Irish Open,9/12/2026,12000,56.9,27.02,0,0,2441.9 (0.04),180.4 (0.36),-293.4 (0.75),-7333.3 (0.99),1:50:36 PM,EL,2026-09-12T10:28:50.645907Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,LIV Golf Indianapolis,8/20/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645918Z
-Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,LIV Golf Indianapolis,8/20/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645922Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,LIV Golf Indianapolis,8/20/2026,10800,26.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645924Z
-Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,LIV Golf Indianapolis,8/20/2026,10800,26.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645927Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,LIV Golf Indianapolis,8/20/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645929Z
-Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,LIV Golf Indianapolis,8/20/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645932Z
-Robert MacIntyre,Robert MacIntyre,Showdown: Amgen Irish,https://dkn.gs/sports/images/golf/players/50/822.png,670464,44115338,Amgen Irish Open,9/12/2026,10000,51.37,14.46,0,0,283125.0 (0.00),31125.0 (0.00),5450.0 (0.02),277.5 (0.26),11:50:36 AM,EL,2026-09-12T10:28:50.645937Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,LIV Golf Indianapolis,8/20/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645941Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,LIV Golf Indianapolis,8/20/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645944Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,LIV Golf Indianapolis,8/20/2026,9800,24.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645946Z
-Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,LIV Golf Indianapolis,8/20/2026,9800,24.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645949Z
-Alex Fitzpatrick,Alex Fitzpatrick,Showdown: Amgen Irish,https://dkn.gs/sports/images/countries/50/england.png,690047,44115340,Amgen Irish Open,9/12/2026,9700,50.21,10.66,0,0,139000.0 (0.00),4581.8 (0.02),591.0 (0.14),-223.7 (0.69),12:44:36 PM,EL,2026-09-12T10:28:50.645951Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,LIV Golf Indianapolis,8/20/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645953Z
-David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,LIV Golf Indianapolis,8/20/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645955Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,LIV Golf Indianapolis,8/20/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645958Z
-Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,LIV Golf Indianapolis,8/20/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645960Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,LIV Golf Indianapolis,8/20/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645962Z
-Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,LIV Golf Indianapolis,8/20/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645964Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,LIV Golf Indianapolis,8/20/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645967Z
-Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,LIV Golf Indianapolis,8/20/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645969Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,LIV Golf Indianapolis,8/20/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645971Z
-Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,LIV Golf Indianapolis,8/20/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645973Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,LIV Golf Indianapolis,8/20/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645976Z
-Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,LIV Golf Indianapolis,8/20/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645978Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,LIV Golf Indianapolis,8/20/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645980Z
-Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,LIV Golf Indianapolis,8/20/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645982Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,LIV Golf Indianapolis,8/20/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645984Z
-Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,LIV Golf Indianapolis,8/20/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645987Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,LIV Golf Indianapolis,8/20/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645989Z
-Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,LIV Golf Indianapolis,8/20/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645992Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,LIV Golf Indianapolis,8/20/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645994Z
-Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,LIV Golf Indianapolis,8/20/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645996Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,LIV Golf Indianapolis,8/20/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.645999Z
-Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,LIV Golf Indianapolis,8/20/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646001Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,LIV Golf Indianapolis,8/20/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646003Z
-Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,LIV Golf Indianapolis,8/20/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646005Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,LIV Golf Indianapolis,8/20/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646008Z
-Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,LIV Golf Indianapolis,8/20/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646010Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,LIV Golf Indianapolis,8/20/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646012Z
-Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,LIV Golf Indianapolis,8/20/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646014Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,LIV Golf Indianapolis,8/20/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646017Z
-Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,LIV Golf Indianapolis,8/20/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646019Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,LIV Golf Indianapolis,8/20/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646021Z
-Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,LIV Golf Indianapolis,8/20/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646024Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,LIV Golf Indianapolis,8/20/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646026Z
-Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,LIV Golf Indianapolis,8/20/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646028Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,LIV Golf Indianapolis,8/20/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646030Z
-Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,LIV Golf Indianapolis,8/20/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646033Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646035Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646037Z
-Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646039Z
-Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646041Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646044Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646046Z
-Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646048Z
-Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646051Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646053Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646056Z
-Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646059Z
-Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646061Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646064Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646066Z
-Cameron John,Cameron John,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646068Z
-Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646070Z
-Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646073Z
-Cameron John,Cameron John,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646075Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646077Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646080Z
-Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646082Z
-Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646084Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646087Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646089Z
-Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646091Z
-Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646094Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646096Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646098Z
-Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646101Z
-Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646103Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646105Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646107Z
-Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646109Z
-Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646111Z
-Elvis Smylie,Elvis Smylie,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646114Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646116Z
-Elvis Smylie,Elvis Smylie,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646118Z
-Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646120Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646122Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646124Z
-Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646127Z
-Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646129Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646131Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646133Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646136Z
-Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646138Z
-Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646141Z
-Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646143Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646145Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646147Z
-Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646149Z
-Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646151Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646154Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646156Z
-Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646158Z
-Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646160Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646163Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646165Z
-Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646168Z
-Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646170Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646172Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646174Z
-Ollie Schniederjans,Ollie Schniederjans,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646177Z
-Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646179Z
-Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646181Z
-Ollie Schniederjans,Ollie Schniederjans,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646183Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646186Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646188Z
-Max Rottluff,Max Rottluff,Classic: LIV,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646190Z
-Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646192Z
-Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646195Z
-Max Rottluff,Max Rottluff,Classic: LIV,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646197Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646199Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646201Z
-Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646204Z
-Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T10:28:50.646206Z
+Rory McIlroy,Rory McIlroy,Showdown: Amgen Irish,https://dkn.gs/sports/images/golf/players/50/1080.png,463,44115334,Amgen Irish Open,9/12/2026,12000,56.9,27.02,0,0,2441.9 (0.04),180.4 (0.36),-293.4 (0.75),-7333.3 (0.99),1:50:36 PM,EL,2026-09-12T13:43:11.400349Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,LIV Golf Indianapolis,8/20/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400359Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,LIV Golf Indianapolis,8/20/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400362Z
+Bryson DeChambeau,Bryson DeChambeau,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/656.png,467,43867143,LIV Golf Indianapolis,8/20/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400364Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,LIV Golf Indianapolis,8/20/2026,10800,26.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400367Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,LIV Golf Indianapolis,8/20/2026,10800,26.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400369Z
+Jon Rahm,Jon Rahm,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1173.png,680,43867144,LIV Golf Indianapolis,8/20/2026,10800,26.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400371Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,LIV Golf Indianapolis,8/20/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400377Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,LIV Golf Indianapolis,8/20/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400380Z
+Joaquin Niemann,Joaquin Niemann,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/563.png,509671,43867145,LIV Golf Indianapolis,8/20/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400383Z
+Robert MacIntyre,Robert MacIntyre,Showdown: Amgen Irish,https://dkn.gs/sports/images/golf/players/50/822.png,670464,44115338,Amgen Irish Open,9/12/2026,10000,51.37,14.46,0,0,283125.0 (0.00),31125.0 (0.00),5450.0 (0.02),277.5 (0.26),11:50:36 AM,EL,2026-09-12T13:43:11.400385Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,LIV Golf Indianapolis,8/20/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400387Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,LIV Golf Indianapolis,8/20/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400390Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,43867146,LIV Golf Indianapolis,8/20/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400392Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,LIV Golf Indianapolis,8/20/2026,9800,24.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400394Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,LIV Golf Indianapolis,8/20/2026,9800,24.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400396Z
+Lucas Herbert,Lucas Herbert,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/863.png,113,43867147,LIV Golf Indianapolis,8/20/2026,9800,24.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400398Z
+Alex Fitzpatrick,Alex Fitzpatrick,Showdown: Amgen Irish,https://dkn.gs/sports/images/countries/50/england.png,690047,44115340,Amgen Irish Open,9/12/2026,9700,50.21,10.66,0,0,139000.0 (0.00),4581.8 (0.02),591.0 (0.14),-223.7 (0.69),12:44:36 PM,EL,2026-09-12T13:43:11.400401Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,LIV Golf Indianapolis,8/20/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400403Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,LIV Golf Indianapolis,8/20/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400405Z
+David Puig,David Puig,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,756216,43867148,LIV Golf Indianapolis,8/20/2026,9600,23.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400407Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,LIV Golf Indianapolis,8/20/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400409Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,LIV Golf Indianapolis,8/20/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400411Z
+Branden Grace,Branden Grace,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/661.png,956,43867149,LIV Golf Indianapolis,8/20/2026,9400,23.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400414Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,LIV Golf Indianapolis,8/20/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400416Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,LIV Golf Indianapolis,8/20/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400418Z
+Cameron Smith,Cameron Smith,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/532.png,1194,43867150,LIV Golf Indianapolis,8/20/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400420Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,LIV Golf Indianapolis,8/20/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400423Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,LIV Golf Indianapolis,8/20/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400425Z
+Marc Leishman,Marc Leishman,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/555.png,142,43867151,LIV Golf Indianapolis,8/20/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400427Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,LIV Golf Indianapolis,8/20/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400430Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,LIV Golf Indianapolis,8/20/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400432Z
+Thomas Detry,Thomas Detry,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/842.png,121942,43867152,LIV Golf Indianapolis,8/20/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400435Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,LIV Golf Indianapolis,8/20/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400437Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,LIV Golf Indianapolis,8/20/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400439Z
+Tom McKibbin,Tom McKibbin,Classic: LIV,https://dkn.gs/sports/images/countries/50/northern_ireland.png,671050,43867155,LIV Golf Indianapolis,8/20/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400442Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,LIV Golf Indianapolis,8/20/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400444Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,LIV Golf Indianapolis,8/20/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400446Z
+Carlos Ortiz,Carlos Ortiz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/580.png,777,43867154,LIV Golf Indianapolis,8/20/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400448Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,LIV Golf Indianapolis,8/20/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400450Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,LIV Golf Indianapolis,8/20/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400452Z
+Dean Burmester,Dean Burmester,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/770.png,851,43867153,LIV Golf Indianapolis,8/20/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400455Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,LIV Golf Indianapolis,8/20/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400457Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,LIV Golf Indianapolis,8/20/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400460Z
+Harold Varner III,Harold Varner III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/624.png,190,43867156,LIV Golf Indianapolis,8/20/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400462Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,LIV Golf Indianapolis,8/20/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400464Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,LIV Golf Indianapolis,8/20/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400467Z
+Abraham Ancer,Abraham Ancer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/768.png,662,43867157,LIV Golf Indianapolis,8/20/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400469Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,LIV Golf Indianapolis,8/20/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400471Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,LIV Golf Indianapolis,8/20/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400473Z
+Victor Perez,Victor Perez,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/710.png,670428,43867158,LIV Golf Indianapolis,8/20/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400475Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,LIV Golf Indianapolis,8/20/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400477Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,LIV Golf Indianapolis,8/20/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400479Z
+Dustin Johnson,Dustin Johnson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/720.png,1149,43867159,LIV Golf Indianapolis,8/20/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400482Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,LIV Golf Indianapolis,8/20/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400484Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,LIV Golf Indianapolis,8/20/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400486Z
+Scott Vincent,Scott Vincent,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/979.png,772,43867160,LIV Golf Indianapolis,8/20/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400488Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,LIV Golf Indianapolis,8/20/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400491Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,LIV Golf Indianapolis,8/20/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400493Z
+Byeong Hun An,Byeong Hun An,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/639.png,1062,43867161,LIV Golf Indianapolis,8/20/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400495Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,LIV Golf Indianapolis,8/20/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400497Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,LIV Golf Indianapolis,8/20/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400500Z
+Charles Howell III,Charles Howell III,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,43867162,LIV Golf Indianapolis,8/20/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400502Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,LIV Golf Indianapolis,8/20/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400504Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,LIV Golf Indianapolis,8/20/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400507Z
+Caleb Surratt,Caleb Surratt,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,768996,43867163,LIV Golf Indianapolis,8/20/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400509Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,LIV Golf Indianapolis,8/20/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400511Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,LIV Golf Indianapolis,8/20/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400513Z
+Thomas Pieters,Thomas Pieters,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/864.png,350,43867164,LIV Golf Indianapolis,8/20/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400515Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,LIV Golf Indianapolis,8/20/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400517Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,LIV Golf Indianapolis,8/20/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400520Z
+Paul Casey,Paul Casey,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1039.png,1859,43867165,LIV Golf Indianapolis,8/20/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400522Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400524Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400526Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400528Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400531Z
+Josele Ballester,Josele Ballester,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,773808,43867166,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400533Z
+Sergio Garcia,Sergio Garcia,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/981.png,780,43867167,LIV Golf Indianapolis,8/20/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400535Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400537Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400539Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400542Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400544Z
+Talor Gooch,Talor Gooch,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/527.png,729,43867168,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400546Z
+Bubba Watson,Bubba Watson,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/637.png,411,43867169,LIV Golf Indianapolis,8/20/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400548Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400550Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400553Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400556Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400558Z
+Laurie Canter,Laurie Canter,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,834,43867170,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400560Z
+Sebastián Muñoz,Sebastián Muñoz,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/662.png,320038,43867171,LIV Golf Indianapolis,8/20/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400563Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400565Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400567Z
+Cameron John,Cameron John,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400569Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400572Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400574Z
+Cameron John,Cameron John,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400576Z
+Peter Uihlein,Peter Uihlein,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/650.png,218,43867172,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400578Z
+Anirban Lahiri,Anirban Lahiri,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/585.png,846,43867173,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400580Z
+Cameron John,Cameron John,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,690257,43893638,LIV Golf Indianapolis,8/20/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400582Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400585Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400587Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400589Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400591Z
+Lee Westwood,Lee Westwood,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/867.png,638,43867174,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400594Z
+Louis Oosthuizen,Louis Oosthuizen,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/918.png,584,43867175,LIV Golf Indianapolis,8/20/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400596Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400598Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400600Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400603Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400605Z
+Richard T. Lee,Richard T. Lee,Classic: LIV,https://dkn.gs/sports/images/countries/50/canada.png,165,43867176,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400607Z
+Charl Schwartzel,Charl Schwartzel,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/938.png,193,43867177,LIV Golf Indianapolis,8/20/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400610Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400612Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400614Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400616Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400618Z
+Anthony Kim,Anthony Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,1119,43867178,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400620Z
+Ian Poulter,Ian Poulter,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/974.png,308,43867179,LIV Golf Indianapolis,8/20/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400623Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400625Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400627Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400629Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400632Z
+Brendan Steele,Brendan Steele,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/566.png,549,43867180,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400634Z
+Matthew Wolff,Matthew Wolff,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/802.png,693781,43867181,LIV Golf Indianapolis,8/20/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400636Z
+Elvis Smylie,Elvis Smylie,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400638Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400641Z
+Elvis Smylie,Elvis Smylie,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400643Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400645Z
+Elvis Smylie,Elvis Smylie,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,721846,43867182,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400647Z
+Younghan Song,Younghan Song,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/450447.png,329,43867183,LIV Golf Indianapolis,8/20/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400649Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400652Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400654Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400656Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400658Z
+Richard Bland,Richard Bland,Classic: LIV,https://dkn.gs/sports/images/countries/50/england.png,698,43867184,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400660Z
+Adrian Meronk,Adrian Meronk,Classic: LIV,https://dkn.gs/sports/images/countries/50/poland.png,292342,43867185,LIV Golf Indianapolis,8/20/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400662Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400665Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400667Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400669Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400672Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400674Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400676Z
+Cameron Tringale,Cameron Tringale,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/622.png,1449,43867186,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400678Z
+Luis Masaveu,Luis Masaveu,Classic: LIV,https://dkn.gs/sports/images/countries/50/spain.png,768539,43867187,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400681Z
+Travis Smyth,Travis Smyth,Classic: LIV,https://dkn.gs/sports/images/countries/50/australia.png,670421,43875274,LIV Golf Indianapolis,8/20/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400683Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400685Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400687Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400690Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400692Z
+Jason Kokrak,Jason Kokrak,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/589.png,1080,43867188,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400694Z
+Danny Lee,Danny Lee,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/604.png,1883,43867189,LIV Golf Indianapolis,8/20/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400696Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400698Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400701Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400703Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400705Z
+Michael La Sasso,Michael La Sasso,Classic: LIV,https://dkn.gs/sports/images/countries/50/united_states.png,849089,43867190,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400708Z
+Martin Kaymer,Martin Kaymer,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/817.png,1323,43867191,LIV Golf Indianapolis,8/20/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400710Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400713Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400715Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400720Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400722Z
+Björn Hellgren,Björn Hellgren,Classic: LIV,https://dkn.gs/sports/images/countries/50/sweden.png,60263,43867192,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400725Z
+Graeme McDowell,Graeme McDowell,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1184.png,1314,43867193,LIV Golf Indianapolis,8/20/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400727Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400729Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400731Z
+Ollie Schniederjans,Ollie Schniederjans,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400734Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400736Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400738Z
+Ollie Schniederjans,Ollie Schniederjans,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400740Z
+Doyeob Mun,Doyeob Mun,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,692221,43867194,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400742Z
+Yosuke Asaji,Yosuke Asaji,Classic: LIV,https://dkn.gs/sports/images/countries/50/japan.png,697206,43867195,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400744Z
+Ollie Schniederjans,Ollie Schniederjans,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/1034.png,935,43893639,LIV Golf Indianapolis,8/20/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400747Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400749Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400751Z
+Max Rottluff,Max Rottluff,Classic: LIV,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400753Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400755Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400758Z
+Max Rottluff,Max Rottluff,Classic: LIV,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400760Z
+Minkyu Kim,Minkyu Kim,Classic: LIV,https://dkn.gs/sports/images/countries/50/south_korea.png,671052,43867196,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400762Z
+Sam Horsfield,Sam Horsfield,Classic: LIV,https://dkn.gs/sports/images/golf/players/50/806.png,1939,43867197,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400764Z
+Max Rottluff,Max Rottluff,Classic: LIV,https://dkn.gs/sports/images/countries/50/germany.png,269059,43893637,LIV Golf Indianapolis,8/20/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400766Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400768Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400770Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400773Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400775Z
+Miguel Tabuena,Miguel Tabuena,Classic: LIV,https://dkn.gs/sports/images/countries/50/philippines.png,406,43867198,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400777Z
+Ben Campbell,Ben Campbell,Classic: LIV,https://dkn.gs/sports/images/countries/50/new_zealand.png,286512,43867199,LIV Golf Indianapolis,8/20/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-09-12T13:43:11.400779Z
