@@ -1,31 +1,129 @@
 player_name,name_adjusted,salary,event_name,date_start,course_name,tour,cut_streak,rf1,rf2,rf3,rf4,rf5,rf6,rf7,rflst5,rflst10,value,value_avg,rf_sg_starts,missed_cuts_7,cut_pct,starts_count,updated_at,value_rank,rflst5_rank,rflst10_rank
-"Scheffler, Scottie","Scheffler, Scottie",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,T12 (+0.60),1 (+4.09),2 (+3.51),T4 (+2.41),CUT (-0.21),2 (+2.77),T4 (+2.64),18.2,12.6,15.81,2.26,7,1,88.9,162,2026-09-14T21:07:53.344483Z,1,5,1
-"Burns, Sam","Burns, Sam",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,14,T28 (-0.40),T3 (+1.84),3 (+2.66),T12 (+1.27),2 (+3.39),T20 (+1.50),T4 (+3.11),9.6,17.3,13.37,1.91,7,0,77.3,211,2026-09-14T21:07:40.984689Z,2,1,2
-"Matsuyama, Hideki","Matsuyama, Hideki",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,32,T28 (-0.40),T7 (+1.34),T7 (+2.43),T5 (+2.45),T3 (+3.01),T14 (+1.66),T14 (+1.02),10.0,19.9,11.51,1.64,7,0,86.9,222,2026-09-14T21:07:49.722898Z,3,2,5
-"Fitzpatrick, Matt","Fitzpatrick, Matt",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T28 (-0.40),T12 (+1.09),CUT (-1.11),T3 (+2.97),4 (+2.27),22 (+1.64),2 (+3.00),23.8,24.5,9.46,1.35,7,1,81.1,111,2026-09-14T21:07:43.231061Z,4,8,8
-"Fleetwood, Tommy","Fleetwood, Tommy",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,8,T47 (-1.65),T7 (+1.34),T4 (+2.41),T13 (+1.97),T14 (+1.02),T11 (+2.14),T11 (+2.00),17.0,18.8,9.22,1.32,7,0,90.2,235,2026-09-14T21:07:44.090559Z,5,4,4
-"Kim, Tom","Kim, Tom",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,T28 (-0.40),T12 (+1.09),T5 (+2.68),T20 (+1.51),CUT (-0.61),1 (+3.97),T46 (+0.48),27.4,25.6,8.72,1.25,7,1,78.0,100,2026-09-14T21:07:48.302445Z,6,15,12
-"McIlroy, Rory","McIlroy, Rory",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,10,3 (+2.10),66 (-2.16),T40 (+0.91),T7 (+2.72),T32 (+1.14),T12 (+1.61),T7 (+2.37),29.6,23.3,8.69,1.24,7,0,89.7,204,2026-09-14T21:07:50.451259Z,7,18,6
-"Morikawa, Collin","Morikawa, Collin",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,14,T4 (+1.85),T52 (-0.91),T18 (+1.41),3 (+2.52),T17 (+1.89),T29 (+1.25),T55 (+0.62),18.8,25.1,8.62,1.23,7,0,86.1,158,2026-09-14T21:07:51.002829Z,8,7,10
-"Clark, Wyndham","Clark, Wyndham",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,1 (+3.10),T5 (+1.59),CUT (-3.31),CUT (-0.61),T13 (+1.97),T5 (+2.02),1 (+3.64),32.6,18.4,8.4,1.2,7,2,69.3,228,2026-09-14T21:07:42.436361Z,9,20,3
-"Gotterup, Chris","Gotterup, Chris",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T4 (+1.85),T30 (+0.34),CUT (-1.31),T18 (+1.41),T11 (+2.22),1 (+3.23),T30 (+0.27),27.0,24.6,8.01,1.14,7,1,70.8,113,2026-09-14T21:07:45.698498Z,10,14,9
-"Cantlay, Patrick","Cantlay, Patrick",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,2 (+2.35),T12 (+1.09),T8 (+2.20),T28 (+1.16),CUT (+0.29),T14 (+1.02),CUT (-0.24),24.4,27.0,7.88,1.13,7,2,88.0,183,2026-09-14T21:07:41.639228Z,11,10,13
-"Hovland, Viktor","Hovland, Viktor",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T33 (-0.65),T19 (+0.84),CUT (-1.11),T13 (+1.97),1 (+2.77),CUT (+0.26),3 (+2.75),27.6,35.4,6.83,0.98,7,2,86.1,165,2026-09-14T21:07:47.018053Z,12,16,21
-"Kim, Si Woo","Kim, Si Woo",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,6,T33 (-0.65),2 (+2.09),T42 (+0.70),T6 (+2.16),T9 (+2.47),T44 (-0.23),CUT (-0.24),18.4,25.5,6.31,0.9,7,1,71.4,266,2026-09-14T21:07:47.949068Z,13,6,11
-"Gerard, Ryan","Gerard, Ryan",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T16 (+0.35),T24 (+0.59),CUT (-0.10),T8 (+2.20),T9 (+1.91),T26 (+1.22),T44 (-0.23),25.8,28.3,5.94,0.85,7,1,72.2,115,2026-09-14T21:07:45.300995Z,14,13,14
-"Henley, Russell","Henley, Russell",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,8,T12 (+0.60),T30 (+0.34),T20 (+1.70),T9 (+1.91),T12 (+1.27),T65 (-0.86),T22 (+0.86),16.6,29.2,5.82,0.83,7,0,77.1,210,2026-09-14T21:07:46.443826Z,15,3,16
-"Bridgeman, Jacob","Bridgeman, Jacob",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,9,9 (+1.10),T30 (+0.34),T26 (+1.45),T28 (+1.16),T26 (+1.23),T47 (-0.48),T39 (+0.89),23.8,32.2,5.68,0.81,7,0,72.4,116,2026-09-14T21:07:40.242151Z,16,8,18
-"Schauffele, Xander","Schauffele, Xander",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,T26 (-0.15),T7 (+1.34),2 (+3.20),T18 (+1.41),CUT (-1.71),T51 (-0.73),T11 (+2.14),25.0,28.3,5.5,0.79,7,1,89.0,209,2026-09-14T21:07:52.762701Z,17,11,14
-"Aberg, Ludvig","Aberg, Ludvig",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,3,T16 (+0.35),T7 (+1.34),T9 (+1.91),CUT (+0.29),T55 (-0.98),T17 (+1.89),39 (-0.64),31.8,24.4,4.16,0.59,7,1,84.9,86,2026-09-14T21:07:39.337201Z,18,19,7
-"Young, Cameron","Young, Cameron",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,19,T37 (-0.90),T39 (-0.16),T61 (-0.07),T8 (+2.20),2 (+2.91),T47 (-0.48),T43 (+0.64),29.4,31.9,4.14,0.59,7,0,77.0,148,2026-09-14T21:07:56.757864Z,19,17,17
-"Spaun, J.J.","Spaun, J.J.",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,6,T22 (+0.10),T34 (+0.09),T50 (+0.20),T40 (+0.91),T44 (+0.47),T7 (+1.77),CUT (-1.24),38.0,35.9,2.31,0.33,7,1,66.3,246,2026-09-14T21:07:55.426290Z,20,24,22
-"Fox, Ryan","Fox, Ryan",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,12,T47 (-1.65),T58 (-1.41),1 (+3.16),T30 (+0.97),T66 (-2.48),T23 (+1.39),T8 (+2.25),40.4,36.2,2.22,0.32,7,0,76.0,217,2026-09-14T21:07:44.883383Z,21,27,23
-"Rose, Justin","Rose, Justin",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T22 (+0.10),T39 (-0.16),CUT (-0.61),T25 (+0.52),T11 (+2.14),CUT (-1.72),T12 (+1.61),33.8,37.3,1.88,0.27,7,2,76.4,199,2026-09-14T21:07:52.013379Z,22,22,26
-"Smalley, Alex","Smalley, Alex",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,T16 (+0.35),T24 (+0.59),T7 (+2.43),T53 (+0.41),CUT (-0.21),T47 (-0.48),CUT (-1.74),34.4,36.8,1.36,0.19,7,2,62.5,152,2026-09-14T21:07:54.561964Z,23,23,24
-"Scott, Adam","Scott, Adam",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,5,T16 (+0.35),T12 (+1.09),T9 (+1.91),T66 (-0.78),65 (-1.73),CUT (-1.24),T12 (+1.61),33.6,35.2,1.22,0.17,7,1,86.8,189,2026-09-14T21:07:54.035257Z,24,21,20
-"Fitzpatrick, Alex","Fitzpatrick, Alex",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,4,T44 (-1.40),T61 (-1.66),T61 (-0.07),T71 (-0.84),CUT (-0.71),T7 (+1.77),T23 (+1.39),61.8,44.0,-1.52,-0.22,7,1,70.3,101,2026-09-14T21:07:42.827148Z,25,30,29
-"Reitan, Kristoffer","Reitan, Kristoffer",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,3,T22 (+0.10),T58 (-1.41),T18 (+1.41),CUT (-1.71),T22 (+0.77),CUT (-0.24),T60 (-0.50),38.4,37.5,-1.58,-0.23,7,2,59.0,78,2026-09-14T21:07:51.298031Z,26,25,27
-"Woodland, Gary","Woodland, Gary",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,3,T4 (+1.85),T42 (-0.41),T10 (+2.26),CUT (-3.61),71 (-3.73),T7 (+2.39),T36 (-0.39),39.8,33.7,-1.64,-0.23,7,1,70.5,224,2026-09-14T21:07:56.216173Z,27,26,19
-"MacIntyre, Robert","MacIntyre, Robert",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,1,T7 (+1.35),WD (-12.45),T28 (+1.16),T3 (+2.97),T10 (+1.52),T39 (+0.89),T15 (+1.75),25.6,36.8,-2.81,-0.4,7,0,77.5,89,2026-09-14T21:07:48.935489Z,28,12,24
-"Bhatia, Akshay","Bhatia, Akshay",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,2,T12 (+0.60),68 (-3.41),CUT (-0.31),CUT (-1.11),T5 (+2.02),T17 (+1.89),CUT (-2.91),45.8,45.5,-3.23,-0.46,7,3,60.7,145,2026-09-14T21:07:39.842358Z,29,29,30
-"Lee, Min Woo","Lee, Min Woo",,TOUR Championship,2026-08-27,East Lake Golf Club,pga,5,T47 (-1.65),T55 (-1.16),T59 (+0.16),2 (+3.47),T62 (-1.48),CUT (-0.74),CUT (-2.41),45.0,41.9,-3.8,-0.54,7,2,68.4,95,2026-09-14T21:07:48.626163Z,30,28,28
+"Bridgeman, Jacob","Bridgeman, Jacob",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,10,T4 (+0.78),9 (+1.10),T30 (+0.34),T26 (+1.45),T28 (+1.16),T26 (+1.23),T47 (-0.48),19.4,25.4,5.57,0.8,7,0,72.6,117,2026-09-14T21:44:59.749506Z,1,1,1
+"Bauchou, Zach","Bauchou, Zach",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.185586Z,2,,
+"Bezuidenhout, Christiaan","Bezuidenhout, Christiaan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.286143Z,2,,
+"Bertagnole, Carson","Bertagnole, Carson",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.236204Z,2,,
+"Blair, Zac","Blair, Zac",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.335637Z,2,,
+"Blanchet, Chandler","Blanchet, Chandler",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.385292Z,2,,
+"Brehm, Ryan","Brehm, Ryan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.435191Z,2,,
+"Brown, Blades","Brown, Blades",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.799725Z,2,,
+"Byrd, Jonathan","Byrd, Jonathan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.850192Z,2,,
+"Campos, Rafael","Campos, Rafael",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.900120Z,2,,
+"Castillo, Ricky","Castillo, Ricky",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.950106Z,2,,
+"Champ, Cameron","Champ, Cameron",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:44:59.999949Z,2,,
+"Chatfield, Davis","Chatfield, Davis",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.049811Z,2,,
+"Clanton, Luke","Clanton, Luke",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.101015Z,2,,
+"Cole, Eric","Cole, Eric",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.151205Z,2,,
+"Conners, Corey","Conners, Corey",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.201199Z,2,,
+"Coody, Pierceson","Coody, Pierceson",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.251339Z,2,,
+"Crowe, Trace","Crowe, Trace",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.301480Z,2,,
+"Dahmen, Joel","Dahmen, Joel",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.351573Z,2,,
+"Davis, Cam","Davis, Cam",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.401244Z,2,,
+"Deneen, Morgan","Deneen, Morgan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.451142Z,2,,
+"Dou, Zecheng","Dou, Zecheng",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.500988Z,2,,
+"Dumont De Chassart, Adrien","Dumont De Chassart, Adrien",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.551110Z,2,,
+"Duncan, Tyler","Duncan, Tyler",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.600808Z,2,,
+"Dunlap, Nick","Dunlap, Nick",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.651108Z,2,,
+"Echavarria, Nico","Echavarria, Nico",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.701460Z,2,,
+"Eckroat, Austin","Eckroat, Austin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.751179Z,2,,
+"Ewart, A.J.","Ewart, A.J.",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.800786Z,2,,
+"Finau, Tony","Finau, Tony",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.850587Z,2,,
+"Fishburn, Patrick","Fishburn, Patrick",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.900815Z,2,,
+"Fisk, Steven","Fisk, Steven",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:00.950536Z,2,,
+"Ford, David","Ford, David",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.000716Z,2,,
+"Garnett, Brice","Garnett, Brice",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.050788Z,2,,
+"Ghim, Doug","Ghim, Doug",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.100805Z,2,,
+"Glover, Lucas","Glover, Lucas",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.151808Z,2,,
+"Gomez, Fabian","Gomez, Fabian",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.201843Z,2,,
+"Gordon, Will","Gordon, Will",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.251508Z,2,,
+"Greyserman, Max","Greyserman, Max",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.301496Z,2,,
+"Griffin, Lanto","Griffin, Lanto",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.351743Z,2,,
+"Grillo, Emiliano","Grillo, Emiliano",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.401593Z,2,,
+"Hadwin, Adam","Hadwin, Adam",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.451877Z,2,,
+"Hardy, Nick","Hardy, Nick",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.501897Z,2,,
+"Higgs, Harry","Higgs, Harry",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.552714Z,2,,
+"Hirata, Kensei","Hirata, Kensei",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.602877Z,2,,
+"Hisatsune, Ryo","Hisatsune, Ryo",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.653385Z,2,,
+"Hodges, Lee","Hodges, Lee",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.703570Z,2,,
+"Hoey, Rico","Hoey, Rico",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.753429Z,2,,
+"Hoge, Tom","Hoge, Tom",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.803426Z,2,,
+"Hojgaard, Rasmus","Hojgaard, Rasmus",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.853843Z,2,,
+"Horschel, Billy","Horschel, Billy",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.904436Z,2,,
+"Hossler, Beau","Hossler, Beau",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:01.955703Z,2,,
+"Hubbard, Mark","Hubbard, Mark",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.006016Z,2,,
+"Hughes, Mackenzie","Hughes, Mackenzie",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.055835Z,2,,
+"Jaeger, Stephan","Jaeger, Stephan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.105921Z,2,,
+"James, Ben","James, Ben",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.156444Z,2,,
+"Jones, Tyler","Jones, Tyler",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.206277Z,2,,
+"Kanaya, Takumi","Kanaya, Takumi",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.256097Z,2,,
+"Kang, Jeffrey","Kang, Jeffrey",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.305856Z,2,,
+"Keefer, Johnny","Keefer, Johnny",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.355889Z,2,,
+"Kim, Michael","Kim, Michael",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.405878Z,2,,
+"Kirk, Chris","Kirk, Chris",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.456092Z,2,,
+"Kisner, Kevin","Kisner, Kevin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.506061Z,2,,
+"Kizzire, Patton","Kizzire, Patton",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.556257Z,2,,
+"Kohles, Ben","Kohles, Ben",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.605968Z,2,,
+"Koivun, Jackson","Koivun, Jackson",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.656401Z,2,,
+"Lamprecht, Christo","Lamprecht, Christo",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.706622Z,2,,
+"Lebioda, Hank","Lebioda, Hank",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.757051Z,2,,
+"Li, Haotong","Li, Haotong",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.806915Z,2,,
+"Lipsky, David","Lipsky, David",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.857081Z,2,,
+"List, Luke","List, Luke",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.907192Z,2,,
+"Lower, Justin","Lower, Justin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:02.957835Z,2,,
+"Malnati, Peter","Malnati, Peter",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.008223Z,2,,
+"Martin, Ben","Martin, Ben",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.058357Z,2,,
+"McCarthy, Denny","McCarthy, Denny",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.108464Z,2,,
+"McGreevy, Max","McGreevy, Max",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.159171Z,2,,
+"Meissner, Mac","Meissner, Mac",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.209325Z,2,,
+"Merritt, Troy","Merritt, Troy",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.259968Z,2,,
+"Moore, Taylor","Moore, Taylor",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.309714Z,2,,
+"Mouw, William","Mouw, William",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.360009Z,2,,
+"Nakajima, Keita","Nakajima, Keita",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.409937Z,2,,
+"Norlander, Henrik","Norlander, Henrik",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.460540Z,2,,
+"Novak, Andrew","Novak, Andrew",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.510757Z,2,,
+"Nyholm, Pontus","Nyholm, Pontus",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.560890Z,2,,
+"Parry, John","Parry, John",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.611211Z,2,,
+"Paul, Jeremy","Paul, Jeremy",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.661393Z,2,,
+"Pavon, Matthieu","Pavon, Matthieu",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.712187Z,2,,
+"Pendrith, Taylor","Pendrith, Taylor",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.762228Z,2,,
+"Penge, Marco","Penge, Marco",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.812464Z,2,,
+"Peterson, Paul","Peterson, Paul",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.862483Z,2,,
+"Phillips, Chandler","Phillips, Chandler",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.912507Z,2,,
+"Poston, J.T.","Poston, J.T.",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:03.963198Z,2,,
+"Power, Seamus","Power, Seamus",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.012975Z,2,,
+"Putnam, Andrew","Putnam, Andrew",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.062830Z,2,,
+"Ramey, Chad","Ramey, Chad",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.113334Z,2,,
+"Riley, Davis","Riley, Davis",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.163288Z,2,,
+"Roy, Kevin","Roy, Kevin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.213399Z,2,,
+"Rozo, Marcelo","Rozo, Marcelo",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.263765Z,2,,
+"Salinda, Isaiah","Salinda, Isaiah",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.313780Z,2,,
+"Sargent, Gordon","Sargent, Gordon",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.364056Z,2,,
+"Schenk, Adam","Schenk, Adam",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.414121Z,2,,
+"Shipley, Neal","Shipley, Neal",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.464590Z,2,,
+"Silverman, Ben","Silverman, Ben",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.514639Z,2,,
+"Simpson, Webb","Simpson, Webb",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.564802Z,2,,
+"Skinns, David","Skinns, David",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.614768Z,2,,
+"Smotherman, Austin","Smotherman, Austin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.664911Z,2,,
+"Springer, Hayden","Springer, Hayden",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.715334Z,2,,
+"Stanger, Jimmy","Stanger, Jimmy",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.766424Z,2,,
+"Streelman, Kevin","Streelman, Kevin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.816135Z,2,,
+"Suber, Jackson","Suber, Jackson",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.866760Z,2,,
+"Svensson, Adam","Svensson, Adam",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.916581Z,2,,
+"Svensson, Jesper","Svensson, Jesper",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:04.967725Z,2,,
+"Taylor, Nick","Taylor, Nick",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.017801Z,2,,
+"Thompson, Davis","Thompson, Davis",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.068483Z,2,,
+"Thompson, Michael","Thompson, Michael",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.119394Z,2,,
+"Todd, Brendon","Todd, Brendon",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.169619Z,2,,
+"Tosti, Alejandro","Tosti, Alejandro",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.219687Z,2,,
+"Valdes, Brendan","Valdes, Brendan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.270507Z,2,,
+"Van Rooyen, Erik","Van Rooyen, Erik",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.320569Z,2,,
+"VanDerLaan, John","VanDerLaan, John",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.370669Z,2,,
+"Ventura, Kristoffer","Ventura, Kristoffer",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.420524Z,2,,
+"Vilips, Karl","Vilips, Karl",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.471528Z,2,,
+"Villegas, Camilo","Villegas, Camilo",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.521615Z,2,,
+"Walker, Danny","Walker, Danny",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.571894Z,2,,
+"Watts, Tyler","Watts, Tyler",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.621938Z,2,,
+"Whaley, Vince","Whaley, Vince",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.671985Z,2,,
+"Wise, Aaron","Wise, Aaron",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.722890Z,2,,
+"Wu, Dylan","Wu, Dylan",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.772561Z,2,,
+"Yu, Kevin","Yu, Kevin",,Biltmore Championship Asheville,2026-09-17,The Cliffs at Walnut Cove,pga,0,—,—,—,—,—,—,—,,,0.0,,0,0,,0,2026-09-14T21:45:05.822798Z,2,,
