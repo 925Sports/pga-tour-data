@@ -1,13 +1,13 @@
 {
   "course_name": "East Lake Golf Club",
   "event_name": "TOUR Championship",
-  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BENT | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:13.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:THICK | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:CALIFORNIA | Redesigned:REES JONES | DRAINAGE:GOOD | RAIN:NO",
+  "trait_sig": "DESIGNER:DONALD ROSS | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:13.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:87.0 | LOCATION:CALIFORNIA | Redesigned:KRIS SPENCER | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "TOM FAZIO",
-      "count": 912,
+      "value": "DONALD ROSS",
+      "count": 2818,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 4606,
+      "count": 10445,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -24,8 +24,8 @@
     {
       "key": "greens",
       "label": "GREENS",
-      "value": "BENT",
-      "count": 2616,
+      "value": "BERMUDA",
+      "count": 5855,
       "green": true,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -34,7 +34,7 @@
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "POA",
-      "count": 1360,
+      "count": 3374,
       "green": true,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 2396,
+      "count": 7387,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 3508,
+      "count": 7561,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "72.0",
-      "count": 2890,
+      "count": 8065,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -69,8 +69,8 @@
     {
       "key": "scoring",
       "label": "SCORING",
-      "value": "HARD",
-      "count": 3732,
+      "value": "NORMAL",
+      "count": 6729,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -79,7 +79,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 2280,
+      "count": 5736,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 5068,
+      "count": 16273,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -97,7 +97,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 3472,
+      "count": 9202,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 6387,
+      "count": 15826,
       "green": true,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -115,7 +115,7 @@
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "13.0",
-      "count": 981,
+      "count": 1964,
       "green": true,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -123,8 +123,8 @@
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
-      "value": "FAST",
-      "count": 1578,
+      "value": "NORMAL",
+      "count": 3421,
       "green": true,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -133,7 +133,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "THICK",
-      "count": 3093,
+      "count": 6573,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -142,7 +142,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "1.0",
-      "count": 1168,
+      "count": 3289,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -151,7 +151,7 @@
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 2836,
+      "count": 8654,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -159,8 +159,8 @@
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "74.0",
-      "count": 691,
+      "value": "87.0",
+      "count": 1412,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -169,7 +169,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "CALIFORNIA",
-      "count": 1219,
+      "count": 3072,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -177,8 +177,8 @@
     {
       "key": "redesigned",
       "label": "Redesigned",
-      "value": "REES JONES",
-      "count": 404,
+      "value": "KRIS SPENCER",
+      "count": 1064,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -187,7 +187,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 3391,
+      "count": 8026,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 6146,
+      "count": 16876,
       "green": false,
       "course_name": "East Lake Golf Club",
       "event_name": "TOUR Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 4.0097,
-    "strokes": 69.8915,
-    "bogeys": 2.2523,
-    "pars": 11.1345,
-    "fw_pct": 61.041,
-    "gir_pct": 67.2567,
+    "birdies_plus": 3.7827,
+    "strokes": 70.2792,
+    "bogeys": 2.3691,
+    "pars": 11.3707,
+    "fw_pct": 60.7939,
+    "gir_pct": 65.9318,
     "n_rounds_sample": 8000,
     "window": "24"
   },
