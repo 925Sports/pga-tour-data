@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-08-11-cs-colors-blog-mode -->
+<!-- 925-HUB-VERSION: 2026-09-14-biltmore-comps-gate -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -761,8 +761,34 @@
             color: #475569 !important;
             font-variant-numeric: tabular-nums;
         }
+        #csheet-table tbody td.cs-player {
+            min-width: 11.25rem;
+            padding-left: 0.5rem !important;
+            padding-right: 0.45rem !important;
+        }
+        #csheet-table tbody .cs-player-cell {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            min-width: 0;
+        }
+        #csheet-table tbody .cs-shot {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            overflow: hidden;
+            border-radius: 9999px;
+            background: #e2e8f0;
+        }
+        #csheet-table tbody .cs-shot img {
+            display: block;
+            width: 28px;
+            height: 28px;
+            object-fit: cover;
+        }
         #csheet-table tbody td[style*="left:2rem"],
-        #csheet-table tbody td.sticky.left-8 {
+        #csheet-table tbody td.sticky.left-8,
+        #csheet-table tbody td.cs-player {
             font-size: 13.5px !important;
             font-weight: 700 !important;
             color: #020617 !important;
@@ -1968,9 +1994,8 @@
                     <table class="modern-table w-full text-sm" id="csheet-table">
                         <thead>
                             <tr class="cs-head-1">
-                                <!-- 5 identity cols (photo→Own) must match body + head-2 -->
+                                <!-- 4 identity cols (Player w/ photo → Own) must match body + head-2 -->
                                 <th class="sticky left-0 bg-slate-900 z-[35]" style="left:0"></th>
-                                <th class="sticky bg-slate-900 z-[35]" style="left:2rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:11rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:14rem"></th>
                                 <th class="sticky bg-slate-900 z-[35]" style="left:17rem"></th>
@@ -1983,8 +2008,7 @@
                                 <th class="bg-slate-900 px-2 py-1 text-center border-b border-slate-600 text-[10px] text-slate-300">FTPS</th>
                             </tr>
                             <tr class="cs-head-2">
-                                <th class="px-1 py-1.5 text-center sticky left-0 bg-slate-900 z-[35] w-8" style="left:0"></th>
-                                <th class="px-2 py-1.5 text-left sticky bg-slate-900 z-[35] cursor-pointer min-w-[7.5rem]" style="left:2rem" onclick="sortCheatSheet('name')">Player <span class="cs-sort-ind" data-k="name"></span></th>
+                                <th class="px-2 py-1.5 text-left sticky left-0 bg-slate-900 z-[35] cursor-pointer min-w-[11.25rem]" style="left:0" onclick="sortCheatSheet('name')">Player <span class="cs-sort-ind" data-k="name"></span></th>
                                 <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:11rem" onclick="sortCheatSheet('salary')">Sal <span class="cs-sort-ind" data-k="salary"></span></th>
                                 <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:14rem" onclick="sortCheatSheet('oddsNum')">Odds <span class="cs-sort-ind" data-k="oddsNum"></span></th>
                                 <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px] min-w-[4.5rem]" style="left:17rem" onclick="sortCheatSheet('own')" title="Own % = projected ownership. (#N) = leverage rank. Tag under % = Under/Over/Proper/Fade when present. Hover for detail.">Own % <span class="cs-sort-ind" data-k="own"></span></th>
@@ -4035,15 +4059,29 @@ function switchFantasySubTab(sub) {
         const liveEv = fieldEv
             || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
             || "";
-        if (window._hubCalendarRolled && course) {
+        // This week's published course (cheat sheet) wins over a stale preview/RF course
+        const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : { event: fieldEv, course: fieldCourse };
+        const weekCourse = liveId.course || liveCourse || "";
+        const weekEvent = liveId.event || liveEv || "";
+        const previewCourseClose = !!(course && weekCourse && (typeof hubCoursesClose === "function"
+            ? hubCoursesClose(course, weekCourse)
+            : String(course).toLowerCase().includes(String(weekCourse).toLowerCase().slice(0, 8))));
+        const previewEventClose = !!(previewTourn && weekEvent && (
+            (typeof hubEventsClose === "function" && hubEventsClose(previewTourn, weekEvent))
+            || /biltmore|asheville|cliffs|walnut/.test(String(previewTourn + " " + weekEvent).toLowerCase())
+        ));
+        if (weekCourse && (!course || previewCourseClose || !window._hubCalendarRolled)) {
+            currentCourseName = weekCourse;
+            window.previewCourseName = weekCourse;
+        } else if (window._hubCalendarRolled && course && !weekCourse) {
             currentCourseName = course;
             window.previewCourseName = course;
         } else if (liveCourse) {
             currentCourseName = liveCourse;
-            if (course && !previewMatches) {
+            if (course && !previewMatches && !previewCourseClose) {
                 console.log("[hub] preview course ignored (stale sheet):", course, "keeping", liveCourse);
             }
-        } else if (course && (previewMatches || !liveEv)) {
+        } else if (course && (previewMatches || previewCourseClose || !liveEv)) {
             currentCourseName = course;
         }
         const traitPairs = [
@@ -4065,22 +4103,32 @@ function switchFantasySubTab(sub) {
             ["Rough", get("ROUGH LENGTH")],
             ["Rough Amount", get("ROUGH AMOUNT")],
             ["Bunkers", get("BUNKERS")],
-            ["Water Hazards", get("WATER HAZARDS")],
+            ["Water Hazards", get("WATER HAZARDS", "Water Hazards")],
+            ["Water In Play", get("Water Hazards in Play", "WATER HAZARDS IN PLAY")],
             ["Cut Line", get("CUT")],
             ["Winning Score", get("WINNING SCORE")],
         ].filter(([,v]) => v);
         // Preview sheet wins over log-inferred traits (course updates / redesigns)
         // Only adopt preview traits when the preview row matches this week's event.
         // Never set previewCourseName to last week's course (e.g. Detroit) during FedEx week.
-        if (traitPairs.length && (previewMatches || window._hubCalendarRolled || !liveEv)) {
-            currentCourseTraits = {};
+        const adoptTraits = !!(traitPairs.length && (previewCourseClose || previewEventClose || previewMatches
+            || ((window._hubCalendarRolled || !liveEv) && !weekCourse)));
+        if (adoptTraits) {
+            currentCourseTraits = { _course: course || weekCourse };
             traitPairs.forEach(([k, v]) => { currentCourseTraits[k] = { key: k, value: v }; });
             window.previewCourseTraits = currentCourseTraits;
-            window.previewCourseName = currentCourseName || liveCourse || course;
+            window.previewCourseName = currentCourseName || weekCourse || liveCourse || course;
+            try { window._csTraitCache = {}; window._csTraitHere = null; } catch (e) {}
+            console.log("[hub] preview traits applied", previewTourn || course, Object.keys(currentCourseTraits).filter(k => k !== "_course"));
         } else {
-            window.previewCourseName = currentCourseName || liveCourse || "";
-            if (traitPairs.length && !previewMatches) {
-                console.log("[hub] preview traits skipped — sheet still on", previewTourn || course);
+            window.previewCourseName = currentCourseName || weekCourse || liveCourse || "";
+            if (traitPairs.length && !previewCourseClose) {
+                console.log("[hub] preview traits skipped — sheet still on", previewTourn || course, "week is", weekCourse || weekEvent);
+                const traitCourse = currentCourseTraits && currentCourseTraits._course;
+                if (currentCourseTraits && weekCourse && traitCourse && typeof hubCoursesClose === "function"
+                    && !hubCoursesClose(traitCourse, weekCourse)) {
+                    currentCourseTraits = {};
+                }
             }
         }
         // Update key stat header labels in cheat sheet
@@ -4155,32 +4203,43 @@ function switchFantasySubTab(sub) {
             catch (_) { txt = await tryUrl(PREVIEW_GOOGLE); }
             const parsed = Papa.parse(txt, { header: true, skipEmptyLines: true });
             const rows = (parsed.data || []).filter(r => Object.values(r).some(v => String(v||"").trim()));
-            // Prefer row matching current event/course if possible
+            // Prefer this week's published course/event (cheat sheet) over stale Recent Form
             let row = null;
-            const ev = (allPlayers[0] && allPlayers[0].event_name)
+            const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : { event: "", course: "" };
+            const ev = liveId.event
+                || (allPlayers[0] && allPlayers[0].event_name)
                 || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
                 || "";
-            const crs = (allPlayers[0] && allPlayers[0].course_name)
+            const crs = liveId.course
                 || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+                || (allPlayers[0] && allPlayers[0].course_name)
                 || currentCourseName || "";
             if (rows.length) {
+                row = (typeof hubPickPreviewRow === "function")
+                    ? hubPickPreviewRow(rows, ev, crs)
+                    : null;
+                if (!row) {
                 const evL = String(ev || "").toLowerCase();
                 const crsL = String(crs || "").toLowerCase();
                 row = rows.find(r => {
                     const t = String(r.TOURNAMENT || r.Tournament || "").toLowerCase();
                     const c = String(r["COURSE NAME"] || r.Course || r["Course Name"] || "").toLowerCase();
+                    if (typeof hubCoursesClose === "function" && crs && hubCoursesClose(c, crs)) return true;
                     if (evL && t && (t.includes(evL.slice(0, 10)) || evL.includes(t.slice(0, 10)))) return true;
                     if (crsL && c && (c.includes(crsL.slice(0, 8)) || crsL.includes(c.slice(0, 8)))) return true;
                     if (/jude|fedex|southwind/.test(evL + crsL) && /jude|fedex|southwind/.test(t + c)) return true;
                     if (/wyndham|sedgefield/.test(evL + crsL) && /wyndham|sedgefield/.test(t + c)) return true;
                     if (/bmw|bellerive/.test(evL + crsL) && /bmw|bellerive/.test(t + c)) return true;
+                    if (/biltmore|asheville|walnut|cliffs/.test(evL + crsL) && /biltmore|asheville|walnut|cliffs/.test(t + c)) return true;
                     return false;
                 }) || null;
+                }
                 if (!row && window._hubCalendarRolled) {
                     try { row = (hubPickNextPreviewEvent(rows) || {}).row || null; } catch (e) {}
                 }
-                // NEVER default to rows[0] when we already know this week's event/course
-                if (!row && !ev && !crs) row = rows[0];
+                if (!row) {
+                    try { row = (typeof hubPickPreviewRow === "function") ? hubPickPreviewRow(rows, "", "") : null; } catch (e) {}
+                }
             }
             if (row) applyPreviewRow(row);
             else console.log("[hub] no matching pre_tournament_preview row for", ev || crs);
@@ -11836,8 +11895,15 @@ function renderTable(players) {
     function courseTraitProfile(courseName) {
         if (!window._csTraitCache) window._csTraitCache = {};
         const cacheKey = String(courseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
-        if (cacheKey && window._csTraitCache[cacheKey]) return window._csTraitCache[cacheKey];
-        const out = { designer: "", greens: "", style: "", fairways: "", type: "", weather: "" };
+        const sig = (currentCourseTraits && currentCourseTraits.Designer)
+            ? String(currentCourseTraits.Designer.value || "") : "";
+        const fullKey = cacheKey + "|" + sig.slice(0, 12);
+        if (fullKey && window._csTraitCache[fullKey]) return window._csTraitCache[fullKey];
+        const out = {
+            designer: "", greens: "", greens2: "", style: "", fairways: "", type: "", weather: "",
+            location: "", scoring: "", bunkers: "", water: "", waterNum: null,
+            greenSize: "", fwSize: "", par: "", lengthBand: ""
+        };
         const rows = (playerLogs || []).filter(r => {
             const c = String(r.course_name || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
             const w = String(courseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
@@ -11854,6 +11920,7 @@ function renderTable(players) {
                     const v = r[k] || r[k.toUpperCase()] || r[k.toLowerCase()];
                     if (v == null || String(v).trim() === "" || /^(nan|na|n\/a)$/i.test(String(v))) continue;
                     const s = String(v).trim().toUpperCase();
+                    if (s.length > 40) continue;
                     counts[s] = (counts[s] || 0) + 1;
                     break;
                 }
@@ -11861,46 +11928,161 @@ function renderTable(players) {
             const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
             return ranked.length ? ranked[0][0] : "";
         };
+        const pickNum = (keys) => {
+            const vals = [];
+            rows.forEach(r => {
+                for (const k of keys) {
+                    const v = r[k] || r[k.toUpperCase()] || r[k.toLowerCase()];
+                    const n = parseFloat(v);
+                    if (!isNaN(n) && n >= 0 && n < 80) { vals.push(n); break; }
+                }
+            });
+            if (!vals.length) return null;
+            return vals.reduce((a, b) => a + b, 0) / vals.length;
+        };
         out.designer = pick(["DESIGNER", "designer", "Designer"]);
         out.greens = pick(["GREENS", "greens", "Greens"]);
+        out.greens2 = pick(["GREENS (2)", "GREENS_2", "Greens Alt"]);
         out.style = pick(["STYLE", "style", "Style"]);
         out.fairways = pick(["FAIRWAYS", "fairways", "Fairways"]);
         out.type = pick(["TYPE", "type", "Type"]);
         out.weather = pick(["WEATHER", "weather"]);
+        out.location = pick(["LOCATION", "location", "Location"]);
+        out.scoring = pick(["SCORING", "scoring", "Scoring"]);
+        out.bunkers = pick(["BUNKERS", "bunkers", "Bunkers"]);
+        out.water = pick(["WATER HAZARDS", "Water Hazards", "WATER"]);
+        out.waterNum = pickNum(["Water Hazards", "Water Hazards in Play", "WATER HAZARDS IN PLAY", "water_hazards"]);
+        out.greenSize = pick(["GREEN WIDTH", "GREEN SIZE", "green_width", "Green Width"]);
+        out.fwSize = pick(["FAIRWAY WIDTH", "FW WIDTH", "fairway_width", "Fairway Width"]);
+        out.par = pick(["PAR", "par", "course_par"]);
+        out.lengthBand = pick(["LENGTH", "Length"]);
         // Overlay this-week preview traits only when profiling THIS week's course
         try {
-            const here = String(currentCourseName || window.previewCourseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
-            const want = String(courseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
-            const isHere = here && want && (here === want || here.includes(want) || want.includes(here));
+            const here = String(
+                (typeof hubThisWeekCourse === "function" ? hubThisWeekCourse() : "")
+                || currentCourseName || window.previewCourseName || ""
+            );
+            const isHere = (typeof hubCoursesClose === "function")
+                ? hubCoursesClose(here, courseName)
+                : (() => {
+                    const a = String(here || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+                    const b = String(courseName || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+                    return a && b && (a === b || a.includes(b) || b.includes(a));
+                })();
             if (isHere) {
-                const traits = currentCourseTraits || {};
+                const traits = currentCourseTraits || window.previewCourseTraits || {};
                 const val = (k) => {
                     const t = traits[k] || traits[k.toUpperCase()] || traits[k.toLowerCase()];
                     return t ? String(t.value || t).trim().toUpperCase() : "";
                 };
+                const num = (k) => {
+                    const n = parseFloat(val(k));
+                    return isNaN(n) ? null : n;
+                };
                 if (val("Designer")) out.designer = val("Designer");
                 if (val("Greens")) out.greens = val("Greens");
+                if (val("Greens Alt")) out.greens2 = val("Greens Alt");
                 if (val("Style")) out.style = val("Style");
                 if (val("Fairways")) out.fairways = val("Fairways");
                 if (val("Type")) out.type = val("Type");
+                if (val("Location")) out.location = val("Location");
+                if (val("Scoring")) out.scoring = val("Scoring");
+                if (val("Bunkers")) out.bunkers = val("Bunkers");
+                if (val("Water Hazards")) out.water = val("Water Hazards");
+                const wn = num("Water Hazards") || num("Water Hazards in Play");
+                if (wn != null) out.waterNum = wn;
+                if (val("Green Width")) out.greenSize = val("Green Width");
+                if (val("FW Width") || val("Fairway Width")) out.fwSize = val("FW Width") || val("Fairway Width");
+                if (val("Par")) out.par = val("Par");
+                if (val("Length")) out.lengthBand = val("Length");
             }
         } catch (e) {}
-        if (cacheKey) window._csTraitCache[cacheKey] = out;
+        if (fullKey) window._csTraitCache[fullKey] = out;
         return out;
     }
 
-    function traitSimilarity(a, b) {
-        if (!a || !b) return 40;
-        let score = 40, hits = [];
-        const same = (x, y, pts, label) => {
-            if (!x || !y) return;
-            if (x === y || x.includes(y) || y.includes(x)) { score += pts; hits.push(label); }
+    function hubCatMatch(a, b) {
+        if (!a || !b) return 0;
+        const na = String(a).toUpperCase().replace(/[^A-Z0-9]+/g, " ").trim();
+        const nb = String(b).toUpperCase().replace(/[^A-Z0-9]+/g, " ").trim();
+        if (!na || !nb) return 0;
+        if (na === nb) return 1;
+        if (na.length >= 3 && nb.length >= 3 && (na.includes(nb) || nb.includes(na))) return 0.9;
+        if (/BENT/.test(na) && /BENT/.test(nb)) return 1;
+        if (/BERM/.test(na) && /BERM/.test(nb)) return 1;
+        if (/POA/.test(na) && /POA/.test(nb)) return 0.95;
+        if (/PARKLAND/.test(na) && /PARKLAND/.test(nb)) return 1;
+        if (/LINKS/.test(na) && /LINKS/.test(nb)) return 1;
+        if (/NICKLAUS/.test(na) && /NICKLAUS/.test(nb)) return 1;
+        if (/(ROSS|DONALD ROSS)/.test(na) && /(ROSS|DONALD ROSS)/.test(nb)) return 1;
+        return 0;
+    }
+    function hubBandMatch(a, b) {
+        const rank = (s) => {
+            s = String(s || "").toUpperCase();
+            if (!s) return null;
+            if (/EASY|SMALL|TIGHT|NARROW|FEW|LIGHT|LOW|SHORT|MINIMAL/.test(s)) return 0;
+            if (/DECENT|MODERATE|MEDIUM|NORMAL|AVG|AVERAGE|STANDARD/.test(s)) return 1;
+            if (/HARD|FIRM|LARGE|WIDE|HEAVY|LOTS|HIGH|LONG|PLENTY|SEVERE/.test(s)) return 2;
+            return null;
         };
-        same(a.designer, b.designer, 18, "Designer");
-        same(a.greens, b.greens, 16, "Greens");
-        same(a.style, b.style, 12, "Style");
-        same(a.fairways, b.fairways, 10, "Fairways");
-        same(a.type, b.type, 6, "Type");
+        const ra = rank(a), rb = rank(b);
+        if (ra == null || rb == null) return hubCatMatch(a, b);
+        if (ra === rb) return 1;
+        if (Math.abs(ra - rb) === 1) return 0.45;
+        return 0;
+    }
+    function hubNumCloseness(a, b, tol) {
+        if (a == null || b == null || isNaN(Number(a)) || isNaN(Number(b))) return 0;
+        const d = Math.abs(Number(a) - Number(b));
+        const t = tol || 2;
+        if (d === 0) return 1;
+        if (d <= t * 0.5) return 0.75;
+        if (d <= t) return 0.45;
+        if (d <= t * 2) return 0.2;
+        return 0;
+    }
+
+    /** Setup identity: designer, grass, style, scoring, green/FW size. */
+    function setupIdentityScore(a, b) {
+        if (!a || !b) return { score: 40, hits: [] };
+        let pts = 0, max = 0, hits = [];
+        const add = (label, m, w) => {
+            if (w <= 0) return;
+            max += w;
+            if (m > 0) pts += w * m;
+            if (m >= 0.8) hits.push(label);
+        };
+        add("Designer", hubCatMatch(a.designer, b.designer), 22);
+        const grass = Math.max(hubCatMatch(a.greens, b.greens), hubCatMatch(a.greens2, b.greens2), hubCatMatch(a.fairways, b.fairways) * 0.7);
+        add("Grass", grass, 16);
+        add("Style", hubCatMatch(a.style, b.style), 14);
+        add("Scoring", hubBandMatch(a.scoring, b.scoring), 12);
+        add("Green size", hubBandMatch(a.greenSize, b.greenSize), 10);
+        add("FW size", hubBandMatch(a.fwSize, b.fwSize), 10);
+        const score = max ? Math.round(100 * pts / max) : 40;
+        return { score: Math.max(0, Math.min(100, score)), hits };
+    }
+
+    function traitSimilarity(a, b) {
+        if (!a || !b) return { score: 40, hits: [] };
+        let pts = 0, max = 0, hits = [];
+        const add = (label, m, w) => {
+            if (w <= 0) return;
+            max += w;
+            if (m > 0) pts += w * m;
+            if (m >= 0.8) hits.push(label);
+        };
+        add("Location", hubCatMatch(a.location, b.location), 20);
+        const water = Math.max(hubBandMatch(a.water, b.water), hubNumCloseness(a.waterNum, b.waterNum, 3));
+        add("Water", water, 16);
+        add("Bunkers", hubBandMatch(a.bunkers, b.bunkers), 14);
+        add("Type", hubCatMatch(a.type, b.type), 8);
+        add("Designer", hubCatMatch(a.designer, b.designer), 12);
+        add("Grass", Math.max(hubCatMatch(a.greens, b.greens), hubCatMatch(a.fairways, b.fairways)), 10);
+        add("Style", hubCatMatch(a.style, b.style), 8);
+        add("Scoring", hubBandMatch(a.scoring, b.scoring), 8);
+        const score = max ? Math.round(100 * pts / max) : 40;
         return { score: Math.max(0, Math.min(100, score)), hits };
     }
 
@@ -12762,25 +12944,27 @@ function renderTable(players) {
                 { key: "fw", label: "FW%", w: 1.0, fmt: v => v.toFixed(1) + "%" },
                 { key: "gir", label: "GIR%", w: 1.0, fmt: v => v.toFixed(1) + "%" },
                 { key: "greenSpeed", label: "Stimp", w: 1.15, fmt: v => v.toFixed(1) },
-                { key: "fwWidth", label: "FW width", w: 0.95, fmt: v => v.toFixed(1) },
-                { key: "greenWidth", label: "Green size", w: 0.95, fmt: v => v.toFixed(1) },
-                { key: "rdScore", label: "Scoring", w: 1.05, fmt: v => v.toFixed(2) },
+                { key: "fwWidth", label: "FW width", w: 1.05, fmt: v => v.toFixed(1) },
+                { key: "greenWidth", label: "Green size", w: 1.05, fmt: v => v.toFixed(1) },
+                { key: "rdScore", label: "Scoring", w: 1.15, fmt: v => v.toFixed(2) },
                 { key: "birdies", label: "Birdies", w: 0.7, fmt: v => v.toFixed(2) },
                 { key: "sgPutt", label: "SG Putt", w: 0.85, fmt: v => (v >= 0 ? "+" : "") + v.toFixed(2) },
                 { key: "scrambling", label: "Scrambling", w: 0.7, fmt: v => v.toFixed(1) + "%" },
             ];
             const activeM = metricDefs.filter(m => cur[m.key] != null && !isNaN(Number(cur[m.key])));
-            if (activeM.length < 3) {
+            const here = window._csTraitHere || (window._csTraitHere = (typeof courseTraitProfile === "function" ? courseTraitProfile(courseName) : null));
+            const hasIdentity = !!(here && (here.designer || here.greens || here.style || here.location));
+            if (activeM.length < 3 && !hasIdentity) {
                 return `<div class="mt-8 rounded-xl border border-dashed border-slate-200 bg-slate-50 p-4 text-sm text-slate-500">
-                    Best comp courses need more profile metrics on this track (length, FW%, GIR%, green speed, etc.).
+                    Best comp courses need more profile metrics on this track (length, FW%, GIR%, green speed, designer/grass/style, etc.).
                 </div>`;
             }
 
             // Field means / stds for z-scores
             const stats = activeM.map(m => {
                 const vals = courseStats.map(c => c[m.key]).filter(v => v != null && !isNaN(Number(v))).map(Number);
-                const mean = vals.reduce((a, b) => a + b, 0) / vals.length;
-                const variance = vals.reduce((a, b) => a + (b - mean) * (b - mean), 0) / Math.max(1, vals.length);
+                const mean = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : 0;
+                const variance = vals.length ? vals.reduce((a, b) => a + (b - mean) * (b - mean), 0) / Math.max(1, vals.length) : 1;
                 const std = Math.sqrt(variance) || 1;
                 return { ...m, mean, std };
             });
@@ -12794,7 +12978,7 @@ function renderTable(players) {
                     const n = normName(c.name);
                     if (c.name === courseName || n === targetNorm) return false;
                     if (targetNorm && (n.includes(targetNorm) || targetNorm.includes(n)) && Math.abs(n.length - targetNorm.length) < 4) return false;
-                    return (c.nRounds || 0) >= 8;
+                    return (c.nRounds || 0) >= 8 || hasIdentity;
                 })
                 .map(c => {
                     let dist = 0, wSum = 0;
@@ -12807,16 +12991,31 @@ function renderTable(players) {
                         wSum += m.w;
                         if (d < 0.55) close.push(m.label);
                     });
-                    if (wSum < 2) return null;
-                    const rms = Math.sqrt(dist / wSum);
-                    // Map RMS distance → 0–100 similarity (0.0 perfect, ~2.5 weak)
-                    const sim = Math.max(0, Math.min(100, Math.round(100 * Math.exp(-0.85 * rms))));
-                    const here = window._csTraitHere || (window._csTraitHere = (typeof courseTraitProfile === "function" ? courseTraitProfile(courseName) : null));
                     const there = (typeof courseTraitProfile === "function") ? courseTraitProfile(c.name) : null;
+                    const ident = (typeof setupIdentityScore === "function") ? setupIdentityScore(here, there) : { score: 40, hits: [] };
                     const ts = (typeof traitSimilarity === "function") ? traitSimilarity(here, there) : { score: 40, hits: [] };
+                    let numericSim = null;
+                    if (wSum >= 2) {
+                        const rms = Math.sqrt(dist / wSum);
+                        numericSim = Math.max(0, Math.min(100, Math.round(100 * Math.exp(-0.85 * rms))));
+                    }
+                    // Setup = numeric corridor (when we have it) blended with designer/grass/style/scoring/sizes
+                    const identScore = ident.score;
+                    let sim;
+                    if (numericSim != null && identScore != null) sim = Math.round(numericSim * 0.70 + identScore * 0.30);
+                    else if (numericSim != null) sim = numericSim;
+                    else sim = identScore;
                     const spec = ts.score;
                     const combo = Math.round(sim * 0.65 + spec * 0.35);
-                    return { name: c.name, sim, spec, combo, rms, close: close.concat(ts.hits || []), c, nRounds: c.nRounds || 0, traitHits: ts.hits || [] };
+                    const rms = wSum >= 2 ? Math.sqrt(dist / wSum) : 9;
+                    return {
+                        name: c.name, sim, spec, combo, rms,
+                        close: close.concat(ident.hits || []),
+                        c, nRounds: c.nRounds || 0,
+                        traitHits: ts.hits || [],
+                        identHits: ident.hits || [],
+                        numericSim, identScore
+                    };
                 })
                 .filter(Boolean)
                 .sort((a, b) => (b.combo - a.combo) || (b.sim - a.sim) || a.rms - b.rms);
@@ -12844,15 +13043,16 @@ function renderTable(players) {
             try { window._csCompShowM = showM; window._csCompCourseName = courseName; } catch (e) {}
 
             const COMP_TIPS = {
-                setup: "Setup (0–100): how closely this course matches this week’s scoring / corridor profile — length, fairways hit, GIR, green speed, fairway width, green size, scoring average, birdies, SG Putting, and scrambling. 100 = nearly the same test. Does not use designer, grass, or style.",
-                traits: "Traits (0–100): specialist overlap with this week — designer, green surface, style, fairway grass, and course type. High = the same family of track (e.g. both Dye + Bermuda + TPC). Does not use scoring or corridor numbers.",
+                setup: "Setup (0–100): 70% scoring/corridor numbers (length, FW%, GIR, stimp, fairway width, green size, scoring average, birdies, SG Putting, scrambling) + 30% how the course is built (Designer, grass, Style, scoring band, green size band, fairway size band). 100 = nearly the same test.",
+                traits: "Traits (0–100): specialist character overlap — Location, water-hazard amount, bunkers, event type, plus Designer / grass / Style / scoring band. High = the same family of track (e.g. both Nicklaus + Bent + Parkland in a similar region).",
                 combo: "Combined (0–100): 65% Setup + 35% Traits. Best overall comparable when you want both how the course plays and what kind of course it is.",
             };
             const tip = (id) => COMP_TIPS[id] || COMP_TIPS.combo;
 
             const rows = top.map((r, i) => {
                 const safeName = String(r.name).replace(/'/g, "\\'");
-                const why = r.close.length ? r.close.slice(0, 3).join(" · ") : "Overall profile match";
+                const whyBits = (r.close || []).concat(r.identHits || []).filter((x, i, a) => a.indexOf(x) === i);
+                const why = whyBits.length ? whyBits.slice(0, 4).join(" · ") : "Overall profile match";
                 const traitWhy = (r.traitHits && r.traitHits.length) ? r.traitHits.slice(0, 4).join(" · ") : "No shared specialist traits";
                 const setupTitle = tip("setup") + " This course: " + r.sim + "/100" + (r.close.length ? " · closest on " + r.close.slice(0, 4).join(", ") : "") + ".";
                 const traitTitle = tip("traits") + " This course: " + r.spec + "/100 · " + traitWhy + ".";
@@ -12921,7 +13121,7 @@ function renderTable(players) {
                         <tbody id="cs-comp-tbody" class="divide-y divide-slate-100">${rows}</tbody>
                     </table>
                 </div>
-                <div class="text-[11px] text-slate-400 mt-2">Click <b>Setup</b>, <b>Traits</b>, or <b>Combined</b> to re-rank. Setup = scoring/corridor profile. Traits = specialist overlap (designer, grasses, style). Combined = 65% setup + 35% traits. “Use in Model” sets this track as the Custom Model comparable course.</div>
+                <div class="text-[11px] text-slate-400 mt-2">Click <b>Setup</b>, <b>Traits</b>, or <b>Combined</b> to re-rank. Setup = 70% scoring/corridor + 30% Designer / grass / Style / scoring / sizes. Traits = Location, water, bunkers, type, plus specialist family. Combined = 65% setup + 35% traits. “Use in Model” sets this track as the Custom Model comparable course.</div>
             </div>`;
         } catch (e) {
             console.warn("buildBestCompCoursesHtml", e);
@@ -13386,6 +13586,15 @@ function renderTable(players) {
                 return (!isNaN(n) && n > 0) ? n : null;
             })
         };
+        try {
+            const traits = currentCourseTraits || {};
+            const tval = (k) => {
+                const t = traits[k] || traits[k.toUpperCase()] || traits[k.toLowerCase()];
+                return t ? String(t.value != null ? t.value : t).trim() : "";
+            };
+            const yds = parseFloat(tval("Yardage") || tval("YARDAGE"));
+            if (!isNaN(yds) && yds > 5000 && currentOverrides.length == null) currentOverrides.length = yds;
+        } catch (e) {}
 
         const courseStats = Object.entries(courseBucket).map(([name, a]) => ({
             name,
@@ -14929,12 +15138,12 @@ el.innerHTML = `
     function getPlayerSpecialistBreakdown(playerName) {
         // Always re-detect this week's course traits (board path may clear specialistTraits)
         try {
-            if (typeof detectCourseTraits === "function") {
+            if (typeof mergeSpecialistTraits === "function") {
+                const traits = mergeSpecialistTraits(currentCourseName || window.previewCourseName || "");
+                if (traits && Object.keys(traits).length) currentCourseTraits = traits;
+            } else if (typeof detectCourseTraits === "function") {
                 const traits = detectCourseTraits(currentCourseName || window.previewCourseName || "");
-                if (traits && Object.keys(traits).length) {
-                    currentCourseTraits = traits;
-                    // local list for this call — do not wipe board UI state permanently
-                }
+                if (traits && Object.keys(traits).length) currentCourseTraits = traits;
             }
         } catch (e) {}
         const traitList = (() => {
@@ -20474,28 +20683,38 @@ function renderOwnershipLeverage() {
 
     function lookupHeadshot(playerName) {
         const dk = lookupDkRow(playerName);
-        if (dk && dk.player_image) return dk.player_image;
-        const prop = propsCombined.find(r => namesMatch(r.player_name, playerName) && r.headshot);
-        if (prop && prop.headshot) return prop.headshot;
-        // Player Information sheet headshot
+        if (dk) {
+            const img = dk.player_image || dk.playerImage || dk["Player Image"] || dk.image_url
+                || dk.Image || dk.headshot || dk["Headshot Link"] || dk.headshot_url || "";
+            if (img && String(img).startsWith("http")) return String(img).trim();
+        }
+        const prop = (propsCombined || []).find(r => namesMatch(r.player_name, playerName) && (r.headshot || r["Combined Headshot URL"]));
+        if (prop) {
+            const img = prop.headshot || prop["Combined Headshot URL"];
+            if (img && String(img).startsWith("http")) return String(img).trim();
+        }
         try {
             const bio = typeof getPlayerBio === "function" ? getPlayerBio(playerName) : null;
-            if (bio && bio.headshot) return bio.headshot;
+            if (bio && bio.headshot && String(bio.headshot).startsWith("http")) return String(bio.headshot).trim();
         } catch (e) {}
         return null;
     }
 
     function headshotHtml(playerName, size = 28) {
         const src = lookupHeadshot(playerName);
+        const letter = (playerName || "?").charAt(0).toUpperCase();
+        const fallback = `<div class="cs-shot-fallback rounded-full bg-slate-200 text-slate-600 items-center justify-center font-semibold"
+                        style="width:${size}px;height:${size}px;font-size:${Math.max(10, size/3)}px;${src ? "display:none" : "display:flex"}">${letter}</div>`;
         if (!src) {
-            return `<div class="rounded-full bg-slate-200 text-slate-500 flex items-center justify-center font-semibold"
-                        style="width:${size}px;height:${size}px;font-size:${Math.max(10, size/3)}px">${(playerName||"?").charAt(0)}</div>`;
+            return `<div class="cs-shot flex-shrink-0" style="width:${size}px;height:${size}px">${fallback}</div>`;
         }
-        return `<img src="${src}" alt="" class="rounded-full object-cover bg-slate-100"
-                     style="width:${size}px;height:${size}px"
-                     onerror="this.style.display='none';var n=this.nextElementSibling;if(n&&n.style)n.style.display='flex';"/>
-                <div class="rounded-full bg-slate-200 text-slate-500 hidden items-center justify-center font-semibold"
-                     style="width:${size}px;height:${size}px;font-size:${Math.max(10, size/3)}px">${(playerName||"?").charAt(0)}</div>`;
+        const safeSrc = String(src).replace(/[<>"]/g, "");
+        return `<div class="cs-shot flex-shrink-0" style="width:${size}px;height:${size}px">
+            <img src="${safeSrc}" alt="" width="${size}" height="${size}" class="rounded-full object-cover bg-slate-100"
+                 style="width:${size}px;height:${size}px;display:block"
+                 onerror="this.style.display='none';var f=this.nextElementSibling;if(f){f.style.display='flex';}"/>
+            ${fallback}
+        </div>`;
     }
 
     function applySlateToPlayers() {
@@ -22561,6 +22780,85 @@ function getCutStreakFromLogs(playerName) {
     // Back-compat alias
     function mirrorCheatSheetToDfs() { mirrorCheatSheetToFantasy(); }
 
+    function hubNormCourseKey(s) {
+        return String(s || "").toLowerCase()
+            .replace(/^the\s+/, "")
+            .replace(/\b(golf|club|country|course|gc|cc|national|resort|links)\b/g, " ")
+            .replace(/[^a-z0-9]+/g, " ").trim();
+    }
+    function hubCoursesClose(a, b) {
+        const na = hubNormCourseKey(a), nb = hubNormCourseKey(b);
+        if (!na || !nb) return false;
+        if (na === nb) return true;
+        const ca = na.replace(/\s/g, ""), cb = nb.replace(/\s/g, "");
+        if (ca.length >= 6 && cb.length >= 6 && (ca.includes(cb) || cb.includes(ca))) return true;
+        const ta = na.split(" ").filter(t => t.length > 2);
+        const tb = nb.split(" ").filter(t => t.length > 2);
+        if (!ta.length || !tb.length) return false;
+        const hits = ta.filter(t => tb.some(x => x === t || x.includes(t) || t.includes(x)));
+        if (hits.length >= 2) return true;
+        if (hits.length === 1 && hits[0].length >= 6) return true;
+        return false;
+    }
+    function hubLiveWeekIdentity() {
+        const cheat = (typeof prebuiltCheat !== "undefined" && prebuiltCheat && prebuiltCheat[0]) ? prebuiltCheat[0] : null;
+        const rf = (typeof allPlayers !== "undefined" && allPlayers && allPlayers[0]) ? allPlayers[0] : null;
+        const cheatEv = String((cheat && (cheat.event_name || cheat.tournament)) || "").trim();
+        const cheatCrs = String((cheat && cheat.course_name) || "").trim();
+        const rfEv = String((rf && rf.event_name) || "").trim();
+        const rfCrs = String((rf && rf.course_name) || "").trim();
+        let event = cheatEv || rfEv || "";
+        let course = cheatCrs || rfCrs || currentCourseName || window.previewCourseName || "";
+        if (cheatCrs && rfCrs && !hubCoursesClose(cheatCrs, rfCrs)) {
+            event = cheatEv || event;
+            course = cheatCrs;
+        }
+        if (cheatEv && rfEv && typeof hubEventsClose === "function" && !hubEventsClose(cheatEv, rfEv) && cheatCrs) {
+            event = cheatEv;
+            course = cheatCrs || course;
+        }
+        return { event, course };
+    }
+    function hubParsePreviewDate(row) {
+        if (!row) return null;
+        const raw = String(row["TOURNAMENT FINISHING DATE"] || row.DATE || row.Date || "").trim();
+        const m = raw.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+        if (!m) return null;
+        let y = parseInt(m[3], 10);
+        if (y < 100) y += 2000;
+        if (y > 2100) y = Math.round(y / 10); // 22026 sheet typo
+        if (y < 2015 || y > 2100) return null;
+        return new Date(y, parseInt(m[1], 10) - 1, parseInt(m[2], 10));
+    }
+    function hubPickPreviewRow(rows, ev, crs) {
+        if (!(rows && rows.length)) return null;
+        const courseOf = r => String(r["COURSE NAME"] || r["Course Name"] || r.Course || "").trim();
+        const eventOf = r => String(r.TOURNAMENT || r.Tournament || r.Event || "").trim();
+        if (crs) {
+            const hit = rows.find(r => hubCoursesClose(courseOf(r), crs));
+            if (hit) return hit;
+        }
+        if (ev) {
+            const hit = rows.find(r => {
+                const t = eventOf(r);
+                if (!t) return false;
+                if (typeof hubEventsClose === "function" && hubEventsClose(t, ev)) return true;
+                const a = t.toLowerCase(), b = String(ev).toLowerCase();
+                if (a.includes(b.slice(0, 10)) || b.includes(a.slice(0, 10))) return true;
+                if (/biltmore|asheville|walnut|cliffs/.test(a) && /biltmore|asheville|walnut|cliffs/.test(b)) return true;
+                return false;
+            });
+            if (hit) return hit;
+        }
+        const dated = rows.map(r => ({ r, d: hubParsePreviewDate(r) })).filter(x => x.d);
+        dated.sort((a, b) => a.d - b.d);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const upcoming = dated.find(x => x.d.getTime() >= today.getTime() - 3 * 86400000);
+        if (upcoming) return upcoming.r;
+        return dated.length ? dated[dated.length - 1].r : null;
+    }
+
     function hubPreviewCourseThisWeek() {
         try {
             const pv = preTournamentPreview || {};
@@ -22586,18 +22884,21 @@ function getCutStreakFromLogs(playerName) {
             } catch (e) {}
             return s;
         };
-        const ev = String(
+        const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : { event: "", course: "" };
+        const ev = String(liveId.event || (
             (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].event_name)
             || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
             || ""
-        ).trim();
+        )).trim();
         const pv = hubPreviewCourseThisWeek();
         const previewOk = !!(pv.course && (
             !ev || !pv.event
             || (typeof hubEventsClose === "function" && hubEventsClose(pv.event, ev))
-            || /bmw/i.test(ev + " " + pv.event)
+            || (typeof hubCoursesClose === "function" && hubCoursesClose(pv.course, liveId.course || ev))
+            || /bmw|biltmore|asheville|cliffs|walnut/.test((ev + " " + pv.event).toLowerCase())
         ));
-        if (window._hubCalendarRolled && (window.previewCourseName || pv.course)) {
+        if (liveId.course) return resolve(liveId.course);
+        if (window._hubCalendarRolled && (window.previewCourseName || pv.course) && !liveId.course) {
             return resolve(window.previewCourseName || pv.course);
         }
         if (previewOk && pv.course) return resolve(pv.course);
@@ -23042,12 +23343,14 @@ function getCutStreakFromLogs(playerName) {
             const traits = currentCourseTraits && Object.keys(currentCourseTraits).length
                 ? Object.values(currentCourseTraits)
                 : [];
-            const courseLabel = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
-                || (allPlayers[0] && allPlayers[0].course_name)
+            const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : {};
+            const courseLabel = liveId.course
+                || (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
                 || currentCourseName
+                || (allPlayers[0] && allPlayers[0].course_name)
                 || (allPlayers[0] && allPlayers[0].event_name)
                 || "Event";
-            const skipKeys = /weather details|weather detail|notes|report/i;
+            const skipKeys = /weather details|weather detail|notes|report|^_course$/i;
             const cleanTraits = traits.filter(t => {
                 if (!t || !t.key) return false;
                 if (skipKeys.test(String(t.key))) return false;
@@ -24762,14 +25065,16 @@ function renderCheatSheet() {
                 return `<td class="px-1.5 py-1.5 text-center"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${v ?? "—"}</span></td>`;
             };
             html += `<tr class="cursor-pointer hover:bg-slate-50" onclick="openPlayerModal('${safe}', 0)">
-                <td class="px-2 py-1.5 sticky left-0 bg-white z-[1]">${headshotHtml(r.name, 28)}</td>
-                <td class="px-3 py-1.5 font-medium text-slate-900 sticky left-8 bg-white z-[1]">
-                    <div class="flex flex-col leading-tight min-w-0">
-                        <span class="whitespace-nowrap text-sm font-semibold">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name}</span>
-                        <div class="cs-player-tags">
-                            ${typeof dataTagBadge === "function" ? dataTagBadge(r) : ""}
-                            ${typeof outrightBetBadge === "function" ? outrightBetBadge(r) : ""}
-                            ${typeof localTiesBadge === "function" ? localTiesBadge(r) : ""}
+                <td class="px-2 py-1.5 font-medium text-slate-900 sticky left-0 bg-white z-[2] cs-player" style="left:0">
+                    <div class="cs-player-cell">
+                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 28) : ""}
+                        <div class="flex flex-col leading-tight min-w-0">
+                            <span class="whitespace-nowrap text-sm font-semibold">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name}</span>
+                            <div class="cs-player-tags">
+                                ${typeof dataTagBadge === "function" ? dataTagBadge(r) : ""}
+                                ${typeof outrightBetBadge === "function" ? outrightBetBadge(r) : ""}
+                                ${typeof localTiesBadge === "function" ? localTiesBadge(r) : ""}
+                            </div>
                         </div>
                     </div>
                 </td>
@@ -31072,7 +31377,6 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
 <button type="button" id="hub-tour-fab" class="hidden items-center gap-2 px-3.5 py-2.5 rounded-full bg-blue-600 text-white text-xs font-semibold shadow-lg hover:bg-blue-700 border border-blue-500" onclick="hubTourStart(0)" title="Open hub walkthrough">
     <span aria-hidden="true">?</span> Guide
 </button>
-
 
 <script>
 (function () {
