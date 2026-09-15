@@ -12,12 +12,12 @@ player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3
 "Brown, Blades",The Cliffs at Walnut Cove,0,0,,,,,,
 "Conners, Corey",The Cliffs at Walnut Cove,0,0,,,,,,
 "Finau, Tony",The Cliffs at Walnut Cove,0,0,,,,,,
-"Glover, Lucas",The Cliffs at Walnut Cove,0,0,,,,,,
 "Greyserman, Max",The Cliffs at Walnut Cove,0,0,,,,,,
+"Glover, Lucas",The Cliffs at Walnut Cove,0,0,,,,,,
 "Meissner, Mac",The Cliffs at Walnut Cove,0,0,,,,,,
-"Penge, Marco",The Cliffs at Walnut Cove,0,0,,,,,,
-"McCarthy, Denny",The Cliffs at Walnut Cove,0,0,,,,,,
 "Hoey, Rico",The Cliffs at Walnut Cove,1,2,-2.018,,,100.0,CUT,30.0
+"McCarthy, Denny",The Cliffs at Walnut Cove,0,0,,,,,,
+"Penge, Marco",The Cliffs at Walnut Cove,0,0,,,,,,
 "Ghim, Doug",The Cliffs at Walnut Cove,0,0,,,,,,
 "Chatfield, Davis",The Cliffs at Walnut Cove,0,0,,,,,,
 "Hossler, Beau",The Cliffs at Walnut Cove,0,0,,,,,,
@@ -34,8 +34,8 @@ player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3
 "Wise, Aaron",The Cliffs at Walnut Cove,0,0,,,,,,
 "Blair, Zac",The Cliffs at Walnut Cove,0,0,,,,,,
 "Norlander, Henrik",The Cliffs at Walnut Cove,1,1,-1.089,19.0,19.0,0.0,19,28.0
-"Phillips, Chandler",The Cliffs at Walnut Cove,1,4,0.448,46.0,46.0,0.0,46,16.0
 "Springer, Hayden",The Cliffs at Walnut Cove,0,0,,,,,,
+"Phillips, Chandler",The Cliffs at Walnut Cove,1,4,0.448,46.0,46.0,0.0,46,16.0
 "Suber, Jackson",The Cliffs at Walnut Cove,0,0,,,,,,
 "Power, Seamus",The Cliffs at Walnut Cove,0,0,,,,,,
 "Jaeger, Stephan",The Cliffs at Walnut Cove,1,4,0.698,38.0,38.0,0.0,38,15.0
@@ -107,8 +107,8 @@ player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3
 "Vilips, Karl",The Cliffs at Walnut Cove,0,0,,,,,,
 "Thompson, Michael",The Cliffs at Walnut Cove,0,0,,,,,,
 "Gordon, Will",The Cliffs at Walnut Cove,0,0,,,,,,
-"Kang, Jeffrey",The Cliffs at Walnut Cove,0,0,,,,,,
 "Todd, Brendon",The Cliffs at Walnut Cove,0,0,,,,,,
+"Kang, Jeffrey",The Cliffs at Walnut Cove,0,0,,,,,,
 "Smotherman, Austin",The Cliffs at Walnut Cove,1,2,-3.518,,,100.0,CUT,33.0
 "Li, Haotong",The Cliffs at Walnut Cove,0,0,,,,,,
 "Nyholm, Pontus",The Cliffs at Walnut Cove,0,0,,,,,,
