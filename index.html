@@ -4352,6 +4352,12 @@ function switchFantasySubTab(sub) {
                             window._hubCheatCompApplied = false;
                             if (typeof buildCourseHistory === "function") buildCourseHistory();
                             if (typeof applyCheatCompCourseHistory === "function") applyCheatCompCourseHistory();
+                            try {
+                                const boardEmpty = !(window.specialistBoard && window.specialistBoard.length);
+                                if (boardEmpty || window._hubModelPartial) window._forceLiveSpecialist = true;
+                                if (typeof buildSpecialist === "function") buildSpecialist();
+                            } catch (eSp) { console.warn("spec after logs", eSp); }
+                            try { if (typeof fillMissingSpecRanks === "function") fillMissingSpecRanks(); } catch (e) {}
                             if (typeof finalize925Ranks === "function") finalize925Ranks();
                             if (typeof renderCheatSheet === "function") renderCheatSheet();
                         } catch (e) { console.warn("comp CH after logs", e); }
@@ -4363,8 +4369,8 @@ function switchFantasySubTab(sub) {
                 try {
                     if (typeof currentModalPlayer !== "undefined" && currentModalPlayer) {
                         const modal = document.getElementById("player-modal");
-                        if (modal && !modal.classList.contains("hidden") && typeof showModal === "function") {
-                            showModal(currentModalPlayer);
+                        if (modal && !modal.classList.contains("hidden") && typeof switchModalTab === "function") {
+                            switchModalTab(window._modalTabIdx != null ? window._modalTabIdx : 0);
                         }
                     }
                 } catch (e) {}
@@ -14204,15 +14210,6 @@ el.innerHTML = `
             : tabIdx;
         window._modalTabIdx = t;
         if (typeof showModal === "function") showModal(player);
-        setTimeout(() => { try { switchModalTab(window._modalTabIdx); } catch (e) {} }, 40);
-        // History detail in popup — load logs in background if needed
-        if (typeof ensurePlayerLogsLoaded === "function") {
-            ensurePlayerLogsLoaded().then(() => {
-                try { if (typeof refreshModalContent === "function") refreshModalContent(player); } catch (e) {}
-                // Stay on whatever tab the user last selected (don't yank back to open tab)
-                try { if (typeof switchModalTab === "function") switchModalTab(window._modalTabIdx ?? t); } catch (e) {}
-            }).catch(() => {});
-        }
     }
 
     function openCourseHistoryPlayer(playerName) {
@@ -14562,11 +14559,19 @@ el.innerHTML = `
     function getPlayerRounds(player) {
         const pname = player.name_adjusted || player.player_name || player.name || "";
         const cutoff = oneYearAgo();
-        return (playerLogs || []).filter(row => {
-            const rn = row.player_name || row.name_adjusted || "";
-            if (!(typeof namesMatch === "function" ? namesMatch(rn, pname) : nameKey(rn) === nameKey(pname)))
-                return false;
+        let rows = [];
+        try {
+            if (typeof logsForPlayer === "function") rows = logsForPlayer(pname) || [];
+        } catch (e) { rows = []; }
+        if ((!rows || !rows.length) && player.player_name && player.player_name !== pname) {
+            try { rows = logsForPlayer(player.player_name) || []; } catch (e) {}
+        }
+        if ((!rows || !rows.length) && player.name_adjusted && player.name_adjusted !== pname) {
+            try { rows = logsForPlayer(player.name_adjusted) || []; } catch (e) {}
+        }
+        return (rows || []).filter(row => {
             const d = new Date(row.event_completed || row.date_start || 0);
+            if (isNaN(d.getTime())) return true;
             return d >= cutoff;
         });
     }
@@ -14706,7 +14711,6 @@ el.innerHTML = `
                     // Key ranks on the right side of the header
                     const ctr = document.getElementById("modal-player-counter");
                     if (ctr) {
-                        try { applySpecRanksFromBoard(); } catch (e) {}
                         const rowR = (cheatRows || []).find(r =>
                             namesMatch(r.name || "", name) || (r.name || "").toLowerCase() === name.toLowerCase()
                         ) || row;
@@ -17473,6 +17477,7 @@ el.innerHTML = `
             : "Performance on courses with similar characteristics";
 
         computeSpecialistRows();
+        try { if (typeof renderCheatSheet === "function" && (cheatRows || []).length) renderCheatSheet(); } catch (e) {}
         renderSpecialist();
     }
 
@@ -17686,10 +17691,14 @@ el.innerHTML = `
                 });
 
                 const traitHits = Object.values(traitSg).filter(v => v != null).length;
-                const inField = allPlayers.some(p =>
+                const inField = (allPlayers || []).some(p =>
                     (typeof namesMatch === "function"
                         ? (namesMatch(p.player_name || "", pname) || namesMatch(p.name_adjusted || "", pname))
                         : ((p.player_name || "") === pname || (p.name_adjusted || "") === pname))
+                ) || (cheatRows || []).some(p =>
+                    typeof namesMatch === "function"
+                        ? namesMatch(p.name || p.player_name || "", pname)
+                        : String(p.name || "").toLowerCase() === String(pname).toLowerCase()
                 );
 
                 specialistRows.push({
@@ -17710,6 +17719,9 @@ el.innerHTML = `
                     detailEvents: events
                 });
             });
+            try { stampSpecialistRanks(); } catch (e) {}
+            try { applySpecRanksFromBoard(); } catch (e) {}
+            try { fillMissingSpecRanks(); } catch (e) {}
             return;
         }
 
@@ -17727,10 +17739,14 @@ el.innerHTML = `
         const byPlayer = eventsForTrait(trait, windowN);
         Object.entries(byPlayer).forEach(([pname, { events, roundCount }]) => {
             const sum = summarizeEvents(events);
-            const inField = allPlayers.some(p =>
+            const inField = (allPlayers || []).some(p =>
                 (typeof namesMatch === "function"
                     ? (namesMatch(p.player_name || "", pname) || namesMatch(p.name_adjusted || "", pname))
                     : ((p.player_name || "") === pname || (p.name_adjusted || "") === pname))
+            ) || (cheatRows || []).some(p =>
+                typeof namesMatch === "function"
+                    ? namesMatch(p.name || p.player_name || "", pname)
+                    : String(p.name || "").toLowerCase() === String(pname).toLowerCase()
             );
             specialistRows.push({
                 player_name: pname,
@@ -17749,6 +17765,66 @@ el.innerHTML = `
                 detailEvents: events
             });
         });
+        try { stampSpecialistRanks(); } catch (e) {}
+        try { applySpecRanksFromBoard(); } catch (e) {}
+        try { fillMissingSpecRanks(); } catch (e) {}
+    }
+
+    function stampSpecialistRanks() {
+        const pool = (specialistRows || []).filter(r => r && (r.inField !== false) && r.sg != null);
+        pool.sort((a, b) => (Number(b.sg) || -999) - (Number(a.sg) || -999));
+        pool.forEach((r, i) => { r.specRank = i + 1; r.rank = i + 1; });
+    }
+
+    function playerRecentSg(playerName) {
+        if (!playerName) return null;
+        let rows = [];
+        try { rows = (typeof logsForPlayer === "function") ? (logsForPlayer(playerName) || []) : []; } catch (e) {}
+        if (!rows.length) return null;
+        const sorted = rows.slice().sort((a, b) => {
+            const da = new Date(a.event_completed || a.date || 0);
+            const db = new Date(b.event_completed || b.date || 0);
+            return db - da;
+        }).slice(0, 24);
+        const sgs = sorted.map(x => parseFloat(x.sg_total)).filter(n => !isNaN(n));
+        if (!sgs.length) return null;
+        return sgs.reduce((a, b) => a + b, 0) / sgs.length;
+    }
+
+    function fillMissingSpecRanks() {
+        if (!(cheatRows || []).length) return 0;
+        const missing = cheatRows.filter(r => r.specRank == null || r.specRank === "" || isNaN(Number(r.specRank)));
+        if (!missing.length) return 0;
+        const scored = missing.map(r => {
+            const name = r.name || r.name_adjusted || r.player_name || "";
+            let sg = null;
+            try {
+                const sp = (specialistRows || []).find(s =>
+                    typeof namesMatch === "function"
+                        ? namesMatch(s.player_name || s.name || "", name)
+                        : String(s.player_name || "").toLowerCase() === String(name).toLowerCase()
+                );
+                if (sp && sp.sg != null && !isNaN(Number(sp.sg))) sg = Number(sp.sg);
+            } catch (e) {}
+            if (sg == null) {
+                try { sg = playerRecentSg(name); } catch (e) {}
+            }
+            return { r, sg };
+        });
+        const withSg = scored.filter(x => x.sg != null).sort((a, b) => b.sg - a.sg);
+        const without = scored.filter(x => x.sg == null);
+        let base = 0;
+        cheatRows.forEach(r => {
+            const n = Number(r.specRank);
+            if (!isNaN(n) && n > base) base = n;
+        });
+        withSg.forEach((x, i) => { x.r.specRank = base + i + 1; });
+        const logsReady = !!(playerLogs && playerLogs.length);
+        if (logsReady) {
+            without.forEach((x, i) => { x.r.specRank = base + withSg.length + i + 1; });
+        }
+        console.log("[hub] fillMissingSpecRanks", withSg.length, "by SG,", logsReady ? without.length : 0, "no-data, of", missing.length, "missing");
+        return missing.length;
     }
 
 
@@ -21054,17 +21130,16 @@ function renderOwnershipLeverage() {
             if (map[k] != null) return map[k];
             if (map[String(name).toLowerCase()] != null) return map[String(name).toLowerCase()];
             if (typeof namesMatch === "function") {
-                for (const [mk, mv] of Object.entries(map)) {
-                    // only try name-like keys (skip pure numeric)
-                    if (mk.length < 4 || /^\d+$/.test(mk)) continue;
-                    // map keys are nameKeys; rebuild is hard — match against original board names instead
-                }
-                // Scan board names once
-                for (const r of board) {
-                    const bn = r.player_name || r.name_adjusted || r.name || "";
-                    if (bn && namesMatch(bn, name)) {
+                const pools = [board, specialistRows];
+                for (const pool of pools) {
+                    if (!(pool || []).length) continue;
+                    for (const r of pool) {
+                        const bn = r.player_name || r.name_adjusted || r.name || "";
+                        if (!bn || !namesMatch(bn, name)) continue;
                         const bk = (typeof nameKey === "function") ? nameKey(bn) : String(bn).toLowerCase().replace(/[^a-z0-9]/g, "");
                         if (map[bk] != null) return map[bk];
+                        if (r.specRank != null) return r.specRank;
+                        if (r.rank != null) return r.rank;
                     }
                 }
             }
@@ -21094,6 +21169,7 @@ function renderOwnershipLeverage() {
             });
         } catch (e) {}
         console.log("[hub] applySpecRanksFromBoard filled", filled, "of", cheatRows.length, "map", Object.keys(map).length);
+        try { fillMissingSpecRanks(); } catch (e) {}
         try { if (typeof finalize925Ranks === "function") finalize925Ranks(); } catch (e) {}
         try { if (typeof refreshCheatSheetTags === "function") refreshCheatSheetTags(); } catch (e) {}
         return filled;
@@ -22397,6 +22473,12 @@ function computeOutrightBetTag(r) {
             try { buildPlayerLogIndex(); } catch (e) {}
         }
         if (k && _logsByPlayer && _logsByPlayer.has(k)) return _logsByPlayer.get(k);
+        if (k && _logsByPlayer && k.length >= 5) {
+            for (const [nk, rows] of _logsByPlayer) {
+                if (!nk || nk.length < 5) continue;
+                if (nk === k || nk.includes(k) || k.includes(nk)) return rows;
+            }
+        }
         if (k && window._logIndex && window._logIndex.has(k)) return window._logIndex.get(k);
         return [];
     }
@@ -23724,6 +23806,7 @@ function getCutStreakFromLogs(playerName) {
                 r.rank925 = parts.length ? parts.reduce((a, b) => a + Number(b), 0) / parts.length : r.rank925;
             });
             try { applySpecRanksFromBoard(); } catch (e) {}
+            try { if (typeof fillMissingSpecRanks === "function") fillMissingSpecRanks(); } catch (e) {}
             cheatRows.forEach(r => {
                 const t = computeDataTag(r);
                 r.dataTag = t.tag;
