@@ -779,7 +779,6 @@
             white-space: normal;
             overflow-wrap: anywhere;
             line-height: 1.15;
-            font-size: 12.5px;
         }
         #csheet-table tbody .cs-player-tags {
             display: flex;
@@ -791,16 +790,6 @@
         #csheet-table tbody .cs-player-tags .ob-tag {
             white-space: normal;
             line-height: 1.2;
-        }
-        #csheet-table tbody td:not(.cs-player) {
-            padding-left: 0.15rem !important;
-            padding-right: 0.15rem !important;
-        }
-        #csheet-table tbody td:not(.cs-player) span.inline-block,
-        #csheet-table tbody td:not(.cs-player) span.inline-flex {
-            min-width: 1.35rem !important;
-            padding: 1px 3px !important;
-            font-size: 11px !important;
         }
         #csheet-table tbody .cs-shot {
             flex-shrink: 0;
@@ -830,11 +819,6 @@
         #csheet-table tbody td.cs-player .data-tag,
         #csheet-table tbody td.cs-player .ob-tag {
             white-space: normal !important;
-        }
-        #csheet-table tbody .cs-shot,
-        #csheet-table tbody .cs-shot img {
-            width: 24px;
-            height: 24px;
         }
         #csheet-table tbody td[style*="left:9rem"] {
             font-weight: 700 !important;
@@ -24479,7 +24463,7 @@ function getCutStreakFromLogs(playerName) {
         const shown = raw.toUpperCase() === "CUT" ? "MC" : (v ?? "—");
         const safeTip = title ? String(title).replace(/[<>"]/g, "") : (raw.toUpperCase() === "CUT" ? "Missed cut" : "");
         const tip = safeTip ? (" title=\"" + safeTip + "\"") : "";
-        return `<td class="px-1 py-1 text-center${extra}"${tip}><span class="inline-block min-w-[1.35rem] px-1 py-0.5 rounded text-[11px] ${cls}">${shown}</span></td>`;
+        return `<td class="px-1.5 py-1.5 text-center${extra}"${tip}><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${shown}</span></td>`;
     }
 
     
@@ -25400,7 +25384,7 @@ function renderCheatSheet() {
             html += `<tr class="cursor-pointer hover:bg-slate-50" onclick="openPlayerModal('${safe}', 0)">
                 <td class="px-2 py-1.5 font-medium text-slate-900 sticky left-0 bg-white z-[2] cs-player" style="left:0">
                     <div class="cs-player-cell">
-                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 24) : ""}
+                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 28) : ""}
                         <div class="flex flex-col leading-tight min-w-0">
                             <span class="cs-player-name font-semibold">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name}</span>
                             <div class="cs-player-tags">
@@ -25411,9 +25395,9 @@ function renderCheatSheet() {
                         </div>
                     </div>
                 </td>
-                <td class="px-1 py-1 text-center text-slate-700 font-medium sticky bg-white z-[1] tabular-nums text-xs" style="left:9rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
-                <td class="px-1 py-1 text-center text-slate-900 text-xs font-semibold sticky bg-white z-[1] tabular-nums" style="left:12.7rem">${r.winOdds ? r.winOdds.display : "—"}</td>
-                <td class="px-1 py-1 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:16rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
+                <td class="px-2 py-1.5 text-center text-slate-700 font-medium sticky bg-white z-[1]" style="left:9rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
+                <td class="px-2 py-1.5 text-center text-slate-900 text-xs font-semibold sticky bg-white z-[1] tabular-nums" style="left:12.7rem">${r.winOdds ? r.winOdds.display : "—"}</td>
+                <td class="px-1.5 py-1.5 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:16rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
                     <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-800" : r.own != null && r.own >= 8 ? "text-slate-900" : "text-slate-700"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
                     ${r.levTag ? `<div class="cs-subnum mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-700" : /over|fade/i.test(r.levTag) ? "text-rose-700" : "text-slate-600"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
                 </td>
@@ -25433,14 +25417,11 @@ function renderCheatSheet() {
                     if (!r.cutNoCut && r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
                     return bits.join(" · ");
                 })()}">
-                    <div class="font-bold text-slate-900 tabular-nums leading-none">${
+                    <div class="font-bold text-slate-900 tabular-nums">${
                         (r.cutNoCut || r.cutPct === "100%")
                             ? "100%"
-                            : (r.cutPct ?? "—")
+                            : ((r.cutPct ?? "—") + (r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="cs-subnum font-bold text-cyan-800">(${r.cutNoVigLabel})</span>` : ""))
                     }</div>
-                    ${(!r.cutNoCut && r.cutNoVigLabel && r.cutNoVigLabel !== "—")
-                        ? `<div class="cs-subnum font-bold text-cyan-800 leading-none mt-0.5">${r.cutNoVigLabel}</div>`
-                        : ""}
                 </td>
                 <td class="px-1.5 py-1.5 text-center cs-sec cs-g-ks" title="${(keyStatNames&&keyStatNames[0])||'Key Stat 1'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s1, maxR)}">${displayRank(r.s1)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[1])||'Key Stat 2'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s2, maxR)}">${displayRank(r.s2)}</span></td>
