@@ -1,8 +1,216 @@
 {
-  "course_name": "The Cliffs at Walnut Cove",
-  "event_name": "Biltmore Championship Asheville",
-  "trait_sig": "",
-  "traits": [],
-  "field_avgs": {},
+  "course_name": "Black Desert Resort",
+  "event_name": "Bank of Utah Championship",
+  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "traits": [
+    {
+      "key": "designer",
+      "label": "DESIGNER",
+      "value": "TOM FAZIO",
+      "count": 761,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "style",
+      "label": "STYLE",
+      "value": "PARKLAND",
+      "count": 1245,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "greens",
+      "label": "GREENS",
+      "value": "BERMUDA",
+      "count": 1094,
+      "green": true,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "greens_2",
+      "label": "GREENS (2)",
+      "value": "TIFEAGLE",
+      "count": 972,
+      "green": true,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "fairways",
+      "label": "FAIRWAYS",
+      "value": "BERMUDA",
+      "count": 1239,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "length",
+      "label": "LENGTH",
+      "value": "NORMAL",
+      "count": 1320,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "par",
+      "label": "PAR",
+      "value": "71.0",
+      "count": 1077,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "scoring",
+      "label": "SCORING",
+      "value": "HARD",
+      "count": 816,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "weather",
+      "label": "WEATHER",
+      "value": "FAIR",
+      "count": 668,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "type",
+      "label": "TYPE",
+      "value": "FULL",
+      "count": 2033,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "fairway_width",
+      "label": "FAIRWAY WIDTH",
+      "value": "SMALL",
+      "count": 1082,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "green_width",
+      "label": "GREEN WIDTH",
+      "value": "SMALL",
+      "count": 1870,
+      "green": true,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "green_speeds",
+      "label": "GREEN SPEEDS",
+      "value": "12.0",
+      "count": 877,
+      "green": true,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "green_speeds_1",
+      "label": "GREEN SPEEDS.1",
+      "value": "NORMAL",
+      "count": 877,
+      "green": true,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "rough_length",
+      "label": "ROUGH LENGTH",
+      "value": "THICK",
+      "count": 1057,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "water_hazards",
+      "label": "WATER HAZARDS",
+      "value": "8.0",
+      "count": 622,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "rough_amount",
+      "label": "ROUGH AMOUNT",
+      "value": "NORMAL",
+      "count": 972,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "bunkers",
+      "label": "BUNKERS",
+      "value": "74.0",
+      "count": 688,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "location",
+      "label": "LOCATION",
+      "value": "FLORIDA",
+      "count": 972,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "redesigned",
+      "label": "Redesigned",
+      "value": "JACK NICKLAUS",
+      "count": 284,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "drainage",
+      "label": "DRAINAGE",
+      "value": "GOOD",
+      "count": 688,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    },
+    {
+      "key": "rain",
+      "label": "RAIN",
+      "value": "NO",
+      "count": 1971,
+      "green": false,
+      "course_name": "Black Desert Resort",
+      "event_name": "Bank of Utah Championship"
+    }
+  ],
+  "field_avgs": {
+    "birdies_plus": 3.8135,
+    "strokes": 70.1918,
+    "bogeys": 2.3661,
+    "pars": 11.3642,
+    "fw_pct": 61.0458,
+    "gir_pct": 65.5834,
+    "n_rounds_sample": 8000,
+    "window": "24"
+  },
   "window": 24
 }
