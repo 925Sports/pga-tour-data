@@ -1,0 +1,90 @@
+name: Update All Data
+
+on:
+  workflow_dispatch:
+  # One morning pass so you are not clicking each workflow.
+  # The smaller jobs still keep their own schedules.
+  schedule:
+    - cron: "30 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pandas numpy requests
+
+      - name: Upcoming field
+        run: |
+          python - << 'EOF'
+          import pandas as pd
+          import requests
+          from pathlib import Path
+          url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYFnwmt5yHygXP28HHRrg47ARQgV0IKm3wnaxoIz8MnGJH_mcIj6HUY96tbl1j7vD2r8JRDgR1wVxD/pub?gid=2136420689&single=true&output=csv"
+          print("Downloading latest field data...")
+          df = pd.read_csv(url)
+          output_path = Path("data/upcoming_field.csv")
+          output_path.parent.mkdir(parents=True, exist_ok=True)
+          df.to_csv(output_path, index=False)
+          print(f"Saved {len(df)} rows to {output_path}")
+          EOF
+
+      - name: Recent form and field logs
+        run: |
+          python scripts/generate_recent_form.py --scope both
+          python scripts/generate_field_player_logs.py --scope both
+
+      - name: Pre-tournament preview
+        run: python scripts/generate_pre_tournament_preview.py
+
+      - name: DraftKings salaries, odds, props
+        run: |
+          python scripts/fetch_dk_salaries.py
+          python scripts/generate_slate_data.py
+
+      - name: Weather sheet
+        run: python scripts/generate_weather.py
+
+      - name: Props and specialist boards
+        env:
+          EVENT_SCOPE: both
+          PROP_SPEC_WINDOW: "24"
+        run: |
+          python scripts/generate_props_board.py
+          python scripts/generate_specialist_board.py --scope "$EVENT_SCOPE"
+          python scripts/generate_props_specialist.py --scope "$EVENT_SCOPE" --window "$PROP_SPEC_WINDOW"
+          python scripts/generate_custom_model_defaults.py
+
+      - name: Cheat sheet and course history
+        run: python scripts/generate_cheat_sheet.py --scope both
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Auto-update all weekly data"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push attempt $i failed — retrying..."
+            sleep 4
+          done
+          exit 1
