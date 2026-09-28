@@ -3816,6 +3816,130 @@ function switchFantasySubTab(sub) {
         try { renderCheatSheetWeatherDays(); } catch (e) {}
     }
 
+    function weatherLocationMatchesCourse(location, course) {
+        const loc = String(location || "").trim();
+        const crs = String(course || "").trim();
+        if (!loc || !crs) return false;
+        try {
+            if (typeof hubCoursesClose === "function" && hubCoursesClose(loc, crs)) return true;
+        } catch (e) {}
+        try {
+            if (typeof coursesMatch === "function" && coursesMatch(loc, crs)) return true;
+        } catch (e) {}
+        const stop = /^(the|golf|club|country|course|resort|links|national|hills|park)$/;
+        const toks = crs.toLowerCase().split(/[^a-z0-9]+/).filter(t => t.length > 4 && !stop.test(t));
+        const hay = loc.toLowerCase();
+        return toks.length > 0 && toks.every(t => hay.includes(t));
+    }
+
+    function knownCourseForecastPoint(courseName) {
+        const s = String(courseName || "").toLowerCase();
+        const list = [
+            [/black desert/, 37.186, -113.652, "Black Desert Resort, Ivins, UT"],
+            [/medinah/, 41.966, -87.947, "Medinah Country Club, IL"],
+            [/walnut cove|cliffs at walnut/, 36.291, -80.141, "The Cliffs at Walnut Cove, NC"],
+            [/bellerive/, 38.632, -90.478, "Bellerive Country Club, MO"],
+            [/detroit golf/, 42.419, -83.148, "Detroit Golf Club, MI"],
+            [/east lake/, 33.740, -84.318, "East Lake Golf Club, GA"],
+            [/tpc sawgrass|sawgrass/, 30.198, -81.395, "TPC Sawgrass, FL"],
+            [/muirfield village/, 40.143, -82.905, "Muirfield Village, OH"],
+            [/quail hollow/, 35.104, -80.844, "Quail Hollow Club, NC"],
+            [/bay hill/, 28.459, -81.508, "Bay Hill, FL"],
+            [/colonial/, 32.717, -97.368, "Colonial Country Club, TX"],
+            [/pebble beach/, 36.572, -121.950, "Pebble Beach, CA"],
+            [/torrey pines/, 32.899, -117.252, "Torrey Pines, CA"],
+            [/riviera/, 34.048, -118.501, "Riviera Country Club, CA"],
+        ];
+        for (const [re, lat, lon, label] of list) {
+            if (re.test(s)) return { lat, lon, label };
+        }
+        return null;
+    }
+
+    function wmoCondition(code) {
+        const c = Number(code);
+        if (c === 0) return "Clear";
+        if (c <= 3) return "Partly Cloudy";
+        if (c === 45 || c === 48) return "Fog";
+        if (c >= 51 && c <= 57) return "Drizzle";
+        if (c >= 61 && c <= 67) return "Rain";
+        if (c >= 71 && c <= 77) return "Snow";
+        if (c >= 80 && c <= 82) return "Rain";
+        if (c >= 95) return "Thunderstorm";
+        return "Cloudy";
+    }
+
+    function windDirLabel(deg) {
+        const d = Number(deg);
+        if (isNaN(d)) return "";
+        const dirs = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
+        return dirs[Math.round(((d % 360) / 22.5)) % 16];
+    }
+
+    async function geocodeCourseForWeather(courseName) {
+        const known = knownCourseForecastPoint(courseName);
+        if (known) return known;
+        const stop = /\b(golf|club|country|course|the|links|national|cc|gc)\b/gi;
+        const stripped = String(courseName || "").replace(stop, " ").replace(/\s+/g, " ").trim();
+        const queries = [courseName, stripped].filter((q, i, a) => q && q.length > 3 && a.indexOf(q) === i);
+        for (const q of queries) {
+            const url = "https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(q) + "&count=5&language=en&format=json";
+            const d = await fetch(url).then(r => r.json());
+            const results = d.results || [];
+            const hit = results.find(r => r.country_code === "US") || results[0];
+            if (hit && hit.latitude != null) {
+                return {
+                    lat: hit.latitude,
+                    lon: hit.longitude,
+                    label: [hit.name, hit.admin1].filter(Boolean).join(", "),
+                };
+            }
+        }
+        return null;
+    }
+
+    async function fetchLiveCourseForecast(courseName) {
+        const geo = await geocodeCourseForWeather(courseName);
+        if (!geo) return null;
+        const url = "https://api.open-meteo.com/v1/forecast?latitude=" + geo.lat + "&longitude=" + geo.lon
+            + "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,relative_humidity_2m"
+            + "&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=auto&forecast_days=10";
+        const fx = await fetch(url).then(r => r.json());
+        const h = fx.hourly || {};
+        const times = h.time || [];
+        const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const rows = [];
+        for (let i = 0; i < times.length; i++) {
+            const iso = String(times[i] || "");
+            const parts = iso.split("T");
+            if (parts.length < 2) continue;
+            const [y, m, d] = parts[0].split("-").map(Number);
+            if (!y || !m || !d) continue;
+            const dt = new Date(y, m - 1, d);
+            let hh = parseInt(parts[1].slice(0, 2), 10);
+            if (isNaN(hh)) continue;
+            const ap = hh >= 12 ? "PM" : "AM";
+            let h12 = hh % 12;
+            if (h12 === 0) h12 = 12;
+            rows.push({
+                date: days[dt.getDay()] + " " + months[m - 1] + " " + d,
+                time: h12 + ":00 " + ap,
+                temp: h.temperature_2m ? h.temperature_2m[i] : null,
+                feels: h.apparent_temperature ? h.apparent_temperature[i] : null,
+                precipPct: h.precipitation_probability ? h.precipitation_probability[i] : null,
+                precipIn: h.precipitation ? h.precipitation[i] : null,
+                conditions: wmoCondition(h.weather_code ? h.weather_code[i] : null),
+                wind: h.wind_speed_10m ? h.wind_speed_10m[i] : null,
+                gusts: h.wind_gusts_10m ? h.wind_gusts_10m[i] : null,
+                windDir: windDirLabel(h.wind_direction_10m ? h.wind_direction_10m[i] : null),
+                cloud: h.cloud_cover ? h.cloud_cover[i] : null,
+                humidity: h.relative_humidity_2m ? h.relative_humidity_2m[i] : null,
+            });
+        }
+        return { rows, location: geo.label || courseName };
+    }
+
     function loadAndRenderWeather(force) {
         if (_weatherLoading && !force) return _weatherLoading;
         const metaEl = document.getElementById("weather-meta");
@@ -3826,11 +3950,37 @@ function switchFantasySubTab(sub) {
 
         _weatherLoading = tryUrl(WEATHER_GITHUB)
             .catch(() => tryUrl(WEATHER_GOOGLE))
-            .then(txt => {
+            .then(async txt => {
                 const parsed = parseWeatherCsvText(txt);
                 weatherRows = parsed.rows || [];
                 weatherMeta = { title: parsed.title, location: parsed.location, updated: parsed.updated };
-                console.log("[hub] weather rows:", weatherRows.length);
+                const course = (typeof hubPublishedCourse === "function" && hubPublishedCourse())
+                    || currentCourseName
+                    || "";
+                const matches = weatherLocationMatchesCourse(weatherMeta.location, course);
+                if (course && !matches) {
+                    try {
+                        const live = await fetchLiveCourseForecast(course);
+                        if (live && live.rows && live.rows.length) {
+                            const sheetLoc = weatherMeta.location || "weather sheet";
+                            weatherRows = live.rows;
+                            weatherMeta = {
+                                title: course,
+                                location: live.location || course,
+                                updated: "Live forecast for this week's course (sheet was " + sheetLoc + ")",
+                            };
+                            console.log("[hub] weather retargeted", sheetLoc, "→", weatherMeta.location, weatherRows.length);
+                        } else if (weatherMeta.location) {
+                            weatherMeta.location = weatherMeta.location + " — not this week's course (" + course + ")";
+                        }
+                    } catch (e) {
+                        console.warn("[hub] live course forecast failed", e);
+                        if (weatherMeta.location) {
+                            weatherMeta.location = weatherMeta.location + " — not this week's course (" + course + ")";
+                        }
+                    }
+                }
+                console.log("[hub] weather rows:", weatherRows.length, weatherMeta.location);
                 renderWeatherPanel(); try { renderCheatSheetWeather(); } catch (e) {}
                 return weatherRows;
             })
@@ -4068,7 +4218,6 @@ function switchFantasySubTab(sub) {
             : String(course).toLowerCase().includes(String(weekCourse).toLowerCase().slice(0, 8))));
         const previewEventClose = !!(previewTourn && weekEvent && (
             (typeof hubEventsClose === "function" && hubEventsClose(previewTourn, weekEvent))
-            || /biltmore|asheville|cliffs|walnut/.test(String(previewTourn + " " + weekEvent).toLowerCase())
         ));
         if (weekCourse && (!course || previewCourseClose || !window._hubCalendarRolled)) {
             currentCourseName = weekCourse;
@@ -4350,8 +4499,9 @@ function switchFantasySubTab(sub) {
                         try {
                             window._hubTriedCompStats = false;
                             window._hubCheatCompApplied = false;
+                            window._hubCheatCompCh = null;
                             if (typeof buildCourseHistory === "function") buildCourseHistory();
-                            if (typeof applyCheatCompCourseHistory === "function") applyCheatCompCourseHistory();
+                            if (typeof buildCheatSheet === "function") buildCheatSheet();
                             try {
                                 const boardEmpty = !(window.specialistBoard && window.specialistBoard.length);
                                 if (boardEmpty || window._hubModelPartial) window._forceLiveSpecialist = true;
@@ -22953,7 +23103,17 @@ function getCutStreakFromLogs(playerName) {
         }
     }
 
-    /** This week's venue from preview / calendar — never last year's rotating-event host. */
+    /** Course on the published cheat sheet / live field. Preview never overrides this. */
+    function hubPublishedCourse() {
+        const cheat = (typeof prebuiltCheat !== "undefined" && prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name) || "";
+        const field = (typeof allPlayers !== "undefined" && allPlayers && allPlayers[0] && allPlayers[0].course_name) || "";
+        const a = String(cheat || "").trim();
+        const b = String(field || "").trim();
+        if (a && b && typeof hubCoursesClose === "function" && !hubCoursesClose(a, b)) return a;
+        return a || b || "";
+    }
+
+    /** This week's venue. Published cheat/field course always wins over last week's preview. */
     function hubThisWeekCourse() {
         const resolve = (n) => {
             const s = String(n || "").trim();
@@ -22966,36 +23126,16 @@ function getCutStreakFromLogs(playerName) {
             } catch (e) {}
             return s;
         };
+        const published = hubPublishedCourse();
+        if (published) return resolve(published);
         const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : { event: "", course: "" };
-        const ev = String(liveId.event || (
-            (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].event_name)
-            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
-            || ""
-        )).trim();
-        const pv = hubPreviewCourseThisWeek();
-        const previewOk = !!(pv.course && (
-            !ev || !pv.event
-            || (typeof hubEventsClose === "function" && hubEventsClose(pv.event, ev))
-            || (typeof hubCoursesClose === "function" && hubCoursesClose(pv.course, liveId.course || ev))
-            || /bmw|biltmore|asheville|cliffs|walnut/.test((ev + " " + pv.event).toLowerCase())
-        ));
         if (liveId.course) return resolve(liveId.course);
-        if (window._hubCalendarRolled && (window.previewCourseName || pv.course) && !liveId.course) {
+        const pv = hubPreviewCourseThisWeek();
+        if (window._hubCalendarRolled && (window.previewCourseName || pv.course)) {
             return resolve(window.previewCourseName || pv.course);
         }
-        if (previewOk && pv.course) return resolve(pv.course);
+        if (pv.course) return resolve(pv.course);
         if (window.previewCourseName) return resolve(window.previewCourseName);
-        const live = String(
-            (typeof allPlayers !== "undefined" && allPlayers[0] && allPlayers[0].course_name)
-            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].course_name)
-            || currentCourseName
-            || ""
-        ).trim();
-        if (/bmw/i.test(ev + " " + (pv.event || "")) && /caves\s*valley/i.test(live)) {
-            if (pv.course && /bellerive/i.test(pv.course)) return resolve(pv.course);
-            return resolve("Bellerive Country Club");
-        }
-        if (live) return resolve(live);
         return resolve(currentCourseName);
     }
 
@@ -23286,7 +23426,13 @@ function getCutStreakFromLogs(playerName) {
     }
 
     function applyCheatCompCourseHistory() {
-        const course = String(currentCourseName || window.previewCourseName || "").trim();
+        const published = (typeof hubPublishedCourse === "function") ? hubPublishedCourse() : "";
+        const course = String(published || currentCourseName || "").trim();
+        if (course) {
+            currentCourseName = course;
+            window.previewCourseName = course;
+        }
+        window._hubCheatCompCourse = course;
         const banner = document.getElementById("cheat-comp-banner");
         const mode = window._hubCheatChMode || "auto";
         const info = hubVenueChIsStale(course);
@@ -23389,8 +23535,22 @@ function getCutStreakFromLogs(playerName) {
     }
 
     function buildCheatSheet() {
+        const published = (typeof hubPublishedCourse === "function") ? hubPublishedCourse() : "";
+        if (published) {
+            const prevBuilt = window._hubCheatCompCourse || "";
+            if (prevBuilt && typeof hubCoursesClose === "function" && !hubCoursesClose(prevBuilt, published)) {
+                window._hubCheatCompApplied = false;
+                window._hubCheatCompCh = null;
+            }
+            currentCourseName = published;
+            window.previewCourseName = published;
+        }
         if (cheatRows && cheatRows.length >= 20 && window._hubCheatCompApplied) {
-            try { renderCheatSheet(); return; } catch (e) {}
+            const builtFor = window._hubCheatCompCourse || "";
+            if (!published || !builtFor || (typeof hubCoursesClose === "function" && hubCoursesClose(builtFor, published))) {
+                try { renderCheatSheet(); return; } catch (e) {}
+            }
+            window._hubCheatCompApplied = false;
         }
         if (cheatRows && cheatRows.length >= 20 && !(playerLogs && playerLogs.length)) {
             try { renderCheatSheet(); return; } catch (e) {}
@@ -23572,11 +23732,18 @@ function getCutStreakFromLogs(playerName) {
                 return m ? m[1] : s;
             };
             const venueStale = (typeof hubVenueChIsStale === "function")
-                ? !!(hubVenueChIsStale(currentCourseName || window.previewCourseName || "").stale
+                ? !!(hubVenueChIsStale(currentCourseName || "").stale
                     && (window._hubCheatChMode || "auto") !== "venue")
                 : false;
             const h = ["—", "—", "—", "—"];
-            if (!venueStale && pre && (pre.h1 != null || pre.h2 != null || pre.h3 != null || pre.h4 != null)) {
+            const preCourse = pre && (pre.course_name || "");
+            const preCourseOk = !preCourse || !currentCourseName
+                || (typeof hubCoursesClose === "function" && hubCoursesClose(preCourse, currentCourseName));
+            const preHasFinish = !!(pre && [pre.h1, pre.h2, pre.h3, pre.h4].some(v => {
+                const s = String(v == null ? "" : v).trim();
+                return s && s !== "—" && s.toLowerCase() !== "nan";
+            }));
+            if (!venueStale && pre && preCourseOk && preHasFinish) {
                 h[0] = normFin(pre.h1); h[1] = normFin(pre.h2);
                 h[2] = normFin(pre.h3); h[3] = normFin(pre.h4);
             } else if (logsPending) {
@@ -24675,8 +24842,12 @@ function getCutStreakFromLogs(playerName) {
             }
             return;
         }
-        const play = weatherRows.filter(r => typeof isPlayWindowHour === "function" ? isPlayWindowHour(r.time) : true);
-        const use = play.length ? play : weatherRows;
+        const play = weatherRows.filter(r => {
+            const hourOk = typeof isPlayWindowHour === "function" ? isPlayWindowHour(r.time) : true;
+            const dayOk = typeof isTournamentWxDay === "function" ? isTournamentWxDay(r.date) : true;
+            return hourOk && dayOk;
+        });
+        const use = play.length ? play : weatherRows.filter(r => typeof isPlayWindowHour === "function" ? isPlayWindowHour(r.time) : true);
         const temps = use.map(r => r.temp).filter(v => v != null);
         const winds = use.map(r => r.wind).filter(v => v != null);
         const gusts = use.map(r => r.gusts).filter(v => v != null);
@@ -31465,6 +31636,14 @@ window.cmClearGroup = typeof cmClearGroup === "function" ? cmClearGroup : undefi
 (function () {
   var params = new URLSearchParams(window.location.search);
   var token = params.get("access");
+  var host = String(window.location.hostname || "").toLowerCase();
+  var href = String(window.location.href || "").toLowerCase();
+  var isLocalPreview = /^(localhost|127\.0\.0\.1|0\.0\.0\.0)$/.test(host)
+    || window.location.port === "8080"
+    || /grok|x\.ai|preview|sandbox/.test(host + " " + href);
+  // Local / in-chat preview only. Wix + GitHub Pages always require ?access=
+  if (isLocalPreview && !token) return;
+
   var endpoint =
     "https://www.ninetofivesports.com/_functions/checkAccess?token=" +
     encodeURIComponent(token || "");
