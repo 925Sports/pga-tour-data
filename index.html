@@ -762,15 +762,45 @@
             font-variant-numeric: tabular-nums;
         }
         #csheet-table tbody td.cs-player {
-            min-width: 11.25rem;
-            padding-left: 0.5rem !important;
-            padding-right: 0.45rem !important;
+            width: 9rem;
+            min-width: 9rem;
+            max-width: 9rem;
+            padding-left: 0.35rem !important;
+            padding-right: 0.3rem !important;
         }
         #csheet-table tbody .cs-player-cell {
             display: flex;
-            align-items: center;
-            gap: 0.5rem;
+            align-items: flex-start;
+            gap: 0.35rem;
             min-width: 0;
+            max-width: 100%;
+        }
+        #csheet-table tbody .cs-player-name {
+            white-space: normal;
+            overflow-wrap: anywhere;
+            line-height: 1.15;
+            font-size: 12.5px;
+        }
+        #csheet-table tbody .cs-player-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            max-width: 100%;
+        }
+        #csheet-table tbody .cs-player-tags .data-tag,
+        #csheet-table tbody .cs-player-tags .ob-tag {
+            white-space: normal;
+            line-height: 1.2;
+        }
+        #csheet-table tbody td:not(.cs-player) {
+            padding-left: 0.15rem !important;
+            padding-right: 0.15rem !important;
+        }
+        #csheet-table tbody td:not(.cs-player) span.inline-block,
+        #csheet-table tbody td:not(.cs-player) span.inline-flex {
+            min-width: 1.35rem !important;
+            padding: 1px 3px !important;
+            font-size: 11px !important;
         }
         #csheet-table tbody .cs-shot {
             flex-shrink: 0;
@@ -794,7 +824,19 @@
             color: #020617 !important;
             letter-spacing: -0.015em;
         }
-        #csheet-table tbody td[style*="left:11rem"] {
+        #csheet-table tbody td.cs-player,
+        #csheet-table tbody td.cs-player .cs-player-name,
+        #csheet-table tbody td.cs-player .cs-player-tags,
+        #csheet-table tbody td.cs-player .data-tag,
+        #csheet-table tbody td.cs-player .ob-tag {
+            white-space: normal !important;
+        }
+        #csheet-table tbody .cs-shot,
+        #csheet-table tbody .cs-shot img {
+            width: 24px;
+            height: 24px;
+        }
+        #csheet-table tbody td[style*="left:9rem"] {
             font-weight: 700 !important;
             font-variant-numeric: tabular-nums;
             color: #0f172a !important;
@@ -1995,10 +2037,10 @@
                         <thead>
                             <tr class="cs-head-1">
                                 <!-- 4 identity cols (Player w/ photo → Own) must match body + head-2 -->
-                                <th class="sticky left-0 bg-slate-900 z-[35]" style="left:0"></th>
-                                <th class="sticky bg-slate-900 z-[35]" style="left:11rem"></th>
-                                <th class="sticky bg-slate-900 z-[35]" style="left:14rem"></th>
-                                <th class="sticky bg-slate-900 z-[35]" style="left:17rem"></th>
+                                <th class="sticky left-0 bg-slate-900 z-[35]" style="left:0;width:9rem"></th>
+                                <th class="sticky bg-slate-900 z-[35]" style="left:9rem;width:3.7rem"></th>
+                                <th class="sticky bg-slate-900 z-[35]" style="left:12.7rem;width:3.3rem"></th>
+                                <th class="sticky bg-slate-900 z-[35]" style="left:16rem;width:3.4rem"></th>
                                 <th id="cs-ch-section" class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="4">Course History</th>
                                 <th class="px-2 py-1 text-center border-b cs-sec cs-h-rf" colspan="5">Recent Form</th>
                                 <th class="px-2 py-1 text-center border-b border-slate-600 cs-sec" colspan="1">Market / Cut</th>
@@ -2008,10 +2050,10 @@
                                 <th class="bg-slate-900 px-2 py-1 text-center border-b border-slate-600 text-[10px] text-slate-300">FTPS</th>
                             </tr>
                             <tr class="cs-head-2">
-                                <th class="px-2 py-1.5 text-left sticky left-0 bg-slate-900 z-[35] cursor-pointer min-w-[11.25rem]" style="left:0" onclick="sortCheatSheet('name')">Player <span class="cs-sort-ind" data-k="name"></span></th>
-                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:11rem" onclick="sortCheatSheet('salary')">Sal <span class="cs-sort-ind" data-k="salary"></span></th>
-                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:14rem" onclick="sortCheatSheet('oddsNum')">Odds <span class="cs-sort-ind" data-k="oddsNum"></span></th>
-                                <th class="px-1.5 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px] min-w-[4.5rem]" style="left:17rem" onclick="sortCheatSheet('own')" title="Own % = projected ownership. (#N) = leverage rank. Tag under % = Under/Over/Proper/Fade when present. Hover for detail.">Own % <span class="cs-sort-ind" data-k="own"></span></th>
+                                <th class="px-2 py-1.5 text-left sticky left-0 bg-slate-900 z-[35] cursor-pointer" style="left:0;width:9rem;min-width:9rem;max-width:9rem" onclick="sortCheatSheet('name')">Player <span class="cs-sort-ind" data-k="name"></span></th>
+                                <th class="px-1 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:9rem;width:3.7rem" onclick="sortCheatSheet('salary')">Sal <span class="cs-sort-ind" data-k="salary"></span></th>
+                                <th class="px-1 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer" style="left:12.7rem;width:3.3rem" onclick="sortCheatSheet('oddsNum')">Odds <span class="cs-sort-ind" data-k="oddsNum"></span></th>
+                                <th class="px-1 py-1.5 text-center sticky bg-slate-900 z-[35] cursor-pointer text-[10px]" style="left:16rem;width:3.4rem" onclick="sortCheatSheet('own')" title="Own % = projected ownership. (#N) = leverage rank. Tag under % = Under/Over/Proper/Fade when present. Hover for detail.">Own % <span class="cs-sort-ind" data-k="own"></span></th>
                                 <th id="cs-h1-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec" onclick="sortCheatSheet('h1')">25 <span class="cs-sort-ind" data-k="h1"></span></th>
                                 <th id="cs-h2-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h2')">24 <span class="cs-sort-ind" data-k="h2"></span></th>
                                 <th id="cs-h3-year" class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer" onclick="sortCheatSheet('h3')">23 <span class="cs-sort-ind" data-k="h3"></span></th>
@@ -2021,7 +2063,7 @@
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rf3')">RF3 <span class="cs-sort-ind" data-k="rf3"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-rf" onclick="sortCheatSheet('rf4')">RF4 <span class="cs-sort-ind" data-k="rf4"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec-end cs-h-rf" onclick="sortCheatSheet('cuts')">Cuts <span class="cs-sort-ind" data-k="cuts"></span></th>
-                                <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-sec-end min-w-[5.5rem]" onclick="sortCheatSheet('cutOddsNum')" title="Cut Odds = make-cut American odds. Number in parentheses = no-vig make-cut %. Hover cell for detail.">Cut Odds <span class="cs-sort-ind" data-k="cutOddsNum"></span></th>
+                                <th class="px-1 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-sec-end" onclick="sortCheatSheet('cutOddsNum')" title="Cut Odds = make-cut American odds. Number below = no-vig make-cut %. Hover cell for detail.">Cut Odds <span class="cs-sort-ind" data-k="cutOddsNum"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-sec cs-h-ks" onclick="sortCheatSheet('s1')" id="csheet-ks-1">S1 <span class="cs-sort-ind" data-k="s1"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('s2')" id="csheet-ks-2">S2 <span class="cs-sort-ind" data-k="s2"></span></th>
                                 <th class="px-1.5 py-1.5 text-center text-[10px] cursor-pointer cs-h-ks" onclick="sortCheatSheet('s3')" id="csheet-ks-3">S3 <span class="cs-sort-ind" data-k="s3"></span></th>
@@ -9853,24 +9895,14 @@ function runCustomModel() {
     }
     /** Attach DK salaries onto RF/field-shaped rows by player name. */
     function hubApplySalariesToRows(rows, salRows) {
-        if (!(rows && rows.length) || !(salRows && salRows.length)) return rows || [];
-        const map = new Map();
-        salRows.forEach(s => {
-            const n = s.player_name || s.Name || s.name || "";
-            if (!n) return;
-            const k = typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase();
-            const sal = parseFloat(s.salary ?? s.Salary);
-            if (!k || isNaN(sal)) return;
-            map.set(k, { salary: sal, tournament: s.tournament || s.Tournament || s.event_name || "" });
-        });
+        if (!(rows && rows.length)) return rows || [];
+        const ev = (typeof resolveHubEventName === "function") ? resolveHubEventName() : "";
+        const slateLive = typeof dkHasLiveEventSlate === "function" && dkHasLiveEventSlate();
         rows.forEach(r => {
             const n = r.player_name || r.name_adjusted || r.name || "";
-            const k = typeof nameKey === "function" ? nameKey(n) : String(n).toLowerCase();
-            const hit = map.get(k);
-            if (hit) {
-                r.salary = hit.salary;
-                if (hit.tournament && !r.event_name) r.event_name = hit.tournament;
-            }
+            const sal = typeof lookupSalary === "function" ? lookupSalary(n) : null;
+            if (sal != null) r.salary = sal;
+            else if (ev && (dkSalaries && dkSalaries.length) && !slateLive) r.salary = null;
         });
         return rows;
     }
@@ -10255,7 +10287,10 @@ function setEventScope(scope) {
                 name: prebuiltCheat[0].name_adjusted, s1: prebuiltCheat[0].s1, s2: prebuiltCheat[0].s2, s3: prebuiltCheat[0].s3
             });
             if (prebuiltCheat[0] && prebuiltCheat[0].course_name) {
-                currentCourseName = prebuiltCheat[0].course_name;
+                const live = (allPlayers[0] && allPlayers[0].course_name) || "";
+                const cheatC = prebuiltCheat[0].course_name;
+                const stale = live && typeof hubCoursesClose === "function" && !hubCoursesClose(live, cheatC);
+                currentCourseName = stale ? live : cheatC;
             }
             // KEY STAT labels from generator (cheat_sheet.csv)
             try {
@@ -19656,16 +19691,21 @@ el.innerHTML = `
 
     /** This week's event name (preview / field / majority DK slate). */
     function resolveHubEventName() {
+        let fieldEv = "";
+        try {
+            if (allPlayers && allPlayers[0]) {
+                fieldEv = String(allPlayers[0].event_name || allPlayers[0].event || allPlayers[0].tournament || "").trim();
+            }
+        } catch (e) {}
+        if (fieldEv) {
+            window._hubEventName = fieldEv;
+            return fieldEv;
+        }
         if (window._hubEventName) return window._hubEventName;
         let ev = "";
         try {
             const pv = preTournamentPreview || {};
             ev = String(pv.TOURNAMENT || pv.Tournament || pv.EVENT || "").trim();
-        } catch (e) {}
-        try {
-            if (!ev && allPlayers && allPlayers[0]) {
-                ev = String(allPlayers[0].event_name || allPlayers[0].event || allPlayers[0].tournament || "").trim();
-            }
         } catch (e) {}
         try {
             if (!ev && typeof prebuiltCheat !== "undefined" && prebuiltCheat && prebuiltCheat[0]) {
@@ -20885,20 +20925,49 @@ function renderOwnershipLeverage() {
         return dkSalaries.filter(r => namesMatch(r.player_name || r.Name || r.name || "", playerName));
     }
 
-    function lookupDkRow(playerName) {
-        const matches = dkMatches(playerName);
-        if (!matches.length) return null;
+    function salaryTournamentMatches(row, ev) {
+        const t = String((row && (row.tournament || row.Tournament || row.event || row.Game)) || "");
+        if (!ev || !t) return false;
+        if (typeof hubEventNamesMatch === "function" && hubEventNamesMatch(t, ev)) return true;
+        if (typeof hubEventsClose === "function" && hubEventsClose(t, ev)) return true;
+        return false;
+    }
+
+    function salaryLabelIsGeneric(label) {
+        const s = String(label || "").toLowerCase().replace(/[()]/g, " ").replace(/\s+/g, " ").trim();
+        return !s || /^(pga|pga tour|draftkings|classic|golf|main)$/.test(s);
+    }
+
+    function dkRowsForLiveEvent() {
         const ev = (typeof resolveHubEventName === "function") ? resolveHubEventName() : "";
-        const eventHit = ev ? matches.filter(r => {
-            const t = String(r.tournament || r.Tournament || r.event || "");
-            return typeof hubEventNamesMatch === "function" ? hubEventNamesMatch(t, ev) : (t && ev && t.toLowerCase().includes(String(ev).toLowerCase().slice(0, 8)));
-        }) : [];
-        const pool = eventHit.length ? eventHit : matches;
-        const classic = pool.find(r => {
-            const s = String(r.slate_type || "").toLowerCase();
-            return s === "classic" || s.includes("classic") || s === "main";
+        const classic = (dkSalaries || []).filter(r => {
+            const st = String(r.slate_type || "").toLowerCase();
+            const sal = Number(r.salary);
+            const classicOk = !st || st === "classic" || st.includes("classic") || st === "main";
+            return classicOk && sal >= 4000;
         });
-        return classic || pool[0] || matches[0];
+        if (!classic.length) return [];
+        if (ev) {
+            const named = classic.filter(r => salaryTournamentMatches(r, ev));
+            if (named.length) return named;
+        }
+        // New DK feed labels the slate "PGA TOUR" instead of the event name.
+        // Use that generic slate. Never reuse a named event that is not this week.
+        const generic = classic.filter(r => salaryLabelIsGeneric(r.tournament || r.Tournament || ""));
+        return generic;
+    }
+
+    function dkHasLiveEventSlate() {
+        return dkRowsForLiveEvent().length > 0;
+    }
+
+    function lookupDkRow(playerName) {
+        const pool = dkRowsForLiveEvent();
+        if (!pool.length) return null;
+        const k = nameKey(playerName);
+        const exact = pool.filter(r => nameKey(r.player_name || r.Name || r.name || "") === k);
+        const matches = exact.length ? exact : pool.filter(r => namesMatch(r.player_name || r.Name || r.name || "", playerName));
+        return matches[0] || null;
     }
 
     function lookupSalary(playerName) {
@@ -20949,6 +21018,7 @@ function renderOwnershipLeverage() {
             const nm = p.name_adjusted || p.player_name || "";
             const sal = lookupSalary(nm);
             if (sal != null) p.salary = sal;
+            else if (dkSalaries && dkSalaries.length && typeof dkHasLiveEventSlate === "function" && !dkHasLiveEventSlate()) p.salary = null;
             const img = lookupHeadshot(nm);
             if (img) p.headshot = img;
         });
@@ -21009,7 +21079,7 @@ function renderOwnershipLeverage() {
             return "bg-red-200 text-red-900";
         }
         const s = String(val).toUpperCase();
-        if (s === "CUT" || s.includes("CUT")) return "bg-red-700 text-white font-semibold";
+        if (s === "CUT" || s === "MC" || s.includes("CUT")) return "bg-red-700 text-white font-semibold";
         const m = s.match(/(\d+)/);
         if (!m) return "bg-slate-100 text-slate-500";
         const n = parseInt(m[1]);
@@ -23039,15 +23109,16 @@ function getCutStreakFromLogs(playerName) {
         const cheatCrs = String((cheat && cheat.course_name) || "").trim();
         const rfEv = String((rf && rf.event_name) || "").trim();
         const rfCrs = String((rf && rf.course_name) || "").trim();
-        let event = cheatEv || rfEv || "";
-        let course = cheatCrs || rfCrs || currentCourseName || window.previewCourseName || "";
+        let event = rfEv || cheatEv || "";
+        let course = rfCrs || cheatCrs || currentCourseName || window.previewCourseName || "";
         if (cheatCrs && rfCrs && !hubCoursesClose(cheatCrs, rfCrs)) {
-            event = cheatEv || event;
-            course = cheatCrs;
+            event = rfEv || event;
+            course = rfCrs;
+            console.log("[hub] stale cheat_sheet course ignored", cheatCrs, "field is", rfCrs);
         }
-        if (cheatEv && rfEv && typeof hubEventsClose === "function" && !hubEventsClose(cheatEv, rfEv) && cheatCrs) {
-            event = cheatEv;
-            course = cheatCrs || course;
+        if (cheatEv && rfEv && typeof hubEventsClose === "function" && !hubEventsClose(cheatEv, rfEv)) {
+            event = rfEv;
+            course = rfCrs || course;
         }
         return { event, course };
     }
@@ -23109,8 +23180,8 @@ function getCutStreakFromLogs(playerName) {
         const field = (typeof allPlayers !== "undefined" && allPlayers && allPlayers[0] && allPlayers[0].course_name) || "";
         const a = String(cheat || "").trim();
         const b = String(field || "").trim();
-        if (a && b && typeof hubCoursesClose === "function" && !hubCoursesClose(a, b)) return a;
-        return a || b || "";
+        if (a && b && typeof hubCoursesClose === "function" && !hubCoursesClose(a, b)) return b;
+        return b || a || "";
     }
 
     /** This week's venue. Published cheat/field course always wins over last week's preview. */
@@ -23612,13 +23683,15 @@ function getCutStreakFromLogs(playerName) {
 
         // Always prefer live field / cheat_sheet for course + event labels (never leave Detroit preview)
         try {
-            const liveC = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
-                || (allPlayers[0] && allPlayers[0].course_name)
-                || currentCourseName
-                || "";
-            const liveE = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].event_name)
-                || (allPlayers[0] && allPlayers[0].event_name)
-                || "";
+            const rfC = (allPlayers[0] && allPlayers[0].course_name) || "";
+            const chC = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name) || "";
+            const cheatStale = rfC && chC && typeof hubCoursesClose === "function" && !hubCoursesClose(rfC, chC);
+            const liveC = (cheatStale ? rfC : (rfC || chC)) || currentCourseName || "";
+            const rfE = (allPlayers[0] && allPlayers[0].event_name) || "";
+            const chE = (prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].event_name) || "";
+            const liveE = (rfE && chE && typeof hubEventsClose === "function" && !hubEventsClose(rfE, chE))
+                ? rfE
+                : (rfE || chE || "");
             if (liveC) {
                 currentCourseName = liveC;
                 window.previewCourseName = liveC;
@@ -23632,8 +23705,12 @@ function getCutStreakFromLogs(playerName) {
                 const head = liveE
                     ? (liveE + (liveC ? " · " + liveC : ""))
                     : (liveC || currentCourseName || "Event");
+                const salNote = (dkSalaries && dkSalaries.length && typeof dkHasLiveEventSlate === "function" && !dkHasLiveEventSlate())
+                    ? " · DK salaries not posted yet"
+                    : "";
                 sub.textContent = head + " — Course History · Recent Form · Specialist · 925 Rank"
-                    + (window._hubModelPartial ? " · partial pipeline" : "");
+                    + (window._hubModelPartial ? " · partial pipeline" : "")
+                    + salNote;
             }
         } catch (e) {
             const sub = document.getElementById("cheat-subtitle");
@@ -24398,9 +24475,11 @@ function getCutStreakFromLogs(playerName) {
             return `<td class="px-1.5 py-1.5 text-center${extra}"><span class="inline-flex items-center justify-center min-w-[28px] h-6"><span class="w-3.5 h-3.5 border-2 border-slate-300 border-t-blue-600 rounded-full animate-spin"></span></span></td>`;
         }
         const cls = typeof posRankColor === "function" ? posRankColor(v, pct) : "bg-slate-100 text-slate-600";
-        const safeTip = title ? String(title).replace(/[<>"]/g, "") : "";
+        const raw = v == null ? "" : String(v).trim();
+        const shown = raw.toUpperCase() === "CUT" ? "MC" : (v ?? "—");
+        const safeTip = title ? String(title).replace(/[<>"]/g, "") : (raw.toUpperCase() === "CUT" ? "Missed cut" : "");
         const tip = safeTip ? (" title=\"" + safeTip + "\"") : "";
-        return `<td class="px-1.5 py-1.5 text-center${extra}"${tip}><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${cls}">${v ?? "—"}</span></td>`;
+        return `<td class="px-1 py-1 text-center${extra}"${tip}><span class="inline-block min-w-[1.35rem] px-1 py-0.5 rounded text-[11px] ${cls}">${shown}</span></td>`;
     }
 
     
@@ -25321,9 +25400,9 @@ function renderCheatSheet() {
             html += `<tr class="cursor-pointer hover:bg-slate-50" onclick="openPlayerModal('${safe}', 0)">
                 <td class="px-2 py-1.5 font-medium text-slate-900 sticky left-0 bg-white z-[2] cs-player" style="left:0">
                     <div class="cs-player-cell">
-                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 28) : ""}
+                        ${typeof headshotHtml === "function" ? headshotHtml(r.name, 24) : ""}
                         <div class="flex flex-col leading-tight min-w-0">
-                            <span class="whitespace-nowrap text-sm font-semibold">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name}</span>
+                            <span class="cs-player-name font-semibold">${typeof formatPlayerDisplayName === "function" ? formatPlayerDisplayName(r.name) : r.name}</span>
                             <div class="cs-player-tags">
                                 ${typeof dataTagBadge === "function" ? dataTagBadge(r) : ""}
                                 ${typeof outrightBetBadge === "function" ? outrightBetBadge(r) : ""}
@@ -25332,9 +25411,9 @@ function renderCheatSheet() {
                         </div>
                     </div>
                 </td>
-                <td class="px-2 py-1.5 text-center text-slate-700 font-medium sticky bg-white z-[1]" style="left:11rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
-                <td class="px-2 py-1.5 text-center text-slate-900 text-xs font-semibold sticky bg-white z-[1] tabular-nums" style="left:14rem">${r.winOdds ? r.winOdds.display : "—"}</td>
-                <td class="px-1.5 py-1.5 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:17rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
+                <td class="px-1 py-1 text-center text-slate-700 font-medium sticky bg-white z-[1] tabular-nums text-xs" style="left:9rem">${r.salary != null ? r.salary.toLocaleString() : "—"}</td>
+                <td class="px-1 py-1 text-center text-slate-900 text-xs font-semibold sticky bg-white z-[1] tabular-nums" style="left:12.7rem">${r.winOdds ? r.winOdds.display : "—"}</td>
+                <td class="px-1 py-1 text-center text-xs sticky bg-white z-[1] tabular-nums leading-tight" style="left:16rem" title="${(r.levDetail || "Proj own + leverage rank") + (r.levTag ? (" · " + r.levTag) : "")}">
                     <div class="font-semibold ${r.own != null && r.own >= 15 ? "text-amber-800" : r.own != null && r.own >= 8 ? "text-slate-900" : "text-slate-700"}">${typeof formatOwnership === "function" ? formatOwnership(r.own) : (r.own != null ? r.own + "%" : "—")}${r.levRank != null ? ` <span class="font-bold text-slate-600">(#${r.levRank})</span>` : ""}</div>
                     ${r.levTag ? `<div class="cs-subnum mt-0.5 ${/under/i.test(r.levTag) ? "text-emerald-700" : /over|fade/i.test(r.levTag) ? "text-rose-700" : "text-slate-600"}">${r.levTag.replace(/ Owned$/i,"").replace(/ Ownership$/i,"")}</div>` : ""}
                 </td>
@@ -25354,11 +25433,14 @@ function renderCheatSheet() {
                     if (!r.cutNoCut && r.cutNoVigLabel && r.cutNoVigLabel !== "—") bits.push("No-vig make-cut % " + r.cutNoVigLabel + " (shown in parentheses)");
                     return bits.join(" · ");
                 })()}">
-                    <div class="font-bold text-slate-900 tabular-nums">${
+                    <div class="font-bold text-slate-900 tabular-nums leading-none">${
                         (r.cutNoCut || r.cutPct === "100%")
                             ? "100%"
-                            : ((r.cutPct ?? "—") + (r.cutNoVigLabel && r.cutNoVigLabel !== "—" ? ` <span class="cs-subnum font-bold text-cyan-800">(${r.cutNoVigLabel})</span>` : ""))
+                            : (r.cutPct ?? "—")
                     }</div>
+                    ${(!r.cutNoCut && r.cutNoVigLabel && r.cutNoVigLabel !== "—")
+                        ? `<div class="cs-subnum font-bold text-cyan-800 leading-none mt-0.5">${r.cutNoVigLabel}</div>`
+                        : ""}
                 </td>
                 <td class="px-1.5 py-1.5 text-center cs-sec cs-g-ks" title="${(keyStatNames&&keyStatNames[0])||'Key Stat 1'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s1, maxR)}">${displayRank(r.s1)}</span></td>
                 <td class="px-1.5 py-1.5 text-center cs-g-ks" title="${(keyStatNames&&keyStatNames[1])||'Key Stat 2'}"><span class="inline-block min-w-[28px] px-1.5 py-0.5 rounded text-xs ${rankCellColor(r.s2, maxR)}">${displayRank(r.s2)}</span></td>
