@@ -1,52 +1,52 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Medinah Country Club | Updated: 9/29/2026, 1:55:20 AM",,,,,,,,,,,
+Bank of Utah Championship – Hourly Weather Forecast,,,,,,,,,,,
+"Location: Black Desert Golf Course | Updated: 9/29/2026, 12:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Tue Sep 29,12:00 AM,56.4,56.8,0,0,Clear,1.5,1.6,WSW,9,89
-Tue Sep 29,1:00 AM,56,55.6,0,0,Clear,3.2,5.1,ENE,7,90
-Tue Sep 29,2:00 AM,55,55.5,0,0,Mainly Clear,0.5,4.9,SSE,31,91
-Tue Sep 29,3:00 AM,55.5,55.9,0,0,Mainly Clear,1.7,4,NW,29,93
-Tue Sep 29,4:00 AM,54.5,55.4,0,0,Fog,0.6,5.4,SW,100,97
-Tue Sep 29,5:00 AM,54.3,54.4,0,0,Fog,2.9,4.3,S,100,100
-Tue Sep 29,6:00 AM,53.3,53.4,0,0,Fog,1.8,3.4,WSW,87,98
-Tue Sep 29,7:00 AM,51.9,52.1,0,0,Fog,1,3.4,ESE,100,100
-Tue Sep 29,8:00 AM,50,49.8,0,0,Fog,0.7,2.9,S,100,100
-Tue Sep 29,9:00 AM,52.7,52.2,0,0,Partly Cloudy,1.4,2.9,SSE,79,92
-Tue Sep 29,10:00 AM,59.7,57.6,0,0,Mainly Clear,4,9.2,SSW,29,66
-Tue Sep 29,11:00 AM,64.8,62,0,0,Clear,6.1,9.8,SW,8,57
-Tue Sep 29,12:00 PM,68.4,65.8,0,0,Clear,6.2,9.2,SW,1,49
-Tue Sep 29,1:00 PM,71,69.6,0,0,Overcast,6.4,8.9,SSW,86,47
-Tue Sep 29,2:00 PM,73.1,72.1,0,0,Overcast,6.8,8.9,SSW,100,45
-Tue Sep 29,3:00 PM,74.4,73.4,0,0,Overcast,7.2,9.4,SSW,96,45
-Tue Sep 29,4:00 PM,75.1,72.8,0,0,Overcast,7.9,10.5,SSW,81,44
-Tue Sep 29,5:00 PM,73.9,70.9,0,0,Overcast,7.5,11.2,SSW,100,44
-Tue Sep 29,6:00 PM,74.2,71.5,0,0,Overcast,6.1,11.2,SSW,100,42
-Tue Sep 29,7:00 PM,71.6,69.7,1,0,Overcast,4.3,11,S,100,46
-Tue Sep 29,8:00 PM,70.1,68.2,1,0,Overcast,4.9,10.3,SSE,100,50
-Tue Sep 29,9:00 PM,67.8,65.1,2,0,Overcast,5.1,13.4,SSE,100,49
-Tue Sep 29,10:00 PM,67,64,3,0,Overcast,5.3,13,SSE,100,49
-Tue Sep 29,11:00 PM,66.6,64.1,3,0,Overcast,4.6,13.4,S,100,51
-Wed Sep 30,12:00 AM,66.2,63.1,3,0,Overcast,5.6,14.8,SSE,100,51
-Wed Sep 30,1:00 AM,66.9,62.6,3,0,Overcast,7.6,18.1,S,100,47
-Wed Sep 30,2:00 AM,66.5,62.5,3,0,Overcast,8.1,16.6,S,100,51
-Wed Sep 30,3:00 AM,66.7,62.5,6,0,Overcast,8.6,19.2,S,100,51
-Wed Sep 30,4:00 AM,66.6,62.7,8,0,Overcast,8,18.1,SSW,100,51
-Wed Sep 30,5:00 AM,65.4,61.8,11,0,Overcast,8.2,17.2,SSW,100,56
-Wed Sep 30,6:00 AM,65.3,61.8,14,0,Overcast,7.6,18.3,SSW,100,56
-Wed Sep 30,7:00 AM,64.4,61.7,12,0,Overcast,6.5,13.6,S,100,59
-Wed Sep 30,8:00 AM,64,61.5,10,0,Overcast,5.9,13.4,S,100,60
-Wed Sep 30,9:00 AM,64.3,62.9,31,0,Overcast,3.6,11.9,S,100,61
-Wed Sep 30,10:00 AM,65.3,63.2,35,0,Overcast,4.6,19,SSW,100,57
-Wed Sep 30,11:00 AM,68,64.6,37,0,Overcast,8.4,23.9,SW,100,53
-Wed Sep 30,12:00 PM,70.1,67.4,40,0,Overcast,8.1,15.9,WSW,100,53
-Wed Sep 30,1:00 PM,71,68.1,45,0,Overcast,8.6,17.4,SSW,100,52
-Wed Sep 30,2:00 PM,65.3,65.5,58,0,Overcast,6.2,15.2,SW,100,79
-Wed Sep 30,3:00 PM,64.1,64.4,71,0.114,Moderate Rain,6.5,15.4,S,100,84
-Wed Sep 30,4:00 PM,64.9,65.7,71,0.016,Light Drizzle,8.6,19.9,SSW,100,92
-Wed Sep 30,5:00 PM,66.1,66.8,71,0.028,Moderate Drizzle,8.8,19.5,SSW,100,89
-Wed Sep 30,6:00 PM,65.6,66.4,71,0.017,Overcast,9.6,25.3,SSW,100,93
-Wed Sep 30,7:00 PM,63.5,64.1,71,0.045,Light Drizzle,7.8,25.5,SSW,100,92
-Wed Sep 30,8:00 PM,61.5,61.4,71,0.056,Overcast,7.5,26.5,SW,100,92
-Wed Sep 30,9:00 PM,59.7,58.9,39,0.028,Moderate Drizzle,7.7,26.8,SSW,100,92
-Wed Sep 30,10:00 PM,60.3,61,39,0.016,Light Drizzle,5.1,18.3,SSW,100,95
-Wed Sep 30,11:00 PM,60.8,63,39,0.008,Light Drizzle,2.9,10.1,SW,100,97
+Tue Sep 29,12:00 AM,59.6,59.3,37,0,Overcast,5.4,8.3,S,99,88
+Tue Sep 29,1:00 AM,60.2,59.1,34,0,Overcast,6.7,8.1,SW,100,85
+Tue Sep 29,2:00 AM,60.4,60.5,22,0,Overcast,3.8,6,NNE,99,83
+Tue Sep 29,3:00 AM,60.3,60.6,19,0,Overcast,3.5,3.8,WNW,100,84
+Tue Sep 29,4:00 AM,60.2,59.9,17,0,Overcast,4.7,6.9,NW,99,84
+Tue Sep 29,5:00 AM,60.2,60,8,0,Overcast,4.3,7.6,W,100,84
+Tue Sep 29,6:00 AM,60.2,61.1,8,0,Overcast,2.1,2.2,SSE,95,84
+Tue Sep 29,7:00 AM,59.5,61.3,6,0,Partly Cloudy,0.2,2.7,N,61,88
+Tue Sep 29,8:00 AM,59.1,60.8,3,0,Partly Cloudy,1.3,2.2,SSW,67,93
+Tue Sep 29,9:00 AM,59.4,60.5,3,0,Clear,2.4,2.7,WNW,15,90
+Tue Sep 29,10:00 AM,59.3,60.4,3,0,Clear,0.6,4.9,SW,0,84
+Tue Sep 29,11:00 AM,60.6,60.7,3,0,Clear,5.1,6.9,SE,1,88
+Tue Sep 29,12:00 PM,61.5,61.4,3,0,Clear,4.7,5.6,SE,4,82
+Tue Sep 29,1:00 PM,64.2,64.7,3,0,Clear,2.7,10.3,SSE,19,72
+Tue Sep 29,2:00 PM,67.7,67.8,7,0,Overcast,4.9,13,NW,100,65
+Tue Sep 29,3:00 PM,70.4,70.1,10,0,Overcast,4,11.2,WSW,100,57
+Tue Sep 29,4:00 PM,70.5,69.6,13,0.016,Light Drizzle,4.7,11,SSW,100,55
+Tue Sep 29,5:00 PM,72.3,71.9,18,0,Overcast,3.6,6.5,N,100,52
+Tue Sep 29,6:00 PM,73.7,72.1,27,0,Mainly Clear,8.7,11.2,NW,28,51
+Tue Sep 29,7:00 PM,70.2,67.6,20,0.016,Light Drizzle,10.1,12.8,E,92,59
+Tue Sep 29,8:00 PM,72.9,72.6,18,0,Overcast,3.2,5.6,NW,100,50
+Tue Sep 29,9:00 PM,69.5,69.7,14,0,Overcast,2.5,4.7,W,100,58
+Tue Sep 29,10:00 PM,67.9,67.3,7,0,Overcast,6.8,8.3,ESE,100,68
+Tue Sep 29,11:00 PM,66.8,67.1,10,0,Overcast,5.4,5.8,NNE,96,73
+Wed Sep 30,12:00 AM,66,65.1,6,0,Overcast,6.3,8.3,WNW,93,69
+Wed Sep 30,1:00 AM,65.7,64.6,4,0,Partly Cloudy,2.1,2.7,ENE,53,55
+Wed Sep 30,2:00 AM,63.8,62.9,2,0,Mainly Clear,4.5,5.1,ENE,31,69
+Wed Sep 30,3:00 AM,62.9,62.8,2,0,Overcast,1.9,2.2,WNW,100,68
+Wed Sep 30,4:00 AM,62.9,59.5,2,0,Overcast,3.4,4.5,N,100,47
+Wed Sep 30,5:00 AM,62.7,60,2,0,Overcast,2.1,2.7,NW,100,48
+Wed Sep 30,6:00 AM,62.9,59.1,2,0,Overcast,3.1,4.7,NNW,100,43
+Wed Sep 30,7:00 AM,60.6,56.7,2,0,Overcast,5.4,9.8,WNW,100,53
+Wed Sep 30,8:00 AM,59,53.3,2,0,Mainly Clear,7.7,10.1,NNW,23,49
+Wed Sep 30,9:00 AM,59.4,54.5,2,0,Clear,5.1,8.3,NW,3,45
+Wed Sep 30,10:00 AM,59.9,54,1,0,Clear,5.7,8.7,NW,0,38
+Wed Sep 30,11:00 AM,63.4,60.7,1,0,Clear,2.7,3.8,E,0,49
+Wed Sep 30,12:00 PM,66,65.8,1,0,Clear,6,6.5,SE,0,73
+Wed Sep 30,1:00 PM,68.4,66.8,0,0,Clear,5.2,8.7,ESE,0,55
+Wed Sep 30,2:00 PM,72.1,72.1,0,0,Clear,4.1,8.3,ESE,0,46
+Wed Sep 30,3:00 PM,77.1,77.1,0,0,Clear,5.1,7.8,SE,0,37
+Wed Sep 30,4:00 PM,84.7,84,0,0,Clear,3.8,11.6,S,0,22
+Wed Sep 30,5:00 PM,88.6,80.4,0,0,Clear,14.6,17.7,N,0,13
+Wed Sep 30,6:00 PM,89.3,78.9,0,0,Clear,15.9,20.6,N,0,10
+Wed Sep 30,7:00 PM,89.3,78.2,0,0,Clear,15,20.6,N,0,10
+Wed Sep 30,8:00 PM,88.1,78,0,0,Clear,12.7,18.8,N,0,10
+Wed Sep 30,9:00 PM,82.7,75.3,0,0,Clear,6.3,17.2,N,0,12
+Wed Sep 30,10:00 PM,77.5,69.4,0,0,Clear,7.3,9.6,NNW,0,13
+Wed Sep 30,11:00 PM,74.5,65.4,0,0,Clear,10.3,12.3,WNW,0,16
