@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Black Desert Golf Course | Updated: 9/29/2026, 2:55:18 PM",,,,,,,,,,,
+"Location: Black Desert Golf Course | Updated: 9/29/2026, 11:55:23 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Tue Sep 29,12:00 AM,59.6,59.3,37,0,Overcast,5.4,8.3,S,99,88
-Tue Sep 29,1:00 AM,60.2,59.1,34,0,Overcast,6.7,8.1,SW,100,85
-Tue Sep 29,2:00 AM,60.4,60.5,22,0,Overcast,3.8,6,NNE,99,83
-Tue Sep 29,3:00 AM,60.3,60.6,19,0,Overcast,3.5,3.8,WNW,100,84
-Tue Sep 29,4:00 AM,60.2,59.9,17,0,Overcast,4.7,6.9,NW,99,84
-Tue Sep 29,5:00 AM,60.2,60,8,0,Overcast,4.3,7.6,W,100,84
-Tue Sep 29,6:00 AM,60.2,61.1,8,0,Overcast,2.1,2.2,SSE,95,84
-Tue Sep 29,7:00 AM,59.5,61.3,6,0,Partly Cloudy,0.2,2.7,N,61,88
-Tue Sep 29,8:00 AM,59.1,60.8,3,0,Partly Cloudy,1.3,2.2,SSW,67,93
-Tue Sep 29,9:00 AM,59.4,60.5,3,0,Clear,2.4,2.7,WNW,15,90
-Tue Sep 29,10:00 AM,59.3,60.4,3,0,Clear,0.6,4.9,SW,0,84
-Tue Sep 29,11:00 AM,60.6,60.7,3,0,Clear,5.1,6.9,SE,1,88
-Tue Sep 29,12:00 PM,61.5,61.4,3,0,Clear,4.7,5.6,SE,4,82
-Tue Sep 29,1:00 PM,63.6,64.3,3,0,Clear,3.4,9.2,S,9,78
-Tue Sep 29,2:00 PM,66.7,67.8,4,0,Overcast,2.5,12.5,WNW,100,70
-Tue Sep 29,3:00 PM,70.4,71.6,6,0,Overcast,1.6,10.7,WNW,100,60
-Tue Sep 29,4:00 PM,72.4,72.3,12,0,Overcast,5.8,11.9,SSW,100,52
-Tue Sep 29,5:00 PM,67.2,67.8,16,0,Overcast,6.7,10.5,NNW,100,78
-Tue Sep 29,6:00 PM,70.9,71.6,13,0,Overcast,6.5,12.3,WNW,100,64
-Tue Sep 29,7:00 PM,72.9,72.7,25,0,Overcast,5.8,9.8,WNW,86,57
-Tue Sep 29,8:00 PM,70.1,69.6,20,0,Partly Cloudy,7.4,10.5,S,55,66
-Tue Sep 29,9:00 PM,68,68.5,14,0,Overcast,5.8,6.7,ESE,100,73
-Tue Sep 29,10:00 PM,66.5,66.8,7,0,Overcast,4.7,4.9,E,100,72
-Tue Sep 29,11:00 PM,66.1,64.8,8,0,Overcast,4.7,4.5,NE,100,61
-Wed Sep 30,12:00 AM,67,66.4,4,0,Overcast,3,2.9,NE,100,59
-Wed Sep 30,1:00 AM,66.1,65.7,2,0,Overcast,2,7.6,W,99,59
-Wed Sep 30,2:00 AM,65.1,64.4,2,0,Partly Cloudy,3.8,3.8,ESE,56,65
-Wed Sep 30,3:00 AM,64,62.3,1,0,Overcast,5,5.4,E,88,63
-Wed Sep 30,4:00 AM,62.4,62.3,1,0,Overcast,2.9,4.3,NNE,100,73
-Wed Sep 30,5:00 AM,62.3,61.2,1,0,Overcast,0.7,1.6,W,100,57
-Wed Sep 30,6:00 AM,60.2,59,2,0,Clear,4.8,5.8,SE,17,76
-Wed Sep 30,7:00 AM,60.9,59.9,2,0,Overcast,1.4,1.6,SW,87,64
-Wed Sep 30,8:00 AM,59,53.3,2,0,Mainly Clear,7.7,10.1,NNW,23,49
-Wed Sep 30,9:00 AM,59.4,54.5,2,0,Clear,5.1,8.3,NW,3,45
-Wed Sep 30,10:00 AM,59.9,54,1,0,Clear,5.7,8.7,NW,0,38
-Wed Sep 30,11:00 AM,63.4,60.7,1,0,Clear,2.7,3.8,E,0,49
-Wed Sep 30,12:00 PM,66,65.8,1,0,Clear,6,6.5,SE,0,73
-Wed Sep 30,1:00 PM,68.4,66.8,0,0,Clear,5.2,8.7,ESE,0,55
-Wed Sep 30,2:00 PM,72.1,72.1,0,0,Clear,4.1,8.3,ESE,0,46
-Wed Sep 30,3:00 PM,77.1,77.1,0,0,Clear,5.1,7.8,SE,0,37
-Wed Sep 30,4:00 PM,84.7,84,0,0,Clear,3.8,11.6,S,0,22
-Wed Sep 30,5:00 PM,88.6,80.4,0,0,Clear,14.6,17.7,N,0,13
-Wed Sep 30,6:00 PM,89.3,78.9,0,0,Clear,15.9,20.6,N,0,10
-Wed Sep 30,7:00 PM,89.3,78.2,0,0,Clear,15,20.6,N,0,10
-Wed Sep 30,8:00 PM,88.1,78,0,0,Clear,12.7,18.8,N,0,10
-Wed Sep 30,9:00 PM,82.7,75.3,0,0,Clear,6.3,17.2,N,0,12
-Wed Sep 30,10:00 PM,77.5,69.4,0,0,Clear,7.3,9.6,NNW,0,13
-Wed Sep 30,11:00 PM,74.5,65.4,0,0,Clear,10.3,12.3,WNW,0,16
+Wed Sep 30,12:00 AM,66.7,66.7,3,0,Overcast,1.8,1.6,E,100,60
+Wed Sep 30,1:00 AM,65.2,64.9,2,0,Overcast,3.4,4.3,E,100,66
+Wed Sep 30,2:00 AM,64.8,66,2,0,Overcast,1.4,5.8,SSW,100,72
+Wed Sep 30,3:00 AM,64.9,64.1,1,0,Partly Cloudy,4.3,4.3,NE,79,66
+Wed Sep 30,4:00 AM,64.2,63.7,1,0,Overcast,1.4,2,E,88,60
+Wed Sep 30,5:00 AM,63.2,61.2,1,0,Overcast,3.4,4,NW,100,57
+Wed Sep 30,6:00 AM,62.9,60.6,1,0,Overcast,2.6,3.6,NE,100,52
+Wed Sep 30,7:00 AM,61.5,59.7,1,0,Partly Cloudy,1.6,2.2,SW,68,56
+Wed Sep 30,8:00 AM,61.5,59.7,1,0,Clear,2.2,2.2,E,1,58
+Wed Sep 30,9:00 AM,61.3,58.7,0,0,Clear,1.4,1.6,WSW,0,49
+Wed Sep 30,10:00 AM,60.5,57.7,0,0,Clear,1.3,1.6,S,0,48
+Wed Sep 30,11:00 AM,63.9,63.8,0,0,Clear,2.1,5.4,NE,0,66
+Wed Sep 30,12:00 PM,67.4,68.3,0,0,Clear,1.9,3.1,SE,0,65
+Wed Sep 30,1:00 PM,70.6,70,0,0,Clear,4.1,4.9,SE,0,55
+Wed Sep 30,2:00 PM,74.6,74.6,0,0,Clear,5.4,9.2,SE,0,46
+Wed Sep 30,3:00 PM,79.8,80.2,0,0,Clear,4,8.7,SE,0,33
+Wed Sep 30,4:00 PM,85.7,86.1,0,0,Clear,1.4,6.9,SSE,0,21
+Wed Sep 30,5:00 PM,88.1,85.4,0,0,Clear,5.2,11.4,SE,0,17
+Wed Sep 30,6:00 PM,89.1,86.7,0,0,Clear,1.1,9.6,N,0,15
+Wed Sep 30,7:00 PM,89.6,78.6,0,0,Clear,15.5,19,N,0,11
+Wed Sep 30,8:00 PM,88.4,78.3,0,0,Clear,13.2,17.9,N,0,11
+Wed Sep 30,9:00 PM,83.4,74.9,0,0,Clear,8.3,17.4,N,0,11
+Wed Sep 30,10:00 PM,78.4,70.1,0,0,Clear,7.9,10.1,NNW,0,13
+Wed Sep 30,11:00 PM,75.2,65.9,0,0,Clear,10.5,13.4,WNW,0,15
+Thu Oct 1,12:00 AM,74.8,65.2,0,0,Clear,11.7,14.8,WNW,0,16
+Thu Oct 1,1:00 AM,71.7,66,0,0,Clear,2.3,2.5,ENE,0,18
+Thu Oct 1,2:00 AM,69.9,63.6,0,0,Clear,3.8,3.8,E,0,19
+Thu Oct 1,3:00 AM,69.5,63.8,0,0,Clear,2.4,2.5,NNE,0,19
+Thu Oct 1,4:00 AM,68,62.4,0,0,Clear,2.1,2,ENE,0,20
+Thu Oct 1,5:00 AM,66.7,60.8,0,0,Clear,3.2,3.4,ENE,0,22
+Thu Oct 1,6:00 AM,66.4,61.7,0,0,Clear,0.2,0.9,N,0,22
+Thu Oct 1,7:00 AM,65.6,59.8,0,0,Clear,2.7,2.9,NW,0,23
+Thu Oct 1,8:00 AM,65.6,60.2,0,0,Clear,1.8,1.8,N,0,22
+Thu Oct 1,9:00 AM,64.4,59.6,0,0,Clear,0.6,0.7,NE,0,24
+Thu Oct 1,10:00 AM,63.9,58.5,0,0,Clear,2,2,N,0,24
+Thu Oct 1,11:00 AM,67.2,62.1,0,0,Clear,2,2,N,0,24
+Thu Oct 1,12:00 PM,73.9,69.7,0,0,Clear,1.3,1.8,SE,0,22
+Thu Oct 1,1:00 PM,78.1,73.7,0,0,Clear,2,2,S,0,20
+Thu Oct 1,2:00 PM,81.8,78.9,0,0,Clear,2.7,2.7,S,0,18
+Thu Oct 1,3:00 PM,85.5,83.3,0,0,Clear,3.4,3.4,S,0,16
+Thu Oct 1,4:00 PM,88.9,86.3,0,0,Clear,3.8,3.8,S,0,13
+Thu Oct 1,5:00 PM,90.8,87.7,0,0,Clear,3.8,5.4,S,0,12
+Thu Oct 1,6:00 PM,90.8,86.2,0,0,Clear,5.3,6.1,S,0,14
+Thu Oct 1,7:00 PM,90.1,84.2,0,0,Clear,6.4,6.7,SSW,0,15
+Thu Oct 1,8:00 PM,88.1,82.6,0,0,Clear,7.3,6.3,SSW,0,19
+Thu Oct 1,9:00 PM,82.4,79.2,0,0,Clear,4.7,5.1,SSW,0,27
+Thu Oct 1,10:00 PM,78.8,77.1,0,0,Clear,1.9,2.9,WSW,0,32
+Thu Oct 1,11:00 PM,77.8,75.6,0,0,Clear,2.4,2,NW,0,32
