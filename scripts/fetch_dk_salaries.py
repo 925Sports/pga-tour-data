@@ -8,12 +8,15 @@ DraftKings now returns 403 on
   api.draftkings.com/draftgroups/v1/draftgroups/{id}/draftables
 Salaries come from
   https://www.draftkings.com/lineup/getavailableplayers?draftGroupId={id}
-Contest ids still come from
+Contest-specific lineup ids come from
+  https://www.draftkings.com/lineup/getavailableplayerscsv?draftGroupId={id}
+Contest list comes from
   https://www.draftkings.com/lobby/getcontests?sport=GOLF
 """
 from __future__ import annotations
 
 import csv
+import io
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -176,6 +179,59 @@ def classify_group(contest_names: list[str], suffix: str = "") -> str:
     return max(counts.items(), key=lambda kv: kv[1])[0]
 
 
+def name_key(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", norm_name(name).lower())
+
+
+def fetch_slate_ids(dg_id: str) -> dict:
+    url = f"https://www.draftkings.com/lineup/getavailableplayerscsv?draftGroupId={dg_id}"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        if r.status_code != 200:
+            print(f"    contest csv {dg_id}: {r.status_code}")
+            return {}
+        rows = list(csv.DictReader(io.StringIO(r.content.decode("utf-8-sig"))))
+    except Exception as e:
+        print(f"    contest csv {dg_id} error: {e}")
+        return {}
+    out = {}
+    for row in rows:
+        name = norm_name(row.get("Name") or "")
+        did = str(row.get("ID") or "").strip()
+        if not name or not did or did == "0":
+            continue
+        try:
+            sal = int(float(str(row.get("Salary") or "0").replace(",", "")))
+        except Exception:
+            sal = 0
+        out[name_key(name)] = {
+            "draftable_id": did,
+            "salary": sal,
+            "pos": (row.get("Roster Position") or row.get("Position") or "G").strip() or "G",
+            "game": row.get("Game Info") or "",
+        }
+    print(f"    contest ids {dg_id}: {len(out)}")
+    return out
+
+
+def apply_contest_ids(versions: dict, slate_ids: dict) -> int:
+    if not slate_ids:
+        return 0
+    hit = 0
+    for vers in versions.values():
+        for v in vers:
+            row = slate_ids.get(name_key(v.get("name") or ""))
+            if not row:
+                continue
+            v["draftable_id"] = row["draftable_id"]
+            if row["salary"] >= 1000:
+                v["salary"] = row["salary"]
+            if row.get("pos"):
+                v["pos"] = row["pos"]
+            hit += 1
+    return hit
+
+
 def fetch_pool(dg_id: str):
     old = f"https://api.draftkings.com/draftgroups/v1/draftgroups/{dg_id}/draftables?format=json"
     new = f"https://www.draftkings.com/lineup/getavailableplayers?draftGroupId={dg_id}"
@@ -330,7 +386,7 @@ def main() -> None:
 
     for dg_id, group in ordered:
         slate_type = group["slate_type"]
-        if slate_type in ("Tiers", "Snake", "Single Stat", "LPGA", "DP World", "Turbo"):
+        if slate_type in ("Tiers", "Snake", "Single Stat", "Turbo"):
             print(f"  Skip DG {dg_id} ({slate_type})")
             continue
         print(f"  Fetching players for DG {dg_id} ({slate_type})…")
@@ -349,6 +405,9 @@ def main() -> None:
                 start_iso = next((c["startTime"] for c in comps.values() if c.get("startTime")), start_iso)
         else:
             versions = players_from_available(raw_players, tournament, start_iso)
+        matched = apply_contest_ids(versions, fetch_slate_ids(dg_id))
+        if matched:
+            print(f"    contest-specific ids applied: {matched}")
 
         if not versions:
             print(f"    No salaried players in DG {dg_id}")
@@ -427,6 +486,10 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rich_rows)
     print(f"Wrote {len(rich_rows)} rows → {drafttable_path}")
+
+    if not simple_rows:
+        print("No classic salaries this run — leaving dk_salaries.csv in place")
+        return
 
     salaries_path = DATA_DIR / "dk_salaries.csv"
     with salaries_path.open("w", newline="", encoding="utf-8") as f:
