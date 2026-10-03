@@ -1,288 +1,120 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Jackson Koivun,11100,Weekend,Classic,,796535,44366097,10/03/2026 6:00 AM,2026-10-03T08:29:59.689273Z
-Benjamin James,10700,Weekend,Classic,,765775,44366098,10/03/2026 6:00 AM,2026-10-03T08:29:59.689293Z
-Michael Brennan,10400,Weekend,Classic,,762470,44366099,10/03/2026 6:00 AM,2026-10-03T08:29:59.689302Z
-Doug Ghim,9900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44366100,10/03/2026 6:00 AM,2026-10-03T08:29:59.689311Z
-Jackson Suber,9800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44366101,10/03/2026 6:00 AM,2026-10-03T08:29:59.689317Z
-Kevin Yu,9600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44366102,10/03/2026 6:00 AM,2026-10-03T08:29:59.689324Z
-Maverick McNealy,9500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44366103,10/03/2026 6:00 AM,2026-10-03T08:29:59.689330Z
-Ben Kohles,9400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44366104,10/03/2026 6:00 AM,2026-10-03T08:29:59.689340Z
-Matt Wallace,9300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44366105,10/03/2026 6:00 AM,2026-10-03T08:29:59.689348Z
-Marco Penge,9200,Weekend,Classic,,698887,44366106,10/03/2026 6:00 AM,2026-10-03T08:29:59.689354Z
-Harry Hall,9100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44366107,10/03/2026 6:00 AM,2026-10-03T08:29:59.689360Z
-Matthew McCarty,9000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44366108,10/03/2026 6:00 AM,2026-10-03T08:29:59.689366Z
-Jordan L. Smith,8900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44366109,10/03/2026 6:00 AM,2026-10-03T08:29:59.689372Z
-Max Homa,8800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44366110,10/03/2026 6:00 AM,2026-10-03T08:29:59.689378Z
-Eric Cole,8700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,44366111,10/03/2026 6:00 AM,2026-10-03T08:29:59.689383Z
-Davis Thompson,8600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44366112,10/03/2026 6:00 AM,2026-10-03T08:29:59.689389Z
-Zachary Bauchou,8500,Weekend,Classic,,689973,44366113,10/03/2026 6:00 AM,2026-10-03T08:29:59.689394Z
-Rico Hoey,8400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,44366114,10/03/2026 6:00 AM,2026-10-03T08:29:59.689407Z
-Johnny Keefer,8300,Weekend,Classic,,814141,44366115,10/03/2026 6:00 AM,2026-10-03T08:29:59.689413Z
-Nick Taylor,8200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,44366116,10/03/2026 6:00 AM,2026-10-03T08:29:59.689418Z
-Kevin Roy,8100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44366117,10/03/2026 6:00 AM,2026-10-03T08:29:59.689425Z
-Stephan Jaeger,8000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44366118,10/03/2026 6:00 AM,2026-10-03T08:29:59.689431Z
-Mac Meissner,8000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44366119,10/03/2026 6:00 AM,2026-10-03T08:29:59.689436Z
-Rasmus Højgaard,7900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44366120,10/03/2026 6:00 AM,2026-10-03T08:29:59.689446Z
-Christiaan Bezuidenhout,7900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44366121,10/03/2026 6:00 AM,2026-10-03T08:29:59.689452Z
-Sudarshan Yellamaraju,7800,Weekend,Classic,,772264,44366122,10/03/2026 6:00 AM,2026-10-03T08:29:59.689460Z
-Chris Kirk,7800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,44366123,10/03/2026 6:00 AM,2026-10-03T08:29:59.689466Z
-Neal Shipley,7700,Weekend,Classic,,793366,44366124,10/03/2026 6:00 AM,2026-10-03T08:29:59.689471Z
-Pierceson Coody,7700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44366125,10/03/2026 6:00 AM,2026-10-03T08:29:59.689476Z
-Billy Horschel,7600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44366126,10/03/2026 6:00 AM,2026-10-03T08:29:59.689481Z
-Max Greyserman,7600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44366127,10/03/2026 6:00 AM,2026-10-03T08:29:59.689488Z
-Emiliano Grillo,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1085.png,610,44366128,10/03/2026 6:00 AM,2026-10-03T08:29:59.689493Z
-Beau Hossler,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44366129,10/03/2026 6:00 AM,2026-10-03T08:29:59.689498Z
-Steven Fisk,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44366130,10/03/2026 6:00 AM,2026-10-03T08:29:59.689503Z
-Zac Blair,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/614.png,530,44366131,10/03/2026 6:00 AM,2026-10-03T08:29:59.689508Z
-John Parry,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44366132,10/03/2026 6:00 AM,2026-10-03T08:29:59.689513Z
-Max McGreevy,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44366133,10/03/2026 6:00 AM,2026-10-03T08:29:59.689518Z
-Kris Ventura,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44366134,10/03/2026 6:00 AM,2026-10-03T08:29:59.689523Z
-Austin Smotherman,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451957.png,477949,44366135,10/03/2026 6:00 AM,2026-10-03T08:29:59.689528Z
-Hao-Tong Li,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44366136,10/03/2026 6:00 AM,2026-10-03T08:29:59.689533Z
-Mackenzie Hughes,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/635.png,552,44366137,10/03/2026 6:00 AM,2026-10-03T08:29:59.689540Z
-Matthieu Pavon,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44366138,10/03/2026 6:00 AM,2026-10-03T08:29:59.689548Z
-Trace Crowe,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,44366139,10/03/2026 6:00 AM,2026-10-03T08:29:59.689553Z
-Chad Ramey,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/983.png,2119,44366140,10/03/2026 6:00 AM,2026-10-03T08:29:59.689557Z
-Denny McCarthy,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44366141,10/03/2026 6:00 AM,2026-10-03T08:29:59.689562Z
-David Ford,7200,Weekend,Classic,,773829,44366142,10/03/2026 6:00 AM,2026-10-03T08:29:59.689567Z
-Taylor Moore,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44366143,10/03/2026 6:00 AM,2026-10-03T08:29:59.689572Z
-John VanDerLaan,7100,Weekend,Classic,,689877,44366144,10/03/2026 6:00 AM,2026-10-03T08:29:59.689577Z
-Joel Dahmen,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/521.png,1622,44366145,10/03/2026 6:00 AM,2026-10-03T08:29:59.689582Z
-A.J. Ewart,7100,Weekend,Classic,,765420,44366146,10/03/2026 6:00 AM,2026-10-03T08:29:59.689587Z
-Seamus Power,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44366147,10/03/2026 6:00 AM,2026-10-03T08:29:59.689592Z
-William Mouw,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,44366148,10/03/2026 6:00 AM,2026-10-03T08:29:59.689597Z
-Patrick Fishburn,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,44366149,10/03/2026 6:00 AM,2026-10-03T08:29:59.689602Z
-Lee Hodges,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44366150,10/03/2026 6:00 AM,2026-10-03T08:29:59.689607Z
-Hayden Springer,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44366151,10/03/2026 6:00 AM,2026-10-03T08:29:59.689612Z
-Takumi Kanaya,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44366152,10/03/2026 6:00 AM,2026-10-03T08:29:59.689617Z
-Kevin Streelman,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44366153,10/03/2026 6:00 AM,2026-10-03T08:29:59.689622Z
-Zecheng Dou,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450649.png,770,44366154,10/03/2026 6:00 AM,2026-10-03T08:29:59.689627Z
-Garrick Higgo,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,44366155,10/03/2026 6:00 AM,2026-10-03T08:29:59.689632Z
-David Lipsky,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/752.png,586,44366156,10/03/2026 6:00 AM,2026-10-03T08:29:59.689639Z
-Tony Finau,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44366157,10/03/2026 6:00 AM,2026-10-03T08:29:59.689717Z
-Erik Van Rooyen,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,44366158,10/03/2026 6:00 AM,2026-10-03T08:29:59.689736Z
-Andrew Putnam,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/730.png,665,44366159,10/03/2026 6:00 AM,2026-10-03T08:29:59.689744Z
-Gordon Sargent,6800,Weekend,Classic,,771299,44366160,10/03/2026 6:00 AM,2026-10-03T08:29:59.689749Z
-Nick Dunlap,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,44366161,10/03/2026 6:00 AM,2026-10-03T08:29:59.689755Z
-Tom Hoge,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44366162,10/03/2026 6:00 AM,2026-10-03T08:29:59.689760Z
-Jesper Svensson,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44366163,10/03/2026 6:00 AM,2026-10-03T08:29:59.689766Z
-Chandler Phillips,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44366164,10/03/2026 6:00 AM,2026-10-03T08:29:59.689771Z
-Pontus Nyholm,6800,Weekend,Classic,,690519,44366165,10/03/2026 6:00 AM,2026-10-03T08:29:59.689778Z
-Aldrich Potgieter,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44366166,10/03/2026 6:00 AM,2026-10-03T08:29:59.689783Z
-Lucas Glover,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/992.png,2158,44366167,10/03/2026 6:00 AM,2026-10-03T08:29:59.689788Z
-Tyler Duncan,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/599.png,1842,44366168,10/03/2026 6:00 AM,2026-10-03T08:29:59.689792Z
-Patrick Rodgers,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44366169,10/03/2026 6:00 AM,2026-10-03T08:29:59.689797Z
-Adam Svensson,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44366170,10/03/2026 6:00 AM,2026-10-03T08:29:59.689802Z
-Harry Higgs,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/565.png,698025,44366171,10/03/2026 6:00 AM,2026-10-03T08:29:59.689807Z
-Davis Chatfield,6600,Weekend,Classic,,769810,44366172,10/03/2026 6:00 AM,2026-10-03T08:29:59.689812Z
-Luke Clanton,6600,Weekend,Classic,,796547,44366173,10/03/2026 6:00 AM,2026-10-03T08:29:59.689818Z
-Justin Lower,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450914.png,1295,44366174,10/03/2026 6:00 AM,2026-10-03T08:29:59.689824Z
-Isaiah Salinda,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/67664.png,699174,44366175,10/03/2026 6:00 AM,2026-10-03T08:29:59.689829Z
-Adrien Dumont De Chassart,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44366176,10/03/2026 6:00 AM,2026-10-03T08:29:59.689838Z
-Hank Lebioda,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/526.png,692004,44366177,10/03/2026 6:00 AM,2026-10-03T08:29:59.689843Z
-Tyson Shelley,6500,Weekend,Classic,,774714,44366178,10/03/2026 6:00 AM,2026-10-03T08:29:59.689848Z
-Mark Hubbard,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/629.png,2056,44366179,10/03/2026 6:00 AM,2026-10-03T08:29:59.689853Z
-Kihei Akina,6500,Weekend,Classic,,798645,44366180,10/03/2026 6:00 AM,2026-10-03T08:29:59.689857Z
-David Skinns,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44366181,10/03/2026 6:00 AM,2026-10-03T08:29:59.689862Z
-Alejandro Tosti,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44366182,10/03/2026 6:00 AM,2026-10-03T08:29:59.689870Z
-Paul Peterson,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/960.png,1294,44366183,10/03/2026 6:00 AM,2026-10-03T08:29:59.689875Z
-Ben Silverman,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44366184,10/03/2026 6:00 AM,2026-10-03T08:29:59.689880Z
-Cameron Davis,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/578.png,330678,44366185,10/03/2026 6:00 AM,2026-10-03T08:29:59.689885Z
-Peter Malnati,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/660.png,1210,44366186,10/03/2026 6:00 AM,2026-10-03T08:29:59.689890Z
-Chandler Blanchet,6400,Weekend,Classic,,703933,44366187,10/03/2026 6:00 AM,2026-10-03T08:29:59.689895Z
-Will Gordon,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44366188,10/03/2026 6:00 AM,2026-10-03T08:29:59.689900Z
-Rafael Campos,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/570.png,1971,44366189,10/03/2026 6:00 AM,2026-10-03T08:29:59.689905Z
-Patton Kizzire,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/592.png,856,44366190,10/03/2026 6:00 AM,2026-10-03T08:29:59.689910Z
-Ben Martin,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1125.png,2065,44366191,10/03/2026 6:00 AM,2026-10-03T08:29:59.689915Z
-Davis Riley,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,44366192,10/03/2026 6:00 AM,2026-10-03T08:29:59.689920Z
-Danny Walker,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,44366193,10/03/2026 6:00 AM,2026-10-03T08:29:59.689925Z
-Nick Hardy,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1202.png,1411,44366194,10/03/2026 6:00 AM,2026-10-03T08:29:59.689930Z
-Dylan Wu,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,44366195,10/03/2026 6:00 AM,2026-10-03T08:29:59.689937Z
-Vince Whaley,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/667.png,698823,44366196,10/03/2026 6:00 AM,2026-10-03T08:29:59.689942Z
-Aaron Wise,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/850.png,83255,44366197,10/03/2026 6:00 AM,2026-10-03T08:29:59.689947Z
-Michael Thompson,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/835.png,654,44366198,10/03/2026 6:00 AM,2026-10-03T08:29:59.689952Z
-David Lingmerth,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/534.png,456,44366199,10/03/2026 6:00 AM,2026-10-03T08:29:59.689957Z
-Joe Highsmith,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,44366200,10/03/2026 6:00 AM,2026-10-03T08:29:59.689962Z
-Brice Garnett,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44366201,10/03/2026 6:00 AM,2026-10-03T08:29:59.689967Z
-Boston Bracken,6100,Weekend,Classic,,889755,44366202,10/03/2026 6:00 AM,2026-10-03T08:29:59.689972Z
-Brendon Todd,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/539.png,1438,44366203,10/03/2026 6:00 AM,2026-10-03T08:29:59.689977Z
-Seonghyeon An,6100,Weekend,Classic,,890356,44366204,10/03/2026 6:00 AM,2026-10-03T08:29:59.689982Z
-Marcelo Rozo,6100,Weekend,Classic,,2083,44366205,10/03/2026 6:00 AM,2026-10-03T08:29:59.689989Z
-Rhett Rasmussen,6100,Weekend,Classic,,671067,44366206,10/03/2026 6:00 AM,2026-10-03T08:29:59.689994Z
-Jimmy Stanger,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451913.png,425346,44366207,10/03/2026 6:00 AM,2026-10-03T08:29:59.689999Z
-Adam Schenk,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/638.png,648099,44366208,10/03/2026 6:00 AM,2026-10-03T08:29:59.690004Z
-Kensei Hirata,6000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,44366209,10/03/2026 6:00 AM,2026-10-03T08:29:59.690011Z
-Jeffrey Kang,6000,Weekend,Classic,,762326,44366210,10/03/2026 6:00 AM,2026-10-03T08:29:59.690015Z
-Bowen Mauss,6000,Weekend,Classic,,815852,44366211,10/03/2026 6:00 AM,2026-10-03T08:29:59.690020Z
-Matt Snyder,6000,Weekend,Classic,,796666,44366212,10/03/2026 6:00 AM,2026-10-03T08:29:59.690025Z
-Christo Lamprecht,6000,Weekend,Classic,,670532,44366213,10/03/2026 6:00 AM,2026-10-03T08:29:59.690030Z
-Zach J. Johnson,6000,Weekend,Classic,,690311,44366214,10/03/2026 6:00 AM,2026-10-03T08:29:59.690036Z
-Carson Lundell,6000,Weekend,Classic,,767091,44366215,10/03/2026 6:00 AM,2026-10-03T08:29:59.690043Z
-Matt Fitzpatrick,11100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1199.png,1075,44361848,10/03/2026 4:00 AM,2026-10-03T08:29:59.690048Z
-Tommy Fleetwood,10500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/733.png,871,44361849,10/03/2026 4:00 AM,2026-10-03T08:29:59.690060Z
-Robert MacIntyre,10100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/822.png,670464,44361850,10/03/2026 4:00 AM,2026-10-03T08:29:59.690065Z
-Tyrrell Hatton,10000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44361851,10/03/2026 4:00 AM,2026-10-03T08:29:59.690070Z
-Alex Fitzpatrick,9700,Round 3,Showdown,,690047,44361852,10/03/2026 4:00 AM,2026-10-03T08:29:59.690079Z
-Alex Noren,9600,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44361853,10/03/2026 4:00 AM,2026-10-03T08:29:59.690086Z
-Dean Burmester,9500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/770.png,851,44361854,10/03/2026 4:00 AM,2026-10-03T08:29:59.690093Z
-Justin Rose,9400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/734.png,625,44361855,10/03/2026 4:00 AM,2026-10-03T08:29:59.690101Z
-Brooks Koepka,9300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,44361856,10/03/2026 4:00 AM,2026-10-03T08:29:59.690108Z
-Jacob Skov Olesen,9200,Round 3,Showdown,,797154,44361857,10/03/2026 4:00 AM,2026-10-03T08:29:59.690116Z
-Lucas Herbert,9100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/863.png,113,44361858,10/03/2026 4:00 AM,2026-10-03T08:29:59.690123Z
-Marc Leishman,9000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/555.png,142,44361859,10/03/2026 4:00 AM,2026-10-03T08:29:59.690131Z
-Oliver Lindell,8900,Round 3,Showdown,,230887,44361860,10/03/2026 4:00 AM,2026-10-03T08:29:59.690140Z
-Matthew Jordan,8800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44361861,10/03/2026 4:00 AM,2026-10-03T08:29:59.690147Z
-Joakim Lagergren,8700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44361862,10/03/2026 4:00 AM,2026-10-03T08:29:59.690154Z
-Thomas Detry,8600,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44361863,10/03/2026 4:00 AM,2026-10-03T08:29:59.690161Z
-David Puig,8500,Round 3,Showdown,,756216,44361864,10/03/2026 4:00 AM,2026-10-03T08:29:59.690168Z
-Sepp Straka,8400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/654.png,73285,44361865,10/03/2026 4:00 AM,2026-10-03T08:29:59.690175Z
-Casey Jarvis,8300,Round 3,Showdown,,700282,44361866,10/03/2026 4:00 AM,2026-10-03T08:29:59.690184Z
-Daniel Hillier,8200,Round 3,Showdown,,696565,44361867,10/03/2026 4:00 AM,2026-10-03T08:29:59.690191Z
-Cameron Smith,8100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/532.png,1194,44361868,10/03/2026 4:00 AM,2026-10-03T08:29:59.690198Z
-Victor Perez,8000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44361869,10/03/2026 4:00 AM,2026-10-03T08:29:59.690207Z
-Tom Vaillant,8000,Round 3,Showdown,,768110,44361870,10/03/2026 4:00 AM,2026-10-03T08:29:59.690212Z
-Carlos Ortiz,7900,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/580.png,777,44361871,10/03/2026 4:00 AM,2026-10-03T08:29:59.690224Z
-Calum Hill,7900,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44361872,10/03/2026 4:00 AM,2026-10-03T08:29:59.690229Z
-Alejandro Del Rey,7800,Round 3,Showdown,,670992,44361873,10/03/2026 4:00 AM,2026-10-03T08:29:59.690240Z
-Josele Ballester,7800,Round 3,Showdown,,773808,44361874,10/03/2026 4:00 AM,2026-10-03T08:29:59.690245Z
-Branden Grace,7700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/661.png,956,44361875,10/03/2026 4:00 AM,2026-10-03T08:29:59.690254Z
-Sam Bairstow,7700,Round 3,Showdown,,722206,44361876,10/03/2026 4:00 AM,2026-10-03T08:29:59.690259Z
-Brandon Stone,7700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/877.png,181,44361877,10/03/2026 4:00 AM,2026-10-03T08:29:59.690264Z
-Mikael Lindberg,7600,Round 3,Showdown,,769321,44361878,10/03/2026 4:00 AM,2026-10-03T08:29:59.690274Z
-Joe Dean,7600,Round 3,Showdown,,544869,44361879,10/03/2026 4:00 AM,2026-10-03T08:29:59.690278Z
-Jeff Winther,7600,Round 3,Showdown,,581,44361880,10/03/2026 4:00 AM,2026-10-03T08:29:59.690283Z
-Nathan Kimsey,7500,Round 3,Showdown,,345110,44361881,10/03/2026 4:00 AM,2026-10-03T08:29:59.690295Z
-Hennie Du Plessis,7500,Round 3,Showdown,,354076,44361882,10/03/2026 4:00 AM,2026-10-03T08:29:59.690305Z
-MJ Daffue,7500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44361883,10/03/2026 4:00 AM,2026-10-03T08:29:59.690310Z
-Jayden Trey Schaper,7500,Round 3,Showdown,,700083,44361884,10/03/2026 4:00 AM,2026-10-03T08:29:59.690315Z
-Bubba Watson,7400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/637.png,411,44361885,10/03/2026 4:00 AM,2026-10-03T08:29:59.690330Z
-Niklas Nørgaard Møller,7400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44361886,10/03/2026 4:00 AM,2026-10-03T08:29:59.690339Z
-Adrien Saddier,7400,Round 3,Showdown,,2649,44361887,10/03/2026 4:00 AM,2026-10-03T08:29:59.690344Z
-Marcus Armitage,7400,Round 3,Showdown,,344989,44361888,10/03/2026 4:00 AM,2026-10-03T08:29:59.690349Z
-Guido Migliozzi,7400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44361889,10/03/2026 4:00 AM,2026-10-03T08:29:59.690354Z
-Daniel Brown,7300,Round 3,Showdown,,769318,44361890,10/03/2026 4:00 AM,2026-10-03T08:29:59.690368Z
-Marcus Helligkilde,7300,Round 3,Showdown,,702176,44361891,10/03/2026 4:00 AM,2026-10-03T08:29:59.690373Z
-Daniel Van Tonder,7300,Round 3,Showdown,,380,44361892,10/03/2026 4:00 AM,2026-10-03T08:29:59.690378Z
-Freddy Schott,7300,Round 3,Showdown,,721368,44361893,10/03/2026 4:00 AM,2026-10-03T08:29:59.690383Z
-Richard Mansell,7300,Round 3,Showdown,,702169,44361894,10/03/2026 4:00 AM,2026-10-03T08:29:59.690388Z
-Charles Howell III,7300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1090.png,1645,44361895,10/03/2026 4:00 AM,2026-10-03T08:29:59.690394Z
-Davis Bryant,7200,Round 3,Showdown,,819151,44361896,10/03/2026 4:00 AM,2026-10-03T08:29:59.690410Z
-Thriston Lawrence,7200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44361897,10/03/2026 4:00 AM,2026-10-03T08:29:59.690415Z
-Richard Bland,7200,Round 3,Showdown,,698,44361898,10/03/2026 4:00 AM,2026-10-03T08:29:59.690420Z
-Thomas Rosenmueller,7200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44361899,10/03/2026 4:00 AM,2026-10-03T08:29:59.690426Z
-Scott Jamieson,7200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,44361900,10/03/2026 4:00 AM,2026-10-03T08:29:59.690431Z
-Matteo Manassero,7200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44361901,10/03/2026 4:00 AM,2026-10-03T08:29:59.690436Z
-Peter Uihlein,7100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/650.png,218,44361902,10/03/2026 4:00 AM,2026-10-03T08:29:59.690452Z
-Adrian Meronk,7100,Round 3,Showdown,,292342,44361903,10/03/2026 4:00 AM,2026-10-03T08:29:59.690457Z
-Elvis Smylie,7100,Round 3,Showdown,,721846,44361904,10/03/2026 4:00 AM,2026-10-03T08:29:59.690462Z
-Andreas Halvorsen,7100,Round 3,Showdown,,566210,44361905,10/03/2026 4:00 AM,2026-10-03T08:29:59.690469Z
-Félix Mory,7100,Round 3,Showdown,,702165,499007,10/03/2026 4:00 AM,2026-10-03T08:29:59.690475Z
-Jazz Janewattananond,7100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1108.png,691,44361908,10/03/2026 4:00 AM,2026-10-03T08:29:59.690480Z
-Francesco Molinari,7000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44361909,10/03/2026 4:00 AM,2026-10-03T08:29:59.690497Z
-Marcus Kinhult,7000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1011.png,927,44361910,10/03/2026 4:00 AM,2026-10-03T08:29:59.690502Z
-Danny Willett,7000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/792.png,199,44361911,10/03/2026 4:00 AM,2026-10-03T08:29:59.690507Z
-Todd Clements,7000,Round 3,Showdown,,670556,44361912,10/03/2026 4:00 AM,2026-10-03T08:29:59.690514Z
-Eddie Pepperell,7000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44361913,10/03/2026 4:00 AM,2026-10-03T08:29:59.690519Z
-Caleb Surratt,7000,Round 3,Showdown,,768996,44361914,10/03/2026 4:00 AM,2026-10-03T08:29:59.690524Z
-Filippo Celli,7000,Round 3,Showdown,,753704,44361915,10/03/2026 4:00 AM,2026-10-03T08:29:59.690529Z
-Ross Fisher,7000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/729.png,161,44361916,10/03/2026 4:00 AM,2026-10-03T08:29:59.690536Z
-Jens Dantorp,6900,Round 3,Showdown,,1152,44361917,10/03/2026 4:00 AM,2026-10-03T08:29:59.690554Z
-Jeremy Paul,6900,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44361918,10/03/2026 4:00 AM,2026-10-03T08:29:59.690559Z
-David Law,6900,Round 3,Showdown,,355,44361919,10/03/2026 4:00 AM,2026-10-03T08:29:59.690564Z
-David Ravetto,6900,Round 3,Showdown,,699574,44361920,10/03/2026 4:00 AM,2026-10-03T08:29:59.690570Z
-Albin Bergstrom,6900,Round 3,Showdown,,698400,44361921,10/03/2026 4:00 AM,2026-10-03T08:29:59.690575Z
-Lee Westwood,6900,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/867.png,638,44361922,10/03/2026 4:00 AM,2026-10-03T08:29:59.690580Z
-Nick Voke,6900,Round 3,Showdown,,690262,44361923,10/03/2026 4:00 AM,2026-10-03T08:29:59.690584Z
-Euan Walker,6900,Round 3,Showdown,,698883,44361924,10/03/2026 4:00 AM,2026-10-03T08:29:59.690589Z
-Charley Hoffman,6900,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/805.png,1631,44361925,10/03/2026 4:00 AM,2026-10-03T08:29:59.690594Z
-Sean Crocker,6800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44361926,10/03/2026 4:00 AM,2026-10-03T08:29:59.690616Z
-Richard Sterne,6800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44361927,10/03/2026 4:00 AM,2026-10-03T08:29:59.690621Z
-Zander Lombard,6800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1181.png,449,44361928,10/03/2026 4:00 AM,2026-10-03T08:29:59.690626Z
-Sebastian Söderberg,6800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,10/03/2026 4:00 AM,2026-10-03T08:29:59.690633Z
-Rikuya Hoshino,6800,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44361930,10/03/2026 4:00 AM,2026-10-03T08:29:59.690638Z
-Joel Girrbach,6800,Round 3,Showdown,,241748,44361931,10/03/2026 4:00 AM,2026-10-03T08:29:59.690643Z
-Ivan Cantero Gutierrez,6800,Round 3,Showdown,,162,44361932,10/03/2026 4:00 AM,2026-10-03T08:29:59.690649Z
-Christiaan Burke,6800,Round 3,Showdown,,768364,44361933,10/03/2026 4:00 AM,2026-10-03T08:29:59.690654Z
-Jack Buchanan,6800,Round 3,Showdown,,769395,44361934,10/03/2026 4:00 AM,2026-10-03T08:29:59.690659Z
-Yanhan Zhou,6700,Round 3,Showdown,,795440,44361906,10/03/2026 4:00 AM,2026-10-03T08:29:59.690679Z
-Ian Poulter,6700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/974.png,308,44361935,10/03/2026 4:00 AM,2026-10-03T08:29:59.690684Z
-Daniel Rodrigues,6700,Round 3,Showdown,,699770,44361936,10/03/2026 4:00 AM,2026-10-03T08:29:59.690689Z
-Jorge Campillo,6700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44361937,10/03/2026 4:00 AM,2026-10-03T08:29:59.690694Z
-Pavit Tangkamolprasert,6700,Round 3,Showdown,,328,44361938,10/03/2026 4:00 AM,2026-10-03T08:29:59.690699Z
-Grant Forrest,6700,Round 3,Showdown,,1393,44361939,10/03/2026 4:00 AM,2026-10-03T08:29:59.690704Z
-Michael La Sasso,6700,Round 3,Showdown,,849089,44361940,10/03/2026 4:00 AM,2026-10-03T08:29:59.690710Z
-Luke List,6700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/719.png,559,44361941,10/03/2026 4:00 AM,2026-10-03T08:29:59.690715Z
-Connor Syme,6700,Round 3,Showdown,,405819,44361942,10/03/2026 4:00 AM,2026-10-03T08:29:59.690720Z
-Jason Scrivener,6700,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44361943,10/03/2026 4:00 AM,2026-10-03T08:29:59.690734Z
-Yurav Premlall,6600,Round 3,Showdown,,692918,44361944,10/03/2026 4:00 AM,2026-10-03T08:29:59.690755Z
-Daniel Young,6600,Round 3,Showdown,,398,44361945,10/03/2026 4:00 AM,2026-10-03T08:29:59.690760Z
-Björn Hellgren,6600,Round 3,Showdown,,60263,451562,10/03/2026 4:00 AM,2026-10-03T08:29:59.690766Z
-Austen Truslow,6600,Round 3,Showdown,,1635,44361947,10/03/2026 4:00 AM,2026-10-03T08:29:59.690771Z
-Jaco Prinsloo,6600,Round 3,Showdown,,1015,44361948,10/03/2026 4:00 AM,2026-10-03T08:29:59.690776Z
-Hugo Townsend,6600,Round 3,Showdown,,772986,44361949,10/03/2026 4:00 AM,2026-10-03T08:29:59.690781Z
-Rafa Cabrera Bello,6600,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/868.png,984,44361950,10/03/2026 4:00 AM,2026-10-03T08:29:59.690786Z
-JC Ritchie,6600,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44361951,10/03/2026 4:00 AM,2026-10-03T08:29:59.690791Z
-Cameron Adam,6600,Round 3,Showdown,,851066,44361952,10/03/2026 4:00 AM,2026-10-03T08:29:59.690796Z
-Dylan Frittelli,6500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44361953,10/03/2026 4:00 AM,2026-10-03T08:29:59.690814Z
-Benjamin Schmidt,6500,Round 3,Showdown,,723288,44361954,10/03/2026 4:00 AM,2026-10-03T08:29:59.690821Z
-Cameron John,6500,Round 3,Showdown,,690257,44361955,10/03/2026 4:00 AM,2026-10-03T08:29:59.690826Z
-Joshua Hill,6500,Round 3,Showdown,,700421,44361956,10/03/2026 4:00 AM,2026-10-03T08:29:59.690831Z
-Rocco Repetto Taylor,6500,Round 3,Showdown,,861890,44361957,10/03/2026 4:00 AM,2026-10-03T08:29:59.690836Z
-Marcel Siem,6500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44361958,10/03/2026 4:00 AM,2026-10-03T08:29:59.690843Z
-Quim Vidal,6500,Round 3,Showdown,,768542,44361959,10/03/2026 4:00 AM,2026-10-03T08:29:59.690848Z
-Jack Senior,6500,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/740.png,474,44361960,10/03/2026 4:00 AM,2026-10-03T08:29:59.690853Z
-Michael Stewart,6500,Round 3,Showdown,,773823,44361961,10/03/2026 4:00 AM,2026-10-03T08:29:59.690858Z
-Declan O'Donovan,6400,Round 3,Showdown,,876238,44361962,10/03/2026 4:00 AM,2026-10-03T08:29:59.690877Z
-Ollie Schniederjans,6400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1034.png,935,44361963,10/03/2026 4:00 AM,2026-10-03T08:29:59.690882Z
-Callum Shinkwin,6400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/745.png,156,44361964,10/03/2026 4:00 AM,2026-10-03T08:29:59.690890Z
-Kiradech Aphibarnrat,6400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44361965,10/03/2026 4:00 AM,2026-10-03T08:29:59.690895Z
-Herman Loubser,6400,Round 3,Showdown,,945,44361966,10/03/2026 4:00 AM,2026-10-03T08:29:59.690900Z
-Daniel Cronje,6400,Round 3,Showdown,,862323,44361967,10/03/2026 4:00 AM,2026-10-03T08:29:59.690905Z
-Will Florimo,6400,Round 3,Showdown,,861893,44361968,10/03/2026 4:00 AM,2026-10-03T08:29:59.690910Z
-Ryan Palmer,6400,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/780.png,468,44361969,10/03/2026 4:00 AM,2026-10-03T08:29:59.690915Z
-Jack Thompson,6400,Round 3,Showdown,,693880,44361970,10/03/2026 4:00 AM,2026-10-03T08:29:59.690919Z
-Jay Mackenzie,6400,Round 3,Showdown,,700831,44361971,10/03/2026 4:00 AM,2026-10-03T08:29:59.690925Z
-Fabrizio Zanotti,6300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60715.png,356,44361972,10/03/2026 4:00 AM,2026-10-03T08:29:59.690942Z
-Brandon Robinson-Thompson,6300,Round 3,Showdown,,701399,44361973,10/03/2026 4:00 AM,2026-10-03T08:29:59.690948Z
-Padraig Harrington,6300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1067.png,297,44361974,10/03/2026 4:00 AM,2026-10-03T08:29:59.690953Z
-Tobias Jonsson,6300,Round 3,Showdown,,772989,44361975,10/03/2026 4:00 AM,2026-10-03T08:29:59.690958Z
-Luke Donald,6300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1104.png,1822,44361976,10/03/2026 4:00 AM,2026-10-03T08:29:59.690963Z
-Michael Hollick,6300,Round 3,Showdown,,506,44361977,10/03/2026 4:00 AM,2026-10-03T08:29:59.690967Z
-David Micheluzzi,6300,Round 3,Showdown,,690250,44361978,10/03/2026 4:00 AM,2026-10-03T08:29:59.690978Z
-Justin Walters,6300,Round 3,Showdown,,1298,44361979,10/03/2026 4:00 AM,2026-10-03T08:29:59.690990Z
-Robert Rock,6300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/679.png,1320,44361980,10/03/2026 4:00 AM,2026-10-03T08:29:59.690998Z
-James Morrison,6300,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44361981,10/03/2026 4:00 AM,2026-10-03T08:29:59.691006Z
-Austin Bautista,6200,Round 3,Showdown,,704072,44361982,10/03/2026 4:00 AM,2026-10-03T08:29:59.691032Z
-Kevin Yuan,6200,Round 3,Showdown,,700884,44361983,10/03/2026 4:00 AM,2026-10-03T08:29:59.691045Z
-Adri Arnaus,6200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1074.png,670432,44361984,10/03/2026 4:00 AM,2026-10-03T08:29:59.691053Z
-Haydn Porteous,6200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60447.png,1361,44361985,10/03/2026 4:00 AM,2026-10-03T08:29:59.691062Z
-Sebastian Garcia Rodriguez,6200,Round 3,Showdown,,670993,44361986,10/03/2026 4:00 AM,2026-10-03T08:29:59.691068Z
-Wade Ormsby,6200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60328.png,135,44361987,10/03/2026 4:00 AM,2026-10-03T08:29:59.691073Z
-Quentin Debove,6200,Round 3,Showdown,,862384,44361988,10/03/2026 4:00 AM,2026-10-03T08:29:59.691078Z
-Samuel Simpson,6200,Round 3,Showdown,,700281,44361989,10/03/2026 4:00 AM,2026-10-03T08:29:59.691083Z
-Oliver Bekker,6200,Round 3,Showdown,,896,44361990,10/03/2026 4:00 AM,2026-10-03T08:29:59.691094Z
-Pablo Larrazábal,6200,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,10/03/2026 4:00 AM,2026-10-03T08:29:59.691100Z
-James Marchesani,6200,Round 3,Showdown,,591728,44361992,10/03/2026 4:00 AM,2026-10-03T08:29:59.691105Z
-Renato Paratore,6100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44361993,10/03/2026 4:00 AM,2026-10-03T08:29:59.691125Z
-Jordan Gumberg,6100,Round 3,Showdown,,690517,44361994,10/03/2026 4:00 AM,2026-10-03T08:29:59.691129Z
-Fred Biondi,6100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/645124.png,765452,44361995,10/03/2026 4:00 AM,2026-10-03T08:29:59.691134Z
-Anthony Quayle,6100,Round 3,Showdown,,591733,44361996,10/03/2026 4:00 AM,2026-10-03T08:29:59.691139Z
-Shubhankar Sharma,6100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/893.png,402,44361997,10/03/2026 4:00 AM,2026-10-03T08:29:59.691144Z
-Matthew Baldwin,6100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/686.png,798,44361998,10/03/2026 4:00 AM,2026-10-03T08:29:59.691150Z
-Louis De Jager,6100,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/60575.png,1283,44361999,10/03/2026 4:00 AM,2026-10-03T08:29:59.691155Z
-Connor McKinney,6100,Round 3,Showdown,,769324,44362000,10/03/2026 4:00 AM,2026-10-03T08:29:59.691160Z
-Robin Williams,6100,Round 3,Showdown,,642346,44362001,10/03/2026 4:00 AM,2026-10-03T08:29:59.691165Z
-Benjamin Follett-Smith,6100,Round 3,Showdown,,670452,44362002,10/03/2026 4:00 AM,2026-10-03T08:29:59.691170Z
-Dylan Naidoo,6100,Round 3,Showdown,,1185,44362003,10/03/2026 4:00 AM,2026-10-03T08:29:59.691177Z
-Ryggs Johnston,6000,Round 3,Showdown,,818540,44362004,10/03/2026 4:00 AM,2026-10-03T08:29:59.691197Z
-Frankie Capan,6000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/451339.png,1924,44362005,10/03/2026 4:00 AM,2026-10-03T08:29:59.691202Z
-Ryan Peake,6000,Round 3,Showdown,,818541,44362006,10/03/2026 4:00 AM,2026-10-03T08:29:59.691207Z
-Ockie Strydom,6000,Round 3,Showdown,,262,44362007,10/03/2026 4:00 AM,2026-10-03T08:29:59.691214Z
-Clement Charmasson,6000,Round 3,Showdown,,857133,44362008,10/03/2026 4:00 AM,2026-10-03T08:29:59.691219Z
-Daniel Gavins,6000,Round 3,Showdown,,1204,44362009,10/03/2026 4:00 AM,2026-10-03T08:29:59.691224Z
-Joshua Berry,6000,Round 3,Showdown,,775022,44362010,10/03/2026 4:00 AM,2026-10-03T08:29:59.691229Z
-Luis Carrera,6000,Round 3,Showdown,,772983,44362011,10/03/2026 4:00 AM,2026-10-03T08:29:59.691233Z
-Oliver Wilson,6000,Round 3,Showdown,https://dkn.gs/sports/images/golf/players/50/1208.png,184,44362012,10/03/2026 4:00 AM,2026-10-03T08:29:59.691238Z
-Charles Porter,6000,Round 3,Showdown,,770197,44362013,10/03/2026 4:00 AM,2026-10-03T08:29:59.691243Z
-Jeong-Weon Ko,6000,Round 3,Showdown,,699573,44362014,10/03/2026 4:00 AM,2026-10-03T08:29:59.691248Z
-Matias Sanchez,6000,Round 3,Showdown,,776735,44362015,10/03/2026 4:00 AM,2026-10-03T08:29:59.691253Z
+Jackson Koivun,11100,Weekend,Classic,,796535,44366097,10/03/2026 12:20 PM,2026-10-03T13:40:29.484934Z
+Benjamin James,10700,Weekend,Classic,,765775,44366098,10/03/2026 12:20 PM,2026-10-03T13:40:29.484948Z
+Michael Brennan,10400,Weekend,Classic,,762470,44366099,10/03/2026 12:20 PM,2026-10-03T13:40:29.484957Z
+Doug Ghim,9900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44366100,10/03/2026 12:20 PM,2026-10-03T13:40:29.484965Z
+Jackson Suber,9800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44366101,10/03/2026 12:20 PM,2026-10-03T13:40:29.484972Z
+Kevin Yu,9600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44366102,10/03/2026 12:20 PM,2026-10-03T13:40:29.484979Z
+Maverick McNealy,9500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44366103,10/03/2026 12:20 PM,2026-10-03T13:40:29.484985Z
+Ben Kohles,9400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44366104,10/03/2026 12:20 PM,2026-10-03T13:40:29.484995Z
+Matt Wallace,9300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44366105,10/03/2026 12:20 PM,2026-10-03T13:40:29.485002Z
+Marco Penge,9200,Weekend,Classic,,698887,44366106,10/03/2026 12:20 PM,2026-10-03T13:40:29.485008Z
+Harry Hall,9100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44366107,10/03/2026 12:20 PM,2026-10-03T13:40:29.485014Z
+Matthew McCarty,9000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44366108,10/03/2026 12:20 PM,2026-10-03T13:40:29.485020Z
+Jordan L. Smith,8900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44366109,10/03/2026 12:20 PM,2026-10-03T13:40:29.485027Z
+Max Homa,8800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44366110,10/03/2026 12:20 PM,2026-10-03T13:40:29.485032Z
+Eric Cole,8700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525717.png,704063,44366111,10/03/2026 12:20 PM,2026-10-03T13:40:29.485038Z
+Davis Thompson,8600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44366112,10/03/2026 12:20 PM,2026-10-03T13:40:29.485043Z
+Zachary Bauchou,8500,Weekend,Classic,,689973,44366113,10/03/2026 12:20 PM,2026-10-03T13:40:29.485049Z
+Rico Hoey,8400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,44366114,10/03/2026 12:20 PM,2026-10-03T13:40:29.485054Z
+Johnny Keefer,8300,Weekend,Classic,,814141,44366115,10/03/2026 12:20 PM,2026-10-03T13:40:29.485060Z
+Nick Taylor,8200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/515.png,700,44366116,10/03/2026 12:20 PM,2026-10-03T13:40:29.485065Z
+Kevin Roy,8100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44366117,10/03/2026 12:20 PM,2026-10-03T13:40:29.485074Z
+Stephan Jaeger,8000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44366118,10/03/2026 12:20 PM,2026-10-03T13:40:29.485080Z
+Mac Meissner,8000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44366119,10/03/2026 12:20 PM,2026-10-03T13:40:29.485085Z
+Rasmus Højgaard,7900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44366120,10/03/2026 12:20 PM,2026-10-03T13:40:29.485093Z
+Christiaan Bezuidenhout,7900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44366121,10/03/2026 12:20 PM,2026-10-03T13:40:29.485100Z
+Sudarshan Yellamaraju,7800,Weekend,Classic,,772264,44366122,10/03/2026 12:20 PM,2026-10-03T13:40:29.485106Z
+Chris Kirk,7800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,44366123,10/03/2026 12:20 PM,2026-10-03T13:40:29.485111Z
+Neal Shipley,7700,Weekend,Classic,,793366,44366124,10/03/2026 12:20 PM,2026-10-03T13:40:29.485117Z
+Pierceson Coody,7700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44366125,10/03/2026 12:20 PM,2026-10-03T13:40:29.485124Z
+Billy Horschel,7600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44366126,10/03/2026 12:20 PM,2026-10-03T13:40:29.485129Z
+Max Greyserman,7600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44366127,10/03/2026 12:20 PM,2026-10-03T13:40:29.485134Z
+Emiliano Grillo,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1085.png,610,44366128,10/03/2026 12:20 PM,2026-10-03T13:40:29.485140Z
+Beau Hossler,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44366129,10/03/2026 12:20 PM,2026-10-03T13:40:29.485145Z
+Steven Fisk,7500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44366130,10/03/2026 12:20 PM,2026-10-03T13:40:29.485150Z
+Zac Blair,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/614.png,530,44366131,10/03/2026 12:20 PM,2026-10-03T13:40:29.485155Z
+John Parry,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44366132,10/03/2026 12:20 PM,2026-10-03T13:40:29.485177Z
+Max McGreevy,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44366133,10/03/2026 12:20 PM,2026-10-03T13:40:29.485184Z
+Kris Ventura,7400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44366134,10/03/2026 12:20 PM,2026-10-03T13:40:29.485189Z
+Austin Smotherman,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451957.png,477949,44366135,10/03/2026 12:20 PM,2026-10-03T13:40:29.485194Z
+Hao-Tong Li,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44366136,10/03/2026 12:20 PM,2026-10-03T13:40:29.485199Z
+Mackenzie Hughes,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/635.png,552,44366137,10/03/2026 12:20 PM,2026-10-03T13:40:29.485207Z
+Matthieu Pavon,7300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44366138,10/03/2026 12:20 PM,2026-10-03T13:40:29.485213Z
+Trace Crowe,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,44366139,10/03/2026 12:20 PM,2026-10-03T13:40:29.485218Z
+Chad Ramey,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/983.png,2119,44366140,10/03/2026 12:20 PM,2026-10-03T13:40:29.485223Z
+Denny McCarthy,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44366141,10/03/2026 12:20 PM,2026-10-03T13:40:29.485228Z
+David Ford,7200,Weekend,Classic,,773829,44366142,10/03/2026 12:20 PM,2026-10-03T13:40:29.485233Z
+Taylor Moore,7200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44366143,10/03/2026 12:20 PM,2026-10-03T13:40:29.485238Z
+John VanDerLaan,7100,Weekend,Classic,,689877,44366144,10/03/2026 12:20 PM,2026-10-03T13:40:29.485243Z
+Joel Dahmen,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/521.png,1622,44366145,10/03/2026 12:20 PM,2026-10-03T13:40:29.485250Z
+A.J. Ewart,7100,Weekend,Classic,,765420,44366146,10/03/2026 12:20 PM,2026-10-03T13:40:29.485255Z
+Seamus Power,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44366147,10/03/2026 12:20 PM,2026-10-03T13:40:29.485262Z
+William Mouw,7100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,44366148,10/03/2026 12:20 PM,2026-10-03T13:40:29.485267Z
+Patrick Fishburn,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,44366149,10/03/2026 12:20 PM,2026-10-03T13:40:29.485272Z
+Lee Hodges,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44366150,10/03/2026 12:20 PM,2026-10-03T13:40:29.485278Z
+Hayden Springer,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44366151,10/03/2026 12:20 PM,2026-10-03T13:40:29.485283Z
+Takumi Kanaya,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44366152,10/03/2026 12:20 PM,2026-10-03T13:40:29.485288Z
+Kevin Streelman,7000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44366153,10/03/2026 12:20 PM,2026-10-03T13:40:29.485293Z
+Zecheng Dou,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450649.png,770,44366154,10/03/2026 12:20 PM,2026-10-03T13:40:29.485298Z
+Garrick Higgo,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,44366155,10/03/2026 12:20 PM,2026-10-03T13:40:29.485303Z
+David Lipsky,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/752.png,586,44366156,10/03/2026 12:20 PM,2026-10-03T13:40:29.485311Z
+Tony Finau,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44366157,10/03/2026 12:20 PM,2026-10-03T13:40:29.485316Z
+Erik Van Rooyen,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,44366158,10/03/2026 12:20 PM,2026-10-03T13:40:29.485321Z
+Andrew Putnam,6900,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/730.png,665,44366159,10/03/2026 12:20 PM,2026-10-03T13:40:29.485326Z
+Gordon Sargent,6800,Weekend,Classic,,771299,44366160,10/03/2026 12:20 PM,2026-10-03T13:40:29.485332Z
+Nick Dunlap,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,44366161,10/03/2026 12:20 PM,2026-10-03T13:40:29.485337Z
+Tom Hoge,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44366162,10/03/2026 12:20 PM,2026-10-03T13:40:29.485342Z
+Jesper Svensson,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44366163,10/03/2026 12:20 PM,2026-10-03T13:40:29.485347Z
+Chandler Phillips,6800,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44366164,10/03/2026 12:20 PM,2026-10-03T13:40:29.485353Z
+Pontus Nyholm,6800,Weekend,Classic,,690519,44366165,10/03/2026 12:20 PM,2026-10-03T13:40:29.485358Z
+Aldrich Potgieter,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44366166,10/03/2026 12:20 PM,2026-10-03T13:40:29.485363Z
+Lucas Glover,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/992.png,2158,44366167,10/03/2026 12:20 PM,2026-10-03T13:40:29.485368Z
+Tyler Duncan,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/599.png,1842,44366168,10/03/2026 12:20 PM,2026-10-03T13:40:29.485373Z
+Patrick Rodgers,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44366169,10/03/2026 12:20 PM,2026-10-03T13:40:29.485378Z
+Adam Svensson,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44366170,10/03/2026 12:20 PM,2026-10-03T13:40:29.485385Z
+Harry Higgs,6700,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/565.png,698025,44366171,10/03/2026 12:20 PM,2026-10-03T13:40:29.485390Z
+Davis Chatfield,6600,Weekend,Classic,,769810,44366172,10/03/2026 12:20 PM,2026-10-03T13:40:29.485395Z
+Luke Clanton,6600,Weekend,Classic,,796547,44366173,10/03/2026 12:20 PM,2026-10-03T13:40:29.485401Z
+Justin Lower,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/450914.png,1295,44366174,10/03/2026 12:20 PM,2026-10-03T13:40:29.485407Z
+Isaiah Salinda,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/67664.png,699174,44366175,10/03/2026 12:20 PM,2026-10-03T13:40:29.485412Z
+Adrien Dumont De Chassart,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44366176,10/03/2026 12:20 PM,2026-10-03T13:40:29.485420Z
+Hank Lebioda,6600,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/526.png,692004,44366177,10/03/2026 12:20 PM,2026-10-03T13:40:29.485426Z
+Tyson Shelley,6500,Weekend,Classic,,774714,44366178,10/03/2026 12:20 PM,2026-10-03T13:40:29.485431Z
+Mark Hubbard,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/629.png,2056,44366179,10/03/2026 12:20 PM,2026-10-03T13:40:29.485436Z
+Kihei Akina,6500,Weekend,Classic,,798645,44366180,10/03/2026 12:20 PM,2026-10-03T13:40:29.485441Z
+David Skinns,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44366181,10/03/2026 12:20 PM,2026-10-03T13:40:29.485446Z
+Alejandro Tosti,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44366182,10/03/2026 12:20 PM,2026-10-03T13:40:29.485451Z
+Paul Peterson,6500,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/960.png,1294,44366183,10/03/2026 12:20 PM,2026-10-03T13:40:29.485456Z
+Ben Silverman,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44366184,10/03/2026 12:20 PM,2026-10-03T13:40:29.485461Z
+Cameron Davis,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/578.png,330678,44366185,10/03/2026 12:20 PM,2026-10-03T13:40:29.485466Z
+Peter Malnati,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/660.png,1210,44366186,10/03/2026 12:20 PM,2026-10-03T13:40:29.485471Z
+Chandler Blanchet,6400,Weekend,Classic,,703933,44366187,10/03/2026 12:20 PM,2026-10-03T13:40:29.485478Z
+Will Gordon,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44366188,10/03/2026 12:20 PM,2026-10-03T13:40:29.485483Z
+Rafael Campos,6400,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/570.png,1971,44366189,10/03/2026 12:20 PM,2026-10-03T13:40:29.485488Z
+Patton Kizzire,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/592.png,856,44366190,10/03/2026 12:20 PM,2026-10-03T13:40:29.485493Z
+Ben Martin,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1125.png,2065,44366191,10/03/2026 12:20 PM,2026-10-03T13:40:29.485498Z
+Davis Riley,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,44366192,10/03/2026 12:20 PM,2026-10-03T13:40:29.485504Z
+Danny Walker,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,44366193,10/03/2026 12:20 PM,2026-10-03T13:40:29.485511Z
+Nick Hardy,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/1202.png,1411,44366194,10/03/2026 12:20 PM,2026-10-03T13:40:29.485516Z
+Dylan Wu,6300,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,44366195,10/03/2026 12:20 PM,2026-10-03T13:40:29.485523Z
+Vince Whaley,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/667.png,698823,44366196,10/03/2026 12:20 PM,2026-10-03T13:40:29.485528Z
+Aaron Wise,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/850.png,83255,44366197,10/03/2026 12:20 PM,2026-10-03T13:40:29.485533Z
+Michael Thompson,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/835.png,654,44366198,10/03/2026 12:20 PM,2026-10-03T13:40:29.485538Z
+David Lingmerth,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/534.png,456,44366199,10/03/2026 12:20 PM,2026-10-03T13:40:29.485543Z
+Joe Highsmith,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,44366200,10/03/2026 12:20 PM,2026-10-03T13:40:29.485548Z
+Brice Garnett,6200,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44366201,10/03/2026 12:20 PM,2026-10-03T13:40:29.485553Z
+Boston Bracken,6100,Weekend,Classic,,889755,44366202,10/03/2026 12:20 PM,2026-10-03T13:40:29.485558Z
+Brendon Todd,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/539.png,1438,44366203,10/03/2026 12:20 PM,2026-10-03T13:40:29.485563Z
+Seonghyeon An,6100,Weekend,Classic,,890356,44366204,10/03/2026 12:20 PM,2026-10-03T13:40:29.485568Z
+Marcelo Rozo,6100,Weekend,Classic,,2083,44366205,10/03/2026 12:20 PM,2026-10-03T13:40:29.485573Z
+Rhett Rasmussen,6100,Weekend,Classic,,671067,44366206,10/03/2026 12:20 PM,2026-10-03T13:40:29.485579Z
+Jimmy Stanger,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/451913.png,425346,44366207,10/03/2026 12:20 PM,2026-10-03T13:40:29.485584Z
+Adam Schenk,6100,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/638.png,648099,44366208,10/03/2026 12:20 PM,2026-10-03T13:40:29.485589Z
+Kensei Hirata,6000,Weekend,Classic,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,44366209,10/03/2026 12:20 PM,2026-10-03T13:40:29.485594Z
+Jeffrey Kang,6000,Weekend,Classic,,762326,44366210,10/03/2026 12:20 PM,2026-10-03T13:40:29.485599Z
+Bowen Mauss,6000,Weekend,Classic,,815852,44366211,10/03/2026 12:20 PM,2026-10-03T13:40:29.485603Z
+Matt Snyder,6000,Weekend,Classic,,796666,44366212,10/03/2026 12:20 PM,2026-10-03T13:40:29.485608Z
+Christo Lamprecht,6000,Weekend,Classic,,670532,44366213,10/03/2026 12:20 PM,2026-10-03T13:40:29.485614Z
+Zach J. Johnson,6000,Weekend,Classic,,690311,44366214,10/03/2026 12:20 PM,2026-10-03T13:40:29.485621Z
+Carson Lundell,6000,Weekend,Classic,,767091,44366215,10/03/2026 12:20 PM,2026-10-03T13:40:29.485629Z
