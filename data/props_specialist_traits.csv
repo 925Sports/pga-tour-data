@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,LARRY PACKARD,420,False,Black Desert Resort,Bank of Utah Championship
-style,STYLE,PARKLAND,754,False,Black Desert Resort,Bank of Utah Championship
-greens,GREENS,BERMUDA,686,True,Black Desert Resort,Bank of Utah Championship
-greens_2,GREENS (2),TIFEAGLE,584,True,Black Desert Resort,Bank of Utah Championship
-fairways,FAIRWAYS,BERMUDA,754,False,Black Desert Resort,Bank of Utah Championship
-length,LENGTH,NORMAL,889,False,Black Desert Resort,Bank of Utah Championship
-par,PAR,71.0,781,False,Black Desert Resort,Bank of Utah Championship
-scoring,SCORING,HARD,524,False,Black Desert Resort,Bank of Utah Championship
-weather,WEATHER,FAIR,386,False,Black Desert Resort,Bank of Utah Championship
-type,TYPE,FULL,1247,False,Black Desert Resort,Bank of Utah Championship
-fairway_width,FAIRWAY WIDTH,SMALL,676,False,Black Desert Resort,Bank of Utah Championship
-green_width,GREEN WIDTH,SMALL,1169,True,Black Desert Resort,Bank of Utah Championship
-green_speeds,GREEN SPEEDS,12.0,653,True,Black Desert Resort,Bank of Utah Championship
-green_speeds_1,GREEN SPEEDS.1,NORMAL,653,True,Black Desert Resort,Bank of Utah Championship
-rough_length,ROUGH LENGTH,THICK,819,False,Black Desert Resort,Bank of Utah Championship
-water_hazards,WATER HAZARDS,8.0,388,False,Black Desert Resort,Bank of Utah Championship
-rough_amount,ROUGH AMOUNT,NORMAL,584,False,Black Desert Resort,Bank of Utah Championship
-bunkers,BUNKERS,74.0,420,False,Black Desert Resort,Bank of Utah Championship
-location,LOCATION,FLORIDA,584,False,Black Desert Resort,Bank of Utah Championship
-redesigned,Redesigned,JACK NICKLAUS,164,False,Black Desert Resort,Bank of Utah Championship
-drainage,DRAINAGE,GOOD,420,False,Black Desert Resort,Bank of Utah Championship
-rain,RAIN,NO,1225,False,Black Desert Resort,Bank of Utah Championship
+designer,DESIGNER,TOM FAZIO,1668,False,Yokohama Country Club (West Course),Baycurrent Classic
+style,STYLE,PARKLAND,7475,False,Yokohama Country Club (West Course),Baycurrent Classic
+greens,GREENS,BERMUDA,5350,True,Yokohama Country Club (West Course),Baycurrent Classic
+greens_2,GREENS (2),POA,3019,True,Yokohama Country Club (West Course),Baycurrent Classic
+fairways,FAIRWAYS,BERMUDA,7058,False,Yokohama Country Club (West Course),Baycurrent Classic
+length,LENGTH,LONG,6832,False,Yokohama Country Club (West Course),Baycurrent Classic
+par,PAR,72.0,6457,False,Yokohama Country Club (West Course),Baycurrent Classic
+scoring,SCORING,HARD,6190,False,Yokohama Country Club (West Course),Baycurrent Classic
+weather,WEATHER,FAIR,4801,False,Yokohama Country Club (West Course),Baycurrent Classic
+type,TYPE,FULL,12108,False,Yokohama Country Club (West Course),Baycurrent Classic
+fairway_width,FAIRWAY WIDTH,SMALL,6611,False,Yokohama Country Club (West Course),Baycurrent Classic
+green_width,GREEN WIDTH,SMALL,12704,True,Yokohama Country Club (West Course),Baycurrent Classic
+green_speeds,GREEN SPEEDS,12.0,2142,True,Yokohama Country Club (West Course),Baycurrent Classic
+green_speeds_1,GREEN SPEEDS.1,FAST,2703,True,Yokohama Country Club (West Course),Baycurrent Classic
+rough_length,ROUGH LENGTH,NORMAL,6164,False,Yokohama Country Club (West Course),Baycurrent Classic
+water_hazards,WATER HAZARDS,4.0,2234,False,Yokohama Country Club (West Course),Baycurrent Classic
+rough_amount,ROUGH AMOUNT,NORMAL,6000,False,Yokohama Country Club (West Course),Baycurrent Classic
+bunkers,BUNKERS,84.0,1066,False,Yokohama Country Club (West Course),Baycurrent Classic
+location,LOCATION,CALIFORNIA,2380,False,Yokohama Country Club (West Course),Baycurrent Classic
+redesigned,Redesigned,JACK NICKLAUS,946,False,Yokohama Country Club (West Course),Baycurrent Classic
+drainage,DRAINAGE,GOOD,7361,False,Yokohama Country Club (West Course),Baycurrent Classic
+rain,RAIN,NO,12820,False,Yokohama Country Club (West Course),Baycurrent Classic

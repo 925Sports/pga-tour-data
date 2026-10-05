@@ -1,205 +1,205 @@
 {
-  "course_name": "Black Desert Resort",
-  "event_name": "Bank of Utah Championship",
-  "trait_sig": "DESIGNER:LARRY PACKARD | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "Yokohama Country Club (West Course)",
+  "event_name": "Baycurrent Classic",
+  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:NORMAL | WATER HAZARDS:4.0 | ROUGH AMOUNT:NORMAL | BUNKERS:84.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "LARRY PACKARD",
-      "count": 420,
+      "value": "TOM FAZIO",
+      "count": 1668,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 754,
+      "count": 7475,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 686,
+      "count": 5350,
       "green": true,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "greens_2",
       "label": "GREENS (2)",
-      "value": "TIFEAGLE",
-      "count": 584,
+      "value": "POA",
+      "count": 3019,
       "green": true,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 754,
+      "count": 7058,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "length",
       "label": "LENGTH",
-      "value": "NORMAL",
-      "count": 889,
+      "value": "LONG",
+      "count": 6832,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "par",
       "label": "PAR",
-      "value": "71.0",
-      "count": 781,
+      "value": "72.0",
+      "count": 6457,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "scoring",
       "label": "SCORING",
       "value": "HARD",
-      "count": 524,
+      "count": 6190,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 386,
+      "count": 4801,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 1247,
+      "count": 12108,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 676,
+      "count": 6611,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 1169,
+      "count": 12704,
       "green": true,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "12.0",
-      "count": 653,
+      "count": 2142,
       "green": true,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
-      "value": "NORMAL",
-      "count": 653,
+      "value": "FAST",
+      "count": 2703,
       "green": true,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
-      "value": "THICK",
-      "count": 819,
+      "value": "NORMAL",
+      "count": 6164,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "8.0",
-      "count": 388,
+      "value": "4.0",
+      "count": 2234,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 584,
+      "count": 6000,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "74.0",
-      "count": 420,
+      "value": "84.0",
+      "count": 1066,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "FLORIDA",
-      "count": 584,
+      "value": "CALIFORNIA",
+      "count": 2380,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "redesigned",
       "label": "Redesigned",
       "value": "JACK NICKLAUS",
-      "count": 164,
+      "count": 946,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 420,
+      "count": 7361,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 1225,
+      "count": 12820,
       "green": false,
-      "course_name": "Black Desert Resort",
-      "event_name": "Bank of Utah Championship"
+      "course_name": "Yokohama Country Club (West Course)",
+      "event_name": "Baycurrent Classic"
     }
   ],
   "field_avgs": {

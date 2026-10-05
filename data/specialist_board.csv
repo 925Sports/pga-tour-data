@@ -1,117 +1,73 @@
 player_name,course_name,starts,rounds,sg_total_avg,avg_finish,best,cut_pct,last3,spec_rank
-"James, Ben",Black Desert Resort,0,0,,,,,,
-"Brennan, Michael",Black Desert Resort,2,10,2.086,13.0,13.0,50.0,13|CUT,1.0
-"Koivun, Jackson",Black Desert Resort,0,0,,,,,,
-"Kohles, Ben",Black Desert Resort,10,46,-0.176,37.4,8.0,50.0,13|CUT|CUT,36.0
-"Horschel, Billy",Black Desert Resort,8,52,1.538,24.75,1.0,0.0,13|68|42,2.0
-"Kirk, Chris",Black Desert Resort,0,0,,,,,,
-"Suber, Jackson",Black Desert Resort,7,32,-0.302,46.2,9.0,28.6,40|CUT|9,37.0
-"McCarty, Matt",Black Desert Resort,5,26,1.011,36.25,1.0,20.0,53|CUT|1,9.0
-"Hoey, Rico",Black Desert Resort,0,0,,,,,,
-"Glover, Lucas",Black Desert Resort,0,0,,,,,,
-"Greyserman, Max",Black Desert Resort,8,30,0.576,30.0,9.0,37.5,CUT|9|CUT,16.0
-"Roy, Kevin",Black Desert Resort,11,52,0.049,41.8,13.0,54.5,32|62|73,31.0
-"Power, Seamus",Black Desert Resort,0,0,,,,,,
-"Shipley, Neal",Black Desert Resort,0,0,,,,,,
-"Ghim, Doug",Black Desert Resort,9,68,0.714,27.67,2.0,0.0,2|40|17,14.0
-"Keefer, Johnny",Black Desert Resort,3,10,0.002,11.0,10.0,33.3,10|CUT|12,33.0
-"Ventura, Kristoffer",Black Desert Resort,4,14,1.372,18.0,7.0,25.0,32|15|CUT,4.0
-"Penge, Marco",Black Desert Resort,0,0,,,,,,
-"Fishburn, Patrick",Black Desert Resort,0,0,,,,,,
-"Lower, Justin",Black Desert Resort,0,0,,,,,,
-"Mouw, William",Black Desert Resort,0,0,,,,,,
-"Smith, Jordan",Black Desert Resort,12,58,1.153,21.91,3.0,8.3,26|3|7,6.0
-"Eckroat, Austin",Black Desert Resort,0,0,,,,,,
-"Ramey, Chad",Black Desert Resort,0,0,,,,,,
-"Wallace, Matt",Black Desert Resort,14,78,1.217,18.82,1.0,21.4,CUT|40|7,5.0
-"Jaeger, Stephan",Black Desert Resort,13,70,0.949,20.89,1.0,30.8,26|CUT|7,10.0
-"Hodges, Lee",Black Desert Resort,9,44,0.483,19.0,5.0,33.3,13|18|14,19.0
-"Streelman, Kevin",Black Desert Resort,0,0,,,,,,
-"Bauchou, Zach",Black Desert Resort,4,18,1.056,21.67,9.0,25.0,13|9|CUT,8.0
-"Homa, Max",Black Desert Resort,9,46,0.906,31.6,1.0,44.4,26|CUT|7,11.0
-"Grillo, Emiliano",Black Desert Resort,0,0,,,,,,
-"Springer, Hayden",Black Desert Resort,0,0,,,,,,
-"Hall, Harry",Black Desert Resort,0,0,,,,,,
-"Meissner, Mac",Black Desert Resort,7,40,-0.043,39.0,25.0,71.4,CUT|CUT|53,35.0
-"Duncan, Tyler",Black Desert Resort,0,0,,,,,,
-"Silverman, Ben",Black Desert Resort,0,0,,,,,,
-"Hughes, Mackenzie",Black Desert Resort,0,0,,,,,,
-"Kanaya, Takumi",Black Desert Resort,5,22,-0.009,36.0,26.0,60.0,26|CUT|46,34.0
-"Sargent, Gordon",Black Desert Resort,0,0,,,,,,
-"Thompson, Davis",Black Desert Resort,8,38,0.687,30.0,9.0,0.0,62|46|30,15.0
-"Blair, Zac",Black Desert Resort,0,0,,,,,,
-"Bezuidenhout, Christiaan",Black Desert Resort,8,45,0.42,39.0,29.0,14.3,32|69|30,22.0
-"Parry, John",Black Desert Resort,8,26,0.012,40.6,19.0,37.5,59|55|33,32.0
-"Cole, Eric",Black Desert Resort,0,0,,,,,,
-"Yu, Kevin",Black Desert Resort,6,36,0.568,23.75,9.0,33.3,32|24|30,17.0
-"Hossler, Beau",Black Desert Resort,13,84,0.056,39.56,11.0,30.8,53|42|CUT,30.0
-"Phillips, Chandler",Black Desert Resort,6,29,0.133,34.0,13.0,60.0,CUT|55|WD,28.0
-"Lipsky, David",Black Desert Resort,15,82,0.729,25.09,2.0,21.4,26|2|30,12.0
-"Neergaard-Petersen, Rasmus",Black Desert Resort,5,24,1.079,32.4,4.0,0.0,55|19|4,7.0
-"Svensson, Adam",Black Desert Resort,0,0,,,,,,
-"VanDerLaan, John",Black Desert Resort,0,0,,,,,,
-"Crowe, Trace",Black Desert Resort,0,0,,,,,,
-"McCarthy, Denny",Black Desert Resort,8,48,0.199,27.67,25.0,62.5,CUT|26|CUT,26.0
-"Pendrith, Taylor",Black Desert Resort,9,42,0.188,36.75,16.0,55.6,CUT|CUT|CUT,27.0
-"Malnati, Peter",Black Desert Resort,0,0,,,,,,
-"Wise, Aaron",Black Desert Resort,0,0,,,,,,
-"Ewart, A.J.",Black Desert Resort,0,0,,,,,,
-"McNealy, Maverick",Black Desert Resort,6,38,0.523,46.67,36.0,50.0,CUT|36|CUT,18.0
-"Schenk, Adam",Black Desert Resort,0,0,,,,,,
-"Peterson, Paul",Black Desert Resort,0,0,,,,,,
-"Garnett, Brice",Black Desert Resort,0,0,,,,,,
-"Dahmen, Joel",Black Desert Resort,0,0,,,,,,
-"Taylor, Nick",Black Desert Resort,9,60,0.336,29.2,6.0,44.4,53|CUT|6,25.0
-"Rodgers, Patrick",Black Desert Resort,10,66,0.438,29.0,11.0,30.0,45|40|CUT,21.0
-"Clanton, Luke",Black Desert Resort,0,0,,,,,,
-"Chatfield, Davis",Black Desert Resort,0,0,,,,,,
-"Dou, Zecheng",Black Desert Resort,0,0,,,,,,
-"Whaley, Vince",Black Desert Resort,0,0,,,,,,
-"Ford, David",Black Desert Resort,0,0,,,,,,
-"Kizzire, Patton",Black Desert Resort,0,0,,,,,,
-"Hubbard, Mark",Black Desert Resort,0,0,,,,,,
-"Martin, Ben",Black Desert Resort,0,0,,,,,,
-"Akina, Kihei",Black Desert Resort,0,0,,,,,,
-"Lebioda, Hank",Black Desert Resort,0,0,,,,,,
-"Smotherman, Austin",Black Desert Resort,0,0,,,,,,
-"Coody, Pierceson",Black Desert Resort,8,39,0.351,41.2,12.0,37.5,CUT|55|12,24.0
-"Wu, Dylan",Black Desert Resort,0,0,,,,,,
-"Davis, Cam",Black Desert Resort,0,0,,,,,,
-"Fisk, Steven",Black Desert Resort,6,24,0.721,19.0,7.0,50.0,7|CUT|20,13.0
-"Highsmith, Joe",Black Desert Resort,0,0,,,,,,
-"Salinda, Isaiah",Black Desert Resort,0,0,,,,,,
-"Hoge, Tom",Black Desert Resort,9,56,0.453,24.0,7.0,33.3,CUT|12|CUT,20.0
-"Riley, Davis",Black Desert Resort,0,0,,,,,,
-"McGreevy, Max",Black Desert Resort,0,0,,,,,,
-"Putnam, Andrew",Black Desert Resort,10,56,0.115,37.43,11.0,30.0,CUT|30|CUT,29.0
-"Higgo, Garrick",Black Desert Resort,0,0,,,,,,
-"Skinns, David",Black Desert Resort,0,0,,,,,,
-"Li, Haotong",Black Desert Resort,0,0,,,,,,
-"Finau, Tony",Black Desert Resort,6,30,1.497,20.0,2.0,16.7,CUT|18|2,3.0
-"Mauss, Bowen",Black Desert Resort,0,0,,,,,,
-"Shelley, Tyson",Black Desert Resort,0,0,,,,,,
-"Moore, Taylor",Black Desert Resort,8,44,0.369,29.8,4.0,37.5,45|CUT|36,23.0
-"Todd, Brendon",Black Desert Resort,0,0,,,,,,
-"Svensson, Jesper",Black Desert Resort,0,0,,,,,,
-"Bracken, Boston",Black Desert Resort,0,0,,,,,,
-"Yellamaraju, Sudarshan",Black Desert Resort,0,0,,,,,,
-"Walker, Danny",Black Desert Resort,0,0,,,,,,
-"Van Rooyen, Erik",Black Desert Resort,0,0,,,,,,
-"Johnson, Zach J.",Black Desert Resort,0,0,,,,,,
-"Kang, Jeffrey",Black Desert Resort,0,0,,,,,,
-"Blanchet, Chandler",Black Desert Resort,0,0,,,,,,
-"Nyholm, Pontus",Black Desert Resort,0,0,,,,,,
-"Thompson, Michael",Black Desert Resort,0,0,,,,,,
-"Dumont De Chassart, Adrien",Black Desert Resort,0,0,,,,,,
-"Campos, Rafael",Black Desert Resort,0,0,,,,,,
-"Dunlap, Nick",Black Desert Resort,0,0,,,,,,
-"Pavon, Matthieu",Black Desert Resort,0,0,,,,,,
-"Potgieter, Aldrich",Black Desert Resort,4,11,-1.381,40.0,40.0,75.0,CUT|40|CUT,38.0
-"Tosti, Alejandro",Black Desert Resort,0,0,,,,,,
-"Hojgaard, Rasmus",Black Desert Resort,0,0,,,,,,
-"Lingmerth, David",Black Desert Resort,0,0,,,,,,
-"Pan, C.T.",Black Desert Resort,0,0,,,,,,
-"Stanger, Jimmy",Black Desert Resort,0,0,,,,,,
-"Rozo, Marcelo",Black Desert Resort,0,0,,,,,,
-"Hirata, Kensei",Black Desert Resort,0,0,,,,,,
-"Lamprecht, Christo",Black Desert Resort,0,0,,,,,,
+"Schauffele, Xander",Yokohama Country Club (West Course),32,338,1.499,16.55,1.0,9.4,26|2|18,1.0
+"Brennan, Michael",Yokohama Country Club (West Course),16,55,0.566,34.83,1.0,25.0,10|1|15,32.0
+"Bridgeman, Jacob",Yokohama Country Club (West Course),51,232,0.67,27.1,1.0,18.0,9|26|28,22.0
+"Kohles, Ben",Yokohama Country Club (West Course),65,352,1.07,24.13,1.0,15.6,29|26|15,6.0
+"Matsuyama, Hideki",Yokohama Country Club (West Course),34,376,0.783,29.03,1.0,8.8,28|7|5,11.0
+"Horschel, Billy",Yokohama Country Club (West Course),41,329,0.619,33.19,1.0,24.4,12|CUT|CUT,28.0
+"Harman, Brian",Yokohama Country Club (West Course),35,364,0.233,32.8,2.0,28.6,CUT|CUT|36,53.0
+"Morikawa, Collin",Yokohama Country Club (West Course),34,309,1.268,17.45,1.0,12.1,4|18|17,2.0
+"Fowler, Rickie",Yokohama Country Club (West Course),30,304,0.655,24.72,1.0,16.7,37|8|18,25.0
+"Scott, Adam",Yokohama Country Club (West Course),34,314,0.741,26.37,4.0,11.8,16|9|66,15.0
+"Suber, Jackson",Yokohama Country Club (West Course),42,204,0.45,31.5,2.0,36.6,22|50|28,43.0
+"McCarty, Matt",Yokohama Country Club (West Course),52,285,0.756,25.76,1.0,27.5,33|29|50,13.0
+"Im, Sungjae",Yokohama Country Club (West Course),50,425,0.865,20.97,2.0,20.4,10|14|15,9.0
+"Greyserman, Max",Yokohama Country Club (West Course),52,243,0.665,28.24,2.0,24.0,77|50|CUT,23.0
+"Roy, Kevin",Yokohama Country Club (West Course),55,265,0.707,28.37,2.0,35.2,19|26|62,19.0
+"Ghim, Doug",Yokohama Country Club (West Course),32,223,0.182,34.57,12.0,28.1,19|15|CUT,55.0
+"Keefer, Johnny",Yokohama Country Club (West Course),34,121,0.93,24.04,1.0,20.6,CUT|60|59,7.0
+"Ventura, Kristoffer",Yokohama Country Club (West Course),15,59,0.891,24.18,4.0,26.7,54|5|15,8.0
+"Thomas, Justin",Yokohama Country Club (West Course),36,332,1.12,16.79,1.0,5.6,16|14|65,3.0
+"Clark, Wyndham",Yokohama Country Club (West Course),42,288,0.462,18.5,1.0,42.9,1|CUT|CUT,41.0
+"Thorbjornsen, Michael",Yokohama Country Club (West Course),19,84,0.754,24.36,1.0,42.1,37|1|40,14.0
+"Castillo, Ricky",Yokohama Country Club (West Course),42,188,0.722,31.69,1.0,16.7,49|20|44,17.0
+"Smith, Jordan",Yokohama Country Club (West Course),33,182,1.076,24.72,2.0,12.1,14|31|18,5.0
+"Wallace, Matt",Yokohama Country Club (West Course),41,273,0.468,32.62,1.0,27.5,7|5|40,40.0
+"Bradley, Keegan",Yokohama Country Club (West Course),32,349,0.617,29.76,1.0,21.9,49|15|74,29.0
+"Jaeger, Stephan",Yokohama Country Club (West Course),54,303,0.375,30.15,1.0,35.8,CUT|26|CUT,45.0
+"Spieth, Jordan",Yokohama Country Club (West Course),28,303,0.762,26.48,3.0,25.0,19|31|CUT,12.0
+"Hodges, Lee",Yokohama Country Club (West Course),38,239,0.498,28.88,5.0,34.2,72|CUT|CUT,36.0
+"Bauchou, Zach",Yokohama Country Club (West Course),45,200,0.718,23.93,1.0,34.1,14|CUT|9,18.0
+"Kitayama, Kurt",Yokohama Country Club (West Course),38,231,0.256,31.71,2.0,36.8,26|40|44,52.0
+"Homa, Max",Yokohama Country Club (West Course),46,313,0.676,27.06,5.0,30.4,28|39|22,21.0
+"Meissner, Mac",Yokohama Country Club (West Course),44,202,1.087,26.25,2.0,27.3,CUT|26|30,4.0
+"Kanaya, Takumi",Yokohama Country Club (West Course),26,120,0.04,29.0,3.0,53.8,CUT|CUT|CUT,60.0
+"Thompson, Davis",Yokohama Country Club (West Course),38,205,0.59,31.88,2.0,34.2,14|8|CUT,30.0
+"Bezuidenhout, Christiaan",Yokohama Country Club (West Course),45,280,0.646,32.0,3.0,15.6,38|45|69,27.0
+"Parry, John",Yokohama Country Club (West Course),27,98,0.474,29.41,4.0,37.0,38|CUT|28,37.0
+"Yu, Kevin",Yokohama Country Club (West Course),33,165,0.472,27.38,4.0,36.4,4|31|24,39.0
+"Mitchell, Keith",Yokohama Country Club (West Course),45,307,0.456,31.71,2.0,36.4,38|CUT|4,42.0
+"Nakajima, Keita",Yokohama Country Club (West Course),23,83,0.139,28.0,3.0,52.2,20|CUT|3,56.0
+"Hossler, Beau",Yokohama Country Club (West Course),40,296,0.278,26.93,2.0,32.5,2|45|42,50.0
+"Phillips, Chandler",Yokohama Country Club (West Course),43,182,0.427,24.91,1.0,47.6,22|CUT|15,44.0
+"Lipsky, David",Yokohama Country Club (West Course),45,248,0.071,32.89,2.0,36.4,CUT|31|49,59.0
+"Neergaard-Petersen, Rasmus",Yokohama Country Club (West Course),21,85,0.79,34.67,5.0,28.6,CUT|CUT|9,10.0
+"McCarthy, Denny",Yokohama Country Club (West Course),44,351,0.507,33.83,4.0,31.8,29|CUT|39,35.0
+"Pendrith, Taylor",Yokohama Country Club (West Course),40,246,0.55,29.46,2.0,35.0,38|CUT|CUT,34.0
+"McNealy, Maverick",Yokohama Country Club (West Course),39,262,0.654,24.97,1.0,25.6,7|25|CUT,26.0
+"Taylor, Nick",Yokohama Country Club (West Course),37,327,0.3,35.71,1.0,16.2,72|61|59,49.0
+"Smalley, Alex",Yokohama Country Club (West Course),32,208,0.552,23.88,2.0,21.9,16|7|53,33.0
+"Kozuma, Jinichiro",Yokohama Country Club (West Course),22,73,-0.226,28.18,2.0,15.0,40|47|50,63.0
+"Rodgers, Patrick",Yokohama Country Club (West Course),37,350,0.258,33.42,2.0,27.8,CUT|WD|71,51.0
+"Gerard, Ryan",Yokohama Country Club (West Course),55,244,0.688,26.3,1.0,31.5,16|CUT|8,20.0
+"Kim, Michael",Yokohama Country Club (West Course),49,294,0.113,27.0,3.0,40.8,54|8|CUT,58.0
+"Sunagawa, Kosuke",Yokohama Country Club (West Course),0,0,,,,,,
+"Nagasaki, Koshin",Yokohama Country Club (West Course),0,0,,,,,,
+"Ishizaka, Tomohiro",Yokohama Country Club (West Course),0,0,,,,,,
+"Coody, Pierceson",Yokohama Country Club (West Course),51,232,0.58,24.86,1.0,28.0,WD|CUT|28,31.0
+"Theegala, Sahith",Yokohama Country Club (West Course),33,254,0.303,35.72,2.0,12.1,41|49|53,48.0
+"Hisatsune, Ryo",Yokohama Country Club (West Course),32,154,0.131,35.3,6.0,28.1,12|CUT|50,57.0
+"Fisk, Steven",Yokohama Country Club (West Course),44,239,0.66,22.24,1.0,40.5,CUT|CUT|1,24.0
+"Hoge, Tom",Yokohama Country Club (West Course),44,339,-0.013,32.71,3.0,36.4,29|CUT|10,61.0
+"Hosono, Yusaku",Yokohama Country Club (West Course),1,2,-1.885,,,100.0,CUT,68.0
+"Putnam, Andrew",Yokohama Country Club (West Course),44,328,0.473,35.53,2.0,18.2,54|CUT|52,38.0
+"Lee, Sang-hee",Yokohama Country Club (West Course),2,6,-0.682,54.0,54.0,50.0,54|CUT,65.0
+"Lee, Min Woo",Yokohama Country Club (West Course),21,146,0.307,21.0,2.0,23.8,47|59|2,47.0
+"Fujimoto, Yoshinori",Yokohama Country Club (West Course),1,2,-0.814,,,100.0,CUT,66.0
+"Finau, Tony",Yokohama Country Club (West Course),30,298,0.734,28.12,1.0,13.3,61|71|29,16.0
+"Echavarria, Nico",Yokohama Country Club (West Course),27,150,0.324,29.36,1.0,48.1,50|12|CUT,46.0
+"Moore, Taylor",Yokohama Country Club (West Course),48,266,0.187,34.48,1.0,38.3,CUT|60|17,54.0
+"Yonezawa, Ren",Yokohama Country Club (West Course),5,16,-0.212,24.33,20.0,40.0,CUT|31|CUT,62.0
+"Potgieter, Aldrich",Yokohama Country Club (West Course),40,132,-0.282,34.0,1.0,55.0,CUT|CUT|59,64.0
+"Iwata, Hiroshi",Yokohama Country Club (West Course),2,12,-2.091,68.5,68.0,0.0,68|69,69.0
+"Iwasaki, Aguri",Yokohama Country Club (West Course),5,14,-1.594,70.0,67.0,60.0,CUT|73|CUT,67.0
