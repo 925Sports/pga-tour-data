@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-09-14-biltmore-comps-gate -->
+<!-- 925-HUB-VERSION: 2026-10-05-spec-logs-b2b -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -3205,19 +3205,23 @@ function switchFantasySubTab(sub) {
             }
             if (sub === 4) {
                 _specialistBuilt = true;
+                window._forceLiveSpecialist = true;
                 try { buildSpecialist(); } catch (e) {}
-                // Optionally enrich with live logs in background (trait chips)
-                if (!(window.specialistBoard && window.specialistBoard.length) && typeof ensurePlayerLogsLoaded === "function") {
+                if (typeof ensurePlayerLogsLoaded === "function") {
                     ensurePlayerLogsLoaded().then(() => { try { buildSpecialist(); } catch (e) {} }).catch(() => {});
                 }
             }
         };
 
-        // Specialist: paint now from board without waiting for logs
+        // Specialist always comes from this week's course traits in the logs.
         if (sub === 4) {
             try {
                 _specialistBuilt = true;
+                window._forceLiveSpecialist = true;
                 buildSpecialist();
+                if (typeof ensurePlayerLogsLoaded === "function") {
+                    ensurePlayerLogsLoaded().then(() => { try { buildSpecialist(); } catch (e) {} }).catch(() => {});
+                }
             } catch (e) { console.warn(e); }
         }
 
@@ -4080,19 +4084,27 @@ function switchFantasySubTab(sub) {
     function birdieToBogeyRatio(playerName) {
         // Season sheet has no B2B column. PGA "Bogey Avoidance" is bogey-or-worse %.
         // Ratio = birdie-or-better % / bogey-or-worse %. Higher is better.
-        const read = (stat) => {
-            try {
-                const pga = seasonStatForPlayer(playerName, "pga", stat);
-                if (pga && pga.value != null && !isNaN(Number(pga.value)) && Number(pga.value) > 0) return Number(pga.value);
-                const dp = seasonStatForPlayer(playerName, "season_dp", stat);
-                if (dp && dp.value != null && !isNaN(Number(dp.value)) && Number(dp.value) > 0) return Number(dp.value);
-            } catch (e) {}
-            return null;
+        const readPool = (rows) => {
+            if (!rows || !rows.length || !playerName) return null;
+            const row = (typeof findNameRow === "function")
+                ? findNameRow(rows, playerName, ["player", "player_name", "Player", "Name", "name"])
+                : rows.find(r => namesMatch(r.player || r.player_name || r.Player || r.Name || r.name || "", playerName));
+            if (!row) return null;
+            let bob = null, bog = null;
+            Object.keys(row).forEach(k => {
+                const norm = String(k).toLowerCase().replace(/[^a-z0-9]+/g, "");
+                if (norm.endsWith("rank")) return;
+                const n = Number(String(row[k]).replace(/[^0-9.\-+]/g, ""));
+                if (!(n > 0)) return;
+                if (bob == null && (norm.includes("birdieorbetter") || norm === "bob")) bob = n;
+                if (bog == null && norm.includes("bogeyavoid")) bog = n;
+            });
+            if (bob == null || bog == null || !(bog > 0)) return null;
+            return bob / bog;
         };
-        const bob = read("Birdie_or_Better_Percentage");
-        const bog = read("Bogey_Avoidance");
-        if (bob == null || bog == null || !(bog > 0)) return null;
-        return bob / bog;
+        const pga = readPool(typeof pgaSeasonStats !== "undefined" ? pgaSeasonStats : window.pgaSeasonStats);
+        if (pga != null) return pga;
+        return readPool(typeof dpSeasonStats !== "undefined" ? dpSeasonStats : window.dpSeasonStats);
     }
 
     function playerKeyStatValue(playerName, label) {
@@ -4202,8 +4214,18 @@ function switchFantasySubTab(sub) {
     }
 
     function refreshBlankKeyStatRanks() {
+        if (window._fillingS4) return 0;
         if (!(cheatRows && cheatRows.length)) return 0;
         if (!(pgaSeasonStats && pgaSeasonStats.length) && !(dpSeasonStats && dpSeasonStats.length)) return 0;
+        try {
+            const sample = (prebuiltCheat && prebuiltCheat[0]) || null;
+            const fromCsv = sample ? [1,2,3,4,5].map(i => String(sample["key_stat_" + i] || "").trim()) : [];
+            if (fromCsv.some(Boolean) && (!(keyStatNames && keyStatNames[3]) || !/BIRDIE|B2B/i.test(String(keyStatNames[3] || "")))) {
+                keyStatNames = fromCsv;
+                window.keyStatNames = keyStatNames;
+                try { updateKeyStatHeaders(); } catch (e) {}
+            }
+        } catch (e) {}
         const labels = (keyStatNames && keyStatNames.some(Boolean)) ? keyStatNames : [];
         let filled = 0;
         for (let i = 0; i < 5; i++) {
@@ -10451,6 +10473,10 @@ function setEventScope(scope) {
                         }
                     } catch (e) {}
                     try { if (allPlayers.length) { buildCheatSheet(); renderCheatSheet(); } } catch (e) {}
+                    window._forceLiveSpecialist = true;
+                    if (typeof ensurePlayerLogsLoaded === "function") {
+                        ensurePlayerLogsLoaded().then(() => { try { buildSpecialist(); } catch (e) {} }).catch(() => {});
+                    }
                 });
             } catch (e) { console.warn(e); }
             try { applySlateToPlayers(); } catch (e) {}
@@ -17562,13 +17588,13 @@ el.innerHTML = `
         const note = document.getElementById("specialist-metric-note");
         const spSub = document.getElementById("specialist-subtitle");
 
-        // Fast path only when the board is this week's course. A leftover board
-        // (last week's venue) must not stamp SPEC ranks onto the new field.
+        // Trait specialist from the player logs is the default. The precomputed
+        // board is a same-course SG file and was still last week's venue.
+        window._forceLiveSpecialist = true;
         const board = window.specialistBoard || [];
-        const boardCurrent = board.length && (typeof specialistBoardIsCurrent !== "function" || specialistBoardIsCurrent());
-        if (board.length && !boardCurrent) {
-            console.log("[hub] specialist board ignored —", specialistBoardCourse(), "is not", (typeof hubThisWeekCourse === "function" ? hubThisWeekCourse() : currentCourseName));
-            window._forceLiveSpecialist = true;
+        const boardCurrent = false;
+        if (board.length) {
+            console.log("[hub] specialist board skipped — using course-trait logs", specialistBoardCourse() || "");
         }
         if (boardCurrent && !window._forceLiveSpecialist) {
             if (loading) loading.classList.add("hidden");
@@ -21370,12 +21396,8 @@ function renderOwnershipLeverage() {
 
     
     function applySpecRanksFromBoard() {
-        // Fill cheatRows[].specRank from specialist_board.csv (or rank field by SG).
-        // Also mirrors ranks onto specialistRows and recomputes 925 blend when SPEC lands.
-        // Ignore a board built for a different course (last week's venue).
-        const boardOk = (typeof specialistBoardIsCurrent !== "function") || specialistBoardIsCurrent();
-        const board = boardOk ? (window.specialistBoard || []) : [];
-        if (!boardOk) console.log("[hub] SPEC board skipped, course mismatch", typeof specialistBoardCourse === "function" ? specialistBoardCourse() : "");
+        // Course-trait ranks from the logs win. The CSV board is not this week's specialist.
+        const board = [];
         if (!(cheatRows || []).length) return 0;
         const map = {};
         const put = (name, rank) => {
@@ -21387,7 +21409,15 @@ function renderOwnershipLeverage() {
             if (map[k] == null || n < map[k]) map[k] = n;
             map[String(name).toLowerCase()] = map[k];
         };
-        if (board.length) {
+        const liveSpec = (specialistRows || []).filter(r => r && !r.fromBoard && (r.specRank != null || r.sg != null));
+        if (liveSpec.length >= 5) {
+            const ranked = liveSpec.slice().sort((a, b) => {
+                const ar = Number(a.specRank), br = Number(b.specRank);
+                if (ar > 0 && br > 0) return ar - br;
+                return (Number(b.sg) || -999) - (Number(a.sg) || -999);
+            });
+            ranked.forEach((r, i) => put(r.player_name || r.name, (Number(r.specRank) > 0) ? r.specRank : (i + 1)));
+        } else if (board.length) {
             const hasRank = board.some(r => {
                 const v = r.rank ?? r.spec_rank ?? r.specRank ?? r.SPEC;
                 return v != null && v !== "" && !isNaN(Number(v)) && Number(v) > 0;
@@ -23809,8 +23839,7 @@ function getCutStreakFromLogs(playerName) {
         const chRankMap = {};
         chSorted.forEach((r, i) => { chRankMap[(r.player_name || "").toLowerCase()] = i + 1; });
 
-        // Specialist rank by SG (best first) among field
-        // Prefer precomputed specialist_board.csv, then live specialistRows
+        // Specialist rank from this week's course-trait logs, not specialist_board.csv
         const spRankMap = {};
         const putSp = (name, rank) => {
             if (!name || rank == null || isNaN(Number(rank))) return;
@@ -23819,33 +23848,14 @@ function getCutStreakFromLogs(playerName) {
             const low = String(name).toLowerCase();
             if (spRankMap[low] == null) spRankMap[low] = Number(rank);
         };
-        const boardOk = (typeof specialistBoardIsCurrent !== "function") || specialistBoardIsCurrent();
-        const board = boardOk ? (window.specialistBoard || []).slice() : [];
-        if (board.length) {
-            const hasRank = board.some(r => r.rank != null || r.spec_rank != null || r.specRank != null);
-            if (hasRank) {
-                board.forEach(r => {
-                    const name = r.player_name || r.name_adjusted || r.name || "";
-                    putSp(name, r.spec_rank ?? r.specRank ?? r.rank);
-                });
-            } else {
-                const scored = board.map(r => ({
-                    name: r.player_name || r.name_adjusted || r.name || "",
-                    sg: parseFloat(
-                        r.sg_total_avg ?? r.sg_total ?? r.sg ?? r.SG ?? r.sg_avg ??
-                        r.value ?? r.SG_Total
-                    )
-                })).filter(r => r.name && !isNaN(r.sg));
-                scored.sort((a, b) => b.sg - a.sg);
-                scored.forEach((r, i) => putSp(r.name, i + 1));
-            }
-        }
-        if (Object.keys(spRankMap).length < 10) {
-            const spField = (specialistRows || []).filter(r => r.inField && r.sg != null);
-            const spSorted = spField.slice().sort((a, b) => (b.sg || -999) - (a.sg || -999));
-            spSorted.forEach((r, i) => putSp(r.player_name || r.name, i + 1));
-        }
-        if (Object.keys(spRankMap).length < 10 && (prebuiltCheat || []).length) {
+        const liveSpec = (specialistRows || []).filter(r => r && !r.fromBoard && r.sg != null);
+        const spSorted = liveSpec.slice().sort((a, b) => {
+            const ar = Number(a.specRank), br = Number(b.specRank);
+            if (ar > 0 && br > 0) return ar - br;
+            return (Number(b.sg) || -999) - (Number(a.sg) || -999);
+        });
+        spSorted.forEach((r, i) => putSp(r.player_name || r.name, (Number(r.specRank) > 0) ? r.specRank : (i + 1)));
+        if (Object.keys(spRankMap).length < 10 && (prebuiltCheat || []).length && !(window._forceLiveSpecialist)) {
             prebuiltCheat.forEach(r => {
                 const name = r.name_adjusted || r.player_name || "";
                 putSp(name, r.spec ?? r.SPEC ?? r.spec_rank ?? r.specRank);
@@ -25307,6 +25317,17 @@ function getCutStreakFromLogs(playerName) {
     }
 
 function renderCheatSheet() {
+        try {
+            if ((cheatRows || []).some(r => !(Number(r.s4) > 0)) && !window._fillingS4) {
+                window._fillingS4 = true;
+                let filled = 0;
+                try { filled = refreshBlankKeyStatRanks() || 0; } catch (e) {}
+                window._fillingS4 = false;
+                if (!filled && !(pgaSeasonStats && pgaSeasonStats.length) && typeof ensureSeasonStats === "function") {
+                    ensureSeasonStats();
+                }
+            }
+        } catch (e) { window._fillingS4 = false; }
         try {
             if (typeof hubEventTypeIsNoCut === "function" && hubEventTypeIsNoCut() && (cheatRows || []).length) {
                 cheatRows.forEach(r => {
