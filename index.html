@@ -4054,7 +4054,7 @@ function switchFantasySubTab(sub) {
         if (/BIRDIE OR BETTER|BOB/.test(L) && !/RATIO|MATCHUP/.test(L))
             return { seasonKeys: ["Birdie_or_Better_Percentage", "Birdie_or_Better_Percentag", "BOB"], rankKeys: ["Birdie_or_Better_Percentage_Rank"], logKeys: ["birdies"] };
         if (/BIRDIE TO BOGEY|B2B/.test(L))
-            return { seasonKeys: ["B2B", "Birdie_to_Bogey"], rankKeys: [], logKeys: [] };
+            return { seasonKeys: ["B2B", "Birdie_to_Bogey"], rankKeys: [], logKeys: [], derived: "b2b" };
         if (/PAR 5/.test(L))
             return { seasonKeys: ["Par_5", "PAR_5", "Par5"], rankKeys: [], logKeys: [] };
         if (/PAR 4/.test(L))
@@ -4077,9 +4077,31 @@ function switchFantasySubTab(sub) {
 
 
 
+    function birdieToBogeyRatio(playerName) {
+        // Season sheet has no B2B column. PGA "Bogey Avoidance" is bogey-or-worse %.
+        // Ratio = birdie-or-better % / bogey-or-worse %. Higher is better.
+        const read = (stat) => {
+            try {
+                const pga = seasonStatForPlayer(playerName, "pga", stat);
+                if (pga && pga.value != null && !isNaN(Number(pga.value)) && Number(pga.value) > 0) return Number(pga.value);
+                const dp = seasonStatForPlayer(playerName, "season_dp", stat);
+                if (dp && dp.value != null && !isNaN(Number(dp.value)) && Number(dp.value) > 0) return Number(dp.value);
+            } catch (e) {}
+            return null;
+        };
+        const bob = read("Birdie_or_Better_Percentage");
+        const bog = read("Bogey_Avoidance");
+        if (bob == null || bog == null || !(bog > 0)) return null;
+        return bob / bog;
+    }
+
     function playerKeyStatValue(playerName, label) {
         const src = mapKeyStatToSources(label);
         if (!src) return null;
+        if (src.derived === "b2b" || /BIRDIE TO BOGEY|\bB2B\b/.test(normalizeStatLabel(label))) {
+            const ratio = birdieToBogeyRatio(playerName);
+            if (ratio != null) return ratio;
+        }
         if (src.composite === "sg_diff") {
             // Approx: recent SG total vs season SG total
             let season = null, recent = null;
@@ -4177,6 +4199,44 @@ function switchFantasySubTab(sub) {
         const map = {};
         rows.forEach((r, i) => { map[r.key] = i + 1; map[r.name.toLowerCase()] = i + 1; });
         return map;
+    }
+
+    function refreshBlankKeyStatRanks() {
+        if (!(cheatRows && cheatRows.length)) return 0;
+        if (!(pgaSeasonStats && pgaSeasonStats.length) && !(dpSeasonStats && dpSeasonStats.length)) return 0;
+        const labels = (keyStatNames && keyStatNames.some(Boolean)) ? keyStatNames : [];
+        let filled = 0;
+        for (let i = 0; i < 5; i++) {
+            const lab = labels[i] || "";
+            if (!lab) continue;
+            const blank = cheatRows.some(r => !(Number(r["s" + (i + 1)]) > 0));
+            if (!blank) continue;
+            let map = {};
+            try { map = rankPlayersOnKeyStat(lab) || {}; } catch (e) { continue; }
+            cheatRows.forEach(r => {
+                if (Number(r["s" + (i + 1)]) > 0) return;
+                const name = r.name || r.name_adjusted || r.player_name || "";
+                const nk = (typeof nameKey === "function") ? nameKey(name) : String(name).toLowerCase();
+                const live = map[nk] || map[String(name).toLowerCase()] || null;
+                if (live != null && Number(live) > 0) {
+                    r["s" + (i + 1)] = Number(live);
+                    filled++;
+                }
+            });
+        }
+        if (!filled) return 0;
+        cheatRows.forEach(r => {
+            const av = [r.s1, r.s2, r.s3, r.s4, r.s5].filter(x => x != null && !isNaN(x) && x > 0);
+            r.sfAvg = av.length ? av.reduce((a, b) => a + b, 0) / av.length : null;
+        });
+        const scored = cheatRows
+            .map((r, idx) => ({ idx, v: r.sfAvg }))
+            .filter(x => x.v != null && !isNaN(x.v))
+            .sort((a, b) => a.v - b.v);
+        scored.forEach((x, i) => { cheatRows[x.idx].sfRank = i + 1; });
+        try { if (typeof finalize925Ranks === "function") finalize925Ranks(); } catch (e) {}
+        console.log("[hub] filled blank key-stat ranks", filled);
+        return filled;
     }
 
 
@@ -10300,17 +10360,21 @@ function setEventScope(scope) {
             try {
                 const liveCourse = String((allPlayers[0] && allPlayers[0].course_name)
                     || (prebuiltCheat[0] && prebuiltCheat[0].course_name)
-                    || currentCourseName || "").toLowerCase();
-                const boardCourse = String((specialistBoardRows[0] && specialistBoardRows[0].course_name) || "").toLowerCase();
-                const boardOk = !window._hubModelPartial || !liveCourse || !boardCourse
-                    || boardCourse.includes(liveCourse.slice(0, 8))
-                    || liveCourse.includes(boardCourse.slice(0, 8));
+                    || currentCourseName || "");
+                const boardCourse = String((specialistBoardRows[0] && specialistBoardRows[0].course_name) || "");
+                const coursesMatch = !liveCourse || !boardCourse
+                    || (typeof hubCoursesClose === "function"
+                        ? hubCoursesClose(liveCourse, boardCourse)
+                        : (boardCourse.toLowerCase().includes(liveCourse.toLowerCase().slice(0, 8))
+                            || liveCourse.toLowerCase().includes(boardCourse.toLowerCase().slice(0, 8))));
+                const boardOk = coursesMatch;
                 window.specialistBoard = boardOk ? (specialistBoardRows || []) : [];
                 if (!boardOk) {
                     console.log("[hub] cleared stale specialist_board for", boardCourse, "live is", liveCourse);
-                    // Prefer upcoming pack specialist if any
+                    window._forceLiveSpecialist = true;
                     const upSp = (window._eventPacks && window._eventPacks.current && window._eventPacks.current.specialist) || [];
-                    if (upSp.length) window.specialistBoard = upSp;
+                    const upCourse = String((upSp[0] && upSp[0].course_name) || "");
+                    if (upSp.length && (!upCourse || hubCoursesClose(upCourse, liveCourse))) window.specialistBoard = upSp;
                 }
             } catch (e) {
                 window.specialistBoard = specialistBoardRows || [];
@@ -17470,6 +17534,26 @@ el.innerHTML = `
     }
     window.rebuildSpecialistFromLogs = rebuildSpecialistFromLogs;
 
+    function specialistBoardCourse() {
+        const board = window.specialistBoard || [];
+        if (!board.length) return "";
+        return String(board[0].course_name || board[0].course || "").trim();
+    }
+
+    function specialistBoardIsCurrent() {
+        const boardCourse = specialistBoardCourse();
+        if (!boardCourse) return !!(window.specialistBoard && window.specialistBoard.length);
+        const week = (typeof hubThisWeekCourse === "function" && hubThisWeekCourse())
+            || (typeof hubPublishedCourse === "function" && hubPublishedCourse())
+            || currentCourseName
+            || (typeof prebuiltCheat !== "undefined" && prebuiltCheat && prebuiltCheat[0] && prebuiltCheat[0].course_name)
+            || (typeof allPlayers !== "undefined" && allPlayers && allPlayers[0] && allPlayers[0].course_name)
+            || "";
+        if (!week) return true;
+        if (typeof hubCoursesClose === "function") return hubCoursesClose(boardCourse, week);
+        return boardCourse.toLowerCase() === String(week).toLowerCase();
+    }
+
     function buildSpecialist() {
         const chips = document.getElementById("sp-trait-chips");
         const empty = document.getElementById("sp-empty");
@@ -17478,9 +17562,15 @@ el.innerHTML = `
         const note = document.getElementById("specialist-metric-note");
         const spSub = document.getElementById("specialist-subtitle");
 
-        // Fast path: precomputed specialist_board.csv (no logs required)
+        // Fast path only when the board is this week's course. A leftover board
+        // (last week's venue) must not stamp SPEC ranks onto the new field.
         const board = window.specialistBoard || [];
-        if (board.length && !window._forceLiveSpecialist) {
+        const boardCurrent = board.length && (typeof specialistBoardIsCurrent !== "function" || specialistBoardIsCurrent());
+        if (board.length && !boardCurrent) {
+            console.log("[hub] specialist board ignored —", specialistBoardCourse(), "is not", (typeof hubThisWeekCourse === "function" ? hubThisWeekCourse() : currentCourseName));
+            window._forceLiveSpecialist = true;
+        }
+        if (boardCurrent && !window._forceLiveSpecialist) {
             if (loading) loading.classList.add("hidden");
             try {
                 specialistRows = specialistRowsFromBoard(board);
@@ -17962,6 +18052,8 @@ el.innerHTML = `
 
     function fillMissingSpecRanks() {
         if (!(cheatRows || []).length) return 0;
+        // Recent-SG filler is not a course specialist. Wait for this week's trait rebuild.
+        if (window._forceLiveSpecialist && !(playerLogs && playerLogs.length)) return 0;
         const missing = cheatRows.filter(r => r.specRank == null || r.specRank === "" || isNaN(Number(r.specRank)));
         if (!missing.length) return 0;
         const scored = missing.map(r => {
@@ -21280,7 +21372,10 @@ function renderOwnershipLeverage() {
     function applySpecRanksFromBoard() {
         // Fill cheatRows[].specRank from specialist_board.csv (or rank field by SG).
         // Also mirrors ranks onto specialistRows and recomputes 925 blend when SPEC lands.
-        const board = window.specialistBoard || [];
+        // Ignore a board built for a different course (last week's venue).
+        const boardOk = (typeof specialistBoardIsCurrent !== "function") || specialistBoardIsCurrent();
+        const board = boardOk ? (window.specialistBoard || []) : [];
+        if (!boardOk) console.log("[hub] SPEC board skipped, course mismatch", typeof specialistBoardCourse === "function" ? specialistBoardCourse() : "");
         if (!(cheatRows || []).length) return 0;
         const map = {};
         const put = (name, rank) => {
@@ -23608,6 +23703,7 @@ function getCutStreakFromLogs(playerName) {
             window._hubCheatCompApplied = false;
         }
         if (cheatRows && cheatRows.length >= 20 && !(playerLogs && playerLogs.length)) {
+            try { refreshBlankKeyStatRanks(); } catch (e) {}
             try { renderCheatSheet(); return; } catch (e) {}
         }
         // Ensure supporting data is ready
@@ -23723,7 +23819,8 @@ function getCutStreakFromLogs(playerName) {
             const low = String(name).toLowerCase();
             if (spRankMap[low] == null) spRankMap[low] = Number(rank);
         };
-        const board = (window.specialistBoard || []).slice();
+        const boardOk = (typeof specialistBoardIsCurrent !== "function") || specialistBoardIsCurrent();
+        const board = boardOk ? (window.specialistBoard || []).slice() : [];
         if (board.length) {
             const hasRank = board.some(r => r.rank != null || r.spec_rank != null || r.specRank != null);
             if (hasRank) {
