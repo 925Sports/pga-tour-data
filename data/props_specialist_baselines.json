@@ -1,7 +1,7 @@
 {
   "course_name": "Black Desert Resort",
   "event_name": "Bank of Utah Championship",
-  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:EASY | WEATHER:GOOD | TYPE:FULL | FAIRWAY WIDTH:WIDE | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 1320,
+      "count": 1679,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "71.0",
-      "count": 1077,
+      "count": 1436,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -69,8 +69,8 @@
     {
       "key": "scoring",
       "label": "SCORING",
-      "value": "HARD",
-      "count": 816,
+      "value": "EASY",
+      "count": 1086,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -78,8 +78,8 @@
     {
       "key": "weather",
       "label": "WEATHER",
-      "value": "FAIR",
-      "count": 668,
+      "value": "GOOD",
+      "count": 927,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 2033,
+      "count": 2392,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -96,8 +96,8 @@
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
-      "value": "SMALL",
-      "count": 1082,
+      "value": "WIDE",
+      "count": 1362,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 1870,
+      "count": 2229,
       "green": true,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -115,7 +115,7 @@
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "12.0",
-      "count": 877,
+      "count": 1236,
       "green": true,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -124,7 +124,7 @@
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 877,
+      "count": 1236,
       "green": true,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -133,7 +133,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "THICK",
-      "count": 1057,
+      "count": 1416,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 1971,
+      "count": 2330,
       "green": false,
       "course_name": "Black Desert Resort",
       "event_name": "Bank of Utah Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8202,
-    "strokes": 70.2147,
-    "bogeys": 2.3654,
-    "pars": 11.345,
-    "fw_pct": 61.234,
-    "gir_pct": 65.7358,
+    "birdies_plus": 3.8495,
+    "strokes": 70.1691,
+    "bogeys": 2.3513,
+    "pars": 11.3515,
+    "fw_pct": 61.0302,
+    "gir_pct": 65.9491,
     "n_rounds_sample": 8000,
     "window": "24"
   },
