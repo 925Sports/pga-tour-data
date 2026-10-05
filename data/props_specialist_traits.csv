@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,TOM FAZIO,761,False,Black Desert Resort,Bank of Utah Championship
-style,STYLE,PARKLAND,1245,False,Black Desert Resort,Bank of Utah Championship
-greens,GREENS,BERMUDA,1094,True,Black Desert Resort,Bank of Utah Championship
-greens_2,GREENS (2),TIFEAGLE,972,True,Black Desert Resort,Bank of Utah Championship
-fairways,FAIRWAYS,BERMUDA,1239,False,Black Desert Resort,Bank of Utah Championship
-length,LENGTH,NORMAL,1679,False,Black Desert Resort,Bank of Utah Championship
-par,PAR,71.0,1436,False,Black Desert Resort,Bank of Utah Championship
-scoring,SCORING,EASY,1086,False,Black Desert Resort,Bank of Utah Championship
-weather,WEATHER,GOOD,927,False,Black Desert Resort,Bank of Utah Championship
-type,TYPE,FULL,2392,False,Black Desert Resort,Bank of Utah Championship
-fairway_width,FAIRWAY WIDTH,WIDE,1362,False,Black Desert Resort,Bank of Utah Championship
-green_width,GREEN WIDTH,SMALL,2229,True,Black Desert Resort,Bank of Utah Championship
-green_speeds,GREEN SPEEDS,12.0,1236,True,Black Desert Resort,Bank of Utah Championship
-green_speeds_1,GREEN SPEEDS.1,NORMAL,1236,True,Black Desert Resort,Bank of Utah Championship
-rough_length,ROUGH LENGTH,THICK,1416,False,Black Desert Resort,Bank of Utah Championship
-water_hazards,WATER HAZARDS,8.0,622,False,Black Desert Resort,Bank of Utah Championship
-rough_amount,ROUGH AMOUNT,NORMAL,972,False,Black Desert Resort,Bank of Utah Championship
-bunkers,BUNKERS,74.0,688,False,Black Desert Resort,Bank of Utah Championship
-location,LOCATION,FLORIDA,972,False,Black Desert Resort,Bank of Utah Championship
-redesigned,Redesigned,JACK NICKLAUS,284,False,Black Desert Resort,Bank of Utah Championship
-drainage,DRAINAGE,GOOD,688,False,Black Desert Resort,Bank of Utah Championship
-rain,RAIN,NO,2330,False,Black Desert Resort,Bank of Utah Championship
+designer,DESIGNER,LARRY PACKARD,420,False,Black Desert Resort,Bank of Utah Championship
+style,STYLE,PARKLAND,754,False,Black Desert Resort,Bank of Utah Championship
+greens,GREENS,BERMUDA,686,True,Black Desert Resort,Bank of Utah Championship
+greens_2,GREENS (2),TIFEAGLE,584,True,Black Desert Resort,Bank of Utah Championship
+fairways,FAIRWAYS,BERMUDA,754,False,Black Desert Resort,Bank of Utah Championship
+length,LENGTH,NORMAL,889,False,Black Desert Resort,Bank of Utah Championship
+par,PAR,71.0,781,False,Black Desert Resort,Bank of Utah Championship
+scoring,SCORING,HARD,524,False,Black Desert Resort,Bank of Utah Championship
+weather,WEATHER,FAIR,386,False,Black Desert Resort,Bank of Utah Championship
+type,TYPE,FULL,1247,False,Black Desert Resort,Bank of Utah Championship
+fairway_width,FAIRWAY WIDTH,SMALL,676,False,Black Desert Resort,Bank of Utah Championship
+green_width,GREEN WIDTH,SMALL,1169,True,Black Desert Resort,Bank of Utah Championship
+green_speeds,GREEN SPEEDS,12.0,653,True,Black Desert Resort,Bank of Utah Championship
+green_speeds_1,GREEN SPEEDS.1,NORMAL,653,True,Black Desert Resort,Bank of Utah Championship
+rough_length,ROUGH LENGTH,THICK,819,False,Black Desert Resort,Bank of Utah Championship
+water_hazards,WATER HAZARDS,8.0,388,False,Black Desert Resort,Bank of Utah Championship
+rough_amount,ROUGH AMOUNT,NORMAL,584,False,Black Desert Resort,Bank of Utah Championship
+bunkers,BUNKERS,74.0,420,False,Black Desert Resort,Bank of Utah Championship
+location,LOCATION,FLORIDA,584,False,Black Desert Resort,Bank of Utah Championship
+redesigned,Redesigned,JACK NICKLAUS,164,False,Black Desert Resort,Bank of Utah Championship
+drainage,DRAINAGE,GOOD,420,False,Black Desert Resort,Bank of Utah Championship
+rain,RAIN,NO,1225,False,Black Desert Resort,Bank of Utah Championship
