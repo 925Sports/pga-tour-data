@@ -1,577 +1,445 @@
 player_name,Player Name,Slate-Tournament,Headshot,Player ID,Draftable ID,Tournament,Game Start Time,Salary,Fantasy Points,Ownership,Made Cut,MC,Win,Top 5,Top 10,Top 20,Teetime,Course,updated_at
-Xander Schauffele,Xander Schauffele,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/722.png,902,44393139,PGA TOUR,10/7/2026,11000,106.83,29.5,0,0,908.9 (0.10),211.9 (0.32),60.2 (0.62),-258.9 (0.72),10:05:36 AM,BD,2026-10-07T06:36:41.071506Z
-Ludvig Åberg,Ludvig Åberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,452216,DP World Tour,10/8/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071518Z
-Ludvig Åberg,Ludvig Åberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,452216,DP World Tour,10/8/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071521Z
-Ludvig Åberg,Ludvig Åberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,452216,DP World Tour,10/8/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071524Z
-Xander Schauffele,Xander Schauffele,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/722.png,902,44412110,Round 1,10/7/2026,10800,59.55,29.5,0,0,908.9 (0.10),211.9 (0.32),60.2 (0.62),-258.9 (0.72),10:05:36 AM,BD,2026-10-07T06:36:41.071527Z
-Hideki Matsuyama,Hideki Matsuyama,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44425299,Late Round 1,10/7/2026,10700,60.42,17.65,0,0,1768.9 (0.05),369.7 (0.21),164.0 (0.38),-152.8 (0.60),11:11:36 AM,BD,2026-10-07T06:36:41.071530Z
-Wyndham Clark,Wyndham Clark,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44393140,PGA TOUR,10/7/2026,10600,106.3,20.5,0,0,1478.8 (0.06),334.1 (0.23),158.8 (0.39),-159.3 (0.61),11:00:36 AM,BD,2026-10-07T06:36:41.071532Z
-Hideki Matsuyama,Hideki Matsuyama,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44412111,Round 1,10/7/2026,10600,60.42,17.65,0,0,1768.9 (0.05),369.7 (0.21),164.0 (0.38),-152.8 (0.60),11:11:36 AM,BD,2026-10-07T06:36:41.071537Z
-Wyndham Clark,Wyndham Clark,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44425300,Late Round 1,10/7/2026,10600,54.23,20.5,0,0,1478.8 (0.06),334.1 (0.23),158.8 (0.39),-159.3 (0.61),11:00:36 AM,BD,2026-10-07T06:36:41.071541Z
-Shane Lowry,Shane Lowry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44411827,DP World Tour,10/8/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071544Z
-Shane Lowry,Shane Lowry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44411827,DP World Tour,10/8/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071546Z
-Shane Lowry,Shane Lowry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44411827,DP World Tour,10/8/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071549Z
-Collin Morikawa,Collin Morikawa,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/789.png,300102,44393141,PGA TOUR,10/7/2026,10400,105.02,20.86,0,0,1473.8 (0.06),330.2 (0.23),160.0 (0.38),-159.9 (0.62),10:05:36 AM,BD,2026-10-07T06:36:41.071552Z
-Collin Morikawa,Collin Morikawa,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/789.png,300102,44412112,Round 1,10/7/2026,10400,60.24,20.86,0,0,1473.8 (0.06),330.2 (0.23),160.0 (0.38),-159.9 (0.62),10:05:36 AM,BD,2026-10-07T06:36:41.071554Z
-Wyndham Clark,Wyndham Clark,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44412113,Round 1,10/7/2026,10300,54.23,20.5,0,0,1478.8 (0.06),334.1 (0.23),158.8 (0.39),-159.3 (0.61),11:00:36 AM,BD,2026-10-07T06:36:41.071557Z
-Hideki Matsuyama,Hideki Matsuyama,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44393142,PGA TOUR,10/7/2026,10200,101.07,17.65,0,0,1768.9 (0.05),369.7 (0.21),164.0 (0.38),-152.8 (0.60),11:11:36 AM,BD,2026-10-07T06:36:41.071559Z
-Patrick Reed,Patrick Reed,Classic: DP,https://dkn.gs/sports/images/golf/players/50/976.png,782,44411828,DP World Tour,10/8/2026,10200,24.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071562Z
-Patrick Reed,Patrick Reed,Classic: DP,https://dkn.gs/sports/images/golf/players/50/976.png,782,44411828,DP World Tour,10/8/2026,10200,24.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071565Z
-Patrick Reed,Patrick Reed,Classic: DP,https://dkn.gs/sports/images/golf/players/50/976.png,782,44411828,DP World Tour,10/8/2026,10200,24.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071567Z
-Jacob Bridgeman,Jacob Bridgeman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,44412114,Round 1,10/7/2026,10100,58.44,13.15,0,0,2202.0 (0.04),457.9 (0.18),213.0 (0.32),-99.2 (0.50),10:05:36 AM,BD,2026-10-07T06:36:41.071569Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44411829,DP World Tour,10/8/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071572Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44411829,DP World Tour,10/8/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071574Z
-Tyrrell Hatton,Tyrrell Hatton,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44411829,DP World Tour,10/8/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071577Z
-Jacob Bridgeman,Jacob Bridgeman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,44393143,PGA TOUR,10/7/2026,9800,100.88,13.15,0,0,2202.0 (0.04),457.9 (0.18),213.0 (0.32),-99.2 (0.50),10:05:36 AM,BD,2026-10-07T06:36:41.071579Z
-Ryan Gerard,Ryan Gerard,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44425301,Late Round 1,10/7/2026,9800,56.15,17.21,0,0,2078.1 (0.05),456.5 (0.18),212.8 (0.32),-123.6 (0.55),11:00:36 AM,BD,2026-10-07T06:36:41.071582Z
-Doug Ghim,Doug Ghim,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44425302,Late Round 1,10/7/2026,9800,56.16,16.78,0,0,2263.8 (0.04),459.1 (0.18),212.0 (0.32),-93.8 (0.48),11:22:36 AM,BD,2026-10-07T06:36:41.071584Z
-Ryan Gerard,Ryan Gerard,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44412115,Round 1,10/7/2026,9700,56.15,17.21,0,0,2078.1 (0.05),456.5 (0.18),212.8 (0.32),-123.6 (0.55),11:00:36 AM,BD,2026-10-07T06:36:41.071586Z
-Justin Thomas,Justin Thomas,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44425303,Late Round 1,10/7/2026,9700,53.62,14.46,0,0,2006.0 (0.05),426.1 (0.19),200.0 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T06:36:41.071589Z
-Eugenio Lopez-Chacarra,Eugenio Lopez-Chacarra,Classic: DP,,696842,44411830,DP World Tour,10/8/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071591Z
-Eugenio Lopez-Chacarra,Eugenio Lopez-Chacarra,Classic: DP,,696842,44411830,DP World Tour,10/8/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071593Z
-Eugenio Lopez-Chacarra,Eugenio Lopez-Chacarra,Classic: DP,,696842,44411830,DP World Tour,10/8/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071596Z
-Justin Thomas,Justin Thomas,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44393144,PGA TOUR,10/7/2026,9600,96.13,14.46,0,0,2006.0 (0.05),426.1 (0.19),200.0 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T06:36:41.071598Z
-David Puig,David Puig,Classic: DP,,756216,44411831,DP World Tour,10/8/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071600Z
-David Puig,David Puig,Classic: DP,,756216,44411831,DP World Tour,10/8/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071603Z
-David Puig,David Puig,Classic: DP,,756216,44411831,DP World Tour,10/8/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071605Z
-Min Woo Lee,Min Woo Lee,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,44393145,PGA TOUR,10/7/2026,9400,95.1,15.11,0,0,2268.5 (0.04),492.7 (0.17),236.5 (0.30),-19.3 (0.16),9:54:36 AM,BD,2026-10-07T06:36:41.071608Z
-Min Woo Lee,Min Woo Lee,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,44412116,Round 1,10/7/2026,9400,54.8,15.11,0,0,2268.5 (0.04),492.7 (0.17),236.5 (0.30),-19.3 (0.16),9:54:36 AM,BD,2026-10-07T06:36:41.071610Z
-Ryan Gerard,Ryan Gerard,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44393146,PGA TOUR,10/7/2026,9300,91.85,17.21,0,0,2078.1 (0.05),456.5 (0.18),212.8 (0.32),-123.6 (0.55),11:00:36 AM,BD,2026-10-07T06:36:41.071613Z
-Justin Thomas,Justin Thomas,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44412117,Round 1,10/7/2026,9300,53.62,14.46,0,0,2006.0 (0.05),426.1 (0.19),200.0 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T06:36:41.071615Z
-Adam Scott,Adam Scott,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44425304,Late Round 1,10/7/2026,9300,52.22,13.23,0,0,2529.0 (0.04),531.1 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T06:36:41.071617Z
-Marco Penge,Marco Penge,Classic: DP,,698887,44411832,DP World Tour,10/8/2026,9300,23.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071620Z
-Marco Penge,Marco Penge,Classic: DP,,698887,44411832,DP World Tour,10/8/2026,9300,23.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071622Z
-Marco Penge,Marco Penge,Classic: DP,,698887,44411832,DP World Tour,10/8/2026,9300,23.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071624Z
-Doug Ghim,Doug Ghim,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44393147,PGA TOUR,10/7/2026,9200,92.14,16.78,0,0,2263.8 (0.04),459.1 (0.18),212.0 (0.32),-93.8 (0.48),11:22:36 AM,BD,2026-10-07T06:36:41.071627Z
-Sungjae Im,Sungjae Im,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/621.png,670620,44412118,Round 1,10/7/2026,9200,51.42,16.26,0,0,2685.9 (0.04),562.9 (0.15),265.0 (0.27),85.0 (0.54),9:54:36 AM,BD,2026-10-07T06:36:41.071629Z
-Alex Noren,Alex Noren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44411833,DP World Tour,10/8/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071631Z
-Alex Noren,Alex Noren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44411833,DP World Tour,10/8/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071633Z
-Alex Noren,Alex Noren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44411833,DP World Tour,10/8/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071636Z
-Adam Scott,Adam Scott,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44393148,PGA TOUR,10/7/2026,9100,92.75,13.23,0,0,2529.0 (0.04),531.1 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T06:36:41.071638Z
-Doug Ghim,Doug Ghim,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44412119,Round 1,10/7/2026,9100,56.16,16.78,0,0,2263.8 (0.04),459.1 (0.18),212.0 (0.32),-93.8 (0.48),11:22:36 AM,BD,2026-10-07T06:36:41.071640Z
-Kurt Kitayama,Kurt Kitayama,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44425305,Late Round 1,10/7/2026,9100,54.27,12.9,0,0,3023.4 (0.03),605.4 (0.14),272.5 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T06:36:41.071643Z
-Justin Rose,Justin Rose,Classic: DP,https://dkn.gs/sports/images/golf/players/50/734.png,625,44411834,DP World Tour,10/8/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071645Z
-Justin Rose,Justin Rose,Classic: DP,https://dkn.gs/sports/images/golf/players/50/734.png,625,44411834,DP World Tour,10/8/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071647Z
-Justin Rose,Justin Rose,Classic: DP,https://dkn.gs/sports/images/golf/players/50/734.png,625,44411834,DP World Tour,10/8/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071650Z
-Michael Thorbjornsen,Michael Thorbjornsen,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/787.png,696522,44393149,PGA TOUR,10/7/2026,9000,90.61,15.5,0,0,2549.8 (0.04),541.2 (0.16),252.0 (0.28),77.8 (0.56),9:43:36 AM,BD,2026-10-07T06:36:41.071652Z
-Michael Brennan,Michael Brennan,Showdown: Round,,762470,44412120,Round 1,10/7/2026,9000,56.63,13.59,0,0,3057.8 (0.03),601.2 (0.14),280.0 (0.26),93.0 (0.52),9:43:36 AM,BD,2026-10-07T06:36:41.071654Z
-Tom McKibbin,Tom McKibbin,Classic: DP,,671050,44411835,DP World Tour,10/8/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071657Z
-Tom McKibbin,Tom McKibbin,Classic: DP,,671050,44411835,DP World Tour,10/8/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071659Z
-Tom McKibbin,Tom McKibbin,Classic: DP,,671050,44411835,DP World Tour,10/8/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071661Z
-Sungjae Im,Sungjae Im,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/621.png,670620,44393150,PGA TOUR,10/7/2026,8900,91.72,16.26,0,0,2685.9 (0.04),562.9 (0.15),265.0 (0.27),85.0 (0.54),9:54:36 AM,BD,2026-10-07T06:36:41.071664Z
-Kurt Kitayama,Kurt Kitayama,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44412121,Round 1,10/7/2026,8900,54.27,12.9,0,0,3023.4 (0.03),605.4 (0.14),272.5 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T06:36:41.071666Z
-Angel Ayora Fanegas,Angel Ayora Fanegas,Classic: DP,,768633,44411836,DP World Tour,10/8/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071669Z
-Angel Ayora Fanegas,Angel Ayora Fanegas,Classic: DP,,768633,44411836,DP World Tour,10/8/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071672Z
-Angel Ayora Fanegas,Angel Ayora Fanegas,Classic: DP,,768633,44411836,DP World Tour,10/8/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071674Z
-Kurt Kitayama,Kurt Kitayama,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44393151,PGA TOUR,10/7/2026,8800,94.55,12.9,0,0,3023.4 (0.03),605.4 (0.14),272.5 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T06:36:41.071677Z
-Michael Thorbjornsen,Michael Thorbjornsen,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/787.png,696522,44412122,Round 1,10/7/2026,8800,55.07,15.5,0,0,2549.8 (0.04),541.2 (0.16),252.0 (0.28),77.8 (0.56),9:43:36 AM,BD,2026-10-07T06:36:41.071679Z
-Rickie Fowler,Rickie Fowler,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44425306,Late Round 1,10/7/2026,8800,51.17,11.77,0,0,3657.8 (0.03),707.7 (0.12),299.8 (0.25),100.1 (0.50),11:11:36 AM,BD,2026-10-07T06:36:41.071682Z
-Thomas Detry,Thomas Detry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44411837,DP World Tour,10/8/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071684Z
-Thomas Detry,Thomas Detry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44411837,DP World Tour,10/8/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071686Z
-Thomas Detry,Thomas Detry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44411837,DP World Tour,10/8/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071688Z
-Maverick McNealy,Maverick McNealy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44393152,PGA TOUR,10/7/2026,8700,91.52,9.17,0,0,2818.3 (0.03),550.3 (0.15),254.0 (0.28),55.9 (0.64),9:54:36 AM,BD,2026-10-07T06:36:41.071691Z
-Adam Scott,Adam Scott,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44412123,Round 1,10/7/2026,8700,52.22,13.23,0,0,2529.0 (0.04),531.1 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T06:36:41.071693Z
-Ryo Hisatsune,Ryo Hisatsune,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44425307,Late Round 1,10/7/2026,8700,46.07,10.61,0,0,5115.5 (0.02),935.5 (0.10),422.5 (0.19),158.4 (0.39),10:38:36 AM,BD,2026-10-07T06:36:41.071695Z
-Jacob Skov Olesen,Jacob Skov Olesen,Classic: DP,,797154,44411838,DP World Tour,10/8/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071698Z
-Jacob Skov Olesen,Jacob Skov Olesen,Classic: DP,,797154,44411838,DP World Tour,10/8/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071701Z
-Jacob Skov Olesen,Jacob Skov Olesen,Classic: DP,,797154,44411838,DP World Tour,10/8/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071703Z
-Michael Brennan,Michael Brennan,Classic: PGA TOUR,,762470,44393153,PGA TOUR,10/7/2026,8600,88.34,13.59,0,0,3057.8 (0.03),601.2 (0.14),280.0 (0.26),93.0 (0.52),9:43:36 AM,BD,2026-10-07T06:36:41.071706Z
-Maverick McNealy,Maverick McNealy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44412124,Round 1,10/7/2026,8600,52.62,9.17,0,0,2818.3 (0.03),550.3 (0.15),254.0 (0.28),55.9 (0.64),9:54:36 AM,BD,2026-10-07T06:36:41.071708Z
-Johnny Keefer,Johnny Keefer,Late Showdown: Late Round,,814141,44425308,Late Round 1,10/7/2026,8600,49.6,9.54,0,0,4163.6 (0.02),790.9 (0.11),354.8 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T06:36:41.071710Z
-Daniel Hillier,Daniel Hillier,Classic: DP,,696565,44411839,DP World Tour,10/8/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071725Z
-Daniel Hillier,Daniel Hillier,Classic: DP,,696565,44411839,DP World Tour,10/8/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071727Z
-Daniel Hillier,Daniel Hillier,Classic: DP,,696565,44411839,DP World Tour,10/8/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071730Z
-Matt Wallace,Matt Wallace,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44393154,PGA TOUR,10/7/2026,8500,85.37,12.57,0,0,3494.8 (0.03),636.6 (0.14),295.5 (0.25),97.7 (0.51),10:16:36 AM,BD,2026-10-07T06:36:41.071732Z
-Ben Kohles,Ben Kohles,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44412125,Round 1,10/7/2026,8500,53.78,10.69,0,0,6005.9 (0.02),1142.8 (0.08),486.0 (0.17),195.4 (0.34),9:21:36 AM,BD,2026-10-07T06:36:41.071734Z
-Kevin Yu,Kevin Yu,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44425309,Late Round 1,10/7/2026,8500,51.58,9.83,0,0,4336.8 (0.02),831.8 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T06:36:41.071737Z
-Sergio Garcia,Sergio Garcia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/981.png,780,44411840,DP World Tour,10/8/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071739Z
-Sergio Garcia,Sergio Garcia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/981.png,780,44411840,DP World Tour,10/8/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071741Z
-Sergio Garcia,Sergio Garcia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/981.png,780,44411840,DP World Tour,10/8/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071744Z
-Rickie Fowler,Rickie Fowler,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44393155,PGA TOUR,10/7/2026,8400,88.64,11.77,0,0,3657.8 (0.03),707.7 (0.12),299.8 (0.25),100.1 (0.50),11:11:36 AM,BD,2026-10-07T06:36:41.071746Z
-Rickie Fowler,Rickie Fowler,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44412126,Round 1,10/7/2026,8400,51.17,11.77,0,0,3657.8 (0.03),707.7 (0.12),299.8 (0.25),100.1 (0.50),11:11:36 AM,BD,2026-10-07T06:36:41.071749Z
-Keegan Bradley,Keegan Bradley,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/518.png,804,44425310,Late Round 1,10/7/2026,8400,49.23,8.6,0,0,4162.1 (0.02),720.8 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T06:36:41.071751Z
-Ewen Ferguson,Ewen Ferguson,Classic: DP,,290967,44411841,DP World Tour,10/8/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071753Z
-Ewen Ferguson,Ewen Ferguson,Classic: DP,,290967,44411841,DP World Tour,10/8/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071755Z
-Ewen Ferguson,Ewen Ferguson,Classic: DP,,290967,44411841,DP World Tour,10/8/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071758Z
-Jordan Spieth,Jordan Spieth,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/882.png,171,44393156,PGA TOUR,10/7/2026,8300,86.74,11.54,0,0,4940.2 (0.02),880.9 (0.10),395.5 (0.20),161.7 (0.38),9:54:36 AM,BD,2026-10-07T06:36:41.071760Z
-Alex Smalley,Alex Smalley,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,44412127,Round 1,10/7/2026,8300,52.55,11.13,0,0,4305.5 (0.02),760.0 (0.12),348.8 (0.22),137.4 (0.42),9:54:36 AM,BD,2026-10-07T06:36:41.071763Z
-Zachary Bauchou,Zachary Bauchou,Late Showdown: Late Round,,689973,44425311,Late Round 1,10/7/2026,8300,45.12,7.69,0,0,5996.8 (0.02),1025.5 (0.09),467.5 (0.18),182.4 (0.35),11:22:36 AM,BD,2026-10-07T06:36:41.071765Z
-Josele Ballester,Josele Ballester,Classic: DP,,773808,44411842,DP World Tour,10/8/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071767Z
-Josele Ballester,Josele Ballester,Classic: DP,,773808,44411842,DP World Tour,10/8/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071769Z
-Josele Ballester,Josele Ballester,Classic: DP,,773808,44411842,DP World Tour,10/8/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071772Z
-Keith Mitchell,Keith Mitchell,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44393157,PGA TOUR,10/7/2026,8200,85.58,7.03,0,0,4800.3 (0.02),876.4 (0.10),371.0 (0.21),151.3 (0.40),9:21:36 AM,BD,2026-10-07T06:36:41.071774Z
-Matt Wallace,Matt Wallace,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44412128,Round 1,10/7/2026,8200,50.65,12.57,0,0,3494.8 (0.03),636.6 (0.14),295.5 (0.25),97.7 (0.51),10:16:36 AM,BD,2026-10-07T06:36:41.071776Z
-Max Homa,Max Homa,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44425312,Late Round 1,10/7/2026,8200,46.37,9.37,0,0,5789.3 (0.02),993.7 (0.09),438.5 (0.19),173.9 (0.37),10:49:36 AM,BD,2026-10-07T06:36:41.071779Z
-Victor Perez,Victor Perez,Classic: DP,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44411843,DP World Tour,10/8/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071781Z
-Victor Perez,Victor Perez,Classic: DP,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44411843,DP World Tour,10/8/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071783Z
-Victor Perez,Victor Perez,Classic: DP,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44411843,DP World Tour,10/8/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071785Z
-Alex Smalley,Alex Smalley,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,44393158,PGA TOUR,10/7/2026,8100,89.66,11.13,0,0,4305.5 (0.02),760.0 (0.12),348.8 (0.22),137.4 (0.42),9:54:36 AM,BD,2026-10-07T06:36:41.071788Z
-Jordan Spieth,Jordan Spieth,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/882.png,171,44412129,Round 1,10/7/2026,8100,50.35,11.54,0,0,4940.2 (0.02),880.9 (0.10),395.5 (0.20),161.7 (0.38),9:54:36 AM,BD,2026-10-07T06:36:41.071790Z
-Christiaan Bezuidenhout,Christiaan Bezuidenhout,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44425313,Late Round 1,10/7/2026,8100,48.32,5.53,0,0,8034.6 (0.01),1388.4 (0.07),583.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T06:36:41.071792Z
-Oliver Lindell,Oliver Lindell,Classic: DP,,230887,44411844,DP World Tour,10/8/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071795Z
-Oliver Lindell,Oliver Lindell,Classic: DP,,230887,44411844,DP World Tour,10/8/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071797Z
-Oliver Lindell,Oliver Lindell,Classic: DP,,230887,44411844,DP World Tour,10/8/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071800Z
-Kevin Yu,Kevin Yu,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44393160,PGA TOUR,10/7/2026,8000,82.64,9.83,0,0,4336.8 (0.02),831.8 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T06:36:41.071802Z
-Keegan Bradley,Keegan Bradley,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/518.png,804,44393159,PGA TOUR,10/7/2026,8000,81.99,8.6,0,0,4162.1 (0.02),720.8 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T06:36:41.071804Z
-Ryo Hisatsune,Ryo Hisatsune,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44412130,Round 1,10/7/2026,8000,46.07,10.61,0,0,5115.5 (0.02),935.5 (0.10),422.5 (0.19),158.4 (0.39),10:38:36 AM,BD,2026-10-07T06:36:41.071807Z
-Johnny Keefer,Johnny Keefer,Showdown: Round,,814141,44412131,Round 1,10/7/2026,8000,49.6,9.54,0,0,4163.6 (0.02),790.9 (0.11),354.8 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T06:36:41.071809Z
-Jordan L. Smith,Jordan L. Smith,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44425314,Late Round 1,10/7/2026,8000,51.59,7.43,0,0,6255.8 (0.02),1090.5 (0.08),478.0 (0.17),192.8 (0.34),10:49:36 AM,BD,2026-10-07T06:36:41.071811Z
-Joakim Lagergren,Joakim Lagergren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44411845,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071814Z
-Nicolai Højgaard,Nicolai Højgaard,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44411846,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071816Z
-Joakim Lagergren,Joakim Lagergren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44411845,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071819Z
-Nicolai Højgaard,Nicolai Højgaard,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44411846,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071821Z
-Joakim Lagergren,Joakim Lagergren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44411845,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071824Z
-Nicolai Højgaard,Nicolai Højgaard,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44411846,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071826Z
-Johnny Keefer,Johnny Keefer,Classic: PGA TOUR,,814141,44393161,PGA TOUR,10/7/2026,7900,82.3,9.54,0,0,4163.6 (0.02),790.9 (0.11),354.8 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T06:36:41.071828Z
-Ben Kohles,Ben Kohles,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44393162,PGA TOUR,10/7/2026,7900,85.37,10.69,0,0,6005.9 (0.02),1142.8 (0.08),486.0 (0.17),195.4 (0.34),9:21:36 AM,BD,2026-10-07T06:36:41.071831Z
-Keith Mitchell,Keith Mitchell,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44412133,Round 1,10/7/2026,7900,50.7,7.03,0,0,4800.3 (0.02),876.4 (0.10),371.0 (0.21),151.3 (0.40),9:21:36 AM,BD,2026-10-07T06:36:41.071833Z
-Jackson Suber,Jackson Suber,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44412132,Round 1,10/7/2026,7900,51.05,9.82,0,0,4729.0 (0.02),935.9 (0.10),409.5 (0.20),162.3 (0.38),10:16:36 AM,BD,2026-10-07T06:36:41.071835Z
-Sahith Theegala,Sahith Theegala,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44425315,Late Round 1,10/7/2026,7900,46.57,6.92,0,0,8997.5 (0.01),1500.6 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T06:36:41.071838Z
-Sam Bairstow,Sam Bairstow,Classic: DP,,722206,44411847,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071840Z
-Matthew Jordan,Matthew Jordan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44411848,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071843Z
-Sam Bairstow,Sam Bairstow,Classic: DP,,722206,44411847,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071845Z
-Matthew Jordan,Matthew Jordan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44411848,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071847Z
-Sam Bairstow,Sam Bairstow,Classic: DP,,722206,44411847,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071850Z
-Matthew Jordan,Matthew Jordan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44411848,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071852Z
-Keita Nakajima,Keita Nakajima,Classic: PGA TOUR,,699011,44393163,PGA TOUR,10/7/2026,7800,79.52,8.95,0,0,4445.7 (0.02),840.0 (0.11),376.3 (0.21),146.1 (0.41),9:32:36 AM,BD,2026-10-07T06:36:41.071854Z
-Michael Kim,Michael Kim,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44393164,PGA TOUR,10/7/2026,7800,82.78,7.46,0,0,5295.7 (0.02),975.5 (0.09),430.5 (0.19),168.1 (0.37),9:21:36 AM,BD,2026-10-07T06:36:41.071857Z
-Kevin Yu,Kevin Yu,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44412134,Round 1,10/7/2026,7800,51.58,9.83,0,0,4336.8 (0.02),831.8 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T06:36:41.071859Z
-Zachary Bauchou,Zachary Bauchou,Showdown: Round,,689973,44412135,Round 1,10/7/2026,7800,45.12,7.69,0,0,5996.8 (0.02),1025.5 (0.09),467.5 (0.18),182.4 (0.35),11:22:36 AM,BD,2026-10-07T06:36:41.071861Z
-Kevin Roy,Kevin Roy,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44425316,Late Round 1,10/7/2026,7800,48.87,6.44,0,0,8386.8 (0.01),1448.4 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T06:36:41.071863Z
-Adrian Meronk,Adrian Meronk,Classic: DP,,292342,44411849,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071866Z
-Antoine Rozner,Antoine Rozner,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44411850,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071868Z
-Adrian Meronk,Adrian Meronk,Classic: DP,,292342,44411849,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071870Z
-Antoine Rozner,Antoine Rozner,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44411850,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071872Z
-Adrian Meronk,Adrian Meronk,Classic: DP,,292342,44411849,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071875Z
-Antoine Rozner,Antoine Rozner,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44411850,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071877Z
-Max Homa,Max Homa,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44393166,PGA TOUR,10/7/2026,7700,81.82,9.37,0,0,5789.3 (0.02),993.7 (0.09),438.5 (0.19),173.9 (0.37),10:49:36 AM,BD,2026-10-07T06:36:41.071879Z
-Max Greyserman,Max Greyserman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44393165,PGA TOUR,10/7/2026,7700,78.27,14.13,0,0,5323.6 (0.02),1002.8 (0.09),416.8 (0.19),168.1 (0.37),9:32:36 AM,BD,2026-10-07T06:36:41.071882Z
-Michael Kim,Michael Kim,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44412137,Round 1,10/7/2026,7700,49.15,7.46,0,0,5295.7 (0.02),975.5 (0.09),430.5 (0.19),168.1 (0.37),9:21:36 AM,BD,2026-10-07T06:36:41.071884Z
-Max Greyserman,Max Greyserman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44412136,Round 1,10/7/2026,7700,48.19,14.13,0,0,5323.6 (0.02),1002.8 (0.09),416.8 (0.19),168.1 (0.37),9:32:36 AM,BD,2026-10-07T06:36:41.071887Z
-Steven Fisk,Steven Fisk,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44425317,Late Round 1,10/7/2026,7700,45.3,8.04,0,0,6231.1 (0.02),1032.4 (0.09),478.0 (0.17),184.4 (0.35),10:49:36 AM,BD,2026-10-07T06:36:41.071889Z
-Angel Hidalgo,Angel Hidalgo,Classic: DP,,670990,44411851,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071892Z
-Jayden Trey Schaper,Jayden Trey Schaper,Classic: DP,,700083,44411852,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071894Z
-Angel Hidalgo,Angel Hidalgo,Classic: DP,,670990,44411851,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071896Z
-Jayden Trey Schaper,Jayden Trey Schaper,Classic: DP,,700083,44411852,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071899Z
-Angel Hidalgo,Angel Hidalgo,Classic: DP,,670990,44411851,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071901Z
-Jayden Trey Schaper,Jayden Trey Schaper,Classic: DP,,700083,44411852,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071904Z
-Ryo Hisatsune,Ryo Hisatsune,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44393168,PGA TOUR,10/7/2026,7600,81.3,10.61,0,0,5115.5 (0.02),935.5 (0.10),422.5 (0.19),158.4 (0.39),10:38:36 AM,BD,2026-10-07T06:36:41.071906Z
-Jackson Suber,Jackson Suber,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44393167,PGA TOUR,10/7/2026,7600,81.02,9.82,0,0,4729.0 (0.02),935.9 (0.10),409.5 (0.20),162.3 (0.38),10:16:36 AM,BD,2026-10-07T06:36:41.071908Z
-Keegan Bradley,Keegan Bradley,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/518.png,804,44412139,Round 1,10/7/2026,7600,49.23,8.6,0,0,4162.1 (0.02),720.8 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T06:36:41.071910Z
-Keita Nakajima,Keita Nakajima,Showdown: Round,,699011,44412138,Round 1,10/7/2026,7600,49.97,8.95,0,0,4445.7 (0.02),840.0 (0.11),376.3 (0.21),146.1 (0.41),9:32:36 AM,BD,2026-10-07T06:36:41.071913Z
-Brian Harman,Brian Harman,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/533.png,805,44425318,Late Round 1,10/7/2026,7600,45.58,6.9,0,0,6544.9 (0.01),1180.1 (0.08),519.5 (0.16),203.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.071915Z
-Alejandro Del Rey,Alejandro Del Rey,Classic: DP,,670992,44411853,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071917Z
-Calum Hill,Calum Hill,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44411854,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071919Z
-Joe Dean,Joe Dean,Classic: DP,,544869,44411855,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071922Z
-Alejandro Del Rey,Alejandro Del Rey,Classic: DP,,670992,44411853,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071924Z
-Calum Hill,Calum Hill,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44411854,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071926Z
-Joe Dean,Joe Dean,Classic: DP,,544869,44411855,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071929Z
-Alejandro Del Rey,Alejandro Del Rey,Classic: DP,,670992,44411853,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071931Z
-Calum Hill,Calum Hill,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44411854,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071933Z
-Joe Dean,Joe Dean,Classic: DP,,544869,44411855,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071936Z
-Jordan L. Smith,Jordan L. Smith,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44393170,PGA TOUR,10/7/2026,7500,80.43,7.43,0,0,6255.8 (0.02),1090.5 (0.08),478.0 (0.17),192.8 (0.34),10:49:36 AM,BD,2026-10-07T06:36:41.071938Z
-Brian Harman,Brian Harman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/533.png,805,44393169,PGA TOUR,10/7/2026,7500,80.43,6.9,0,0,6544.9 (0.01),1180.1 (0.08),519.5 (0.16),203.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.071940Z
-Max Homa,Max Homa,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44412140,Round 1,10/7/2026,7500,46.37,9.37,0,0,5789.3 (0.02),993.7 (0.09),438.5 (0.19),173.9 (0.37),10:49:36 AM,BD,2026-10-07T06:36:41.071942Z
-Jordan L. Smith,Jordan L. Smith,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44412141,Round 1,10/7/2026,7500,51.59,7.43,0,0,6255.8 (0.02),1090.5 (0.08),478.0 (0.17),192.8 (0.34),10:49:36 AM,BD,2026-10-07T06:36:41.071945Z
-Davis Thompson,Davis Thompson,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44425319,Late Round 1,10/7/2026,7500,46.77,6.51,0,0,7035.7 (0.01),1168.7 (0.08),513.5 (0.16),200.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.071948Z
-Julien Guerrier,Julien Guerrier,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44411856,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071950Z
-Niklas Nørgaard Møller,Niklas Nørgaard Møller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44411857,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071953Z
-Daniel Brown,Daniel Brown,Classic: DP,,769318,44411858,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071955Z
-Julien Guerrier,Julien Guerrier,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44411856,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071957Z
-Niklas Nørgaard Møller,Niklas Nørgaard Møller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44411857,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071960Z
-Daniel Brown,Daniel Brown,Classic: DP,,769318,44411858,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071962Z
-Julien Guerrier,Julien Guerrier,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44411856,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071964Z
-Niklas Nørgaard Møller,Niklas Nørgaard Møller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44411857,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071967Z
-Daniel Brown,Daniel Brown,Classic: DP,,769318,44411858,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071969Z
-Zachary Bauchou,Zachary Bauchou,Classic: PGA TOUR,,689973,44393172,PGA TOUR,10/7/2026,7400,70.56,7.69,0,0,5996.8 (0.02),1025.5 (0.09),467.5 (0.18),182.4 (0.35),11:22:36 AM,BD,2026-10-07T06:36:41.071971Z
-Davis Thompson,Davis Thompson,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44393171,PGA TOUR,10/7/2026,7400,80.4,6.51,0,0,7035.7 (0.01),1168.7 (0.08),513.5 (0.16),200.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.071974Z
-Brian Harman,Brian Harman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/533.png,805,44412143,Round 1,10/7/2026,7400,45.58,6.9,0,0,6544.9 (0.01),1180.1 (0.08),519.5 (0.16),203.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.071976Z
-Ricky Castillo,Ricky Castillo,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,44412142,Round 1,10/7/2026,7400,48.18,5.5,0,0,7961.1 (0.01),1366.9 (0.07),578.0 (0.15),227.2 (0.31),9:43:36 AM,BD,2026-10-07T06:36:41.071978Z
-Lee Hodges,Lee Hodges,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44425320,Late Round 1,10/7/2026,7400,42.9,6.14,0,0,8166.2 (0.01),1389.2 (0.07),591.5 (0.14),225.3 (0.31),11:22:36 AM,BD,2026-10-07T06:36:41.071981Z
-Sami Välimäki,Sami Välimäki,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071983Z
-Tom Vaillant,Tom Vaillant,Classic: DP,,768110,44411860,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071985Z
-Ugo Coussaud,Ugo Coussaud,Classic: DP,,694555,44411861,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071988Z
-Mikael Lindberg,Mikael Lindberg,Classic: DP,,769321,44411862,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071990Z
-Sami Välimäki,Sami Välimäki,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071992Z
-Tom Vaillant,Tom Vaillant,Classic: DP,,768110,44411860,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071995Z
-Ugo Coussaud,Ugo Coussaud,Classic: DP,,694555,44411861,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071997Z
-Mikael Lindberg,Mikael Lindberg,Classic: DP,,769321,44411862,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.071999Z
-Sami Välimäki,Sami Välimäki,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072002Z
-Tom Vaillant,Tom Vaillant,Classic: DP,,768110,44411860,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072004Z
-Ugo Coussaud,Ugo Coussaud,Classic: DP,,694555,44411861,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072006Z
-Mikael Lindberg,Mikael Lindberg,Classic: DP,,769321,44411862,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072008Z
-Christiaan Bezuidenhout,Christiaan Bezuidenhout,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44393174,PGA TOUR,10/7/2026,7300,80.63,5.53,0,0,8034.6 (0.01),1388.4 (0.07),583.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T06:36:41.072011Z
-Steven Fisk,Steven Fisk,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44393173,PGA TOUR,10/7/2026,7300,79.61,8.04,0,0,6231.1 (0.02),1032.4 (0.09),478.0 (0.17),184.4 (0.35),10:49:36 AM,BD,2026-10-07T06:36:41.072014Z
-Christiaan Bezuidenhout,Christiaan Bezuidenhout,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44412145,Round 1,10/7/2026,7300,48.32,5.53,0,0,8034.6 (0.01),1388.4 (0.07),583.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T06:36:41.072017Z
-Steven Fisk,Steven Fisk,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44412144,Round 1,10/7/2026,7300,45.3,8.04,0,0,6231.1 (0.02),1032.4 (0.09),478.0 (0.17),184.4 (0.35),10:49:36 AM,BD,2026-10-07T06:36:41.072019Z
-Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Late Showdown: Late Round,,720984,44425321,Late Round 1,10/7/2026,7300,45.59,4.91,0,0,9624.5 (0.01),1614.3 (0.06),658.5 (0.13),252.8 (0.28),10:27:36 AM,BD,2026-10-07T06:36:41.072022Z
-Bernd Wiesberger,Bernd Wiesberger,Classic: DP,https://dkn.gs/sports/images/golf/players/50/718.png,479,44411863,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072024Z
-Francesco Laporta,Francesco Laporta,Classic: DP,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44411864,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072026Z
-Hennie Du Plessis,Hennie Du Plessis,Classic: DP,,354076,44411865,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072029Z
-Guido Migliozzi,Guido Migliozzi,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44411866,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072031Z
-Dan Bradbury,Dan Bradbury,Classic: DP,,766740,44411867,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072034Z
-Bernd Wiesberger,Bernd Wiesberger,Classic: DP,https://dkn.gs/sports/images/golf/players/50/718.png,479,44411863,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072036Z
-Francesco Laporta,Francesco Laporta,Classic: DP,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44411864,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072038Z
-Hennie Du Plessis,Hennie Du Plessis,Classic: DP,,354076,44411865,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072041Z
-Guido Migliozzi,Guido Migliozzi,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44411866,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072043Z
-Dan Bradbury,Dan Bradbury,Classic: DP,,766740,44411867,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072045Z
-Bernd Wiesberger,Bernd Wiesberger,Classic: DP,https://dkn.gs/sports/images/golf/players/50/718.png,479,44411863,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072047Z
-Francesco Laporta,Francesco Laporta,Classic: DP,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44411864,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072050Z
-Hennie Du Plessis,Hennie Du Plessis,Classic: DP,,354076,44411865,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072052Z
-Guido Migliozzi,Guido Migliozzi,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44411866,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072054Z
-Dan Bradbury,Dan Bradbury,Classic: DP,,766740,44411867,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072056Z
-Ricky Castillo,Ricky Castillo,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,44393176,PGA TOUR,10/7/2026,7200,82.25,5.5,0,0,7961.1 (0.01),1366.9 (0.07),578.0 (0.15),227.2 (0.31),9:43:36 AM,BD,2026-10-07T06:36:41.072059Z
-Beau Hossler,Beau Hossler,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44393175,PGA TOUR,10/7/2026,7200,76.33,4.61,0,0,7565.5 (0.01),1251.9 (0.07),541.0 (0.16),210.4 (0.32),9:21:36 AM,BD,2026-10-07T06:36:41.072061Z
-Sahith Theegala,Sahith Theegala,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44412146,Round 1,10/7/2026,7200,46.57,6.92,0,0,8997.5 (0.01),1500.6 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T06:36:41.072064Z
-Nick Taylor,Nick Taylor,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/515.png,700,44412147,Round 1,10/7/2026,7200,46.03,7.11,0,0,9764.5 (0.01),1618.8 (0.06),666.5 (0.13),257.6 (0.28),10:05:36 AM,BD,2026-10-07T06:36:41.072066Z
-Taylor Moore,Taylor Moore,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44425322,Late Round 1,10/7/2026,7200,40.13,4.34,0,0,11056.8 (0.01),1850.8 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T06:36:41.072068Z
-Jeff Winther,Jeff Winther,Classic: DP,,581,44411868,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072070Z
-MJ Daffue,MJ Daffue,Classic: DP,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44411869,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072073Z
-Joost Luiten,Joost Luiten,Classic: DP,https://dkn.gs/sports/images/golf/players/50/810.png,383,44411870,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072075Z
-Nathan Kimsey,Nathan Kimsey,Classic: DP,,345110,44411871,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072077Z
-Richard Mansell,Richard Mansell,Classic: DP,,702169,44411872,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072079Z
-Jeff Winther,Jeff Winther,Classic: DP,,581,44411868,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072082Z
-MJ Daffue,MJ Daffue,Classic: DP,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44411869,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072084Z
-Joost Luiten,Joost Luiten,Classic: DP,https://dkn.gs/sports/images/golf/players/50/810.png,383,44411870,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072086Z
-Nathan Kimsey,Nathan Kimsey,Classic: DP,,345110,44411871,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072089Z
-Richard Mansell,Richard Mansell,Classic: DP,,702169,44411872,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072091Z
-Jeff Winther,Jeff Winther,Classic: DP,,581,44411868,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072093Z
-MJ Daffue,MJ Daffue,Classic: DP,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44411869,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072096Z
-Joost Luiten,Joost Luiten,Classic: DP,https://dkn.gs/sports/images/golf/players/50/810.png,383,44411870,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072098Z
-Nathan Kimsey,Nathan Kimsey,Classic: DP,,345110,44411871,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072100Z
-Richard Mansell,Richard Mansell,Classic: DP,,702169,44411872,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072103Z
-Kevin Roy,Kevin Roy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44393178,PGA TOUR,10/7/2026,7100,76.73,6.44,0,0,8386.8 (0.01),1448.4 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T06:36:41.072105Z
-Billy Horschel,Billy Horschel,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44393177,PGA TOUR,10/7/2026,7100,74.09,7.94,0,0,8719.2 (0.01),1548.5 (0.06),651.0 (0.13),250.0 (0.29),9:43:36 AM,BD,2026-10-07T06:36:41.072107Z
-Kevin Roy,Kevin Roy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44412149,Round 1,10/7/2026,7100,48.87,6.44,0,0,8386.8 (0.01),1448.4 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T06:36:41.072109Z
-Nicolas Echavarria,Nicolas Echavarria,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,44412148,Round 1,10/7/2026,7100,43.05,8.7,0,0,9458.0 (0.01),1668.8 (0.06),691.5 (0.13),273.3 (0.27),9:54:36 AM,BD,2026-10-07T06:36:41.072112Z
-David Lipsky,David Lipsky,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/752.png,586,44425323,Late Round 1,10/7/2026,7100,38.78,3.58,0,0,27274.6 (0.00),4305.6 (0.02),1645.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T06:36:41.072114Z
-Andy Sullivan,Andy Sullivan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44411873,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072117Z
-Thomas Rosenmueller,Thomas Rosenmueller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44411874,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072119Z
-Freddy Schott,Freddy Schott,Classic: DP,,721368,44411875,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072121Z
-Romain Langasque,Romain Langasque,Classic: DP,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44411876,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072124Z
-Bubba Watson,Bubba Watson,Classic: DP,https://dkn.gs/sports/images/golf/players/50/637.png,411,44411877,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072126Z
-Andy Sullivan,Andy Sullivan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44411873,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072128Z
-Thomas Rosenmueller,Thomas Rosenmueller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44411874,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072130Z
-Freddy Schott,Freddy Schott,Classic: DP,,721368,44411875,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072132Z
-Romain Langasque,Romain Langasque,Classic: DP,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44411876,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072135Z
-Bubba Watson,Bubba Watson,Classic: DP,https://dkn.gs/sports/images/golf/players/50/637.png,411,44411877,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072137Z
-Andy Sullivan,Andy Sullivan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44411873,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072139Z
-Thomas Rosenmueller,Thomas Rosenmueller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44411874,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072142Z
-Freddy Schott,Freddy Schott,Classic: DP,,721368,44411875,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072144Z
-Romain Langasque,Romain Langasque,Classic: DP,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44411876,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072146Z
-Bubba Watson,Bubba Watson,Classic: DP,https://dkn.gs/sports/images/golf/players/50/637.png,411,44411877,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072148Z
-Sahith Theegala,Sahith Theegala,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44393180,PGA TOUR,10/7/2026,7000,77.73,6.92,0,0,8997.5 (0.01),1500.6 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T06:36:41.072151Z
-Stephan Jaeger,Stephan Jaeger,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44393179,PGA TOUR,10/7/2026,7000,76.71,5.19,0,0,8663.0 (0.01),1490.7 (0.06),585.0 (0.15),228.3 (0.30),9:43:36 AM,BD,2026-10-07T06:36:41.072153Z
-Beau Hossler,Beau Hossler,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44412151,Round 1,10/7/2026,7000,47,4.61,0,0,7565.5 (0.01),1251.9 (0.07),541.0 (0.16),210.4 (0.32),9:21:36 AM,BD,2026-10-07T06:36:41.072155Z
-Takumi Kanaya,Takumi Kanaya,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44412150,Round 1,10/7/2026,7000,45.75,9.36,0,0,7988.4 (0.01),1387.0 (0.07),590.0 (0.14),233.3 (0.30),10:16:36 AM,BD,2026-10-07T06:36:41.072158Z
-Tony Finau,Tony Finau,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44425324,Late Round 1,10/7/2026,7000,39.68,4.35,0,0,18468.5 (0.01),3060.5 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T06:36:41.072160Z
-Nacho Elvira,Nacho Elvira,Classic: DP,,561,44411878,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072162Z
-Todd Clements,Todd Clements,Classic: DP,,670556,44411879,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072164Z
-Marcus Armitage,Marcus Armitage,Classic: DP,,344989,44411880,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072167Z
-Manuel Elvira,Manuel Elvira,Classic: DP,,769413,44411881,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072169Z
-Martin Couvra,Martin Couvra,Classic: DP,,768104,44411882,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072172Z
-Gregorio De Leo,Gregorio De Leo,Classic: DP,,753705,44411883,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072174Z
-Nacho Elvira,Nacho Elvira,Classic: DP,,561,44411878,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072176Z
-Todd Clements,Todd Clements,Classic: DP,,670556,44411879,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072179Z
-Marcus Armitage,Marcus Armitage,Classic: DP,,344989,44411880,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072181Z
-Manuel Elvira,Manuel Elvira,Classic: DP,,769413,44411881,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072183Z
-Martin Couvra,Martin Couvra,Classic: DP,,768104,44411882,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072186Z
-Gregorio De Leo,Gregorio De Leo,Classic: DP,,753705,44411883,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072188Z
-Nacho Elvira,Nacho Elvira,Classic: DP,,561,44411878,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072190Z
-Todd Clements,Todd Clements,Classic: DP,,670556,44411879,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072193Z
-Marcus Armitage,Marcus Armitage,Classic: DP,,344989,44411880,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072195Z
-Manuel Elvira,Manuel Elvira,Classic: DP,,769413,44411881,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072197Z
-Martin Couvra,Martin Couvra,Classic: DP,,768104,44411882,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072199Z
-Gregorio De Leo,Gregorio De Leo,Classic: DP,,753705,44411883,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072202Z
-Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Classic: PGA TOUR,,720984,44393182,PGA TOUR,10/7/2026,6900,75.94,4.91,0,0,9624.5 (0.01),1614.3 (0.06),658.5 (0.13),252.8 (0.28),10:27:36 AM,BD,2026-10-07T06:36:41.072204Z
-Takumi Kanaya,Takumi Kanaya,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44393181,PGA TOUR,10/7/2026,6900,71.14,9.36,0,0,7988.4 (0.01),1387.0 (0.07),590.0 (0.14),233.3 (0.30),10:16:36 AM,BD,2026-10-07T06:36:41.072207Z
-Mac Meissner,Mac Meissner,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44393183,PGA TOUR,10/7/2026,6900,77.26,3.91,0,0,7709.5 (0.01),1394.1 (0.07),578.0 (0.15),228.9 (0.30),9:32:36 AM,BD,2026-10-07T06:36:41.072209Z
-Davis Thompson,Davis Thompson,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44412153,Round 1,10/7/2026,6900,46.77,6.51,0,0,7035.7 (0.01),1168.7 (0.08),513.5 (0.16),200.2 (0.33),11:11:36 AM,BD,2026-10-07T06:36:41.072211Z
-Billy Horschel,Billy Horschel,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44412152,Round 1,10/7/2026,6900,46.86,7.94,0,0,8719.2 (0.01),1548.5 (0.06),651.0 (0.13),250.0 (0.29),9:43:36 AM,BD,2026-10-07T06:36:41.072214Z
-Stephan Jaeger,Stephan Jaeger,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44412154,Round 1,10/7/2026,6900,45.89,5.19,0,0,8663.0 (0.01),1490.7 (0.06),585.0 (0.15),228.3 (0.30),9:43:36 AM,BD,2026-10-07T06:36:41.072216Z
-Patrick Rodgers,Patrick Rodgers,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44425325,Late Round 1,10/7/2026,6900,38.55,2.67,0,0,18292.9 (0.01),2905.9 (0.03),1187.5 (0.08),417.2 (0.19),10:38:36 AM,BD,2026-10-07T06:36:41.072218Z
-Brandon Stone,Brandon Stone,Classic: DP,https://dkn.gs/sports/images/golf/players/50/877.png,181,44411884,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072220Z
-David Ravetto,David Ravetto,Classic: DP,,699574,44411885,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072222Z
-Thriston Lawrence,Thriston Lawrence,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44411886,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072225Z
-Davis Bryant,Davis Bryant,Classic: DP,,819151,44411887,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072227Z
-David Law,David Law,Classic: DP,,355,44411888,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072229Z
-Filippo Celli,Filippo Celli,Classic: DP,,753704,44411889,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072232Z
-Brandon Stone,Brandon Stone,Classic: DP,https://dkn.gs/sports/images/golf/players/50/877.png,181,44411884,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072234Z
-David Ravetto,David Ravetto,Classic: DP,,699574,44411885,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072236Z
-Thriston Lawrence,Thriston Lawrence,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44411886,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072239Z
-Davis Bryant,Davis Bryant,Classic: DP,,819151,44411887,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072241Z
-David Law,David Law,Classic: DP,,355,44411888,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072243Z
-Filippo Celli,Filippo Celli,Classic: DP,,753704,44411889,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072245Z
-Brandon Stone,Brandon Stone,Classic: DP,https://dkn.gs/sports/images/golf/players/50/877.png,181,44411884,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072248Z
-David Ravetto,David Ravetto,Classic: DP,,699574,44411885,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072250Z
-Thriston Lawrence,Thriston Lawrence,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44411886,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072252Z
-Davis Bryant,Davis Bryant,Classic: DP,,819151,44411887,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072255Z
-David Law,David Law,Classic: DP,,355,44411888,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072257Z
-Filippo Celli,Filippo Celli,Classic: DP,,753704,44411889,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072259Z
-Nick Taylor,Nick Taylor,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/515.png,700,44393186,PGA TOUR,10/7/2026,6800,74.51,7.11,0,0,9764.5 (0.01),1618.8 (0.06),666.5 (0.13),257.6 (0.28),10:05:36 AM,BD,2026-10-07T06:36:41.072262Z
-Pierceson Coody,Pierceson Coody,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44393184,PGA TOUR,10/7/2026,6800,73.2,4.51,0,0,8901.7 (0.01),1437.0 (0.07),592.5 (0.14),236.7 (0.30),9:21:36 AM,BD,2026-10-07T06:36:41.072265Z
-Kris Ventura,Kris Ventura,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44393185,PGA TOUR,10/7/2026,6800,71.5,7.6,0,0,7292.3 (0.01),1259.6 (0.07),555.0 (0.15),212.2 (0.32),9:32:36 AM,BD,2026-10-07T06:36:41.072267Z
-Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Showdown: Round,,720984,44412157,Round 1,10/7/2026,6800,45.59,4.91,0,0,9624.5 (0.01),1614.3 (0.06),658.5 (0.13),252.8 (0.28),10:27:36 AM,BD,2026-10-07T06:36:41.072270Z
-Mac Meissner,Mac Meissner,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44412156,Round 1,10/7/2026,6800,45.65,3.91,0,0,7709.5 (0.01),1394.1 (0.07),578.0 (0.15),228.9 (0.30),9:32:36 AM,BD,2026-10-07T06:36:41.072272Z
-Kris Ventura,Kris Ventura,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44412155,Round 1,10/7/2026,6800,43.85,7.6,0,0,7292.3 (0.01),1259.6 (0.07),555.0 (0.15),212.2 (0.32),9:32:36 AM,BD,2026-10-07T06:36:41.072275Z
-Tom Hoge,Tom Hoge,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44425326,Late Round 1,10/7/2026,6800,39.23,3.65,0,0,24195.0 (0.00),3978.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T06:36:41.072277Z
-Paul Waring,Paul Waring,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44411890,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072279Z
-JC Ritchie,JC Ritchie,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44411891,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072281Z
-Joel Girrbach,Joel Girrbach,Classic: DP,,241748,44411892,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072284Z
-Marcus Helligkilde,Marcus Helligkilde,Classic: DP,,702176,44411893,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072286Z
-Rafa Cabrera Bello,Rafa Cabrera Bello,Classic: DP,https://dkn.gs/sports/images/golf/players/50/868.png,984,44411894,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072288Z
-Kazuma Kobori,Kazuma Kobori,Classic: DP,,776760,44411895,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072290Z
-Paul Waring,Paul Waring,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44411890,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072293Z
-JC Ritchie,JC Ritchie,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44411891,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072295Z
-Joel Girrbach,Joel Girrbach,Classic: DP,,241748,44411892,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072297Z
-Marcus Helligkilde,Marcus Helligkilde,Classic: DP,,702176,44411893,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072300Z
-Rafa Cabrera Bello,Rafa Cabrera Bello,Classic: DP,https://dkn.gs/sports/images/golf/players/50/868.png,984,44411894,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072302Z
-Kazuma Kobori,Kazuma Kobori,Classic: DP,,776760,44411895,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072305Z
-Paul Waring,Paul Waring,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44411890,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072307Z
-JC Ritchie,JC Ritchie,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44411891,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072309Z
-Joel Girrbach,Joel Girrbach,Classic: DP,,241748,44411892,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072312Z
-Marcus Helligkilde,Marcus Helligkilde,Classic: DP,,702176,44411893,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072314Z
-Rafa Cabrera Bello,Rafa Cabrera Bello,Classic: DP,https://dkn.gs/sports/images/golf/players/50/868.png,984,44411894,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072316Z
-Kazuma Kobori,Kazuma Kobori,Classic: DP,,776760,44411895,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072318Z
-Lee Hodges,Lee Hodges,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44393188,PGA TOUR,10/7/2026,6700,75.57,6.14,0,0,8166.2 (0.01),1389.2 (0.07),591.5 (0.14),225.3 (0.31),11:22:36 AM,BD,2026-10-07T06:36:41.072321Z
-Nicolas Echavarria,Nicolas Echavarria,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,44393187,PGA TOUR,10/7/2026,6700,75.79,8.7,0,0,9458.0 (0.01),1668.8 (0.06),691.5 (0.13),273.3 (0.27),9:54:36 AM,BD,2026-10-07T06:36:41.072323Z
-John Parry,John Parry,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44393189,PGA TOUR,10/7/2026,6700,74.25,3.67,0,0,11372.5 (0.01),1737.0 (0.05),724.0 (0.12),272.8 (0.27),10:16:36 AM,BD,2026-10-07T06:36:41.072325Z
-Lee Hodges,Lee Hodges,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44412160,Round 1,10/7/2026,6700,42.9,6.14,0,0,8166.2 (0.01),1389.2 (0.07),591.5 (0.14),225.3 (0.31),11:22:36 AM,BD,2026-10-07T06:36:41.072327Z
-Pierceson Coody,Pierceson Coody,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44412158,Round 1,10/7/2026,6700,43.33,4.51,0,0,8901.7 (0.01),1437.0 (0.07),592.5 (0.14),236.7 (0.30),9:21:36 AM,BD,2026-10-07T06:36:41.072330Z
-John Parry,John Parry,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44412159,Round 1,10/7/2026,6700,44.92,3.67,0,0,11372.5 (0.01),1737.0 (0.05),724.0 (0.12),272.8 (0.27),10:16:36 AM,BD,2026-10-07T06:36:41.072332Z
-Andrew Putnam,Andrew Putnam,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/730.png,665,44425327,Late Round 1,10/7/2026,6700,38.63,3.8,0,0,24261.7 (0.00),4024.2 (0.02),1580.0 (0.06),522.8 (0.16),11:22:36 AM,BD,2026-10-07T06:36:41.072334Z
-Maximilian Steinlechner,Maximilian Steinlechner,Classic: DP,,73304,44411896,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072337Z
-Frederic Lacroix,Frederic Lacroix,Classic: DP,,699576,44411897,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072339Z
-Johannes Veerman,Johannes Veerman,Classic: DP,,250167,44411898,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072341Z
-Matteo Manassero,Matteo Manassero,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44411899,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072343Z
-Jorge Campillo,Jorge Campillo,Classic: DP,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44411900,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072346Z
-Yanhan Zhou,Yanhan Zhou,Classic: DP,,795440,44411901,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072348Z
-Grant Forrest,Grant Forrest,Classic: DP,,1393,44411902,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072350Z
-Maximilian Steinlechner,Maximilian Steinlechner,Classic: DP,,73304,44411896,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072353Z
-Frederic Lacroix,Frederic Lacroix,Classic: DP,,699576,44411897,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072355Z
-Johannes Veerman,Johannes Veerman,Classic: DP,,250167,44411898,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072357Z
-Matteo Manassero,Matteo Manassero,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44411899,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072360Z
-Jorge Campillo,Jorge Campillo,Classic: DP,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44411900,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072375Z
-Yanhan Zhou,Yanhan Zhou,Classic: DP,,795440,44411901,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072378Z
-Grant Forrest,Grant Forrest,Classic: DP,,1393,44411902,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072381Z
-Maximilian Steinlechner,Maximilian Steinlechner,Classic: DP,,73304,44411896,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072383Z
-Frederic Lacroix,Frederic Lacroix,Classic: DP,,699576,44411897,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072386Z
-Johannes Veerman,Johannes Veerman,Classic: DP,,250167,44411898,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072388Z
-Matteo Manassero,Matteo Manassero,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44411899,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072390Z
-Jorge Campillo,Jorge Campillo,Classic: DP,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44411900,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072393Z
-Yanhan Zhou,Yanhan Zhou,Classic: DP,,795440,44411901,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072395Z
-Grant Forrest,Grant Forrest,Classic: DP,,1393,44411902,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072397Z
-Taylor Moore,Taylor Moore,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44393192,PGA TOUR,10/7/2026,6600,71.49,4.34,0,0,11056.8 (0.01),1850.8 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T06:36:41.072399Z
-Taylor Pendrith,Taylor Pendrith,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/716.png,1802,44393190,PGA TOUR,10/7/2026,6600,71.11,3.3,0,0,10814.4 (0.01),1796.5 (0.05),744.0 (0.12),284.4 (0.26),10:05:36 AM,BD,2026-10-07T06:36:41.072402Z
-Matthew McCarty,Matthew McCarty,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44393191,PGA TOUR,10/7/2026,6600,73.81,7.19,0,0,9527.3 (0.01),1691.5 (0.06),712.0 (0.12),273.3 (0.27),9:43:36 AM,BD,2026-10-07T06:36:41.072404Z
-Taylor Pendrith,Taylor Pendrith,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/716.png,1802,44412163,Round 1,10/7/2026,6600,42.43,3.3,0,0,10814.4 (0.01),1796.5 (0.05),744.0 (0.12),284.4 (0.26),10:05:36 AM,BD,2026-10-07T06:36:41.072406Z
-Matthew McCarty,Matthew McCarty,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44412162,Round 1,10/7/2026,6600,2,7.19,0,0,9527.3 (0.01),1691.5 (0.06),712.0 (0.12),273.3 (0.27),9:43:36 AM,BD,2026-10-07T06:36:41.072409Z
-Jinichiro Kozuma,Jinichiro Kozuma,Showdown: Round,,699783,44412161,Round 1,10/7/2026,6600,41.08,3.27,0,0,20242.3 (0.00),3142.5 (0.03),1185.0 (0.08),464.4 (0.18),10:16:36 AM,BD,2026-10-07T06:36:41.072411Z
-Chandler Phillips,Chandler Phillips,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44425328,Late Round 1,10/7/2026,6600,39.53,2.61,0,0,16050.5 (0.01),2571.2 (0.04),1057.5 (0.09),386.7 (0.21),10:38:36 AM,BD,2026-10-07T06:36:41.072413Z
-Jeremy Paul,Jeremy Paul,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44411903,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072415Z
-Oihan Guillamoundeguy,Oihan Guillamoundeguy,Classic: DP,,768105,44411904,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072418Z
-Francesco Molinari,Francesco Molinari,Classic: DP,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44411905,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072420Z
-Darius Van Driel,Darius Van Driel,Classic: DP,,345213,44411906,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072423Z
-Yuto Katsuragawa,Yuto Katsuragawa,Classic: DP,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44411907,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072425Z
-Ross Fisher,Ross Fisher,Classic: DP,https://dkn.gs/sports/images/golf/players/50/729.png,161,44411908,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072428Z
-Sean Crocker,Sean Crocker,Classic: DP,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44411909,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072430Z
-Jeremy Paul,Jeremy Paul,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44411903,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072432Z
-Oihan Guillamoundeguy,Oihan Guillamoundeguy,Classic: DP,,768105,44411904,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072435Z
-Francesco Molinari,Francesco Molinari,Classic: DP,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44411905,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072437Z
-Darius Van Driel,Darius Van Driel,Classic: DP,,345213,44411906,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072439Z
-Yuto Katsuragawa,Yuto Katsuragawa,Classic: DP,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44411907,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072442Z
-Ross Fisher,Ross Fisher,Classic: DP,https://dkn.gs/sports/images/golf/players/50/729.png,161,44411908,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072444Z
-Sean Crocker,Sean Crocker,Classic: DP,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44411909,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072446Z
-Jeremy Paul,Jeremy Paul,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44411903,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072448Z
-Oihan Guillamoundeguy,Oihan Guillamoundeguy,Classic: DP,,768105,44411904,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072451Z
-Francesco Molinari,Francesco Molinari,Classic: DP,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44411905,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072453Z
-Darius Van Driel,Darius Van Driel,Classic: DP,,345213,44411906,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072456Z
-Yuto Katsuragawa,Yuto Katsuragawa,Classic: DP,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44411907,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072458Z
-Ross Fisher,Ross Fisher,Classic: DP,https://dkn.gs/sports/images/golf/players/50/729.png,161,44411908,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072461Z
-Sean Crocker,Sean Crocker,Classic: DP,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44411909,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072463Z
-Tony Finau,Tony Finau,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44393195,PGA TOUR,10/7/2026,6500,71.78,4.35,0,0,18468.5 (0.01),3060.5 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T06:36:41.072465Z
-Denny McCarthy,Denny McCarthy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44393193,PGA TOUR,10/7/2026,6500,72.67,3.52,0,0,14052.0 (0.01),2173.7 (0.04),845.0 (0.11),310.0 (0.24),9:32:36 AM,BD,2026-10-07T06:36:41.072468Z
-Aldrich Potgieter,Aldrich Potgieter,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44393194,PGA TOUR,10/7/2026,6500,70.27,4.18,0,0,13045.8 (0.01),2241.5 (0.04),921.0 (0.10),349.8 (0.22),10:05:36 AM,BD,2026-10-07T06:36:41.072470Z
-Taylor Moore,Taylor Moore,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44412165,Round 1,10/7/2026,6500,40.13,4.34,0,0,11056.8 (0.01),1850.8 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T06:36:41.072472Z
-Patrick Rodgers,Patrick Rodgers,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44412166,Round 1,10/7/2026,6500,38.55,2.67,0,0,18292.9 (0.01),2905.9 (0.03),1187.5 (0.08),417.2 (0.19),10:38:36 AM,BD,2026-10-07T06:36:41.072475Z
-Denny McCarthy,Denny McCarthy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44412164,Round 1,10/7/2026,6500,41.98,3.52,0,0,14052.0 (0.01),2173.7 (0.04),845.0 (0.11),310.0 (0.24),9:32:36 AM,BD,2026-10-07T06:36:41.072477Z
-Hiroshi Iwata,Hiroshi Iwata,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44425329,Late Round 1,10/7/2026,6500,40.18,2.52,0,0,34943.5 (0.00),5179.5 (0.02),1830.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T06:36:41.072479Z
-Sebastian Söderberg,Sebastian Söderberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072482Z
-Adrian Otaegui,Adrian Otaegui,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44411911,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072484Z
-Ivan Cantero Gutierrez,Ivan Cantero Gutierrez,Classic: DP,,162,44411912,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072487Z
-Elvis Smylie,Elvis Smylie,Classic: DP,,721846,44411913,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072489Z
-Eddie Pepperell,Eddie Pepperell,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44411914,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072492Z
-Ricardo Gouveia,Ricardo Gouveia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44411915,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072494Z
-Alfredo Garcia-Heredia,Alfredo Garcia-Heredia,Classic: DP,,671014,44411916,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072497Z
-Sebastian Söderberg,Sebastian Söderberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072499Z
-Adrian Otaegui,Adrian Otaegui,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44411911,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072502Z
-Ivan Cantero Gutierrez,Ivan Cantero Gutierrez,Classic: DP,,162,44411912,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072504Z
-Elvis Smylie,Elvis Smylie,Classic: DP,,721846,44411913,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072506Z
-Eddie Pepperell,Eddie Pepperell,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44411914,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072508Z
-Ricardo Gouveia,Ricardo Gouveia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44411915,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072511Z
-Alfredo Garcia-Heredia,Alfredo Garcia-Heredia,Classic: DP,,671014,44411916,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072513Z
-Sebastian Söderberg,Sebastian Söderberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072515Z
-Adrian Otaegui,Adrian Otaegui,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44411911,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072518Z
-Ivan Cantero Gutierrez,Ivan Cantero Gutierrez,Classic: DP,,162,44411912,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072520Z
-Elvis Smylie,Elvis Smylie,Classic: DP,,721846,44411913,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072523Z
-Eddie Pepperell,Eddie Pepperell,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44411914,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072525Z
-Ricardo Gouveia,Ricardo Gouveia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44411915,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072528Z
-Alfredo Garcia-Heredia,Alfredo Garcia-Heredia,Classic: DP,,671014,44411916,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072530Z
-Patrick Rodgers,Patrick Rodgers,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44393197,PGA TOUR,10/7/2026,6400,69.94,2.67,0,0,18292.9 (0.01),2905.9 (0.03),1187.5 (0.08),417.2 (0.19),10:38:36 AM,BD,2026-10-07T06:36:41.072533Z
-Tom Hoge,Tom Hoge,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44393198,PGA TOUR,10/7/2026,6400,69.34,3.65,0,0,24195.0 (0.00),3978.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T06:36:41.072535Z
-Chandler Phillips,Chandler Phillips,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44393196,PGA TOUR,10/7/2026,6400,72.2,2.61,0,0,16050.5 (0.01),2571.2 (0.04),1057.5 (0.09),386.7 (0.21),10:38:36 AM,BD,2026-10-07T06:36:41.072537Z
-David Lipsky,David Lipsky,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/752.png,586,44412169,Round 1,10/7/2026,6400,38.78,3.58,0,0,27274.6 (0.00),4305.6 (0.02),1645.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T06:36:41.072540Z
-Tony Finau,Tony Finau,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44412167,Round 1,10/7/2026,6400,39.68,4.35,0,0,18468.5 (0.01),3060.5 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T06:36:41.072542Z
-Aldrich Potgieter,Aldrich Potgieter,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44412168,Round 1,10/7/2026,6400,41.83,4.18,0,0,13045.8 (0.01),2241.5 (0.04),921.0 (0.10),349.8 (0.22),10:05:36 AM,BD,2026-10-07T06:36:41.072544Z
-Yusaku Hosono,Yusaku Hosono,Late Showdown: Late Round,,795243,44425330,Late Round 1,10/7/2026,6400,38.48,2.34,0,0,26711.1 (0.00),3951.4 (0.02),1497.5 (0.06),521.7 (0.16),10:38:36 AM,BD,2026-10-07T06:36:41.072547Z
-Wenyi Ding,Wenyi Ding,Classic: DP,,769378,44411917,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072549Z
-Connor Syme,Connor Syme,Classic: DP,,405819,44411918,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072551Z
-Brandon Robinson-Thompson,Brandon Robinson-Thompson,Classic: DP,,701399,44411919,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072554Z
-Daniel Rodrigues,Daniel Rodrigues,Classic: DP,,699770,44411920,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072556Z
-Dylan Frittelli,Dylan Frittelli,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44411921,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072559Z
-Michael Stewart,Michael Stewart,Classic: DP,,773823,44411922,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072561Z
-Niklas Lemke,Niklas Lemke,Classic: DP,,496763,44411923,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072563Z
-Kiradech Aphibarnrat,Kiradech Aphibarnrat,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44411924,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072565Z
-Wenyi Ding,Wenyi Ding,Classic: DP,,769378,44411917,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072568Z
-Connor Syme,Connor Syme,Classic: DP,,405819,44411918,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072570Z
-Brandon Robinson-Thompson,Brandon Robinson-Thompson,Classic: DP,,701399,44411919,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072572Z
-Daniel Rodrigues,Daniel Rodrigues,Classic: DP,,699770,44411920,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072574Z
-Dylan Frittelli,Dylan Frittelli,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44411921,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072577Z
-Michael Stewart,Michael Stewart,Classic: DP,,773823,44411922,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072579Z
-Niklas Lemke,Niklas Lemke,Classic: DP,,496763,44411923,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072581Z
-Kiradech Aphibarnrat,Kiradech Aphibarnrat,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44411924,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072583Z
-Wenyi Ding,Wenyi Ding,Classic: DP,,769378,44411917,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072586Z
-Connor Syme,Connor Syme,Classic: DP,,405819,44411918,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072588Z
-Brandon Robinson-Thompson,Brandon Robinson-Thompson,Classic: DP,,701399,44411919,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072591Z
-Daniel Rodrigues,Daniel Rodrigues,Classic: DP,,699770,44411920,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072593Z
-Dylan Frittelli,Dylan Frittelli,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44411921,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072595Z
-Michael Stewart,Michael Stewart,Classic: DP,,773823,44411922,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072598Z
-Niklas Lemke,Niklas Lemke,Classic: DP,,496763,44411923,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072600Z
-Kiradech Aphibarnrat,Kiradech Aphibarnrat,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44411924,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072602Z
-David Lipsky,David Lipsky,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/752.png,586,44393201,PGA TOUR,10/7/2026,6300,68.69,3.58,0,0,27274.6 (0.00),4305.6 (0.02),1645.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T06:36:41.072604Z
-Jinichiro Kozuma,Jinichiro Kozuma,Classic: PGA TOUR,,699783,44393199,PGA TOUR,10/7/2026,6300,64.14,3.27,0,0,20242.3 (0.00),3142.5 (0.03),1185.0 (0.08),464.4 (0.18),10:16:36 AM,BD,2026-10-07T06:36:41.072607Z
-Sang-hee Lee,Sang-hee Lee,Classic: PGA TOUR,,123532,44393200,PGA TOUR,10/7/2026,6300,58.56,4.66,0,0,25537.1 (0.00),4196.3 (0.02),1557.1 (0.06),545.0 (0.15),9:32:36 AM,BD,2026-10-07T06:36:41.072609Z
-Tom Hoge,Tom Hoge,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44412171,Round 1,10/7/2026,6300,39.23,3.65,0,0,24195.0 (0.00),3978.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T06:36:41.072611Z
-Chandler Phillips,Chandler Phillips,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44412170,Round 1,10/7/2026,6300,39.53,2.61,0,0,16050.5 (0.01),2571.2 (0.04),1057.5 (0.09),386.7 (0.21),10:38:36 AM,BD,2026-10-07T06:36:41.072614Z
-Sang-hee Lee,Sang-hee Lee,Showdown: Round,,123532,44412172,Round 1,10/7/2026,6300,40.1,4.66,0,0,25537.1 (0.00),4196.3 (0.02),1557.1 (0.06),545.0 (0.15),9:32:36 AM,BD,2026-10-07T06:36:41.072616Z
-Yoshinori Fujimoto,Yoshinori Fujimoto,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44425331,Late Round 1,10/7/2026,6300,39.58,1.82,0,0,74097.6 (0.00),9657.9 (0.01),3960.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T06:36:41.072618Z
-Jason Scrivener,Jason Scrivener,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44411925,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072621Z
-Marcel Siem,Marcel Siem,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44411926,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072623Z
-Benjamin Schmidt,Benjamin Schmidt,Classic: DP,,723288,44411927,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072626Z
-Rikuya Hoshino,Rikuya Hoshino,Classic: DP,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44411928,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072628Z
-Nicolai Von Dellingshausen,Nicolai Von Dellingshausen,Classic: DP,,519957,44411929,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072631Z
-Jens Dantorp,Jens Dantorp,Classic: DP,,1152,44411930,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072633Z
-Danny Willett,Danny Willett,Classic: DP,https://dkn.gs/sports/images/golf/players/50/792.png,199,44411931,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072635Z
-Ashun Wu,Ashun Wu,Classic: DP,,626,44411932,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072637Z
-Jason Scrivener,Jason Scrivener,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44411925,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072640Z
-Marcel Siem,Marcel Siem,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44411926,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072642Z
-Benjamin Schmidt,Benjamin Schmidt,Classic: DP,,723288,44411927,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072644Z
-Rikuya Hoshino,Rikuya Hoshino,Classic: DP,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44411928,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072646Z
-Nicolai Von Dellingshausen,Nicolai Von Dellingshausen,Classic: DP,,519957,44411929,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072649Z
-Jens Dantorp,Jens Dantorp,Classic: DP,,1152,44411930,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072651Z
-Danny Willett,Danny Willett,Classic: DP,https://dkn.gs/sports/images/golf/players/50/792.png,199,44411931,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072653Z
-Ashun Wu,Ashun Wu,Classic: DP,,626,44411932,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072655Z
-Jason Scrivener,Jason Scrivener,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44411925,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072658Z
-Marcel Siem,Marcel Siem,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44411926,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072660Z
-Benjamin Schmidt,Benjamin Schmidt,Classic: DP,,723288,44411927,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072662Z
-Rikuya Hoshino,Rikuya Hoshino,Classic: DP,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44411928,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072665Z
-Nicolai Von Dellingshausen,Nicolai Von Dellingshausen,Classic: DP,,519957,44411929,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072667Z
-Jens Dantorp,Jens Dantorp,Classic: DP,,1152,44411930,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072669Z
-Danny Willett,Danny Willett,Classic: DP,https://dkn.gs/sports/images/golf/players/50/792.png,199,44411931,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072672Z
-Ashun Wu,Ashun Wu,Classic: DP,,626,44411932,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072674Z
-Andrew Putnam,Andrew Putnam,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/730.png,665,44393202,PGA TOUR,10/7/2026,6200,70.56,3.8,0,0,24261.7 (0.00),4024.2 (0.02),1580.0 (0.06),522.8 (0.16),11:22:36 AM,BD,2026-10-07T06:36:41.072676Z
-Yusaku Hosono,Yusaku Hosono,Classic: PGA TOUR,,795243,44393203,PGA TOUR,10/7/2026,6200,58.29,2.34,0,0,26711.1 (0.00),3951.4 (0.02),1497.5 (0.06),521.7 (0.16),10:38:36 AM,BD,2026-10-07T06:36:41.072678Z
-Ren Yonezawa,Ren Yonezawa,Classic: PGA TOUR,,795247,44393204,PGA TOUR,10/7/2026,6200,66.08,3.29,0,0,57416.8 (0.00),7934.1 (0.01),3070.0 (0.03),958.3 (0.09),9:21:36 AM,BD,2026-10-07T06:36:41.072681Z
-Andrew Putnam,Andrew Putnam,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/730.png,665,44412173,Round 1,10/7/2026,6200,38.63,3.8,0,0,24261.7 (0.00),4024.2 (0.02),1580.0 (0.06),522.8 (0.16),11:22:36 AM,BD,2026-10-07T06:36:41.072683Z
-Hiroshi Iwata,Hiroshi Iwata,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44412175,Round 1,10/7/2026,6200,40.18,2.52,0,0,34943.5 (0.00),5179.5 (0.02),1830.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T06:36:41.072685Z
-Ren Yonezawa,Ren Yonezawa,Showdown: Round,,795247,44412174,Round 1,10/7/2026,6200,42.17,3.29,0,0,57416.8 (0.00),7934.1 (0.01),3070.0 (0.03),958.3 (0.09),9:21:36 AM,BD,2026-10-07T06:36:41.072688Z
-Koshin Nagasaki,Koshin Nagasaki,Late Showdown: Late Round,,890803,44425332,Late Round 1,10/7/2026,6200,37.43,0.6,0,0,152034.2 (0.00),19780.9 (0.01),8630.0 (0.01),2462.5 (0.04),11:22:36 AM,BD,2026-10-07T06:36:41.072690Z
-Renato Paratore,Renato Paratore,Classic: DP,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44411933,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072692Z
-Michael Hollick,Michael Hollick,Classic: DP,,506,44411934,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072695Z
-Luke List,Luke List,Classic: DP,https://dkn.gs/sports/images/golf/players/50/719.png,559,44411935,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072697Z
-Yurav Premlall,Yurav Premlall,Classic: DP,,692918,44411936,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072699Z
-Jacques Kruyswijk,Jacques Kruyswijk,Classic: DP,,1035,44411937,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072701Z
-Pablo Larrazábal,Pablo Larrazábal,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072704Z
-Sergio Jimenez Romero,Sergio Jimenez Romero,Classic: DP,,890806,44411939,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072706Z
-Stefano Mazzoli,Stefano Mazzoli,Classic: DP,,122743,44411940,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072709Z
-Richard Sterne,Richard Sterne,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44411941,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072711Z
-Renato Paratore,Renato Paratore,Classic: DP,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44411933,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072713Z
-Michael Hollick,Michael Hollick,Classic: DP,,506,44411934,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072716Z
-Luke List,Luke List,Classic: DP,https://dkn.gs/sports/images/golf/players/50/719.png,559,44411935,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072718Z
-Yurav Premlall,Yurav Premlall,Classic: DP,,692918,44411936,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072720Z
-Jacques Kruyswijk,Jacques Kruyswijk,Classic: DP,,1035,44411937,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072722Z
-Pablo Larrazábal,Pablo Larrazábal,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072725Z
-Sergio Jimenez Romero,Sergio Jimenez Romero,Classic: DP,,890806,44411939,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072727Z
-Stefano Mazzoli,Stefano Mazzoli,Classic: DP,,122743,44411940,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072730Z
-Richard Sterne,Richard Sterne,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44411941,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072732Z
-Renato Paratore,Renato Paratore,Classic: DP,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44411933,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072734Z
-Michael Hollick,Michael Hollick,Classic: DP,,506,44411934,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072737Z
-Luke List,Luke List,Classic: DP,https://dkn.gs/sports/images/golf/players/50/719.png,559,44411935,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072739Z
-Yurav Premlall,Yurav Premlall,Classic: DP,,692918,44411936,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072742Z
-Jacques Kruyswijk,Jacques Kruyswijk,Classic: DP,,1035,44411937,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072744Z
-Pablo Larrazábal,Pablo Larrazábal,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072747Z
-Sergio Jimenez Romero,Sergio Jimenez Romero,Classic: DP,,890806,44411939,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072749Z
-Stefano Mazzoli,Stefano Mazzoli,Classic: DP,,122743,44411940,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072752Z
-Richard Sterne,Richard Sterne,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44411941,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072754Z
-Hiroshi Iwata,Hiroshi Iwata,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44393205,PGA TOUR,10/7/2026,6100,63.59,2.52,0,0,34943.5 (0.00),5179.5 (0.02),1830.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T06:36:41.072757Z
-Aguri Iwasaki,Aguri Iwasaki,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44393206,PGA TOUR,10/7/2026,6100,62.09,1.55,0,0,46242.6 (0.00),7034.5 (0.01),2490.0 (0.04),853.3 (0.10),10:38:36 AM,BD,2026-10-07T06:36:41.072759Z
-Tomohiro Ishizaka,Tomohiro Ishizaka,Classic: PGA TOUR,,761466,44393207,PGA TOUR,10/7/2026,6100,57.44,1.52,0,0,81822.1 (0.00),10009.5 (0.01),3730.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T06:36:41.072761Z
-Yusaku Hosono,Yusaku Hosono,Showdown: Round,,795243,44412176,Round 1,10/7/2026,6100,38.48,2.34,0,0,26711.1 (0.00),3951.4 (0.02),1497.5 (0.06),521.7 (0.16),10:38:36 AM,BD,2026-10-07T06:36:41.072764Z
-Yoshinori Fujimoto,Yoshinori Fujimoto,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44412178,Round 1,10/7/2026,6100,39.58,1.82,0,0,74097.6 (0.00),9657.9 (0.01),3960.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T06:36:41.072766Z
-Tomohiro Ishizaka,Tomohiro Ishizaka,Late Showdown: Late Round,,761466,44425333,Late Round 1,10/7/2026,6100,37.88,1.52,0,0,81822.1 (0.00),10009.5 (0.01),3730.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T06:36:41.072769Z
-Kosuke Sunagawa,Kosuke Sunagawa,Showdown: Round,,890804,44412177,Round 1,10/7/2026,6100,39.73,1.72,0,0,65450.0 (0.00),8962.5 (0.01),3270.0 (0.03),974.4 (0.09),10:16:36 AM,BD,2026-10-07T06:36:41.072771Z
-Quim Vidal,Quim Vidal,Classic: DP,,768542,44411942,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072774Z
-Sebastian Garcia Rodriguez,Sebastian Garcia Rodriguez,Classic: DP,,670993,44411943,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072777Z
-Jack Senior,Jack Senior,Classic: DP,https://dkn.gs/sports/images/golf/players/50/740.png,474,44411944,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072779Z
-Jordan Gumberg,Jordan Gumberg,Classic: DP,,690517,44411945,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072781Z
-Thomas Aiken,Thomas Aiken,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60514.png,455,44411946,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072784Z
-Jeong-Weon Ko,Jeong-Weon Ko,Classic: DP,,699573,44411947,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072786Z
-James Morrison,James Morrison,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44411948,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072788Z
-Alejandro Rodriguez Andreu,Alejandro Rodriguez Andreu,Classic: DP,,890807,44411949,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072791Z
-Quim Vidal,Quim Vidal,Classic: DP,,768542,44411942,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072793Z
-Sebastian Garcia Rodriguez,Sebastian Garcia Rodriguez,Classic: DP,,670993,44411943,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072795Z
-Jack Senior,Jack Senior,Classic: DP,https://dkn.gs/sports/images/golf/players/50/740.png,474,44411944,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072798Z
-Jordan Gumberg,Jordan Gumberg,Classic: DP,,690517,44411945,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072800Z
-Thomas Aiken,Thomas Aiken,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60514.png,455,44411946,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072802Z
-Jeong-Weon Ko,Jeong-Weon Ko,Classic: DP,,699573,44411947,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072804Z
-James Morrison,James Morrison,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44411948,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072807Z
-Alejandro Rodriguez Andreu,Alejandro Rodriguez Andreu,Classic: DP,,890807,44411949,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072809Z
-Quim Vidal,Quim Vidal,Classic: DP,,768542,44411942,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072811Z
-Sebastian Garcia Rodriguez,Sebastian Garcia Rodriguez,Classic: DP,,670993,44411943,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072814Z
-Jack Senior,Jack Senior,Classic: DP,https://dkn.gs/sports/images/golf/players/50/740.png,474,44411944,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072816Z
-Jordan Gumberg,Jordan Gumberg,Classic: DP,,690517,44411945,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072818Z
-Thomas Aiken,Thomas Aiken,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60514.png,455,44411946,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072821Z
-Jeong-Weon Ko,Jeong-Weon Ko,Classic: DP,,699573,44411947,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072823Z
-James Morrison,James Morrison,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44411948,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072825Z
-Alejandro Rodriguez Andreu,Alejandro Rodriguez Andreu,Classic: DP,,890807,44411949,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072828Z
-Yoshinori Fujimoto,Yoshinori Fujimoto,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44393209,PGA TOUR,10/7/2026,6000,56.92,1.82,0,0,74097.6 (0.00),9657.9 (0.01),3960.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T06:36:41.072830Z
-Koshin Nagasaki,Koshin Nagasaki,Classic: PGA TOUR,,890803,44393210,PGA TOUR,10/7/2026,6000,57.12,0.6,0,0,152034.2 (0.00),19780.9 (0.01),8630.0 (0.01),2462.5 (0.04),11:22:36 AM,BD,2026-10-07T06:36:41.072832Z
-Kosuke Sunagawa,Kosuke Sunagawa,Classic: PGA TOUR,,890804,44393208,PGA TOUR,10/7/2026,6000,56.95,1.72,0,0,65450.0 (0.00),8962.5 (0.01),3270.0 (0.03),974.4 (0.09),10:16:36 AM,BD,2026-10-07T06:36:41.072835Z
-Koshin Nagasaki,Koshin Nagasaki,Showdown: Round,,890803,44412179,Round 1,10/7/2026,6000,37.43,0.6,0,0,152034.2 (0.00),19780.9 (0.01),8630.0 (0.01),2462.5 (0.04),11:22:36 AM,BD,2026-10-07T06:36:41.072837Z
-Aguri Iwasaki,Aguri Iwasaki,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44412180,Round 1,10/7/2026,6000,38.03,1.55,0,0,46242.6 (0.00),7034.5 (0.01),2490.0 (0.04),853.3 (0.10),10:38:36 AM,BD,2026-10-07T06:36:41.072839Z
-Aguri Iwasaki,Aguri Iwasaki,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44425334,Late Round 1,10/7/2026,6000,38.03,1.55,0,0,46242.6 (0.00),7034.5 (0.01),2490.0 (0.04),853.3 (0.10),10:38:36 AM,BD,2026-10-07T06:36:41.072841Z
-Tomohiro Ishizaka,Tomohiro Ishizaka,Showdown: Round,,761466,44412181,Round 1,10/7/2026,6000,37.88,1.52,0,0,81822.1 (0.00),10009.5 (0.01),3730.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T06:36:41.072844Z
-David Micheluzzi,David Micheluzzi,Classic: DP,,690250,44411950,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072846Z
-Dylan Naidoo,Dylan Naidoo,Classic: DP,,1185,44411951,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072848Z
-Gonzalo Banos Ramos,Gonzalo Banos Ramos,Classic: DP,,890805,44411952,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072851Z
-Ockie Strydom,Ockie Strydom,Classic: DP,,262,44411953,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072853Z
-Juan Salama Monsalve,Juan Salama Monsalve,Classic: DP,,699341,44411954,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072856Z
-Sebastian Desoisa,Sebastian Desoisa,Classic: DP,,858592,44411955,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072858Z
-Ryggs Johnston,Ryggs Johnston,Classic: DP,,818540,44411956,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072860Z
-Daniel Gavins,Daniel Gavins,Classic: DP,,1204,44411957,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072862Z
-David Micheluzzi,David Micheluzzi,Classic: DP,,690250,44411950,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072865Z
-Dylan Naidoo,Dylan Naidoo,Classic: DP,,1185,44411951,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072867Z
-Gonzalo Banos Ramos,Gonzalo Banos Ramos,Classic: DP,,890805,44411952,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072869Z
-Ockie Strydom,Ockie Strydom,Classic: DP,,262,44411953,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072872Z
-Juan Salama Monsalve,Juan Salama Monsalve,Classic: DP,,699341,44411954,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072874Z
-Sebastian Desoisa,Sebastian Desoisa,Classic: DP,,858592,44411955,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072877Z
-Ryggs Johnston,Ryggs Johnston,Classic: DP,,818540,44411956,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072879Z
-Daniel Gavins,Daniel Gavins,Classic: DP,,1204,44411957,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072881Z
-David Micheluzzi,David Micheluzzi,Classic: DP,,690250,44411950,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072883Z
-Dylan Naidoo,Dylan Naidoo,Classic: DP,,1185,44411951,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072885Z
-Gonzalo Banos Ramos,Gonzalo Banos Ramos,Classic: DP,,890805,44411952,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072888Z
-Ockie Strydom,Ockie Strydom,Classic: DP,,262,44411953,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072890Z
-Juan Salama Monsalve,Juan Salama Monsalve,Classic: DP,,699341,44411954,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072892Z
-Sebastian Desoisa,Sebastian Desoisa,Classic: DP,,858592,44411955,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072895Z
-Ryggs Johnston,Ryggs Johnston,Classic: DP,,818540,44411956,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072897Z
-Daniel Gavins,Daniel Gavins,Classic: DP,,1204,44411957,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T06:36:41.072899Z
+Xander Schauffele,Xander Schauffele,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/722.png,902,44393139,PGA TOUR,10/7/2026,11000,106.83,29.57,0,0,917.8 (0.10),212.9 (0.32),60.7 (0.62),-258.3 (0.72),10:05:36 AM,BD,2026-10-07T14:00:03.192410Z
+Ludvig Åberg,Ludvig Åberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,452216,DP World Tour,10/8/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192435Z
+Ludvig Åberg,Ludvig Åberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452216.png,690516,452216,DP World Tour,10/8/2026,11000,26.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192439Z
+Xander Schauffele,Xander Schauffele,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/722.png,902,44412110,Round 1,10/7/2026,10800,59.55,29.57,0,0,917.8 (0.10),212.9 (0.32),60.7 (0.62),-258.3 (0.72),10:05:36 AM,BD,2026-10-07T14:00:03.192442Z
+Hideki Matsuyama,Hideki Matsuyama,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44425299,Late Round 1,10/7/2026,10700,60.42,17.67,0,0,1762.1 (0.05),369.8 (0.21),164.2 (0.38),-152.6 (0.60),11:11:36 AM,BD,2026-10-07T14:00:03.192444Z
+Wyndham Clark,Wyndham Clark,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44393140,PGA TOUR,10/7/2026,10600,106.3,20.5,0,0,1456.4 (0.06),332.2 (0.23),158.8 (0.39),-160.4 (0.62),11:00:36 AM,BD,2026-10-07T14:00:03.192447Z
+Hideki Matsuyama,Hideki Matsuyama,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44412111,Round 1,10/7/2026,10600,60.42,17.67,0,0,1762.1 (0.05),369.8 (0.21),164.2 (0.38),-152.6 (0.60),11:11:36 AM,BD,2026-10-07T14:00:03.192449Z
+Wyndham Clark,Wyndham Clark,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44425300,Late Round 1,10/7/2026,10600,54.23,20.5,0,0,1456.4 (0.06),332.2 (0.23),158.8 (0.39),-160.4 (0.62),11:00:36 AM,BD,2026-10-07T14:00:03.192455Z
+Shane Lowry,Shane Lowry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44411827,DP World Tour,10/8/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192458Z
+Shane Lowry,Shane Lowry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1052.png,395,44411827,DP World Tour,10/8/2026,10500,25.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192461Z
+Collin Morikawa,Collin Morikawa,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/789.png,300102,44393141,PGA TOUR,10/7/2026,10400,105.02,20.86,0,0,1474.5 (0.06),330.7 (0.23),160.0 (0.38),-159.7 (0.61),10:05:36 AM,BD,2026-10-07T14:00:03.192464Z
+Collin Morikawa,Collin Morikawa,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/789.png,300102,44412112,Round 1,10/7/2026,10400,60.24,20.86,0,0,1474.5 (0.06),330.7 (0.23),160.0 (0.38),-159.7 (0.61),10:05:36 AM,BD,2026-10-07T14:00:03.192467Z
+Wyndham Clark,Wyndham Clark,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44412113,Round 1,10/7/2026,10300,54.23,20.5,0,0,1456.4 (0.06),332.2 (0.23),158.8 (0.39),-160.4 (0.62),11:00:36 AM,BD,2026-10-07T14:00:03.192469Z
+Hideki Matsuyama,Hideki Matsuyama,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1130.png,1931,44393142,PGA TOUR,10/7/2026,10200,101.07,17.67,0,0,1762.1 (0.05),369.8 (0.21),164.2 (0.38),-152.6 (0.60),11:11:36 AM,BD,2026-10-07T14:00:03.192472Z
+Patrick Reed,Patrick Reed,Classic: DP,https://dkn.gs/sports/images/golf/players/50/976.png,782,44411828,DP World Tour,10/8/2026,10200,24.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192474Z
+Patrick Reed,Patrick Reed,Classic: DP,https://dkn.gs/sports/images/golf/players/50/976.png,782,44411828,DP World Tour,10/8/2026,10200,24.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192477Z
+Jacob Bridgeman,Jacob Bridgeman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,44412114,Round 1,10/7/2026,10100,58.44,13.1,0,0,2218.7 (0.04),458.0 (0.18),213.0 (0.32),-99.2 (0.50),10:05:36 AM,BD,2026-10-07T14:00:03.192480Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44411829,DP World Tour,10/8/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192482Z
+Tyrrell Hatton,Tyrrell Hatton,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44411829,DP World Tour,10/8/2026,10000,24.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192485Z
+Jacob Bridgeman,Jacob Bridgeman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/640848.png,764548,44393143,PGA TOUR,10/7/2026,9800,100.88,13.1,0,0,2218.7 (0.04),458.0 (0.18),213.0 (0.32),-99.2 (0.50),10:05:36 AM,BD,2026-10-07T14:00:03.192487Z
+Ryan Gerard,Ryan Gerard,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44425301,Late Round 1,10/7/2026,9800,56.15,17.18,0,0,2055.9 (0.05),449.2 (0.18),212.8 (0.32),-123.0 (0.55),11:00:36 AM,BD,2026-10-07T14:00:03.192489Z
+Doug Ghim,Doug Ghim,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44425302,Late Round 1,10/7/2026,9800,56.16,17.17,0,0,2208.3 (0.04),457.8 (0.18),212.0 (0.32),-93.6 (0.48),11:22:36 AM,BD,2026-10-07T14:00:03.192492Z
+Ryan Gerard,Ryan Gerard,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44412115,Round 1,10/7/2026,9700,56.15,17.18,0,0,2055.9 (0.05),449.2 (0.18),212.8 (0.32),-123.0 (0.55),11:00:36 AM,BD,2026-10-07T14:00:03.192494Z
+Justin Thomas,Justin Thomas,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44425303,Late Round 1,10/7/2026,9700,53.62,14.36,0,0,1999.4 (0.05),426.6 (0.19),199.5 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T14:00:03.192497Z
+Eugenio Lopez-Chacarra,Eugenio Lopez-Chacarra,Classic: DP,,696842,44411830,DP World Tour,10/8/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192500Z
+Eugenio Lopez-Chacarra,Eugenio Lopez-Chacarra,Classic: DP,,696842,44411830,DP World Tour,10/8/2026,9700,23.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192502Z
+Justin Thomas,Justin Thomas,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44393144,PGA TOUR,10/7/2026,9600,96.13,14.36,0,0,1999.4 (0.05),426.6 (0.19),199.5 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T14:00:03.192505Z
+David Puig,David Puig,Classic: DP,,756216,44411831,DP World Tour,10/8/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192507Z
+David Puig,David Puig,Classic: DP,,756216,44411831,DP World Tour,10/8/2026,9500,23.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192509Z
+Min Woo Lee,Min Woo Lee,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,44393145,PGA TOUR,10/7/2026,9400,95.1,15.34,0,0,2288.8 (0.04),492.8 (0.17),236.5 (0.30),-19.3 (0.16),9:54:36 AM,BD,2026-10-07T14:00:03.192512Z
+Min Woo Lee,Min Woo Lee,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,44412116,Round 1,10/7/2026,9400,54.8,15.34,0,0,2288.8 (0.04),492.8 (0.17),236.5 (0.30),-19.3 (0.16),9:54:36 AM,BD,2026-10-07T14:00:03.192514Z
+Ryan Gerard,Ryan Gerard,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44393146,PGA TOUR,10/7/2026,9300,91.85,17.18,0,0,2055.9 (0.05),449.2 (0.18),212.8 (0.32),-123.0 (0.55),11:00:36 AM,BD,2026-10-07T14:00:03.192517Z
+Justin Thomas,Justin Thomas,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1012.png,1701,44412117,Round 1,10/7/2026,9300,53.62,14.36,0,0,1999.4 (0.05),426.6 (0.19),199.5 (0.33),-127.0 (0.56),11:00:36 AM,BD,2026-10-07T14:00:03.192519Z
+Adam Scott,Adam Scott,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44425304,Late Round 1,10/7/2026,9300,52.22,13.14,0,0,2568.5 (0.04),531.6 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T14:00:03.192522Z
+Marco Penge,Marco Penge,Classic: DP,,698887,44411832,DP World Tour,10/8/2026,9300,23.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192524Z
+Marco Penge,Marco Penge,Classic: DP,,698887,44411832,DP World Tour,10/8/2026,9300,23.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192526Z
+Doug Ghim,Doug Ghim,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44393147,PGA TOUR,10/7/2026,9200,92.14,17.17,0,0,2208.3 (0.04),457.8 (0.18),212.0 (0.32),-93.6 (0.48),11:22:36 AM,BD,2026-10-07T14:00:03.192528Z
+Sungjae Im,Sungjae Im,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/621.png,670620,44412118,Round 1,10/7/2026,9200,51.42,16.26,0,0,2610.2 (0.04),555.7 (0.15),264.5 (0.27),84.4 (0.54),9:54:36 AM,BD,2026-10-07T14:00:03.192531Z
+Alex Noren,Alex Noren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44411833,DP World Tour,10/8/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192533Z
+Alex Noren,Alex Noren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1162.png,867,44411833,DP World Tour,10/8/2026,9200,22.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192535Z
+Adam Scott,Adam Scott,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44393148,PGA TOUR,10/7/2026,9100,92.75,13.14,0,0,2568.5 (0.04),531.6 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T14:00:03.192538Z
+Doug Ghim,Doug Ghim,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44412119,Round 1,10/7/2026,9100,56.16,17.17,0,0,2208.3 (0.04),457.8 (0.18),212.0 (0.32),-93.6 (0.48),11:22:36 AM,BD,2026-10-07T14:00:03.192540Z
+Kurt Kitayama,Kurt Kitayama,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44425305,Late Round 1,10/7/2026,9100,54.27,12.72,0,0,3032.8 (0.03),605.5 (0.14),276.0 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T14:00:03.192542Z
+Justin Rose,Justin Rose,Classic: DP,https://dkn.gs/sports/images/golf/players/50/734.png,625,44411834,DP World Tour,10/8/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192545Z
+Justin Rose,Justin Rose,Classic: DP,https://dkn.gs/sports/images/golf/players/50/734.png,625,44411834,DP World Tour,10/8/2026,9100,22.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192547Z
+Michael Thorbjornsen,Michael Thorbjornsen,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/787.png,696522,44393149,PGA TOUR,10/7/2026,9000,90.61,15.48,0,0,2574.0 (0.04),541.3 (0.16),252.5 (0.28),77.8 (0.56),9:43:36 AM,BD,2026-10-07T14:00:03.192550Z
+Michael Brennan,Michael Brennan,Showdown: Round,,762470,44412120,Round 1,10/7/2026,9000,56.63,13.63,0,0,3082.1 (0.03),602.7 (0.14),280.0 (0.26),93.0 (0.52),9:43:36 AM,BD,2026-10-07T14:00:03.192553Z
+Tom McKibbin,Tom McKibbin,Classic: DP,,671050,44411835,DP World Tour,10/8/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192555Z
+Tom McKibbin,Tom McKibbin,Classic: DP,,671050,44411835,DP World Tour,10/8/2026,9000,22.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192557Z
+Sungjae Im,Sungjae Im,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/621.png,670620,44393150,PGA TOUR,10/7/2026,8900,91.72,16.26,0,0,2610.2 (0.04),555.7 (0.15),264.5 (0.27),84.4 (0.54),9:54:36 AM,BD,2026-10-07T14:00:03.192560Z
+Kurt Kitayama,Kurt Kitayama,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44412121,Round 1,10/7/2026,8900,54.27,12.72,0,0,3032.8 (0.03),605.5 (0.14),276.0 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T14:00:03.192562Z
+Angel Ayora Fanegas,Angel Ayora Fanegas,Classic: DP,,768633,44411836,DP World Tour,10/8/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192565Z
+Angel Ayora Fanegas,Angel Ayora Fanegas,Classic: DP,,768633,44411836,DP World Tour,10/8/2026,8900,22.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192567Z
+Kurt Kitayama,Kurt Kitayama,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/921.png,329671,44393151,PGA TOUR,10/7/2026,8800,94.55,12.72,0,0,3032.8 (0.03),605.5 (0.14),276.0 (0.27),62.3 (0.62),10:49:36 AM,BD,2026-10-07T14:00:03.192570Z
+Michael Thorbjornsen,Michael Thorbjornsen,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/787.png,696522,44412122,Round 1,10/7/2026,8800,55.07,15.48,0,0,2574.0 (0.04),541.3 (0.16),252.5 (0.28),77.8 (0.56),9:43:36 AM,BD,2026-10-07T14:00:03.192572Z
+Rickie Fowler,Rickie Fowler,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44425306,Late Round 1,10/7/2026,8800,51.17,11.65,0,0,3667.8 (0.03),710.1 (0.12),299.8 (0.25),100.3 (0.50),11:11:36 AM,BD,2026-10-07T14:00:03.192575Z
+Thomas Detry,Thomas Detry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44411837,DP World Tour,10/8/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192577Z
+Thomas Detry,Thomas Detry,Classic: DP,https://dkn.gs/sports/images/golf/players/50/842.png,121942,44411837,DP World Tour,10/8/2026,8800,22.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192579Z
+Maverick McNealy,Maverick McNealy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44393152,PGA TOUR,10/7/2026,8700,91.52,9.15,0,0,2759.7 (0.04),549.2 (0.15),254.0 (0.28),55.9 (0.64),9:54:36 AM,BD,2026-10-07T14:00:03.192582Z
+Adam Scott,Adam Scott,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44412123,Round 1,10/7/2026,8700,52.22,13.14,0,0,2568.5 (0.04),531.6 (0.16),248.5 (0.29),32.3 (0.76),11:00:36 AM,BD,2026-10-07T14:00:03.192584Z
+Ryo Hisatsune,Ryo Hisatsune,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44425307,Late Round 1,10/7/2026,8700,46.07,10.71,0,0,5117.5 (0.02),936.5 (0.10),423.5 (0.19),158.7 (0.39),10:38:36 AM,BD,2026-10-07T14:00:03.192587Z
+Jacob Skov Olesen,Jacob Skov Olesen,Classic: DP,,797154,44411838,DP World Tour,10/8/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192589Z
+Jacob Skov Olesen,Jacob Skov Olesen,Classic: DP,,797154,44411838,DP World Tour,10/8/2026,8700,21.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192592Z
+Michael Brennan,Michael Brennan,Classic: PGA TOUR,,762470,44393153,PGA TOUR,10/7/2026,8600,88.34,13.63,0,0,3082.1 (0.03),602.7 (0.14),280.0 (0.26),93.0 (0.52),9:43:36 AM,BD,2026-10-07T14:00:03.192594Z
+Maverick McNealy,Maverick McNealy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/543.png,1914,44412124,Round 1,10/7/2026,8600,52.62,9.15,0,0,2759.7 (0.04),549.2 (0.15),254.0 (0.28),55.9 (0.64),9:54:36 AM,BD,2026-10-07T14:00:03.192597Z
+Johnny Keefer,Johnny Keefer,Late Showdown: Late Round,,814141,44425308,Late Round 1,10/7/2026,8600,49.6,9.56,0,0,4165.7 (0.02),786.5 (0.11),355.3 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T14:00:03.192599Z
+Daniel Hillier,Daniel Hillier,Classic: DP,,696565,44411839,DP World Tour,10/8/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192601Z
+Daniel Hillier,Daniel Hillier,Classic: DP,,696565,44411839,DP World Tour,10/8/2026,8600,21.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192604Z
+Matt Wallace,Matt Wallace,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44393154,PGA TOUR,10/7/2026,8500,85.37,12.52,0,0,3496.6 (0.03),643.5 (0.13),295.5 (0.25),97.7 (0.51),10:16:36 AM,BD,2026-10-07T14:00:03.192606Z
+Ben Kohles,Ben Kohles,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44412125,Round 1,10/7/2026,8500,53.78,10.68,0,0,6017.5 (0.02),1143.9 (0.08),483.5 (0.17),195.7 (0.34),9:21:36 AM,BD,2026-10-07T14:00:03.192608Z
+Kevin Yu,Kevin Yu,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44425309,Late Round 1,10/7/2026,8500,51.58,9.84,0,0,4338.9 (0.02),827.4 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T14:00:03.192611Z
+Sergio Garcia,Sergio Garcia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/981.png,780,44411840,DP World Tour,10/8/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192613Z
+Sergio Garcia,Sergio Garcia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/981.png,780,44411840,DP World Tour,10/8/2026,8500,21.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192615Z
+Rickie Fowler,Rickie Fowler,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44393155,PGA TOUR,10/7/2026,8400,88.64,11.65,0,0,3667.8 (0.03),710.1 (0.12),299.8 (0.25),100.3 (0.50),11:11:36 AM,BD,2026-10-07T14:00:03.192617Z
+Rickie Fowler,Rickie Fowler,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/991.png,1237,44412126,Round 1,10/7/2026,8400,51.17,11.65,0,0,3667.8 (0.03),710.1 (0.12),299.8 (0.25),100.3 (0.50),11:11:36 AM,BD,2026-10-07T14:00:03.192620Z
+Keegan Bradley,Keegan Bradley,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/518.png,804,44425310,Late Round 1,10/7/2026,8400,49.23,8.76,0,0,4164.5 (0.02),718.6 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T14:00:03.192622Z
+Ewen Ferguson,Ewen Ferguson,Classic: DP,,290967,44411841,DP World Tour,10/8/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192624Z
+Ewen Ferguson,Ewen Ferguson,Classic: DP,,290967,44411841,DP World Tour,10/8/2026,8400,21.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192627Z
+Jordan Spieth,Jordan Spieth,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/882.png,171,44393156,PGA TOUR,10/7/2026,8300,86.74,11.63,0,0,4942.7 (0.02),890.1 (0.10),401.5 (0.20),161.7 (0.38),9:54:36 AM,BD,2026-10-07T14:00:03.192630Z
+Alex Smalley,Alex Smalley,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,44412127,Round 1,10/7/2026,8300,52.55,11.13,0,0,4361.2 (0.02),756.5 (0.12),349.3 (0.22),137.4 (0.42),9:54:36 AM,BD,2026-10-07T14:00:03.192632Z
+Zachary Bauchou,Zachary Bauchou,Late Showdown: Late Round,,689973,44425311,Late Round 1,10/7/2026,8300,45.12,7.67,0,0,6038.1 (0.02),1034.8 (0.09),470.5 (0.18),183.6 (0.35),11:22:36 AM,BD,2026-10-07T14:00:03.192635Z
+Josele Ballester,Josele Ballester,Classic: DP,,773808,44411842,DP World Tour,10/8/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192637Z
+Josele Ballester,Josele Ballester,Classic: DP,,773808,44411842,DP World Tour,10/8/2026,8300,21.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192639Z
+Keith Mitchell,Keith Mitchell,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44393157,PGA TOUR,10/7/2026,8200,85.58,7.06,0,0,4756.8 (0.02),821.0 (0.11),358.0 (0.22),146.3 (0.41),9:21:36 AM,BD,2026-10-07T14:00:03.192641Z
+Matt Wallace,Matt Wallace,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44412128,Round 1,10/7/2026,8200,50.65,12.52,0,0,3496.6 (0.03),643.5 (0.13),295.5 (0.25),97.7 (0.51),10:16:36 AM,BD,2026-10-07T14:00:03.192644Z
+Max Homa,Max Homa,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44425312,Late Round 1,10/7/2026,8200,46.37,9.35,0,0,5754.3 (0.02),998.5 (0.09),441.5 (0.18),173.9 (0.37),10:49:36 AM,BD,2026-10-07T14:00:03.192646Z
+Victor Perez,Victor Perez,Classic: DP,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44411843,DP World Tour,10/8/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192649Z
+Victor Perez,Victor Perez,Classic: DP,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44411843,DP World Tour,10/8/2026,8200,20.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192651Z
+Alex Smalley,Alex Smalley,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451986.png,509666,44393158,PGA TOUR,10/7/2026,8100,89.66,11.13,0,0,4361.2 (0.02),756.5 (0.12),349.3 (0.22),137.4 (0.42),9:54:36 AM,BD,2026-10-07T14:00:03.192653Z
+Jordan Spieth,Jordan Spieth,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/882.png,171,44412129,Round 1,10/7/2026,8100,50.35,11.63,0,0,4942.7 (0.02),890.1 (0.10),401.5 (0.20),161.7 (0.38),9:54:36 AM,BD,2026-10-07T14:00:03.192656Z
+Christiaan Bezuidenhout,Christiaan Bezuidenhout,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44425313,Late Round 1,10/7/2026,8100,48.32,5.6,0,0,7992.5 (0.01),1390.9 (0.07),584.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T14:00:03.192658Z
+Oliver Lindell,Oliver Lindell,Classic: DP,,230887,44411844,DP World Tour,10/8/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192660Z
+Oliver Lindell,Oliver Lindell,Classic: DP,,230887,44411844,DP World Tour,10/8/2026,8100,20.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192663Z
+Kevin Yu,Kevin Yu,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44393160,PGA TOUR,10/7/2026,8000,82.64,9.84,0,0,4338.9 (0.02),827.4 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T14:00:03.192665Z
+Keegan Bradley,Keegan Bradley,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/518.png,804,44393159,PGA TOUR,10/7/2026,8000,81.99,8.76,0,0,4164.5 (0.02),718.6 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T14:00:03.192667Z
+Ryo Hisatsune,Ryo Hisatsune,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44412130,Round 1,10/7/2026,8000,46.07,10.71,0,0,5117.5 (0.02),936.5 (0.10),423.5 (0.19),158.7 (0.39),10:38:36 AM,BD,2026-10-07T14:00:03.192670Z
+Johnny Keefer,Johnny Keefer,Showdown: Round,,814141,44412131,Round 1,10/7/2026,8000,49.6,9.56,0,0,4165.7 (0.02),786.5 (0.11),355.3 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T14:00:03.192672Z
+Jordan L. Smith,Jordan L. Smith,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44425314,Late Round 1,10/7/2026,8000,51.59,7.44,0,0,6304.9 (0.02),1099.6 (0.08),476.5 (0.17),193.0 (0.34),10:49:36 AM,BD,2026-10-07T14:00:03.192675Z
+Joakim Lagergren,Joakim Lagergren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44411845,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192677Z
+Nicolai Højgaard,Nicolai Højgaard,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44411846,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192680Z
+Joakim Lagergren,Joakim Lagergren,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44411845,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192682Z
+Nicolai Højgaard,Nicolai Højgaard,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,44411846,DP World Tour,10/8/2026,8000,20.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192684Z
+Johnny Keefer,Johnny Keefer,Classic: PGA TOUR,,814141,44393161,PGA TOUR,10/7/2026,7900,82.3,9.56,0,0,4165.7 (0.02),786.5 (0.11),355.3 (0.22),143.6 (0.41),10:27:36 AM,BD,2026-10-07T14:00:03.192687Z
+Ben Kohles,Ben Kohles,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44393162,PGA TOUR,10/7/2026,7900,85.37,10.68,0,0,6017.5 (0.02),1143.9 (0.08),483.5 (0.17),195.7 (0.34),9:21:36 AM,BD,2026-10-07T14:00:03.192689Z
+Keith Mitchell,Keith Mitchell,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44412133,Round 1,10/7/2026,7900,50.7,7.06,0,0,4756.8 (0.02),821.0 (0.11),358.0 (0.22),146.3 (0.41),9:21:36 AM,BD,2026-10-07T14:00:03.192691Z
+Jackson Suber,Jackson Suber,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44412132,Round 1,10/7/2026,7900,51.05,9.78,0,0,4815.8 (0.02),936.0 (0.10),410.5 (0.20),162.3 (0.38),10:16:36 AM,BD,2026-10-07T14:00:03.192694Z
+Sahith Theegala,Sahith Theegala,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44425315,Late Round 1,10/7/2026,7900,46.57,6.96,0,0,9001.5 (0.01),1491.7 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T14:00:03.192696Z
+Sam Bairstow,Sam Bairstow,Classic: DP,,722206,44411847,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192698Z
+Matthew Jordan,Matthew Jordan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44411848,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192701Z
+Sam Bairstow,Sam Bairstow,Classic: DP,,722206,44411847,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192703Z
+Matthew Jordan,Matthew Jordan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44411848,DP World Tour,10/8/2026,7900,20.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192705Z
+Keita Nakajima,Keita Nakajima,Classic: PGA TOUR,,699011,44393163,PGA TOUR,10/7/2026,7800,79.52,8.88,0,0,4448.1 (0.02),836.5 (0.11),376.8 (0.21),148.1 (0.40),9:32:36 AM,BD,2026-10-07T14:00:03.192708Z
+Michael Kim,Michael Kim,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44393164,PGA TOUR,10/7/2026,7800,82.78,7.4,0,0,5451.8 (0.02),975.5 (0.09),431.5 (0.19),168.1 (0.37),9:21:36 AM,BD,2026-10-07T14:00:03.192710Z
+Kevin Yu,Kevin Yu,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44412134,Round 1,10/7/2026,7800,51.58,9.84,0,0,4338.9 (0.02),827.4 (0.11),363.8 (0.22),141.9 (0.41),11:00:36 AM,BD,2026-10-07T14:00:03.192712Z
+Zachary Bauchou,Zachary Bauchou,Showdown: Round,,689973,44412135,Round 1,10/7/2026,7800,45.12,7.67,0,0,6038.1 (0.02),1034.8 (0.09),470.5 (0.18),183.6 (0.35),11:22:36 AM,BD,2026-10-07T14:00:03.192714Z
+Kevin Roy,Kevin Roy,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44425316,Late Round 1,10/7/2026,7800,48.87,6.37,0,0,8406.6 (0.01),1448.6 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T14:00:03.192717Z
+Adrian Meronk,Adrian Meronk,Classic: DP,,292342,44411849,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192719Z
+Antoine Rozner,Antoine Rozner,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44411850,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192722Z
+Adrian Meronk,Adrian Meronk,Classic: DP,,292342,44411849,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192724Z
+Antoine Rozner,Antoine Rozner,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44411850,DP World Tour,10/8/2026,7800,20.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192726Z
+Max Homa,Max Homa,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44393166,PGA TOUR,10/7/2026,7700,81.82,9.35,0,0,5754.3 (0.02),998.5 (0.09),441.5 (0.18),173.9 (0.37),10:49:36 AM,BD,2026-10-07T14:00:03.192729Z
+Max Greyserman,Max Greyserman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44393165,PGA TOUR,10/7/2026,7700,78.27,14.09,0,0,5326.2 (0.02),1000.7 (0.09),414.8 (0.19),166.8 (0.37),9:32:36 AM,BD,2026-10-07T14:00:03.192731Z
+Michael Kim,Michael Kim,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44412137,Round 1,10/7/2026,7700,49.15,7.4,0,0,5451.8 (0.02),975.5 (0.09),431.5 (0.19),168.1 (0.37),9:21:36 AM,BD,2026-10-07T14:00:03.192733Z
+Max Greyserman,Max Greyserman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44412136,Round 1,10/7/2026,7700,48.19,14.09,0,0,5326.2 (0.02),1000.7 (0.09),414.8 (0.19),166.8 (0.37),9:32:36 AM,BD,2026-10-07T14:00:03.192736Z
+Steven Fisk,Steven Fisk,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44425317,Late Round 1,10/7/2026,7700,45.3,8.11,0,0,6234.9 (0.02),1041.6 (0.09),476.0 (0.17),184.7 (0.35),10:49:36 AM,BD,2026-10-07T14:00:03.192738Z
+Angel Hidalgo,Angel Hidalgo,Classic: DP,,670990,44411851,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192740Z
+Jayden Trey Schaper,Jayden Trey Schaper,Classic: DP,,700083,44411852,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192743Z
+Angel Hidalgo,Angel Hidalgo,Classic: DP,,670990,44411851,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192745Z
+Jayden Trey Schaper,Jayden Trey Schaper,Classic: DP,,700083,44411852,DP World Tour,10/8/2026,7700,19.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192748Z
+Ryo Hisatsune,Ryo Hisatsune,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,44393168,PGA TOUR,10/7/2026,7600,81.3,10.71,0,0,5117.5 (0.02),936.5 (0.10),423.5 (0.19),158.7 (0.39),10:38:36 AM,BD,2026-10-07T14:00:03.192750Z
+Jackson Suber,Jackson Suber,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44393167,PGA TOUR,10/7/2026,7600,81.02,9.78,0,0,4815.8 (0.02),936.0 (0.10),410.5 (0.20),162.3 (0.38),10:16:36 AM,BD,2026-10-07T14:00:03.192753Z
+Keegan Bradley,Keegan Bradley,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/518.png,804,44412139,Round 1,10/7/2026,7600,49.23,8.76,0,0,4164.5 (0.02),718.6 (0.12),321.3 (0.24),127.8 (0.44),11:11:36 AM,BD,2026-10-07T14:00:03.192755Z
+Keita Nakajima,Keita Nakajima,Showdown: Round,,699011,44412138,Round 1,10/7/2026,7600,49.97,8.88,0,0,4448.1 (0.02),836.5 (0.11),376.8 (0.21),148.1 (0.40),9:32:36 AM,BD,2026-10-07T14:00:03.192757Z
+Brian Harman,Brian Harman,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/533.png,805,44425318,Late Round 1,10/7/2026,7600,45.58,6.87,0,0,6671.2 (0.01),1182.5 (0.08),520.0 (0.16),203.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.192760Z
+Alejandro Del Rey,Alejandro Del Rey,Classic: DP,,670992,44411853,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192763Z
+Calum Hill,Calum Hill,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44411854,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192765Z
+Joe Dean,Joe Dean,Classic: DP,,544869,44411855,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192767Z
+Alejandro Del Rey,Alejandro Del Rey,Classic: DP,,670992,44411853,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192770Z
+Calum Hill,Calum Hill,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44411854,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192772Z
+Joe Dean,Joe Dean,Classic: DP,,544869,44411855,DP World Tour,10/8/2026,7600,19.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192774Z
+Jordan L. Smith,Jordan L. Smith,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44393170,PGA TOUR,10/7/2026,7500,80.43,7.44,0,0,6304.9 (0.02),1099.6 (0.08),476.5 (0.17),193.0 (0.34),10:49:36 AM,BD,2026-10-07T14:00:03.192777Z
+Brian Harman,Brian Harman,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/533.png,805,44393169,PGA TOUR,10/7/2026,7500,80.43,6.87,0,0,6671.2 (0.01),1182.5 (0.08),520.0 (0.16),203.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.192779Z
+Max Homa,Max Homa,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44412140,Round 1,10/7/2026,7500,46.37,9.35,0,0,5754.3 (0.02),998.5 (0.09),441.5 (0.18),173.9 (0.37),10:49:36 AM,BD,2026-10-07T14:00:03.192781Z
+Jordan L. Smith,Jordan L. Smith,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44412141,Round 1,10/7/2026,7500,51.59,7.44,0,0,6304.9 (0.02),1099.6 (0.08),476.5 (0.17),193.0 (0.34),10:49:36 AM,BD,2026-10-07T14:00:03.192784Z
+Davis Thompson,Davis Thompson,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44425319,Late Round 1,10/7/2026,7500,46.77,6.5,0,0,7000.5 (0.01),1168.9 (0.08),514.5 (0.16),200.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.192786Z
+Julien Guerrier,Julien Guerrier,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44411856,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192788Z
+Niklas Nørgaard Møller,Niklas Nørgaard Møller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44411857,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192791Z
+Daniel Brown,Daniel Brown,Classic: DP,,769318,44411858,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192794Z
+Julien Guerrier,Julien Guerrier,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44411856,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192796Z
+Niklas Nørgaard Møller,Niklas Nørgaard Møller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44411857,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192799Z
+Daniel Brown,Daniel Brown,Classic: DP,,769318,44411858,DP World Tour,10/8/2026,7500,19.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192801Z
+Zachary Bauchou,Zachary Bauchou,Classic: PGA TOUR,,689973,44393172,PGA TOUR,10/7/2026,7400,70.56,7.67,0,0,6038.1 (0.02),1034.8 (0.09),470.5 (0.18),183.6 (0.35),11:22:36 AM,BD,2026-10-07T14:00:03.192803Z
+Davis Thompson,Davis Thompson,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44393171,PGA TOUR,10/7/2026,7400,80.4,6.5,0,0,7000.5 (0.01),1168.9 (0.08),514.5 (0.16),200.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.192805Z
+Brian Harman,Brian Harman,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/533.png,805,44412143,Round 1,10/7/2026,7400,45.58,6.87,0,0,6671.2 (0.01),1182.5 (0.08),520.0 (0.16),203.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.192808Z
+Ricky Castillo,Ricky Castillo,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,44412142,Round 1,10/7/2026,7400,48.18,5.45,0,0,7965.0 (0.01),1369.4 (0.07),579.0 (0.15),227.8 (0.31),9:43:36 AM,BD,2026-10-07T14:00:03.192810Z
+Lee Hodges,Lee Hodges,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44425320,Late Round 1,10/7/2026,7400,42.9,6.19,0,0,8169.3 (0.01),1373.5 (0.07),591.5 (0.14),225.9 (0.31),11:22:36 AM,BD,2026-10-07T14:00:03.192812Z
+Sami Välimäki,Sami Välimäki,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192815Z
+Tom Vaillant,Tom Vaillant,Classic: DP,,768110,44411860,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192817Z
+Ugo Coussaud,Ugo Coussaud,Classic: DP,,694555,44411861,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192819Z
+Mikael Lindberg,Mikael Lindberg,Classic: DP,,769321,44411862,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192822Z
+Sami Välimäki,Sami Välimäki,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192824Z
+Tom Vaillant,Tom Vaillant,Classic: DP,,768110,44411860,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192827Z
+Ugo Coussaud,Ugo Coussaud,Classic: DP,,694555,44411861,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192829Z
+Mikael Lindberg,Mikael Lindberg,Classic: DP,,769321,44411862,DP World Tour,10/8/2026,7400,19.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192831Z
+Christiaan Bezuidenhout,Christiaan Bezuidenhout,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44393174,PGA TOUR,10/7/2026,7300,80.63,5.6,0,0,7992.5 (0.01),1390.9 (0.07),584.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T14:00:03.192834Z
+Steven Fisk,Steven Fisk,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44393173,PGA TOUR,10/7/2026,7300,79.61,8.11,0,0,6234.9 (0.02),1041.6 (0.09),476.0 (0.17),184.7 (0.35),10:49:36 AM,BD,2026-10-07T14:00:03.192836Z
+Christiaan Bezuidenhout,Christiaan Bezuidenhout,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44412145,Round 1,10/7/2026,7300,48.32,5.6,0,0,7992.5 (0.01),1390.9 (0.07),584.0 (0.15),222.0 (0.31),10:27:36 AM,BD,2026-10-07T14:00:03.192839Z
+Steven Fisk,Steven Fisk,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44412144,Round 1,10/7/2026,7300,45.3,8.11,0,0,6234.9 (0.02),1041.6 (0.09),476.0 (0.17),184.7 (0.35),10:49:36 AM,BD,2026-10-07T14:00:03.192841Z
+Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Late Showdown: Late Round,,720984,44425321,Late Round 1,10/7/2026,7300,45.59,4.91,0,0,9706.3 (0.01),1610.0 (0.06),658.5 (0.13),253.3 (0.28),10:27:36 AM,BD,2026-10-07T14:00:03.192844Z
+Bernd Wiesberger,Bernd Wiesberger,Classic: DP,https://dkn.gs/sports/images/golf/players/50/718.png,479,44411863,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192846Z
+Francesco Laporta,Francesco Laporta,Classic: DP,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44411864,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192849Z
+Hennie Du Plessis,Hennie Du Plessis,Classic: DP,,354076,44411865,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192851Z
+Guido Migliozzi,Guido Migliozzi,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44411866,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192854Z
+Dan Bradbury,Dan Bradbury,Classic: DP,,766740,44411867,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192856Z
+Bernd Wiesberger,Bernd Wiesberger,Classic: DP,https://dkn.gs/sports/images/golf/players/50/718.png,479,44411863,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192859Z
+Francesco Laporta,Francesco Laporta,Classic: DP,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44411864,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192861Z
+Hennie Du Plessis,Hennie Du Plessis,Classic: DP,,354076,44411865,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192864Z
+Guido Migliozzi,Guido Migliozzi,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44411866,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192866Z
+Dan Bradbury,Dan Bradbury,Classic: DP,,766740,44411867,DP World Tour,10/8/2026,7300,19.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192869Z
+Ricky Castillo,Ricky Castillo,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,44393176,PGA TOUR,10/7/2026,7200,82.25,5.45,0,0,7965.0 (0.01),1369.4 (0.07),579.0 (0.15),227.8 (0.31),9:43:36 AM,BD,2026-10-07T14:00:03.192871Z
+Beau Hossler,Beau Hossler,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44393175,PGA TOUR,10/7/2026,7200,76.33,4.66,0,0,7529.6 (0.01),1279.4 (0.07),539.5 (0.16),210.7 (0.32),9:21:36 AM,BD,2026-10-07T14:00:03.192874Z
+Sahith Theegala,Sahith Theegala,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44412146,Round 1,10/7/2026,7200,46.57,6.96,0,0,9001.5 (0.01),1491.7 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T14:00:03.192876Z
+Nick Taylor,Nick Taylor,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/515.png,700,44412147,Round 1,10/7/2026,7200,44.37,7.07,0,0,9730.6 (0.01),1605.5 (0.06),665.5 (0.13),257.0 (0.28),10:05:36 AM,BD,2026-10-07T14:00:03.192879Z
+Taylor Moore,Taylor Moore,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44425322,Late Round 1,10/7/2026,7200,40.13,4.35,0,0,11139.2 (0.01),1860.1 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T14:00:03.192881Z
+Jeff Winther,Jeff Winther,Classic: DP,,581,44411868,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192883Z
+MJ Daffue,MJ Daffue,Classic: DP,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44411869,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192886Z
+Joost Luiten,Joost Luiten,Classic: DP,https://dkn.gs/sports/images/golf/players/50/810.png,383,44411870,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192888Z
+Nathan Kimsey,Nathan Kimsey,Classic: DP,,345110,44411871,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192890Z
+Richard Mansell,Richard Mansell,Classic: DP,,702169,44411872,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192893Z
+Jeff Winther,Jeff Winther,Classic: DP,,581,44411868,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192895Z
+MJ Daffue,MJ Daffue,Classic: DP,https://dkn.gs/sports/images/golf/players/50/474728.png,701073,44411869,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192897Z
+Joost Luiten,Joost Luiten,Classic: DP,https://dkn.gs/sports/images/golf/players/50/810.png,383,44411870,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192900Z
+Nathan Kimsey,Nathan Kimsey,Classic: DP,,345110,44411871,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192902Z
+Richard Mansell,Richard Mansell,Classic: DP,,702169,44411872,DP World Tour,10/8/2026,7200,18.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192904Z
+Kevin Roy,Kevin Roy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44393178,PGA TOUR,10/7/2026,7100,76.73,6.37,0,0,8406.6 (0.01),1448.6 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T14:00:03.192907Z
+Billy Horschel,Billy Horschel,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44393177,PGA TOUR,10/7/2026,7100,74.09,7.94,0,0,8816.3 (0.01),1576.0 (0.06),651.0 (0.13),250.0 (0.29),9:43:36 AM,BD,2026-10-07T14:00:03.192909Z
+Kevin Roy,Kevin Roy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44412149,Round 1,10/7/2026,7100,48.87,6.37,0,0,8406.6 (0.01),1448.6 (0.06),587.5 (0.15),228.3 (0.30),10:27:36 AM,BD,2026-10-07T14:00:03.192911Z
+Nicolas Echavarria,Nicolas Echavarria,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,44412148,Round 1,10/7/2026,7100,43.05,8.67,0,0,9539.7 (0.01),1641.7 (0.06),714.0 (0.12),273.3 (0.27),9:54:36 AM,BD,2026-10-07T14:00:03.192914Z
+David Lipsky,David Lipsky,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/752.png,586,44425323,Late Round 1,10/7/2026,7100,38.78,3.63,0,0,27281.8 (0.00),4306.0 (0.02),1670.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T14:00:03.192916Z
+Andy Sullivan,Andy Sullivan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44411873,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192919Z
+Thomas Rosenmueller,Thomas Rosenmueller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44411874,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192921Z
+Freddy Schott,Freddy Schott,Classic: DP,,721368,44411875,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192923Z
+Romain Langasque,Romain Langasque,Classic: DP,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44411876,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192926Z
+Bubba Watson,Bubba Watson,Classic: DP,https://dkn.gs/sports/images/golf/players/50/637.png,411,44411877,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192928Z
+Andy Sullivan,Andy Sullivan,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44411873,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192930Z
+Thomas Rosenmueller,Thomas Rosenmueller,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451803.png,269472,44411874,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192933Z
+Freddy Schott,Freddy Schott,Classic: DP,,721368,44411875,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192935Z
+Romain Langasque,Romain Langasque,Classic: DP,https://dkn.gs/sports/images/golf/players/50/688.png,1090,44411876,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192938Z
+Bubba Watson,Bubba Watson,Classic: DP,https://dkn.gs/sports/images/golf/players/50/637.png,411,44411877,DP World Tour,10/8/2026,7100,18.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192940Z
+Sahith Theegala,Sahith Theegala,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451906.png,404847,44393180,PGA TOUR,10/7/2026,7000,77.73,6.96,0,0,9001.5 (0.01),1491.7 (0.06),616.5 (0.14),241.7 (0.29),10:49:36 AM,BD,2026-10-07T14:00:03.192942Z
+Stephan Jaeger,Stephan Jaeger,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44393179,PGA TOUR,10/7/2026,7000,76.71,5.24,0,0,8744.3 (0.01),1481.8 (0.06),585.0 (0.15),230.6 (0.30),9:43:36 AM,BD,2026-10-07T14:00:03.192945Z
+Beau Hossler,Beau Hossler,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44412151,Round 1,10/7/2026,7000,47,4.66,0,0,7529.6 (0.01),1279.4 (0.07),539.5 (0.16),210.7 (0.32),9:21:36 AM,BD,2026-10-07T14:00:03.192958Z
+Takumi Kanaya,Takumi Kanaya,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44412150,Round 1,10/7/2026,7000,45.75,9.33,0,0,8023.2 (0.01),1391.7 (0.07),591.0 (0.14),233.3 (0.30),10:16:36 AM,BD,2026-10-07T14:00:03.192960Z
+Tony Finau,Tony Finau,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44425324,Late Round 1,10/7/2026,7000,39.68,4.31,0,0,18476.8 (0.01),3042.6 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T14:00:03.192963Z
+Nacho Elvira,Nacho Elvira,Classic: DP,,561,44411878,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192965Z
+Todd Clements,Todd Clements,Classic: DP,,670556,44411879,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192967Z
+Marcus Armitage,Marcus Armitage,Classic: DP,,344989,44411880,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192970Z
+Manuel Elvira,Manuel Elvira,Classic: DP,,769413,44411881,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192972Z
+Martin Couvra,Martin Couvra,Classic: DP,,768104,44411882,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192975Z
+Gregorio De Leo,Gregorio De Leo,Classic: DP,,753705,44411883,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192977Z
+Nacho Elvira,Nacho Elvira,Classic: DP,,561,44411878,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192980Z
+Todd Clements,Todd Clements,Classic: DP,,670556,44411879,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192982Z
+Marcus Armitage,Marcus Armitage,Classic: DP,,344989,44411880,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192984Z
+Manuel Elvira,Manuel Elvira,Classic: DP,,769413,44411881,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192986Z
+Martin Couvra,Martin Couvra,Classic: DP,,768104,44411882,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192989Z
+Gregorio De Leo,Gregorio De Leo,Classic: DP,,753705,44411883,DP World Tour,10/8/2026,7000,18.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.192991Z
+Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Classic: PGA TOUR,,720984,44393182,PGA TOUR,10/7/2026,6900,75.94,4.91,0,0,9706.3 (0.01),1610.0 (0.06),658.5 (0.13),253.3 (0.28),10:27:36 AM,BD,2026-10-07T14:00:03.192994Z
+Takumi Kanaya,Takumi Kanaya,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44393181,PGA TOUR,10/7/2026,6900,71.14,9.33,0,0,8023.2 (0.01),1391.7 (0.07),591.0 (0.14),233.3 (0.30),10:16:36 AM,BD,2026-10-07T14:00:03.192996Z
+Mac Meissner,Mac Meissner,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44393183,PGA TOUR,10/7/2026,6900,77.26,3.88,0,0,7712.5 (0.01),1394.2 (0.07),575.5 (0.15),228.9 (0.30),9:32:36 AM,BD,2026-10-07T14:00:03.192998Z
+Davis Thompson,Davis Thompson,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,44412153,Round 1,10/7/2026,6900,46.77,6.5,0,0,7000.5 (0.01),1168.9 (0.08),514.5 (0.16),200.4 (0.33),11:11:36 AM,BD,2026-10-07T14:00:03.193001Z
+Billy Horschel,Billy Horschel,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44412152,Round 1,10/7/2026,6900,46.86,7.94,0,0,8816.3 (0.01),1576.0 (0.06),651.0 (0.13),250.0 (0.29),9:43:36 AM,BD,2026-10-07T14:00:03.193003Z
+Stephan Jaeger,Stephan Jaeger,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44412154,Round 1,10/7/2026,6900,45.89,5.24,0,0,8744.3 (0.01),1481.8 (0.06),585.0 (0.15),230.6 (0.30),9:43:36 AM,BD,2026-10-07T14:00:03.193005Z
+Patrick Rodgers,Patrick Rodgers,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44425325,Late Round 1,10/7/2026,6900,38.55,2.65,0,0,18301.0 (0.01),2897.2 (0.03),1185.0 (0.08),416.7 (0.19),10:38:36 AM,BD,2026-10-07T14:00:03.193008Z
+Brandon Stone,Brandon Stone,Classic: DP,https://dkn.gs/sports/images/golf/players/50/877.png,181,44411884,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193010Z
+David Ravetto,David Ravetto,Classic: DP,,699574,44411885,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193013Z
+Thriston Lawrence,Thriston Lawrence,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44411886,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193015Z
+Davis Bryant,Davis Bryant,Classic: DP,,819151,44411887,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193018Z
+David Law,David Law,Classic: DP,,355,44411888,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193020Z
+Filippo Celli,Filippo Celli,Classic: DP,,753704,44411889,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193022Z
+Brandon Stone,Brandon Stone,Classic: DP,https://dkn.gs/sports/images/golf/players/50/877.png,181,44411884,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193024Z
+David Ravetto,David Ravetto,Classic: DP,,699574,44411885,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193027Z
+Thriston Lawrence,Thriston Lawrence,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44411886,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193029Z
+Davis Bryant,Davis Bryant,Classic: DP,,819151,44411887,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193031Z
+David Law,David Law,Classic: DP,,355,44411888,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193034Z
+Filippo Celli,Filippo Celli,Classic: DP,,753704,44411889,DP World Tour,10/8/2026,6900,18.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193036Z
+Nick Taylor,Nick Taylor,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/515.png,700,44393186,PGA TOUR,10/7/2026,6800,74.51,7.07,0,0,9730.6 (0.01),1605.5 (0.06),665.5 (0.13),257.0 (0.28),10:05:36 AM,BD,2026-10-07T14:00:03.193038Z
+Pierceson Coody,Pierceson Coody,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44393184,PGA TOUR,10/7/2026,6800,73.2,4.52,0,0,8982.9 (0.01),1437.2 (0.07),592.5 (0.14),236.7 (0.30),9:21:36 AM,BD,2026-10-07T14:00:03.193041Z
+Kris Ventura,Kris Ventura,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44393185,PGA TOUR,10/7/2026,6800,71.5,7.68,0,0,7257.8 (0.01),1259.8 (0.07),552.5 (0.15),212.2 (0.32),9:32:36 AM,BD,2026-10-07T14:00:03.193043Z
+Rasmus Neergaard-Petersen,Rasmus Neergaard-Petersen,Showdown: Round,,720984,44412157,Round 1,10/7/2026,6800,45.59,4.91,0,0,9706.3 (0.01),1610.0 (0.06),658.5 (0.13),253.3 (0.28),10:27:36 AM,BD,2026-10-07T14:00:03.193046Z
+Mac Meissner,Mac Meissner,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44412156,Round 1,10/7/2026,6800,45.65,3.88,0,0,7712.5 (0.01),1394.2 (0.07),575.5 (0.15),228.9 (0.30),9:32:36 AM,BD,2026-10-07T14:00:03.193048Z
+Kris Ventura,Kris Ventura,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44412155,Round 1,10/7/2026,6800,43.85,7.68,0,0,7257.8 (0.01),1259.8 (0.07),552.5 (0.15),212.2 (0.32),9:32:36 AM,BD,2026-10-07T14:00:03.193050Z
+Tom Hoge,Tom Hoge,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44425326,Late Round 1,10/7/2026,6800,39.23,3.62,0,0,24203.2 (0.00),3933.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T14:00:03.193053Z
+Paul Waring,Paul Waring,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44411890,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193055Z
+JC Ritchie,JC Ritchie,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44411891,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193057Z
+Joel Girrbach,Joel Girrbach,Classic: DP,,241748,44411892,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193060Z
+Marcus Helligkilde,Marcus Helligkilde,Classic: DP,,702176,44411893,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193063Z
+Rafa Cabrera Bello,Rafa Cabrera Bello,Classic: DP,https://dkn.gs/sports/images/golf/players/50/868.png,984,44411894,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193065Z
+Kazuma Kobori,Kazuma Kobori,Classic: DP,,776760,44411895,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193067Z
+Paul Waring,Paul Waring,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1082.png,261458,44411890,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193070Z
+JC Ritchie,JC Ritchie,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44411891,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193072Z
+Joel Girrbach,Joel Girrbach,Classic: DP,,241748,44411892,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193074Z
+Marcus Helligkilde,Marcus Helligkilde,Classic: DP,,702176,44411893,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193077Z
+Rafa Cabrera Bello,Rafa Cabrera Bello,Classic: DP,https://dkn.gs/sports/images/golf/players/50/868.png,984,44411894,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193079Z
+Kazuma Kobori,Kazuma Kobori,Classic: DP,,776760,44411895,DP World Tour,10/8/2026,6800,18.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193081Z
+Lee Hodges,Lee Hodges,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44393188,PGA TOUR,10/7/2026,6700,75.57,6.19,0,0,8169.3 (0.01),1373.5 (0.07),591.5 (0.14),225.9 (0.31),11:22:36 AM,BD,2026-10-07T14:00:03.193084Z
+Nicolas Echavarria,Nicolas Echavarria,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/525572.png,703899,44393187,PGA TOUR,10/7/2026,6700,75.79,8.67,0,0,9539.7 (0.01),1641.7 (0.06),714.0 (0.12),273.3 (0.27),9:54:36 AM,BD,2026-10-07T14:00:03.193086Z
+John Parry,John Parry,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44393189,PGA TOUR,10/7/2026,6700,74.25,3.62,0,0,11492.5 (0.01),1728.1 (0.05),725.0 (0.12),273.3 (0.27),10:16:36 AM,BD,2026-10-07T14:00:03.193088Z
+Lee Hodges,Lee Hodges,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44412160,Round 1,10/7/2026,6700,42.9,6.19,0,0,8169.3 (0.01),1373.5 (0.07),591.5 (0.14),225.9 (0.31),11:22:36 AM,BD,2026-10-07T14:00:03.193091Z
+Pierceson Coody,Pierceson Coody,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44412158,Round 1,10/7/2026,6700,43.33,4.52,0,0,8982.9 (0.01),1437.2 (0.07),592.5 (0.14),236.7 (0.30),9:21:36 AM,BD,2026-10-07T14:00:03.193093Z
+John Parry,John Parry,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44412159,Round 1,10/7/2026,6700,44.92,3.62,0,0,11492.5 (0.01),1728.1 (0.05),725.0 (0.12),273.3 (0.27),10:16:36 AM,BD,2026-10-07T14:00:03.193096Z
+Andrew Putnam,Andrew Putnam,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/730.png,665,44425327,Late Round 1,10/7/2026,6700,38.63,3.76,0,0,24271.3 (0.00),3988.2 (0.02),1582.5 (0.06),523.9 (0.16),11:22:36 AM,BD,2026-10-07T14:00:03.193098Z
+Maximilian Steinlechner,Maximilian Steinlechner,Classic: DP,,73304,44411896,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193101Z
+Frederic Lacroix,Frederic Lacroix,Classic: DP,,699576,44411897,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193103Z
+Johannes Veerman,Johannes Veerman,Classic: DP,,250167,44411898,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193105Z
+Matteo Manassero,Matteo Manassero,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44411899,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193108Z
+Jorge Campillo,Jorge Campillo,Classic: DP,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44411900,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193111Z
+Yanhan Zhou,Yanhan Zhou,Classic: DP,,795440,44411901,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193113Z
+Grant Forrest,Grant Forrest,Classic: DP,,1393,44411902,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193115Z
+Maximilian Steinlechner,Maximilian Steinlechner,Classic: DP,,73304,44411896,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193118Z
+Frederic Lacroix,Frederic Lacroix,Classic: DP,,699576,44411897,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193120Z
+Johannes Veerman,Johannes Veerman,Classic: DP,,250167,44411898,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193123Z
+Matteo Manassero,Matteo Manassero,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60495.png,421,44411899,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193125Z
+Jorge Campillo,Jorge Campillo,Classic: DP,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44411900,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193127Z
+Yanhan Zhou,Yanhan Zhou,Classic: DP,,795440,44411901,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193130Z
+Grant Forrest,Grant Forrest,Classic: DP,,1393,44411902,DP World Tour,10/8/2026,6700,17.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193132Z
+Taylor Moore,Taylor Moore,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44393192,PGA TOUR,10/7/2026,6600,71.49,4.35,0,0,11139.2 (0.01),1860.1 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T14:00:03.193134Z
+Taylor Pendrith,Taylor Pendrith,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/716.png,1802,44393190,PGA TOUR,10/7/2026,6600,71.11,3.27,0,0,10897.8 (0.01),1769.5 (0.05),734.0 (0.12),284.4 (0.26),10:05:36 AM,BD,2026-10-07T14:00:03.193137Z
+Matthew McCarty,Matthew McCarty,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44393191,PGA TOUR,10/7/2026,6600,73.81,7.13,0,0,9530.9 (0.01),1614.5 (0.06),679.5 (0.13),271.1 (0.27),9:43:36 AM,BD,2026-10-07T14:00:03.193139Z
+Taylor Pendrith,Taylor Pendrith,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/716.png,1802,44412163,Round 1,10/7/2026,6600,42.43,3.27,0,0,10897.8 (0.01),1769.5 (0.05),734.0 (0.12),284.4 (0.26),10:05:36 AM,BD,2026-10-07T14:00:03.193141Z
+Matthew McCarty,Matthew McCarty,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/623842.png,761831,44412162,Round 1,10/7/2026,6600,2,7.13,0,0,9530.9 (0.01),1614.5 (0.06),679.5 (0.13),271.1 (0.27),9:43:36 AM,BD,2026-10-07T14:00:03.193144Z
+Jinichiro Kozuma,Jinichiro Kozuma,Showdown: Round,,699783,44412161,Round 1,10/7/2026,6600,41.08,3.24,0,0,20750.8 (0.00),3270.2 (0.03),1235.0 (0.07),470.0 (0.18),10:16:36 AM,BD,2026-10-07T14:00:03.193146Z
+Chandler Phillips,Chandler Phillips,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44425328,Late Round 1,10/7/2026,6600,39.53,2.59,0,0,15478.3 (0.01),2544.2 (0.04),1067.5 (0.09),387.2 (0.21),10:38:36 AM,BD,2026-10-07T14:00:03.193148Z
+Jeremy Paul,Jeremy Paul,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44411903,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193150Z
+Oihan Guillamoundeguy,Oihan Guillamoundeguy,Classic: DP,,768105,44411904,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193153Z
+Francesco Molinari,Francesco Molinari,Classic: DP,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44411905,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193155Z
+Darius Van Driel,Darius Van Driel,Classic: DP,,345213,44411906,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193158Z
+Yuto Katsuragawa,Yuto Katsuragawa,Classic: DP,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44411907,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193160Z
+Ross Fisher,Ross Fisher,Classic: DP,https://dkn.gs/sports/images/golf/players/50/729.png,161,44411908,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193163Z
+Sean Crocker,Sean Crocker,Classic: DP,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44411909,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193165Z
+Jeremy Paul,Jeremy Paul,Classic: DP,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,44411903,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193167Z
+Oihan Guillamoundeguy,Oihan Guillamoundeguy,Classic: DP,,768105,44411904,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193170Z
+Francesco Molinari,Francesco Molinari,Classic: DP,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44411905,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193172Z
+Darius Van Driel,Darius Van Driel,Classic: DP,,345213,44411906,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193174Z
+Yuto Katsuragawa,Yuto Katsuragawa,Classic: DP,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44411907,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193177Z
+Ross Fisher,Ross Fisher,Classic: DP,https://dkn.gs/sports/images/golf/players/50/729.png,161,44411908,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193179Z
+Sean Crocker,Sean Crocker,Classic: DP,https://dkn.gs/sports/images/golf/players/50/926.png,519953,44411909,DP World Tour,10/8/2026,6600,17.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193181Z
+Tony Finau,Tony Finau,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44393195,PGA TOUR,10/7/2026,6500,71.78,4.31,0,0,18476.8 (0.01),3042.6 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T14:00:03.193183Z
+Denny McCarthy,Denny McCarthy,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44393193,PGA TOUR,10/7/2026,6500,72.67,3.53,0,0,14059.3 (0.01),2178.5 (0.04),846.0 (0.11),310.6 (0.24),9:32:36 AM,BD,2026-10-07T14:00:03.193186Z
+Aldrich Potgieter,Aldrich Potgieter,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44393194,PGA TOUR,10/7/2026,6500,70.27,4.19,0,0,12403.8 (0.01),2246.4 (0.04),924.0 (0.10),349.2 (0.22),10:05:36 AM,BD,2026-10-07T14:00:03.193188Z
+Taylor Moore,Taylor Moore,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44412165,Round 1,10/7/2026,6500,40.13,4.35,0,0,11139.2 (0.01),1860.1 (0.05),751.0 (0.12),287.8 (0.26),10:38:36 AM,BD,2026-10-07T14:00:03.193191Z
+Patrick Rodgers,Patrick Rodgers,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44412166,Round 1,10/7/2026,6500,38.55,2.65,0,0,18301.0 (0.01),2897.2 (0.03),1185.0 (0.08),416.7 (0.19),10:38:36 AM,BD,2026-10-07T14:00:03.193193Z
+Denny McCarthy,Denny McCarthy,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44412164,Round 1,10/7/2026,6500,41.98,3.53,0,0,14059.3 (0.01),2178.5 (0.04),846.0 (0.11),310.6 (0.24),9:32:36 AM,BD,2026-10-07T14:00:03.193195Z
+Hiroshi Iwata,Hiroshi Iwata,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44425329,Late Round 1,10/7/2026,6500,40.18,2.5,0,0,34877.9 (0.00),5180.0 (0.02),1825.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T14:00:03.193198Z
+Sebastian Söderberg,Sebastian Söderberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193200Z
+Adrian Otaegui,Adrian Otaegui,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44411911,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193203Z
+Ivan Cantero Gutierrez,Ivan Cantero Gutierrez,Classic: DP,,162,44411912,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193205Z
+Elvis Smylie,Elvis Smylie,Classic: DP,,721846,44411913,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193207Z
+Eddie Pepperell,Eddie Pepperell,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44411914,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193210Z
+Ricardo Gouveia,Ricardo Gouveia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44411915,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193212Z
+Alfredo Garcia-Heredia,Alfredo Garcia-Heredia,Classic: DP,,671014,44411916,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193215Z
+Sebastian Söderberg,Sebastian Söderberg,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193217Z
+Adrian Otaegui,Adrian Otaegui,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44411911,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193220Z
+Ivan Cantero Gutierrez,Ivan Cantero Gutierrez,Classic: DP,,162,44411912,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193223Z
+Elvis Smylie,Elvis Smylie,Classic: DP,,721846,44411913,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193225Z
+Eddie Pepperell,Eddie Pepperell,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,44411914,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193227Z
+Ricardo Gouveia,Ricardo Gouveia,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44411915,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193230Z
+Alfredo Garcia-Heredia,Alfredo Garcia-Heredia,Classic: DP,,671014,44411916,DP World Tour,10/8/2026,6500,17.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193232Z
+Patrick Rodgers,Patrick Rodgers,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44393197,PGA TOUR,10/7/2026,6400,69.94,2.65,0,0,18301.0 (0.01),2897.2 (0.03),1185.0 (0.08),416.7 (0.19),10:38:36 AM,BD,2026-10-07T14:00:03.193235Z
+Tom Hoge,Tom Hoge,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44393198,PGA TOUR,10/7/2026,6400,69.34,3.62,0,0,24203.2 (0.00),3933.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T14:00:03.193237Z
+Chandler Phillips,Chandler Phillips,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44393196,PGA TOUR,10/7/2026,6400,72.2,2.59,0,0,15478.3 (0.01),2544.2 (0.04),1067.5 (0.09),387.2 (0.21),10:38:36 AM,BD,2026-10-07T14:00:03.193239Z
+David Lipsky,David Lipsky,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/752.png,586,44412169,Round 1,10/7/2026,6400,38.78,3.63,0,0,27281.8 (0.00),4306.0 (0.02),1670.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T14:00:03.193242Z
+Tony Finau,Tony Finau,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44412167,Round 1,10/7/2026,6400,39.68,4.31,0,0,18476.8 (0.01),3042.6 (0.03),1192.5 (0.08),418.9 (0.19),11:00:36 AM,BD,2026-10-07T14:00:03.193244Z
+Aldrich Potgieter,Aldrich Potgieter,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44412168,Round 1,10/7/2026,6400,41.83,4.19,0,0,12403.8 (0.01),2246.4 (0.04),924.0 (0.10),349.2 (0.22),10:05:36 AM,BD,2026-10-07T14:00:03.193246Z
+Yusaku Hosono,Yusaku Hosono,Late Showdown: Late Round,,795243,44425330,Late Round 1,10/7/2026,6400,38.48,2.31,0,0,25949.8 (0.00),3860.8 (0.03),1487.5 (0.06),510.6 (0.16),10:38:36 AM,BD,2026-10-07T14:00:03.193248Z
+Wenyi Ding,Wenyi Ding,Classic: DP,,769378,44411917,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193251Z
+Connor Syme,Connor Syme,Classic: DP,,405819,44411918,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193253Z
+Brandon Robinson-Thompson,Brandon Robinson-Thompson,Classic: DP,,701399,44411919,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193256Z
+Daniel Rodrigues,Daniel Rodrigues,Classic: DP,,699770,44411920,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193258Z
+Dylan Frittelli,Dylan Frittelli,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44411921,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193260Z
+Michael Stewart,Michael Stewart,Classic: DP,,773823,44411922,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193263Z
+Niklas Lemke,Niklas Lemke,Classic: DP,,496763,44411923,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193265Z
+Kiradech Aphibarnrat,Kiradech Aphibarnrat,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44411924,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193267Z
+Wenyi Ding,Wenyi Ding,Classic: DP,,769378,44411917,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193270Z
+Connor Syme,Connor Syme,Classic: DP,,405819,44411918,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193272Z
+Brandon Robinson-Thompson,Brandon Robinson-Thompson,Classic: DP,,701399,44411919,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193274Z
+Daniel Rodrigues,Daniel Rodrigues,Classic: DP,,699770,44411920,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193277Z
+Dylan Frittelli,Dylan Frittelli,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1175.png,1120,44411921,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193279Z
+Michael Stewart,Michael Stewart,Classic: DP,,773823,44411922,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193281Z
+Niklas Lemke,Niklas Lemke,Classic: DP,,496763,44411923,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193284Z
+Kiradech Aphibarnrat,Kiradech Aphibarnrat,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1110.png,655,44411924,DP World Tour,10/8/2026,6400,17.3,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193286Z
+David Lipsky,David Lipsky,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/752.png,586,44393201,PGA TOUR,10/7/2026,6300,68.69,3.63,0,0,27281.8 (0.00),4306.0 (0.02),1670.0 (0.06),582.8 (0.15),11:22:36 AM,BD,2026-10-07T14:00:03.193288Z
+Jinichiro Kozuma,Jinichiro Kozuma,Classic: PGA TOUR,,699783,44393199,PGA TOUR,10/7/2026,6300,64.14,3.24,0,0,20750.8 (0.00),3270.2 (0.03),1235.0 (0.07),470.0 (0.18),10:16:36 AM,BD,2026-10-07T14:00:03.193291Z
+Sang-hee Lee,Sang-hee Lee,Classic: PGA TOUR,,123532,44393200,PGA TOUR,10/7/2026,6300,58.56,4.67,0,0,25502.3 (0.00),4134.5 (0.02),1557.1 (0.06),553.3 (0.15),9:32:36 AM,BD,2026-10-07T14:00:03.193293Z
+Tom Hoge,Tom Hoge,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/648.png,1760,44412171,Round 1,10/7/2026,6300,39.23,3.62,0,0,24203.2 (0.00),3933.7 (0.02),1565.0 (0.06),552.2 (0.15),11:11:36 AM,BD,2026-10-07T14:00:03.193295Z
+Chandler Phillips,Chandler Phillips,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44412170,Round 1,10/7/2026,6300,39.53,2.59,0,0,15478.3 (0.01),2544.2 (0.04),1067.5 (0.09),387.2 (0.21),10:38:36 AM,BD,2026-10-07T14:00:03.193298Z
+Sang-hee Lee,Sang-hee Lee,Showdown: Round,,123532,44412172,Round 1,10/7/2026,6300,40.1,4.67,0,0,25502.3 (0.00),4134.5 (0.02),1557.1 (0.06),553.3 (0.15),9:32:36 AM,BD,2026-10-07T14:00:03.193300Z
+Yoshinori Fujimoto,Yoshinori Fujimoto,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44425331,Late Round 1,10/7/2026,6300,39.58,1.8,0,0,74111.8 (0.00),9658.7 (0.01),3910.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T14:00:03.193303Z
+Jason Scrivener,Jason Scrivener,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44411925,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193305Z
+Marcel Siem,Marcel Siem,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44411926,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193307Z
+Benjamin Schmidt,Benjamin Schmidt,Classic: DP,,723288,44411927,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193310Z
+Rikuya Hoshino,Rikuya Hoshino,Classic: DP,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44411928,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193312Z
+Nicolai Von Dellingshausen,Nicolai Von Dellingshausen,Classic: DP,,519957,44411929,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193315Z
+Jens Dantorp,Jens Dantorp,Classic: DP,,1152,44411930,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193317Z
+Danny Willett,Danny Willett,Classic: DP,https://dkn.gs/sports/images/golf/players/50/792.png,199,44411931,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193320Z
+Ashun Wu,Ashun Wu,Classic: DP,,626,44411932,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193322Z
+Jason Scrivener,Jason Scrivener,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,44411925,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193324Z
+Marcel Siem,Marcel Siem,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60191.png,1084,44411926,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193327Z
+Benjamin Schmidt,Benjamin Schmidt,Classic: DP,,723288,44411927,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193329Z
+Rikuya Hoshino,Rikuya Hoshino,Classic: DP,https://dkn.gs/sports/images/golf/players/50/872.png,681998,44411928,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193331Z
+Nicolai Von Dellingshausen,Nicolai Von Dellingshausen,Classic: DP,,519957,44411929,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193334Z
+Jens Dantorp,Jens Dantorp,Classic: DP,,1152,44411930,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193336Z
+Danny Willett,Danny Willett,Classic: DP,https://dkn.gs/sports/images/golf/players/50/792.png,199,44411931,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193339Z
+Ashun Wu,Ashun Wu,Classic: DP,,626,44411932,DP World Tour,10/8/2026,6300,17.1,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193341Z
+Andrew Putnam,Andrew Putnam,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/730.png,665,44393202,PGA TOUR,10/7/2026,6200,70.56,3.76,0,0,24271.3 (0.00),3988.2 (0.02),1582.5 (0.06),523.9 (0.16),11:22:36 AM,BD,2026-10-07T14:00:03.193343Z
+Yusaku Hosono,Yusaku Hosono,Classic: PGA TOUR,,795243,44393203,PGA TOUR,10/7/2026,6200,58.29,2.31,0,0,25949.8 (0.00),3860.8 (0.03),1487.5 (0.06),510.6 (0.16),10:38:36 AM,BD,2026-10-07T14:00:03.193346Z
+Ren Yonezawa,Ren Yonezawa,Classic: PGA TOUR,,795247,44393204,PGA TOUR,10/7/2026,6200,66.08,3.3,0,0,57428.4 (0.00),7928.2 (0.01),3070.0 (0.03),958.3 (0.09),9:21:36 AM,BD,2026-10-07T14:00:03.193349Z
+Andrew Putnam,Andrew Putnam,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/730.png,665,44412173,Round 1,10/7/2026,6200,38.63,3.76,0,0,24271.3 (0.00),3988.2 (0.02),1582.5 (0.06),523.9 (0.16),11:22:36 AM,BD,2026-10-07T14:00:03.193351Z
+Hiroshi Iwata,Hiroshi Iwata,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44412175,Round 1,10/7/2026,6200,40.18,2.5,0,0,34877.9 (0.00),5180.0 (0.02),1825.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T14:00:03.193353Z
+Ren Yonezawa,Ren Yonezawa,Showdown: Round,,795247,44412174,Round 1,10/7/2026,6200,42.17,3.3,0,0,57428.4 (0.00),7928.2 (0.01),3070.0 (0.03),958.3 (0.09),9:21:36 AM,BD,2026-10-07T14:00:03.193356Z
+Koshin Nagasaki,Koshin Nagasaki,Late Showdown: Late Round,,890803,44425332,Late Round 1,10/7/2026,6200,37.43,0.58,0,0,148203.3 (0.00),18418.2 (0.01),7580.0 (0.01),2225.0 (0.04),11:22:36 AM,BD,2026-10-07T14:00:03.193358Z
+Renato Paratore,Renato Paratore,Classic: DP,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44411933,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193360Z
+Michael Hollick,Michael Hollick,Classic: DP,,506,44411934,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193363Z
+Luke List,Luke List,Classic: DP,https://dkn.gs/sports/images/golf/players/50/719.png,559,44411935,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193365Z
+Yurav Premlall,Yurav Premlall,Classic: DP,,692918,44411936,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193367Z
+Jacques Kruyswijk,Jacques Kruyswijk,Classic: DP,,1035,44411937,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193370Z
+Pablo Larrazábal,Pablo Larrazábal,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193372Z
+Sergio Jimenez Romero,Sergio Jimenez Romero,Classic: DP,,890806,44411939,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193375Z
+Stefano Mazzoli,Stefano Mazzoli,Classic: DP,,122743,44411940,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193377Z
+Richard Sterne,Richard Sterne,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44411941,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193380Z
+Renato Paratore,Renato Paratore,Classic: DP,https://dkn.gs/sports/images/golf/players/50/964.png,1187,44411933,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193382Z
+Michael Hollick,Michael Hollick,Classic: DP,,506,44411934,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193384Z
+Luke List,Luke List,Classic: DP,https://dkn.gs/sports/images/golf/players/50/719.png,559,44411935,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193386Z
+Yurav Premlall,Yurav Premlall,Classic: DP,,692918,44411936,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193389Z
+Jacques Kruyswijk,Jacques Kruyswijk,Classic: DP,,1035,44411937,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193391Z
+Pablo Larrazábal,Pablo Larrazábal,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60659.png,465,60659,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193394Z
+Sergio Jimenez Romero,Sergio Jimenez Romero,Classic: DP,,890806,44411939,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193396Z
+Stefano Mazzoli,Stefano Mazzoli,Classic: DP,,122743,44411940,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193399Z
+Richard Sterne,Richard Sterne,Classic: DP,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44411941,DP World Tour,10/8/2026,6200,16.9,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193401Z
+Hiroshi Iwata,Hiroshi Iwata,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/451356.png,1949,44393205,PGA TOUR,10/7/2026,6100,63.59,2.5,0,0,34877.9 (0.00),5180.0 (0.02),1825.0 (0.05),653.3 (0.13),10:27:36 AM,BD,2026-10-07T14:00:03.193403Z
+Aguri Iwasaki,Aguri Iwasaki,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44393206,PGA TOUR,10/7/2026,6100,62.09,1.53,0,0,45101.4 (0.00),6898.8 (0.01),2435.0 (0.04),830.0 (0.11),10:38:36 AM,BD,2026-10-07T14:00:03.193406Z
+Tomohiro Ishizaka,Tomohiro Ishizaka,Classic: PGA TOUR,,761466,44393207,PGA TOUR,10/7/2026,6100,57.44,1.5,0,0,79913.3 (0.00),10010.7 (0.01),3680.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T14:00:03.193408Z
+Yusaku Hosono,Yusaku Hosono,Showdown: Round,,795243,44412176,Round 1,10/7/2026,6100,38.48,2.31,0,0,25949.8 (0.00),3860.8 (0.03),1487.5 (0.06),510.6 (0.16),10:38:36 AM,BD,2026-10-07T14:00:03.193410Z
+Yoshinori Fujimoto,Yoshinori Fujimoto,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44412178,Round 1,10/7/2026,6100,39.58,1.8,0,0,74111.8 (0.00),9658.7 (0.01),3910.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T14:00:03.193425Z
+Tomohiro Ishizaka,Tomohiro Ishizaka,Late Showdown: Late Round,,761466,44425333,Late Round 1,10/7/2026,6100,37.88,1.5,0,0,79913.3 (0.00),10010.7 (0.01),3680.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T14:00:03.193428Z
+Kosuke Sunagawa,Kosuke Sunagawa,Showdown: Round,,890804,44412177,Round 1,10/7/2026,6100,39.73,1.7,0,0,65464.0 (0.00),9008.9 (0.01),3270.0 (0.03),974.4 (0.09),10:16:36 AM,BD,2026-10-07T14:00:03.193430Z
+Quim Vidal,Quim Vidal,Classic: DP,,768542,44411942,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193432Z
+Sebastian Garcia Rodriguez,Sebastian Garcia Rodriguez,Classic: DP,,670993,44411943,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193435Z
+Jack Senior,Jack Senior,Classic: DP,https://dkn.gs/sports/images/golf/players/50/740.png,474,44411944,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193437Z
+Jordan Gumberg,Jordan Gumberg,Classic: DP,,690517,44411945,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193440Z
+Thomas Aiken,Thomas Aiken,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60514.png,455,44411946,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193442Z
+Jeong-Weon Ko,Jeong-Weon Ko,Classic: DP,,699573,44411947,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193444Z
+James Morrison,James Morrison,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44411948,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193447Z
+Alejandro Rodriguez Andreu,Alejandro Rodriguez Andreu,Classic: DP,,890807,44411949,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193449Z
+Quim Vidal,Quim Vidal,Classic: DP,,768542,44411942,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193452Z
+Sebastian Garcia Rodriguez,Sebastian Garcia Rodriguez,Classic: DP,,670993,44411943,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193454Z
+Jack Senior,Jack Senior,Classic: DP,https://dkn.gs/sports/images/golf/players/50/740.png,474,44411944,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193457Z
+Jordan Gumberg,Jordan Gumberg,Classic: DP,,690517,44411945,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193459Z
+Thomas Aiken,Thomas Aiken,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60514.png,455,44411946,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193461Z
+Jeong-Weon Ko,Jeong-Weon Ko,Classic: DP,,699573,44411947,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193464Z
+James Morrison,James Morrison,Classic: DP,https://dkn.gs/sports/images/golf/players/50/60676.png,543,44411948,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193466Z
+Alejandro Rodriguez Andreu,Alejandro Rodriguez Andreu,Classic: DP,,890807,44411949,DP World Tour,10/8/2026,6100,16.7,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193468Z
+Yoshinori Fujimoto,Yoshinori Fujimoto,Classic: PGA TOUR,https://dkn.gs/sports/images/golf/players/50/1048.png,922,44393209,PGA TOUR,10/7/2026,6000,56.92,1.8,0,0,74111.8 (0.00),9658.7 (0.01),3910.0 (0.02),1333.3 (0.07),10:27:36 AM,BD,2026-10-07T14:00:03.193471Z
+Koshin Nagasaki,Koshin Nagasaki,Classic: PGA TOUR,,890803,44393210,PGA TOUR,10/7/2026,6000,57.12,0.58,0,0,148203.3 (0.00),18418.2 (0.01),7580.0 (0.01),2225.0 (0.04),11:22:36 AM,BD,2026-10-07T14:00:03.193473Z
+Kosuke Sunagawa,Kosuke Sunagawa,Classic: PGA TOUR,,890804,44393208,PGA TOUR,10/7/2026,6000,56.95,1.7,0,0,65464.0 (0.00),9008.9 (0.01),3270.0 (0.03),974.4 (0.09),10:16:36 AM,BD,2026-10-07T14:00:03.193475Z
+Koshin Nagasaki,Koshin Nagasaki,Showdown: Round,,890803,44412179,Round 1,10/7/2026,6000,37.43,0.58,0,0,148203.3 (0.00),18418.2 (0.01),7580.0 (0.01),2225.0 (0.04),11:22:36 AM,BD,2026-10-07T14:00:03.193477Z
+Aguri Iwasaki,Aguri Iwasaki,Showdown: Round,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44412180,Round 1,10/7/2026,6000,38.03,1.53,0,0,45101.4 (0.00),6898.8 (0.01),2435.0 (0.04),830.0 (0.11),10:38:36 AM,BD,2026-10-07T14:00:03.193480Z
+Aguri Iwasaki,Aguri Iwasaki,Late Showdown: Late Round,https://dkn.gs/sports/images/golf/players/50/679056.png,768699,44425334,Late Round 1,10/7/2026,6000,38.03,1.53,0,0,45101.4 (0.00),6898.8 (0.01),2435.0 (0.04),830.0 (0.11),10:38:36 AM,BD,2026-10-07T14:00:03.193482Z
+Tomohiro Ishizaka,Tomohiro Ishizaka,Showdown: Round,,761466,44412181,Round 1,10/7/2026,6000,37.88,1.5,0,0,79913.3 (0.00),10010.7 (0.01),3680.0 (0.03),1272.2 (0.07),10:49:36 AM,BD,2026-10-07T14:00:03.193485Z
+David Micheluzzi,David Micheluzzi,Classic: DP,,690250,44411950,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193487Z
+Dylan Naidoo,Dylan Naidoo,Classic: DP,,1185,44411951,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193489Z
+Gonzalo Banos Ramos,Gonzalo Banos Ramos,Classic: DP,,890805,44411952,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193492Z
+Ockie Strydom,Ockie Strydom,Classic: DP,,262,44411953,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193495Z
+Juan Salama Monsalve,Juan Salama Monsalve,Classic: DP,,699341,44411954,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193497Z
+Sebastian Desoisa,Sebastian Desoisa,Classic: DP,,858592,44411955,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193500Z
+Ryggs Johnston,Ryggs Johnston,Classic: DP,,818540,44411956,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193502Z
+Daniel Gavins,Daniel Gavins,Classic: DP,,1204,44411957,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193504Z
+David Micheluzzi,David Micheluzzi,Classic: DP,,690250,44411950,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193507Z
+Dylan Naidoo,Dylan Naidoo,Classic: DP,,1185,44411951,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193509Z
+Gonzalo Banos Ramos,Gonzalo Banos Ramos,Classic: DP,,890805,44411952,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193512Z
+Ockie Strydom,Ockie Strydom,Classic: DP,,262,44411953,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193514Z
+Juan Salama Monsalve,Juan Salama Monsalve,Classic: DP,,699341,44411954,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193517Z
+Sebastian Desoisa,Sebastian Desoisa,Classic: DP,,858592,44411955,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193519Z
+Ryggs Johnston,Ryggs Johnston,Classic: DP,,818540,44411956,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193521Z
+Daniel Gavins,Daniel Gavins,Classic: DP,,1204,44411957,DP World Tour,10/8/2026,6000,16.5,0,0.5,0.5,,,,,,,2026-10-07T14:00:03.193523Z
