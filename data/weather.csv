@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Yokohama Country Club | Updated: 10/8/2026, 12:55:19 AM",,,,,,,,,,,
+"Location: Yokohama Country Club | Updated: 10/8/2026, 3:55:19 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Thu Oct 8,12:00 AM,72.7,74.3,0,0,Clear,4,15.7,ENE,2,53
-Thu Oct 8,1:00 AM,73.5,74.8,0,0,Clear,2.9,14.1,E,0,53
-Thu Oct 8,2:00 AM,73.8,74.8,0,0,Clear,2.3,12.5,ESE,0,54
-Thu Oct 8,3:00 AM,73.4,74.6,0,0,Clear,2.1,11.9,ESE,0,55
-Thu Oct 8,4:00 AM,72.3,73.7,0,0,Clear,2,10.7,E,0,59
-Thu Oct 8,5:00 AM,70.9,72.2,0,0,Clear,3.6,12.8,ESE,9,65
-Thu Oct 8,6:00 AM,69.8,70.6,0,0,Clear,5.1,13.2,SE,12,68
-Thu Oct 8,7:00 AM,69,70.2,0,0,Clear,4.1,12.1,SE,7,70
-Thu Oct 8,8:00 AM,68.3,69.9,0,0,Clear,3.4,10.1,SE,3,72
-Thu Oct 8,9:00 AM,67.9,69.7,0,0,Clear,3,8.9,SE,5,74
-Thu Oct 8,10:00 AM,67.2,69.4,0,0,Clear,3.1,6.9,ESE,4,78
-Thu Oct 8,11:00 AM,67.8,70.1,0,0,Clear,2.5,3.4,E,3,76
-Thu Oct 8,12:00 PM,66.5,68.7,0,0,Clear,2.4,2.7,NE,5,78
-Thu Oct 8,1:00 PM,64.4,66.4,0,0,Clear,2.7,5.6,N,6,83
-Thu Oct 8,2:00 PM,62.6,63.7,0,0,Clear,4,7.8,NNW,5,87
-Thu Oct 8,3:00 PM,61.7,62.5,0,0,Clear,4,8.5,NNW,6,87
-Thu Oct 8,4:00 PM,60.9,61.5,0,0,Clear,4.1,9.8,NNW,6,87
-Thu Oct 8,5:00 PM,60.5,60.7,0,0,Clear,4.2,10.3,NNW,6,86
-Thu Oct 8,6:00 PM,61.3,61.2,0,0,Clear,4.9,11.4,NNW,6,83
-Thu Oct 8,7:00 PM,63.7,63.8,0,0,Clear,4.6,12.5,NNW,4,77
-Thu Oct 8,8:00 PM,67,67.6,0,0,Clear,3.8,13.4,N,3,70
-Thu Oct 8,9:00 PM,69.9,71.4,0,0,Clear,3.4,13.6,NE,1,63
-Thu Oct 8,10:00 PM,72,74,0,0,Clear,4.4,15.7,ENE,0,58
-Thu Oct 8,11:00 PM,73.2,75,0,0,Clear,4.9,17.4,ENE,0,54
-Fri Oct 9,12:00 AM,74.1,75.1,0,0,Clear,4.9,17.9,ENE,0,50
-Fri Oct 9,1:00 AM,74.8,75,0,0,Clear,4.9,17.7,ENE,0,50
-Fri Oct 9,2:00 AM,75.2,74.8,0,0,Clear,4.8,14.8,NE,0,50
-Fri Oct 9,3:00 AM,74.9,74.9,0,0,Clear,4.1,14.3,NE,0,51
-Fri Oct 9,4:00 AM,73.5,74.2,0,0,Clear,3.6,17.7,NE,1,56
-Fri Oct 9,5:00 AM,71.6,72.2,0,0,Clear,5.8,18.8,E,9,65
-Fri Oct 9,6:00 AM,70.4,70.7,0,0,Clear,5.9,17.9,E,4,66
-Fri Oct 9,7:00 AM,69.1,69.5,0,0,Clear,5.8,17.2,ENE,0,69
-Fri Oct 9,8:00 AM,68.2,69.1,0,0,Clear,5.2,14.8,ENE,0,73
-Fri Oct 9,9:00 AM,67.4,68.8,0,0,Clear,4.4,11.9,NE,0,76
-Fri Oct 9,10:00 AM,65.9,67.5,0,0,Clear,3.8,12.1,N,6,80
-Fri Oct 9,11:00 AM,64.1,64.8,0,0,Clear,4.7,13.2,NNW,14,81
-Fri Oct 9,12:00 PM,63.5,63.7,0,0,Clear,5.5,13.2,NNW,13,81
-Fri Oct 9,1:00 PM,63.2,63.2,0,0,Clear,6,13.2,NNW,10,83
-Fri Oct 9,2:00 PM,62.8,62.8,0,0,Clear,6,12.8,NNW,9,83
-Fri Oct 9,3:00 PM,62.4,62.3,0,0,Clear,6.3,13,NNW,6,85
-Fri Oct 9,4:00 PM,62,61.8,0,0,Clear,6.3,13.9,NNW,7,85
-Fri Oct 9,5:00 PM,61.7,61.3,0,0,Clear,6.7,14.3,NNW,6,85
-Fri Oct 9,6:00 PM,62.8,62.2,0,0,Mainly Clear,6.8,15.2,NNW,20,81
-Fri Oct 9,7:00 PM,65.3,64.6,0,0,Clear,7.3,15.4,NNW,19,75
-Fri Oct 9,8:00 PM,68.1,67.4,0,0,Mainly Clear,7.5,17.9,NNW,21,69
-Fri Oct 9,9:00 PM,70.5,70.2,0,0,Mainly Clear,6.9,19.5,N,32,65
-Fri Oct 9,10:00 PM,72.4,72.5,0,0,Mainly Clear,7,19.5,N,27,62
-Fri Oct 9,11:00 PM,73.9,74.6,0,0,Mainly Clear,6.9,21,NNE,30,60
+Thu Oct 8,12:00 AM,72.6,73.8,0,0,Clear,4.3,16.3,E,2,52
+Thu Oct 8,1:00 AM,73.3,73.7,0,0,Clear,3.8,14.8,E,0,51
+Thu Oct 8,2:00 AM,73.6,74.5,0,0,Clear,2.5,12.3,E,4,54
+Thu Oct 8,3:00 AM,73.3,74.2,0,0,Clear,2.8,12.5,ESE,7,56
+Thu Oct 8,4:00 AM,72.2,73.7,0,0,Clear,2.3,13.2,E,4,60
+Thu Oct 8,5:00 AM,70.5,71.1,0,0,Clear,5.5,14.5,ESE,10,67
+Thu Oct 8,6:00 AM,69,69.5,0,0,Clear,5.6,16.6,ESE,15,69
+Thu Oct 8,7:00 AM,68.6,69.4,0,0,Clear,5,15.2,ESE,13,71
+Thu Oct 8,8:00 AM,68,70.3,0,0,Clear,3.3,10.3,SE,9,77
+Thu Oct 8,9:00 AM,67.6,69.9,0,0,Clear,3,5.4,SE,11,78
+Thu Oct 8,10:00 AM,67.3,69.6,0,0,Clear,3.1,4.5,ESE,7,79
+Thu Oct 8,11:00 AM,67.7,70.8,0,0,Clear,1.9,3.6,ESE,8,80
+Thu Oct 8,12:00 PM,65.7,68.8,0,0,Clear,1.8,2.5,N,9,85
+Thu Oct 8,1:00 PM,64,66.4,0,0,Clear,2.7,1.6,N,13,88
+Thu Oct 8,2:00 PM,62.7,64.4,0,0,Clear,3.5,5.8,NNW,14,89
+Thu Oct 8,3:00 PM,62,63.3,0,0,Clear,3.6,6.9,N,11,88
+Thu Oct 8,4:00 PM,61.3,62.1,0,0,Clear,3.7,8.5,NNW,11,87
+Thu Oct 8,5:00 PM,60.8,61.3,0,0,Clear,3.7,9.6,NNW,13,86
+Thu Oct 8,6:00 PM,61.6,61.8,0,0,Clear,4.2,10.5,NNW,16,83
+Thu Oct 8,7:00 PM,63.8,64.5,0,0,Clear,3.9,12.1,NNW,19,79
+Thu Oct 8,8:00 PM,66.9,67.9,0,0,Mainly Clear,3.4,12.5,N,23,72
+Thu Oct 8,9:00 PM,69.9,71.1,0,0,Mainly Clear,3.4,12.8,NE,20,65
+Thu Oct 8,10:00 PM,71.8,73.6,0,0,Clear,4.4,14.8,ENE,13,60
+Thu Oct 8,11:00 PM,72.8,75,0,0,Clear,5.1,16.1,ENE,5,59
+Fri Oct 9,12:00 AM,73.5,76,0,0,Clear,4.6,16.6,ENE,1,59
+Fri Oct 9,1:00 AM,74.7,76,0,0,Clear,4.6,15.9,ENE,0,56
+Fri Oct 9,2:00 AM,75.2,75.6,0,0,Clear,4.5,13.6,ENE,0,54
+Fri Oct 9,3:00 AM,74.9,75.7,0,0,Clear,3.9,12.1,ENE,3,55
+Fri Oct 9,4:00 AM,73.4,74.7,0,0,Clear,4,17.4,E,11,61
+Fri Oct 9,5:00 AM,71.2,71.7,0,0,Clear,6.2,18.8,ESE,12,66
+Fri Oct 9,6:00 AM,69.9,70.4,0,0,Clear,5.8,14.5,E,5,68
+Fri Oct 9,7:00 AM,69.2,70.1,0,0,Clear,5,12.1,ENE,0,70
+Fri Oct 9,8:00 AM,68.3,69.4,0,0,Clear,4.4,11.6,ENE,0,72
+Fri Oct 9,9:00 AM,67.3,68.9,0,0,Clear,3.8,10.7,NE,0,76
+Fri Oct 9,10:00 AM,65.7,67.3,0,0,Clear,3.6,10.5,N,0,80
+Fri Oct 9,11:00 AM,64.2,65,0,0,Clear,4.4,10.3,NNW,17,81
+Fri Oct 9,12:00 PM,63.6,64.2,0,0,Clear,4.8,11.2,NNW,11,82
+Fri Oct 9,1:00 PM,63,63.4,0,0,Clear,5.3,11.4,NNW,9,84
+Fri Oct 9,2:00 PM,62.6,62.9,0,0,Clear,5.4,12.1,NNW,6,85
+Fri Oct 9,3:00 PM,62,62.3,0,0,Clear,5.5,12.5,NNW,1,87
+Fri Oct 9,4:00 PM,61.6,61.8,0,0,Clear,5.7,12.3,NNW,3,88
+Fri Oct 9,5:00 PM,61.3,61.4,0,0,Clear,5.8,13.4,NNW,10,88
+Fri Oct 9,6:00 PM,62.3,62.1,0,0,Clear,6.4,14.3,NNW,5,85
+Fri Oct 9,7:00 PM,64.9,64.9,0,0,Clear,6.5,14.8,NNW,9,79
+Fri Oct 9,8:00 PM,67.9,68,0,0,Clear,6.1,17.7,N,17,71
+Fri Oct 9,9:00 PM,70.6,70.8,0,0,Mainly Clear,6,19.5,N,26,65
+Fri Oct 9,10:00 PM,72.5,73.8,0,0,Clear,5.9,20.8,N,19,62
+Fri Oct 9,11:00 PM,74.2,76.2,0,0,Clear,5.9,20.4,NNE,16,60
