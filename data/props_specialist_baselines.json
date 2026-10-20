@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 7475,
+      "count": 7763,
       "green": false,
       "course_name": "Yokohama Country Club (West Course)",
       "event_name": "Baycurrent Classic"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 12704,
+      "count": 12992,
       "green": true,
       "course_name": "Yokohama Country Club (West Course)",
       "event_name": "Baycurrent Classic"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 12820,
+      "count": 13108,
       "green": false,
       "course_name": "Yokohama Country Club (West Course)",
       "event_name": "Baycurrent Classic"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8818,
-    "strokes": 70.059,
-    "bogeys": 2.2962,
-    "pars": 11.3314,
-    "fw_pct": 60.541,
-    "gir_pct": 66.8219,
+    "birdies_plus": 3.8978,
+    "strokes": 70.0598,
+    "bogeys": 2.2985,
+    "pars": 11.1907,
+    "fw_pct": 60.689,
+    "gir_pct": 66.8885,
     "n_rounds_sample": 8000,
     "window": "24"
   },

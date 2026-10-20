@@ -1,6 +1,6 @@
 key,label,value,count,green,course_name,event_name
 designer,DESIGNER,TOM FAZIO,1668,False,Yokohama Country Club (West Course),Baycurrent Classic
-style,STYLE,PARKLAND,7475,False,Yokohama Country Club (West Course),Baycurrent Classic
+style,STYLE,PARKLAND,7763,False,Yokohama Country Club (West Course),Baycurrent Classic
 greens,GREENS,BERMUDA,5350,True,Yokohama Country Club (West Course),Baycurrent Classic
 greens_2,GREENS (2),POA,3019,True,Yokohama Country Club (West Course),Baycurrent Classic
 fairways,FAIRWAYS,BERMUDA,7058,False,Yokohama Country Club (West Course),Baycurrent Classic
@@ -10,7 +10,7 @@ scoring,SCORING,HARD,6190,False,Yokohama Country Club (West Course),Baycurrent C
 weather,WEATHER,FAIR,4801,False,Yokohama Country Club (West Course),Baycurrent Classic
 type,TYPE,FULL,12108,False,Yokohama Country Club (West Course),Baycurrent Classic
 fairway_width,FAIRWAY WIDTH,SMALL,6611,False,Yokohama Country Club (West Course),Baycurrent Classic
-green_width,GREEN WIDTH,SMALL,12704,True,Yokohama Country Club (West Course),Baycurrent Classic
+green_width,GREEN WIDTH,SMALL,12992,True,Yokohama Country Club (West Course),Baycurrent Classic
 green_speeds,GREEN SPEEDS,12.0,2142,True,Yokohama Country Club (West Course),Baycurrent Classic
 green_speeds_1,GREEN SPEEDS.1,FAST,2703,True,Yokohama Country Club (West Course),Baycurrent Classic
 rough_length,ROUGH LENGTH,NORMAL,6164,False,Yokohama Country Club (West Course),Baycurrent Classic
@@ -20,4 +20,4 @@ bunkers,BUNKERS,84.0,1066,False,Yokohama Country Club (West Course),Baycurrent C
 location,LOCATION,CALIFORNIA,2380,False,Yokohama Country Club (West Course),Baycurrent Classic
 redesigned,Redesigned,JACK NICKLAUS,946,False,Yokohama Country Club (West Course),Baycurrent Classic
 drainage,DRAINAGE,GOOD,7361,False,Yokohama Country Club (West Course),Baycurrent Classic
-rain,RAIN,NO,12820,False,Yokohama Country Club (West Course),Baycurrent Classic
+rain,RAIN,NO,13108,False,Yokohama Country Club (West Course),Baycurrent Classic
