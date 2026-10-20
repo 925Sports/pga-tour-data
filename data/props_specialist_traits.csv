@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,TOM FAZIO,1668,False,Yokohama Country Club (West Course),Baycurrent Classic
-style,STYLE,PARKLAND,7763,False,Yokohama Country Club (West Course),Baycurrent Classic
-greens,GREENS,BERMUDA,5350,True,Yokohama Country Club (West Course),Baycurrent Classic
-greens_2,GREENS (2),POA,3019,True,Yokohama Country Club (West Course),Baycurrent Classic
-fairways,FAIRWAYS,BERMUDA,7058,False,Yokohama Country Club (West Course),Baycurrent Classic
-length,LENGTH,LONG,6832,False,Yokohama Country Club (West Course),Baycurrent Classic
-par,PAR,72.0,6457,False,Yokohama Country Club (West Course),Baycurrent Classic
-scoring,SCORING,HARD,6190,False,Yokohama Country Club (West Course),Baycurrent Classic
-weather,WEATHER,FAIR,4801,False,Yokohama Country Club (West Course),Baycurrent Classic
-type,TYPE,FULL,12108,False,Yokohama Country Club (West Course),Baycurrent Classic
-fairway_width,FAIRWAY WIDTH,SMALL,6611,False,Yokohama Country Club (West Course),Baycurrent Classic
-green_width,GREEN WIDTH,SMALL,12992,True,Yokohama Country Club (West Course),Baycurrent Classic
-green_speeds,GREEN SPEEDS,12.0,2142,True,Yokohama Country Club (West Course),Baycurrent Classic
-green_speeds_1,GREEN SPEEDS.1,FAST,2703,True,Yokohama Country Club (West Course),Baycurrent Classic
-rough_length,ROUGH LENGTH,NORMAL,6164,False,Yokohama Country Club (West Course),Baycurrent Classic
-water_hazards,WATER HAZARDS,4.0,2234,False,Yokohama Country Club (West Course),Baycurrent Classic
-rough_amount,ROUGH AMOUNT,NORMAL,6000,False,Yokohama Country Club (West Course),Baycurrent Classic
-bunkers,BUNKERS,84.0,1066,False,Yokohama Country Club (West Course),Baycurrent Classic
-location,LOCATION,CALIFORNIA,2380,False,Yokohama Country Club (West Course),Baycurrent Classic
-redesigned,Redesigned,JACK NICKLAUS,946,False,Yokohama Country Club (West Course),Baycurrent Classic
-drainage,DRAINAGE,GOOD,7361,False,Yokohama Country Club (West Course),Baycurrent Classic
-rain,RAIN,NO,13108,False,Yokohama Country Club (West Course),Baycurrent Classic
+designer,DESIGNER,PETE DYE,2152,False,Port Royal Golf Course,Butterfield Bermuda Championship
+style,STYLE,PARKLAND,4830,False,Port Royal Golf Course,Butterfield Bermuda Championship
+greens,GREENS,BERMUDA,5030,True,Port Royal Golf Course,Butterfield Bermuda Championship
+greens_2,GREENS (2),POA,3513,True,Port Royal Golf Course,Butterfield Bermuda Championship
+fairways,FAIRWAYS,BERMUDA,5377,False,Port Royal Golf Course,Butterfield Bermuda Championship
+length,LENGTH,LONG,5925,False,Port Royal Golf Course,Butterfield Bermuda Championship
+par,PAR,72.0,8093,False,Port Royal Golf Course,Butterfield Bermuda Championship
+scoring,SCORING,NORMAL,5623,False,Port Royal Golf Course,Butterfield Bermuda Championship
+weather,WEATHER,FAIR,4677,False,Port Royal Golf Course,Butterfield Bermuda Championship
+type,TYPE,FULL,11850,False,Port Royal Golf Course,Butterfield Bermuda Championship
+fairway_width,FAIRWAY WIDTH,SMALL,5799,False,Port Royal Golf Course,Butterfield Bermuda Championship
+green_width,GREEN WIDTH,SMALL,12142,True,Port Royal Golf Course,Butterfield Bermuda Championship
+green_speeds,GREEN SPEEDS,11.0,1921,True,Port Royal Golf Course,Butterfield Bermuda Championship
+green_speeds_1,GREEN SPEEDS.1,SLOW,3107,True,Port Royal Golf Course,Butterfield Bermuda Championship
+rough_length,ROUGH LENGTH,NORMAL,5627,False,Port Royal Golf Course,Butterfield Bermuda Championship
+water_hazards,WATER HAZARDS,1.0,2649,False,Port Royal Golf Course,Butterfield Bermuda Championship
+rough_amount,ROUGH AMOUNT,NORMAL,4787,False,Port Royal Golf Course,Butterfield Bermuda Championship
+bunkers,BUNKERS,87.0,1133,False,Port Royal Golf Course,Butterfield Bermuda Championship
+location,LOCATION,CALIFORNIA,2553,False,Port Royal Golf Course,Butterfield Bermuda Championship
+redesigned,Redesigned,JACK NICKLAUS,1236,False,Port Royal Golf Course,Butterfield Bermuda Championship
+drainage,DRAINAGE,GOOD,7526,False,Port Royal Golf Course,Butterfield Bermuda Championship
+rain,RAIN,NO,11734,False,Port Royal Golf Course,Butterfield Bermuda Championship

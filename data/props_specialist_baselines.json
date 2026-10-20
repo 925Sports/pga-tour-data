@@ -1,214 +1,214 @@
 {
-  "course_name": "Yokohama Country Club (West Course)",
-  "event_name": "Baycurrent Classic",
-  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:HARD | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:FAST | ROUGH LENGTH:NORMAL | WATER HAZARDS:4.0 | ROUGH AMOUNT:NORMAL | BUNKERS:84.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "Port Royal Golf Course",
+  "event_name": "Butterfield Bermuda Championship",
+  "trait_sig": "DESIGNER:PETE DYE | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:11.0 | GREEN SPEEDS.1:SLOW | ROUGH LENGTH:NORMAL | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:87.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "TOM FAZIO",
-      "count": 1668,
+      "value": "PETE DYE",
+      "count": 2152,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 7763,
+      "count": 4830,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 5350,
+      "count": 5030,
       "green": true,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "POA",
-      "count": 3019,
+      "count": 3513,
       "green": true,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 7058,
+      "count": 5377,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 6832,
+      "count": 5925,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "par",
       "label": "PAR",
       "value": "72.0",
-      "count": 6457,
+      "count": 8093,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "scoring",
       "label": "SCORING",
-      "value": "HARD",
-      "count": 6190,
+      "value": "NORMAL",
+      "count": 5623,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 4801,
+      "count": 4677,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 12108,
+      "count": 11850,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 6611,
+      "count": 5799,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 12992,
+      "count": 12142,
       "green": true,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
-      "value": "12.0",
-      "count": 2142,
+      "value": "11.0",
+      "count": 1921,
       "green": true,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
-      "value": "FAST",
-      "count": 2703,
+      "value": "SLOW",
+      "count": 3107,
       "green": true,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "NORMAL",
-      "count": 6164,
+      "count": 5627,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "4.0",
-      "count": 2234,
+      "value": "1.0",
+      "count": 2649,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 6000,
+      "count": 4787,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "84.0",
-      "count": 1066,
+      "value": "87.0",
+      "count": 1133,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "location",
       "label": "LOCATION",
       "value": "CALIFORNIA",
-      "count": 2380,
+      "count": 2553,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "redesigned",
       "label": "Redesigned",
       "value": "JACK NICKLAUS",
-      "count": 946,
+      "count": 1236,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 7361,
+      "count": 7526,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 13108,
+      "count": 11734,
       "green": false,
-      "course_name": "Yokohama Country Club (West Course)",
-      "event_name": "Baycurrent Classic"
+      "course_name": "Port Royal Golf Course",
+      "event_name": "Butterfield Bermuda Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8978,
-    "strokes": 70.0598,
-    "bogeys": 2.2985,
-    "pars": 11.1907,
-    "fw_pct": 60.689,
-    "gir_pct": 66.8885,
+    "birdies_plus": 3.7626,
+    "strokes": 70.4934,
+    "bogeys": 2.4002,
+    "pars": 11.3894,
+    "fw_pct": 61.4801,
+    "gir_pct": 65.7592,
     "n_rounds_sample": 8000,
     "window": "24"
   },
