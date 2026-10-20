@@ -1,52 +1,52 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Port Royal Golf Course | Updated: 10/19/2026, 11:55:20 AM",,,,,,,,,,,
+Baycurrent Classic – Hourly Weather Forecast,,,,,,,,,,,
+"Location: Yokohama Country Club | Updated: 10/20/2026, 12:55:23 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Mon Oct 19,12:00 AM,81,82.5,17,0.008,Light Drizzle,18.4,24.8,SSE,88,75
-Mon Oct 19,1:00 AM,80.8,82,36,0.043,Thunderstorm,20.1,25.9,SSE,73,77
-Mon Oct 19,2:00 AM,79.4,81.8,51,0,Partly Cloudy,18.7,25.9,SSE,60,83
-Mon Oct 19,3:00 AM,79.3,81.4,58,0,Mainly Clear,19.8,25.7,SE,45,84
-Mon Oct 19,4:00 AM,79.3,82.2,61,0,Partly Cloudy,17.7,25.5,SE,70,84
-Mon Oct 19,5:00 AM,79.5,82.1,59,0,Partly Cloudy,17.9,23.5,SE,53,83
-Mon Oct 19,6:00 AM,79.7,82.4,51,0,Partly Cloudy,17.7,23,SE,51,83
-Mon Oct 19,7:00 AM,79.7,82.4,39,0,Overcast,17.6,23,SE,80,82
-Mon Oct 19,8:00 AM,79.9,81.7,29,0,Partly Cloudy,19.4,24.6,SSE,67,81
-Mon Oct 19,9:00 AM,80,81.3,24,0,Partly Cloudy,20.5,26.4,SSE,70,81
-Mon Oct 19,10:00 AM,80.3,81.1,22,0,Overcast,21.1,27.1,SSE,86,79
-Mon Oct 19,11:00 AM,80.7,81.6,20,0.004,Light Drizzle,20.6,27.1,SSE,65,76
-Mon Oct 19,12:00 PM,80.7,82.4,19,0,Mainly Clear,19.9,26.4,SSE,38,76
-Mon Oct 19,1:00 PM,80.7,83,19,0,Mainly Clear,19.5,25.5,SSE,41,76
-Mon Oct 19,2:00 PM,80.8,82.5,18,0,Partly Cloudy,19.4,25.1,SSE,57,76
-Mon Oct 19,3:00 PM,80.9,82.3,17,0,Overcast,19,25.1,SSE,86,76
-Mon Oct 19,4:00 PM,80.9,82.6,15,0,Overcast,18.3,24.2,SSE,98,76
-Mon Oct 19,5:00 PM,80.8,82.3,14,0,Overcast,18.4,23.9,SSE,98,76
-Mon Oct 19,6:00 PM,80.6,82.2,14,0,Overcast,18.5,23.7,SSE,95,76
-Mon Oct 19,7:00 PM,80.5,81.8,14,0,Overcast,19.1,24.2,SSE,96,77
-Mon Oct 19,8:00 PM,80.4,81.6,14,0,Overcast,19.3,24.8,SSE,95,77
-Mon Oct 19,9:00 PM,80.3,81.6,13,0,Overcast,18.8,24.6,SSE,91,76
-Mon Oct 19,10:00 PM,80.5,82.2,13,0,Overcast,17.8,24.2,SSE,93,76
-Mon Oct 19,11:00 PM,80.8,81.8,18,0.004,Light Drizzle,17.9,22.8,SSE,68,73
-Tue Oct 20,12:00 AM,81.1,82.3,33,0.008,Light Drizzle,17.6,22.8,SSE,70,72
-Tue Oct 20,1:00 AM,81,82.3,52,0,Overcast,17.9,22.8,SSE,95,73
-Tue Oct 20,2:00 AM,79.5,80,67,0.008,Light Drizzle,20.8,27.1,SSE,99,79
-Tue Oct 20,3:00 AM,79.2,79,72,0.016,Light Drizzle,21.2,26.8,S,94,77
-Tue Oct 20,4:00 AM,78.6,80.2,73,0,Overcast,18.6,28.4,SSE,80,82
-Tue Oct 20,5:00 AM,78.4,80,71,0,Overcast,18.9,24.8,SSE,90,83
-Tue Oct 20,6:00 AM,78.7,79.9,67,0,Mainly Clear,19.7,25.3,SSE,27,82
-Tue Oct 20,7:00 AM,79,79.7,60,0.008,Light Drizzle,20.7,26.4,SSE,70,81
-Tue Oct 20,8:00 AM,78.7,79.9,57,0,Partly Cloudy,19.7,26.6,SSE,66,82
-Tue Oct 20,9:00 AM,78.8,78.8,60,0.016,Light Drizzle,21,27.1,S,97,79
-Tue Oct 20,10:00 AM,78.9,79.6,65,0.008,Light Drizzle,20.6,27.1,S,80,81
-Tue Oct 20,11:00 AM,78.9,80.1,69,0,Overcast,19.8,27.5,S,98,82
-Tue Oct 20,12:00 PM,79.2,81.3,69,0,Overcast,19.9,25.7,S,95,82
-Tue Oct 20,1:00 PM,77.9,79.1,68,0.012,Light Drizzle,20.8,26.6,S,96,83
-Tue Oct 20,2:00 PM,77.6,79.6,67,0.016,Light Drizzle,17.8,26.8,S,72,85
-Tue Oct 20,3:00 PM,78.5,80.9,66,0,Partly Cloudy,17.3,23.5,S,52,83
-Tue Oct 20,4:00 PM,75.8,77.8,65,0.028,Thunderstorm,16.1,23.9,S,92,86
-Tue Oct 20,5:00 PM,77,80.5,65,0.039,Dense Drizzle,13.4,21.5,SSW,52,85
-Tue Oct 20,6:00 PM,77.3,81.8,67,0.043,Thunderstorm,10.2,17.9,SSW,65,83
-Tue Oct 20,7:00 PM,77.1,80.2,69,0.031,Moderate Drizzle,14.4,18.8,S,95,85
-Tue Oct 20,8:00 PM,77.4,80.5,71,0.008,Light Drizzle,15,19.5,SSW,99,85
-Tue Oct 20,9:00 PM,76.9,79.6,72,0.008,Light Drizzle,15.7,20.4,S,95,86
-Tue Oct 20,10:00 PM,77.5,79.9,73,0.004,Light Drizzle,15.7,21.3,S,97,83
-Tue Oct 20,11:00 PM,77.8,80.3,73,0.008,Light Drizzle,16.4,21.5,SSW,94,84
+Tue Oct 20,12:00 AM,77.2,83.3,39,0.004,Light Drizzle,6.6,32.4,SW,50,83
+Tue Oct 20,1:00 AM,77.2,83.5,20,0,Mainly Clear,6.3,30,SW,48,83
+Tue Oct 20,2:00 AM,77,83.5,8,0.004,Light Drizzle,5.2,29.5,SSW,48,83
+Tue Oct 20,3:00 AM,76.1,83,10,0,Partly Cloudy,4,25.1,SSW,79,85
+Tue Oct 20,4:00 AM,75.4,82.4,19,0,Mainly Clear,3.7,21.5,SW,47,86
+Tue Oct 20,5:00 AM,74.9,81.9,24,0,Mainly Clear,3.6,16.6,WSW,31,88
+Tue Oct 20,6:00 AM,73.4,79.6,21,0,Mainly Clear,2.8,9.6,WNW,41,86
+Tue Oct 20,7:00 AM,71.6,76.3,15,0,Mainly Clear,3,11.9,NW,34,82
+Tue Oct 20,8:00 AM,70.5,74.5,12,0,Mainly Clear,3.7,11.4,NW,35,83
+Tue Oct 20,9:00 AM,69.7,73.7,16,0,Mainly Clear,3.1,11,WNW,39,84
+Tue Oct 20,10:00 AM,69,73,23,0,Mainly Clear,3.3,8.7,NW,39,86
+Tue Oct 20,11:00 AM,68.6,73.2,27,0,Mainly Clear,1.6,6.9,W,40,87
+Tue Oct 20,12:00 PM,69.1,73.8,26,0,Mainly Clear,2.8,6.3,WSW,36,89
+Tue Oct 20,1:00 PM,72.3,78.3,23,0,Mainly Clear,4.9,3.4,SW,20,93
+Tue Oct 20,2:00 PM,74.5,79.9,18,0,Mainly Clear,7.2,10.5,SSW,30,88
+Tue Oct 20,3:00 PM,75,80.2,12,0,Mainly Clear,8,16.3,SSW,24,88
+Tue Oct 20,4:00 PM,75.3,80.2,5,0,Clear,8.1,17,SSW,18,85
+Tue Oct 20,5:00 PM,75.7,80.1,0,0,Mainly Clear,8.7,19.9,SSW,20,83
+Tue Oct 20,6:00 PM,76.4,80.9,0,0,Mainly Clear,8.5,28.4,SSW,20,81
+Tue Oct 20,7:00 PM,77.4,82.7,0,0,Partly Cloudy,7.2,31.3,SSW,73,80
+Tue Oct 20,8:00 PM,78,84.3,0,0,Overcast,6.2,34.2,SSW,88,81
+Tue Oct 20,9:00 PM,79,86.1,0,0,Partly Cloudy,6.2,37.6,SSW,63,82
+Tue Oct 20,10:00 PM,80.4,87.1,0,0,Mainly Clear,7.8,40,SSW,31,80
+Tue Oct 20,11:00 PM,80.6,87.6,0,0,Clear,8.1,42.3,SSW,16,81
+Wed Oct 21,12:00 AM,80.7,87.1,5,0,Clear,9.1,43.4,SSW,16,80
+Wed Oct 21,1:00 AM,80.3,86.2,12,0,Clear,9.5,44.3,SSW,15,80
+Wed Oct 21,2:00 AM,79.7,85.5,18,0,Clear,9.3,44.7,SSW,12,80
+Wed Oct 21,3:00 AM,78.8,84.1,23,0,Clear,9.5,44.5,SSW,12,81
+Wed Oct 21,4:00 AM,77.6,82.2,28,0,Clear,10.5,45.2,SSW,16,83
+Wed Oct 21,5:00 AM,77.4,81.8,29,0,Mainly Clear,10.8,45,SSW,20,83
+Wed Oct 21,6:00 AM,77.4,81.9,24,0,Clear,10.5,45,SSW,16,83
+Wed Oct 21,7:00 AM,77.2,82.1,15,0,Clear,9.6,44.5,SSW,19,83
+Wed Oct 21,8:00 AM,77.1,82,8,0,Mainly Clear,8.9,43.2,SW,27,82
+Wed Oct 21,9:00 AM,76.9,81.9,4,0,Mainly Clear,8.1,42.1,SW,47,82
+Wed Oct 21,10:00 AM,76,81.9,2,0,Partly Cloudy,4.8,37.1,WSW,60,82
+Wed Oct 21,11:00 AM,74.3,79.7,0,0,Partly Cloudy,3.6,28,NNE,55,81
+Wed Oct 21,12:00 PM,71.8,74.2,0,0,Partly Cloudy,4.2,11.6,NNE,65,71
+Wed Oct 21,1:00 PM,69.8,72,0,0.004,Light Drizzle,4.3,13.4,NNE,82,75
+Wed Oct 21,2:00 PM,69.7,69.9,0,0,Mainly Clear,5.5,17.7,NNE,39,66
+Wed Oct 21,3:00 PM,68.2,67.4,1,0,Clear,5.7,20.8,N,17,63
+Wed Oct 21,4:00 PM,67.1,66.2,2,0,Clear,5.2,21.7,NNE,13,63
+Wed Oct 21,5:00 PM,66.4,65.2,2,0,Clear,5.4,19.5,NNE,10,63
+Wed Oct 21,6:00 PM,66.3,64.7,2,0,Mainly Clear,6,20.6,NNE,21,62
+Wed Oct 21,7:00 PM,67.1,65,1,0,Clear,6.6,20.8,N,19,59
+Wed Oct 21,8:00 PM,68.1,65.9,0,0,Mainly Clear,6.6,22.1,N,28,56
+Wed Oct 21,9:00 PM,69.4,67.2,0,0,Mainly Clear,6.2,21.7,NNE,29,53
+Wed Oct 21,10:00 PM,70.9,68.9,0,0,Mainly Clear,5.7,20.6,NNE,22,49
+Wed Oct 21,11:00 PM,71.9,69.9,0,0,Mainly Clear,4.9,21,NNE,34,46
