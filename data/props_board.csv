@@ -1,88 +1,195 @@
 player_name,stat_type,prizepicks_line,underdog_line,average_line,higher_price_ud,lower_price_ud,book_avg,sg_total_avg,proj,is_matchup
-Aaron Rai,Strokes,69.0,,69.0,,,69.92857142857143,,69.92857142857143,False
-Adam Scott,Birdies Or Better,,4.5,4.5,140.0,-173.0,4.613636363636363,,4.613636363636363,False
+A.J. Ewart,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Adam Hadwin,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Adam Scott,Birdies Or Better,,4.5,4.5,140.0,-173.0,4.146341463414634,,4.146341463414634,False
 Adam Scott,Bogeys or Worse,,2.5,2.5,100.0,-122.0,2.5,,2.5,False
 Adam Scott,Fairways Hit,,8.5,8.5,129.0,-159.0,8.7,,8.7,False
 Adam Scott,Greens In Regulation,,12.5,12.5,108.0,-132.0,12.5,,12.5,False
 Adam Scott,Round Strokes,,68.5,68.5,-112.0,-112.0,67.83333333333333,,67.83333333333333,False
 Adam Scott,Tourney Finishing Position,,5.5,5.5,,-110.0,5.5,,5.5,False
-Antoine Rozner,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Antoine Rozner,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Bernd Wiesberger,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Bernd Wiesberger,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Cameron Young,Birdies Or Better,,4.5,4.5,108.0,-134.0,4.613636363636363,,4.613636363636363,False
+Adam Svensson,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Adrián Otaegui,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Adrián Otaegui,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Aldrich Potgieter,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Alejandro Del Rey,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Andrew Novak,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Andrew Novak,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Andrew Novak,Pars,11.0,,11.0,,,11.0,,11.0,False
+Andrew Novak,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Angel Ayora,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Angel Ayora,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Angel Hidalgo,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Antoine Rozner,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Austin Eckroat,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Austin Smotherman,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Austin Smotherman,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Austin Smotherman,Pars,11.0,,11.0,,,11.0,,11.0,False
+Austin Smotherman,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Ben Kohles,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Ben Kohles,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Ben Kohles,Pars,11.5,,11.5,,,11.0,,11.0,False
+Ben Kohles,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Benjamin James,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+C.T. Pan,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Cameron Young,Birdies Or Better,,4.5,4.5,108.0,-134.0,4.146341463414634,,4.146341463414634,False
 Cameron Young,Bogeys or Worse,,2.5,2.5,133.0,-164.0,2.5,,2.5,False
 Cameron Young,Fairways Hit,,8.5,8.5,103.0,-125.0,8.7,,8.7,False
 Cameron Young,Greens In Regulation,,12.5,12.5,-113.0,-109.0,12.5,,12.5,False
 Cameron Young,Round Strokes,,67.5,67.5,-148.0,121.0,67.83333333333333,,67.83333333333333,False
 Cameron Young,Tourney Finishing Position,,5.5,5.5,,195.0,5.5,,5.5,False
-Casey Jarvis,Birdies Or Better,5.0,,5.0,,,4.613636363636363,,4.613636363636363,False
-Casey Jarvis,Strokes,69.5,,69.5,,,69.92857142857143,,69.92857142857143,False
-Chris Gotterup,Birdies Or Better,,4.5,4.5,-120.0,-103.0,4.613636363636363,,4.613636363636363,False
+Camilo Villegas,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Casey Jarvis,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Casey Jarvis,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Chad Ramey,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Chandler Blanchet,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Charley Hoffman,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Chris Gotterup,Birdies Or Better,,4.5,4.5,-120.0,-103.0,4.146341463414634,,4.146341463414634,False
 Chris Gotterup,Bogeys or Worse,,2.5,2.5,127.0,-157.0,2.5,,2.5,False
 Chris Gotterup,Fairways Hit,,7.5,7.5,-132.0,108.0,8.7,,8.7,False
 Chris Gotterup,Greens In Regulation,,12.5,12.5,110.0,-134.0,12.5,,12.5,False
 Chris Gotterup,Round Strokes,,67.5,67.5,-136.0,111.0,67.83333333333333,,67.83333333333333,False
 Chris Gotterup,Tourney Finishing Position,,5.5,5.5,,-154.0,5.5,,5.5,False
-Daniel Hillier,Birdies Or Better,5.0,,5.0,,,4.613636363636363,,4.613636363636363,False
-Daniel Hillier,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Francesco Laporta,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Francesco Laporta,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Jacob Skov Olesen,Birdies Or Better,5.0,,5.0,,,4.613636363636363,,4.613636363636363,False
-Jacob Skov Olesen,Strokes,69.5,,69.5,,,69.92857142857143,,69.92857142857143,False
-Jayden Schaper,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Jayden Schaper,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Joakim Lagergren,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Joakim Lagergren,Strokes,70.5,,70.5,,,69.92857142857143,,69.92857142857143,False
-Joost Luiten,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Ludvig Åberg,Birdies Or Better,,4.5,4.5,112.0,-137.0,4.613636363636363,,4.613636363636363,False
+Chris Kirk,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Chris Kirk,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Chris Kirk,Pars,11.0,,11.0,,,11.0,,11.0,False
+Chris Kirk,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Corey Conners,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Corey Conners,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Corey Conners,Pars,11.0,,11.0,,,11.0,,11.0,False
+Corey Conners,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Dan Bradbury,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Dan Bradbury,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Daniel Hillier,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Daniel Hillier,Strokes,69.5,,69.5,,,69.85714285714286,,69.85714285714286,False
+David Ford,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+David Ford,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+David Ford,Pars,11.0,,11.0,,,11.0,,11.0,False
+David Ford,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Davis Riley,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Davis Thompson,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Denny McCarthy,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Dylan Frittelli,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Emiliano Grillo,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Eric Cole,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Eric Cole,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Eric Cole,Pars,11.0,,11.0,,,11.0,,11.0,False
+Eric Cole,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Erik Van Rooyen,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Eugenio Chacarra,Strokes,69.5,,69.5,,,69.85714285714286,,69.85714285714286,False
+Francesco Laporta,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Francesco Laporta,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Frederic LaCroix,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Frederic LaCroix,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Gregorio De Leo,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Hao-Tong Li,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Henrik Norlander,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Jacob Skov Olesen,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Jacob Skov Olesen,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Jesper Svensson,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Joakim Lagergren,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Joakim Lagergren,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Joel Dahmen,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Joel Girrbach,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Joel Girrbach,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+John Parry,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Kazuma Kobori,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Kazuma Kobori,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Kevin Roy,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Kevin Roy,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Kevin Roy,Pars,11.0,,11.0,,,11.0,,11.0,False
+Kevin Roy,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Kevin Yu,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Kevin Yu,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Kevin Yu,Pars,11.0,,11.0,,,11.0,,11.0,False
+Kevin Yu,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Kota Kaneko,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Kota Kaneko,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Kris Ventura,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Kris Ventura,Pars,11.0,,11.0,,,11.0,,11.0,False
+Kris Ventura,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Lucas Glover,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Ludvig Åberg,Birdies Or Better,,4.5,4.5,112.0,-137.0,4.146341463414634,,4.146341463414634,False
 Ludvig Åberg,Bogeys or Worse,,2.5,2.5,134.0,-164.0,2.5,,2.5,False
 Ludvig Åberg,Fairways Hit,,8.5,8.5,-108.0,-114.0,8.7,,8.7,False
 Ludvig Åberg,Greens In Regulation,,12.5,12.5,-130.0,106.0,12.5,,12.5,False
 Ludvig Åberg,Round Strokes,,67.5,67.5,-115.0,-107.0,67.83333333333333,,67.83333333333333,False
 Ludvig Åberg,Tourney Finishing Position,,5.5,5.5,,-173.0,5.5,,5.5,False
-Martin Couvra,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Martin Couvra,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Min Woo Lee,Birdies Or Better,,4.5,4.5,138.0,-170.0,4.613636363636363,,4.613636363636363,False
+Luke Clanton,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Mackenzie Hughes,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Manuel Elvira,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Manuel Elvira,Strokes,71.0,,71.0,,,69.85714285714286,,69.85714285714286,False
+Martin Couvra,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Max Greyserman,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Max Greyserman,Bogeys or Worse,2.5,,2.5,,,2.5,,2.5,False
+Max Greyserman,Pars,11.0,,11.0,,,11.0,,11.0,False
+Max Greyserman,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Max McGreevy,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Mikael Lindberg,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Min Woo Lee,Birdies Or Better,,4.5,4.5,138.0,-170.0,4.146341463414634,,4.146341463414634,False
 Min Woo Lee,Bogeys or Worse,,2.5,2.5,100.0,-122.0,2.5,,2.5,False
 Min Woo Lee,Fairways Hit,,8.5,8.5,123.0,-152.0,8.7,,8.7,False
 Min Woo Lee,Greens In Regulation,,11.5,11.5,-134.0,110.0,12.5,,12.5,False
 Min Woo Lee,Round Strokes,,68.5,68.5,-112.0,-112.0,67.83333333333333,,67.83333333333333,False
 Min Woo Lee,Tourney Finishing Position,,10.5,10.5,,109.0,5.5,,5.5,False
-Oliver Lindell,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Oliver Lindell,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Patrick Reed,Birdies Or Better,5.0,,5.0,,,4.613636363636363,,4.613636363636363,False
-Patrick Reed,Strokes,69.5,,69.5,,,69.92857142857143,,69.92857142857143,False
-Rory McIlroy,Birdies Or Better,,4.5,4.5,-134.0,108.0,4.613636363636363,,4.613636363636363,False
+Nacho Elvira,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Nathan Kimsey,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Nathan Kimsey,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Neal Shipley,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Nick Dunlap,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Patrick Fishburn,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Patton Kizzire,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Peter Malnati,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Rico Hoey,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Rico Hoey,Pars,11.0,,11.0,,,11.0,,11.0,False
+Rico Hoey,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Rory McIlroy,Birdies Or Better,,4.5,4.5,-134.0,108.0,4.146341463414634,,4.146341463414634,False
 Rory McIlroy,Bogeys or Worse,,2.5,2.5,130.0,-159.0,2.5,,2.5,False
 Rory McIlroy,Fairways Hit,,7.5,7.5,-170.0,138.0,8.7,,8.7,False
 Rory McIlroy,Greens In Regulation,,12.5,12.5,-122.0,100.0,12.5,,12.5,False
 Rory McIlroy,Round Strokes,,67.5,67.5,101.0,-124.0,67.83333333333333,,67.83333333333333,False
 Rory McIlroy,Tourney Finishing Position,,5.5,5.5,,138.0,5.5,,5.5,False
-Russell Henley,Birdies Or Better,,4.5,4.5,122.0,-150.0,4.613636363636363,,4.613636363636363,False
+Russell Henley,Birdies Or Better,,4.5,4.5,122.0,-150.0,4.146341463414634,,4.146341463414634,False
 Russell Henley,Bogeys or Worse,,2.5,2.5,157.0,-197.0,2.5,,2.5,False
 Russell Henley,Fairways Hit,,10.5,10.5,129.0,-159.0,8.7,,8.7,False
 Russell Henley,Greens In Regulation,,12.5,12.5,114.0,-139.0,12.5,,12.5,False
 Russell Henley,Round Strokes,,67.5,67.5,-170.0,139.0,67.83333333333333,,67.83333333333333,False
 Russell Henley,Tourney Finishing Position,,10.5,10.5,,-110.0,5.5,,5.5,False
-Ryan Fox,Birdies Or Better,5.0,,5.0,,,4.613636363636363,,4.613636363636363,False
-Ryan Fox,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Ryan Gerard,Birdies Or Better,,4.5,4.5,128.0,-159.0,4.613636363636363,,4.613636363636363,False
+Ryan Fox,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Ryan Fox,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Ryan Gerard,Birdies Or Better,,4.5,4.5,128.0,-159.0,4.146341463414634,,4.146341463414634,False
 Ryan Gerard,Bogeys or Worse,,2.5,2.5,-106.0,-117.0,2.5,,2.5,False
 Ryan Gerard,Fairways Hit,,8.5,8.5,-152.0,123.0,8.7,,8.7,False
 Ryan Gerard,Greens In Regulation,,11.5,11.5,-157.0,128.0,12.5,,12.5,False
 Ryan Gerard,Round Strokes,,68.5,68.5,101.0,-124.0,67.83333333333333,,67.83333333333333,False
 Ryan Gerard,Tourney Finishing Position,,5.5,5.5,,-358.0,5.5,,5.5,False
-Scottie Scheffler,Birdies Or Better,,5.5,5.5,128.0,-159.0,4.613636363636363,,4.613636363636363,False
+Sam Bairstow,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Scottie Scheffler,Birdies Or Better,,5.5,5.5,128.0,-159.0,4.146341463414634,,4.146341463414634,False
 Scottie Scheffler,Bogeys or Worse,,1.5,1.5,-124.0,101.0,2.5,,2.5,False
 Scottie Scheffler,Fairways Hit,,9.5,9.5,131.0,-162.0,8.7,,8.7,False
 Scottie Scheffler,Greens In Regulation,,13.5,13.5,111.0,-136.0,12.5,,12.5,False
 Scottie Scheffler,Round Strokes,,65.5,65.5,-170.0,139.0,67.83333333333333,,67.83333333333333,False
 Scottie Scheffler,Tourney Finishing Position,,5.5,5.5,,-358.0,5.5,,5.5,False
-Thriston Lawrence,Birdies Or Better,4.5,,4.5,,,4.613636363636363,,4.613636363636363,False
-Thriston Lawrence,Strokes,70.0,,70.0,,,69.92857142857143,,69.92857142857143,False
-Viktor Hovland,Birdies Or Better,,4.5,4.5,124.0,-152.0,4.613636363636363,,4.613636363636363,False
+Seamus Power,Birdies Or Better,4.5,,4.5,,,4.146341463414634,,4.146341463414634,False
+Seamus Power,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Seamus Power,Pars,11.0,,11.0,,,11.0,,11.0,False
+Seamus Power,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Si Woo Kim,Strokes,69.0,,69.0,,,69.85714285714286,,69.85714285714286,False
+Sungjae Im,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Sungjae Im,Strokes,69.5,,69.5,,,69.85714285714286,,69.85714285714286,False
+Taylor Moore,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Taylor Pendrith,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Thomas Detry,Birdies Or Better,4.0,,4.0,,,4.146341463414634,,4.146341463414634,False
+Thomas Detry,Strokes,70.0,,70.0,,,69.85714285714286,,69.85714285714286,False
+Tom Hoge,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Troy Merritt,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Ugo Coussaud,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Ugo Coussaud,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Viktor Hovland,Birdies Or Better,,4.5,4.5,124.0,-152.0,4.146341463414634,,4.146341463414634,False
 Viktor Hovland,Bogeys or Worse,,2.5,2.5,107.0,-132.0,2.5,,2.5,False
 Viktor Hovland,Fairways Hit,,9.5,9.5,129.0,-159.0,8.7,,8.7,False
 Viktor Hovland,Greens In Regulation,,12.5,12.5,120.0,-148.0,12.5,,12.5,False
 Viktor Hovland,Round Strokes,,67.5,67.5,-170.0,139.0,67.83333333333333,,67.83333333333333,False
+Will Gordon,Holes Played,36.5,,36.5,,,36.5,,36.5,False
+Yuto Katsuragawa,Birdies Or Better,3.5,,3.5,,,4.146341463414634,,4.146341463414634,False
+Yuto Katsuragawa,Strokes,70.5,,70.5,,,69.85714285714286,,69.85714285714286,False
+Zac Blair,Holes Played,36.5,,36.5,,,36.5,,36.5,False
