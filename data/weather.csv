@@ -1,31 +1,7 @@
-Butterfield Bermuda Championship – Hourly Weather Forecast,,,,,,,,,,,
-"Location: Port Royal Golf Course | Updated: 10/21/2026, 10:55:19 PM",,,,,,,,,,,
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: Port Royal Golf Course | Updated: 10/22/2026, 12:55:18 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Wed Oct 21,12:00 AM,77.6,81.6,78,0.004,Light Drizzle,12.9,17,SSW,94,85
-Wed Oct 21,1:00 AM,77.9,82.2,79,0.004,Light Drizzle,12.2,17,SSW,32,84
-Wed Oct 21,2:00 AM,76.6,82.1,76,0,Overcast,8.7,16.1,SSW,99,86
-Wed Oct 21,3:00 AM,77.1,81.7,66,0,Overcast,10.2,13.6,SW,98,84
-Wed Oct 21,4:00 AM,77.4,81.6,53,0,Overcast,11.6,15.4,SW,95,84
-Wed Oct 21,5:00 AM,77.5,81.9,41,0,Clear,10.9,15.2,SW,9,83
-Wed Oct 21,6:00 AM,77.9,82.4,32,0,Overcast,10.6,15,SW,100,82
-Wed Oct 21,7:00 AM,78.1,82.7,23,0,Mainly Clear,9.8,14.1,SW,45,80
-Wed Oct 21,8:00 AM,79.3,84.9,16,0,Overcast,7.1,14.3,SW,100,76
-Wed Oct 21,9:00 AM,79.3,84,10,0,Clear,9.5,12.1,SW,16,76
-Wed Oct 21,10:00 AM,79.3,83.8,5,0,Clear,10,13,SW,16,77
-Wed Oct 21,11:00 AM,79.4,83.8,2,0,Overcast,10.7,13.6,SW,81,76
-Wed Oct 21,12:00 PM,79.5,84.3,1,0,Mainly Clear,10.5,13.9,SW,23,75
-Wed Oct 21,1:00 PM,79.3,84.7,1,0,Mainly Clear,10.1,13.6,SW,26,76
-Wed Oct 21,2:00 PM,79.7,84.1,2,0.004,Light Drizzle,10.1,13.9,WSW,73,72
-Wed Oct 21,3:00 PM,79.5,83.8,2,0,Overcast,8.1,13,WSW,98,71
-Wed Oct 21,4:00 PM,79.5,84.4,2,0,Overcast,6.1,10.7,SW,91,70
-Wed Oct 21,5:00 PM,79.5,84.4,2,0,Partly Cloudy,5.9,8.7,SW,75,70
-Wed Oct 21,6:00 PM,79.3,84,2,0,Overcast,6.7,8.9,SW,99,71
-Wed Oct 21,7:00 PM,79.3,83.7,3,0,Overcast,7.6,10.5,SW,100,71
-Wed Oct 21,8:00 PM,79.3,84.4,4,0,Overcast,6,10.3,SSW,95,71
-Wed Oct 21,9:00 PM,79.3,84.1,4,0,Overcast,6.7,9.2,SW,100,72
-Wed Oct 21,10:00 PM,79.3,83.1,5,0,Overcast,9.1,11.6,SW,100,72
-Wed Oct 21,11:00 PM,79.3,82.8,8,0,Overcast,9.6,12.5,SW,100,71
 Thu Oct 22,12:00 AM,76.4,79.7,14,0.012,Light Drizzle,12.7,16.3,S,100,84
 Thu Oct 22,1:00 AM,75.8,78.7,22,0.004,Light Drizzle,14.3,20.6,S,100,87
 Thu Oct 22,2:00 AM,76.4,81.1,31,0.004,Light Drizzle,9.7,19,SSW,100,85
@@ -50,3 +26,27 @@ Thu Oct 22,8:00 PM,77.3,77.7,0,0,Clear,15,19.5,WNW,13,72
 Thu Oct 22,9:00 PM,77.2,77.3,0,0,Clear,15.6,20.4,WNW,8,72
 Thu Oct 22,10:00 PM,77,76.9,1,0,Clear,15.8,20.8,WNW,11,72
 Thu Oct 22,11:00 PM,76.6,76.7,2,0,Partly Cloudy,15.8,20.8,WNW,75,73
+Fri Oct 23,12:00 AM,76.4,76.4,3,0,Clear,16,21,WNW,13,74
+Fri Oct 23,1:00 AM,76.3,75.3,4,0,Clear,16.7,21.7,WNW,18,71
+Fri Oct 23,2:00 AM,76.6,74.4,6,0,Clear,17.3,22.6,WNW,2,66
+Fri Oct 23,3:00 AM,76.3,74.4,9,0,Clear,17.5,23,WNW,5,68
+Fri Oct 23,4:00 AM,76.5,74.7,11,0,Clear,16.9,23,WNW,3,67
+Fri Oct 23,5:00 AM,76.8,74.9,12,0,Clear,17.1,22.4,WNW,10,66
+Fri Oct 23,6:00 AM,77.5,75.8,9,0,Clear,16.3,22.4,WNW,13,64
+Fri Oct 23,7:00 AM,77.3,75.2,3,0,Mainly Clear,17.2,22.1,NW,37,64
+Fri Oct 23,8:00 AM,76.5,75.5,0,0,Clear,16,22.1,WNW,6,69
+Fri Oct 23,9:00 AM,76.3,75.4,2,0,Mainly Clear,16,21.3,NW,45,70
+Fri Oct 23,10:00 AM,75.7,75.7,7,0.008,Light Drizzle,14.3,20.8,NW,48,72
+Fri Oct 23,11:00 AM,74.7,75.5,10,0.008,Light Drizzle,12.7,19,NNW,82,75
+Fri Oct 23,12:00 PM,74.8,76.3,10,0.02,Moderate Drizzle,11.8,17.2,NNW,55,75
+Fri Oct 23,1:00 PM,75.2,75.7,10,0.02,Moderate Drizzle,12.3,16.8,N,69,71
+Fri Oct 23,2:00 PM,75.2,76,10,0.02,Moderate Drizzle,11.8,16.8,N,52,71
+Fri Oct 23,3:00 PM,75.4,74.9,12,0,Overcast,13.7,18.1,N,90,69
+Fri Oct 23,4:00 PM,75.4,74.3,16,0,Clear,14.4,19.2,N,13,68
+Fri Oct 23,5:00 PM,75.3,74.2,18,0,Mainly Clear,14.5,19.7,N,39,68
+Fri Oct 23,6:00 PM,75.3,74,18,0,Partly Cloudy,14.6,19.7,N,63,67
+Fri Oct 23,7:00 PM,75,73.7,17,0,Partly Cloudy,14.9,19.9,NNE,74,68
+Fri Oct 23,8:00 PM,74.6,72.8,16,0,Overcast,16.2,21.5,NNE,91,70
+Fri Oct 23,9:00 PM,74.8,72,15,0,Partly Cloudy,16.5,21.9,NNE,52,65
+Fri Oct 23,10:00 PM,74.7,71.4,14,0,Partly Cloudy,17.3,23,NNE,50,64
+Fri Oct 23,11:00 PM,74.8,72,14,0,Partly Cloudy,15.8,23,NNE,75,62
