@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-10-05-spec-logs-b2b -->
+<!-- 925-HUB-VERSION: 2026-10-26-official-week -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -2661,7 +2661,7 @@
 
 const REPO = "925Sports/pga-tour-data";
     // Bump when weekly data flips so browsers skip stale CDN/cache
-    const DATA_VER = "20260817a";
+    const DATA_VER = new Date().toISOString().slice(0, 10).replace(/-/g, "");
     const DATA_BASE = `https://raw.githubusercontent.com/${REPO}/main/data`;
     function withDataVer(url) {
         if (!url || typeof url !== "string") return url;
@@ -4281,6 +4281,23 @@ function switchFantasySubTab(sub) {
             }
             return "";
         };
+        try {
+            const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+            if (off && off.event) {
+                const previewTourn = get("TOURNAMENT", "Tournament");
+                const previewCourse = get("COURSE NAME", "Course Name");
+                const evOk = previewTourn && typeof hubEventsClose === "function" && hubEventsClose(previewTourn, off.event);
+                const crsOk = !!(off.course && previewCourse && typeof hubCoursesClose === "function" && hubCoursesClose(previewCourse, off.course));
+                if (!evOk && !crsOk) {
+                    console.log("[hub] preview ignored", previewTourn || previewCourse, "official week", off.event);
+                    if (off.course) {
+                        currentCourseName = off.course;
+                        window.previewCourseName = off.course;
+                    }
+                    return;
+                }
+            }
+        } catch (e) {}
         keyStatNames = [
             get("KEY STAT 1", "Key Stat 1"),
             get("KEY STAT 2", "Key Stat 2"),
@@ -9650,6 +9667,35 @@ function runCustomModel() {
         const packs = window._eventPacks || {};
         const pack = packs[scope];
         if (!pack || !(pack.recentForm && pack.recentForm.length)) {
+            if (pack && pack.officialEvent && scope !== "upcoming") {
+                window._eventScope = scope;
+                allPlayers = [];
+                prebuiltCheat = [];
+                try { cheatRows = []; } catch (e) {}
+                currentCourseName = pack.officialCourse || currentCourseName || "";
+                window.previewCourseName = currentCourseName || "";
+                window.specialistBoard = [];
+                const evName = pack.officialEvent;
+                const crs = currentCourseName || "";
+                try {
+                    const rf = document.getElementById("recent-form-event");
+                    if (rf) rf.textContent = evName + (pack.dateStart ? "  ·  " + pack.dateStart : "");
+                    const cheatSub = document.getElementById("cheat-subtitle");
+                    if (cheatSub) {
+                        cheatSub.textContent = evName + (crs ? " · " + crs : "")
+                            + " · Course History · Recent Form · Specialist · 925 Rank";
+                    }
+                    const chSub = document.getElementById("course-history-subtitle");
+                    if (chSub) chSub.textContent = crs ? ("Results at " + crs) : "Course history publishes with this week's field";
+                } catch (e) {}
+                updateEventScopeButtons();
+                try { setDataHealthBanner(); } catch (e) {}
+                window._hubBootDone = true;
+                if (!opts.skipRender) {
+                    try { if (typeof renderCheatSheet === "function") renderCheatSheet(); } catch (e) {}
+                }
+                return;
+            }
             console.warn("[hub] no pack for scope", scope);
             if (scope === "upcoming") {
                 // bounce to current
@@ -9832,15 +9878,29 @@ function runCustomModel() {
         m.forEach((c, k) => { if (c > n) { n = c; best = k; } });
         return best;
     }
+    function hubFixSheetYear(y) {
+        let n = Number(y);
+        if (!isFinite(n)) return null;
+        if (n < 100) n += 2000;
+        // Sheet typo 8/9/22026 made Wyndham look like it finishes in the year 22026
+        // and the Monday roll picked it every week.
+        if (n > 2100 && n < 100000) n = Math.round(n / 10);
+        if (n < 2015 || n > 2100) return null;
+        return n;
+    }
     function hubParseLooseDate(s) {
         if (s == null || s === "") return null;
-        const t = String(s).trim();
+        const t = String(s).trim().replace(/\b22026\b/g, "2026");
         let m = t.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
-        if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+        if (m) {
+            const y = hubFixSheetYear(m[1]);
+            if (y == null) return null;
+            return new Date(y, Number(m[2]) - 1, Number(m[3]));
+        }
         m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
         if (m) {
-            let y = Number(m[3]);
-            if (y < 100) y += 2000;
+            const y = hubFixSheetYear(m[3]);
+            if (y == null) return null;
             return new Date(y, Number(m[1]) - 1, Number(m[2]));
         }
         const d = new Date(t);
@@ -9904,6 +9964,157 @@ function runCustomModel() {
             }
         }
         return end;
+    }
+    function hubIsoDay(iso) {
+        const m = String(iso || "").match(/^(\d{4}-\d{2}-\d{2})/);
+        return m ? m[1] : "";
+    }
+    function hubLocalDayStr(d) {
+        const y = d.getFullYear();
+        const m = String(d.getMonth() + 1).padStart(2, "0");
+        const da = String(d.getDate()).padStart(2, "0");
+        return y + "-" + m + "-" + da;
+    }
+    function hubCourseForOfficialEvent(name) {
+        const n = String(name || "").toLowerCase();
+        const map = [
+            [/mexico|vidanta/, "Vidanta Vallarta"],
+            [/butterfield|bermuda/, "Port Royal Golf Course"],
+            [/world wide technology/, "El Cardonal at Diamante"],
+            [/rsm classic/, "Sea Island Golf Club"],
+            [/baycurrent/, "Yokohama Country Club"],
+            [/bank of utah|black desert/, "Black Desert Resort"],
+            [/wyndham/, "Sedgefield Country Club"],
+        ];
+        for (const pair of map) if (pair[0].test(n)) return pair[1];
+        return "";
+    }
+    // Built-in 2026 PGA calendar. Used when the live scoreboard is blocked.
+    // Dates are the event days (YYYY-MM-DD), not a stale preview sheet.
+    const HUB_PGA_2026 = [
+        ["The Sentry","2026-01-08","2026-01-11"],
+        ["Sony Open in Hawaii","2026-01-15","2026-01-18"],
+        ["The American Express","2026-01-22","2026-01-25"],
+        ["Farmers Insurance Open","2026-01-29","2026-02-01"],
+        ["WM Phoenix Open","2026-02-05","2026-02-08"],
+        ["AT&T Pebble Beach Pro-Am","2026-02-12","2026-02-15"],
+        ["The Genesis Invitational","2026-02-19","2026-02-22"],
+        ["Cognizant Classic in The Palm Beaches","2026-02-26","2026-03-01"],
+        ["Arnold Palmer Invitational pres. by Mastercard","2026-03-05","2026-03-08"],
+        ["Puerto Rico Open","2026-03-05","2026-03-08"],
+        ["THE PLAYERS Championship","2026-03-12","2026-03-15"],
+        ["Valspar Championship","2026-03-19","2026-03-22"],
+        ["Texas Children's Houston Open","2026-03-26","2026-03-29"],
+        ["Valero Texas Open","2026-04-02","2026-04-05"],
+        ["Masters Tournament","2026-04-09","2026-04-12"],
+        ["RBC Heritage","2026-04-16","2026-04-19"],
+        ["Zurich Classic of New Orleans","2026-04-23","2026-04-26"],
+        ["Cadillac Championship","2026-04-30","2026-05-03"],
+        ["Truist Championship","2026-05-07","2026-05-10"],
+        ["ONEflight Myrtle Beach Classic","2026-05-07","2026-05-10"],
+        ["PGA Championship","2026-05-14","2026-05-17"],
+        ["THE CJ CUP Byron Nelson","2026-05-21","2026-05-24"],
+        ["Charles Schwab Challenge","2026-05-28","2026-05-31"],
+        ["the Memorial Tournament pres. by Workday","2026-06-04","2026-06-07"],
+        ["RBC Canadian Open","2026-06-11","2026-06-14"],
+        ["U.S. Open","2026-06-18","2026-06-21"],
+        ["Travelers Championship","2026-06-25","2026-06-29"],
+        ["John Deere Classic","2026-07-02","2026-07-05"],
+        ["Genesis Scottish Open","2026-07-09","2026-07-12"],
+        ["ISCO Championship","2026-07-09","2026-07-12"],
+        ["The Open","2026-07-16","2026-07-19"],
+        ["Corales Puntacana Championship","2026-07-16","2026-07-19"],
+        ["3M Open","2026-07-23","2026-07-26"],
+        ["Rocket Classic","2026-07-30","2026-08-02"],
+        ["Wyndham Championship","2026-08-06","2026-08-09"],
+        ["FedEx St. Jude Championship","2026-08-13","2026-08-16"],
+        ["BMW Championship","2026-08-20","2026-08-23"],
+        ["TOUR Championship","2026-08-27","2026-08-30"],
+        ["Biltmore Championship Asheville","2026-09-17","2026-09-20"],
+        ["Bank of Utah Championship","2026-10-01","2026-10-04"],
+        ["Baycurrent Classic","2026-10-08","2026-10-11"],
+        ["Butterfield Bermuda Championship","2026-10-22","2026-10-26"],
+        ["VidantaWorld Mexico Open","2026-10-29","2026-11-01"],
+        ["World Wide Technology Championship","2026-11-05","2026-11-08"],
+        ["Austin Championship","2026-11-12","2026-11-15"],
+        ["The RSM Classic","2026-11-19","2026-11-22"],
+        ["Hero World Challenge","2026-12-03","2026-12-06"],
+    ];
+    function hubScheduleFromRows(rows) {
+        return rows.map(([event, date_start, date_end]) => ({
+            event,
+            course: hubCourseForOfficialEvent(event),
+            date_start,
+            date_end,
+        })).filter(e => e.event && e.date_start && e.date_end);
+    }
+    function hubEventsFromEspn(data) {
+        const cal = (((data.leagues || [])[0] || {}).calendar) || [];
+        const skipRe = /presidents cup|q-school|olympics|ryder cup/i;
+        const events = [];
+        cal.forEach(c => {
+            if (!c || !c.label || skipRe.test(c.label)) return;
+            const date_start = hubIsoDay(c.startDate);
+            const date_end = hubIsoDay(c.endDate);
+            if (!date_start || !date_end) return;
+            events.push({
+                event: String(c.label).trim(),
+                course: hubCourseForOfficialEvent(c.label),
+                date_start,
+                date_end,
+            });
+        });
+        events.sort((a, b) => a.date_start < b.date_start ? -1 : a.date_start > b.date_start ? 1 : 0);
+        const live = (data.events || []).map(ev => ({
+            name: ev.name || ev.shortName || "",
+            completed: !!(((ev.status || {}).type || {}).completed),
+            state: (((ev.status || {}).type || {}).state) || "",
+        }));
+        return { events, live };
+    }
+    function hubPickWeekFromSchedule(events, live, now) {
+        now = now || new Date();
+        const today = hubLocalDayStr(now);
+        const hour = now.getHours();
+        const isFinal = (e) => (live || []).some(l => l.name && hubEventsClose(l.name, e.event) && (l.completed || l.state === "post"));
+        const ended = (e) => {
+            if (today > e.date_end) return true;
+            if (today < e.date_end) return false;
+            // Final day: stay on the event through the round, then roll at 6pm
+            // local (or immediately if the scoreboard already says final).
+            if (isFinal(e)) return true;
+            return hour >= 18;
+        };
+        let idx = events.findIndex(e => !ended(e));
+        if (idx < 0) return { current: null, upcoming: null, events };
+        return { current: events[idx] || null, upcoming: events[idx + 1] || null, events };
+    }
+    /** This week follows the PGA calendar, not the preview sheet (which kept picking Wyndham). */
+    async function hubLoadOfficialWeek() {
+        const events = hubScheduleFromRows(HUB_PGA_2026);
+        const picked = hubPickWeekFromSchedule(events, []);
+        console.log("[hub] schedule source built-in this week", picked.current && picked.current.event, "next", picked.upcoming && picked.upcoming.event);
+        return picked;
+    }
+    function hubRowsFromSalaries(salRows, off) {
+        const out = [];
+        (salRows || []).forEach(r => {
+            const nameEv = String(r.tournament || r.Tournament || r.event_name || "");
+            if (!nameEv || !hubEventsClose(nameEv, off.event)) return;
+            const name = r.player_name || r.Player || r.name || r.Name || "";
+            if (!name) return;
+            out.push({
+                player_name: name,
+                name_adjusted: r.name_adjusted || name,
+                event_name: off.event,
+                course_name: off.course || "",
+                salary: r.salary,
+                date_start: off.date_start,
+                date_end: off.date_end,
+                tour: "pga",
+            });
+        });
+        return out;
     }
     function hubCurrentEventEnded(rfRows, fieldRows) {
         const end = hubPackEndDate(rfRows, fieldRows);
@@ -10109,8 +10320,9 @@ function setEventScope(scope) {
                 safeLoad("dk_salaries", `${DATA_BASE}/dk_salaries.csv`),
                 safeLoad("betting_odds", `${DATA_BASE}/betting_odds.csv`),
                 safeLoad("fantasy_points", `${DATA_BASE}/fantasy_points.csv`),
-                // Upcoming event pack (same shape as current — optional until pipeline writes them)
-                safeLoad("recent_form_upcoming", `${DATA_BASE}/recent_form_upcoming.csv`),
+                // recent_form_upcoming.csv is often unpublished. Don't request it
+                // (a 404 still logs in the browser). The PGA calendar picks the week.
+                Promise.resolve([]),
                 safeLoad("cheat_sheet_upcoming", `${DATA_BASE}/cheat_sheet_upcoming.csv`),
                 safeLoad("specialist_board_upcoming", `${DATA_BASE}/specialist_board_upcoming.csv`),
                 safeLoad("upcoming_field", `${DATA_BASE}/upcoming_field.csv`),
@@ -10188,45 +10400,7 @@ function setEventScope(scope) {
             if (!upField.length) upField = upFieldAll.slice();
 
             const curEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || "").trim();
-            // Monday flip: if published "current" event already ended, roll to the next
-            // preview tournament (e.g. St. Jude ended Sunday → BMW at Bellerive).
-            try {
-                if (hubCurrentEventEnded(rfRows, upField) && previewRows.length) {
-                    const next = hubPickNextPreviewEvent(previewRows);
-                    if (next && next.event && !hubEventsClose(next.event, curEvent)) {
-                        console.log("[hub] calendar roll", curEvent, "→", next.event, next.course);
-                        hubStampRowsToEvent(rfRows, next);
-                        hubStampRowsToEvent(cheatRowsPre, next);
-                        hubStripStaleCourseHistory(cheatRowsPre);
-                        const fallbackNames = hubFallbackFieldForEvent(next.event);
-                        if (fallbackNames) {
-                            const nRf = (rfRows || []).length;
-                            const nCh = (cheatRowsPre || []).length;
-                            rfRows = hubFilterRowsToNames(rfRows, fallbackNames);
-                            cheatRowsPre = hubFilterRowsToNames(cheatRowsPre, fallbackNames);
-                            console.log("[hub] filtered stale field", nRf, "→", (rfRows || []).length, "cheat", nCh, "→", (cheatRowsPre || []).length);
-                        }
-                        specialistBoardRows = [];
-                        window._hubCalendarRolled = true;
-                        window._hubModelPartial = true;
-                        window._hubModelPartialNote = next.event + " at " + (next.course || "this week's course")
-                            + " — official field / salaries / cheat sheet not published yet. Using last week's field on this week's course; Course History rebuilds from logs.";
-                        currentCourseName = next.course || currentCourseName;
-                        window.previewCourseName = next.course || "";
-                        window._eventPacks.current = {
-                            recentForm: rfRows || [],
-                            cheat: cheatRowsPre || [],
-                            specialist: [],
-                            propsSpecialist: propsSpecRows || [],
-                            propsSpecialistBaselines: propsSpecBaselines || null,
-                            logsUrl: `${DATA_BASE}/field_player_logs.csv`,
-                            label: [next.event, next.course].filter(Boolean).join(" · "),
-                            calendarRolled: true,
-                            partial: true,
-                        };
-                    }
-                }
-            } catch (e) { console.warn("[hub] calendar roll failed", e); }
+            // Official PGA schedule (below) decides this week. Do not rename the field from the preview sheet.
             const liveEvent = String((rfRows && rfRows[0] && rfRows[0].event_name) || curEvent).trim();
             if (window._hubCalendarRolled) {
                 const staleField = String((upField[0] && upField[0].event_name) || "").trim();
@@ -10346,6 +10520,75 @@ function setEventScope(scope) {
                     bootScope = "current";
                 }
             } catch (e) { console.warn("[hub] auto-promote failed", e); }
+
+            let official = null;
+            try { official = await hubLoadOfficialWeek(); }
+            catch (e) { console.warn("[hub] official PGA schedule failed", e); }
+            window._hubOfficialWeek = official;
+            if (official && official.current && official.current.event) {
+                const off = official.current;
+                const packEv = String((window._eventPacks.current.recentForm[0] && window._eventPacks.current.recentForm[0].event_name) || curEvent || "").trim();
+                const aligned = !!(packEv && hubEventsClose(packEv, off.event));
+                console.log("[hub] official week", off.event, off.date_start, "→", off.date_end, "csv", packEv, "aligned", aligned);
+                if (!aligned) {
+                    const salHit = hubRowsFromSalaries(salRows || [], off);
+                    const cheat = salHit.length ? synthesizeCheatFromField(salHit, salHit) : [];
+                    window._hubCalendarRolled = true;
+                    window._hubModelPartial = true;
+                    window._hubAwaitingSlate = !salHit.length;
+                    window._hubModelPartialNote = salHit.length
+                        ? (off.event + " salaries are live. Course history and model ranks fill in when the pipeline exports this event.")
+                        : (off.event + " is this week's PGA Tour event"
+                            + (off.course ? " at " + off.course : "")
+                            + ". Published files are still on " + (packEv || "last week")
+                            + " — those players are hidden so the hub cannot sit on the wrong tournament.");
+                    currentCourseName = off.course || "";
+                    window.previewCourseName = off.course || "";
+                    window._eventPacks.current = {
+                        recentForm: salHit,
+                        cheat: cheat,
+                        specialist: [],
+                        propsSpecialist: [],
+                        propsSpecialistBaselines: (window._eventPacks.current && window._eventPacks.current.propsSpecialistBaselines) || null,
+                        logsUrl: `${DATA_BASE}/field_player_logs.csv`,
+                        label: [off.event, off.course].filter(Boolean).join(" · "),
+                        calendarRolled: true,
+                        partial: true,
+                        officialEvent: off.event,
+                        officialCourse: off.course || "",
+                        dateStart: off.date_start || "",
+                    };
+                } else {
+                    window._eventPacks.current.officialEvent = off.event;
+                    window._eventPacks.current.officialCourse = off.course || "";
+                    if (off.course) {
+                        const crs0 = (window._eventPacks.current.recentForm[0] && window._eventPacks.current.recentForm[0].course_name) || "";
+                        if (!crs0) {
+                            window._eventPacks.current.recentForm.forEach(r => { r.course_name = off.course; });
+                            (window._eventPacks.current.cheat || []).forEach(r => { if (!r.course_name) r.course_name = off.course; });
+                        }
+                    }
+                    window._eventPacks.current.label = packLabelFromRows(
+                        window._eventPacks.current.recentForm,
+                        [off.event, off.course].filter(Boolean).join(" · ")
+                    );
+                }
+                if (official.upcoming && official.upcoming.event) {
+                    const up = window._eventPacks.upcoming || {};
+                    const upEv = String((up.recentForm && up.recentForm[0] && up.recentForm[0].event_name) || "").trim();
+                    if (!(up.ready && upEv && hubEventsClose(upEv, official.upcoming.event))) {
+                        window._eventPacks.upcoming = {
+                            recentForm: [],
+                            cheat: [],
+                            specialist: [],
+                            ready: false,
+                            label: [official.upcoming.event, official.upcoming.course].filter(Boolean).join(" · "),
+                            reason: official.upcoming.event + " is next on the PGA Tour schedule. That field is not published yet.",
+                        };
+                    }
+                }
+                try { updateEventScopeButtons(); } catch (e) {}
+            }
 
             applyEventPack(bootScope, { skipRender: true });
 
@@ -10941,10 +11184,18 @@ function setEventScope(scope) {
                 }
             } else {
                 // Still booting — show loader, not a scary empty error
-                const booting = !window._hubBootDone;
+                const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+                const booting = !window._hubBootDone && !off;
                 if (booting) {
                     bar.className = "px-4 py-2 text-sm border-b border-sky-100 bg-sky-50 text-sky-900";
                     bar.innerHTML = `<span class="inline-flex items-center gap-2"><span class="inline-block w-3.5 h-3.5 border-2 border-sky-300 border-t-sky-600 rounded-full animate-spin"></span> Loading field data…</span>`;
+                } else if (off) {
+                    const name = String(off.event || "This week").replace(/</g, "");
+                    const crs = off.course ? " · " + String(off.course).replace(/</g, "") : "";
+                    bar.className = "px-3 sm:px-4 py-2 text-xs border-b border-sky-200 bg-sky-50 text-sky-950";
+                    bar.innerHTML = `<span class="font-semibold">${name}</span><span>${crs}</span>
+                        <span class="text-sky-900/80"> is this week's PGA Tour event. Salaries and the cheat sheet attach when that slate is published. Last week's tournament is not shown in its place.</span>`;
+                    bar.classList.remove("hidden");
                 } else {
                     bar.className = "px-4 py-2 text-sm border-b border-amber-200 bg-amber-50 text-amber-900";
                     bar.innerHTML = `Field data is still loading. Pull to refresh or try again in a moment.`;
@@ -23812,9 +24063,12 @@ function getCutStreakFromLogs(playerName) {
             }
             const sub = document.getElementById("cheat-subtitle");
             if (sub) {
-                const head = liveE
-                    ? (liveE + (liveC ? " · " + liveC : ""))
-                    : (liveC || currentCourseName || "Event");
+                const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+                const evShow = liveE || (off && off.event) || "";
+                const crsShow = liveC || (off && off.course) || currentCourseName || "";
+                const head = evShow
+                    ? (evShow + (crsShow ? " · " + crsShow : ""))
+                    : (crsShow || "Event");
                 const salNote = (dkSalaries && dkSalaries.length && typeof dkHasLiveEventSlate === "function" && !dkHasLiveEventSlate())
                     ? " · DK salaries not posted yet"
                     : "";
@@ -25386,12 +25640,14 @@ function renderCheatSheet() {
 
         // No rows yet: keep loading UI, don't flash empty error
         if (!(cheatRows || []).length) {
-            if (!window._hubBootDone) {
+            const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+            if (!window._hubBootDone && !off) {
                 tbody.innerHTML = "";
                 return;
             }
             if (loadingEl) loadingEl.classList.add("hidden");
-            tbody.innerHTML = `<tr><td colspan="24" class="px-4 py-10 text-center text-slate-500 text-sm">No players in the field for this event yet.</td></tr>`;
+            const name = off ? String(off.event).replace(/</g, "") : "This week";
+            tbody.innerHTML = `<tr><td colspan="24" class="px-4 py-10 text-center text-slate-600 text-sm"><b>${name}</b> is this week's tournament. The player board publishes when the DraftKings field is exported. Last week's event is not shown in its place.</td></tr>`;
             return;
         }
         if (loadingEl) loadingEl.classList.add("hidden");
