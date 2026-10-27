@@ -1,214 +1,160 @@
 {
-  "course_name": "Port Royal Golf Course",
-  "event_name": "Butterfield Bermuda Championship",
-  "trait_sig": "DESIGNER:PETE DYE | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:NORMAL | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:87.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "Vidanta Vallarta",
+  "event_name": "VidantaWorld Mexico Open",
+  "trait_sig": "DESIGNER:Greg Norman | STYLE:SEASIDE | GREENS:PASPALUM | FAIRWAYS:PASPALUM | LENGTH:LONG | PAR:71.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:WIDE | GREEN WIDTH:WIDE | GREEN SPEEDS:11.5 | GREEN SPEEDS.1:NORMAL | WATER HAZARDS:8.0 | LOCATION:Mexico | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "PETE DYE",
-      "count": 2027,
+      "value": "Greg Norman",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "style",
       "label": "STYLE",
-      "value": "PARKLAND",
-      "count": 4857,
+      "value": "SEASIDE",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "greens",
       "label": "GREENS",
-      "value": "BERMUDA",
-      "count": 5090,
+      "value": "PASPALUM",
+      "count": 402,
       "green": true,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "greens_2",
-      "label": "GREENS (2)",
-      "value": "POA",
-      "count": 3225,
-      "green": true,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
-      "value": "BERMUDA",
-      "count": 5389,
+      "value": "PASPALUM",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 5776,
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "par",
       "label": "PAR",
-      "value": "72.0",
-      "count": 7621,
+      "value": "71.0",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 5641,
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 4467,
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 11464,
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
-      "value": "SMALL",
-      "count": 6127,
+      "value": "WIDE",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
-      "value": "SMALL",
-      "count": 12152,
+      "value": "WIDE",
+      "count": 402,
       "green": true,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
-      "value": "12.0",
-      "count": 1764,
+      "value": "11.5",
+      "count": 402,
       "green": true,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 3096,
+      "count": 402,
       "green": true,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "rough_length",
-      "label": "ROUGH LENGTH",
-      "value": "NORMAL",
-      "count": 5489,
-      "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "1.0",
-      "count": 2557,
+      "value": "8.0",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "rough_amount",
-      "label": "ROUGH AMOUNT",
-      "value": "NORMAL",
-      "count": 4631,
-      "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "bunkers",
-      "label": "BUNKERS",
-      "value": "87.0",
-      "count": 1011,
-      "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "CALIFORNIA",
-      "count": 2396,
+      "value": "Mexico",
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "redesigned",
-      "label": "Redesigned",
-      "value": "JACK NICKLAUS",
-      "count": 1228,
-      "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
-    },
-    {
-      "key": "drainage",
-      "label": "DRAINAGE",
-      "value": "GOOD",
-      "count": 7414,
-      "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 11929,
+      "count": 402,
       "green": false,
-      "course_name": "Port Royal Golf Course",
-      "event_name": "Butterfield Bermuda Championship"
+      "course_name": "Vidanta Vallarta",
+      "event_name": "VidantaWorld Mexico Open"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8654,
-    "strokes": 70.1672,
-    "bogeys": 2.3616,
-    "pars": 11.1817,
-    "fw_pct": 60.9334,
-    "gir_pct": 66.9997,
+    "birdies_plus": 3.8444,
+    "strokes": 70.1941,
+    "bogeys": 2.3664,
+    "pars": 11.3437,
+    "fw_pct": 60.9943,
+    "gir_pct": 65.8364,
     "n_rounds_sample": 8000,
     "window": "24"
   },
