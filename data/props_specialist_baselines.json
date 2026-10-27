@@ -1,13 +1,13 @@
 {
   "course_name": "Port Royal Golf Course",
   "event_name": "Butterfield Bermuda Championship",
-  "trait_sig": "DESIGNER:PETE DYE | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:11.0 | GREEN SPEEDS.1:SLOW | ROUGH LENGTH:NORMAL | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:87.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "trait_sig": "DESIGNER:PETE DYE | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:LONG | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:NORMAL | WATER HAZARDS:1.0 | ROUGH AMOUNT:NORMAL | BUNKERS:87.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
       "value": "PETE DYE",
-      "count": 2152,
+      "count": 2027,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 4830,
+      "count": 4857,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -25,7 +25,7 @@
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 5030,
+      "count": 5090,
       "green": true,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -34,7 +34,7 @@
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "POA",
-      "count": 3513,
+      "count": 3225,
       "green": true,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 5377,
+      "count": 5389,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 5925,
+      "count": 5776,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "72.0",
-      "count": 8093,
+      "count": 7621,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -70,7 +70,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 5934,
+      "count": 5641,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -79,7 +79,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 4677,
+      "count": 4467,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 12161,
+      "count": 11464,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -97,7 +97,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "SMALL",
-      "count": 5799,
+      "count": 6127,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 12142,
+      "count": 12152,
       "green": true,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -114,8 +114,8 @@
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
-      "value": "11.0",
-      "count": 1921,
+      "value": "12.0",
+      "count": 1764,
       "green": true,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -123,8 +123,8 @@
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
-      "value": "SLOW",
-      "count": 3107,
+      "value": "NORMAL",
+      "count": 3096,
       "green": true,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -133,7 +133,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "NORMAL",
-      "count": 5627,
+      "count": 5489,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -142,7 +142,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "1.0",
-      "count": 2649,
+      "count": 2557,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -151,7 +151,7 @@
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 4787,
+      "count": 4631,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -160,7 +160,7 @@
       "key": "bunkers",
       "label": "BUNKERS",
       "value": "87.0",
-      "count": 1133,
+      "count": 1011,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -169,7 +169,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "CALIFORNIA",
-      "count": 2553,
+      "count": 2396,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -178,7 +178,7 @@
       "key": "redesigned",
       "label": "Redesigned",
       "value": "JACK NICKLAUS",
-      "count": 1236,
+      "count": 1228,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -187,7 +187,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 7526,
+      "count": 7414,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 12045,
+      "count": 11929,
       "green": false,
       "course_name": "Port Royal Golf Course",
       "event_name": "Butterfield Bermuda Championship"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.7764,
-    "strokes": 70.4557,
-    "bogeys": 2.3841,
-    "pars": 11.3812,
-    "fw_pct": 61.3903,
-    "gir_pct": 66.6655,
+    "birdies_plus": 3.8654,
+    "strokes": 70.1672,
+    "bogeys": 2.3616,
+    "pars": 11.1817,
+    "fw_pct": 60.9334,
+    "gir_pct": 66.9997,
     "n_rounds_sample": 8000,
     "window": "24"
   },

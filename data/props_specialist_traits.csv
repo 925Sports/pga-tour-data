@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,PETE DYE,2152,False,Port Royal Golf Course,Butterfield Bermuda Championship
-style,STYLE,PARKLAND,4830,False,Port Royal Golf Course,Butterfield Bermuda Championship
-greens,GREENS,BERMUDA,5030,True,Port Royal Golf Course,Butterfield Bermuda Championship
-greens_2,GREENS (2),POA,3513,True,Port Royal Golf Course,Butterfield Bermuda Championship
-fairways,FAIRWAYS,BERMUDA,5377,False,Port Royal Golf Course,Butterfield Bermuda Championship
-length,LENGTH,LONG,5925,False,Port Royal Golf Course,Butterfield Bermuda Championship
-par,PAR,72.0,8093,False,Port Royal Golf Course,Butterfield Bermuda Championship
-scoring,SCORING,NORMAL,5934,False,Port Royal Golf Course,Butterfield Bermuda Championship
-weather,WEATHER,FAIR,4677,False,Port Royal Golf Course,Butterfield Bermuda Championship
-type,TYPE,FULL,12161,False,Port Royal Golf Course,Butterfield Bermuda Championship
-fairway_width,FAIRWAY WIDTH,SMALL,5799,False,Port Royal Golf Course,Butterfield Bermuda Championship
-green_width,GREEN WIDTH,SMALL,12142,True,Port Royal Golf Course,Butterfield Bermuda Championship
-green_speeds,GREEN SPEEDS,11.0,1921,True,Port Royal Golf Course,Butterfield Bermuda Championship
-green_speeds_1,GREEN SPEEDS.1,SLOW,3107,True,Port Royal Golf Course,Butterfield Bermuda Championship
-rough_length,ROUGH LENGTH,NORMAL,5627,False,Port Royal Golf Course,Butterfield Bermuda Championship
-water_hazards,WATER HAZARDS,1.0,2649,False,Port Royal Golf Course,Butterfield Bermuda Championship
-rough_amount,ROUGH AMOUNT,NORMAL,4787,False,Port Royal Golf Course,Butterfield Bermuda Championship
-bunkers,BUNKERS,87.0,1133,False,Port Royal Golf Course,Butterfield Bermuda Championship
-location,LOCATION,CALIFORNIA,2553,False,Port Royal Golf Course,Butterfield Bermuda Championship
-redesigned,Redesigned,JACK NICKLAUS,1236,False,Port Royal Golf Course,Butterfield Bermuda Championship
-drainage,DRAINAGE,GOOD,7526,False,Port Royal Golf Course,Butterfield Bermuda Championship
-rain,RAIN,NO,12045,False,Port Royal Golf Course,Butterfield Bermuda Championship
+designer,DESIGNER,PETE DYE,2027,False,Port Royal Golf Course,Butterfield Bermuda Championship
+style,STYLE,PARKLAND,4857,False,Port Royal Golf Course,Butterfield Bermuda Championship
+greens,GREENS,BERMUDA,5090,True,Port Royal Golf Course,Butterfield Bermuda Championship
+greens_2,GREENS (2),POA,3225,True,Port Royal Golf Course,Butterfield Bermuda Championship
+fairways,FAIRWAYS,BERMUDA,5389,False,Port Royal Golf Course,Butterfield Bermuda Championship
+length,LENGTH,LONG,5776,False,Port Royal Golf Course,Butterfield Bermuda Championship
+par,PAR,72.0,7621,False,Port Royal Golf Course,Butterfield Bermuda Championship
+scoring,SCORING,NORMAL,5641,False,Port Royal Golf Course,Butterfield Bermuda Championship
+weather,WEATHER,FAIR,4467,False,Port Royal Golf Course,Butterfield Bermuda Championship
+type,TYPE,FULL,11464,False,Port Royal Golf Course,Butterfield Bermuda Championship
+fairway_width,FAIRWAY WIDTH,SMALL,6127,False,Port Royal Golf Course,Butterfield Bermuda Championship
+green_width,GREEN WIDTH,SMALL,12152,True,Port Royal Golf Course,Butterfield Bermuda Championship
+green_speeds,GREEN SPEEDS,12.0,1764,True,Port Royal Golf Course,Butterfield Bermuda Championship
+green_speeds_1,GREEN SPEEDS.1,NORMAL,3096,True,Port Royal Golf Course,Butterfield Bermuda Championship
+rough_length,ROUGH LENGTH,NORMAL,5489,False,Port Royal Golf Course,Butterfield Bermuda Championship
+water_hazards,WATER HAZARDS,1.0,2557,False,Port Royal Golf Course,Butterfield Bermuda Championship
+rough_amount,ROUGH AMOUNT,NORMAL,4631,False,Port Royal Golf Course,Butterfield Bermuda Championship
+bunkers,BUNKERS,87.0,1011,False,Port Royal Golf Course,Butterfield Bermuda Championship
+location,LOCATION,CALIFORNIA,2396,False,Port Royal Golf Course,Butterfield Bermuda Championship
+redesigned,Redesigned,JACK NICKLAUS,1228,False,Port Royal Golf Course,Butterfield Bermuda Championship
+drainage,DRAINAGE,GOOD,7414,False,Port Royal Golf Course,Butterfield Bermuda Championship
+rain,RAIN,NO,11929,False,Port Royal Golf Course,Butterfield Bermuda Championship
