@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-10-26-official-week -->
+<!-- 925-HUB-VERSION: 2026-10-26-wx-coords -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -3646,6 +3646,7 @@ function switchFantasySubTab(sub) {
     let weatherRows = [];
     let weatherMeta = { title: "", location: "", updated: "" };
     let _weatherLoading = null;
+    let _weatherReloadQueued = false;
 
     function parseWeatherCsvText(csvText) {
         const parsed = (typeof Papa !== "undefined")
@@ -3906,7 +3907,65 @@ function switchFantasySubTab(sub) {
         return dirs[Math.round(((d % 360) / 22.5)) % 16];
     }
 
-    async function geocodeCourseForWeather(courseName) {
+    function hubPreviewForecastPoint(courseName, eventName) {
+        const rows = [];
+        if (window._previewRows && window._previewRows.length) rows.push.apply(rows, window._previewRows);
+        if (typeof preTournamentPreview !== "undefined" && preTournamentPreview) rows.push(preTournamentPreview);
+        if (!rows.length) return null;
+        let event = String(eventName || "").trim();
+        let course = String(courseName || "").trim();
+        try {
+            const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+            if (off) {
+                if (!event) event = String(off.event || "").trim();
+                if (!course) course = String(off.course || course).trim();
+            }
+        } catch (e) {}
+        if (!event || !course) {
+            try {
+                const live = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : null;
+                if (live) {
+                    if (!event) event = String(live.event || "").trim();
+                    if (!course) course = String(live.course || "").trim();
+                }
+            } catch (e) {}
+        }
+        const latKeys = ["Latitude Tournament", "LATITUDE TOURNAMENT", "Tournament Latitude", "latitude_tournament", "LAT TOURNAMENT"];
+        const lonKeys = ["Longitude Tournament", "LONGITUDE TOURNAMENT", "Tournament Longitude", "longitude_tournament", "LON TOURNAMENT"];
+        let best = null;
+        rows.forEach(row => {
+            if (!row) return;
+            const pvTourn = pickField(row, ["TOURNAMENT", "Tournament", "EVENT", "Event"]);
+            const pvCourse = pickField(row, ["COURSE NAME", "Course Name", "COURSE", "Course"]);
+            const pvLoc = pickField(row, ["LOCATION", "Location"]);
+            let score = 0;
+            try {
+                if (event && typeof hubEventsClose === "function" && hubEventsClose(pvTourn, event)) score += 4;
+            } catch (e) {}
+            try {
+                if (course && typeof hubCoursesClose === "function" && hubCoursesClose(pvCourse, course)) score += 4;
+            } catch (e) {}
+            const blob = (String(pvTourn) + " " + String(pvCourse)).toLowerCase();
+            const want = (event + " " + course).toLowerCase();
+            if (want && blob) {
+                const toks = want.split(/[^a-z0-9]+/).filter(t => t.length > 4);
+                toks.forEach(t => { if (blob.includes(t)) score += 1; });
+            }
+            if (score < 2) return;
+            const lat = parseLatLon(pickField(row, latKeys));
+            const lon = parseLatLon(pickField(row, lonKeys));
+            if (lat == null || lon == null || isNaN(lat) || isNaN(lon)) return;
+            if (Math.abs(lat) > 90 || Math.abs(lon) > 180) return;
+            const label = [pvCourse, pvLoc].filter(Boolean).join(", ") || course || event;
+            if (!best || score > best.score) best = { lat, lon, label, score, source: "preview-coords" };
+        });
+        return best;
+    }
+
+    async function geocodeCourseForWeather(courseName, eventName) {
+        // Sheet pin wins. "Vidanta Vallarta" is not a town, and the name search can hang.
+        const pinned = hubPreviewForecastPoint(courseName, eventName);
+        if (pinned) return pinned;
         const known = knownCourseForecastPoint(courseName);
         if (known) return known;
         const stop = /\b(golf|club|country|course|the|links|national|cc|gc)\b/gi;
@@ -3914,27 +3973,43 @@ function switchFantasySubTab(sub) {
         const queries = [courseName, stripped].filter((q, i, a) => q && q.length > 3 && a.indexOf(q) === i);
         for (const q of queries) {
             const url = "https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(q) + "&count=5&language=en&format=json";
-            const d = await fetch(url).then(r => r.json());
-            const results = d.results || [];
+            let d = null;
+            try {
+                const ctrl = new AbortController();
+                const timer = setTimeout(() => ctrl.abort(), 4000);
+                d = await fetch(url, { signal: ctrl.signal }).then(r => r.json());
+                clearTimeout(timer);
+            } catch (e) {
+                d = null;
+            }
+            const results = (d && d.results) || [];
             const hit = results.find(r => r.country_code === "US") || results[0];
             if (hit && hit.latitude != null) {
                 return {
                     lat: hit.latitude,
                     lon: hit.longitude,
                     label: [hit.name, hit.admin1].filter(Boolean).join(", "),
+                    source: "geocode",
                 };
             }
         }
         return null;
     }
 
-    async function fetchLiveCourseForecast(courseName) {
-        const geo = await geocodeCourseForWeather(courseName);
+    async function fetchLiveCourseForecast(courseName, eventName) {
+        const geo = await geocodeCourseForWeather(courseName, eventName);
         if (!geo) return null;
         const url = "https://api.open-meteo.com/v1/forecast?latitude=" + geo.lat + "&longitude=" + geo.lon
             + "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,relative_humidity_2m"
             + "&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=auto&forecast_days=10";
-        const fx = await fetch(url).then(r => r.json());
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), 8000);
+        let fx;
+        try {
+            fx = await fetch(url, { signal: ctrl.signal }).then(r => r.json());
+        } finally {
+            clearTimeout(timer);
+        }
         const h = fx.hourly || {};
         const times = h.time || [];
         const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -3967,11 +4042,24 @@ function switchFantasySubTab(sub) {
                 humidity: h.relative_humidity_2m ? h.relative_humidity_2m[i] : null,
             });
         }
-        return { rows, location: geo.label || courseName };
+        return { rows, location: geo.label || courseName, source: geo.source || "geocode" };
+    }
+
+    function hubSyncWeatherToCourse() {
+        const course = (typeof hubPublishedCourse === "function" && hubPublishedCourse())
+            || currentCourseName
+            || "";
+        if (!course || typeof loadAndRenderWeather !== "function") return;
+        const loc = (weatherMeta && weatherMeta.location) || "";
+        if (loc && weatherLocationMatchesCourse(loc, course)) return;
+        loadAndRenderWeather(true);
     }
 
     function loadAndRenderWeather(force) {
-        if (_weatherLoading && !force) return _weatherLoading;
+        if (_weatherLoading) {
+            if (force) _weatherReloadQueued = true;
+            return _weatherLoading;
+        }
         const metaEl = document.getElementById("weather-meta");
         if (metaEl && force) metaEl.textContent = "Refreshing…";
 
@@ -3987,19 +4075,31 @@ function switchFantasySubTab(sub) {
                 const course = (typeof hubPublishedCourse === "function" && hubPublishedCourse())
                     || currentCourseName
                     || "";
+                let eventName = "";
+                try {
+                    const off = window._hubOfficialWeek && window._hubOfficialWeek.current;
+                    if (off && off.event) eventName = off.event;
+                } catch (e) {}
+                if (!eventName) {
+                    eventName = (allPlayers && allPlayers[0] && allPlayers[0].event_name)
+                        || (typeof prebuiltCheat !== "undefined" && prebuiltCheat[0] && prebuiltCheat[0].event_name)
+                        || "";
+                }
                 const matches = weatherLocationMatchesCourse(weatherMeta.location, course);
+                console.log("[hub] weather compare", course || "(no course)", "vs", weatherMeta.location, "match", matches, "previewRows", (window._previewRows || []).length);
                 if (course && !matches) {
                     try {
-                        const live = await fetchLiveCourseForecast(course);
+                        const live = await fetchLiveCourseForecast(course, eventName);
                         if (live && live.rows && live.rows.length) {
                             const sheetLoc = weatherMeta.location || "weather sheet";
                             weatherRows = live.rows;
+                            const via = live.source === "preview-coords" ? "preview coordinates" : "this week's course";
                             weatherMeta = {
                                 title: course,
                                 location: live.location || course,
-                                updated: "Live forecast for this week's course (sheet was " + sheetLoc + ")",
+                                updated: "Live forecast from " + via + " (sheet was " + sheetLoc + ")",
                             };
-                            console.log("[hub] weather retargeted", sheetLoc, "→", weatherMeta.location, weatherRows.length);
+                            console.log("[hub] weather retargeted", sheetLoc, "→", weatherMeta.location, live.source || "", weatherRows.length);
                         } else if (weatherMeta.location) {
                             weatherMeta.location = weatherMeta.location + " — not this week's course (" + course + ")";
                         }
@@ -4020,7 +4120,13 @@ function switchFantasySubTab(sub) {
                 renderWeatherPanel(); try { renderCheatSheetWeather(); } catch (e) {}
                 return [];
             })
-            .finally(() => { _weatherLoading = null; });
+            .finally(() => {
+                _weatherLoading = null;
+                if (_weatherReloadQueued) {
+                    _weatherReloadQueued = false;
+                    loadAndRenderWeather(true);
+                }
+            });
         return _weatherLoading;
     }
 
@@ -4477,6 +4583,7 @@ function switchFantasySubTab(sub) {
             catch (_) { txt = await tryUrl(PREVIEW_GOOGLE); }
             const parsed = Papa.parse(txt, { header: true, skipEmptyLines: true });
             const rows = (parsed.data || []).filter(r => Object.values(r).some(v => String(v||"").trim()));
+            window._previewRows = rows;
             // Prefer this week's published course/event (cheat sheet) over stale Recent Form
             let row = null;
             const liveId = (typeof hubLiveWeekIdentity === "function") ? hubLiveWeekIdentity() : { event: "", course: "" };
@@ -4517,6 +4624,7 @@ function switchFantasySubTab(sub) {
             }
             if (row) applyPreviewRow(row);
             else console.log("[hub] no matching pre_tournament_preview row for", ev || crs);
+            try { hubSyncWeatherToCourse(); } catch (e) {}
             return row;
         } catch (e) {
             console.warn("pre tournament preview", e);
