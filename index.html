@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 925-HUB-VERSION: 2026-10-26-wx-coords -->
+<!-- 925-HUB-VERSION: 2026-10-26-wx-coords-2 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -3848,9 +3848,12 @@ function switchFantasySubTab(sub) {
     }
 
     function weatherLocationMatchesCourse(location, course) {
-        const loc = String(location || "").trim();
+        let loc = String(location || "").trim();
         const crs = String(course || "").trim();
         if (!loc || !crs) return false;
+        // A failure note still contains the right course name. That is not a match.
+        if (/not this week's course/i.test(loc)) return false;
+        loc = loc.split("—")[0].trim();
         try {
             if (typeof hubCoursesClose === "function" && hubCoursesClose(loc, crs)) return true;
         } catch (e) {}
@@ -4002,14 +4005,10 @@ function switchFantasySubTab(sub) {
         const url = "https://api.open-meteo.com/v1/forecast?latitude=" + geo.lat + "&longitude=" + geo.lon
             + "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,relative_humidity_2m"
             + "&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=auto&forecast_days=10";
-        const ctrl = new AbortController();
-        const timer = setTimeout(() => ctrl.abort(), 8000);
-        let fx;
-        try {
-            fx = await fetch(url, { signal: ctrl.signal }).then(r => r.json());
-        } finally {
-            clearTimeout(timer);
-        }
+        const fx = await fetch(url).then(r => {
+            if (!r.ok) throw new Error("forecast HTTP " + r.status);
+            return r.json();
+        });
         const h = fx.hourly || {};
         const times = h.time || [];
         const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -4051,6 +4050,13 @@ function switchFantasySubTab(sub) {
             || "";
         if (!course || typeof loadAndRenderWeather !== "function") return;
         const loc = (weatherMeta && weatherMeta.location) || "";
+        const updated = (weatherMeta && weatherMeta.updated) || "";
+        if (/did not load/i.test(updated)) {
+            if (window._wxForecastRetried) return;
+            window._wxForecastRetried = true;
+            loadAndRenderWeather(true);
+            return;
+        }
         if (loc && weatherLocationMatchesCourse(loc, course)) return;
         loadAndRenderWeather(true);
     }
@@ -4097,17 +4103,25 @@ function switchFantasySubTab(sub) {
                             weatherMeta = {
                                 title: course,
                                 location: live.location || course,
-                                updated: "Live forecast from " + via + " (sheet was " + sheetLoc + ")",
+                                updated: "Live forecast from " + via,
                             };
                             console.log("[hub] weather retargeted", sheetLoc, "→", weatherMeta.location, live.source || "", weatherRows.length);
-                        } else if (weatherMeta.location) {
-                            weatherMeta.location = weatherMeta.location + " — not this week's course (" + course + ")";
+                        } else {
+                            weatherRows = [];
+                            weatherMeta = {
+                                title: course,
+                                location: course,
+                                updated: "Forecast for " + course + " did not load. Last week's sheet was hidden.",
+                            };
                         }
                     } catch (e) {
                         console.warn("[hub] live course forecast failed", e);
-                        if (weatherMeta.location) {
-                            weatherMeta.location = weatherMeta.location + " — not this week's course (" + course + ")";
-                        }
+                        weatherRows = [];
+                        weatherMeta = {
+                            title: course,
+                            location: course,
+                            updated: "Forecast for " + course + " did not load. Last week's sheet was hidden.",
+                        };
                     }
                 }
                 console.log("[hub] weather rows:", weatherRows.length, weatherMeta.location);
