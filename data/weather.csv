@@ -1,52 +1,52 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: VidantaWorld | Updated: 10/27/2026, 3:55:18 PM",,,,,,,,,,,
+VidantaWorld Mexico Open – Hourly Weather Forecast,,,,,,,,,,,
+"Location: VidantaWorld | Updated: 10/28/2026, 2:55:18 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Tue Oct 27,12:00 AM,78.4,88.7,49,0,Overcast,2.6,6.7,NE,88,92
-Tue Oct 27,1:00 AM,77.2,86.7,53,0.008,Light Drizzle,1.8,4.3,NE,96,90
-Tue Oct 27,2:00 AM,77.4,87.4,59,0.319,Thunderstorm,1.3,9.6,ESE,88,91
-Tue Oct 27,3:00 AM,77,87.1,68,0.091,Slight Showers,1.8,4.9,ENE,77,94
-Tue Oct 27,4:00 AM,76.7,85.2,78,0.02,Moderate Drizzle,4.8,8.3,NE,91,92
-Tue Oct 27,5:00 AM,75.9,83.4,80,0,Overcast,6,12.1,NE,98,93
-Tue Oct 27,6:00 AM,76,82.5,65,0,Overcast,7.5,12.3,NE,80,90
-Tue Oct 27,7:00 AM,75.3,81.9,42,0,Partly Cloudy,6.3,13.4,NE,76,91
-Tue Oct 27,8:00 AM,75.6,80.8,24,0,Partly Cloudy,8.4,11.2,NE,59,87
-Tue Oct 27,9:00 AM,75.4,80.6,17,0,Overcast,7.4,14.5,NE,80,86
-Tue Oct 27,10:00 AM,76.9,83.1,14,0,Partly Cloudy,6.3,12.8,NNE,67,83
-Tue Oct 27,11:00 AM,80.3,88.3,12,0,Partly Cloudy,4.1,10.7,NE,71,79
-Tue Oct 27,12:00 PM,82.9,92.1,6,0,Overcast,2.1,9.6,ENE,84,73
-Tue Oct 27,1:00 PM,85.1,93.8,0,0,Partly Cloudy,4.2,11.4,SSW,56,69
-Tue Oct 27,2:00 PM,86,94.5,4,0,Partly Cloudy,5.7,14.5,SW,70,64
-Tue Oct 27,3:00 PM,86.7,96.1,27,0,Partly Cloudy,4.9,14.3,SSW,70,63
-Tue Oct 27,4:00 PM,86.3,93,60,0,Overcast,7,15.7,SSW,91,63
-Tue Oct 27,5:00 PM,84.8,91.4,82,0.012,Light Drizzle,8.7,18.1,SSW,86,70
-Tue Oct 27,6:00 PM,83.6,90,84,0.004,Light Drizzle,8.1,18.3,SW,93,72
-Tue Oct 27,7:00 PM,82.5,92.1,76,0.035,Moderate Drizzle,2,16.1,SSE,99,76
-Tue Oct 27,8:00 PM,81.1,90.2,67,0.008,Light Drizzle,4.2,8.7,SE,95,82
-Tue Oct 27,9:00 PM,80,90.6,60,0.004,Light Drizzle,2,7.8,ENE,96,88
-Tue Oct 27,10:00 PM,79.4,89.7,51,0,Overcast,2.2,4,NE,95,88
-Tue Oct 27,11:00 PM,79,88.5,43,0.004,Light Drizzle,3.8,7.2,ENE,88,89
-Wed Oct 28,12:00 AM,77.7,88.6,34,0.028,Moderate Drizzle,1.1,7.4,NE,98,94
-Wed Oct 28,1:00 AM,76.7,85.8,26,0.071,Slight Showers,3.2,5.8,NNW,98,92
-Wed Oct 28,2:00 AM,75.5,83.9,22,0.035,Moderate Drizzle,2.6,6.9,NNW,100,91
-Wed Oct 28,3:00 AM,75.7,84.5,25,0.035,Moderate Drizzle,1.4,4,NNW,99,90
-Wed Oct 28,4:00 AM,75.7,84.7,32,0.043,Dense Drizzle,0.8,2.2,W,100,90
-Wed Oct 28,5:00 AM,75.1,83.6,39,0.071,Slight Showers,1.8,3.8,NNE,100,91
-Wed Oct 28,6:00 AM,75.4,83.9,44,0.051,Slight Showers,2.2,3.8,NE,100,91
-Wed Oct 28,7:00 AM,75.5,83.9,49,0.039,Dense Drizzle,2.6,5.1,NE,100,92
-Wed Oct 28,8:00 AM,75.7,84.7,53,0.071,Slight Showers,2.1,5.1,NE,100,92
-Wed Oct 28,9:00 AM,75.6,84.4,58,0.067,Slight Showers,2.4,6.3,NE,100,93
-Wed Oct 28,10:00 AM,76.3,85.9,62,0.035,Moderate Drizzle,1.3,4.3,E,99,92
-Wed Oct 28,11:00 AM,76.9,86,65,0.004,Light Drizzle,2,5.8,ESE,100,89
-Wed Oct 28,12:00 PM,77.9,86.8,65,0.004,Light Drizzle,2.4,7.2,ESE,99,86
-Wed Oct 28,1:00 PM,79,86.7,64,0,Overcast,4.5,11,SE,99,82
-Wed Oct 28,2:00 PM,79.3,86.8,63,0.004,Light Drizzle,4.6,11.2,SE,99,80
-Wed Oct 28,3:00 PM,80.3,87.1,64,0.008,Light Drizzle,5.5,17.2,SE,99,76
-Wed Oct 28,4:00 PM,79.7,86.7,65,0.008,Light Drizzle,4.7,12.8,SSE,100,77
-Wed Oct 28,5:00 PM,79,85.6,65,0.004,Light Drizzle,5.6,11.9,SE,99,79
-Wed Oct 28,6:00 PM,78.9,85.8,62,0.004,Light Drizzle,5.6,12.5,SE,99,80
-Wed Oct 28,7:00 PM,78.9,85.5,57,0.004,Light Drizzle,5.9,11.6,SSE,98,80
-Wed Oct 28,8:00 PM,78.3,86.1,51,0.004,Light Drizzle,3.3,11.9,SSE,98,82
-Wed Oct 28,9:00 PM,77.4,85.6,45,0.004,Light Drizzle,2.8,6.9,SSE,98,85
-Wed Oct 28,10:00 PM,76.9,85.7,40,0,Overcast,1.8,5.4,SE,96,87
-Wed Oct 28,11:00 PM,77,86.3,33,0,Overcast,0.5,2.9,ENE,98,87
+Wed Oct 28,12:00 AM,76.4,83.6,83,0.024,Moderate Drizzle,7,11.4,NE,66,92
+Wed Oct 28,1:00 AM,76,83.4,69,0,Overcast,5.6,14.1,NE,100,91
+Wed Oct 28,2:00 AM,76.2,84.7,59,0.008,Light Drizzle,3.3,9.6,NE,100,91
+Wed Oct 28,3:00 AM,75.7,83.9,56,0.012,Light Drizzle,3.2,7.2,N,100,91
+Wed Oct 28,4:00 AM,75.7,84.4,57,0.024,Moderate Drizzle,3.3,6.9,ENE,100,94
+Wed Oct 28,5:00 AM,75.5,84,59,0.02,Moderate Drizzle,3.1,6.3,NNE,100,93
+Wed Oct 28,6:00 AM,75.8,84.9,61,0.067,Slight Showers,2.3,5.4,E,100,93
+Wed Oct 28,7:00 AM,75.8,84.4,63,0.043,Dense Drizzle,3.1,4.5,NNE,100,92
+Wed Oct 28,8:00 AM,75.4,83.5,65,0.031,Moderate Drizzle,4.1,8.7,ENE,100,94
+Wed Oct 28,9:00 AM,75.5,84.2,67,0.016,Light Drizzle,2.5,7.6,NE,100,93
+Wed Oct 28,10:00 AM,76.2,86,70,0.012,Light Drizzle,1.1,5.4,ESE,99,93
+Wed Oct 28,11:00 AM,77.2,86.3,71,0,Overcast,2.3,5.1,ESE,100,89
+Wed Oct 28,12:00 PM,77.1,84.9,69,0.012,Light Drizzle,4.7,13.6,ESE,100,88
+Wed Oct 28,1:00 PM,77,86,66,0.035,Moderate Drizzle,2.7,14.8,ENE,100,90
+Wed Oct 28,2:00 PM,77.6,85.9,65,0.004,Light Drizzle,4.1,10.3,SE,99,87
+Wed Oct 28,3:00 PM,78.4,87.4,69,0,Overcast,1.2,10.5,E,99,83
+Wed Oct 28,4:00 PM,79.7,88,75,0,Overcast,3.5,10.1,SSE,99,80
+Wed Oct 28,5:00 PM,79.2,85.1,76,0,Overcast,6.6,14.3,SE,99,77
+Wed Oct 28,6:00 PM,80.2,88.2,69,0,Overcast,3.2,14.1,ENE,98,78
+Wed Oct 28,7:00 PM,81.4,89.1,58,0,Overcast,4.8,9.4,SSE,97,76
+Wed Oct 28,8:00 PM,79.3,86.2,49,0.004,Light Drizzle,5.8,16.1,SSE,93,80
+Wed Oct 28,9:00 PM,78.4,87.8,42,0.004,Light Drizzle,0.6,10.3,ESE,95,83
+Wed Oct 28,10:00 PM,77.5,85.5,37,0,Overcast,2.3,3.8,NE,91,83
+Wed Oct 28,11:00 PM,76.8,85.1,35,0,Partly Cloudy,2.8,5.8,NE,55,87
+Thu Oct 29,12:00 AM,76.3,84.6,38,0,Partly Cloudy,2.7,4.9,ENE,75,89
+Thu Oct 29,1:00 AM,75.7,83.6,44,0.004,Light Drizzle,3.2,5.1,NE,70,89
+Thu Oct 29,2:00 AM,75.4,83,47,0,Overcast,3.4,6.7,NE,83,89
+Thu Oct 29,3:00 AM,75.1,82.6,45,0,Mainly Clear,2.8,6,ENE,34,88
+Thu Oct 29,4:00 AM,74.7,81.9,40,0,Mainly Clear,2.5,5.1,ENE,26,87
+Thu Oct 29,5:00 AM,74.2,80.4,35,0,Mainly Clear,4.3,7.2,NE,26,87
+Thu Oct 29,6:00 AM,73.7,79,30,0,Fog,5,8.7,ENE,36,85
+Thu Oct 29,7:00 AM,73.4,79.5,26,0,Fog,2.6,8.5,ENE,43,85
+Thu Oct 29,8:00 AM,73.3,79.1,22,0,Fog,2.8,4.7,ENE,49,83
+Thu Oct 29,9:00 AM,73,77.3,20,0,Fog,5.9,9.6,NE,63,83
+Thu Oct 29,10:00 AM,74.5,79.6,19,0,Fog,5.2,10.1,NE,66,82
+Thu Oct 29,11:00 AM,78.3,86.4,18,0,Fog,2.8,9.6,ENE,22,82
+Thu Oct 29,12:00 PM,82,90.6,14,0,Clear,0.9,8.1,SW,6,71
+Thu Oct 29,1:00 PM,83.8,93,8,0,Clear,1.8,8.3,NW,6,68
+Thu Oct 29,2:00 PM,87.2,97.5,8,0,Clear,2.2,8.7,S,7,60
+Thu Oct 29,3:00 PM,87.2,96.3,16,0,Clear,6,14.5,SW,14,61
+Thu Oct 29,4:00 PM,87.2,98.6,29,0,Clear,3.2,14.3,W,14,66
+Thu Oct 29,5:00 PM,88.3,98.2,41,0,Clear,5.2,12.8,W,8,65
+Thu Oct 29,6:00 PM,87.7,96.5,50,0,Clear,4.9,12.8,WSW,16,66
+Thu Oct 29,7:00 PM,83.4,91.8,58,0.004,Light Drizzle,5.2,14.8,WSW,55,75
+Thu Oct 29,8:00 PM,81.8,92.3,61,0.024,Moderate Drizzle,3.4,10.5,ENE,9,85
+Thu Oct 29,9:00 PM,80,89.4,55,0,Clear,5.7,9.2,ENE,12,89
+Thu Oct 29,10:00 PM,78.4,86.2,44,0,Clear,7.9,13.4,NE,13,90
+Thu Oct 29,11:00 PM,76.8,83.7,33,0,Clear,7.7,14.1,NE,15,90
