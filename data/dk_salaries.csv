@@ -1,121 +1,61 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Wyndham Clark,10900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44665401,10/29/2026 9:05 AM,2026-10-29T13:34:32.649344Z
-Benjamin James,10200,PGA TOUR,Classic,,765775,44665402,10/29/2026 9:05 AM,2026-10-29T13:34:32.649363Z
-Tom Kim,10100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,44665403,10/29/2026 9:05 AM,2026-10-29T13:34:32.649372Z
-Ben Griffin,9800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,44665404,10/29/2026 9:05 AM,2026-10-29T13:34:32.649380Z
-Marco Penge,9700,PGA TOUR,Classic,,698887,44665405,10/29/2026 9:05 AM,2026-10-29T13:34:32.649387Z
-Johnny Keefer,9500,PGA TOUR,Classic,,814141,44665406,10/29/2026 9:05 AM,2026-10-29T13:34:32.649394Z
-Doug Ghim,9400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44665407,10/29/2026 9:05 AM,2026-10-29T13:34:32.649400Z
-Corey Conners,9300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1038.png,1860,44665408,10/29/2026 9:05 AM,2026-10-29T13:34:32.649410Z
-Max Homa,9200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/946.png,2024,44665409,10/29/2026 9:05 AM,2026-10-29T13:34:32.649417Z
-Harry Hall,9100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44665410,10/29/2026 9:05 AM,2026-10-29T13:34:32.649424Z
-Blades Brown,9000,PGA TOUR,Classic,,795495,44665411,10/29/2026 9:05 AM,2026-10-29T13:34:32.649430Z
-Zachary Bauchou,8900,PGA TOUR,Classic,,689973,44665412,10/29/2026 9:05 AM,2026-10-29T13:34:32.649436Z
-David Ford,8800,PGA TOUR,Classic,,773829,44665413,10/29/2026 9:05 AM,2026-10-29T13:34:32.649441Z
-Neal Shipley,8700,PGA TOUR,Classic,,793366,44665414,10/29/2026 9:05 AM,2026-10-29T13:34:32.649447Z
-Jordan L. Smith,8600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44665415,10/29/2026 9:05 AM,2026-10-29T13:34:32.649459Z
-Jackson Suber,8500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44665416,10/29/2026 9:05 AM,2026-10-29T13:34:32.649464Z
-Rico Hoey,8400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,44665417,10/29/2026 9:05 AM,2026-10-29T13:34:32.649470Z
-Luke Clanton,8300,PGA TOUR,Classic,,796547,44665418,10/29/2026 9:05 AM,2026-10-29T13:34:32.649476Z
-Mac Meissner,8200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44665419,10/29/2026 9:05 AM,2026-10-29T13:34:32.649482Z
-Andrew Novak,8100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/658.png,670403,44665420,10/29/2026 9:05 AM,2026-10-29T13:34:32.649487Z
-Kevin Yu,8000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44665421,10/29/2026 9:05 AM,2026-10-29T13:34:32.649493Z
-Kris Ventura,7900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44665422,10/29/2026 9:05 AM,2026-10-29T13:34:32.649501Z
-Christiaan Bezuidenhout,7900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1115.png,453,44665423,10/29/2026 9:05 AM,2026-10-29T13:34:32.649507Z
-Pierceson Coody,7800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44665424,10/29/2026 9:05 AM,2026-10-29T13:34:32.649512Z
-Trace Crowe,7800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,44665425,10/29/2026 9:05 AM,2026-10-29T13:34:32.649517Z
-Keita Nakajima,7700,PGA TOUR,Classic,,699011,44665426,10/29/2026 9:05 AM,2026-10-29T13:34:32.649522Z
-Rasmus Neergaard-Petersen,7700,PGA TOUR,Classic,,720984,44665427,10/29/2026 9:05 AM,2026-10-29T13:34:32.649528Z
-Steven Fisk,7600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44665428,10/29/2026 9:05 AM,2026-10-29T13:34:32.649533Z
-Denny McCarthy,7600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44665429,10/29/2026 9:05 AM,2026-10-29T13:34:32.649538Z
-Beau Hossler,7600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44665430,10/29/2026 9:05 AM,2026-10-29T13:34:32.649544Z
-Taylor Moore,7500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,44665431,10/29/2026 9:05 AM,2026-10-29T13:34:32.649549Z
-Lee Hodges,7500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,44665432,10/29/2026 9:05 AM,2026-10-29T13:34:32.649554Z
-Rasmus Højgaard,7500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44665433,10/29/2026 9:05 AM,2026-10-29T13:34:32.649563Z
-Kevin Roy,7500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/525542.png,703862,44665434,10/29/2026 9:05 AM,2026-10-29T13:34:32.649569Z
-Billy Horschel,7400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44665435,10/29/2026 9:05 AM,2026-10-29T13:34:32.649575Z
-Mackenzie Hughes,7400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/635.png,552,44665436,10/29/2026 9:05 AM,2026-10-29T13:34:32.649580Z
-Sudarshan Yellamaraju,7400,PGA TOUR,Classic,,772264,44665437,10/29/2026 9:05 AM,2026-10-29T13:34:32.649586Z
-Zac Blair,7400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/614.png,530,44665438,10/29/2026 9:05 AM,2026-10-29T13:34:32.649590Z
-Tony Finau,7300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44665439,10/29/2026 9:05 AM,2026-10-29T13:34:32.649596Z
-Max Greyserman,7300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44665440,10/29/2026 9:05 AM,2026-10-29T13:34:32.649603Z
-Taylor Pendrith,7300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/716.png,1802,44665441,10/29/2026 9:05 AM,2026-10-29T13:34:32.649609Z
-A.J. Ewart,7300,PGA TOUR,Classic,,765420,44665442,10/29/2026 9:05 AM,2026-10-29T13:34:32.649617Z
-Gordon Sargent,7200,PGA TOUR,Classic,,771299,44665443,10/29/2026 9:05 AM,2026-10-29T13:34:32.649622Z
-Austin Eckroat,7200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1053.png,696563,44665444,10/29/2026 9:05 AM,2026-10-29T13:34:32.649628Z
-John Parry,7200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44665445,10/29/2026 9:05 AM,2026-10-29T13:34:32.649635Z
-Jesper Svensson,7200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44665446,10/29/2026 9:05 AM,2026-10-29T13:34:32.649640Z
-Emiliano Grillo,7200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1085.png,610,44665447,10/29/2026 9:05 AM,2026-10-29T13:34:32.649645Z
-William Mouw,7100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,44665448,10/29/2026 9:05 AM,2026-10-29T13:34:32.649650Z
-Patrick Rodgers,7100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44665449,10/29/2026 9:05 AM,2026-10-29T13:34:32.649655Z
-Hao-Tong Li,7100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44665450,10/29/2026 9:05 AM,2026-10-29T13:34:32.649660Z
-Patrick Fishburn,7100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,44665451,10/29/2026 9:05 AM,2026-10-29T13:34:32.649666Z
-Kihei Akina,7100,PGA TOUR,Classic,,798645,44665452,10/29/2026 9:05 AM,2026-10-29T13:34:32.649670Z
-Aldrich Potgieter,7000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/648552.png,765936,44665453,10/29/2026 9:05 AM,2026-10-29T13:34:32.649676Z
-Alvaro Ortiz,7000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1055.png,694748,44665454,10/29/2026 9:05 AM,2026-10-29T13:34:32.649683Z
-Chan Kim,7000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/751.png,494279,44665455,10/29/2026 9:05 AM,2026-10-29T13:34:32.649688Z
-Zecheng Dou,7000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/450649.png,770,44665456,10/29/2026 9:05 AM,2026-10-29T13:34:32.649693Z
-Hayden Springer,7000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44665457,10/29/2026 9:05 AM,2026-10-29T13:34:32.649697Z
-Isaiah Salinda,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/67664.png,699174,44665458,10/29/2026 9:05 AM,2026-10-29T13:34:32.649702Z
-Karl Vilips,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/709867.png,773007,44665459,10/29/2026 9:05 AM,2026-10-29T13:34:32.649707Z
-Max McGreevy,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44665460,10/29/2026 9:05 AM,2026-10-29T13:34:32.649712Z
-Takumi Kanaya,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44665461,10/29/2026 9:05 AM,2026-10-29T13:34:32.649719Z
-Chad Ramey,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/983.png,2119,44665462,10/29/2026 9:05 AM,2026-10-29T13:34:32.649726Z
-Kevin Streelman,6900,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44665463,10/29/2026 9:05 AM,2026-10-29T13:34:32.649730Z
-Adrien Dumont De Chassart,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44665464,10/29/2026 9:05 AM,2026-10-29T13:34:32.649737Z
-Chandler Phillips,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44665465,10/29/2026 9:05 AM,2026-10-29T13:34:32.649743Z
-Alejandro Tosti,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44665466,10/29/2026 9:05 AM,2026-10-29T13:34:32.649748Z
-Danny Walker,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,44665467,10/29/2026 9:05 AM,2026-10-29T13:34:32.649753Z
-Joel Dahmen,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/521.png,1622,44665468,10/29/2026 9:05 AM,2026-10-29T13:34:32.649758Z
-Andrew Putnam,6800,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/730.png,665,44665469,10/29/2026 9:05 AM,2026-10-29T13:34:32.649763Z
-Chandler Blanchet,6700,PGA TOUR,Classic,,703933,44665470,10/29/2026 9:05 AM,2026-10-29T13:34:32.649767Z
-Cameron Davis,6700,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/578.png,330678,44665471,10/29/2026 9:05 AM,2026-10-29T13:34:32.649772Z
-Erik Van Rooyen,6700,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/671.png,417,44665472,10/29/2026 9:05 AM,2026-10-29T13:34:32.649778Z
-Ben Silverman,6700,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44665473,10/29/2026 9:05 AM,2026-10-29T13:34:32.649783Z
-Justin Lower,6700,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/450914.png,1295,44665474,10/29/2026 9:05 AM,2026-10-29T13:34:32.649787Z
-Matthieu Pavon,6700,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44665475,10/29/2026 9:05 AM,2026-10-29T13:34:32.649792Z
-John VanDerLaan,6600,PGA TOUR,Classic,,689877,44665476,10/29/2026 9:05 AM,2026-10-29T13:34:32.649797Z
-Dylan Wu,6600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,44665477,10/29/2026 9:05 AM,2026-10-29T13:34:32.649804Z
-Davis Riley,6600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,44665478,10/29/2026 9:05 AM,2026-10-29T13:34:32.649809Z
-Nick Dunlap,6600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,44665479,10/29/2026 9:05 AM,2026-10-29T13:34:32.649814Z
-David Skinns,6600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44665480,10/29/2026 9:05 AM,2026-10-29T13:34:32.649819Z
-David Lipsky,6600,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/752.png,586,44665481,10/29/2026 9:05 AM,2026-10-29T13:34:32.649825Z
-Brian Campbell,6500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451096.png,1567,44665482,10/29/2026 9:05 AM,2026-10-29T13:34:32.649830Z
-Ryder Cowan,6500,PGA TOUR,Classic,,876734,44665483,10/29/2026 9:05 AM,2026-10-29T13:34:32.649835Z
-Mark Hubbard,6500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/629.png,2056,44665484,10/29/2026 9:05 AM,2026-10-29T13:34:32.649840Z
-Garrick Higgo,6500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,44665485,10/29/2026 9:05 AM,2026-10-29T13:34:32.649846Z
-Joe Highsmith,6500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,44665486,10/29/2026 9:05 AM,2026-10-29T13:34:32.649851Z
-Peter Malnati,6500,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/660.png,1210,44665487,10/29/2026 9:05 AM,2026-10-29T13:34:32.649856Z
-Trent Phillips,6400,PGA TOUR,Classic,,697774,44665488,10/29/2026 9:05 AM,2026-10-29T13:34:32.649861Z
-Harry Higgs,6400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/565.png,698025,44665489,10/29/2026 9:05 AM,2026-10-29T13:34:32.649866Z
-Paul Peterson,6400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/960.png,1294,44665490,10/29/2026 9:05 AM,2026-10-29T13:34:32.649871Z
-Tyler Duncan,6400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/599.png,1842,44665491,10/29/2026 9:05 AM,2026-10-29T13:34:32.649875Z
-Ben Martin,6400,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1125.png,2065,44665492,10/29/2026 9:05 AM,2026-10-29T13:34:32.649880Z
-Davis Chatfield,6400,PGA TOUR,Classic,,769810,44665493,10/29/2026 9:05 AM,2026-10-29T13:34:32.649885Z
-Brice Garnett,6300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44665494,10/29/2026 9:05 AM,2026-10-29T13:34:32.649890Z
-Pontus Nyholm,6300,PGA TOUR,Classic,,690519,44665495,10/29/2026 9:05 AM,2026-10-29T13:34:32.649895Z
-Aaron Wise,6300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/850.png,83255,44665496,10/29/2026 9:05 AM,2026-10-29T13:34:32.649900Z
-Hank Lebioda,6300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/526.png,692004,44665497,10/29/2026 9:05 AM,2026-10-29T13:34:32.649904Z
-Will Gordon,6300,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44665498,10/29/2026 9:05 AM,2026-10-29T13:34:32.649909Z
-Jeffrey Kang,6300,PGA TOUR,Classic,,762326,44665499,10/29/2026 9:05 AM,2026-10-29T13:34:32.649914Z
-C.T. Pan,6200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1219.png,1653,44665500,10/29/2026 9:05 AM,2026-10-29T13:34:32.649923Z
-Vince Whaley,6200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/667.png,698823,44665501,10/29/2026 9:05 AM,2026-10-29T13:34:32.649928Z
-Adam Svensson,6200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44665502,10/29/2026 9:05 AM,2026-10-29T13:34:32.649933Z
-Santiago De la Fuente,6200,PGA TOUR,Classic,,764416,44665503,10/29/2026 9:05 AM,2026-10-29T13:34:32.649939Z
-Patton Kizzire,6200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/592.png,856,44665504,10/29/2026 9:05 AM,2026-10-29T13:34:32.649944Z
-John Daly II,6200,PGA TOUR,Classic,,796721,44665505,10/29/2026 9:05 AM,2026-10-29T13:34:32.649950Z
-Rafael Campos,6200,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/570.png,1971,44665506,10/29/2026 9:05 AM,2026-10-29T13:34:32.649955Z
-Gerardo Gomez,6100,PGA TOUR,Classic,,836927,44665507,10/29/2026 9:05 AM,2026-10-29T13:34:32.649962Z
-Jimmy Stanger,6100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451913.png,425346,44665508,10/29/2026 9:05 AM,2026-10-29T13:34:32.649966Z
-Christo Lamprecht,6100,PGA TOUR,Classic,,670532,44665509,10/29/2026 9:05 AM,2026-10-29T13:34:32.649971Z
-Omar Morales,6100,PGA TOUR,Classic,,772255,44665510,10/29/2026 9:05 AM,2026-10-29T13:34:32.649977Z
-Kensei Hirata,6100,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,44665511,10/29/2026 9:05 AM,2026-10-29T13:34:32.649982Z
-Mauricio Figueroa,6100,PGA TOUR,Classic,,893164,44665512,10/29/2026 9:05 AM,2026-10-29T13:34:32.649987Z
-Marcelo Rozo,6100,PGA TOUR,Classic,,2083,44665513,10/29/2026 9:05 AM,2026-10-29T13:34:32.649992Z
-Camilo Villegas,6000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/451478.png,2128,44665514,10/29/2026 9:05 AM,2026-10-29T13:34:32.649998Z
-Garrett Endicott,6000,PGA TOUR,Classic,,881780,44665515,10/29/2026 9:05 AM,2026-10-29T13:34:32.650003Z
-Cameron Tankersley,6000,PGA TOUR,Classic,,710664,44665516,10/29/2026 9:05 AM,2026-10-29T13:34:32.650008Z
-Aaron Baddeley,6000,PGA TOUR,Classic,https://dkn.gs/sports/images/golf/players/50/944.png,1935,44665517,10/29/2026 9:05 AM,2026-10-29T13:34:32.650014Z
-Alejandro Fierro,6000,PGA TOUR,Classic,,893163,44665518,10/29/2026 9:05 AM,2026-10-29T13:34:32.650019Z
-Eli Ortego,6000,PGA TOUR,Classic,,893168,44665519,10/29/2026 9:05 AM,2026-10-29T13:34:32.650024Z
-Tayler Termeer,6000,PGA TOUR,Classic,,893169,44665520,10/29/2026 9:05 AM,2026-10-29T13:34:32.650031Z
+Wyndham Clark,11100,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/852.png,523168,44698075,10/29/2026 1:45 PM,2026-10-29T18:39:43.274915Z
+Tom Kim,10400,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/468158.png,700009,44698076,10/29/2026 1:45 PM,2026-10-29T18:39:43.274932Z
+Doug Ghim,10000,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/546.png,670625,44698077,10/29/2026 1:45 PM,2026-10-29T18:39:43.274960Z
+Johnny Keefer,9800,Late Round 1,Late Showdown,,814141,44698078,10/29/2026 1:45 PM,2026-10-29T18:39:43.274969Z
+Blades Brown,9700,Late Round 1,Late Showdown,,795495,44698079,10/29/2026 1:45 PM,2026-10-29T18:39:43.274980Z
+Harry Hall,9500,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44698080,10/29/2026 1:45 PM,2026-10-29T18:39:43.274986Z
+Jackson Suber,9300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/632390.png,763051,44698081,10/29/2026 1:45 PM,2026-10-29T18:39:43.274991Z
+Neal Shipley,9200,Late Round 1,Late Showdown,,793366,44698082,10/29/2026 1:45 PM,2026-10-29T18:39:43.275001Z
+Luke Clanton,9100,Late Round 1,Late Showdown,,796547,44698083,10/29/2026 1:45 PM,2026-10-29T18:39:43.275008Z
+Mac Meissner,9000,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/557402.png,708878,44698084,10/29/2026 1:45 PM,2026-10-29T18:39:43.275014Z
+Kevin Yu,8900,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44698085,10/29/2026 1:45 PM,2026-10-29T18:39:43.275019Z
+Kris Ventura,8800,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44698086,10/29/2026 1:45 PM,2026-10-29T18:39:43.275025Z
+Keita Nakajima,8700,Late Round 1,Late Showdown,,699011,44698087,10/29/2026 1:45 PM,2026-10-29T18:39:43.275031Z
+Zac Blair,8600,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/614.png,530,44698088,10/29/2026 1:45 PM,2026-10-29T18:39:43.275036Z
+Rasmus Højgaard,8500,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44698089,10/29/2026 1:45 PM,2026-10-29T18:39:43.275045Z
+Billy Horschel,8400,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/915.png,1725,44698090,10/29/2026 1:45 PM,2026-10-29T18:39:43.275050Z
+Max Greyserman,8300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44698091,10/29/2026 1:45 PM,2026-10-29T18:39:43.275055Z
+Kihei Akina,8200,Late Round 1,Late Showdown,,798645,44698092,10/29/2026 1:45 PM,2026-10-29T18:39:43.275061Z
+Jesper Svensson,8100,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44698093,10/29/2026 1:45 PM,2026-10-29T18:39:43.275067Z
+Chan Kim,8000,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/751.png,494279,44698094,10/29/2026 1:45 PM,2026-10-29T18:39:43.275072Z
+Alvaro Ortiz,7900,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1055.png,694748,44698095,10/29/2026 1:45 PM,2026-10-29T18:39:43.275079Z
+Mackenzie Hughes,7900,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/635.png,552,44698096,10/29/2026 1:45 PM,2026-10-29T18:39:43.275086Z
+John Parry,7800,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44698097,10/29/2026 1:45 PM,2026-10-29T18:39:43.275091Z
+Patrick Fishburn,7800,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/454597.png,699896,44698098,10/29/2026 1:45 PM,2026-10-29T18:39:43.275096Z
+William Mouw,7700,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/645034.png,765443,44698099,10/29/2026 1:45 PM,2026-10-29T18:39:43.275100Z
+Hayden Springer,7700,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44698100,10/29/2026 1:45 PM,2026-10-29T18:39:43.275105Z
+Zecheng Dou,7600,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/450649.png,770,44698101,10/29/2026 1:45 PM,2026-10-29T18:39:43.275110Z
+Hao-Tong Li,7600,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44698102,10/29/2026 1:45 PM,2026-10-29T18:39:43.275115Z
+Max McGreevy,7500,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44698103,10/29/2026 1:45 PM,2026-10-29T18:39:43.275120Z
+Adrien Dumont De Chassart,7500,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44698104,10/29/2026 1:45 PM,2026-10-29T18:39:43.275126Z
+Andrew Putnam,7400,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/730.png,665,44698105,10/29/2026 1:45 PM,2026-10-29T18:39:43.275134Z
+Takumi Kanaya,7400,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/788.png,693416,44698106,10/29/2026 1:45 PM,2026-10-29T18:39:43.275138Z
+Chandler Phillips,7300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,44698107,10/29/2026 1:45 PM,2026-10-29T18:39:43.275144Z
+Ben Silverman,7300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44698108,10/29/2026 1:45 PM,2026-10-29T18:39:43.275149Z
+Alejandro Tosti,7200,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44698109,10/29/2026 1:45 PM,2026-10-29T18:39:43.275154Z
+Karl Vilips,7200,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/709867.png,773007,44698110,10/29/2026 1:45 PM,2026-10-29T18:39:43.275159Z
+Kevin Streelman,7100,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44698111,10/29/2026 1:45 PM,2026-10-29T18:39:43.275163Z
+Matthieu Pavon,7100,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44698112,10/29/2026 1:45 PM,2026-10-29T18:39:43.275168Z
+Dylan Wu,7000,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/69384.png,699433,44698113,10/29/2026 1:45 PM,2026-10-29T18:39:43.275173Z
+David Skinns,7000,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44698114,10/29/2026 1:45 PM,2026-10-29T18:39:43.275177Z
+Ryder Cowan,6900,Late Round 1,Late Showdown,,876734,44698115,10/29/2026 1:45 PM,2026-10-29T18:39:43.275182Z
+Pontus Nyholm,6900,Late Round 1,Late Showdown,,690519,44698116,10/29/2026 1:45 PM,2026-10-29T18:39:43.275189Z
+Brian Campbell,6800,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/451096.png,1567,44698117,10/29/2026 1:45 PM,2026-10-29T18:39:43.275194Z
+Joe Highsmith,6800,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/572434.png,721583,44698118,10/29/2026 1:45 PM,2026-10-29T18:39:43.275201Z
+Garrick Higgo,6700,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,44698119,10/29/2026 1:45 PM,2026-10-29T18:39:43.275206Z
+Davis Chatfield,6700,Late Round 1,Late Showdown,,769810,44698120,10/29/2026 1:45 PM,2026-10-29T18:39:43.275211Z
+Will Gordon,6600,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44698121,10/29/2026 1:45 PM,2026-10-29T18:39:43.275216Z
+Brice Garnett,6600,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44698122,10/29/2026 1:45 PM,2026-10-29T18:39:43.275220Z
+Alejandro Fierro,6500,Late Round 1,Late Showdown,,893163,44698123,10/29/2026 1:45 PM,2026-10-29T18:39:43.275225Z
+Garrett Endicott,6500,Late Round 1,Late Showdown,,881780,44698124,10/29/2026 1:45 PM,2026-10-29T18:39:43.275230Z
+Adam Svensson,6400,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44698125,10/29/2026 1:45 PM,2026-10-29T18:39:43.275235Z
+Jeffrey Kang,6400,Late Round 1,Late Showdown,,762326,44698126,10/29/2026 1:45 PM,2026-10-29T18:39:43.275240Z
+Rafael Campos,6300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/570.png,1971,44698127,10/29/2026 1:45 PM,2026-10-29T18:39:43.275244Z
+Vince Whaley,6300,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/667.png,698823,44698128,10/29/2026 1:45 PM,2026-10-29T18:39:43.275249Z
+C.T. Pan,6200,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1219.png,1653,44698129,10/29/2026 1:45 PM,2026-10-29T18:39:43.275255Z
+Omar Morales,6200,Late Round 1,Late Showdown,,772255,44698130,10/29/2026 1:45 PM,2026-10-29T18:39:43.275260Z
+Mauricio Figueroa,6100,Late Round 1,Late Showdown,,893164,44698131,10/29/2026 1:45 PM,2026-10-29T18:39:43.275265Z
+Jimmy Stanger,6100,Late Round 1,Late Showdown,https://dkn.gs/sports/images/golf/players/50/451913.png,425346,44698132,10/29/2026 1:45 PM,2026-10-29T18:39:43.275270Z
+Marcelo Rozo,6000,Late Round 1,Late Showdown,,2083,44698133,10/29/2026 1:45 PM,2026-10-29T18:39:43.275274Z
+Gerardo Gomez,6000,Late Round 1,Late Showdown,,836927,44698134,10/29/2026 1:45 PM,2026-10-29T18:39:43.275279Z
