@@ -7,7 +7,7 @@
       "key": "designer",
       "label": "DESIGNER",
       "value": "Greg Norman",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "SEASIDE",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -25,7 +25,7 @@
       "key": "greens",
       "label": "GREENS",
       "value": "PASPALUM",
-      "count": 402,
+      "count": 665,
       "green": true,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -34,7 +34,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "PASPALUM",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -43,7 +43,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "LONG",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -52,7 +52,7 @@
       "key": "par",
       "label": "PAR",
       "value": "71.0",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -61,7 +61,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 402,
+      "count": 377,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -70,7 +70,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "FAIR",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -79,7 +79,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -88,7 +88,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "WIDE",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -97,7 +97,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "WIDE",
-      "count": 402,
+      "count": 665,
       "green": true,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -106,7 +106,7 @@
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "11.5",
-      "count": 402,
+      "count": 665,
       "green": true,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -115,7 +115,7 @@
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 402,
+      "count": 665,
       "green": true,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -124,7 +124,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "8.0",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -133,7 +133,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "Mexico",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
@@ -142,19 +142,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 402,
+      "count": 665,
       "green": false,
       "course_name": "Vidanta Vallarta",
       "event_name": "VidantaWorld Mexico Open"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8444,
-    "strokes": 70.1941,
-    "bogeys": 2.3664,
-    "pars": 11.3437,
-    "fw_pct": 60.9943,
-    "gir_pct": 65.8364,
+    "birdies_plus": 3.8571,
+    "strokes": 70.133,
+    "bogeys": 2.3293,
+    "pars": 11.3449,
+    "fw_pct": 60.9802,
+    "gir_pct": 65.85,
     "n_rounds_sample": 8000,
     "window": "24"
   },

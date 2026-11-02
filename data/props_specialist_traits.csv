@@ -1,17 +1,17 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,Greg Norman,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-style,STYLE,SEASIDE,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-greens,GREENS,PASPALUM,402,True,Vidanta Vallarta,VidantaWorld Mexico Open
-fairways,FAIRWAYS,PASPALUM,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-length,LENGTH,LONG,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-par,PAR,71.0,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-scoring,SCORING,NORMAL,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-weather,WEATHER,FAIR,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-type,TYPE,FULL,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-fairway_width,FAIRWAY WIDTH,WIDE,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-green_width,GREEN WIDTH,WIDE,402,True,Vidanta Vallarta,VidantaWorld Mexico Open
-green_speeds,GREEN SPEEDS,11.5,402,True,Vidanta Vallarta,VidantaWorld Mexico Open
-green_speeds_1,GREEN SPEEDS.1,NORMAL,402,True,Vidanta Vallarta,VidantaWorld Mexico Open
-water_hazards,WATER HAZARDS,8.0,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-location,LOCATION,Mexico,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
-rain,RAIN,NO,402,False,Vidanta Vallarta,VidantaWorld Mexico Open
+designer,DESIGNER,Greg Norman,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+style,STYLE,SEASIDE,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+greens,GREENS,PASPALUM,665,True,Vidanta Vallarta,VidantaWorld Mexico Open
+fairways,FAIRWAYS,PASPALUM,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+length,LENGTH,LONG,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+par,PAR,71.0,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+scoring,SCORING,NORMAL,377,False,Vidanta Vallarta,VidantaWorld Mexico Open
+weather,WEATHER,FAIR,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+type,TYPE,FULL,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+fairway_width,FAIRWAY WIDTH,WIDE,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+green_width,GREEN WIDTH,WIDE,665,True,Vidanta Vallarta,VidantaWorld Mexico Open
+green_speeds,GREEN SPEEDS,11.5,665,True,Vidanta Vallarta,VidantaWorld Mexico Open
+green_speeds_1,GREEN SPEEDS.1,NORMAL,665,True,Vidanta Vallarta,VidantaWorld Mexico Open
+water_hazards,WATER HAZARDS,8.0,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+location,LOCATION,Mexico,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
+rain,RAIN,NO,665,False,Vidanta Vallarta,VidantaWorld Mexico Open
