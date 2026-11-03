@@ -1,5 +1,5 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: El Cardonal at Diamante | Updated: 11/3/2026, 10:55:36 AM",,,,,,,,,,,
+"Location: El Cardonal at Diamante | Updated: 11/3/2026, 1:55:21 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Tue Nov 3,12:00 AM,77.5,87,0,0,Clear,3.8,6.5,NE,10,93
@@ -49,4 +49,4 @@ Wed Nov 4,7:00 PM,80.2,83.1,0,0,Clear,12.1,25.1,W,10,71
 Wed Nov 4,8:00 PM,77.5,81.2,0,0,Clear,11.2,22.4,WNW,6,80
 Wed Nov 4,9:00 PM,76.2,80,0,0,Clear,10.8,19.9,WNW,5,83
 Wed Nov 4,10:00 PM,75.5,79.2,0,0,Clear,9.8,19,WNW,5,83
-Wed Nov 4,11:00 PM,74.8,78.2,0,0,Clear,9.7,17.2,WNW,5,83
+Wed Nov 4,11:00 PM,74.8,78.2,1,0,Clear,9.7,17.2,WNW,5,83
