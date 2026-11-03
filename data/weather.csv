@@ -1,52 +1,52 @@
-VidantaWorld Mexico Open – Hourly Weather Forecast,,,,,,,,,,,
-"Location: VidantaWorld | Updated: 11/3/2026, 8:55:19 AM",,,,,,,,,,,
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: El Cardonal at Diamante | Updated: 11/3/2026, 10:55:36 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Tue Nov 3,12:00 AM,80.6,91.3,0,0,Mainly Clear,3.6,6.9,NE,28,89
-Tue Nov 3,1:00 AM,79.5,89,0,0,Mainly Clear,5.2,6.7,NE,33,90
-Tue Nov 3,2:00 AM,78.1,87.4,0,0,Fog,4,8.9,NE,41,91
-Tue Nov 3,3:00 AM,76.9,85.6,0,0,Fog,4.1,7.4,NE,49,92
-Tue Nov 3,4:00 AM,75.8,83.7,0,0,Fog,4.5,7.6,NNE,59,92
-Tue Nov 3,5:00 AM,75.2,82.3,0,0,Fog,5,8.9,NE,63,91
-Tue Nov 3,6:00 AM,75.2,82,0,0,Fog,4.9,9.4,NE,52,89
-Tue Nov 3,7:00 AM,74.7,81.1,0,0,Fog,5.4,9.6,NNE,56,89
-Tue Nov 3,8:00 AM,73.9,80.4,0,0,Fog,5,9.4,NNE,69,91
-Tue Nov 3,9:00 AM,75.4,82.2,0,0,Fog,4.9,9.6,NE,48,88
-Tue Nov 3,10:00 AM,79.9,88.1,0,0,Clear,3.6,9.6,NE,5,80
-Tue Nov 3,11:00 AM,83.8,93.1,0,0,Clear,0.8,9.2,ENE,1,70
-Tue Nov 3,12:00 PM,85.8,95.8,0,0,Clear,2.4,9.4,SSW,1,67
-Tue Nov 3,1:00 PM,87.1,97.7,0,0,Clear,4.5,12.8,SW,2,66
-Tue Nov 3,2:00 PM,88,98.8,1,0,Clear,5.9,15,SW,13,64
-Tue Nov 3,3:00 PM,88.5,98.9,2,0,Mainly Clear,6.4,15.7,WSW,33,65
-Tue Nov 3,4:00 PM,88.3,97.7,4,0,Mainly Clear,7.8,17.2,SW,45,68
-Tue Nov 3,5:00 PM,87.7,96.2,8,0,Overcast,7.7,17.2,WSW,84,69
-Tue Nov 3,6:00 PM,86.7,95.2,12,0,Partly Cloudy,5.9,16.1,WSW,52,69
-Tue Nov 3,7:00 PM,85.1,95.1,14,0,Partly Cloudy,3,12.3,WSW,65,74
-Tue Nov 3,8:00 PM,82.8,94.3,11,0,Partly Cloudy,1.4,5.8,WSW,57,83
-Tue Nov 3,9:00 PM,82.2,93.9,5,0,Mainly Clear,0.4,2,NW,34,83
-Tue Nov 3,10:00 PM,80.7,91.5,0,0,Mainly Clear,1.8,2.5,NNE,44,86
-Tue Nov 3,11:00 PM,79.7,89.7,0,0,Mainly Clear,2.5,4.3,NNE,36,87
-Wed Nov 4,12:00 AM,78.8,88.6,0,0,Clear,2.4,4.3,NNE,14,88
-Wed Nov 4,1:00 AM,77.4,86.7,0,0,Clear,2.5,4,NNE,13,90
-Wed Nov 4,2:00 AM,76.7,85.4,0,0,Fog,2.9,5.4,ENE,34,89
-Wed Nov 4,3:00 AM,77.7,86,0,0,Fog,3.1,6.3,ENE,88,85
-Wed Nov 4,4:00 AM,77.9,86.3,0,0,Fog,2.6,6,ENE,94,84
-Wed Nov 4,5:00 AM,76.7,85.2,0,0,Fog,2.2,5.1,ENE,50,87
-Wed Nov 4,6:00 AM,75.4,82.8,0,0,Fog,3.5,6.3,NE,66,88
-Wed Nov 4,7:00 AM,74.4,80.8,0,0,Fog,4.4,7.8,NE,73,87
-Wed Nov 4,8:00 AM,73.3,79,0,0,Fog,4.4,8.1,NE,71,87
-Wed Nov 4,9:00 AM,74,79,0,0,Fog,5,9.8,NE,62,82
-Wed Nov 4,10:00 AM,76.7,81.9,0,0,Fog,4.9,11,ENE,35,76
-Wed Nov 4,11:00 AM,81,87.9,0,0,Fog,4.3,11.4,ENE,10,73
-Wed Nov 4,12:00 PM,84,93.8,0,0,Clear,2.8,11.4,ESE,12,71
-Wed Nov 4,1:00 PM,86,97.7,0,0,Clear,2.2,10.5,SSE,10,67
-Wed Nov 4,2:00 PM,87.3,98.2,0,0,Clear,4.8,13.4,SSW,10,64
-Wed Nov 4,3:00 PM,87.1,96.2,0,0,Clear,8.1,18.1,SSW,9,65
-Wed Nov 4,4:00 PM,86.3,94.9,0,0,Clear,8.9,19.7,SW,3,69
-Wed Nov 4,5:00 PM,86,94,1,0,Clear,7.6,19.5,SW,8,71
-Wed Nov 4,6:00 PM,85,93.2,2,0,Partly Cloudy,6.6,16.8,SSW,79,72
-Wed Nov 4,7:00 PM,83.3,92.5,2,0,Overcast,4.2,14.1,SW,81,77
-Wed Nov 4,8:00 PM,81.1,92.4,1,0,Overcast,1.1,7.8,W,88,85
-Wed Nov 4,9:00 PM,80.1,91,0,0,Overcast,1.1,1.6,N,98,87
-Wed Nov 4,10:00 PM,79.3,88.7,0,0,Overcast,2.7,4.5,NNE,93,86
-Wed Nov 4,11:00 PM,79.2,87.5,1,0,Overcast,3.6,6.3,NE,100,82
+Tue Nov 3,12:00 AM,77.5,87,0,0,Clear,3.8,6.5,NE,10,93
+Tue Nov 3,1:00 AM,76.2,85.3,0,0,Fog,3,6.5,NNE,43,94
+Tue Nov 3,2:00 AM,75.2,84.3,0,0,Fog,1.8,6.3,N,62,94
+Tue Nov 3,3:00 AM,75.5,83.5,0,0,Fog,3,5.6,NNW,37,90
+Tue Nov 3,4:00 AM,75.7,82.4,0,0,Fog,4.3,7.6,NNW,18,86
+Tue Nov 3,5:00 AM,75.6,82.4,0,0,Clear,3.7,7.8,N,9,85
+Tue Nov 3,6:00 AM,74.6,81.9,0,0,Clear,2,6.5,N,3,87
+Tue Nov 3,7:00 AM,74.2,81.5,0,0,Clear,1.6,3.8,NNW,2,86
+Tue Nov 3,8:00 AM,73.9,81,0,0,Clear,1.6,3.4,NNW,2,86
+Tue Nov 3,9:00 AM,75.1,81.9,0,0,Clear,2.4,4.7,N,0,83
+Tue Nov 3,10:00 AM,81.3,88.7,0,0,Clear,2.5,6,NW,0,70
+Tue Nov 3,11:00 AM,84.9,91.3,0,0,Clear,3.4,8.5,W,0,60
+Tue Nov 3,12:00 PM,87.9,93.2,0,0,Clear,5.3,12.3,W,0,53
+Tue Nov 3,1:00 PM,89.4,94,0,0,Clear,8.2,17.2,W,0,47
+Tue Nov 3,2:00 PM,90.2,93.8,0,0,Clear,11,22.4,W,0,45
+Tue Nov 3,3:00 PM,89.9,94,0,0,Clear,12.1,24.8,WNW,0,49
+Tue Nov 3,4:00 PM,89.1,94.3,0,0,Clear,11.6,24.8,WNW,15,55
+Tue Nov 3,5:00 PM,88.2,93.7,0,0,Clear,9.7,23.7,WNW,11,59
+Tue Nov 3,6:00 PM,86.5,93.7,0,0,Mainly Clear,5.2,19.9,NW,37,63
+Tue Nov 3,7:00 PM,83.3,91.7,0,0,Partly Cloudy,3,11,NE,65,71
+Tue Nov 3,8:00 PM,80.2,90,0,0,Mainly Clear,1.3,5.8,NE,30,82
+Tue Nov 3,9:00 PM,78.9,88.3,0,0,Mainly Clear,1.8,3.1,W,41,85
+Tue Nov 3,10:00 PM,77.3,86.3,0,0,Mainly Clear,1.8,3.1,W,20,87
+Tue Nov 3,11:00 PM,75.7,84.1,0,0,Clear,2.2,3.8,WNW,5,89
+Wed Nov 4,12:00 AM,74.5,81.9,0,0,Clear,2.5,4.5,NW,0,88
+Wed Nov 4,1:00 AM,73.9,80,0,0,Mainly Clear,3.4,5.8,NW,23,85
+Wed Nov 4,2:00 AM,73.6,78,0,0,Partly Cloudy,5,8.5,NNW,52,80
+Wed Nov 4,3:00 AM,73.3,76.7,0,0,Partly Cloudy,5.4,9.4,NNW,61,76
+Wed Nov 4,4:00 AM,72.7,75.6,0,0,Partly Cloudy,5.6,9.6,NNW,59,76
+Wed Nov 4,5:00 AM,72,74.7,0,0,Partly Cloudy,5.6,9.6,NNW,55,76
+Wed Nov 4,6:00 AM,71.6,74.2,0,0,Clear,5.5,9.6,NNW,6,76
+Wed Nov 4,7:00 AM,71.1,73.3,0,0,Clear,5.9,9.8,NNW,9,76
+Wed Nov 4,8:00 AM,70.7,72.8,0,0,Clear,5.6,10.3,NNW,1,76
+Wed Nov 4,9:00 AM,71.3,73.7,0,0,Clear,5.1,9.6,NNW,1,74
+Wed Nov 4,10:00 AM,79.2,82.6,0,0,Clear,5.2,9.4,WNW,1,62
+Wed Nov 4,11:00 AM,82.4,85.6,0,0,Clear,7.5,15.2,W,1,59
+Wed Nov 4,12:00 PM,84.1,87.4,0,0,Clear,9.8,19.9,W,1,59
+Wed Nov 4,1:00 PM,84.6,88.3,0,0,Clear,12.4,24.8,W,2,60
+Wed Nov 4,2:00 PM,85,88.8,0,0,Clear,13.4,26.8,W,1,58
+Wed Nov 4,3:00 PM,85.4,88.6,0,0,Clear,14.2,28.2,W,2,57
+Wed Nov 4,4:00 PM,85.2,87.9,0,0,Clear,14.2,28.6,W,2,57
+Wed Nov 4,5:00 PM,84.2,86.3,0,0,Clear,13.7,28,W,0,60
+Wed Nov 4,6:00 PM,82.7,84.8,0,0,Clear,13.1,26.8,W,1,64
+Wed Nov 4,7:00 PM,80.2,83.1,0,0,Clear,12.1,25.1,W,10,71
+Wed Nov 4,8:00 PM,77.5,81.2,0,0,Clear,11.2,22.4,WNW,6,80
+Wed Nov 4,9:00 PM,76.2,80,0,0,Clear,10.8,19.9,WNW,5,83
+Wed Nov 4,10:00 PM,75.5,79.2,0,0,Clear,9.8,19,WNW,5,83
+Wed Nov 4,11:00 PM,74.8,78.2,0,0,Clear,9.7,17.2,WNW,5,83
