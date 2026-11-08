@@ -1,52 +1,52 @@
-World Wide Technology Championship – Hourly Weather Forecast,,,,,,,,,,,
-"Location: El Cardonal at Diamante | Updated: 11/8/2026, 12:55:18 AM",,,,,,,,,,,
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: El Cardonal at Diamante | Updated: 11/8/2026, 6:55:20 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Sun Nov 8,12:00 AM,73.5,77.7,0,0,Clear,4.3,7.2,NNW,7,77
-Sun Nov 8,1:00 AM,72.1,76.4,0,0,Clear,3.8,7.4,NNW,6,81
-Sun Nov 8,2:00 AM,71,75.3,0,0,Clear,3.2,6.9,N,2,83
-Sun Nov 8,3:00 AM,70.4,74.7,0,0,Clear,2.9,6.5,N,16,83
-Sun Nov 8,4:00 AM,69.6,73.8,0,0,Mainly Clear,2.9,6.3,N,35,85
-Sun Nov 8,5:00 AM,69.3,73,0,0,Clear,3.9,7.4,NNE,3,85
-Sun Nov 8,6:00 AM,69.2,72.9,0,0,Clear,4,7.4,NNE,8,86
-Sun Nov 8,7:00 AM,69.2,72.5,0,0,Partly Cloudy,4.8,8.7,NNE,56,86
-Sun Nov 8,8:00 AM,69.6,72.7,0,0,Overcast,5.3,9.4,NNE,80,84
-Sun Nov 8,9:00 AM,71.5,74.6,0,0,Mainly Clear,4.9,9.4,NNE,34,78
-Sun Nov 8,10:00 AM,77.7,82.2,0,0,Clear,3.1,8.5,ENE,16,66
-Sun Nov 8,11:00 AM,80.4,85.3,1,0,Mainly Clear,2.9,9.4,SE,23,62
-Sun Nov 8,12:00 PM,82.6,86.5,2,0,Clear,4.7,13.2,SSE,9,57
-Sun Nov 8,1:00 PM,83.7,87,6,0,Clear,6.2,15.9,SSE,5,53
-Sun Nov 8,2:00 PM,83.9,87,15,0,Clear,7.8,18.8,SSE,8,52
-Sun Nov 8,3:00 PM,83.7,86.3,26,0,Mainly Clear,9.3,21.3,S,48,53
-Sun Nov 8,4:00 PM,83,84.9,35,0,Mainly Clear,8.5,21.5,S,30,53
-Sun Nov 8,5:00 PM,82.7,85.1,39,0,Mainly Clear,7,19.5,SSW,33,55
-Sun Nov 8,6:00 PM,81.5,84,41,0,Partly Cloudy,6.7,16.3,SSW,64,57
-Sun Nov 8,7:00 PM,80.3,83.2,39,0,Mainly Clear,6.1,15.2,SSW,49,59
-Sun Nov 8,8:00 PM,79,82.3,30,0,Mainly Clear,4.9,13.2,SW,34,62
-Sun Nov 8,9:00 PM,77.7,82.3,18,0,Mainly Clear,2,9.6,WSW,24,65
-Sun Nov 8,10:00 PM,77.5,83,8,0,Mainly Clear,0.6,3.1,NNW,21,66
-Sun Nov 8,11:00 PM,76.2,81.3,5,0,Mainly Clear,1.4,2.7,N,30,69
-Mon Nov 9,12:00 AM,75,79.8,4,0,Mainly Clear,3,5.1,NNE,40,74
-Mon Nov 9,1:00 AM,75.7,80.6,4,0,Mainly Clear,3.5,6.5,NNE,37,74
-Mon Nov 9,2:00 AM,74,79.1,3,0,Clear,3.5,6.3,NNE,9,79
-Mon Nov 9,3:00 AM,73,77.9,1,0,Clear,3.5,6.7,NNE,9,81
-Mon Nov 9,4:00 AM,72.6,76.8,0,0,Clear,4.3,7.8,NNE,5,80
-Mon Nov 9,5:00 AM,72.1,76.1,0,0,Clear,4,8.1,NNE,9,79
-Mon Nov 9,6:00 AM,71.7,75.8,0,0,Clear,3.1,7.4,N,8,79
-Mon Nov 9,7:00 AM,70.7,74.6,0,0,Clear,3,6.9,N,9,80
-Mon Nov 9,8:00 AM,70.5,74.3,0,0,Clear,3.3,6.9,N,9,80
-Mon Nov 9,9:00 AM,71.1,74.6,0,0,Clear,3.6,7.6,N,4,79
-Mon Nov 9,10:00 AM,79,83.3,0,0,Mainly Clear,2.2,7.8,NE,21,61
-Mon Nov 9,11:00 AM,81.6,85.8,0,0,Clear,3.2,9.4,SE,2,57
-Mon Nov 9,12:00 PM,84,86.8,0,0,Clear,5.7,14.5,SE,8,51
-Mon Nov 9,1:00 PM,84.7,86.7,0,0,Clear,8.1,18.8,SE,16,50
-Mon Nov 9,2:00 PM,84,86,6,0,Overcast,10.1,22.1,SSE,88,54
-Mon Nov 9,3:00 PM,83.7,86.9,14,0,Overcast,9.5,23.3,SSE,86,56
-Mon Nov 9,4:00 PM,82.7,86,22,0,Mainly Clear,7,21.5,S,45,58
-Mon Nov 9,5:00 PM,83.2,87,30,0,Overcast,5.4,16.8,S,95,56
-Mon Nov 9,6:00 PM,81.1,85,37,0.004,Light Drizzle,6,14.8,SSW,97,63
-Mon Nov 9,7:00 PM,80.2,85.3,41,0.004,Light Drizzle,3.9,13.6,SSW,100,65
-Mon Nov 9,8:00 PM,79.4,84.7,38,0,Overcast,3,9.4,SW,100,66
-Mon Nov 9,9:00 PM,79,84.6,31,0,Overcast,2.5,7.2,SW,100,68
-Mon Nov 9,10:00 PM,78.4,85,25,0,Overcast,0.6,5.8,NW,95,70
-Mon Nov 9,11:00 PM,78,84.3,20,0,Overcast,1.7,3.1,NNW,89,72
+Sun Nov 8,12:00 AM,75.4,81,0,0,Mainly Clear,5,8.5,NW,20,82
+Sun Nov 8,1:00 AM,73.9,79.6,0,0,Clear,3.7,8.3,NNW,11,83
+Sun Nov 8,2:00 AM,73,78.3,0,0,Mainly Clear,3.8,6.7,N,36,84
+Sun Nov 8,3:00 AM,72.3,77.6,0,0,Mainly Clear,3.3,6.9,N,34,84
+Sun Nov 8,4:00 AM,71.9,77.1,0,0,Clear,2.8,6,NNE,17,84
+Sun Nov 8,5:00 AM,71.6,76.3,0,0,Clear,3.7,6.3,NE,6,84
+Sun Nov 8,6:00 AM,71.1,75.6,0,0,Clear,3.7,7.2,NE,5,85
+Sun Nov 8,7:00 AM,70.2,74.9,0,0,Clear,2.6,6.5,NE,5,86
+Sun Nov 8,8:00 AM,69.8,74.5,0,0,Clear,2.4,4.7,NNE,9,86
+Sun Nov 8,9:00 AM,71.2,75.5,0,0,Clear,3.1,5.8,NNE,5,82
+Sun Nov 8,10:00 AM,77.7,81.7,0,0,Clear,3.7,8.5,ENE,2,65
+Sun Nov 8,11:00 AM,81.1,84,0,0,Clear,4.3,11.4,E,4,54
+Sun Nov 8,12:00 PM,83.6,85.6,0,0,Clear,5.2,13.9,ESE,5,47
+Sun Nov 8,1:00 PM,85.3,87.7,2,0,Clear,6.6,16.8,SE,7,44
+Sun Nov 8,2:00 PM,84.8,86.3,12,0,Clear,9,20.1,SE,18,48
+Sun Nov 8,3:00 PM,83.7,85.9,25,0,Mainly Clear,10.4,23.3,SSE,44,54
+Sun Nov 8,4:00 PM,82.9,85.1,37,0,Partly Cloudy,7.9,23,SSE,50,55
+Sun Nov 8,5:00 PM,82.8,85.5,46,0,Partly Cloudy,6.9,18.3,SSE,59,55
+Sun Nov 8,6:00 PM,81.1,84.5,54,0.004,Light Drizzle,6.8,16.3,SSE,98,61
+Sun Nov 8,7:00 PM,78.9,83.9,55,0.008,Light Drizzle,4.3,15,S,100,69
+Sun Nov 8,8:00 PM,78,83.7,45,0.004,Light Drizzle,2,9.8,SSE,86,69
+Sun Nov 8,9:00 PM,77.7,83.6,29,0,Clear,1.5,4.9,ENE,5,70
+Sun Nov 8,10:00 PM,76.3,82.5,16,0,Clear,2.3,3.8,NNE,16,77
+Sun Nov 8,11:00 PM,76.4,82.8,12,0,Clear,3.2,5.6,NNE,16,79
+Mon Nov 9,12:00 AM,75.9,82,12,0,Mainly Clear,3.7,6.5,NNE,28,80
+Mon Nov 9,1:00 AM,75.4,80.9,12,0,Partly Cloudy,3.8,6.5,NE,76,79
+Mon Nov 9,2:00 AM,73.9,79.1,9,0,Overcast,3.2,6.5,NNE,99,79
+Mon Nov 9,3:00 AM,73,77.8,5,0,Mainly Clear,2.8,6,NNE,41,79
+Mon Nov 9,4:00 AM,71.6,76,2,0,Clear,3.1,6.3,N,5,81
+Mon Nov 9,5:00 AM,70.4,74.4,1,0,Partly Cloudy,3.8,7.4,N,74,83
+Mon Nov 9,6:00 AM,70,73.8,0,0,Clear,3.7,7.4,N,15,83
+Mon Nov 9,7:00 AM,69.6,73.6,0,0,Partly Cloudy,2.4,7.4,N,50,82
+Mon Nov 9,8:00 AM,70.1,73.6,0,0,Overcast,2.6,5.8,N,93,78
+Mon Nov 9,9:00 AM,71.3,74.1,0,0,Mainly Clear,3.6,6.9,N,38,73
+Mon Nov 9,10:00 AM,79,81.6,0,0,Clear,2.9,7.8,NE,0,54
+Mon Nov 9,11:00 AM,82.4,85.3,0,0,Clear,2.8,9.2,ESE,0,50
+Mon Nov 9,12:00 PM,84.8,87.4,0,0,Clear,4.3,12.3,SE,6,46
+Mon Nov 9,1:00 PM,86.3,88.8,0,0,Clear,7.1,17,SE,19,45
+Mon Nov 9,2:00 PM,86.4,90.1,5,0,Overcast,7,19.2,SSE,86,47
+Mon Nov 9,3:00 PM,85.3,88.9,11,0,Partly Cloudy,7.9,18.8,S,73,51
+Mon Nov 9,4:00 PM,84,87.4,18,0,Overcast,6.7,19,SSW,100,55
+Mon Nov 9,5:00 PM,83.4,86.5,24,0,Partly Cloudy,7.3,17.2,SSW,55,57
+Mon Nov 9,6:00 PM,81.8,84.9,30,0,Mainly Clear,7.3,17.4,SSW,43,60
+Mon Nov 9,7:00 PM,80.2,83.7,35,0,Partly Cloudy,5.1,16.3,SW,74,60
+Mon Nov 9,8:00 PM,79.8,84.1,39,0,Overcast,2.3,11,SW,98,60
+Mon Nov 9,9:00 PM,79.5,84.6,43,0,Overcast,0.6,5.8,NW,100,60
+Mon Nov 9,10:00 PM,79.2,84,41,0,Overcast,1.7,3.6,N,89,62
+Mon Nov 9,11:00 PM,78.9,83.6,30,0,Overcast,2.8,5.1,N,95,64
