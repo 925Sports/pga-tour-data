@@ -1,146 +1,76 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Rory McIlroy,12200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1080.png,463,44823452,11/07/2026 10:00 PM,2026-11-08T08:02:28.741813Z
-Tommy Fleetwood,11500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/733.png,871,44823453,11/07/2026 10:00 PM,2026-11-08T08:02:28.741831Z
-Jon Rahm,11300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1173.png,680,44823454,11/07/2026 10:00 PM,2026-11-08T08:02:28.741839Z
-Benjamin James,11100,Round 4,Showdown,,765775,44845295,11/08/2026 10:30 AM,2026-11-08T08:02:28.741847Z
-Ryan Gerard,11000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44845296,11/08/2026 10:30 AM,2026-11-08T08:02:28.741854Z
-Blades Brown,10400,Round 4,Showdown,,795495,44845297,11/08/2026 10:30 AM,2026-11-08T08:02:28.741863Z
-Ben Griffin,10300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,44845298,11/08/2026 10:30 AM,2026-11-08T08:02:28.741875Z
-Jackson Koivun,10200,Round 4,Showdown,,796535,44845299,11/08/2026 10:30 AM,2026-11-08T08:02:28.741882Z
-Adam Scott,10200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/875.png,2078,44823455,11/07/2026 10:00 PM,2026-11-08T08:02:28.741887Z
-Eugenio Lopez-Chacarra,10000,Round 4,Showdown,,696842,44823456,11/07/2026 10:00 PM,2026-11-08T08:02:28.741894Z
-Ben Kohles,9900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44845300,11/08/2026 10:30 AM,2026-11-08T08:02:28.741899Z
-Keith Mitchell,9700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44845301,11/08/2026 10:30 AM,2026-11-08T08:02:28.741904Z
-Aaron Rai,9600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/861.png,353925,44823457,11/07/2026 10:00 PM,2026-11-08T08:02:28.741910Z
-Zachary Bauchou,9600,Late Round 4,Late Showdown,,689973,44845633,11/08/2026 12:09 PM,2026-11-08T08:02:28.741915Z
-Chris Kirk,9500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,44845302,11/08/2026 10:30 AM,2026-11-08T08:02:28.741920Z
-Daniel Hillier,9500,Round 4,Showdown,,696565,44823458,11/07/2026 10:00 PM,2026-11-08T08:02:28.741925Z
-Matt Wallace,9400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1105.png,63191,44823459,11/07/2026 10:00 PM,2026-11-08T08:02:28.741934Z
-Adrian Meronk,9300,Round 4,Showdown,,292342,44823460,11/07/2026 10:00 PM,2026-11-08T08:02:28.741940Z
-Harry Hall,9200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44845303,11/08/2026 10:30 AM,2026-11-08T08:02:28.741946Z
-Tyrrell Hatton,9200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1015.png,1356,44823461,11/07/2026 10:00 PM,2026-11-08T08:02:28.741951Z
-Kristoffer Reitan,9100,Round 4,Showdown,,671051,44823462,11/07/2026 10:00 PM,2026-11-08T08:02:28.741960Z
-Jordan L. Smith,9000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44845305,11/08/2026 10:30 AM,2026-11-08T08:02:28.741969Z
-Matthew Jordan,9000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60718.png,691179,44823463,11/07/2026 10:00 PM,2026-11-08T08:02:28.741974Z
-Stephan Jaeger,8900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44845306,11/08/2026 10:30 AM,2026-11-08T08:02:28.741978Z
-Patrick Reed,8900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/976.png,782,44823464,11/07/2026 10:00 PM,2026-11-08T08:02:28.741983Z
-Pierceson Coody,8800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44845307,11/08/2026 10:30 AM,2026-11-08T08:02:28.741988Z
-Casey Jarvis,8800,Round 4,Showdown,,700282,44823465,11/07/2026 10:00 PM,2026-11-08T08:02:28.741993Z
-Michael Kim,8700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44845308,11/08/2026 10:30 AM,2026-11-08T08:02:28.742000Z
-Jacob Skov Olesen,8700,Round 4,Showdown,,797154,44823466,11/07/2026 10:00 PM,2026-11-08T08:02:28.742006Z
-Kris Ventura,8600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44845309,11/08/2026 10:30 AM,2026-11-08T08:02:28.742011Z
-Victor Perez,8600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/710.png,670428,44823467,11/07/2026 10:00 PM,2026-11-08T08:02:28.742016Z
-Beau Hossler,8500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44845310,11/08/2026 10:30 AM,2026-11-08T08:02:28.742022Z
-Bernd Wiesberger,8500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/718.png,479,44823468,11/07/2026 10:00 PM,2026-11-08T08:02:28.742027Z
-Zac Blair,8400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/614.png,530,44845311,11/08/2026 10:30 AM,2026-11-08T08:02:28.742032Z
-Ewen Ferguson,8400,Round 4,Showdown,,290967,44823469,11/07/2026 10:00 PM,2026-11-08T08:02:28.742037Z
-Sudarshan Yellamaraju,8300,Round 4,Showdown,,772264,44845312,11/08/2026 10:30 AM,2026-11-08T08:02:28.742042Z
-David Puig,8300,Round 4,Showdown,,756216,44823470,11/07/2026 10:00 PM,2026-11-08T08:02:28.742047Z
-Steven Fisk,8200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44845313,11/08/2026 10:30 AM,2026-11-08T08:02:28.742052Z
-Francesco Laporta,8200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/69807.png,259,44823471,11/07/2026 10:00 PM,2026-11-08T08:02:28.742059Z
-Denny McCarthy,8200,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44845637,11/08/2026 12:09 PM,2026-11-08T08:02:28.742066Z
-Max Greyserman,8100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44845314,11/08/2026 10:30 AM,2026-11-08T08:02:28.742071Z
-Sam Bairstow,8100,Round 4,Showdown,,722206,44823472,11/07/2026 10:00 PM,2026-11-08T08:02:28.742078Z
-Antoine Rozner,8000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60536.png,692778,44823473,11/07/2026 10:00 PM,2026-11-08T08:02:28.742085Z
-Jayden Trey Schaper,8000,Round 4,Showdown,,700083,44823474,11/07/2026 10:00 PM,2026-11-08T08:02:28.742090Z
-David Ford,8000,Late Round 4,Late Showdown,,773829,44845638,11/08/2026 12:09 PM,2026-11-08T08:02:28.742095Z
-Rico Hoey,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,44845316,11/08/2026 10:30 AM,2026-11-08T08:02:28.742100Z
-Trace Crowe,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,44845317,11/08/2026 10:30 AM,2026-11-08T08:02:28.742105Z
-Oliver Lindell,7900,Round 4,Showdown,,230887,44823475,11/07/2026 10:00 PM,2026-11-08T08:02:28.742110Z
-Joost Luiten,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/810.png,383,44823476,11/07/2026 10:00 PM,2026-11-08T08:02:28.742114Z
-Matthieu Pavon,7800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44845318,11/08/2026 10:30 AM,2026-11-08T08:02:28.742119Z
-Austin Eckroat,7800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1053.png,696563,44845319,11/08/2026 10:30 AM,2026-11-08T08:02:28.742124Z
-Martin Couvra,7800,Round 4,Showdown,,768104,44823477,11/07/2026 10:00 PM,2026-11-08T08:02:28.742129Z
-Angel Ayora Fanegas,7800,Round 4,Showdown,,768633,44823478,11/07/2026 10:00 PM,2026-11-08T08:02:28.742134Z
-Seamus Power,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44845320,11/08/2026 10:30 AM,2026-11-08T08:02:28.742139Z
-Nick Taylor,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/515.png,700,44845321,11/08/2026 10:30 AM,2026-11-08T08:02:28.742143Z
-Angel Hidalgo,7700,Round 4,Showdown,,670990,44823479,11/07/2026 10:00 PM,2026-11-08T08:02:28.742148Z
-Niklas Nørgaard Møller,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452233.png,690995,44823480,11/07/2026 10:00 PM,2026-11-08T08:02:28.742158Z
-Rasmus Neergaard-Petersen,7600,Round 4,Showdown,,720984,44845322,11/08/2026 10:30 AM,2026-11-08T08:02:28.742164Z
-Neal Shipley,7600,Round 4,Showdown,,793366,44845323,11/08/2026 10:30 AM,2026-11-08T08:02:28.742170Z
-Alejandro Del Rey,7600,Round 4,Showdown,,670992,44823481,11/07/2026 10:00 PM,2026-11-08T08:02:28.742175Z
-Yuto Katsuragawa,7600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/640541.png,764449,44823482,11/07/2026 10:00 PM,2026-11-08T08:02:28.742182Z
-Alvaro Ortiz,7600,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1055.png,694748,44845639,11/08/2026 12:09 PM,2026-11-08T08:02:28.742187Z
-Nacho Elvira,7500,Round 4,Showdown,,561,44823483,11/07/2026 10:00 PM,2026-11-08T08:02:28.742196Z
-Gregorio De Leo,7500,Round 4,Showdown,,753705,44823484,11/07/2026 10:00 PM,2026-11-08T08:02:28.742204Z
-John Parry,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44845326,11/08/2026 10:30 AM,2026-11-08T08:02:28.742209Z
-Peter Malnati,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/660.png,1210,44845327,11/08/2026 10:30 AM,2026-11-08T08:02:28.742214Z
-Joe Dean,7400,Round 4,Showdown,,544869,44823485,11/07/2026 10:00 PM,2026-11-08T08:02:28.742218Z
-Nathan Kimsey,7400,Round 4,Showdown,,345110,44823486,11/07/2026 10:00 PM,2026-11-08T08:02:28.742223Z
-Ben Silverman,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44845328,11/08/2026 10:30 AM,2026-11-08T08:02:28.742228Z
-Luke Clanton,7300,Round 4,Showdown,,796547,44845329,11/08/2026 10:30 AM,2026-11-08T08:02:28.742233Z
-Shaun Norris,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1193.png,861,44823487,11/07/2026 10:00 PM,2026-11-08T08:02:28.742238Z
-Andy Sullivan,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1091.png,1000,44823488,11/07/2026 10:00 PM,2026-11-08T08:02:28.742242Z
-Adrien Dumont De Chassart,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44845330,11/08/2026 10:30 AM,2026-11-08T08:02:28.742248Z
-Emiliano Grillo,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1085.png,610,44845331,11/08/2026 10:30 AM,2026-11-08T08:02:28.742253Z
-Francesco Molinari,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/772.png,1813,44823489,11/07/2026 10:00 PM,2026-11-08T08:02:28.742259Z
-Thriston Lawrence,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60537.png,1156,44823490,11/07/2026 10:00 PM,2026-11-08T08:02:28.742269Z
-Kensei Hirata,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,44845332,11/08/2026 10:30 AM,2026-11-08T08:02:28.742277Z
-Kevin Yu,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44845333,11/08/2026 10:30 AM,2026-11-08T08:02:28.742283Z
-Scott Jamieson,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1144.png,1138,44823491,11/07/2026 10:00 PM,2026-11-08T08:02:28.742288Z
-Adrian Otaegui,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1180.png,1125,44823492,11/07/2026 10:00 PM,2026-11-08T08:02:28.742293Z
-Erik Van Rooyen,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44845334,11/08/2026 10:30 AM,2026-11-08T08:02:28.742300Z
-Andrew Putnam,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/730.png,665,44845335,11/08/2026 10:30 AM,2026-11-08T08:02:28.742305Z
-Jeff Winther,7000,Round 4,Showdown,,581,44823493,11/07/2026 10:00 PM,2026-11-08T08:02:28.742310Z
-Joakim Lagergren,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1153.png,673,44823494,11/07/2026 10:00 PM,2026-11-08T08:02:28.742315Z
-Alejandro Tosti,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44845336,11/08/2026 10:30 AM,2026-11-08T08:02:28.742320Z
-Max McGreevy,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44845337,11/08/2026 10:30 AM,2026-11-08T08:02:28.742325Z
-Kevin Streelman,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44845338,11/08/2026 10:30 AM,2026-11-08T08:02:28.742330Z
-Tom Vaillant,6900,Round 4,Showdown,,768110,44823495,11/07/2026 10:00 PM,2026-11-08T08:02:28.742334Z
-Hennie Du Plessis,6900,Round 4,Showdown,,354076,44823496,11/07/2026 10:00 PM,2026-11-08T08:02:28.742342Z
-Lucas Glover,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/992.png,2158,44845339,11/08/2026 10:30 AM,2026-11-08T08:02:28.742346Z
-Chad Ramey,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/983.png,2119,44845340,11/08/2026 10:30 AM,2026-11-08T08:02:28.742351Z
-Rasmus Højgaard,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44845341,11/08/2026 10:30 AM,2026-11-08T08:02:28.742357Z
-Wenyi Ding,6800,Round 4,Showdown,,769378,44823497,11/07/2026 10:00 PM,2026-11-08T08:02:28.742362Z
-Marcus Armitage,6800,Round 4,Showdown,,344989,44823498,11/07/2026 10:00 PM,2026-11-08T08:02:28.742367Z
-Austin Hitt,6700,Round 4,Showdown,,774314,44845342,11/08/2026 10:30 AM,2026-11-08T08:02:28.742374Z
-Nick Dunlap,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,44845343,11/08/2026 10:30 AM,2026-11-08T08:02:28.742378Z
-Hao-Tong Li,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44845344,11/08/2026 10:30 AM,2026-11-08T08:02:28.742383Z
-Kota Kaneko,6700,Round 4,Showdown,,858837,44823499,11/07/2026 10:00 PM,2026-11-08T08:02:28.742388Z
-Frederic Lacroix,6700,Round 4,Showdown,,699576,44823500,11/07/2026 10:00 PM,2026-11-08T08:02:28.742393Z
-Jesper Svensson,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44845345,11/08/2026 10:30 AM,2026-11-08T08:02:28.742400Z
-Hayden Springer,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44845346,11/08/2026 10:30 AM,2026-11-08T08:02:28.742405Z
-Paul Peterson,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/960.png,1294,44845347,11/08/2026 10:30 AM,2026-11-08T08:02:28.742409Z
-Davis Bryant,6600,Round 4,Showdown,,819151,44823501,11/07/2026 10:00 PM,2026-11-08T08:02:28.742414Z
-JC Ritchie,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1157.png,1113,44823502,11/07/2026 10:00 PM,2026-11-08T08:02:28.742439Z
-Patrick Rodgers,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44845348,11/08/2026 10:30 AM,2026-11-08T08:02:28.742446Z
-Jeffrey Kang,6500,Round 4,Showdown,,762326,44845349,11/08/2026 10:30 AM,2026-11-08T08:02:28.742451Z
-Isaiah Salinda,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/67664.png,699174,44845350,11/08/2026 10:30 AM,2026-11-08T08:02:28.742455Z
-Calum Hill,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60387.png,671062,44823503,11/07/2026 10:00 PM,2026-11-08T08:02:28.742460Z
-Darius Van Driel,6500,Round 4,Showdown,,345213,44823504,11/07/2026 10:00 PM,2026-11-08T08:02:28.742466Z
-Julien Guerrier,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60414.png,1121,44823505,11/07/2026 10:00 PM,2026-11-08T08:02:28.742471Z
-Brice Garnett,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44845351,11/08/2026 10:30 AM,2026-11-08T08:02:28.742478Z
-David Skinns,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44845352,11/08/2026 10:30 AM,2026-11-08T08:02:28.742484Z
-Cameron Davis,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/578.png,330678,44845353,11/08/2026 10:30 AM,2026-11-08T08:02:28.742488Z
-Tony Finau,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44845354,11/08/2026 10:30 AM,2026-11-08T08:02:28.742493Z
-Stefano Mazzoli,6400,Round 4,Showdown,,122743,44823506,11/07/2026 10:00 PM,2026-11-08T08:02:28.742498Z
-Mikael Lindberg,6400,Round 4,Showdown,,769321,44823507,11/07/2026 10:00 PM,2026-11-08T08:02:28.742503Z
-Manuel Elvira,6400,Round 4,Showdown,,769413,44823508,11/07/2026 10:00 PM,2026-11-08T08:02:28.742507Z
-Jay Leng,6300,Round 4,Showdown,,892428,44845355,11/08/2026 10:30 AM,2026-11-08T08:02:28.742512Z
-Will Gordon,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44845356,11/08/2026 10:30 AM,2026-11-08T08:02:28.742517Z
-Ben Martin,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1125.png,2065,44845357,11/08/2026 10:30 AM,2026-11-08T08:02:28.742530Z
-Richard Sterne,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1118.png,636,44823509,11/07/2026 10:00 PM,2026-11-08T08:02:28.742535Z
-Jorge Campillo,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/910.png,1023,44823510,11/07/2026 10:00 PM,2026-11-08T08:02:28.742540Z
-Freddy Schott,6300,Round 4,Showdown,,721368,44823511,11/07/2026 10:00 PM,2026-11-08T08:02:28.742544Z
-Taylor Montgomery,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1024.png,697889,44845358,11/08/2026 10:30 AM,2026-11-08T08:02:28.742549Z
-David Lipsky,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/752.png,586,44845359,11/08/2026 10:30 AM,2026-11-08T08:02:28.742554Z
-Chandler Blanchet,6200,Round 4,Showdown,,703933,44845360,11/08/2026 10:30 AM,2026-11-08T08:02:28.742559Z
-Preston Stout,6200,Round 4,Showdown,,795134,44845361,11/08/2026 10:30 AM,2026-11-08T08:02:28.742564Z
-Michael Hollick,6200,Round 4,Showdown,,506,44823512,11/07/2026 10:00 PM,2026-11-08T08:02:28.742569Z
-Guido Migliozzi,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60583.png,987,44823513,11/07/2026 10:00 PM,2026-11-08T08:02:28.742574Z
-Ugo Coussaud,6200,Round 4,Showdown,,694555,44823514,11/07/2026 10:00 PM,2026-11-08T08:02:28.742579Z
-Tyler Duncan,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/599.png,1842,44845362,11/08/2026 10:30 AM,2026-11-08T08:02:28.742586Z
-John VanDerLaan,6100,Round 4,Showdown,,689877,44845363,11/08/2026 10:30 AM,2026-11-08T08:02:28.742591Z
-Patton Kizzire,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/592.png,856,44845364,11/08/2026 10:30 AM,2026-11-08T08:02:28.742596Z
-Adam Svensson,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44845365,11/08/2026 10:30 AM,2026-11-08T08:02:28.742602Z
-Dan Bradbury,6100,Round 4,Showdown,,766740,44823515,11/07/2026 10:00 PM,2026-11-08T08:02:28.742607Z
-Filippo Celli,6100,Round 4,Showdown,,753704,44823516,11/07/2026 10:00 PM,2026-11-08T08:02:28.742612Z
-Grant Forrest,6100,Round 4,Showdown,,1393,44823517,11/07/2026 10:00 PM,2026-11-08T08:02:28.742617Z
-Willie Mack,6000,Round 4,Showdown,,704902,44845366,11/08/2026 10:30 AM,2026-11-08T08:02:28.742621Z
-Marcelo Rozo,6000,Round 4,Showdown,,2083,44845367,11/08/2026 10:30 AM,2026-11-08T08:02:28.742628Z
-Tyler Collet,6000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/549844.png,705485,44845368,11/08/2026 10:30 AM,2026-11-08T08:02:28.742633Z
-Christo Lamprecht,6000,Round 4,Showdown,,670532,44845369,11/08/2026 10:30 AM,2026-11-08T08:02:28.742638Z
-Daniel Rodrigues,6000,Round 4,Showdown,,699770,44823518,11/07/2026 10:00 PM,2026-11-08T08:02:28.742642Z
-Ricardo Gouveia,6000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60234.png,414,44823519,11/07/2026 10:00 PM,2026-11-08T08:02:28.742647Z
-Yurav Premlall,6000,Round 4,Showdown,,692918,44823520,11/07/2026 10:00 PM,2026-11-08T08:02:28.742652Z
-Jordan Gumberg,6000,Round 4,Showdown,,690517,44823521,11/07/2026 10:00 PM,2026-11-08T08:02:28.742657Z
+Benjamin James,11100,Round 4,Showdown,,765775,44845295,11/08/2026 10:30 AM,2026-11-08T15:16:33.251760Z
+Ryan Gerard,11000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/645035.png,765444,44845296,11/08/2026 10:30 AM,2026-11-08T15:16:33.251776Z
+Blades Brown,10400,Round 4,Showdown,,795495,44845297,11/08/2026 10:30 AM,2026-11-08T15:16:33.251787Z
+Ben Griffin,10300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1029.png,692605,44845298,11/08/2026 10:30 AM,2026-11-08T15:16:33.251798Z
+Jackson Koivun,10200,Round 4,Showdown,,796535,44845299,11/08/2026 10:30 AM,2026-11-08T15:16:33.251804Z
+Ben Kohles,9900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,44845300,11/08/2026 10:30 AM,2026-11-08T15:16:33.251814Z
+Keith Mitchell,9700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,44845301,11/08/2026 10:30 AM,2026-11-08T15:16:33.251821Z
+Zachary Bauchou,9600,Late Round 4,Late Showdown,,689973,44845633,11/08/2026 12:09 PM,2026-11-08T15:16:33.251827Z
+Chris Kirk,9500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,44845302,11/08/2026 10:30 AM,2026-11-08T15:16:33.251832Z
+Harry Hall,9200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,44845303,11/08/2026 10:30 AM,2026-11-08T15:16:33.251838Z
+Jordan L. Smith,9000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/820.png,73498,44845305,11/08/2026 10:30 AM,2026-11-08T15:16:33.251850Z
+Stephan Jaeger,8900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/821.png,2044,44845306,11/08/2026 10:30 AM,2026-11-08T15:16:33.251855Z
+Pierceson Coody,8800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,44845307,11/08/2026 10:30 AM,2026-11-08T15:16:33.251860Z
+Michael Kim,8700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/597.png,1932,44845308,11/08/2026 10:30 AM,2026-11-08T15:16:33.251868Z
+Kris Ventura,8600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/560.png,682435,44845309,11/08/2026 10:30 AM,2026-11-08T15:16:33.251878Z
+Beau Hossler,8500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/646.png,1689,44845310,11/08/2026 10:30 AM,2026-11-08T15:16:33.251885Z
+Zac Blair,8400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/614.png,530,44845311,11/08/2026 10:30 AM,2026-11-08T15:16:33.251893Z
+Sudarshan Yellamaraju,8300,Round 4,Showdown,,772264,44845312,11/08/2026 10:30 AM,2026-11-08T15:16:33.251899Z
+Steven Fisk,8200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,44845313,11/08/2026 10:30 AM,2026-11-08T15:16:33.251905Z
+Denny McCarthy,8200,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/631.png,1018,44845637,11/08/2026 12:09 PM,2026-11-08T15:16:33.251910Z
+Max Greyserman,8100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,44845314,11/08/2026 10:30 AM,2026-11-08T15:16:33.251916Z
+David Ford,8000,Late Round 4,Late Showdown,,773829,44845638,11/08/2026 12:09 PM,2026-11-08T15:16:33.251925Z
+Rico Hoey,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/467626.png,700394,44845316,11/08/2026 10:30 AM,2026-11-08T15:16:33.251929Z
+Trace Crowe,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452008.png,560242,44845317,11/08/2026 10:30 AM,2026-11-08T15:16:33.251934Z
+Matthieu Pavon,7800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,44845318,11/08/2026 10:30 AM,2026-11-08T15:16:33.251939Z
+Austin Eckroat,7800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1053.png,696563,44845319,11/08/2026 10:30 AM,2026-11-08T15:16:33.251944Z
+Seamus Power,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/541.png,185304,44845320,11/08/2026 10:30 AM,2026-11-08T15:16:33.251949Z
+Nick Taylor,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/515.png,700,44845321,11/08/2026 10:30 AM,2026-11-08T15:16:33.251954Z
+Rasmus Neergaard-Petersen,7600,Round 4,Showdown,,720984,44845322,11/08/2026 10:30 AM,2026-11-08T15:16:33.251959Z
+Neal Shipley,7600,Round 4,Showdown,,793366,44845323,11/08/2026 10:30 AM,2026-11-08T15:16:33.251964Z
+Alvaro Ortiz,7600,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/1055.png,694748,44845639,11/08/2026 12:09 PM,2026-11-08T15:16:33.251969Z
+John Parry,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/450617.png,708,44845326,11/08/2026 10:30 AM,2026-11-08T15:16:33.251978Z
+Peter Malnati,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/660.png,1210,44845327,11/08/2026 10:30 AM,2026-11-08T15:16:33.251983Z
+Ben Silverman,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/830.png,2102,44845328,11/08/2026 10:30 AM,2026-11-08T15:16:33.251988Z
+Luke Clanton,7300,Round 4,Showdown,,796547,44845329,11/08/2026 10:30 AM,2026-11-08T15:16:33.251992Z
+Adrien Dumont De Chassart,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,44845330,11/08/2026 10:30 AM,2026-11-08T15:16:33.251999Z
+Emiliano Grillo,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1085.png,610,44845331,11/08/2026 10:30 AM,2026-11-08T15:16:33.252004Z
+Kensei Hirata,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,44845332,11/08/2026 10:30 AM,2026-11-08T15:16:33.252011Z
+Kevin Yu,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/681.png,671066,44845333,11/08/2026 10:30 AM,2026-11-08T15:16:33.252017Z
+Erik Van Rooyen,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/671.png,417,44845334,11/08/2026 10:30 AM,2026-11-08T15:16:33.252024Z
+Andrew Putnam,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/730.png,665,44845335,11/08/2026 10:30 AM,2026-11-08T15:16:33.252029Z
+Alejandro Tosti,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/525637.png,703982,44845336,11/08/2026 10:30 AM,2026-11-08T15:16:33.252036Z
+Max McGreevy,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,44845337,11/08/2026 10:30 AM,2026-11-08T15:16:33.252040Z
+Kevin Streelman,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/602.png,1554,44845338,11/08/2026 10:30 AM,2026-11-08T15:16:33.252045Z
+Lucas Glover,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/992.png,2158,44845339,11/08/2026 10:30 AM,2026-11-08T15:16:33.252050Z
+Chad Ramey,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/983.png,2119,44845340,11/08/2026 10:30 AM,2026-11-08T15:16:33.252055Z
+Rasmus Højgaard,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,44845341,11/08/2026 10:30 AM,2026-11-08T15:16:33.252064Z
+Austin Hitt,6700,Round 4,Showdown,,774314,44845342,11/08/2026 10:30 AM,2026-11-08T15:16:33.252072Z
+Nick Dunlap,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,44845343,11/08/2026 10:30 AM,2026-11-08T15:16:33.252077Z
+Hao-Tong Li,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,44845344,11/08/2026 10:30 AM,2026-11-08T15:16:33.252082Z
+Jesper Svensson,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,44845345,11/08/2026 10:30 AM,2026-11-08T15:16:33.252087Z
+Hayden Springer,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/626.png,77417,44845346,11/08/2026 10:30 AM,2026-11-08T15:16:33.252092Z
+Paul Peterson,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/960.png,1294,44845347,11/08/2026 10:30 AM,2026-11-08T15:16:33.252096Z
+Patrick Rodgers,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/574.png,1141,44845348,11/08/2026 10:30 AM,2026-11-08T15:16:33.252101Z
+Jeffrey Kang,6500,Round 4,Showdown,,762326,44845349,11/08/2026 10:30 AM,2026-11-08T15:16:33.252106Z
+Isaiah Salinda,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/67664.png,699174,44845350,11/08/2026 10:30 AM,2026-11-08T15:16:33.252111Z
+Brice Garnett,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/613.png,1832,44845351,11/08/2026 10:30 AM,2026-11-08T15:16:33.252116Z
+David Skinns,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451322.png,1902,44845352,11/08/2026 10:30 AM,2026-11-08T15:16:33.252121Z
+Cameron Davis,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/578.png,330678,44845353,11/08/2026 10:30 AM,2026-11-08T15:16:33.252125Z
+Tony Finau,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/808.png,2125,44845354,11/08/2026 10:30 AM,2026-11-08T15:16:33.252130Z
+Jay Leng,6300,Round 4,Showdown,,892428,44845355,11/08/2026 10:30 AM,2026-11-08T15:16:33.252139Z
+Will Gordon,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1041.png,697773,44845356,11/08/2026 10:30 AM,2026-11-08T15:16:33.252146Z
+Ben Martin,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1125.png,2065,44845357,11/08/2026 10:30 AM,2026-11-08T15:16:33.252151Z
+Taylor Montgomery,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1024.png,697889,44845358,11/08/2026 10:30 AM,2026-11-08T15:16:33.252157Z
+David Lipsky,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/752.png,586,44845359,11/08/2026 10:30 AM,2026-11-08T15:16:33.252162Z
+Chandler Blanchet,6200,Round 4,Showdown,,703933,44845360,11/08/2026 10:30 AM,2026-11-08T15:16:33.252167Z
+Preston Stout,6200,Round 4,Showdown,,795134,44845361,11/08/2026 10:30 AM,2026-11-08T15:16:33.252172Z
+Tyler Duncan,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/599.png,1842,44845362,11/08/2026 10:30 AM,2026-11-08T15:16:33.252179Z
+John VanDerLaan,6100,Round 4,Showdown,,689877,44845363,11/08/2026 10:30 AM,2026-11-08T15:16:33.252184Z
+Patton Kizzire,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/592.png,856,44845364,11/08/2026 10:30 AM,2026-11-08T15:16:33.252189Z
+Adam Svensson,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1054.png,689,44845365,11/08/2026 10:30 AM,2026-11-08T15:16:33.252194Z
+Willie Mack,6000,Round 4,Showdown,,704902,44845366,11/08/2026 10:30 AM,2026-11-08T15:16:33.252198Z
+Marcelo Rozo,6000,Round 4,Showdown,,2083,44845367,11/08/2026 10:30 AM,2026-11-08T15:16:33.252203Z
+Tyler Collet,6000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/549844.png,705485,44845368,11/08/2026 10:30 AM,2026-11-08T15:16:33.252208Z
+Christo Lamprecht,6000,Round 4,Showdown,,670532,44845369,11/08/2026 10:30 AM,2026-11-08T15:16:33.252213Z
