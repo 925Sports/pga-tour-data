@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: El Cardonal at Diamante | Updated: 11/8/2026, 7:55:21 PM",,,,,,,,,,,
+"Location: El Cardonal at Diamante | Updated: 11/9/2026, 3:55:18 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Sun Nov 8,12:00 AM,75.4,81,0,0,Mainly Clear,5,8.5,NW,20,82
-Sun Nov 8,1:00 AM,73.9,79.6,0,0,Clear,3.7,8.3,NNW,11,83
-Sun Nov 8,2:00 AM,73,78.3,0,0,Mainly Clear,3.8,6.7,N,36,84
-Sun Nov 8,3:00 AM,72.3,77.6,0,0,Mainly Clear,3.3,6.9,N,34,84
-Sun Nov 8,4:00 AM,71.9,77.1,0,0,Clear,2.8,6,NNE,17,84
-Sun Nov 8,5:00 AM,71.6,76.3,0,0,Clear,3.7,6.3,NE,6,84
-Sun Nov 8,6:00 AM,71.1,75.6,0,0,Clear,3.7,7.2,NE,5,85
-Sun Nov 8,7:00 AM,70.3,75.1,0,0,Clear,2.7,6.5,NNE,9,86
-Sun Nov 8,8:00 AM,70.6,75.2,0,0,Clear,3,6,NNE,7,84
-Sun Nov 8,9:00 AM,72.2,77.1,0,0,Clear,2.3,5.8,NE,10,80
-Sun Nov 8,10:00 AM,78,82.4,0,0,Clear,3.8,8.7,E,7,67
-Sun Nov 8,11:00 AM,81.2,84.6,0,0,Clear,4.8,12.3,E,7,58
-Sun Nov 8,12:00 PM,84.1,86.6,0,0,Clear,6.4,15.7,E,9,51
-Sun Nov 8,1:00 PM,85.2,89.5,0,0,Mainly Clear,6.8,19,SSE,41,53
-Sun Nov 8,2:00 PM,83.4,86.6,13,0,Partly Cloudy,7.3,17.7,SSE,61,57
-Sun Nov 8,3:00 PM,82.8,86.5,31,0.008,Light Drizzle,7,17.7,SSE,66,59
-Sun Nov 8,4:00 PM,82.8,86.6,45,0.016,Light Drizzle,6.3,17,SSE,49,59
-Sun Nov 8,5:00 PM,82.4,86.1,53,0.004,Light Drizzle,6,15.7,SSE,34,59
-Sun Nov 8,6:00 PM,82.4,85.9,58,0,Partly Cloudy,5.4,14.5,SSE,51,57
-Sun Nov 8,7:00 PM,79.9,83.8,57,0,Overcast,4.7,13,SSE,100,62
-Sun Nov 8,8:00 PM,78.4,83.7,48,0.008,Light Drizzle,3.1,10.7,SE,100,69
-Sun Nov 8,9:00 PM,78.6,84.6,33,0,Overcast,1.5,6.3,E,100,68
-Sun Nov 8,10:00 PM,78.5,84,20,0,Overcast,2.4,4.7,NNE,100,68
-Sun Nov 8,11:00 PM,77.8,82.8,12,0,Overcast,3.7,6.9,NNE,82,70
-Mon Nov 9,12:00 AM,77.3,82.4,6,0,Overcast,3.6,6.9,NNE,98,72
-Mon Nov 9,1:00 AM,76.8,82,2,0,Overcast,3.8,6.5,N,96,73
-Mon Nov 9,2:00 AM,76.5,80.8,0,0,Partly Cloudy,4.8,7.8,N,63,72
-Mon Nov 9,3:00 AM,75.6,78.9,0,0,Partly Cloudy,5,8.5,N,55,69
-Mon Nov 9,4:00 AM,75.1,78,0,0,Overcast,4.6,8.5,N,100,67
-Mon Nov 9,5:00 AM,74.7,78,0,0,Overcast,3,7.8,N,90,67
-Mon Nov 9,6:00 AM,73.9,77.5,0,0,Mainly Clear,2.4,5.6,N,29,68
-Mon Nov 9,7:00 AM,74.8,78.2,0,0,Mainly Clear,2.6,5.4,N,42,67
-Mon Nov 9,8:00 AM,74.2,77.9,0,0,Clear,2.3,5.1,N,17,68
-Mon Nov 9,9:00 AM,74.7,78.4,0,0,Clear,2.3,4.9,N,16,67
-Mon Nov 9,10:00 AM,79.9,83,0,0,Clear,2.6,6.9,ENE,16,55
-Mon Nov 9,11:00 AM,82.6,84.7,0,0,Clear,3.5,10.3,ESE,16,47
-Mon Nov 9,12:00 PM,84.8,86.1,0,0,Clear,4.5,13,SE,11,43
-Mon Nov 9,1:00 PM,86.2,87.4,0,0,Clear,6,15.7,SE,14,40
-Mon Nov 9,2:00 PM,86.3,87.6,1,0,Clear,7.2,17.9,SSE,16,41
-Mon Nov 9,3:00 PM,86.2,88.6,2,0,Partly Cloudy,7.2,18.1,S,66,45
-Mon Nov 9,4:00 PM,84.8,87.2,4,0,Partly Cloudy,8.1,18.8,SSW,70,50
-Mon Nov 9,5:00 PM,83.5,85.7,6,0,Partly Cloudy,8.6,19.7,SSW,65,55
-Mon Nov 9,6:00 PM,81.9,84,9,0,Partly Cloudy,8.1,19.2,SW,75,57
-Mon Nov 9,7:00 PM,80.6,83.4,10,0,Overcast,5.6,17.2,SW,100,58
-Mon Nov 9,8:00 PM,79.6,83.2,9,0,Overcast,3.6,11.9,SW,91,59
-Mon Nov 9,9:00 PM,79.3,83.5,8,0,Overcast,2.4,7.2,WNW,91,61
-Mon Nov 9,10:00 PM,78.9,83.7,6,0,Overcast,2.6,4.9,NNW,100,65
-Mon Nov 9,11:00 PM,78.2,83.7,5,0,Overcast,2.9,5.1,NNW,100,70
+Mon Nov 9,12:00 AM,77,82.9,9,0,Mainly Clear,2.6,6.5,ENE,35,74
+Mon Nov 9,1:00 AM,76.2,82.5,2,0,Clear,2.3,4.3,NE,11,77
+Mon Nov 9,2:00 AM,74.9,81.4,0,0,Clear,2.7,4.5,NNE,14,83
+Mon Nov 9,3:00 AM,74.1,79.9,1,0,Clear,3.6,6.3,NNE,8,83
+Mon Nov 9,4:00 AM,72.9,77.4,2,0,Clear,3.6,6.9,N,5,80
+Mon Nov 9,5:00 AM,71.7,75.6,1,0,Clear,3.3,6.9,NNE,2,78
+Mon Nov 9,6:00 AM,71.1,74.9,1,0,Clear,2.6,6.7,N,5,78
+Mon Nov 9,7:00 AM,71.5,75.5,0,0,Clear,1.6,5.8,N,10,75
+Mon Nov 9,8:00 AM,72.2,75.8,0,0,Clear,1.7,4.5,N,12,71
+Mon Nov 9,9:00 AM,73.4,76.3,0,0,Clear,2.5,5.1,NNE,9,66
+Mon Nov 9,10:00 AM,79.7,82,0,0,Clear,3.1,7.4,NE,0,52
+Mon Nov 9,11:00 AM,83.2,84.7,0,0,Clear,4.7,11.9,E,1,46
+Mon Nov 9,12:00 PM,85.6,87,0,0,Clear,5.9,14.5,ESE,2,44
+Mon Nov 9,1:00 PM,86.6,88.2,0,0,Clear,8.5,19.2,ESE,2,43
+Mon Nov 9,2:00 PM,87.5,89.9,1,0,Clear,8.5,20.1,ESE,18,43
+Mon Nov 9,3:00 PM,87.7,90.7,2,0,Partly Cloudy,7.8,19.9,SE,51,44
+Mon Nov 9,4:00 PM,86.3,89.6,4,0,Overcast,7.6,19.7,SSE,85,49
+Mon Nov 9,5:00 PM,84.8,87.8,7,0.004,Light Drizzle,6.1,18.1,SSE,92,52
+Mon Nov 9,6:00 PM,82.9,86.8,10,0.008,Light Drizzle,4.9,15,SSE,99,56
+Mon Nov 9,7:00 PM,80.9,85.9,12,0.008,Light Drizzle,3.3,12.3,SSE,88,63
+Mon Nov 9,8:00 PM,80,86,10,0,Overcast,1.2,8.3,SW,92,65
+Mon Nov 9,9:00 PM,79.6,85.8,7,0,Overcast,0.8,4.3,W,100,66
+Mon Nov 9,10:00 PM,79.3,85.3,4,0,Overcast,1.4,2.9,NNW,82,67
+Mon Nov 9,11:00 PM,78.1,84.7,3,0,Overcast,1.7,2.9,NW,91,73
+Tue Nov 10,12:00 AM,77.9,84.1,2,0,Partly Cloudy,3.4,5.6,NW,79,75
+Tue Nov 10,1:00 AM,77.5,83.7,2,0,Partly Cloudy,3.7,6.3,NW,71,77
+Tue Nov 10,2:00 AM,76.8,82.3,1,0,Overcast,4.9,8.1,NW,88,77
+Tue Nov 10,3:00 AM,76.6,81.4,1,0,Mainly Clear,5.6,9.8,NW,29,76
+Tue Nov 10,4:00 AM,75.5,80.4,0,0,Overcast,4.9,9.4,NW,96,78
+Tue Nov 10,5:00 AM,74.9,79.8,0,0,Overcast,4.5,8.1,NW,100,78
+Tue Nov 10,6:00 AM,74.8,79.5,0,0,Overcast,4.5,7.6,NNW,97,78
+Tue Nov 10,7:00 AM,73.6,78.5,0,0,Overcast,4,7.6,NNW,85,81
+Tue Nov 10,8:00 AM,72.9,77.7,0,0,Partly Cloudy,3.8,6.9,N,50,82
+Tue Nov 10,9:00 AM,73.7,78.3,0,0,Overcast,3.6,6.9,NNE,100,78
+Tue Nov 10,10:00 AM,79.5,83.9,0,0,Overcast,2.9,7.2,ENE,100,61
+Tue Nov 10,11:00 AM,82.2,85.2,0,0,Overcast,4,9.6,E,95,53
+Tue Nov 10,12:00 PM,84.3,86.5,0,0,Overcast,5.5,13.4,ESE,96,49
+Tue Nov 10,1:00 PM,85.6,87.6,0,0,Overcast,7.6,17.4,SE,88,48
+Tue Nov 10,2:00 PM,85.1,86.9,0,0,Overcast,7.7,18.1,SSE,100,49
+Tue Nov 10,3:00 PM,84.2,86.3,0,0,Overcast,7.8,18.1,SSE,98,52
+Tue Nov 10,4:00 PM,84.5,87,0,0,Overcast,7.4,18.1,S,100,53
+Tue Nov 10,5:00 PM,83.3,86.2,0,0,Overcast,7.4,17.7,SSW,99,56
+Tue Nov 10,6:00 PM,82.3,85.7,0,0,Overcast,6.7,16.6,SSW,98,59
+Tue Nov 10,7:00 PM,80.8,84.5,0,0,Overcast,6.1,14.8,SW,100,62
+Tue Nov 10,8:00 PM,79.7,83.9,0,0,Overcast,5.4,12.3,W,100,65
+Tue Nov 10,9:00 PM,78.7,83.3,0,0,Overcast,4.6,10.1,WNW,100,68
+Tue Nov 10,10:00 PM,78.1,83,0,0,Overcast,4.2,7.8,NW,100,70
+Tue Nov 10,11:00 PM,76.9,81.8,0,0,Overcast,4.2,7.2,NNW,100,73
