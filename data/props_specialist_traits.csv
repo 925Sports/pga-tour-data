@@ -1,1 +1,21 @@
-
+key,label,value,count,green,course_name,event_name
+designer,DESIGNER,TIGER WOODS,298,False,El Cardonal at Diamante,World Wide Technology Championship
+style,STYLE,SEASIDE,298,False,El Cardonal at Diamante,World Wide Technology Championship
+greens,GREENS,PASPALUM,298,True,El Cardonal at Diamante,World Wide Technology Championship
+fairways,FAIRWAYS,PASPALUM,298,False,El Cardonal at Diamante,World Wide Technology Championship
+length,LENGTH,LONG,298,False,El Cardonal at Diamante,World Wide Technology Championship
+par,PAR,72.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
+scoring,SCORING,EASY,298,False,El Cardonal at Diamante,World Wide Technology Championship
+weather,WEATHER,FAIR,298,False,El Cardonal at Diamante,World Wide Technology Championship
+type,TYPE,FULL,298,False,El Cardonal at Diamante,World Wide Technology Championship
+fairway_width,FAIRWAY WIDTH,WIDE,298,False,El Cardonal at Diamante,World Wide Technology Championship
+green_width,GREEN WIDTH,SMALL,298,True,El Cardonal at Diamante,World Wide Technology Championship
+green_speeds,GREEN SPEEDS,12.0,298,True,El Cardonal at Diamante,World Wide Technology Championship
+green_speeds_1,GREEN SPEEDS.1,NORMAL,298,True,El Cardonal at Diamante,World Wide Technology Championship
+rough_length,ROUGH LENGTH,SHORT,298,False,El Cardonal at Diamante,World Wide Technology Championship
+water_hazards,WATER HAZARDS,1.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
+rough_amount,ROUGH AMOUNT,LITTLE,298,False,El Cardonal at Diamante,World Wide Technology Championship
+bunkers,BUNKERS,48.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
+location,LOCATION,MEXICO,298,False,El Cardonal at Diamante,World Wide Technology Championship
+drainage,DRAINAGE,GOOD,298,False,El Cardonal at Diamante,World Wide Technology Championship
+rain,RAIN,NO,298,False,El Cardonal at Diamante,World Wide Technology Championship

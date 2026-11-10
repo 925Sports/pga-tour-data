@@ -1,21 +1,21 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,DONALD ROSS,986,False,SEDGEFIELD,Wyndham Championship
-style,STYLE,PARKLAND,987,False,SEDGEFIELD,Wyndham Championship
-greens,GREENS,BERMUDA,987,True,SEDGEFIELD,Wyndham Championship
-greens_2,GREENS (2),CHAMPION,987,True,SEDGEFIELD,Wyndham Championship
-fairways,FAIRWAYS,BERMUDA,987,False,SEDGEFIELD,Wyndham Championship
-length,LENGTH,NORMAL,987,False,SEDGEFIELD,Wyndham Championship
-par,PAR,70.0,987,False,SEDGEFIELD,Wyndham Championship
-scoring,SCORING,NORMAL,545,False,SEDGEFIELD,Wyndham Championship
-weather,WEATHER,GOOD,496,False,SEDGEFIELD,Wyndham Championship
-type,TYPE,FULL,987,False,SEDGEFIELD,Wyndham Championship
-fairway_width,FAIRWAY WIDTH,SMALL,987,False,SEDGEFIELD,Wyndham Championship
-green_width,GREEN WIDTH,SMALL,987,True,SEDGEFIELD,Wyndham Championship
-rough_length,ROUGH LENGTH,NORMAL,987,False,SEDGEFIELD,Wyndham Championship
-water_hazards,WATER HAZARDS,5.0,987,False,SEDGEFIELD,Wyndham Championship
-rough_amount,ROUGH AMOUNT,NORMAL,987,False,SEDGEFIELD,Wyndham Championship
-bunkers,BUNKERS,52.0,987,False,SEDGEFIELD,Wyndham Championship
-location,LOCATION,NORTH CAROLINA,987,False,SEDGEFIELD,Wyndham Championship
-redesigned,Redesigned,KRIS SPENCER,910,False,SEDGEFIELD,Wyndham Championship
-drainage,DRAINAGE,BAD,987,False,SEDGEFIELD,Wyndham Championship
-rain,RAIN,NO,910,False,SEDGEFIELD,Wyndham Championship
+designer,DESIGNER,DONALD ROSS,975,False,SEDGEFIELD,Wyndham Championship
+style,STYLE,PARKLAND,977,False,SEDGEFIELD,Wyndham Championship
+greens,GREENS,BERMUDA,977,True,SEDGEFIELD,Wyndham Championship
+greens_2,GREENS (2),CHAMPION,977,True,SEDGEFIELD,Wyndham Championship
+fairways,FAIRWAYS,BERMUDA,977,False,SEDGEFIELD,Wyndham Championship
+length,LENGTH,NORMAL,977,False,SEDGEFIELD,Wyndham Championship
+par,PAR,70.0,977,False,SEDGEFIELD,Wyndham Championship
+scoring,SCORING,NORMAL,550,False,SEDGEFIELD,Wyndham Championship
+weather,WEATHER,GOOD,484,False,SEDGEFIELD,Wyndham Championship
+type,TYPE,FULL,977,False,SEDGEFIELD,Wyndham Championship
+fairway_width,FAIRWAY WIDTH,SMALL,977,False,SEDGEFIELD,Wyndham Championship
+green_width,GREEN WIDTH,SMALL,977,True,SEDGEFIELD,Wyndham Championship
+rough_length,ROUGH LENGTH,NORMAL,977,False,SEDGEFIELD,Wyndham Championship
+water_hazards,WATER HAZARDS,5.0,977,False,SEDGEFIELD,Wyndham Championship
+rough_amount,ROUGH AMOUNT,NORMAL,977,False,SEDGEFIELD,Wyndham Championship
+bunkers,BUNKERS,52.0,977,False,SEDGEFIELD,Wyndham Championship
+location,LOCATION,NORTH CAROLINA,977,False,SEDGEFIELD,Wyndham Championship
+redesigned,Redesigned,KRIS SPENCER,903,False,SEDGEFIELD,Wyndham Championship
+drainage,DRAINAGE,BAD,977,False,SEDGEFIELD,Wyndham Championship
+rain,RAIN,NO,903,False,SEDGEFIELD,Wyndham Championship
