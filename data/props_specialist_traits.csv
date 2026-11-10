@@ -1,21 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,TIGER WOODS,298,False,El Cardonal at Diamante,World Wide Technology Championship
-style,STYLE,SEASIDE,298,False,El Cardonal at Diamante,World Wide Technology Championship
-greens,GREENS,PASPALUM,298,True,El Cardonal at Diamante,World Wide Technology Championship
-fairways,FAIRWAYS,PASPALUM,298,False,El Cardonal at Diamante,World Wide Technology Championship
-length,LENGTH,LONG,298,False,El Cardonal at Diamante,World Wide Technology Championship
-par,PAR,72.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
-scoring,SCORING,EASY,298,False,El Cardonal at Diamante,World Wide Technology Championship
-weather,WEATHER,FAIR,298,False,El Cardonal at Diamante,World Wide Technology Championship
-type,TYPE,FULL,298,False,El Cardonal at Diamante,World Wide Technology Championship
-fairway_width,FAIRWAY WIDTH,WIDE,298,False,El Cardonal at Diamante,World Wide Technology Championship
-green_width,GREEN WIDTH,SMALL,298,True,El Cardonal at Diamante,World Wide Technology Championship
-green_speeds,GREEN SPEEDS,12.0,298,True,El Cardonal at Diamante,World Wide Technology Championship
-green_speeds_1,GREEN SPEEDS.1,NORMAL,298,True,El Cardonal at Diamante,World Wide Technology Championship
-rough_length,ROUGH LENGTH,SHORT,298,False,El Cardonal at Diamante,World Wide Technology Championship
-water_hazards,WATER HAZARDS,1.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
-rough_amount,ROUGH AMOUNT,LITTLE,298,False,El Cardonal at Diamante,World Wide Technology Championship
-bunkers,BUNKERS,48.0,298,False,El Cardonal at Diamante,World Wide Technology Championship
-location,LOCATION,MEXICO,298,False,El Cardonal at Diamante,World Wide Technology Championship
-drainage,DRAINAGE,GOOD,298,False,El Cardonal at Diamante,World Wide Technology Championship
-rain,RAIN,NO,298,False,El Cardonal at Diamante,World Wide Technology Championship
+designer,DESIGNER,TOM FAZIO,774,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+style,STYLE,PARKLAND,1193,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+greens,GREENS,BERMUDA,1096,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+greens_2,GREENS (2),TIFEAGLE,972,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+fairways,FAIRWAYS,BERMUDA,1241,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+length,LENGTH,NORMAL,1624,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+par,PAR,71.0,1389,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+scoring,SCORING,EASY,1050,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+weather,WEATHER,GOOD,857,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+type,TYPE,FULL,2292,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+fairway_width,FAIRWAY WIDTH,WIDE,1320,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+green_width,GREEN WIDTH,SMALL,2141,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+green_speeds,GREEN SPEEDS,12.0,1173,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+green_speeds_1,GREEN SPEEDS.1,NORMAL,1173,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+rough_length,ROUGH LENGTH,THICK,1297,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+water_hazards,WATER HAZARDS,8.0,624,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+rough_amount,ROUGH AMOUNT,NORMAL,972,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+bunkers,BUNKERS,74.0,684,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+location,LOCATION,FLORIDA,972,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+redesigned,Redesigned,JACK NICKLAUS,288,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+drainage,DRAINAGE,GOOD,684,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+rain,RAIN,NO,2258,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions

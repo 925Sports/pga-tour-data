@@ -1,187 +1,205 @@
 {
-  "course_name": "El Cardonal at Diamante",
-  "event_name": "World Wide Technology Championship",
-  "trait_sig": "DESIGNER:TIGER WOODS | STYLE:SEASIDE | GREENS:PASPALUM | FAIRWAYS:PASPALUM | LENGTH:LONG | PAR:72.0 | SCORING:EASY | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:WIDE | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:SHORT | WATER HAZARDS:1.0 | ROUGH AMOUNT:LITTLE | BUNKERS:48.0 | LOCATION:MEXICO | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+  "event_name": "Austin Championship presented by Compliance Solutions",
+  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:EASY | WEATHER:GOOD | TYPE:FULL | FAIRWAY WIDTH:WIDE | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "TIGER WOODS",
-      "count": 298,
+      "value": "TOM FAZIO",
+      "count": 774,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "style",
       "label": "STYLE",
-      "value": "SEASIDE",
-      "count": 298,
+      "value": "PARKLAND",
+      "count": 1193,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "greens",
       "label": "GREENS",
-      "value": "PASPALUM",
-      "count": 298,
+      "value": "BERMUDA",
+      "count": 1096,
       "green": true,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
+    },
+    {
+      "key": "greens_2",
+      "label": "GREENS (2)",
+      "value": "TIFEAGLE",
+      "count": 972,
+      "green": true,
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
-      "value": "PASPALUM",
-      "count": 298,
+      "value": "BERMUDA",
+      "count": 1241,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "length",
       "label": "LENGTH",
-      "value": "LONG",
-      "count": 298,
+      "value": "NORMAL",
+      "count": 1624,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "par",
       "label": "PAR",
-      "value": "72.0",
-      "count": 298,
+      "value": "71.0",
+      "count": 1389,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "scoring",
       "label": "SCORING",
       "value": "EASY",
-      "count": 298,
+      "count": 1050,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "weather",
       "label": "WEATHER",
-      "value": "FAIR",
-      "count": 298,
+      "value": "GOOD",
+      "count": 857,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 298,
+      "count": 2292,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "WIDE",
-      "count": 298,
+      "count": 1320,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 298,
+      "count": 2141,
       "green": true,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "12.0",
-      "count": 298,
+      "count": 1173,
       "green": true,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 298,
+      "count": 1173,
       "green": true,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
-      "value": "SHORT",
-      "count": 298,
+      "value": "THICK",
+      "count": 1297,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "1.0",
-      "count": 298,
+      "value": "8.0",
+      "count": 624,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
-      "value": "LITTLE",
-      "count": 298,
+      "value": "NORMAL",
+      "count": 972,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "48.0",
-      "count": 298,
+      "value": "74.0",
+      "count": 684,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "MEXICO",
-      "count": 298,
+      "value": "FLORIDA",
+      "count": 972,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
+    },
+    {
+      "key": "redesigned",
+      "label": "Redesigned",
+      "value": "JACK NICKLAUS",
+      "count": 288,
+      "green": false,
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 298,
+      "count": 684,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 298,
+      "count": 2258,
       "green": false,
-      "course_name": "El Cardonal at Diamante",
-      "event_name": "World Wide Technology Championship"
+      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+      "event_name": "Austin Championship presented by Compliance Solutions"
     }
   ],
   "field_avgs": {
