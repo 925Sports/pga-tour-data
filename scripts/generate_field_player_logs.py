@@ -31,7 +31,12 @@ def load_all_logs() -> pd.DataFrame:
             path = DATA_DIR / f"pga_tour_player_logs_{year}_{t}.csv"
             if path.exists():
                 print(f"Loading {path.name}...")
-                frames.append(pd.read_csv(path, low_memory=False))
+                try:
+                    df = pd.read_csv(path, low_memory=False, encoding="utf-8")
+                except UnicodeDecodeError:
+                    print(f"  UTF-8 failed for {path.name}, retrying with latin1...")
+                    df = pd.read_csv(path, low_memory=False, encoding="latin1")
+                frames.append(df)
             else:
                 print(f"Skipping missing file: {path.name}")
     if not frames:
