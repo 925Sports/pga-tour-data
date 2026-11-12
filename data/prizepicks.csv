@@ -1,10 +1,4 @@
 Source,Sport,Player ID,Player Name,Position,Team,Stat Type,Line Score,Adjusted Odds,Implied Probability,Date,Start Time (CST),Status,League,Odds Type,Headshot URL,Data ID
-PrizePicks,PGA,267345,David Ford,G,D.Ford,Holes Played,36.5,TRUE,N/A,2026-11-12,6:46 AM,pre_game,PGA,goblin,https://static.prizepicks.com/images/manual/DFord.png,16872492
-PrizePicks,PGA,267276,David Ford,G,David Ford,Strokes,69,N/A,N/A,2026-11-12,1:33 AM,pre_game,PGA,standard,https://static.prizepicks.com/images/manual/DFord.png,16869392
-PrizePicks,PGA,267276,David Ford,G,David Ford,Pars,10.5,N/A,N/A,2026-11-12,1:33 AM,pre_game,PGA,standard,https://static.prizepicks.com/images/manual/DFord.png,16869443
-PrizePicks,PGA,267276,David Ford,G,David Ford,Birdies Or Better,5,N/A,N/A,2026-11-12,1:33 AM,pre_game,PGA,standard,https://static.prizepicks.com/images/manual/DFord.png,16869364
-PrizePicks,PGA,267276,David Ford,G,David Ford,Birdies Or Better,4.5,TRUE,N/A,2026-11-12,1:33 AM,pre_game,PGA,goblin,https://static.prizepicks.com/images/manual/DFord.png,16895233
-PrizePicks,PGA,267276,David Ford,G,David Ford,Bogeys or Worse,2,N/A,N/A,2026-11-12,1:33 AM,pre_game,PGA,standard,https://static.prizepicks.com/images/manual/DFord.png,16869422
 PrizePicks,EUROGOLF,153021,Aaron Rai,G,Aaron Rai,Birdies Or Better,4,N/A,N/A,2026-11-12,4:35 PM,pre_game,EUROGOLF,standard,"https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_1.5,f_auto,g_face:center,h_350,q_auto,w_280/headshots_46414.png",16927338
 PrizePicks,EUROGOLF,153021,Aaron Rai,G,Aaron Rai,Strokes,71,N/A,N/A,2026-11-12,4:35 PM,pre_game,EUROGOLF,standard,"https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_1.5,f_auto,g_face:center,h_350,q_auto,w_280/headshots_46414.png",16927305
 PrizePicks,EUROGOLF,88259,Tommy Fleetwood,G,Tommy Fleetwood,Strokes,70.5,N/A,N/A,2026-11-12,4:35 PM,pre_game,EUROGOLF,standard,https://static.prizepicks.com/images/players/golf/Tommy_Fleetwood_6577ec3d-9e78-4979-8f4c-01c465fa6b1d.webp,16927335
