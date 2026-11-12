@@ -1,5 +1,5 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Fazio Canyons (Barton Creek) | Updated: 11/11/2026, 1:55:32 PM",,,,,,,,,,,
+"Location: Fazio Canyons (Barton Creek) | Updated: 11/11/2026, 7:55:20 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Wed Nov 11,12:00 AM,62,65,0,0,Overcast,1.4,7.6,SSW,100,95
@@ -15,38 +15,38 @@ Wed Nov 11,9:00 AM,61.1,64.4,0,0,Partly Cloudy,0.4,1.1,E,50,97
 Wed Nov 11,10:00 AM,64.5,65.3,0,0,Overcast,6.7,9.2,NW,100,87
 Wed Nov 11,11:00 AM,64.4,64.6,0,0,Overcast,8.1,10.1,NW,100,87
 Wed Nov 11,12:00 PM,67.9,70.7,0,0,Partly Cloudy,5.2,6.7,NNW,62,87
-Wed Nov 11,1:00 PM,68.7,70.2,0,0,Partly Cloudy,7.4,8.9,NW,58,82
-Wed Nov 11,2:00 PM,71,72.9,0,0,Mainly Clear,6.7,8.1,NNW,32,74
-Wed Nov 11,3:00 PM,72.1,73.2,0,0,Mainly Clear,7.4,8.7,NNW,26,71
-Wed Nov 11,4:00 PM,72.8,74,0,0,Mainly Clear,6.4,7.6,NW,39,67
-Wed Nov 11,5:00 PM,72.7,73.3,0,0,Overcast,7.4,9.2,NW,100,66
-Wed Nov 11,6:00 PM,70.9,71.4,0,0,Clear,6.7,10.3,NW,1,68
-Wed Nov 11,7:00 PM,66.9,68.1,0,0,Partly Cloudy,4.9,8.7,WNW,55,78
-Wed Nov 11,8:00 PM,64.8,65.8,0,0,Clear,5,11.9,WNW,19,82
-Wed Nov 11,9:00 PM,64.1,65,0,0,Clear,6.2,11.9,NW,1,88
-Wed Nov 11,10:00 PM,62.4,63.4,0,0,Clear,5.3,11.4,NW,0,91
-Wed Nov 11,11:00 PM,61.3,62.3,0,0,Clear,4.6,11,WNW,2,92
-Thu Nov 12,12:00 AM,60.3,60.9,0,0,Clear,4.8,11,WNW,2,92
-Thu Nov 12,1:00 AM,59.8,60.1,0,0,Clear,5.1,11.6,NW,3,92
-Thu Nov 12,2:00 AM,59.5,59.2,0,0,Clear,6.5,13.4,NW,3,93
-Thu Nov 12,3:00 AM,59.4,58.5,0,0,Clear,7.9,14.1,NW,6,93
-Thu Nov 12,4:00 AM,58.7,58.1,0,0,Clear,6.5,12.3,NW,4,93
-Thu Nov 12,5:00 AM,57.8,56.8,0,0,Clear,6.4,11,NW,6,92
-Thu Nov 12,6:00 AM,56.7,55.4,0,0,Clear,5.6,8.9,NW,2,89
-Thu Nov 12,7:00 AM,55.6,53.2,0,0,Clear,6.3,10.3,NNW,1,84
-Thu Nov 12,8:00 AM,54.2,51.5,0,0,Clear,5.6,9.2,NW,0,82
-Thu Nov 12,9:00 AM,56.6,54.7,0,0,Clear,4.8,8.1,NW,0,79
-Thu Nov 12,10:00 AM,61.3,58.7,0,0,Clear,5.8,11.4,N,0,65
-Thu Nov 12,11:00 AM,66.2,63.2,0,0,Clear,5.7,15.4,NNE,0,51
-Thu Nov 12,12:00 PM,69.7,66.8,0,0,Clear,6,12.3,NNE,0,43
-Thu Nov 12,1:00 PM,72.3,70.2,0,0,Clear,6.1,10.1,NNE,0,39
-Thu Nov 12,2:00 PM,73.7,71.4,0,0,Clear,6.8,10.1,N,0,37
-Thu Nov 12,3:00 PM,74,70.7,0,0,Clear,7.8,10.3,N,0,37
-Thu Nov 12,4:00 PM,74,69.5,0,0,Clear,7.9,13,N,0,36
-Thu Nov 12,5:00 PM,73,68.3,0,0,Clear,8.1,12.5,N,0,37
-Thu Nov 12,6:00 PM,70.7,67.8,0,0,Clear,5.1,10.1,N,0,43
-Thu Nov 12,7:00 PM,66,63.3,0,0,Clear,3.7,4.7,NNW,0,48
-Thu Nov 12,8:00 PM,62.6,60.4,0,0,Clear,4.6,6.5,WNW,0,61
-Thu Nov 12,9:00 PM,60.8,58.7,0,0,Clear,4.5,6.5,W,0,66
-Thu Nov 12,10:00 PM,59.5,56.7,0,0,Clear,5.8,6.9,WSW,0,67
-Thu Nov 12,11:00 PM,57.9,55.5,0,0,Clear,5.3,7.6,WSW,0,73
+Wed Nov 11,1:00 PM,70.7,73.2,0,0,Mainly Clear,5.3,5.8,NNW,32,77
+Wed Nov 11,2:00 PM,72.4,75.8,0,0,Mainly Clear,5,6,NNW,29,77
+Wed Nov 11,3:00 PM,74.5,76.9,0,0,Partly Cloudy,3.8,4.7,NNW,69,63
+Wed Nov 11,4:00 PM,74.4,77.6,0,0,Mainly Clear,4.1,5.6,NW,36,69
+Wed Nov 11,5:00 PM,75.8,76.5,0,0,Clear,5.3,7.4,NW,6,56
+Wed Nov 11,6:00 PM,75.1,76.4,0,0,Mainly Clear,2.4,7.2,NW,25,54
+Wed Nov 11,7:00 PM,71.4,72.2,0,0,Clear,2.8,5.1,NW,5,59
+Wed Nov 11,8:00 PM,68.9,69.5,0,0,Clear,3.9,3.8,WSW,0,65
+Wed Nov 11,9:00 PM,67,67.2,0,0,Clear,4.4,4.5,SW,0,69
+Wed Nov 11,10:00 PM,65.8,65,0,0,Clear,5.5,5.4,WSW,0,68
+Wed Nov 11,11:00 PM,64,63.4,0,0,Clear,5.4,6.9,W,0,73
+Thu Nov 12,12:00 AM,62.8,62.6,0,0,Clear,4.7,8.5,WNW,0,77
+Thu Nov 12,1:00 AM,61.7,61.4,0,0,Clear,4.9,9.6,WNW,0,81
+Thu Nov 12,2:00 AM,61,60.5,0,0,Clear,5.3,11.2,WNW,0,82
+Thu Nov 12,3:00 AM,59.9,59.5,0,0,Clear,5.1,11.6,NW,0,85
+Thu Nov 12,4:00 AM,59.1,58.7,0,0,Clear,5.2,11.2,NW,0,88
+Thu Nov 12,5:00 AM,58.5,58,0,0,Clear,5.2,10.1,NW,2,89
+Thu Nov 12,6:00 AM,57.9,56.9,0,0,Clear,5.8,8.9,NNW,1,89
+Thu Nov 12,7:00 AM,57.1,55.6,0,0,Clear,5.6,8.1,NW,1,86
+Thu Nov 12,8:00 AM,55.7,53.6,0,0,Clear,5.6,7.8,NW,0,83
+Thu Nov 12,9:00 AM,58.1,57.3,0,0,Clear,4,7.6,NW,0,82
+Thu Nov 12,10:00 AM,63.3,62.3,0,0,Clear,4.5,7.2,NNW,0,69
+Thu Nov 12,11:00 AM,66.9,65.6,0,0,Clear,3.8,11.6,N,0,57
+Thu Nov 12,12:00 PM,70,69.4,0,0,Clear,3.2,11.2,N,0,49
+Thu Nov 12,1:00 PM,71.9,71.7,0,0,Clear,4.1,10.7,N,0,45
+Thu Nov 12,2:00 PM,74.1,73.6,0,0,Clear,4.3,9.8,N,0,40
+Thu Nov 12,3:00 PM,75.2,72.9,0,0,Clear,5.7,11,NNW,0,36
+Thu Nov 12,4:00 PM,75.6,70.8,0,0,Clear,7.2,10.5,N,0,31
+Thu Nov 12,5:00 PM,74.5,69.6,0,0,Clear,7.4,10.5,N,0,32
+Thu Nov 12,6:00 PM,71.6,68.7,0,0,Clear,3.8,7.8,N,0,38
+Thu Nov 12,7:00 PM,66.9,63.9,0,0,Clear,4.5,5.1,WNW,0,47
+Thu Nov 12,8:00 PM,63.5,61.2,0,0,Clear,5.6,8.9,W,0,62
+Thu Nov 12,9:00 PM,61.6,58.5,0,0,Clear,5.4,8.9,W,0,59
+Thu Nov 12,10:00 PM,59.6,56.7,0,0,Clear,4.7,9.2,WSW,0,62
+Thu Nov 12,11:00 PM,58.1,56,0,0,Clear,3.7,9.2,WSW,0,69
