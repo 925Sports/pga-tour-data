@@ -1,5 +1,5 @@
-Austin Championship pres. by Compliance Solutions – Hourly Weather Forecast,,,,,,,,,,,
-"Location: Fazio Canyons (Barton Creek) | Updated: 11/13/2026, 9:55:36 AM",,,,,,,,,,,
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: Fazio Canyons (Barton Creek) | Updated: 11/13/2026, 10:55:19 AM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Fri Nov 13,12:00 AM,55.4,53.1,0,0,Clear,3.6,6.7,SW,0,73
@@ -48,5 +48,5 @@ Sat Nov 14,6:00 PM,63.5,61.4,7,0,Overcast,6.9,14.3,ESE,100,68
 Sat Nov 14,7:00 PM,62.4,61.6,7,0,Overcast,5.7,16.1,ESE,100,77
 Sat Nov 14,8:00 PM,60.8,58.5,14,0,Overcast,9.5,20.6,ESE,99,82
 Sat Nov 14,9:00 PM,60.1,57.8,13,0.016,Light Drizzle,9.1,21.3,ESE,100,83
-Sat Nov 14,10:00 PM,59.1,55.7,53,0,Overcast,11.5,24.4,ESE,100,85
+Sat Nov 14,10:00 PM,59.1,55.7,43,0,Overcast,11.5,24.4,ESE,100,85
 Sat Nov 14,11:00 PM,58.6,55.8,53,0,Overcast,9.2,25.5,SE,100,83
