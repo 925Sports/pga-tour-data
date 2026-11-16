@@ -1,52 +1,52 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Fazio Canyons (Barton Creek) | Updated: 11/15/2026, 1:55:20 AM",,,,,,,,,,,
+Austin Championship pres. by Compliance Solutions – Hourly Weather Forecast,,,,,,,,,,,
+"Location: Fazio Canyons (Barton Creek) | Updated: 11/15/2026, 7:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Sun Nov 15,12:00 AM,53.5,51.7,19,0,Overcast,5.8,15,ESE,100,96
-Sun Nov 15,1:00 AM,53.1,50.3,15,0,Overcast,7.8,14.3,ESE,100,95
-Sun Nov 15,2:00 AM,52.7,48.6,18,0,Overcast,10.1,20.4,ESE,100,93
-Sun Nov 15,3:00 AM,52,47.2,13,0,Overcast,10.8,23.5,ESE,100,89
-Sun Nov 15,4:00 AM,51.8,47,11,0,Overcast,10,23.9,SE,100,85
-Sun Nov 15,5:00 AM,51.8,47.3,12,0,Overcast,9.5,24.6,ESE,100,86
-Sun Nov 15,6:00 AM,52,47.7,19,0,Overcast,8.9,24.2,ESE,100,86
-Sun Nov 15,7:00 AM,51.8,47.2,21,0,Overcast,9.9,24.4,ESE,100,88
-Sun Nov 15,8:00 AM,51.9,47.2,26,0,Overcast,10.8,25.1,SE,100,91
-Sun Nov 15,9:00 AM,52.8,49.3,39,0,Overcast,8.4,24.2,ESE,100,90
-Sun Nov 15,10:00 AM,51.6,48,82,1.177,Heavy Rain,9,14.1,NNW,100,97
-Sun Nov 15,11:00 AM,51.5,46.8,85,0.638,Heavy Rain,11.5,18.6,ENE,100,97
-Sun Nov 15,12:00 PM,51.4,46.9,83,0,Overcast,10.9,19.5,NE,100,96
-Sun Nov 15,1:00 PM,51.8,48.6,62,0,Overcast,7.8,13.4,NE,100,95
-Sun Nov 15,2:00 PM,52.9,48.8,37,0,Overcast,10.8,16.3,NE,100,94
-Sun Nov 15,3:00 PM,52.3,48.4,20,0.043,Dense Drizzle,9.8,16.8,NNE,100,95
-Sun Nov 15,4:00 PM,51.9,48.5,17,0,Overcast,8.4,15.2,NE,100,94
-Sun Nov 15,5:00 PM,51.8,48.5,15,0,Overcast,8.1,13.4,ENE,100,94
-Sun Nov 15,6:00 PM,51.5,48.4,3,0,Overcast,7.4,12.8,NE,100,95
-Sun Nov 15,7:00 PM,53,50.3,2,0,Overcast,7.6,13.9,NE,100,95
-Sun Nov 15,8:00 PM,52.7,49.4,1,0,Overcast,8.8,17,NE,100,96
-Sun Nov 15,9:00 PM,52.4,48.6,1,0,Overcast,9.6,18.8,NE,100,94
-Sun Nov 15,10:00 PM,51.7,47.7,1,0,Overcast,9.7,19.2,NE,100,95
-Sun Nov 15,11:00 PM,51.1,47.1,1,0,Overcast,9.2,19.2,NE,100,94
-Mon Nov 16,12:00 AM,50.8,46.7,1,0.016,Light Drizzle,9.3,20.6,NE,100,95
-Mon Nov 16,1:00 AM,50.9,46.6,1,0,Overcast,9.5,19.9,NE,100,94
-Mon Nov 16,2:00 AM,50.6,46.2,1,0,Overcast,9.5,19,NE,100,93
-Mon Nov 16,3:00 AM,49.8,45.2,1,0,Overcast,10,18.1,NE,100,96
-Mon Nov 16,4:00 AM,49.5,45,1,0,Overcast,9.4,16.8,NNE,100,94
-Mon Nov 16,5:00 AM,49.2,44.5,1,0,Overcast,9.8,17.9,NNE,100,94
-Mon Nov 16,6:00 AM,48.7,43.9,1,0,Overcast,9.5,17,NNE,100,94
-Mon Nov 16,7:00 AM,48.7,44.5,1,0,Overcast,7.8,15.4,NNE,100,93
-Mon Nov 16,8:00 AM,48.4,44,1,0,Overcast,8.6,16.3,NNE,100,94
-Mon Nov 16,9:00 AM,48.5,44,1,0,Overcast,8.8,16.1,NNE,100,94
-Mon Nov 16,10:00 AM,48.6,44.2,1,0,Overcast,8.6,15.9,NNE,100,95
-Mon Nov 16,11:00 AM,49,44.8,1,0,Overcast,7.9,14.3,NNE,100,93
-Mon Nov 16,12:00 PM,49.6,45.5,1,0,Overcast,7.9,12.1,NNE,100,92
-Mon Nov 16,1:00 PM,50.2,45.7,1,0,Overcast,9,13.4,NNE,100,89
-Mon Nov 16,2:00 PM,50.9,46.5,6,0,Overcast,8.8,13,NE,100,87
-Mon Nov 16,3:00 PM,51,46.2,6,0,Overcast,9.4,13,NNE,100,85
-Mon Nov 16,4:00 PM,49.8,44.9,6,0,Overcast,7.9,14.1,NNE,100,81
-Mon Nov 16,5:00 PM,50.8,46.2,6,0,Overcast,7.7,13.7,NNE,100,81
-Mon Nov 16,6:00 PM,51.7,47.4,6,0,Overcast,7.1,14,SSW,100,77
-Mon Nov 16,7:00 PM,52.5,48,6,0,Partly Cloudy,7.2,13.1,ESE,92,74
-Mon Nov 16,8:00 PM,53.5,48.7,1,0,Overcast,7.1,12.3,NE,100,67
-Mon Nov 16,9:00 PM,53.7,49.3,1,0,Overcast,5.9,12.1,NE,100,65
-Mon Nov 16,10:00 PM,54.2,50,1,0,Overcast,5.1,10.7,NE,100,63
-Mon Nov 16,11:00 PM,54.4,50.5,1,0,Overcast,4.5,7.8,NE,100,62
+Sun Nov 15,1:00 AM,52.8,50.8,15,0,Overcast,6.1,11.2,E,100,96
+Sun Nov 15,2:00 AM,53,49.8,18,0,Overcast,8.7,19.7,ESE,100,95
+Sun Nov 15,3:00 AM,51.9,48.3,12,0,Overcast,8.7,21,ESE,100,93
+Sun Nov 15,4:00 AM,52.2,48.1,12,0.016,Light Drizzle,10,24.2,ESE,100,93
+Sun Nov 15,5:00 AM,52.2,48.5,9,0,Overcast,9.1,23.5,ESE,100,94
+Sun Nov 15,6:00 AM,52,49.1,9,0,Overcast,7.2,22.1,ESE,100,94
+Sun Nov 15,7:00 AM,52.7,49.8,16,0,Overcast,7.9,24.8,ESE,100,95
+Sun Nov 15,8:00 AM,53.6,52.4,21,0,Overcast,4,16.1,ENE,100,93
+Sun Nov 15,9:00 AM,52.5,48.8,31,0.228,Moderate Rain,10,15,NNW,100,98
+Sun Nov 15,10:00 AM,51.6,48.8,86,0.126,Moderate Rain,7.2,14.5,N,100,97
+Sun Nov 15,11:00 AM,52.7,51,90,0,Overcast,5.5,13.6,ENE,100,97
+Sun Nov 15,12:00 PM,52.6,48.7,75,0.114,Moderate Rain,10.3,18.6,NE,100,96
+Sun Nov 15,1:00 PM,53.8,52,70,0.071,Slight Rain,6.5,13,ENE,100,97
+Sun Nov 15,2:00 PM,53.4,52.5,63,0.169,Moderate Rain,3.8,13.4,NE,100,97
+Sun Nov 15,3:00 PM,53.8,52.4,27,0.055,Slight Rain,5.7,13.6,ENE,100,98
+Sun Nov 15,4:00 PM,53.1,51.1,15,0,Overcast,6.7,11,ENE,100,98
+Sun Nov 15,5:00 PM,53,50.1,1,0,Overcast,7.9,13.2,NE,100,94
+Sun Nov 15,6:00 PM,51.5,48.5,1,0,Overcast,7.4,12.1,NE,100,96
+Sun Nov 15,7:00 PM,51.5,48.2,1,0,Overcast,8,14.5,NE,100,96
+Sun Nov 15,8:00 PM,51.4,48.1,2,0,Overcast,8.1,16.8,NE,100,96
+Sun Nov 15,9:00 PM,51.6,48.6,5,0,Overcast,7.1,15.2,NE,100,94
+Sun Nov 15,10:00 PM,51.8,49.2,5,0.016,Light Drizzle,6.8,14.8,NE,100,96
+Sun Nov 15,11:00 PM,51.8,48.1,3,0,Overcast,9.3,18.1,NE,100,96
+Mon Nov 16,12:00 AM,50.8,45.9,3,0.016,Light Drizzle,11.1,20.1,NE,100,95
+Mon Nov 16,1:00 AM,49.8,45.3,6,0,Overcast,9.3,17.2,NNE,100,94
+Mon Nov 16,2:00 AM,49.6,45.1,9,0,Overcast,9.3,17.9,NE,100,93
+Mon Nov 16,3:00 AM,49.1,44.7,9,0,Overcast,8.9,16.6,NNE,100,95
+Mon Nov 16,4:00 AM,48.8,44.6,2,0,Overcast,8.4,15.7,NNE,100,95
+Mon Nov 16,5:00 AM,48.4,44.1,2,0,Overcast,8.5,15.9,NNE,100,95
+Mon Nov 16,6:00 AM,48.2,43.9,2,0.016,Light Drizzle,8.2,15.7,NNE,100,96
+Mon Nov 16,7:00 AM,47.9,43.4,2,0,Overcast,8.4,15.7,NNE,100,95
+Mon Nov 16,8:00 AM,48,43.6,1,0,Overcast,8,15.2,NNE,100,94
+Mon Nov 16,9:00 AM,48.2,44,2,0,Overcast,7.6,15.9,NNE,100,94
+Mon Nov 16,10:00 AM,48,43.5,1,0,Overcast,8.4,15,NNE,100,95
+Mon Nov 16,11:00 AM,48.7,44.3,1,0,Overcast,8.6,14.5,NNE,100,94
+Mon Nov 16,12:00 PM,49.1,45,1,0,Overcast,8.1,12.3,NNE,100,93
+Mon Nov 16,1:00 PM,51.3,47.8,1,0,Overcast,7.3,10.7,NNE,100,90
+Mon Nov 16,2:00 PM,52.8,49.6,1,0,Overcast,7.4,10.5,NNE,100,89
+Mon Nov 16,3:00 PM,53.6,50.9,1,0,Overcast,6.4,8.7,NNE,100,88
+Mon Nov 16,4:00 PM,54,51.3,0,0,Overcast,6.7,9.4,NNE,100,87
+Mon Nov 16,5:00 PM,53.5,50.8,0,0,Overcast,6.6,10.1,NNE,100,89
+Mon Nov 16,6:00 PM,52.7,49.9,0,0,Overcast,6.7,11.6,NNE,100,90
+Mon Nov 16,7:00 PM,52.5,49.8,0,0,Overcast,6.1,11.6,NNE,100,90
+Mon Nov 16,8:00 PM,52.1,49.7,0,0,Overcast,5.7,13,NNE,100,92
+Mon Nov 16,9:00 PM,51.8,48.7,0,0,Overcast,6.1,13,NNE,100,88
+Mon Nov 16,10:00 PM,51.7,49.2,0,0,Overcast,5.1,12.5,NNE,100,90
+Mon Nov 16,11:00 PM,50.3,48.1,0,0,Mainly Clear,4.1,11.4,NNW,40,93
