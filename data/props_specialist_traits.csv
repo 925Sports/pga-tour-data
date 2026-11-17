@@ -1,23 +1,23 @@
 key,label,value,count,green,course_name,event_name
-designer,DESIGNER,TOM FAZIO,1026,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-style,STYLE,PARKLAND,1536,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-greens,GREENS,BERMUDA,1404,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-greens_2,GREENS (2),TIFEAGLE,1260,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-fairways,FAIRWAYS,BERMUDA,1592,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-length,LENGTH,NORMAL,1986,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-par,PAR,71.0,1654,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-scoring,SCORING,EASY,1227,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-weather,WEATHER,GOOD,1005,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-type,TYPE,FULL,2844,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-fairway_width,FAIRWAY WIDTH,WIDE,1584,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-green_width,GREEN WIDTH,SMALL,2638,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-green_speeds,GREEN SPEEDS,12.0,1398,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-green_speeds_1,GREEN SPEEDS.1,NORMAL,1398,True,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-rough_length,ROUGH LENGTH,THICK,1542,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-water_hazards,WATER HAZARDS,8.0,796,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-rough_amount,ROUGH AMOUNT,NORMAL,1260,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-bunkers,BUNKERS,74.0,878,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-location,LOCATION,FLORIDA,1260,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-redesigned,Redesigned,JACK NICKLAUS,382,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-drainage,DRAINAGE,GOOD,878,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
-rain,RAIN,NO,2756,False,Omni Barton Creek Resort & Spa (Fazio Canyons Course),Austin Championship presented by Compliance Solutions
+designer,DESIGNER,PETE DYE,3241,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+style,STYLE,PARKLAND,13091,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+greens,GREENS,BERMUDA,10224,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+greens_2,GREENS (2),POA,5331,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+fairways,FAIRWAYS,BERMUDA,13203,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+length,LENGTH,NORMAL,11499,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+par,PAR,72.0,12698,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+scoring,SCORING,NORMAL,10509,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+weather,WEATHER,FAIR,8715,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+type,TYPE,FULL,23464,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+fairway_width,FAIRWAY WIDTH,SMALL,12682,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+green_width,GREEN WIDTH,SMALL,23420,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+green_speeds,GREEN SPEEDS,12.0,3504,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+green_speeds_1,GREEN SPEEDS.1,NORMAL,5365,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+rough_length,ROUGH LENGTH,NORMAL,11505,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+water_hazards,WATER HAZARDS,4.0,3890,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+rough_amount,ROUGH AMOUNT,NORMAL,10968,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+bunkers,BUNKERS,64.0,1951,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+location,LOCATION,CALIFORNIA,4661,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+redesigned,Redesigned,JACK NICKLAUS,1949,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+drainage,DRAINAGE,GOOD,12885,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+rain,RAIN,NO,24502,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic

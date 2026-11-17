@@ -1,205 +1,205 @@
 {
-  "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-  "event_name": "Austin Championship presented by Compliance Solutions",
-  "trait_sig": "DESIGNER:TOM FAZIO | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):TIFEAGLE | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:71.0 | SCORING:EASY | WEATHER:GOOD | TYPE:FULL | FAIRWAY WIDTH:WIDE | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:THICK | WATER HAZARDS:8.0 | ROUGH AMOUNT:NORMAL | BUNKERS:74.0 | LOCATION:FLORIDA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
+  "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+  "event_name": "The RSM Classic",
+  "trait_sig": "DESIGNER:PETE DYE | STYLE:PARKLAND | GREENS:BERMUDA | GREENS (2):POA | FAIRWAYS:BERMUDA | LENGTH:NORMAL | PAR:72.0 | SCORING:NORMAL | WEATHER:FAIR | TYPE:FULL | FAIRWAY WIDTH:SMALL | GREEN WIDTH:SMALL | GREEN SPEEDS:12.0 | GREEN SPEEDS.1:NORMAL | ROUGH LENGTH:NORMAL | WATER HAZARDS:4.0 | ROUGH AMOUNT:NORMAL | BUNKERS:64.0 | LOCATION:CALIFORNIA | Redesigned:JACK NICKLAUS | DRAINAGE:GOOD | RAIN:NO",
   "traits": [
     {
       "key": "designer",
       "label": "DESIGNER",
-      "value": "TOM FAZIO",
-      "count": 1026,
+      "value": "PETE DYE",
+      "count": 3241,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 1536,
+      "count": 13091,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 1404,
+      "count": 10224,
       "green": true,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "greens_2",
       "label": "GREENS (2)",
-      "value": "TIFEAGLE",
-      "count": 1260,
+      "value": "POA",
+      "count": 5331,
       "green": true,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 1592,
+      "count": 13203,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 1986,
+      "count": 11499,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "par",
       "label": "PAR",
-      "value": "71.0",
-      "count": 1654,
+      "value": "72.0",
+      "count": 12698,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "scoring",
       "label": "SCORING",
-      "value": "EASY",
-      "count": 1227,
+      "value": "NORMAL",
+      "count": 10509,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "weather",
       "label": "WEATHER",
-      "value": "GOOD",
-      "count": 1005,
+      "value": "FAIR",
+      "count": 8715,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 2844,
+      "count": 23464,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
-      "value": "WIDE",
-      "count": 1584,
+      "value": "SMALL",
+      "count": 12682,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 2638,
+      "count": 23420,
       "green": true,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "12.0",
-      "count": 1398,
+      "count": 3504,
       "green": true,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 1398,
+      "count": 5365,
       "green": true,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "rough_length",
       "label": "ROUGH LENGTH",
-      "value": "THICK",
-      "count": 1542,
+      "value": "NORMAL",
+      "count": 11505,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "water_hazards",
       "label": "WATER HAZARDS",
-      "value": "8.0",
-      "count": 796,
+      "value": "4.0",
+      "count": 3890,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 1260,
+      "count": 10968,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "bunkers",
       "label": "BUNKERS",
-      "value": "74.0",
-      "count": 878,
+      "value": "64.0",
+      "count": 1951,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "location",
       "label": "LOCATION",
-      "value": "FLORIDA",
-      "count": 1260,
+      "value": "CALIFORNIA",
+      "count": 4661,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "redesigned",
       "label": "Redesigned",
       "value": "JACK NICKLAUS",
-      "count": 382,
+      "count": 1949,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 878,
+      "count": 12885,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     },
     {
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 2756,
+      "count": 24502,
       "green": false,
-      "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-      "event_name": "Austin Championship presented by Compliance Solutions"
+      "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
+      "event_name": "The RSM Classic"
     }
   ],
   "field_avgs": {
