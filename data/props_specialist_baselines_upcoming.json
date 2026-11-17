@@ -185,12 +185,12 @@
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8088,
-    "strokes": 70.2022,
-    "bogeys": 2.3442,
-    "pars": 11.3689,
-    "fw_pct": 61.3036,
-    "gir_pct": 66.9662,
+    "birdies_plus": 3.7984,
+    "strokes": 70.2286,
+    "bogeys": 2.3526,
+    "pars": 11.25,
+    "fw_pct": 61.5073,
+    "gir_pct": 66.8558,
     "n_rounds_sample": 8000,
     "window": "24"
   },

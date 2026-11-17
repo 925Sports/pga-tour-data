@@ -3,21 +3,21 @@ designer,DESIGNER,PETE DYE,3241,False,Sea Island Golf Club (Seaside Course);Sea 
 style,STYLE,PARKLAND,13091,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 greens,GREENS,BERMUDA,10224,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 greens_2,GREENS (2),POA,5331,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-fairways,FAIRWAYS,BERMUDA,13203,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-length,LENGTH,NORMAL,11499,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-par,PAR,72.0,12698,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-scoring,SCORING,NORMAL,10509,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+fairways,FAIRWAYS,BERMUDA,13522,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+length,LENGTH,NORMAL,11818,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+par,PAR,72.0,13017,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+scoring,SCORING,NORMAL,10828,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 weather,WEATHER,FAIR,8715,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-type,TYPE,FULL,23464,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+type,TYPE,FULL,23783,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 fairway_width,FAIRWAY WIDTH,SMALL,12682,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-green_width,GREEN WIDTH,SMALL,23420,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+green_width,GREEN WIDTH,SMALL,23739,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 green_speeds,GREEN SPEEDS,12.0,3504,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 green_speeds_1,GREEN SPEEDS.1,NORMAL,5365,True,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-rough_length,ROUGH LENGTH,NORMAL,11505,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+rough_length,ROUGH LENGTH,NORMAL,11824,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 water_hazards,WATER HAZARDS,4.0,3890,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 rough_amount,ROUGH AMOUNT,NORMAL,10968,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 bunkers,BUNKERS,64.0,1951,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 location,LOCATION,CALIFORNIA,4661,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
 redesigned,Redesigned,JACK NICKLAUS,1949,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-drainage,DRAINAGE,GOOD,12885,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
-rain,RAIN,NO,24502,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+drainage,DRAINAGE,GOOD,13204,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic
+rain,RAIN,NO,24821,False,Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course),The RSM Classic

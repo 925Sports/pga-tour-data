@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 13203,
+      "count": 13522,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 11499,
+      "count": 11818,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "72.0",
-      "count": 12698,
+      "count": 13017,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -70,7 +70,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "NORMAL",
-      "count": 10509,
+      "count": 10828,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 23464,
+      "count": 23783,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 23420,
+      "count": 23739,
       "green": true,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -133,7 +133,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "NORMAL",
-      "count": 11505,
+      "count": 11824,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -187,7 +187,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 12885,
+      "count": 13204,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 24502,
+      "count": 24821,
       "green": false,
       "course_name": "Sea Island Golf Club (Seaside Course);Sea Island Golf Club (Plantation Course)",
       "event_name": "The RSM Classic"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8088,
-    "strokes": 70.2022,
-    "bogeys": 2.3442,
-    "pars": 11.3689,
-    "fw_pct": 61.3036,
-    "gir_pct": 66.9662,
+    "birdies_plus": 3.7984,
+    "strokes": 70.2286,
+    "bogeys": 2.3526,
+    "pars": 11.25,
+    "fw_pct": 61.5073,
+    "gir_pct": 66.8558,
     "n_rounds_sample": 8000,
     "window": "24"
   },
