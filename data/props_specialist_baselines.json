@@ -7,7 +7,7 @@
       "key": "designer",
       "label": "DESIGNER",
       "value": "TOM FAZIO",
-      "count": 774,
+      "count": 1026,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -16,7 +16,7 @@
       "key": "style",
       "label": "STYLE",
       "value": "PARKLAND",
-      "count": 1193,
+      "count": 1536,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -25,7 +25,7 @@
       "key": "greens",
       "label": "GREENS",
       "value": "BERMUDA",
-      "count": 1096,
+      "count": 1404,
       "green": true,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -34,7 +34,7 @@
       "key": "greens_2",
       "label": "GREENS (2)",
       "value": "TIFEAGLE",
-      "count": 972,
+      "count": 1260,
       "green": true,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -43,7 +43,7 @@
       "key": "fairways",
       "label": "FAIRWAYS",
       "value": "BERMUDA",
-      "count": 1241,
+      "count": 1592,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -52,7 +52,7 @@
       "key": "length",
       "label": "LENGTH",
       "value": "NORMAL",
-      "count": 1624,
+      "count": 1986,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -61,7 +61,7 @@
       "key": "par",
       "label": "PAR",
       "value": "71.0",
-      "count": 1389,
+      "count": 1654,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -70,7 +70,7 @@
       "key": "scoring",
       "label": "SCORING",
       "value": "EASY",
-      "count": 1050,
+      "count": 1227,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -79,7 +79,7 @@
       "key": "weather",
       "label": "WEATHER",
       "value": "GOOD",
-      "count": 857,
+      "count": 1005,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -88,7 +88,7 @@
       "key": "type",
       "label": "TYPE",
       "value": "FULL",
-      "count": 2292,
+      "count": 2844,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -97,7 +97,7 @@
       "key": "fairway_width",
       "label": "FAIRWAY WIDTH",
       "value": "WIDE",
-      "count": 1320,
+      "count": 1584,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -106,7 +106,7 @@
       "key": "green_width",
       "label": "GREEN WIDTH",
       "value": "SMALL",
-      "count": 2141,
+      "count": 2638,
       "green": true,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -115,7 +115,7 @@
       "key": "green_speeds",
       "label": "GREEN SPEEDS",
       "value": "12.0",
-      "count": 1173,
+      "count": 1398,
       "green": true,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -124,7 +124,7 @@
       "key": "green_speeds_1",
       "label": "GREEN SPEEDS.1",
       "value": "NORMAL",
-      "count": 1173,
+      "count": 1398,
       "green": true,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -133,7 +133,7 @@
       "key": "rough_length",
       "label": "ROUGH LENGTH",
       "value": "THICK",
-      "count": 1297,
+      "count": 1542,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -142,7 +142,7 @@
       "key": "water_hazards",
       "label": "WATER HAZARDS",
       "value": "8.0",
-      "count": 624,
+      "count": 796,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -151,7 +151,7 @@
       "key": "rough_amount",
       "label": "ROUGH AMOUNT",
       "value": "NORMAL",
-      "count": 972,
+      "count": 1260,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -160,7 +160,7 @@
       "key": "bunkers",
       "label": "BUNKERS",
       "value": "74.0",
-      "count": 684,
+      "count": 878,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -169,7 +169,7 @@
       "key": "location",
       "label": "LOCATION",
       "value": "FLORIDA",
-      "count": 972,
+      "count": 1260,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -178,7 +178,7 @@
       "key": "redesigned",
       "label": "Redesigned",
       "value": "JACK NICKLAUS",
-      "count": 288,
+      "count": 382,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -187,7 +187,7 @@
       "key": "drainage",
       "label": "DRAINAGE",
       "value": "GOOD",
-      "count": 684,
+      "count": 878,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
@@ -196,19 +196,19 @@
       "key": "rain",
       "label": "RAIN",
       "value": "NO",
-      "count": 2258,
+      "count": 2756,
       "green": false,
       "course_name": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
       "event_name": "Austin Championship presented by Compliance Solutions"
     }
   ],
   "field_avgs": {
-    "birdies_plus": 3.8534,
-    "strokes": 70.1585,
-    "bogeys": 2.3507,
-    "pars": 11.3379,
-    "fw_pct": 61.7102,
-    "gir_pct": 65.9391,
+    "birdies_plus": 3.8088,
+    "strokes": 70.2022,
+    "bogeys": 2.3442,
+    "pars": 11.3689,
+    "fw_pct": 61.3036,
+    "gir_pct": 66.9662,
     "n_rounds_sample": 8000,
     "window": "24"
   },
