@@ -1,5 +1,5 @@
-Austin Championship pres. by Compliance Solutions – Hourly Weather Forecast,,,,,,,,,,,
-"Location: Fazio Canyons (Barton Creek) | Updated: 11/16/2026, 3:55:19 PM",,,,,,,,,,,
+Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
+"Location: Fazio Canyons (Barton Creek) | Updated: 11/16/2026, 7:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
 Mon Nov 16,12:00 AM,51.3,48.4,2,0,Overcast,6.5,14.5,NNE,100,93
@@ -18,35 +18,35 @@ Mon Nov 16,12:00 PM,52.5,48.2,0,0,Overcast,7.5,8.9,N,100,78
 Mon Nov 16,1:00 PM,54.4,50.5,0,0,Overcast,7.4,12.1,N,100,77
 Mon Nov 16,2:00 PM,54.9,50.6,0,0,Overcast,7.9,11.9,N,100,72
 Mon Nov 16,3:00 PM,56.7,53,0,0,Overcast,8.2,11.4,N,100,75
-Mon Nov 16,4:00 PM,56.3,52.4,0,0,Overcast,8.3,10.7,N,90,75
-Mon Nov 16,5:00 PM,56.3,52.5,0,0,Mainly Clear,8.2,12.8,N,36,76
-Mon Nov 16,6:00 PM,55.1,52.1,0,0,Clear,6.1,13,N,1,78
-Mon Nov 16,7:00 PM,52.1,49.5,0,0,Clear,4.5,7.2,NNW,0,84
-Mon Nov 16,8:00 PM,50.4,47.7,0,0,Clear,4.5,6.9,NNW,0,88
-Mon Nov 16,9:00 PM,49,45.9,0,0,Clear,4.5,6.3,NNW,2,88
-Mon Nov 16,10:00 PM,48.1,44.6,0,0,Clear,4.5,5.6,NW,2,85
-Mon Nov 16,11:00 PM,47.3,43.4,0,0,Clear,5,6.5,NW,0,85
-Tue Nov 17,12:00 AM,46.4,42.4,0,0,Clear,5.1,6.9,NW,0,85
-Tue Nov 17,1:00 AM,45.5,41.4,0,0,Clear,5.1,7.8,NW,0,87
-Tue Nov 17,2:00 AM,44.9,40.7,0,0,Clear,4.8,6.9,NW,2,86
-Tue Nov 17,3:00 AM,44.4,39.9,0,0,Clear,5.1,7.2,NW,1,86
-Tue Nov 17,4:00 AM,43.8,39.3,0,0,Clear,4.9,7.4,NW,0,85
-Tue Nov 17,5:00 AM,43.2,38.7,0,0,Clear,4.6,7.8,NW,0,85
-Tue Nov 17,6:00 AM,42.6,38,0,0,Clear,4.4,8.1,NW,0,86
-Tue Nov 17,7:00 AM,42.1,37.6,0,0,Clear,4.3,8.1,NW,1,86
-Tue Nov 17,8:00 AM,41.6,36.7,0,0,Clear,4.8,8.3,NW,1,86
-Tue Nov 17,9:00 AM,44.2,40.8,0,0,Clear,3.4,7.8,NW,1,92
-Tue Nov 17,10:00 AM,48.7,45,0,0,Clear,4.7,7.8,N,1,82
-Tue Nov 17,11:00 AM,52.6,49.6,0,0,Clear,3.9,7.8,NNE,0,75
-Tue Nov 17,12:00 PM,56.4,54.3,0,0,Clear,3.5,7.4,NNE,0,67
-Tue Nov 17,1:00 PM,59.2,57.6,0,0,Clear,4,6.9,NE,0,59
-Tue Nov 17,2:00 PM,60.6,58.9,0,0,Clear,4.3,5.1,ENE,0,56
-Tue Nov 17,3:00 PM,61.3,58.5,0,0,Clear,5.7,8.5,ENE,2,55
-Tue Nov 17,4:00 PM,61.4,58.1,0,0,Clear,5.4,7.8,ENE,3,57
+Mon Nov 16,4:00 PM,58.1,53.8,0,0,Overcast,8.9,11.4,N,100,68
+Mon Nov 16,5:00 PM,58.9,54.9,0,0,Overcast,7.9,12.1,N,86,66
+Mon Nov 16,6:00 PM,59.1,55,0,0,Clear,7.2,12.1,NNE,0,61
+Mon Nov 16,7:00 PM,55.5,52.8,0,0,Clear,4,6.3,N,0,70
+Mon Nov 16,8:00 PM,53,50.7,0,0,Clear,3.9,5.1,NNW,0,81
+Mon Nov 16,9:00 PM,51.4,48.8,0,0,Clear,4.3,7.4,NW,0,85
+Mon Nov 16,10:00 PM,49.9,46.8,0,0,Clear,4.9,7.2,NW,1,87
+Mon Nov 16,11:00 PM,48.8,45.4,0,0,Clear,4.7,6.3,NW,1,86
+Tue Nov 17,12:00 AM,48,44,0,0,Clear,4.8,6.5,NW,0,80
+Tue Nov 17,1:00 AM,47,42.9,0,0,Clear,4.4,6,NNW,0,79
+Tue Nov 17,2:00 AM,46.4,42,0,0,Clear,4.5,6.7,NW,0,77
+Tue Nov 17,3:00 AM,45.4,40.9,0,0,Clear,5.1,8.7,NW,0,83
+Tue Nov 17,4:00 AM,44.8,40.5,0,0,Clear,5.2,9.4,NW,1,88
+Tue Nov 17,5:00 AM,44.2,40.2,0,0,Clear,4.4,9.2,NW,2,89
+Tue Nov 17,6:00 AM,43.7,39.3,0,0,Clear,4.8,8.7,NW,1,88
+Tue Nov 17,7:00 AM,43.1,38.9,0,0,Clear,4.1,8.3,NW,1,88
+Tue Nov 17,8:00 AM,42.4,38.6,0,0,Clear,3,8.7,NNW,2,89
+Tue Nov 17,9:00 AM,45,42.2,0,0,Clear,2.6,8.5,NW,2,93
+Tue Nov 17,10:00 AM,49.7,46.8,0,0,Clear,3.4,4.9,N,1,81
+Tue Nov 17,11:00 AM,53.5,51.2,0,0,Clear,2.2,6.7,NE,0,72
+Tue Nov 17,12:00 PM,57.1,54.8,0,0,Clear,3.4,7.2,E,0,64
+Tue Nov 17,1:00 PM,59.2,57.8,0,0,Clear,3.6,6.9,E,0,59
+Tue Nov 17,2:00 PM,60.6,59.5,0,0,Clear,3.2,5.1,E,0,56
+Tue Nov 17,3:00 PM,61.3,58.8,0,0,Clear,4.9,8.5,E,2,55
+Tue Nov 17,4:00 PM,61.4,58.1,0,0,Clear,5.2,7.8,E,3,57
 Tue Nov 17,5:00 PM,60.8,57.6,0,0,Clear,5.4,7.4,ENE,4,60
-Tue Nov 17,6:00 PM,58.7,56.6,0,0,Clear,3,6.3,ENE,0,65
-Tue Nov 17,7:00 PM,55.1,52,0,0,Clear,4.8,6.3,NE,0,71
-Tue Nov 17,8:00 PM,52.4,49.3,0,0,Clear,4.7,8.9,ENE,0,78
-Tue Nov 17,9:00 PM,51,48.4,0,0,Clear,3,9.4,ENE,0,79
-Tue Nov 17,10:00 PM,50,47.8,0,0,Clear,1.5,5.6,WSW,0,80
-Tue Nov 17,11:00 PM,49,46.5,0,0,Clear,1.5,4.9,SSW,0,79
+Tue Nov 17,6:00 PM,58.7,56.6,0,0,Clear,3.1,6.3,ENE,0,65
+Tue Nov 17,7:00 PM,55.1,52.4,0,0,Clear,3.8,6.3,NE,0,71
+Tue Nov 17,8:00 PM,52.4,49.9,0,0,Clear,3.2,8.9,NE,0,78
+Tue Nov 17,9:00 PM,51,47.6,0,0,Clear,4.9,9.4,ENE,0,79
+Tue Nov 17,10:00 PM,50,47.4,0,0,Clear,2.6,5.6,ESE,0,80
+Tue Nov 17,11:00 PM,49,46.1,0,0,Clear,2.4,4.9,WSW,0,79
