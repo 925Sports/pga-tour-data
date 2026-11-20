@@ -1,52 +1,52 @@
 Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Sea Island Golf Club (Seaside) | Updated: 11/18/2026, 8:55:21 PM",,,,,,,,,,,
+"Location: Sea Island Golf Club (Seaside) | Updated: 11/19/2026, 7:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Wed Nov 18,12:00 AM,61.2,56.8,23,0,Overcast,14.2,32.9,NE,99,80
-Wed Nov 18,1:00 AM,61.7,56.9,31,0,Overcast,13.8,32.2,NE,99,73
-Wed Nov 18,2:00 AM,61,57,24,0,Overcast,13,30.9,NE,99,80
-Wed Nov 18,3:00 AM,60.9,59.2,39,0.016,Light Drizzle,10.9,28,NE,100,92
-Wed Nov 18,4:00 AM,62.2,61.8,44,0.016,Light Drizzle,7.8,25.7,NNE,100,88
-Wed Nov 18,5:00 AM,62,61.5,45,0.055,Slight Rain,8.5,23.7,NNE,100,90
-Wed Nov 18,6:00 AM,60.5,58.6,38,0.157,Moderate Rain,10.9,28.4,NNE,100,92
-Wed Nov 18,7:00 AM,59.1,57,48,0,Overcast,10.6,31.1,NNE,97,93
-Wed Nov 18,8:00 AM,56.5,54.4,32,0,Overcast,8.5,26.2,NNE,99,94
-Wed Nov 18,9:00 AM,60.9,59.2,24,0,Overcast,11.4,22.6,N,100,94
-Wed Nov 18,10:00 AM,62.1,59.3,24,0.453,Heavy Rain,15.6,27.1,NNE,100,96
-Wed Nov 18,11:00 AM,63.9,62.1,42,0,Overcast,15.1,26.4,NNE,100,96
-Wed Nov 18,12:00 PM,64.1,63.1,45,1.402,Heavy Rain,12.5,29.8,NNE,100,94
-Wed Nov 18,1:00 PM,66.8,66.5,72,0.071,Slight Rain,13.4,28.2,NE,99,93
-Wed Nov 18,2:00 PM,65.8,66,70,0,Overcast,11.3,27.3,NE,100,93
-Wed Nov 18,3:00 PM,65.4,65.1,61,0,Overcast,13.7,26.8,NNE,100,98
-Wed Nov 18,4:00 PM,65.1,64,67,1.433,Heavy Rain,13.2,26.8,NE,100,92
-Wed Nov 18,5:00 PM,65,62.7,37,0.016,Light Drizzle,15.3,36,NE,99,90
-Wed Nov 18,6:00 PM,64.4,61.5,23,0.043,Dense Drizzle,16.8,35.1,NE,100,92
-Wed Nov 18,7:00 PM,64.9,63.2,30,0.327,Heavy Rain,11.6,25.3,NE,100,83
-Wed Nov 18,8:00 PM,64.9,66.8,43,0.016,Light Drizzle,6.5,23.5,NE,100,94
-Wed Nov 18,9:00 PM,64.6,64,28,0,Overcast,11.7,23,NE,98,92
-Wed Nov 18,10:00 PM,65,63.8,25,0,Overcast,13.1,27.5,NE,100,91
-Wed Nov 18,11:00 PM,65.1,64.1,11,0,Overcast,12,23.7,NE,100,89
-Thu Nov 19,12:00 AM,65.3,64.8,8,0,Overcast,10.6,18.3,NE,100,88
-Thu Nov 19,1:00 AM,65.5,65.3,16,0,Overcast,9.2,18.8,NE,100,84
-Thu Nov 19,2:00 AM,65.6,65.9,15,0,Overcast,8.4,18.1,ENE,100,85
-Thu Nov 19,3:00 AM,66.2,63.9,15,0,Overcast,12.5,21.7,ENE,100,78
-Thu Nov 19,4:00 AM,65.4,63.5,25,0,Overcast,12,21.7,ENE,100,81
-Thu Nov 19,5:00 AM,65.5,63.4,17,0,Overcast,12.9,22.4,NE,100,82
-Thu Nov 19,6:00 AM,65.4,63.5,24,0.016,Light Drizzle,12.2,21,NE,100,81
-Thu Nov 19,7:00 AM,65.8,64.9,27,0,Overcast,10.5,20.4,NE,100,83
-Thu Nov 19,8:00 AM,66.2,66.5,26,0,Overcast,9.2,17.9,NE,100,86
-Thu Nov 19,9:00 AM,68.2,67.9,29,0,Overcast,12,23,ENE,100,84
-Thu Nov 19,10:00 AM,69.8,69.6,25,0,Overcast,13.1,27.7,ENE,100,83
-Thu Nov 19,11:00 AM,69.5,69.4,32,0,Overcast,11.9,27.1,ENE,100,82
-Thu Nov 19,12:00 PM,69.4,68.7,32,0,Overcast,12.9,30.2,ENE,100,81
-Thu Nov 19,1:00 PM,65.4,66.6,47,0.016,Light Drizzle,9.2,23.5,E,100,95
-Thu Nov 19,2:00 PM,68.1,68.5,30,0.043,Dense Drizzle,12.4,26.4,ENE,100,90
-Thu Nov 19,3:00 PM,66.2,65.3,35,0.016,Light Drizzle,13.1,27.1,NE,100,90
-Thu Nov 19,4:00 PM,66.6,67.6,37,0,Overcast,10.2,19.9,NE,100,93
-Thu Nov 19,5:00 PM,66.2,66.2,56,0,Overcast,11.6,25.1,ENE,100,91
-Thu Nov 19,6:00 PM,66.4,66.1,49,0,Overcast,12.5,26.6,ENE,100,91
-Thu Nov 19,7:00 PM,66.3,66,54,0.016,Light Drizzle,13,25.1,NE,100,93
-Thu Nov 19,8:00 PM,65.9,65.7,55,0,Overcast,11.6,24.2,NE,100,91
-Thu Nov 19,9:00 PM,65.8,65.9,56,0,Overcast,11.5,23.5,NNE,100,93
-Thu Nov 19,10:00 PM,65.4,65,56,0,Overcast,12.3,25.7,NNE,100,93
-Thu Nov 19,11:00 PM,66,64.9,54,0,Overcast,14.2,28.4,NE,100,92
+Thu Nov 19,12:00 AM,65.2,64,22,0.752,Heavy Rain,12.8,30.9,NNE,100,90
+Thu Nov 19,1:00 AM,65.1,64.1,30,0.016,Light Drizzle,13.7,21.9,NNE,100,94
+Thu Nov 19,2:00 AM,65.4,65.7,36,0,Overcast,8.8,19,NE,100,87
+Thu Nov 19,3:00 AM,65.3,64.8,42,0.043,Dense Drizzle,10.9,24.8,NNE,100,89
+Thu Nov 19,4:00 AM,65.2,62.6,38,0,Overcast,13.7,26.2,NNE,100,82
+Thu Nov 19,5:00 AM,65.5,65.5,19,0.028,Moderate Drizzle,9.8,18.3,NE,100,88
+Thu Nov 19,6:00 AM,64.7,63.8,49,0.016,Light Drizzle,11.9,21,NNE,99,90
+Thu Nov 19,7:00 AM,64.4,64,69,0.016,Light Drizzle,11.9,28.9,NNE,99,95
+Thu Nov 19,8:00 AM,66.3,65.9,54,0.016,Light Drizzle,10.7,23,NE,100,85
+Thu Nov 19,9:00 AM,67.6,68.3,40,0.016,Light Drizzle,9.3,19,NE,100,85
+Thu Nov 19,10:00 AM,67.2,67.3,40,0.016,Light Drizzle,11.1,21,NE,100,87
+Thu Nov 19,11:00 AM,66.2,66.4,36,0.071,Slight Rain,10.9,23,NE,100,91
+Thu Nov 19,12:00 PM,67.7,70.4,47,0.043,Dense Drizzle,7.6,13.9,NNE,100,94
+Thu Nov 19,1:00 PM,68.4,70.6,39,0.016,Light Drizzle,7.6,18.1,NNE,100,88
+Thu Nov 19,2:00 PM,67.4,67.7,43,0.087,Slight Rain,10.8,24.8,NE,99,87
+Thu Nov 19,3:00 PM,66.7,68.1,57,0.016,Light Drizzle,10.6,21,NE,99,97
+Thu Nov 19,4:00 PM,66.1,66.8,49,0.142,Moderate Rain,11.6,25.3,NE,100,97
+Thu Nov 19,5:00 PM,66,68,44,0.028,Moderate Drizzle,8.4,24.6,NE,100,97
+Thu Nov 19,6:00 PM,65.3,65.6,35,0,Overcast,11.7,25.1,NNE,100,96
+Thu Nov 19,7:00 PM,66.3,64,27,0,Overcast,16.8,34,NE,100,90
+Thu Nov 19,8:00 PM,65.6,64.3,28,0,Overcast,15.2,32.9,ENE,100,95
+Thu Nov 19,9:00 PM,65.4,65.2,18,0,Overcast,11.7,25.9,NE,100,92
+Thu Nov 19,10:00 PM,65.6,65.3,16,0,Overcast,12.2,27.3,NE,100,93
+Thu Nov 19,11:00 PM,65.5,64.7,20,0.016,Light Drizzle,13,23.9,NE,100,92
+Fri Nov 20,12:00 AM,65.8,65.4,30,0,Overcast,12.4,24.2,NE,100,92
+Fri Nov 20,1:00 AM,66,65.9,28,0,Overcast,11.7,21.5,NE,100,92
+Fri Nov 20,2:00 AM,66,65.7,23,0.016,Light Drizzle,12.4,22.6,NE,98,93
+Fri Nov 20,3:00 AM,65.8,66.5,19,0,Overcast,10.8,23.7,NNE,100,95
+Fri Nov 20,4:00 AM,65.3,64.5,28,0.055,Slight Rain,13.6,28.4,NE,100,95
+Fri Nov 20,5:00 AM,65.5,64.4,32,0.016,Light Drizzle,14.3,30.2,NE,100,94
+Fri Nov 20,6:00 AM,64.9,64,42,0.016,Light Drizzle,13.5,26.2,NNE,100,95
+Fri Nov 20,7:00 AM,65.9,64.8,41,0.016,Light Drizzle,13.6,27.7,NE,100,91
+Fri Nov 20,8:00 AM,65.7,65.6,58,0,Overcast,12.5,25.1,NE,100,95
+Fri Nov 20,9:00 AM,65.7,64.9,54,0,Overcast,13.7,27.5,NNE,100,94
+Fri Nov 20,10:00 AM,65.8,65.4,46,0.016,Light Drizzle,12.6,28.2,NNE,100,93
+Fri Nov 20,11:00 AM,65.3,63.7,55,0.016,Light Drizzle,14.5,32.7,NE,100,92
+Fri Nov 20,12:00 PM,65.5,64.7,57,0,Overcast,13.4,31.1,NE,100,93
+Fri Nov 20,1:00 PM,67.7,65.7,47,0,Overcast,17.8,36.5,NNE,100,91
+Fri Nov 20,2:00 PM,65.7,63.5,62,0.016,Light Drizzle,17.5,33.3,NE,100,95
+Fri Nov 20,3:00 PM,65.9,65.2,55,0.016,Light Drizzle,14.4,28,NE,100,96
+Fri Nov 20,4:00 PM,66.6,65.9,38,0,Overcast,14.2,29.3,NE,100,93
+Fri Nov 20,5:00 PM,65.5,63.3,20,0,Overcast,16.6,37.4,NNE,100,93
+Fri Nov 20,6:00 PM,65.6,62.6,15,0,Overcast,18,37.8,NE,100,91
+Fri Nov 20,7:00 PM,65.4,61.9,12,0,Overcast,18.8,38.7,NE,100,90
+Fri Nov 20,8:00 PM,65.6,62.8,12,0,Overcast,17.4,37.4,NE,100,91
+Fri Nov 20,9:00 PM,65.5,62.5,12,0,Overcast,17.9,37.4,NE,100,91
+Fri Nov 20,10:00 PM,65.1,62.3,12,0,Overcast,16.5,35.1,NE,100,90
+Fri Nov 20,11:00 PM,65.1,62.7,10,0,Overcast,15.7,34,NE,100,90
