@@ -1,67 +1,157 @@
 player_name,salary,tournament,slate_type,player_image,player_id,draftable_id,game_start,updated_at
-Michael Thorbjornsen,11000,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/787.png,696522,45061124,11/23/2026 8:48 AM,2026-11-24T17:55:49.218826Z
-Benjamin James,10800,Round 4,Showdown,,765775,45047335,11/23/2026 7:20 AM,2026-11-24T17:55:49.218842Z
-Jackson Koivun,10600,Round 4,Showdown,,796535,45047336,11/23/2026 7:20 AM,2026-11-24T17:55:49.218849Z
-Rasmus Højgaard,10600,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/452038.png,600530,45061125,11/23/2026 8:48 AM,2026-11-24T17:55:49.218859Z
-Doug Ghim,10100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/546.png,670625,45047338,11/23/2026 7:20 AM,2026-11-24T17:55:49.218867Z
-Maverick McNealy,10000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/543.png,1914,45047339,11/23/2026 7:20 AM,2026-11-24T17:55:49.218872Z
-Michael Brennan,9900,Round 4,Showdown,,762470,45047340,11/23/2026 7:20 AM,2026-11-24T17:55:49.218880Z
-J.T. Poston,9700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1165.png,300174,45047341,11/23/2026 7:20 AM,2026-11-24T17:55:49.218885Z
-Chris Kirk,9600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1078.png,2170,45047342,11/23/2026 7:20 AM,2026-11-24T17:55:49.218890Z
-Max Greyserman,9600,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/451990.png,510213,45061126,11/23/2026 8:48 AM,2026-11-24T17:55:49.218894Z
-Keith Mitchell,9500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1076.png,427014,45047343,11/23/2026 7:20 AM,2026-11-24T17:55:49.218899Z
-Ben Kohles,9400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451327.png,1907,45047344,11/23/2026 7:20 AM,2026-11-24T17:55:49.218903Z
-Brooks Koepka,9200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1014.png,1417,45047346,11/23/2026 7:20 AM,2026-11-24T17:55:49.218909Z
-Harry Hall,9100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/62315.png,699070,45047347,11/23/2026 7:20 AM,2026-11-24T17:55:49.218915Z
-Jordan L. Smith,9000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/820.png,73498,45047348,11/23/2026 7:20 AM,2026-11-24T17:55:49.218920Z
-Harris English,8900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/598.png,1600,45047349,11/23/2026 7:20 AM,2026-11-24T17:55:49.218924Z
-Keegan Bradley,8800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/518.png,804,45047350,11/23/2026 7:20 AM,2026-11-24T17:55:49.218928Z
-Marco Penge,8800,Late Round 4,Late Showdown,,698887,45061128,11/23/2026 8:48 AM,2026-11-24T17:55:49.218931Z
-Andrew Novak,8700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/658.png,670403,45047351,11/23/2026 7:20 AM,2026-11-24T17:55:49.218936Z
-Rasmus Neergaard-Petersen,8600,Round 4,Showdown,,720984,45047352,11/23/2026 7:20 AM,2026-11-24T17:55:49.218940Z
-Lee Hodges,8500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1003.png,692607,45047353,11/23/2026 7:20 AM,2026-11-24T17:55:49.218944Z
-Kris Ventura,8400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/560.png,682435,45047354,11/23/2026 7:20 AM,2026-11-24T17:55:49.218950Z
-Sami Välimäki,8300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/60434.png,698884,60434,11/23/2026 7:20 AM,2026-11-24T17:55:49.218957Z
-Jesper Svensson,8200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/630555.png,762723,45047356,11/23/2026 7:20 AM,2026-11-24T17:55:49.218961Z
-Ricky Castillo,8100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/514324.png,702801,45047357,11/23/2026 7:20 AM,2026-11-24T17:55:49.218965Z
-David Ford,8000,Round 4,Showdown,,773829,45047359,11/23/2026 7:20 AM,2026-11-24T17:55:49.218970Z
-Max McGreevy,8000,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/525640.png,703985,45061130,11/23/2026 8:48 AM,2026-11-24T17:55:49.218974Z
-Davis Thompson,7900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/456332.png,700001,45047360,11/23/2026 7:20 AM,2026-11-24T17:55:49.218978Z
-Pierceson Coody,7800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/562745.png,710732,45047362,11/23/2026 7:20 AM,2026-11-24T17:55:49.218983Z
-Emiliano Grillo,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1085.png,610,45047364,11/23/2026 7:20 AM,2026-11-24T17:55:49.218989Z
-Adrien Dumont De Chassart,7700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/645032.png,765441,45047365,11/23/2026 7:20 AM,2026-11-24T17:55:49.218994Z
-Neal Shipley,7600,Round 4,Showdown,,793366,45047366,11/23/2026 7:20 AM,2026-11-24T17:55:49.218998Z
-Denny McCarthy,7600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/631.png,1018,45047367,11/23/2026 7:20 AM,2026-11-24T17:55:49.219002Z
-Hao-Tong Li,7600,Late Round 4,Late Showdown,https://dkn.gs/sports/images/golf/players/50/767.png,1132,45061131,11/23/2026 8:48 AM,2026-11-24T17:55:49.219013Z
-Joel Dahmen,7500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/521.png,1622,45047369,11/23/2026 7:20 AM,2026-11-24T17:55:49.219019Z
-Zac Blair,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/614.png,530,45047370,11/23/2026 7:20 AM,2026-11-24T17:55:49.219023Z
-Chandler Phillips,7400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/61619.png,698927,45047371,11/23/2026 7:20 AM,2026-11-24T17:55:49.219027Z
-Davis Riley,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1103.png,1625,45047372,11/23/2026 7:20 AM,2026-11-24T17:55:49.219031Z
-Patton Kizzire,7300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/592.png,856,45047373,11/23/2026 7:20 AM,2026-11-24T17:55:49.219035Z
-Ryo Hisatsune,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/609130.png,760663,45047374,11/23/2026 7:20 AM,2026-11-24T17:55:49.219039Z
-Hayden Springer,7200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/626.png,77417,45047375,11/23/2026 7:20 AM,2026-11-24T17:55:49.219042Z
-Hank Lebioda,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/526.png,692004,45047376,11/23/2026 7:20 AM,2026-11-24T17:55:49.219051Z
-Christiaan Bezuidenhout,7100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1115.png,453,45047377,11/23/2026 7:20 AM,2026-11-24T17:55:49.219055Z
-Davis Chatfield,7000,Round 4,Showdown,,769810,45047378,11/23/2026 7:20 AM,2026-11-24T17:55:49.219059Z
-Zecheng Dou,7000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/450649.png,770,45047379,11/23/2026 7:20 AM,2026-11-24T17:55:49.219063Z
-Seung-Yul Noh,6900,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/450573.png,620,45047380,11/23/2026 7:20 AM,2026-11-24T17:55:49.219067Z
-John VanDerLaan,6900,Round 4,Showdown,,689877,45047381,11/23/2026 7:20 AM,2026-11-24T17:55:49.219071Z
-Steven Fisk,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/623838.png,761827,45047382,11/23/2026 7:20 AM,2026-11-24T17:55:49.219074Z
-Matthieu Pavon,6800,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1121.png,113835,45047383,11/23/2026 7:20 AM,2026-11-24T17:55:49.219078Z
-Carson Young,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/549842.png,705488,45047384,11/23/2026 7:20 AM,2026-11-24T17:55:49.219083Z
-Jeremy Paul,6700,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451604.png,101400,45047385,11/23/2026 7:20 AM,2026-11-24T17:55:49.219087Z
-Garrick Higgo,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/452113.png,670533,45047386,11/23/2026 7:20 AM,2026-11-24T17:55:49.219091Z
-Kensei Hirata,6600,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/712328.png,773313,45047387,11/23/2026 7:20 AM,2026-11-24T17:55:49.219094Z
-Chad Ramey,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/983.png,2119,45047388,11/23/2026 7:20 AM,2026-11-24T17:55:49.219098Z
-Andrew Putnam,6500,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/730.png,665,45047389,11/23/2026 7:20 AM,2026-11-24T17:55:49.219101Z
-Ben Silverman,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/830.png,2102,45047390,11/23/2026 7:20 AM,2026-11-24T17:55:49.219105Z
-Taylor Moore,6400,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/451638.png,165746,45047391,11/23/2026 7:20 AM,2026-11-24T17:55:49.219111Z
-Karl Vilips,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/709867.png,773007,45047392,11/23/2026 7:20 AM,2026-11-24T17:55:49.219114Z
-Taylor Pendrith,6300,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/716.png,1802,45047393,11/23/2026 7:20 AM,2026-11-24T17:55:49.219118Z
-Nick Dunlap,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/561491.png,710663,45047394,11/23/2026 7:20 AM,2026-11-24T17:55:49.219122Z
-Vince Whaley,6200,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/667.png,698823,45047395,11/23/2026 7:20 AM,2026-11-24T17:55:49.219127Z
-Danny Walker,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/519887.png,703606,45047396,11/23/2026 7:20 AM,2026-11-24T17:55:49.219133Z
-Nick Hardy,6100,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/1202.png,1411,45047397,11/23/2026 7:20 AM,2026-11-24T17:55:49.219137Z
-Brice Garnett,6000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/613.png,1832,45047398,11/23/2026 7:20 AM,2026-11-24T17:55:49.219141Z
-Pontus Nyholm,6000,Round 4,Showdown,,690519,45047399,11/23/2026 7:20 AM,2026-11-24T17:55:49.219144Z
-Mark Hubbard,6000,Round 4,Showdown,https://dkn.gs/sports/images/golf/players/50/629.png,2056,45047400,11/23/2026 7:20 AM,2026-11-24T17:55:49.219148Z
+Adam Scott,10800,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/875.png,2078,45095091,11/25/2026 3:00 PM,2026-11-24T18:10:40.154328Z
+Min Woo Lee,10500,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60544.png,693648,45095092,11/25/2026 3:00 PM,2026-11-24T18:10:40.154346Z
+Lucas Herbert,10200,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/863.png,113,45095093,11/25/2026 3:00 PM,2026-11-24T18:10:40.154351Z
+Daniel Hillier,10000,DP World Tour,DP World,,696565,45095094,11/25/2026 3:00 PM,2026-11-24T18:10:40.154357Z
+Alex Noren,9800,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1162.png,867,45095095,11/25/2026 3:00 PM,2026-11-24T18:10:40.154361Z
+Corey Conners,9700,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1038.png,1860,45095096,11/25/2026 3:00 PM,2026-11-24T18:10:40.154364Z
+Tom McKibbin,9600,DP World Tour,DP World,,671050,45095097,11/25/2026 3:00 PM,2026-11-24T18:10:40.154368Z
+Cameron Smith,9500,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/532.png,1194,45095098,11/25/2026 3:00 PM,2026-11-24T18:10:40.154375Z
+David Puig,9400,DP World Tour,DP World,,756216,45095099,11/25/2026 3:00 PM,2026-11-24T18:10:40.154379Z
+Marc Leishman,9200,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/555.png,142,45095100,11/25/2026 3:00 PM,2026-11-24T18:10:40.154383Z
+Nicolai Højgaard,9100,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60190.png,600531,45095101,11/25/2026 3:00 PM,2026-11-24T18:10:40.154391Z
+Sudarshan Yellamaraju,9000,DP World Tour,DP World,,772264,45095102,11/25/2026 3:00 PM,2026-11-24T18:10:40.154395Z
+Josele Ballester,8900,DP World Tour,DP World,,773808,45095103,11/25/2026 3:00 PM,2026-11-24T18:10:40.154399Z
+Ross Steelman,8800,DP World Tour,DP World,,773087,45095104,11/25/2026 3:00 PM,2026-11-24T18:10:40.154402Z
+Harold Varner III,8700,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/624.png,190,45095105,11/25/2026 3:00 PM,2026-11-24T18:10:40.154406Z
+Carlos Ortiz,8600,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/580.png,777,45095106,11/25/2026 3:00 PM,2026-11-24T18:10:40.154409Z
+Thomas Morrison,8500,DP World Tour,DP World,,771851,45095107,11/25/2026 3:00 PM,2026-11-24T18:10:40.154412Z
+Sandy Scott,8400,DP World Tour,DP World,,554261,45095108,11/25/2026 3:00 PM,2026-11-24T18:10:40.154416Z
+Byeong Hun An,8300,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/639.png,1062,45095109,11/25/2026 3:00 PM,2026-11-24T18:10:40.154420Z
+Thomas Pieters,8200,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/864.png,350,45095110,11/25/2026 3:00 PM,2026-11-24T18:10:40.154425Z
+Sam Bairstow,8100,DP World Tour,DP World,,722206,45095111,11/25/2026 3:00 PM,2026-11-24T18:10:40.154428Z
+Kazuma Kobori,8000,DP World Tour,DP World,,776760,45095112,11/25/2026 3:00 PM,2026-11-24T18:10:40.154432Z
+Caleb Surratt,8000,DP World Tour,DP World,,768996,45095113,11/25/2026 3:00 PM,2026-11-24T18:10:40.154437Z
+Cameron John,7900,DP World Tour,DP World,,690257,45095114,11/25/2026 3:00 PM,2026-11-24T18:10:40.154439Z
+Wenyi Ding,7900,DP World Tour,DP World,,769378,45095115,11/25/2026 3:00 PM,2026-11-24T18:10:40.154442Z
+Cameron Davis,7800,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/578.png,330678,45095116,11/25/2026 3:00 PM,2026-11-24T18:10:40.154445Z
+Romain Langasque,7800,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/688.png,1090,45095117,11/25/2026 3:00 PM,2026-11-24T18:10:40.154448Z
+Filippo Celli,7700,DP World Tour,DP World,,753704,45095118,11/25/2026 3:00 PM,2026-11-24T18:10:40.154451Z
+John Catlin,7700,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/844.png,178891,45095119,11/25/2026 3:00 PM,2026-11-24T18:10:40.154454Z
+Ugo Coussaud,7700,DP World Tour,DP World,,694555,45095120,11/25/2026 3:00 PM,2026-11-24T18:10:40.154456Z
+Joel Girrbach,7600,DP World Tour,DP World,,241748,45095121,11/25/2026 3:00 PM,2026-11-24T18:10:40.154459Z
+Johannes Veerman,7600,DP World Tour,DP World,,250167,45095122,11/25/2026 3:00 PM,2026-11-24T18:10:40.154462Z
+Elvis Smylie,7600,DP World Tour,DP World,,721846,45095123,11/25/2026 3:00 PM,2026-11-24T18:10:40.154465Z
+Curtis Luck,7600,DP World Tour,DP World,,345105,45095124,11/25/2026 3:00 PM,2026-11-24T18:10:40.154468Z
+Yanhan Zhou,7500,DP World Tour,DP World,,795440,45095125,11/25/2026 3:00 PM,2026-11-24T18:10:40.154470Z
+Oihan Guillamoundeguy,7500,DP World Tour,DP World,,768105,45095126,11/25/2026 3:00 PM,2026-11-24T18:10:40.154473Z
+Brandon Stone,7500,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/877.png,181,45095127,11/25/2026 3:00 PM,2026-11-24T18:10:40.154476Z
+Eddie Pepperell,7500,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1152.png,1101,45095128,11/25/2026 3:00 PM,2026-11-24T18:10:40.154479Z
+Michael La Sasso,7400,DP World Tour,DP World,,849089,45095129,11/25/2026 3:00 PM,2026-11-24T18:10:40.154482Z
+Darius Van Driel,7400,DP World Tour,DP World,,345213,45095130,11/25/2026 3:00 PM,2026-11-24T18:10:40.154485Z
+Marcus Helligkilde,7400,DP World Tour,DP World,,702176,45095131,11/25/2026 3:00 PM,2026-11-24T18:10:40.154488Z
+David Law,7400,DP World Tour,DP World,,355,45095132,11/25/2026 3:00 PM,2026-11-24T18:10:40.154492Z
+Pablo Ereno Perez,7400,DP World Tour,DP World,,849714,45095133,11/25/2026 3:00 PM,2026-11-24T18:10:40.154496Z
+Ashun Wu,7300,DP World Tour,DP World,,626,45095134,11/25/2026 3:00 PM,2026-11-24T18:10:40.154498Z
+Julien Sale,7300,DP World Tour,DP World,,768109,45095135,11/25/2026 3:00 PM,2026-11-24T18:10:40.154501Z
+Richard Mansell,7300,DP World Tour,DP World,,702169,45095136,11/25/2026 3:00 PM,2026-11-24T18:10:40.154504Z
+Austin Bautista,7300,DP World Tour,DP World,,704072,45095137,11/25/2026 3:00 PM,2026-11-24T18:10:40.154508Z
+Declan O'Donovan,7300,DP World Tour,DP World,,876238,45095138,11/25/2026 3:00 PM,2026-11-24T18:10:40.154511Z
+Tapio Pulkkanen,7200,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60588.png,474492,45095139,11/25/2026 3:00 PM,2026-11-24T18:10:40.154514Z
+Connor Syme,7200,DP World Tour,DP World,,405819,45095140,11/25/2026 3:00 PM,2026-11-24T18:10:40.154517Z
+David Ravetto,7200,DP World Tour,DP World,,699574,45095141,11/25/2026 3:00 PM,2026-11-24T18:10:40.154519Z
+Daniel Gale,7200,DP World Tour,DP World,,690251,45095142,11/25/2026 3:00 PM,2026-11-24T18:10:40.154522Z
+Nick Voke,7200,DP World Tour,DP World,,690262,45095143,11/25/2026 3:00 PM,2026-11-24T18:10:40.154525Z
+Eliot Baker,7200,DP World Tour,DP World,,884939,45095144,11/25/2026 3:00 PM,2026-11-24T18:10:40.154528Z
+Travis Smyth,7100,DP World Tour,DP World,,670421,45095145,11/25/2026 3:00 PM,2026-11-24T18:10:40.154530Z
+Nicolai Von Dellingshausen,7100,DP World Tour,DP World,,519957,45095146,11/25/2026 3:00 PM,2026-11-24T18:10:40.154534Z
+Rafa Cabrera Bello,7100,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/868.png,984,45095147,11/25/2026 3:00 PM,2026-11-24T18:10:40.154538Z
+Ian Snyman,7100,DP World Tour,DP World,,766080,45095148,11/25/2026 3:00 PM,2026-11-24T18:10:40.154541Z
+Brandon Robinson-Thompson,7100,DP World Tour,DP World,,701399,45095149,11/25/2026 3:00 PM,2026-11-24T18:10:40.154544Z
+Kiradech Aphibarnrat,7100,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1110.png,655,45095150,11/25/2026 3:00 PM,2026-11-24T18:10:40.154547Z
+Jason Scrivener,7000,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1189.png,1209,45095151,11/25/2026 3:00 PM,2026-11-24T18:10:40.154552Z
+Ricardo Gouveia,7000,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60234.png,414,45095152,11/25/2026 3:00 PM,2026-11-24T18:10:40.154554Z
+Andrew Wilson,7000,DP World Tour,DP World,,697207,45095153,11/25/2026 3:00 PM,2026-11-24T18:10:40.154557Z
+Lars Van Der Vight,7000,DP World Tour,DP World,,755451,45095154,11/25/2026 3:00 PM,2026-11-24T18:10:40.154561Z
+Rocco Repetto Taylor,7000,DP World Tour,DP World,,861890,45095155,11/25/2026 3:00 PM,2026-11-24T18:10:40.154564Z
+Liam Nolan,7000,DP World Tour,DP World,,797579,45095156,11/25/2026 3:00 PM,2026-11-24T18:10:40.154567Z
+Christofer Blomstrand,7000,DP World Tour,DP World,,9599,45095157,11/25/2026 3:00 PM,2026-11-24T18:10:40.154570Z
+Tom Lewis,6900,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/548.png,830,45095158,11/25/2026 3:00 PM,2026-11-24T18:10:40.154573Z
+Benjamin Schmidt,6900,DP World Tour,DP World,,723288,45095159,11/25/2026 3:00 PM,2026-11-24T18:10:40.154576Z
+Sebastian Söderberg,6900,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60233.png,839,60233,11/25/2026 3:00 PM,2026-11-24T18:10:40.154580Z
+Jannik De Bruyn,6900,DP World Tour,DP World,,721315,45095161,11/25/2026 3:00 PM,2026-11-24T18:10:40.154583Z
+Ivan Cantero Gutierrez,6900,DP World Tour,DP World,,162,45095162,11/25/2026 3:00 PM,2026-11-24T18:10:40.154586Z
+Marc Warren,6900,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60461.png,497,45095163,11/25/2026 3:00 PM,2026-11-24T18:10:40.154589Z
+David Nyfjall,6900,DP World Tour,DP World,,698397,45095164,11/25/2026 3:00 PM,2026-11-24T18:10:40.154592Z
+Haydn Barron,6800,DP World Tour,DP World,,769327,45095165,11/25/2026 3:00 PM,2026-11-24T18:10:40.154596Z
+Matteo Cristoni,6800,DP World Tour,DP World,,878622,45095166,11/25/2026 3:00 PM,2026-11-24T18:10:40.154599Z
+Sebastian Friedrichsen,6800,DP World Tour,DP World,,767887,45095167,11/25/2026 3:00 PM,2026-11-24T18:10:40.154604Z
+Adam Wallin,6800,DP World Tour,DP World,,796514,45095168,11/25/2026 3:00 PM,2026-11-24T18:10:40.154607Z
+Edoardo Molinari,6800,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60348.png,212,45095169,11/25/2026 3:00 PM,2026-11-24T18:10:40.154610Z
+Austen Truslow,6800,DP World Tour,DP World,,1635,45095170,11/25/2026 3:00 PM,2026-11-24T18:10:40.154612Z
+Justin Warren,6800,DP World Tour,DP World,,700266,45095171,11/25/2026 3:00 PM,2026-11-24T18:10:40.154617Z
+Jake McLeod,6800,DP World Tour,DP World,,799,45095172,11/25/2026 3:00 PM,2026-11-24T18:10:40.154619Z
+Matt Jones,6700,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/575.png,2022,45095173,11/25/2026 3:00 PM,2026-11-24T18:10:40.154622Z
+Adam Bland,6700,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60707.png,980,45095174,11/25/2026 3:00 PM,2026-11-24T18:10:40.154625Z
+Jasper Stubbs,6700,DP World Tour,DP World,,693878,45095175,11/25/2026 3:00 PM,2026-11-24T18:10:40.154628Z
+Ryan Lumsden,6700,DP World Tour,DP World,,671060,45095176,11/25/2026 3:00 PM,2026-11-24T18:10:40.154630Z
+MJ Maguire,6700,DP World Tour,DP World,,697,45095177,11/25/2026 3:00 PM,2026-11-24T18:10:40.154633Z
+James Marchesani,6700,DP World Tour,DP World,,591728,45095178,11/25/2026 3:00 PM,2026-11-24T18:10:40.154636Z
+Louis Dobbelaar,6700,DP World Tour,DP World,,700829,45095179,11/25/2026 3:00 PM,2026-11-24T18:10:40.154639Z
+Ben Eccles,6700,DP World Tour,DP World,,351,45095180,11/25/2026 3:00 PM,2026-11-24T18:10:40.154641Z
+Douglas Klein,6600,DP World Tour,DP World,,692889,45095181,11/25/2026 3:00 PM,2026-11-24T18:10:40.154644Z
+Geoff Ogilvy,6600,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60218.png,1989,45095182,11/25/2026 3:00 PM,2026-11-24T18:10:40.154649Z
+Anthony Quayle,6600,DP World Tour,DP World,,591733,45095183,11/25/2026 3:00 PM,2026-11-24T18:10:40.154651Z
+David Micheluzzi,6600,DP World Tour,DP World,,690250,45095184,11/25/2026 3:00 PM,2026-11-24T18:10:40.154654Z
+Thomas Giroux,6600,DP World Tour,DP World,,793537,45095185,11/25/2026 3:00 PM,2026-11-24T18:10:40.154657Z
+Will Enefer,6600,DP World Tour,DP World,,702765,45095186,11/25/2026 3:00 PM,2026-11-24T18:10:40.154660Z
+Wade Ormsby,6600,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60328.png,135,45095187,11/25/2026 3:00 PM,2026-11-24T18:10:40.154664Z
+Oliver Bekker,6600,DP World Tour,DP World,,896,45095188,11/25/2026 3:00 PM,2026-11-24T18:10:40.154667Z
+Saptak Talwar,6600,DP World Tour,DP World,,836925,45095189,11/25/2026 3:00 PM,2026-11-24T18:10:40.154669Z
+Nathan Barbieri,6500,DP World Tour,DP World,,693877,45095190,11/25/2026 3:00 PM,2026-11-24T18:10:40.154674Z
+Philipp Katich,6500,DP World Tour,DP World,,765220,45095191,11/25/2026 3:00 PM,2026-11-24T18:10:40.154676Z
+Blake Proverbs,6500,DP World Tour,DP World,,591731,45095192,11/25/2026 3:00 PM,2026-11-24T18:10:40.154679Z
+Matias Sanchez,6500,DP World Tour,DP World,,776735,45095193,11/25/2026 3:00 PM,2026-11-24T18:10:40.154682Z
+Herman Loubser,6500,DP World Tour,DP World,,945,45095194,11/25/2026 3:00 PM,2026-11-24T18:10:40.154685Z
+John Gough,6500,DP World Tour,DP World,,766878,45095195,11/25/2026 3:00 PM,2026-11-24T18:10:40.154687Z
+Joshua Armstrong,6500,DP World Tour,DP World,,700880,45095196,11/25/2026 3:00 PM,2026-11-24T18:10:40.154690Z
+Connor McKinney,6500,DP World Tour,DP World,,769324,45095197,11/25/2026 3:00 PM,2026-11-24T18:10:40.154693Z
+Jack Buchanan,6500,DP World Tour,DP World,,769395,45095198,11/25/2026 3:00 PM,2026-11-24T18:10:40.154695Z
+Michael Hendry,6400,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/1195.png,884,45095199,11/25/2026 3:00 PM,2026-11-24T18:10:40.154698Z
+Darcy Brereton,6400,DP World Tour,DP World,,769350,45095200,11/25/2026 3:00 PM,2026-11-24T18:10:40.154701Z
+Maxence Giboudot,6400,DP World Tour,DP World,,909416,45095201,11/25/2026 3:00 PM,2026-11-24T18:10:40.154704Z
+Paul Beauvy,6400,DP World Tour,DP World,,888807,45095202,11/25/2026 3:00 PM,2026-11-24T18:10:40.154706Z
+Will Florimo,6400,DP World Tour,DP World,,861893,45095203,11/25/2026 3:00 PM,2026-11-24T18:10:40.154709Z
+Junghwan Lee,6400,DP World Tour,DP World,,669783,45095204,11/25/2026 3:00 PM,2026-11-24T18:10:40.154711Z
+Jansen Preston,6400,DP World Tour,DP World,,880552,45095205,11/25/2026 3:00 PM,2026-11-24T18:10:40.154714Z
+Ryan Peake,6400,DP World Tour,DP World,,818541,45095206,11/25/2026 3:00 PM,2026-11-24T18:10:40.154717Z
+Todd Sinnott,6400,DP World Tour,DP World,,858,45095207,11/25/2026 3:00 PM,2026-11-24T18:10:40.154719Z
+Lachie Aylen,6300,DP World Tour,DP World,,909741,45095208,11/25/2026 3:00 PM,2026-11-24T18:10:40.154722Z
+Jack Thompson,6300,DP World Tour,DP World,,693880,45095209,11/25/2026 3:00 PM,2026-11-24T18:10:40.154729Z
+Cory Crawford,6300,DP World Tour,DP World,,287295,45095210,11/25/2026 3:00 PM,2026-11-24T18:10:40.154733Z
+Matthew Griffin,6300,DP World Tour,DP World,,393,45095211,11/25/2026 3:00 PM,2026-11-24T18:10:40.154736Z
+Coby Carruthers,6300,DP World Tour,DP World,,819003,45095212,11/25/2026 3:00 PM,2026-11-24T18:10:40.154738Z
+Brady Watt,6300,DP World Tour,DP World,,1564,45095213,11/25/2026 3:00 PM,2026-11-24T18:10:40.154741Z
+Andre Lautee,6300,DP World Tour,DP World,,693881,45095214,11/25/2026 3:00 PM,2026-11-24T18:10:40.154743Z
+Josh Geary,6300,DP World Tour,DP World,,1089,45095215,11/25/2026 3:00 PM,2026-11-24T18:10:40.154746Z
+Jason Hong,6300,DP World Tour,DP World,,909742,45095216,11/25/2026 3:00 PM,2026-11-24T18:10:40.154749Z
+Austin Gean,6200,DP World Tour,DP World,,909785,45095217,11/25/2026 3:00 PM,2026-11-24T18:10:40.154751Z
+Ben Henkel,6200,DP World Tour,DP World,,861892,45095218,11/25/2026 3:00 PM,2026-11-24T18:10:40.154754Z
+Andrew Martin,6200,DP World Tour,DP World,,265,45095219,11/25/2026 3:00 PM,2026-11-24T18:10:40.154756Z
+Jack Murdoch,6200,DP World Tour,DP World,,769387,45095220,11/25/2026 3:00 PM,2026-11-24T18:10:40.154759Z
+Connor McDade,6200,DP World Tour,DP World,,776796,45095221,11/25/2026 3:00 PM,2026-11-24T18:10:40.154762Z
+Brett Coletta,6200,DP World Tour,DP World,,345254,45095222,11/25/2026 3:00 PM,2026-11-24T18:10:40.154765Z
+Cameron Harlock,6200,DP World Tour,DP World,,909412,45095223,11/25/2026 3:00 PM,2026-11-24T18:10:40.154768Z
+Jordan Doull,6200,DP World Tour,DP World,,818741,45095224,11/25/2026 3:00 PM,2026-11-24T18:10:40.154770Z
+Michael Wright,6200,DP World Tour,DP World,,1001,45095225,11/25/2026 3:00 PM,2026-11-24T18:10:40.154773Z
+Blake Phillips,6200,DP World Tour,DP World,,862318,45095226,11/25/2026 3:00 PM,2026-11-24T18:10:40.154776Z
+Zach Murray,6100,DP World Tour,DP World,,692773,45095227,11/25/2026 3:00 PM,2026-11-24T18:10:40.154778Z
+Harrison Crowe,6100,DP World Tour,DP World,,769330,45095228,11/25/2026 3:00 PM,2026-11-24T18:10:40.154781Z
+Harry Peterson,6100,DP World Tour,DP World,,909786,45095229,11/25/2026 3:00 PM,2026-11-24T18:10:40.154786Z
+James Conran,6100,DP World Tour,DP World,,776756,45095230,11/25/2026 3:00 PM,2026-11-24T18:10:40.154789Z
+Zachary Ion,6100,DP World Tour,DP World,,909414,45095231,11/25/2026 3:00 PM,2026-11-24T18:10:40.154793Z
+Josh Edgar,6100,DP World Tour,DP World,,909783,45095232,11/25/2026 3:00 PM,2026-11-24T18:10:40.154796Z
+William Bruyeres,6100,DP World Tour,DP World,,818537,45095233,11/25/2026 3:00 PM,2026-11-24T18:10:40.154799Z
+Andrew Campbell,6100,DP World Tour,DP World,,700267,45095234,11/25/2026 3:00 PM,2026-11-24T18:10:40.154802Z
+Joseph Hodgson,6100,DP World Tour,DP World,,909413,45095235,11/25/2026 3:00 PM,2026-11-24T18:10:40.154804Z
+Jimmy Zheng,6100,DP World Tour,DP World,,796041,45095236,11/25/2026 3:00 PM,2026-11-24T18:10:40.154807Z
+Josh Younger,6000,DP World Tour,DP World,,230,45095237,11/25/2026 3:00 PM,2026-11-24T18:10:40.154810Z
+Max Ford,6000,DP World Tour,DP World,,909784,45095238,11/25/2026 3:00 PM,2026-11-24T18:10:40.154812Z
+Christopher Wood,6000,DP World Tour,DP World,,941,45095239,11/25/2026 3:00 PM,2026-11-24T18:10:40.154815Z
+Matt Jager,6000,DP World Tour,DP World,,690256,45095240,11/25/2026 3:00 PM,2026-11-24T18:10:40.154818Z
+Jared Edwards,6000,DP World Tour,DP World,,909411,45095241,11/25/2026 3:00 PM,2026-11-24T18:10:40.154821Z
+Mako Thompson,6000,DP World Tour,DP World,,862168,45095242,11/25/2026 3:00 PM,2026-11-24T18:10:40.154824Z
+Lachlan Barker,6000,DP World Tour,DP World,,769342,45095243,11/25/2026 3:00 PM,2026-11-24T18:10:40.154826Z
+Robbie Minns,6000,DP World Tour,DP World,,909415,45095244,11/25/2026 3:00 PM,2026-11-24T18:10:40.154829Z
+Phoenix Campbell,6000,DP World Tour,DP World,,776792,45095245,11/25/2026 3:00 PM,2026-11-24T18:10:40.154832Z
+Peter Lonard,6000,DP World Tour,DP World,https://dkn.gs/sports/images/golf/players/50/60643.png,751,45095246,11/25/2026 3:00 PM,2026-11-24T18:10:40.154834Z
