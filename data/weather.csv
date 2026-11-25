@@ -1,52 +1,52 @@
-Error fetching weather: Open-Meteo HTTP 429,,,,,,,,,,,
-"Location: Sea Island Golf Club (Seaside) | Updated: 11/24/2026, 9:55:19 AM",,,,,,,,,,,
+Hero World Challenge – Hourly Weather Forecast,,,,,,,,,,,
+"Location: Albany | Updated: 11/24/2026, 6:55:18 PM",,,,,,,,,,,
 ,,,,,,,,,,,
 Date,Time,Temp (°F),Feels Like (°F),Precip %,Precip (in),Conditions,Wind (mph),Gusts (mph),Wind Dir,Cloud Cover %,Humidity %
-Tue Nov 24,12:00 AM,62.6,65.8,0,0,Overcast,2.2,2,S,100,97
-Tue Nov 24,1:00 AM,62,64.4,0,0,Overcast,3.3,6.7,W,100,96
-Tue Nov 24,2:00 AM,61.6,64.3,0,0,Overcast,1.7,4.5,WSW,100,95
-Tue Nov 24,3:00 AM,61.5,63.8,0,0,Overcast,2.9,6.7,WNW,100,96
-Tue Nov 24,4:00 AM,61.8,64.9,0,0,Overcast,1.8,5.8,WNW,100,97
-Tue Nov 24,5:00 AM,62,65.1,3,0,Overcast,1.9,6,NW,100,97
-Tue Nov 24,6:00 AM,62,64.9,2,0,Overcast,1.8,5.4,W,100,95
-Tue Nov 24,7:00 AM,60.9,62.1,1,0,Overcast,4.6,10.7,NW,100,94
-Tue Nov 24,8:00 AM,62.2,63.9,1,0,Overcast,5.2,12.3,NNW,100,97
-Tue Nov 24,9:00 AM,63.7,66,0,0,Overcast,4.4,10.5,NNW,100,94
-Tue Nov 24,10:00 AM,65.3,66.9,0,0,Overcast,6.9,13.4,N,100,91
-Tue Nov 24,11:00 AM,65.5,66.6,1,0,Overcast,7.9,19.9,NNE,89,90
-Tue Nov 24,12:00 PM,65.3,64.3,3,0,Overcast,12.7,22.6,NNE,100,91
-Tue Nov 24,1:00 PM,64.3,62.4,2,0,Overcast,14,27.3,NE,100,91
-Tue Nov 24,2:00 PM,62.9,61.7,2,0.043,Dense Drizzle,11.5,28.6,NNE,100,92
-Tue Nov 24,3:00 PM,62.3,59.4,6,0,Overcast,14.5,31.5,NE,100,91
-Tue Nov 24,4:00 PM,61.3,57.5,4,0,Overcast,15.7,32.9,NE,100,91
-Tue Nov 24,5:00 PM,61.7,58.8,9,0,Overcast,13.8,29.8,NE,100,91
-Tue Nov 24,6:00 PM,61.2,57.7,5,0,Overcast,14.8,32,NNE,100,90
-Tue Nov 24,7:00 PM,60.4,55.5,5,0,Overcast,17.1,36.2,NE,100,89
-Tue Nov 24,8:00 PM,60,54.5,3,0,Overcast,17.5,37.1,NE,100,86
-Tue Nov 24,9:00 PM,59.6,54,3,0,Overcast,17.3,36.5,NE,100,86
-Tue Nov 24,10:00 PM,59.2,53.8,5,0,Overcast,16.9,36.2,NNE,100,87
-Tue Nov 24,11:00 PM,59.7,54.8,7,0,Overcast,16.2,34.7,NE,100,88
-Wed Nov 25,12:00 AM,59.9,55.2,25,0,Overcast,15.8,34.2,NE,100,88
-Wed Nov 25,1:00 AM,59.9,54.4,30,0,Overcast,17.9,36.9,NE,100,89
-Wed Nov 25,2:00 AM,59.9,56.1,12,0,Overcast,14.8,33.3,NE,100,92
-Wed Nov 25,3:00 AM,60.6,56.8,16,0,Overcast,15,33.1,NNE,100,90
-Wed Nov 25,4:00 AM,59.8,54.7,20,0,Overcast,17.7,37.4,NNE,100,92
-Wed Nov 25,5:00 AM,57.7,52.1,16,0,Overcast,17.6,37.8,NNE,100,93
-Wed Nov 25,6:00 AM,57.2,51.4,23,0,Overcast,17.5,36.9,NE,100,92
-Wed Nov 25,7:00 AM,56.1,49.8,15,0,Overcast,17.6,35.1,NNE,100,92
-Wed Nov 25,8:00 AM,55.5,49.4,15,0,Overcast,16.7,34.4,NNE,100,91
-Wed Nov 25,9:00 AM,55.1,50,32,0,Overcast,13.9,30,NNE,100,91
-Wed Nov 25,10:00 AM,54.7,48.8,17,0,Overcast,15.8,33.6,NNE,100,92
-Wed Nov 25,11:00 AM,56,51.3,14,0,Overcast,14,31.1,NNE,100,93
-Wed Nov 25,12:00 PM,56.1,52.3,21,0,Overcast,11.8,28.2,NNE,100,92
-Wed Nov 25,1:00 PM,56.3,52.7,18,0.071,Slight Rain,11.8,25.9,NNE,100,94
-Wed Nov 25,2:00 PM,57.5,55.1,18,0,Overcast,9.9,22.1,N,100,93
-Wed Nov 25,3:00 PM,58.9,57.4,24,0,Overcast,9,18.8,N,100,94
-Wed Nov 25,4:00 PM,59,56.5,16,0,Overcast,11.2,22.1,NNE,100,93
-Wed Nov 25,5:00 PM,58.5,57.3,24,0,Overcast,8,15.7,N,100,94
-Wed Nov 25,6:00 PM,57.6,57.4,12,0,Overcast,5.2,13.2,NNW,100,95
-Wed Nov 25,7:00 PM,57.8,57.9,12,0,Overcast,4.8,12.5,NNW,100,96
-Wed Nov 25,8:00 PM,58.1,58.2,9,0,Overcast,5.4,12.1,NNE,100,97
-Wed Nov 25,9:00 PM,58.6,60.2,11,0,Fog,2.4,10.7,NNW,100,98
-Wed Nov 25,10:00 PM,61,61.5,30,0,Overcast,6.2,16.1,NE,100,94
-Wed Nov 25,11:00 PM,61.7,62.6,30,0,Overcast,5.6,15,NE,100,94
+Tue Nov 24,12:00 AM,72.7,79.3,1,0,Clear,1.7,3.8,N,15,87
+Tue Nov 24,1:00 AM,72.2,77.9,1,0,Mainly Clear,3.9,5.8,NE,39,89
+Tue Nov 24,2:00 AM,71.7,76.6,1,0,Mainly Clear,4.8,7.2,NNE,33,88
+Tue Nov 24,3:00 AM,71.8,76.7,3,0,Clear,4.7,7.8,NNE,15,87
+Tue Nov 24,4:00 AM,71.7,76.4,7,0,Overcast,5.4,8.7,N,95,88
+Tue Nov 24,5:00 AM,71.8,76.7,7,0,Overcast,4.6,9.4,N,99,87
+Tue Nov 24,6:00 AM,72.1,77.8,12,0,Overcast,2.7,6.5,N,99,86
+Tue Nov 24,7:00 AM,72.1,78,5,0,Overcast,2.5,7.4,NNE,100,87
+Tue Nov 24,8:00 AM,75,83.3,5,0,Overcast,2.9,6,N,88,93
+Tue Nov 24,9:00 AM,78.1,86.1,10,0,Overcast,4.3,7.8,ENE,100,85
+Tue Nov 24,10:00 AM,79.1,86.9,15,0,Overcast,6.8,9.2,NE,99,86
+Tue Nov 24,11:00 AM,79.7,86.8,10,0,Partly Cloudy,7.1,9.2,NE,69,82
+Tue Nov 24,12:00 PM,80.3,87.8,9,0,Partly Cloudy,8,10.3,NE,66,84
+Tue Nov 24,1:00 PM,81.2,89.8,9,0,Overcast,6.9,8.9,ENE,100,83
+Tue Nov 24,2:00 PM,80.2,88,10,0,Overcast,5.5,6.7,ENE,99,81
+Tue Nov 24,3:00 PM,80,88.1,10,0,Overcast,5.8,8.1,ENE,99,83
+Tue Nov 24,4:00 PM,79.1,86.4,20,0,Partly Cloudy,6.8,11,NE,76,84
+Tue Nov 24,5:00 PM,77.4,85.5,17,0,Overcast,3.6,9.8,ENE,100,86
+Tue Nov 24,6:00 PM,76.1,84.2,21,0,Overcast,2.9,10.7,NE,100,88
+Tue Nov 24,7:00 PM,75.8,83.6,18,0,Overcast,4,11.9,NE,100,90
+Tue Nov 24,8:00 PM,75.5,83.5,16,0.016,Light Drizzle,3.2,10.1,ENE,100,90
+Tue Nov 24,9:00 PM,75.2,82.3,19,0,Overcast,5,11.2,NNE,100,90
+Tue Nov 24,10:00 PM,74.9,82.4,17,0,Overcast,4.2,10.1,NE,100,92
+Tue Nov 24,11:00 PM,74.4,82.6,17,0,Overcast,1.8,7.2,NNE,100,91
+Wed Nov 25,12:00 AM,74.3,82.4,19,0.016,Light Drizzle,1.4,7.2,NE,100,90
+Wed Nov 25,1:00 AM,74,81.9,24,0.043,Dense Drizzle,1.6,7.6,NE,100,91
+Wed Nov 25,2:00 AM,73.6,81.7,31,0,Overcast,0.4,8.1,NNE,100,90
+Wed Nov 25,3:00 AM,73.8,79.9,45,0.071,Slight Showers,6.2,8.3,SSE,100,92
+Wed Nov 25,4:00 AM,73.4,78.2,36,0.016,Light Drizzle,7.8,12.1,ESE,100,90
+Wed Nov 25,5:00 AM,73.3,79.4,34,0.043,Dense Drizzle,6.3,14.8,ESE,100,94
+Wed Nov 25,6:00 AM,73.7,78.8,43,0,Overcast,7.6,16.6,ESE,100,90
+Wed Nov 25,7:00 AM,74.1,78.6,40,0,Overcast,9,18.6,ESE,100,89
+Wed Nov 25,8:00 AM,75.3,79.1,49,0,Overcast,11.6,22.4,ESE,100,87
+Wed Nov 25,9:00 AM,76.7,80.7,56,0,Overcast,12.6,22.1,ESE,100,87
+Wed Nov 25,10:00 AM,78,82.2,52,0,Overcast,13.8,21.7,ESE,100,86
+Wed Nov 25,11:00 AM,78.4,82.3,55,0,Overcast,14.7,22.4,ESE,100,86
+Wed Nov 25,12:00 PM,77.7,85,60,0,Overcast,8.5,14.8,SE,100,92
+Wed Nov 25,1:00 PM,76.1,75.6,44,0,Overcast,18.8,29.1,S,100,78
+Wed Nov 25,2:00 PM,77.9,79.9,48,0,Overcast,17.4,25.1,SSE,100,84
+Wed Nov 25,3:00 PM,78.8,82.2,36,0,Overcast,16.5,25.7,S,100,86
+Wed Nov 25,4:00 PM,79,83.6,48,0,Overcast,14.6,23,S,100,87
+Wed Nov 25,5:00 PM,78.6,83.5,32,0,Overcast,13.7,21.9,S,100,88
+Wed Nov 25,6:00 PM,78.4,82.4,33,0,Overcast,15.2,23.5,S,100,87
+Wed Nov 25,7:00 PM,78.2,82.4,33,0,Overcast,14.8,24.4,SSW,100,88
+Wed Nov 25,8:00 PM,77.9,80.1,32,0,Overcast,18,28.2,SSW,100,86
+Wed Nov 25,9:00 PM,77.4,78.6,34,0,Overcast,19,30.2,SSW,100,84
+Wed Nov 25,10:00 PM,77.2,78.4,45,0,Overcast,19.3,31.3,SSW,100,85
+Wed Nov 25,11:00 PM,77,77.1,41,0,Overcast,20.8,34.2,SSW,100,84
